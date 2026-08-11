@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v2 (negotiation-tuned round-1 emails + follow-ups + round-2 counters + private targets); v1 preserved in git history",
-    "generated": "2026-08-11",
+    "version": "v3 (comfort-first re-rank + Aug-11 PM re-check + new WA-first scan); v2 negotiation pack preserved below/in git history",
+    "generated": "2026-08-11 (afternoon)",
     "baseline_price_date": "2026-08-07",
     "recheck_method": "One read-only page load per listing (CarGurus VDP listingViewPayload / KBB __NEXT_DATA__), plus KBB cross-listing for CG cars where a KBB id was already known. Dealer sites: home + contact/about/staff pages only; no forms touched.",
     "buyer": {
@@ -9,7 +9,10 @@
       "home_city": "Seattle, WA",
       "purchase_window": "2026-08-15/16"
     },
-    "tax_assumptions": "WA dealer: sales tax at dealer-city Q3-2026 vehicle rate (Seattle 11.05%, Kirkland 10.80%, Puyallup 10.80%); OR dealer: WA use tax at Seattle 11.05%. Doc WA $200 / OR $250 (untaxed). License/title est. = $300 fixed + RTA 1.1% × approx. MSRP × DOL depreciation (yr4 83% / yr5 74% / yr6 65%). All labelled estimates."
+    "tax_assumptions": "WA dealer: sales tax at dealer-city Q3-2026 vehicle rate (Seattle 11.05%, Kirkland 10.80%, Puyallup 10.80%); OR dealer: WA use tax at Seattle 11.05%. Doc WA $200 / OR $250 (untaxed). License/title est. = $300 fixed + RTA 1.1% × approx. MSRP × DOL depreciation (yr4 83% / yr5 74% / yr6 65%). All labelled estimates.",
+    "recheck_date_v3": "2026-08-11 PM",
+    "recheck_method_v3": "Live page loads in Evan's own Chrome (residential IP): CarGurus VDP rendered text, KBB VDP, Cars.com VDP/SRP, CarMax VDP, Autotrader SRP, dealer own-site VDP/inventory search. Read-only; no forms touched, no logins.",
+    "revised_brief_v3": "Comfort first, not speed. WA dealers strongly preferred (OR fallback only). 2021-2023 CX-5, under 50k mi, under $29k, clean title / no accidents. Trim priority: Grand Touring w/ GT Premium pkg, GT Reserve, Premium / Premium Plus, then CPO Carbon Edition / Preferred. Non-turbo preferred for MPG; full-comfort turbos OK. Flag ventilated seats and Mazda CPO."
   },
   "cars": [
     {
@@ -25,7 +28,7 @@
       "price_now": 28199,
       "price_change": 0,
       "status": "active",
-      "status_detail": "CarGurus listingStatus OPEN (88 days on CG); KBB active at $28,199 (KBB price history: $28,854 Jun 12 -> $28,814 Jul 10 -> $28,199)",
+      "status_detail": "NOT SOLD — the reported sale is disconfirmed (2026-08-11 PM). CarGurus VDP fully live ('Save this listing / Check availability', Great Deal, 1 save) AND Puyallup Mazda's own inventory search returns stock YW29065 ('Only 27,990 Miles!') at $27,999. Keep it in play.",
       "vin": "JM3KFBAY3P0289626",
       "stock": "YW29065",
       "cpo": false,
@@ -57,7 +60,9 @@
         "walkaway_arithmetic": "$28,199 selling + $200 doc + $3,045 tax + $352 RTA + $300 ≈ $32,096 → $32,100, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "Aged unit: 88 days listed, reductions $28,854 → $28,814 → $28,199, 1-owner, already ~$2,800 under KBB Seattle fair price. Memo range for 60–84+ day units with prior drops = $1,000–1,500 off; ask $1,200. Walk-away = list price with a clean sheet (it is already the best-value turbo in the set)."
-      }
+      },
+      "price_now_note": "CarGurus $28,199 ('price includes fees'); Puyallup Mazda's own site advertises $27,999. Deal rating improved Good -> GREAT.",
+      "v3_recheck": "active - $28,199 CG / $27,999 dealer site; reported sale disconfirmed on both CarGurus and the dealer's own site"
     },
     {
       "rank": 2,
@@ -71,8 +76,8 @@
       "price_aug7_note": "CarGurus $27,300; KBB showed $26,900 on Aug 7",
       "price_now": null,
       "price_change": null,
-      "status": "removed",
-      "status_detail": "CarGurus VDP now shows 'Looks like that one got away' (listingStatus CLOSED); KBB listing 783886508 redirects as expired; acuraofseattle.com used-inventory VIN search returns 0 vehicles (2026-08-11). Very likely sold or wholesaled. Email kept as optional 'if still available'.",
+      "status": "sold",
+      "status_detail": "SOLD CONFIRMED (2026-08-11 PM): CarGurus VDP renders the closed-listing page ('Looks like that one got away', only similar-car tiles). Drop from outreach.",
       "vin": "JM3KFBAY6N0592364",
       "stock": "A036",
       "cpo": false,
@@ -104,7 +109,8 @@
         "walkaway_arithmetic": "$26,900 selling + $200 doc + $2,972 tax + $301 RTA + $300 ≈ $30,674 → $30,650, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "OPTIONAL — listing removed Aug 11, probably sold. If it resurfaces: 48 days, 2 owners, KBB/Autotrader had it at $26,900 vs $27,300 on CarGurus; CarMax 2022 Turbo floor $25,998 + $1,999 xfer. Target = $1,000 under CG price; walk-away = the $26,900 they already advertised elsewhere, clean."
-      }
+      },
+      "v3_recheck": "sold - CarGurus closed-listing page confirmed in rendered text"
     },
     {
       "rank": 3,
@@ -119,14 +125,14 @@
       "price_now": 24999,
       "price_change": 0,
       "status": "active",
-      "status_detail": "KBB listing live; dealer fee shown $200; KBB FPP now $26,450 (was $27,770)",
+      "status_detail": "RE-LISTED, NOT SOLD (2026-08-11 PM). The old KBB listing 787237825 now redirects to a search page (expired) and the bmwseattle.com VIN URL redirects to their new-car search — BUT BMW Seattle re-listed the car: NEW CarGurus listing 455054228 at $24,999 ('price includes fees', $24,799 + $200 doc), 39,141 mi, Good Deal, days-on-market counter RESET to 9; also live on Cars.com at $24,999. Use the new URLs; the DOM reset hides that it has really been for sale since ~July.",
       "vin": "JM3KFBAY5M0463157",
       "stock": "463157ML2",
       "cpo": false,
       "owner_count": 2,
       "days_on_market": 10,
-      "listing_url": "https://www.kbb.com/cars-for-sale/vehicle/787237825",
-      "alt_listing_url": "https://www.bmwseattle.com/inventory/JM3KFBAY5M0463157?stocknum=463157ML2",
+      "listing_url": "https://www.cargurus.com/Cars/listing/455054228",
+      "alt_listing_url": "https://www.cars.com/vehicledetail/e26d976c-ebbb-4870-a5c8-20c2d33e4153/",
       "dealer_key": "bmw_seattle",
       "v2_numbers": {
         "rank": 3,
@@ -151,21 +157,26 @@
         "walkaway_arithmetic": "$24,999 selling + $200 doc + $2,762 tax + $254 RTA + $300 ≈ $28,515 → $28,500, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "Fresh listing (~10 days) at a BMW store selling an off-brand trade; \"Great\" price, $1,450–2,770 under KBB fair price depending on the day, but 2 owners and 39k mi. Memo range for fresh market-priced units = $300–1,000; ask $700 and expect to land $300–500. Walk-away = list, clean sheet (still the cheapest turbo/vented-seat car on the list)."
-      }
+      },
+      "old_listing_urls": [
+        "https://www.kbb.com/cars-for-sale/vehicle/787237825 (expired Aug 11)",
+        "https://www.bmwseattle.com/inventory/JM3KFBAY5M0463157?stocknum=463157ML2 (URL dead; car still in stock)"
+      ],
+      "v3_recheck": "active - re-listed as CarGurus 455054228 @ $24,999 (DOM reset to 9); KBB listing expired"
     },
     {
       "rank": 4,
       "year": 2021,
       "model": "CX-5",
-      "trim": "Carbon Edition AWD",
+      "trim": "Carbon Edition TURBO AWD (confirmed by dealer VDP + VIN pattern JM3KFBCY)",
       "color": "Polymetal Gray (black interior)",
       "color_source": "KBB 782577606",
       "miles": 34800,
       "price_aug7": 26512,
-      "price_now": 26512,
-      "price_change": 0,
+      "price_now": 26102,
+      "price_change": -410,
       "status": "active",
-      "status_detail": "KBB listing live; displayed $26,512 (KBB price-history widget reads $28,072 Jul 10 -> $27,462 -> $27,062 -> $26,762 'today' — widget lags the displayed price); dealer fee shown $250; 1-owner",
+      "status_detail": "Active. Own-site price $25,852+$250=$26,102 is $660 under the KBB-advertised number — quote the own-site price. TURBO CONFIRMED: dealer VDP h1 reads 'Pre-Owned 2021 Mazda CX-5 Carbon Edition Turbo' and the VIN pattern JM3KFBCY (CY = 2.5T Carbon) backs it. This car is a turbo Carbon with black leather, not the base Carbon v2 assumed.",
       "vin": "JM3KFBCYXM0385696",
       "stock": "UH1679",
       "cpo": false,
@@ -197,7 +208,10 @@
         "walkaway_arithmetic": "$25,900 selling + $250 doc + $2,862 tax + $204 RTA + $300 ≈ $29,516 → $29,500, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": 25650,
         "rationale": "63 days listed with three cuts ($28,072 → $27,462 → $27,062 → $26,512), 1-owner. Comparable no-haggle: CarMax 2022 Carbon Edition $24,998 + $199 xfer (a year newer, 48k mi) ≈ $28,500 OTD-equivalent after WA use tax — so $26,512 for a 2021 non-turbo Carbon is not cheap despite the KBB delta. Ask ~$1,100 (aged + drops); walk below list at ~$25,900 selling."
-      }
+      },
+      "price_now_note": "Dealer's OWN site: $25,852 + $250 title/reg processing = $26,102 (captured 2026-08-11 PM). KBB now displays $26,762 'Dealer Fees Included' (= old $26,512 + the $250 fee rolled in — same underlying price). Cars.com cross-listing shows $26,352 with a $710-drop badge.",
+      "alt_listing_url2": "https://www.cars.com/vehicledetail/3a09ac68-292b-412d-808d-9edf3e4e37b0/",
+      "v3_recheck": "active - own-site $25,852+$250=$26,102; KBB $26,762 fees-included (same car-price); Carbon Edition TURBO confirmed"
     },
     {
       "rank": 5,
@@ -212,7 +226,7 @@
       "price_now": 25192,
       "price_change": 0,
       "status": "active",
-      "status_detail": "CarGurus OPEN (47 days); KBB active at $25,192 (history $27,651 -> $27,851 -> $27,092 -> $25,192)",
+      "status_detail": "Active, unchanged $25,192 ('price includes fees'), Good Deal, 47 days on CarGurus; odometer holding at 33,336. Autotrader card flags 'No Accidents'. Still the only GT Premium-package car (ventilated seats) in the tracked set.",
       "vin": "JM3KFBDM3M0301052",
       "stock": "O94564A",
       "cpo": false,
@@ -245,7 +259,8 @@
         "walkaway_arithmetic": "$25,192 selling + $200 doc + $2,721 tax + $225 RTA + $300 ≈ $28,638 → $28,650, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "47 days on CarGurus / 63 on KBB, reductions $27,651 → $27,851 → $27,092 → $25,192, 1-owner, ~$3,000 under KBB Seattle fair price, odometer creeping (being demoed). Aged-with-drops range $1,000–1,500 but it is already the cheapest solid car; ask ~$900. Walk-away = list, clean sheet. CarMax 2021 GT reference $24,998."
-      }
+      },
+      "v3_recheck": "active - $25,192 unchanged; odo 33,336; AT flags No Accidents"
     },
     {
       "rank": 6,
@@ -260,7 +275,7 @@
       "price_now": 25198,
       "price_change": 0,
       "status": "active",
-      "status_detail": "CarGurus OPEN (68 days); KBB active at $24,998 (history $29,499 -> $29,699 -> $28,165 -> $25,198)",
+      "status_detail": "Active, unchanged: CarGurus $25,198 fees-included ($24,998 + $200 on KBB/Autotrader), 42,515 mi, 68 days on market.",
       "vin": "JM3KFBDYXM0120596",
       "stock": "YS29241",
       "cpo": false,
@@ -292,7 +307,8 @@
         "walkaway_arithmetic": "$24,998 selling + $200 doc + $2,700 tax + $222 RTA + $300 ≈ $28,419 → $28,400, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "68 days listed, reductions $29,499 → $28,165 → $25,198 (advertised $24,998 + $200 doc), 42.5k mi, likely 2 owners. CarMax 2022 Turbo floor is $25,998 + $1,999 transfer ≈ $28,000 before tax, so this is already the cheap turbo; ask ~$1,000 for age/miles/owners. Walk-away = list, clean sheet."
-      }
+      },
+      "v3_recheck": "active - $25,198 unchanged"
     },
     {
       "rank": 7,
@@ -304,9 +320,9 @@
       "miles": 34749,
       "price_aug7": 26972,
       "price_now": 27512,
-      "price_change": 540,
+      "price_change": 0,
       "status": "active",
-      "status_detail": "PRICE UP $540 since Aug 7 on both CarGurus and KBB ($26,419 Jul 20 -> $27,112 Jul 21 -> $26,972 Aug 1 -> $27,512 now). CarGurus OPEN (29 days). KBB certifiedProduct = MAZCERT.",
+      "status_detail": "Active at $27,512 (unchanged from the Aug-11 AM check; still +$540 vs the Aug-7 baseline $26,972). Mazda CPO. 29+ days on market.",
       "vin": "JM3KFBCM4N0546820",
       "stock": "U14590",
       "cpo": true,
@@ -338,7 +354,8 @@
         "walkaway_arithmetic": "$26,972 selling + $200 doc + $2,980 tax + $244 RTA + $300 ≈ $30,697 → $30,700, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": null,
         "rationale": "Mazda CPO, 29 days, 1-owner; price was RAISED $540 on ~Aug 8–11 ($26,419 → $27,112 → $26,972 → $27,512). CPO units move least on price (memo: aim at fee strikes + $300–500), so target = last week's $26,972 minus ~$300, plus no cert/recon fee. Walk-away = last week's $26,972 clean; above that, the non-CPO CarMax 2022 Carbon at $24,998 + $199 (≈ $28,500 OTD-equiv.) plus a third-party warranty is the better buy."
-      }
+      },
+      "v3_recheck": "active - $27,512 holding after the +$540 raise"
     },
     {
       "rank": 8,
@@ -352,7 +369,7 @@
       "price_now": 26900,
       "price_change": 0,
       "status": "active",
-      "status_detail": "CarGurus OPEN (14 days); VDP badge says 'No additional dealer fees'",
+      "status_detail": "Active, unchanged $26,900 with the 'No additional dealer fees' badge, 16,612 mi, 14+ days on market.",
       "vin": "JM3KFBCM6P0274841",
       "stock": "661788A",
       "cpo": false,
@@ -384,7 +401,233 @@
         "walkaway_arithmetic": "$26,900 selling + $0 doc + $2,972 tax + $278 RTA + $300 ≈ $30,451 → $30,450, and only with zero add-ons",
         "dealer_side_target_if_no_wa_tax": 26150,
         "rationale": "Fresh (14 days), \"Good\" price, 1-owner, 16.6k mi. No-haggle anchor: Carvana 2023 Preferred $24,590 with 41k mi (≈ $27,900 OTD-equiv.) — the extra ~25k miles of life is worth roughly the $2,300 gap, so this is fairly priced. Fresh-unit range $300–1,000; ask $750. Walk-away = list with zero dealer fees (hold them to the \"no additional dealer fees\" badge)."
-      }
+      },
+      "v3_recheck": "active - $26,900 unchanged, no-dealer-fees badge still shown"
+    },
+    {
+      "rank": 9,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Carbon Edition AWD — Mazda Certified Pre-Owned",
+      "color": "Polymetal Gray (per v1 report)",
+      "miles": 33006,
+      "price_aug7": 27699,
+      "price_now": 27699,
+      "price_change": 0,
+      "status": "active",
+      "status_detail": "Active, unchanged $27,699 (CarGurus 'price includes fees'; Good Deal). Autotrader/KBB cross-listing 783147875 shows 'Mazda Certified' + 'Great Price'; the Cars.com card carries a $1K-drop badge. Mazda CPO — warranty to 2030/100k per the v1 report.",
+      "vin": "JM3KFBCMXP0288130",
+      "stock": null,
+      "cpo": true,
+      "owner_count": 1,
+      "days_on_market": null,
+      "listing_url": "https://www.cargurus.com/Cars/listing/450917825",
+      "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/783147875",
+      "alt_listing_url2": "https://www.cars.com/vehicledetail/67cca9d1-ea1b-4988-991e-b91f9bcb629e/",
+      "dealer_key": "puyallup_mazda",
+      "v3_recheck": "active - $27,699 unchanged; Mazda CPO confirmed on KBB/AT cross-listing"
+    },
+    {
+      "rank": 10,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Preferred AWD",
+      "color": null,
+      "miles": 44989,
+      "price_aug7": 24095,
+      "price_now": 24095,
+      "price_change": 0,
+      "status": "active",
+      "status_detail": "Active, unchanged: $24,095 total = $23,995 vehicle + $100 document prep fee (Cars.com VDP, 2026-08-11 PM). Columbia Sales & Service, Portland OR — independent lot; Cars.com rating history unverified; pull AutoCheck/Carfax before contact. Cheapest 2023 in the set.",
+      "vin": null,
+      "stock": null,
+      "cpo": false,
+      "owner_count": null,
+      "days_on_market": null,
+      "listing_url": "https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/",
+      "alt_listing_url": null,
+      "dealer_key": "columbia_sales_service",
+      "v3_recheck": "active - $24,095 unchanged ($23,995 + $100 doc prep)"
+    },
+    {
+      "rank": 11,
+      "year": 2022,
+      "model": "CX-5",
+      "trim": "Carbon Edition",
+      "color": null,
+      "miles": 48337,
+      "price_aug7": 24998,
+      "price_now": null,
+      "price_change": null,
+      "status": "sold",
+      "status_detail": "SOLD (2026-08-11 PM): CarMax VDP shows the 'Sold' badge — 'Sold from CarMax Sacramento South, CA', VIN JM3KFBCM0N1599511. The old $24,998 + $199-transfer no-haggle floor is gone; the new no-haggle anchor is the CarMax RENTON 2023 2.5 S Premium at $27,998 with no transfer fee (see new candidate #15).",
+      "vin": "JM3KFBCM0N1599511",
+      "stock": "70056694",
+      "cpo": false,
+      "owner_count": null,
+      "days_on_market": null,
+      "listing_url": "https://www.carmax.com/car/70056694",
+      "alt_listing_url": null,
+      "dealer_key": "carmax_sacramento",
+      "v3_recheck": "sold - CarMax 'Sold' badge on the VDP"
+    },
+    {
+      "rank": 12,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Preferred AWD — Mazda Certified Pre-Owned",
+      "state": "WA",
+      "miles": 36400,
+      "price_now": 26348,
+      "vin": "JM3KFBCM7P0256994",
+      "cpo": true,
+      "ventilated_seats": false,
+      "dealer": "Lee Johnson Mazda of Seattle (same store as #7)",
+      "dealer_key": "lee_johnson_mazda",
+      "listing_url": "https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/",
+      "notes": "TOP NEW FIND. Mazda CPO ('Manufacturer Certified Pre-Owned' block verified on the VDP) 2023 Preferred at a Seattle Mazda store 4 mi out, $1,164 LESS than the same store's CPO 2022 Carbon (#7) while being a year newer. Preferred = leather, heated front seats, moonroof, power liftgate. Not on CarGurus — Cars.com/dealer only.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 13,
+      "year": 2022,
+      "model": "CX-5",
+      "trim": "2.5 S w/ Premium Plus Package AWD",
+      "state": "WA",
+      "miles": 43640,
+      "price_now": 27389,
+      "vin": "JM3KFBEM1N0590576",
+      "cpo": false,
+      "ventilated_seats": true,
+      "dealer": "Titus-Will Chevrolet GMC Cadillac - Olympia",
+      "dealer_key": "titus_will_olympia",
+      "listing_url": "https://www.kbb.com/cars-for-sale/vehicle/784195725",
+      "alt_listing_url": "https://www.cars.com/vehicledetail/0a20ba70-ab2e-4f4a-a332-093e8e7eb594/",
+      "notes": "Highest comfort spec in the new set: Premium Plus = VENTILATED front seats, heated rears, HUD, 360 camera. KBB VDP verified: $27,389 'Dealer Fees Included', 'No Accident or Damage Reported', CarBravo Certified (GM program — NOT Mazda CPO). Cars.com shows $27,789 — quote the KBB price. Olympia, ~45 mi.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 14,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Premium AWD",
+      "state": "WA",
+      "miles": 17505,
+      "price_now": 28487,
+      "price_note": "$28,287 + $200 doc (CarGurus 'price plus fees' $28,487); Autotrader card $28,287",
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": false,
+      "dealer": "Rodland Toyota of Everett",
+      "dealer_key": "rodland_toyota",
+      "listing_url": "https://www.cargurus.com/Cars/listing/453332129",
+      "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/785511078",
+      "notes": "Lowest-mile comfort car in the new set (17.5k), Soul Red, Premium = leather + Bose + heated wheel (no vents). Autotrader flags 'No Accidents'. 28 days on market, Good Deal rating. Tight to the $29k cap after fees/tax.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 15,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Premium AWD",
+      "state": "WA",
+      "miles": 31166,
+      "price_now": 27998,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": false,
+      "dealer": "CarMax Renton (no-haggle)",
+      "dealer_key": "carmax_renton",
+      "listing_url": "https://www.cargurus.com/Cars/listing/455754266",
+      "notes": "NEW NO-HAGGLE ANCHOR replacing sold #11: in-state CarMax, no transfer fee, $27,998 flat. Listed 1 day ago — will not last. Find it on carmax.com by searching CX-5 at the Renton store if the CarGurus link ages out. Use as the benchmark every negotiated OTD must beat.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 16,
+      "year": 2021,
+      "model": "CX-5",
+      "trim": "Grand Touring AWD",
+      "state": "WA",
+      "miles": 27089,
+      "price_now": 28700,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": null,
+      "dealer": "Doug's Lynnwood Mazda (Edmonds)",
+      "dealer_key": "dougs_lynnwood_mazda",
+      "listing_url": "https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/",
+      "notes": "WA Mazda dealer GT with a $900-drop badge but still priced $3.5k over #5 for similar content — only worth a call if #5 and #3 die. Ask whether it carries the GT Premium package (would add ventilated seats).",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 17,
+      "year": 2021,
+      "model": "CX-5",
+      "trim": "Grand Touring AWD",
+      "state": "WA",
+      "miles": 30066,
+      "price_now": 25799,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": null,
+      "dealer": "Auto 206 Inc., Kent (independent)",
+      "dealer_key": "auto206",
+      "listing_url": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
+      "alt_listing_url": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
+      "notes": "Cheapest GT after #5. Independent lot — no deal rating shown on Autotrader; pull AutoCheck/Carfax and verify title before contact. Ask about GT Premium package.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 18,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Preferred AWD",
+      "state": "WA",
+      "miles": 20533,
+      "price_now": 26495,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": false,
+      "dealer": "Auto Connections of Bellevue (independent)",
+      "dealer_key": "auto_connections_bellevue",
+      "listing_url": "https://www.cargurus.com/Cars/listing/450670232",
+      "alt_listing_url": "https://www.cars.com/vehicledetail/0abdba65-e836-4fd7-a5c0-952399497e8f/",
+      "notes": "Low-mile 2023 Preferred, 'No Accidents' per Autotrader, Good Deal, 60 days on market (leverage). Independent lot — Carfax + inspection before any money talk.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 19,
+      "year": 2021,
+      "model": "CX-5",
+      "trim": "Signature AWD (2.5 Turbo)",
+      "state": "OR",
+      "miles": 40451,
+      "price_now": 26712,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": true,
+      "dealer": "Tonkin Gresham Honda (Troutdale, OR)",
+      "dealer_key": "tonkin_gresham",
+      "listing_url": "https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/",
+      "notes": "OR FALLBACK. Signature = the top 2021 trim: VENTILATED front seats, Nappa leather, wood trim. Most comfort per dollar in the whole set on paper, but 40k mi, turbo, and a 290-mile round trip. Same Gee/Tonkin family as #4 — could combine a single Portland trip to see both.",
+      "source": "v3 new scan 2026-08-11 PM"
+    },
+    {
+      "rank": 20,
+      "year": 2023,
+      "model": "CX-5",
+      "trim": "2.5 S Preferred AWD",
+      "state": "OR",
+      "miles": 16969,
+      "price_now": 26500,
+      "vin": null,
+      "cpo": false,
+      "ventilated_seats": false,
+      "dealer": "Royal Moore Toyota (Hillsboro, OR — same group as #8)",
+      "dealer_key": "royal_moore_mazda",
+      "listing_url": "https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/",
+      "notes": "OR FALLBACK. The Royal Moore group's SECOND low-mile 2023 Preferred (16,969 mi vs #8's 16,612), $400 cheaper than #8 after a recent drop. If talking to Royal Moore anyway, ask them to quote both cars.",
+      "source": "v3 new scan 2026-08-11 PM"
     }
   ],
   "dealers": {
@@ -392,7 +635,8 @@
       "name": "Puyallup Mazda",
       "cars": [
         1,
-        6
+        6,
+        9
       ],
       "website": "https://www.puyallupmazda.com/",
       "contact_page": "https://www.puyallupmazda.com/contact-us/",
@@ -496,7 +740,8 @@
     "lee_johnson_mazda": {
       "name": "Lee Johnson Mazda of Seattle (Lee Johnson Auto Family)",
       "cars": [
-        7
+        7,
+        12
       ],
       "website": "https://www.mazdaofseattle.com/",
       "contact_page": "https://www.mazdaofseattle.com/contact-us/",
@@ -522,7 +767,8 @@
     "royal_moore_mazda": {
       "name": "Royal Moore Mazda (Royal Moore Auto Center)",
       "cars": [
-        8
+        8,
+        20
       ],
       "website": "https://www.royalmooremazda.com/ (Mazda store) · group: https://www.royalmoore.com/",
       "contact_page": "https://www.royalmooremazda.com/contactus",
@@ -539,11 +785,261 @@
         "https://www.royalmoore.com/staff.aspx",
         "https://www.royalmooremazda.com/"
       ]
+    },
+    "columbia_sales_service": {
+      "name": "Columbia Sales & Service",
+      "cars": [
+        10
+      ],
+      "website": null,
+      "address": "Portland, OR",
+      "phone_sales_reference_only": "(539) 209-6374 (Cars.com listing)",
+      "published_email": null,
+      "email_note": "Independent lot; contact via the Cars.com listing. Pull AutoCheck/Carfax first."
+    },
+    "carmax_sacramento": {
+      "name": "CarMax Sacramento South, CA",
+      "cars": [
+        11
+      ],
+      "website": "https://www.carmax.com/",
+      "published_email": null,
+      "email_note": "Car SOLD 2026-08-11; no outreach."
+    },
+    "carmax_renton": {
+      "name": "CarMax Renton, WA (no-haggle)",
+      "cars": [
+        15
+      ],
+      "website": "https://www.carmax.com/stores/7263",
+      "published_email": null,
+      "email_note": "No-haggle: no outreach email needed; the sticker is the price. Visit or hold online."
+    },
+    "titus_will_olympia": {
+      "name": "Titus-Will Chevrolet GMC Cadillac - Olympia",
+      "cars": [
+        13
+      ],
+      "website": "https://www.tituswill.com/",
+      "published_email": null,
+      "email_note": "Contacts not yet researched (v3 scan). Use the KBB listing's contact box or the store site form."
+    },
+    "rodland_toyota": {
+      "name": "Rodland Toyota of Everett",
+      "cars": [
+        14
+      ],
+      "website": "https://www.rodlandtoyota.com/",
+      "published_email": null,
+      "email_note": "Contacts not yet researched (v3 scan)."
+    },
+    "dougs_lynnwood_mazda": {
+      "name": "Doug's Lynnwood Mazda (Edmonds)",
+      "cars": [
+        16
+      ],
+      "website": "https://www.dougsmazda.com/",
+      "published_email": null,
+      "email_note": "Contacts not yet researched (v3 scan)."
+    },
+    "auto206": {
+      "name": "Auto 206 Inc., Kent (independent)",
+      "cars": [
+        17
+      ],
+      "website": null,
+      "phone_sales_reference_only": "(253) — number on Autotrader card",
+      "published_email": null,
+      "email_note": "Independent lot; AutoCheck/Carfax before contact."
+    },
+    "auto_connections_bellevue": {
+      "name": "Auto Connections of Bellevue (independent)",
+      "cars": [
+        18
+      ],
+      "website": "https://www.autoconnectionsbellevue.com/",
+      "published_email": null,
+      "email_note": "Independent lot; AutoCheck/Carfax before contact."
+    },
+    "tonkin_gresham": {
+      "name": "Tonkin Gresham Honda (Troutdale, OR — Gee/Tonkin family, same as Ron Tonkin Honda)",
+      "cars": [
+        19
+      ],
+      "website": "https://www.tonkingreshamhonda.com/",
+      "published_email": null,
+      "email_note": "Same group as #4 — a single Portland trip could cover both cars."
     }
   },
   "no_haggle_floor": {
-    "2022_carbon_premium_tier": "CarMax $24,998 (48k mi, Sacramento, +$199 transfer)",
-    "2022_turbo_tier": "CarMax $25,998 (40k mi, +$1,999 transfer)",
-    "2023_preferred_tier": "Carvana $24,590 (41k mi); CarMax $24,998 (+$749 transfer)"
-  }
+    "note": "Refreshed 2026-08-11 PM. The old CarMax Sacramento 2022 Carbon floor ($24,998 + $199 xfer) SOLD.",
+    "2023_premium_tier_wa": "CarMax Renton $27,998 (31,166 mi, NO transfer fee, listed Aug 10-11) — car #15",
+    "2023_preferred_tier": "Columbia Sales & Service $24,095 total (44,989 mi, OR indie) — car #10; Carvana reference from v2: $24,590 (41k mi)",
+    "2022_carbon_premium_tier": "GONE (CarMax 70056694 sold). Nearest replacements: CarMax Huntsville 2022 Carbon $27,998 21,750 mi + shipping; CarMax Henderson 2023 2.5 Turbo $27,998 23,947 mi + shipping."
+  },
+  "comfort_ranking_v3": {
+    "date": "2026-08-11 PM",
+    "logic": "Rank = comfort content per dollar, WA before OR, non-turbo preferred at equal comfort, ventilated seats and Mazda CPO break ties. Negotiation targets for new cars TBD (v2 targets still apply to tracked cars).",
+    "ranking": [
+      {
+        "comfort_rank": 1,
+        "car": 5,
+        "why": "GT + GT Premium pkg = ventilated seats + heated everything, NON-turbo (MPG pref), $25,192, Kirkland, 47 days + 4 price cuts of leverage. Comfort-per-dollar champion."
+      },
+      {
+        "comfort_rank": 2,
+        "car": 3,
+        "why": "GT Reserve = same comfort content + turbo, $24,999, in Seattle, just RE-LISTED (KBB expired, new CarGurus listing, DOM reset). Cheapest ventilated-seat car."
+      },
+      {
+        "comfort_rank": 3,
+        "car": 12,
+        "why": "NEW: Mazda CPO 2023 Preferred $26,348 at Lee Johnson Seattle — newest + CPO warranty at a real Mazda store; leather/heated/moonroof, no vents."
+      },
+      {
+        "comfort_rank": 4,
+        "car": 13,
+        "why": "NEW: 2022 Premium Plus $27,389 Olympia — ventilated seats + HUD + heated rears, no accidents; CarBravo (not Mazda) certified; 43.6k mi."
+      },
+      {
+        "comfort_rank": 5,
+        "car": 4,
+        "why": "Carbon Edition TURBO (confirmed) at $26,102 on the dealer's own site — leather, loaded, big value; OR dealer = fallback tier by brief."
+      },
+      {
+        "comfort_rank": 6,
+        "car": 14,
+        "why": "NEW: 2023 Premium, only 17.5k mi, $28,287+$200, Everett. Newest+freshest miles; near the cap."
+      },
+      {
+        "comfort_rank": 7,
+        "car": 15,
+        "why": "NEW: CarMax Renton 2023 Premium $27,998 no-haggle, in-state — the benchmark every negotiated OTD must beat."
+      },
+      {
+        "comfort_rank": 8,
+        "car": 9,
+        "why": "Mazda CPO 2023 Carbon $27,699 Puyallup — CPO warranty to 2030/100k; leatherette/suede, no vents."
+      },
+      {
+        "comfort_rank": 9,
+        "car": 7,
+        "why": "Mazda CPO 2022 Carbon $27,512 Seattle — held its +$540 raise; #12 at the same store is newer and cheaper."
+      },
+      {
+        "comfort_rank": 10,
+        "car": 1,
+        "why": "2023 2.5 Turbo $27,999 (dealer site) / $28,199 CG — NOT sold after all; loaded turbo, 27,990 mi, 88+ days + drops = negotiable."
+      },
+      {
+        "comfort_rank": 11,
+        "car": 8,
+        "why": "2023 Preferred 16,612 mi $26,900 no-dealer-fees — great car, but OR and its group's own #20 is now $400 cheaper."
+      },
+      {
+        "comfort_rank": 12,
+        "car": 6,
+        "why": "Carbon Turbo $25,198 Puyallup — cheapest tracked turbo but 42.5k mi and mid comfort tier."
+      },
+      {
+        "comfort_rank": 13,
+        "car": 10,
+        "why": "2023 Preferred $24,095 OR indie — price floor of the set; Carfax + inspection required."
+      }
+    ],
+    "secondary": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "sold_removed": [
+      2,
+      11
+    ],
+    "ventilated_seat_cars": [
+      3,
+      5,
+      13,
+      19
+    ],
+    "mazda_cpo_cars": [
+      7,
+      9,
+      12
+    ]
+  },
+  "v3_watchlist": [
+    {
+      "car": "2022 2.5 S Carbon Edition, 47,333 mi, $26,998+$200",
+      "dealer": "Doug's Lynnwood Mazda",
+      "state": "WA",
+      "url": "https://www.cargurus.com/Cars/listing/454596751",
+      "why_not": "Fair Deal rating, 47k mi; #7/#9 beat it on miles and CPO."
+    },
+    {
+      "car": "Mazda CPO 2022 2.5 S Select, 48,468 mi, $24,081+$299",
+      "dealer": "West Hills Mazda, Bremerton",
+      "state": "WA",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786226153",
+      "why_not": "Cheapest Mazda-CPO car found, but Select trim (comfort-low) + 48k mi; budget backup only."
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 28,928 mi, $27,060+$200",
+      "dealer": "Titus-Will Used Cars - Olympia",
+      "state": "WA",
+      "url": "https://www.cargurus.com/Cars/listing/453420840",
+      "why_not": "$1.6k of drops already; loses to #9 (CPO, same money)."
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 23K mi, $28,998",
+      "dealer": "Rodland Toyota of Everett",
+      "state": "WA",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787184706",
+      "why_not": "At the cap before fees; #14 at the same store is the better comfort buy."
+    },
+    {
+      "car": "2.5 S Preferred AWD (year unverified), 33,261 mi, $25,695+$200",
+      "dealer": "GoldBoyz Auto Sales, Puyallup (indie)",
+      "state": "WA",
+      "url": "https://www.cargurus.com/Cars/listing/449710675",
+      "why_not": "Sponsored indie tile, 70 days on market; verify year + history before considering."
+    },
+    {
+      "car": "2022 2.5 S Select, 28,548 mi, $24,995+$200",
+      "dealer": "Pacific Coast Auto Center, Burlington (indie)",
+      "state": "WA",
+      "url": "https://www.cargurus.com/Cars/listing/449233426",
+      "why_not": "Fair Deal, Select trim, 75 days; budget tier only."
+    },
+    {
+      "car": "2021 Touring, 21,391 mi, $27,999-$28,199",
+      "dealer": "Mazda of Everett",
+      "state": "WA",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787834756",
+      "why_not": "Touring = below the comfort bar at a GT price."
+    },
+    {
+      "car": "2021 Carbon Edition Turbo, 39,412 mi, $27,722",
+      "dealer": "Tonkin Gresham Honda",
+      "state": "OR",
+      "url": "https://www.cars.com/vehicledetail/c5fca301-f2de-4480-801a-bed903370d40/",
+      "why_not": "#4 is the same formula $1.6k cheaper."
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 32,594 mi, $27,400",
+      "dealer": "Lexus of Portland",
+      "state": "OR",
+      "url": "https://www.cars.com/vehicledetail/094ebb74-c5d0-4fa6-91f5-9b677cc9e444/",
+      "why_not": "OR, loses to #9 (WA + CPO) at the same money."
+    },
+    {
+      "car": "2023 2.5 S Select, 13,555 mi, $25,950",
+      "dealer": "Lexus of Portland",
+      "state": "OR",
+      "url": "https://www.cars.com/vehicledetail/59d3b36d-7131-439c-a3b7-7b91343a454d/",
+      "why_not": "Lowest-mile car found, but Select trim + OR."
+    }
+  ]
 }

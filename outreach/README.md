@@ -1,6 +1,76 @@
-# CX-5 dealer outreach — v2 (negotiation-tuned)
+# CX-5 dealer outreach — v3 re-pull on top of v2
 
 > **v2 — negotiation-tuned; v1 drafts preserved in git history.** Files here: `CX5-Dealer-Emails.html` (phone-first: copy buttons, mail links, fee/tax checker), `CX5-Dealer-Emails.pdf`, `CX5-Dealer-Emails.docx`, `negotiation_research.md` (research memo with sources), `outreach_data.json` (per-car facts, listing re-check, targets/walk-aways).
+
+## v3 re-pull (2026-08-11 PM) — comfort-first
+
+Revised brief: **comfort first, not speed.** WA dealers strongly preferred (OR = fallback only). 2021–2023 CX-5, under 50k mi, under $29k, clean title / no accidents. Trim priority: Grand Touring w/ GT Premium pkg → GT Reserve → Premium / Premium Plus → CPO Carbon Edition / Preferred. Non-turbo preferred for MPG; full-comfort turbos OK. Ventilated seats and Mazda CPO flagged throughout. All checks below were live page loads on 2026-08-11 afternoon (Evan's own browser, read-only, no forms touched).
+
+### Headlines
+
+1. **#1 (Puyallup 2023 2.5 Turbo, #YW29065) is NOT sold.** The reported sale is disconfirmed on two sources: the CarGurus VDP is fully live (Great Deal badge, "Check availability") **and** Puyallup Mazda's own inventory search still returns stock YW29065 at **$27,999** on their site ($28,199 on CarGurus with fees). Keep it in play.
+2. **#2 (Acura of Seattle, #A036) sale CONFIRMED** — CarGurus renders the closed-listing "got away" page. Dropped.
+3. **#3 (BMW Seattle GT Reserve) was NOT sold — it was re-listed.** The old KBB listing expired and the dealer's VIN URL went dead, but the same car (39,141 mi) is live on a **new CarGurus listing 455054228** at the same **$24,999**, with the days-on-market counter reset to 9. Use the new URL; remember it's really been for sale since ~July.
+4. **#4 (Ron Tonkin) is cheaper and better than v2 thought:** the dealer's own site advertises **$25,852 + $250 = $26,102** (vs $26,762 fees-included on KBB) and confirms the car is a **Carbon Edition TURBO** (VIN pattern JM3KFBCY agrees). Quote their own-site price.
+5. **#11 (CarMax Sacramento 2022 Carbon, the no-haggle floor) SOLD.** New no-haggle anchor: **CarMax Renton 2023 2.5 S Premium, $27,998, no transfer fee** (new car #15, listed ~Aug 10).
+6. New scan found **9 numbered candidates (#12–#20)**, led by a **Mazda CPO 2023 Preferred at $26,348 at Lee Johnson Mazda of Seattle** (#12) and a **ventilated-seat 2022 Premium Plus at $27,389 in Olympia** (#13).
+
+### Re-check — all 11 tracked cars (2026-08-11 PM)
+
+| # | Car · dealer | Aug 7 → now | Status | Listing |
+|---|---|---|---|---|
+| 1 | 2023 2.5 Turbo · Puyallup Mazda | $28,199 → **$28,199** (own site **$27,999**) | **active — sale report was wrong** | [CarGurus](https://www.cargurus.com/Cars/listing/448185375) |
+| 2 | 2022 2.5 Turbo · Acura of Seattle | $27,300 → — | **sold (confirmed)** | [closed](https://www.cargurus.com/Cars/listing/451655500) |
+| 3 | 2021 GT Reserve · BMW Seattle | $24,999 → **$24,999** | **active — RE-LISTED, new URL, DOM reset** | [CarGurus NEW](https://www.cargurus.com/Cars/listing/455054228) · [Cars.com](https://www.cars.com/vehicledetail/e26d976c-ebbb-4870-a5c8-20c2d33e4153/) |
+| 4 | 2021 Carbon Edition **TURBO** (confirmed) · Ron Tonkin Honda | $26,512 → **$26,102 own-site total** ($25,852 + $250; KBB shows $26,762 fees-incl) | active — effectively −$410 | [dealer VDP](https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679) · [KBB](https://www.kbb.com/cars-for-sale/vehicle/782577606) |
+| 5 | 2021 GT w/ GT Premium pkg · Kirkland | $25,192 → **$25,192** | active (odo 33,336; AT: No Accidents) | [CarGurus](https://www.cargurus.com/Cars/listing/451807182) |
+| 6 | 2021 Carbon Turbo · Puyallup Mazda | $25,198 → **$25,198** | active | [CarGurus](https://www.cargurus.com/Cars/listing/449972241) |
+| 7 | CPO 2022 Carbon · Lee Johnson | $27,512 → **$27,512** (still +$540 vs Aug 7) | active | [CarGurus](https://www.cargurus.com/Cars/listing/453287059) |
+| 8 | 2023 Preferred · Royal Moore | $26,900 → **$26,900** (no dealer fees) | active | [CarGurus](https://www.cargurus.com/Cars/listing/454567468) |
+| 9 | CPO 2023 Carbon · Puyallup Mazda | $27,699 → **$27,699** | active (Mazda CPO confirmed on KBB/AT) | [CarGurus](https://www.cargurus.com/Cars/listing/450917825) · [KBB](https://www.kbb.com/cars-for-sale/vehicle/783147875) |
+| 10 | 2023 Preferred · Columbia Sales & Service (OR indie) | $24,095 → **$24,095** ($23,995 + $100 doc) | active | [Cars.com](https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/) |
+| 11 | 2022 Carbon · CarMax Sacramento | $24,998 → — | **sold** ("Sold" badge on VDP) | [CarMax](https://www.carmax.com/car/70056694) |
+
+### Comfort-first ranking (active cars, 2026-08-11)
+
+**[VENT]** = ventilated seats · **[CPO]** = Mazda Certified Pre-Owned
+
+| Rank | Car | What & where | Price | Why here |
+|---|---|---|---|---|
+| 1 | **#5** | [VENT] 2021 GT **w/ GT Premium pkg**, 33,336 mi — Kirkland WA | $25,192 | Ventilated seats + heated everything, **non-turbo** (MPG pref), 47 days + 4 cuts of leverage. Comfort per dollar champion. [CarGurus](https://www.cargurus.com/Cars/listing/451807182) |
+| 2 | **#3** | [VENT] 2021 **GT Reserve** (turbo), 39,141 mi — BMW Seattle | $24,999 | Same comfort content + turbo, cheapest vented car, in-city. Just re-listed (DOM optics reset — it's actually aged; press on price). [CarGurus NEW](https://www.cargurus.com/Cars/listing/455054228) |
+| 3 | **#12 NEW** | [CPO] 2023 **Preferred**, 36,400 mi — Lee Johnson Mazda, Seattle | $26,348 | Mazda CPO (verified VDP block) at a Seattle Mazda store; newer + cheaper than the same store's #7. VIN JM3KFBCM7P0256994. [Cars.com](https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/) |
+| 4 | **#13 NEW** | [VENT] 2022 **Premium Plus**, 43,640 mi — Titus-Will, Olympia WA | $27,389 fees-incl | Ventilated seats + HUD + heated rears; "No Accident or Damage Reported"; CarBravo (GM) certified, not Mazda CPO. Cars.com shows $27,789 — quote the KBB price. [KBB](https://www.kbb.com/cars-for-sale/vehicle/784195725) |
+| 5 | **#4** | 2021 **Carbon TURBO** (confirmed), 34,800 mi — Ron Tonkin, Portland | **$26,102 own-site** | Leather turbo Carbon at a strong price; OR = fallback tier per brief. [dealer VDP](https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679) |
+| 6 | **#14 NEW** | 2023 **Premium**, 17,505 mi — Rodland Toyota, Everett WA | $28,287 + $200 | Lowest-mile comfort car; leather + Bose + heated wheel; AT: No Accidents. Near the cap. [CarGurus](https://www.cargurus.com/Cars/listing/453332129) |
+| 7 | **#15 NEW** | 2023 **Premium**, 31,166 mi — **CarMax Renton** (no-haggle) | $27,998 flat | New in-state no-haggle anchor (replaces sold #11, no transfer fee, listed ~Aug 10). Benchmark every OTD against it. [CarGurus](https://www.cargurus.com/Cars/listing/455754266) |
+| 8 | **#9** | [CPO] 2023 Carbon, 33,006 mi — Puyallup Mazda | $27,699 | Mazda CPO to 2030/100k; mid comfort (no vents). [CarGurus](https://www.cargurus.com/Cars/listing/450917825) |
+| 9 | **#7** | [CPO] 2022 Carbon, 34,749 mi — Lee Johnson, Seattle | $27,512 | Held its +$540 raise; #12 at the same store is newer AND cheaper — say so in the room. [CarGurus](https://www.cargurus.com/Cars/listing/453287059) |
+| 10 | **#1** | 2023 **2.5 Turbo**, 27,990 mi — Puyallup Mazda | $27,999 site / $28,199 CG | NOT sold after all. Loaded turbo, 88+ days + drops = negotiable; v2 target ($27,000 selling) still applies. [CarGurus](https://www.cargurus.com/Cars/listing/448185375) |
+| 11 | **#8** | 2023 Preferred, 16,612 mi — Royal Moore, Hillsboro OR | $26,900 no fees | Great miles, but OR — and the group's own #20 is now $400 cheaper; make them beat it. [CarGurus](https://www.cargurus.com/Cars/listing/454567468) |
+| 12 | **#6** | 2021 Carbon Turbo, 42,515 mi — Puyallup Mazda | $25,198 | Cheapest tracked turbo; mid comfort, highest tracked miles. [CarGurus](https://www.cargurus.com/Cars/listing/449972241) |
+| 13 | **#10** | 2023 Preferred, 44,989 mi — Columbia S&S, Portland OR (indie) | $24,095 total | Price floor of the set; AutoCheck/Carfax + inspection mandatory. [Cars.com](https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/) |
+
+**Secondary candidates** (call only if the top tier dies):
+
+| Car | What & where | Price | Notes |
+|---|---|---|---|
+| #16 NEW | 2021 GT, 27,089 mi — Doug's Lynnwood Mazda, Edmonds WA | $28,700 | $900 drop badge but still $3.5k over #5; ask if it has GT Premium pkg. [Cars.com](https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/) |
+| #17 NEW | 2021 GT, 30,066 mi — Auto 206, Kent WA (indie) | $25,799 | Cheapest GT after #5; indie — AutoCheck first. [Autotrader](https://www.autotrader.com/cars-for-sale/vehicle/787629893) |
+| #18 NEW | 2023 Preferred, 20,533 mi — Auto Connections of Bellevue (indie) | $26,495 | No-accidents flag, 60 days listed; Carfax + inspection. [CarGurus](https://www.cargurus.com/Cars/listing/450670232) |
+| #19 NEW | [VENT] 2021 **Signature** (turbo), 40,451 mi — Tonkin Gresham, OR | $26,712 | Top 2021 trim: vents + Nappa. Most comfort/$ on paper; OR + 40k mi. Same group as #4 — one Portland trip covers both. [Cars.com](https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/) |
+| #20 NEW | 2023 Preferred, 16,969 mi — Royal Moore Toyota, OR | $26,500 | The Royal Moore group's second low-mile Preferred, $400 under #8 — ask them to quote both. [Cars.com](https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/) |
+
+Screened and parked (full list with reasons in `outreach_data.json → v3_watchlist`): Doug's 2022 Carbon $26,998; West Hills Bremerton **Mazda-CPO** 2022 Select $24,081 (cheapest CPO found, comfort-low); Titus-Will 2023 Carbon $27,260; Rodland 2023 Carbon $28,998; GoldBoyz Puyallup Preferred $25,895 (year unverified); Pacific Coast Burlington 2022 Select $24,995; Mazda of Everett 2021 Touring $27,999; Tonkin Gresham 2021 Carbon Turbo $27,722; Lexus of Portland 2023 Carbon $27,400 and 2023 Select $25,950 (13.5k mi).
+
+### v3 practical notes
+
+- **Vented-seat shortlist:** #5, #3, #13, (#19 OR). **Mazda CPO shortlist:** #12, #9, #7 (+ West Hills Select on the watchlist).
+- v2 negotiation targets/walk-aways below remain valid for tracked cars #1–#8. New cars #12–#20 have **no targets yet** — do not counter on them until numbers are worked up.
+- #15 CarMax Renton ($27,998 Premium, no transfer fee) is the new walk-away benchmark: any negotiated OTD on a comfort-tier car should beat its ~$31.5k OTD equivalent after Renton tax, or the no-haggle car wins.
+- Lee Johnson now holds TWO ranked cars (#7 CPO Carbon, #12 CPO Preferred) — one conversation, make them price both. Same for Puyallup (#1, #6, #9) and the Tonkin/Gee family (#4, #19).
+
+---
 
 > **v2 — negotiation-tuned; v1 drafts preserved in git history.** Round-1 OTD-request emails rewritten per the research memo (`negotiation_research.md`), plus follow-ups, one round-2 counter per car, private target/walk-away numbers and a playbook. Evan sends everything himself from his personal email; nothing here has been sent and no dealer form was touched. Listing status/prices re-checked 2026-08-11 (baseline 2026-08-07). Contact details come only from the dealers' own sites and listing pages; no address was guessed.
 
