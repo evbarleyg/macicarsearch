@@ -564,7 +564,7 @@ Status as of 2026-08-11 ~07:15Z (Aug 11 ~12:15 am PT). Sent = round-1 email sent
 | Ron Tonkin Honda | #4 2021 Carbon Edition AWD · #UH1679 | not yet |  |  |  |  |  |  |  | v2 draft ready in Gmail, no To — no sales inbox published anywhere (two sweeps); contact form or one call for the ISM's email |
 | Hyundai of Kirkland / Ford of Kirkland | #5 2021 Grand Touring AWD (GT Premium Pkg per KBB) · #O94564A | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to hamid@fordofkirkland.com, cc customerservice@fordofkirkland.com |
 | Lee Johnson Mazda of Seattle | #7 2022 2.5 S Carbon Edition AWD · #U14590 | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to ljtom@leejohnson.com — "Internet Sales" per Mazda USA dealer portal (dealer's own site publishes none); Attn: Hunter Reeves in body |
-| Royal Moore Mazda | #8 2023 2.5 S Preferred AWD · #661788A | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to shollingsworth@royalmoore.com — "Sales" per Mazda USA dealer portal (dealer's own site publishes none) |
+| Royal Moore Mazda | #8 2023 2.5 S Preferred AWD · #661788A | ❌ BOUNCED — not reached |  |  |  |  |  |  |  | sent 06:59Z to shollingsworth@royalmoore.com (Mazda USA portal), hard-bounced 07:00Z "address not found"; fresh v2 draft in Gmail with no To — use the contact form https://www.royalmooremazda.com/contactus or call (971) 261-1190 for the ISM's email |
 | Columbia Sales & Service (Portland OR — added, report pick #10) | 2023 2.5 S Preferred · 44,989 mi · VIN JM3KFBCM9P0119426 | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to Contact@columbiasalesandservice.com (dealer's own site); 8th distinct dealership beyond the handoff's seven emails; listing status as of Aug 7 (not re-verified Aug 11); indie lot — Carfax requested in the email |
 
 ### Contact log
@@ -573,6 +573,8 @@ Status as of 2026-08-11 ~07:15Z (Aug 11 ~12:15 am PT). Sent = round-1 email sent
 - 2026-08-11 ~06:55–07:00Z — Evan sent 4 of them (v1 wording): Kirkland, Lee Johnson, Royal Moore, Columbia. Nudges/replies for these four threads should quote the v1 subjects.
 - 2026-08-11 ~07:04Z — the 4 unsent drafts (Puyallup covering both cars, Ron Tonkin, BMW Seattle, Acura optional) rewritten in place to v2 wording, subjects "OTD request: …".
 - 2026-08-11 — second address sweep (Mazda USA portal, Honda/BMW locators, BBB, DealerRater, Facebook): no publishable sales inbox exists for Puyallup Mazda, Ron Tonkin Honda, or BMW Seattle; only pattern-guessed addresses surfaced and were rejected. Puyallup Mazda confirmed part of the Milam group (shared BBB file 1296-400392). Next step for these three: contact form, or one call asking only for the internet sales manager's email (voicemail script prepared; no phone number left).
+- 2026-08-11 ~07:00Z — BOUNCE: Royal Moore send to shollingsworth@royalmoore.com returned "address not found" (mailer-daemon, 07:00:03Z). The Mazda-portal address is dead; Royal Moore is NOT reached. Fresh v2 draft created (no To). Deliverability of the other portal-sourced address (ljtom@leejohnson.com) looks fine — no bounce after 15+ min.
+- Delivered without bounce as of 07:15Z: hamid@fordofkirkland.com (+cc), ljtom@leejohnson.com, Contact@columbiasalesandservice.com.
 
 ## Listing re-check detail (2026-08-11)
 
