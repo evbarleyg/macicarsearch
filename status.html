@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+<title>CX-5 Search — Live Status Board</title>
+<style>
+  :root {
+    --ground: #f7f6f5; --surface: #ffffff; --ink: #1c1b1d; --muted: #6a676e;
+    --accent: #9e1b32; --line: #e3e1e4; --ok: #1e7d46; --sold: #8a8790; --wait: #935800;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #17161a; --surface: #201f24; --ink: #ececee; --muted: #a09da6;
+      --accent: #e05263; --line: #34323a; --ok: #4cc37e; --sold: #77747e; --wait: #e0a33e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink); font: 15.5px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 20px 16px 56px; }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  a { color: var(--accent); }
+  .crumb { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+  .crumb a { margin-right: 12px; }
+  h1 { font-size: 27px; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 6px; text-wrap: balance; }
+  h1 .red { color: var(--accent); }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 13.5px; }
+  .sub code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 28px 0 12px; }
+  .tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 4px 14px 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .chip { font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 8px; border-radius: 99px; color: #fff; white-space: nowrap; }
+  .chip.ok { background: var(--ok); }
+  .chip.sold { background: var(--sold); }
+  .chip.wait { background: var(--wait); }
+  tr.gone td { opacity: .55; }
+  .note { font-size: 13px; color: var(--muted); }
+  footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 12px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="index.html">&larr; Buyer's report</a> <a href="trims.html">Trim guide</a></p>
+  <h1>Search status: <span class="red">live board</span></h1>
+  <p class="sub">Last updated <code>Tue Aug 11, 2026 · 9:35 AM PT</code> · maintained automatically as dealer replies and listing changes come in. Prices are listed asking prices; availability reflects the latest information we have and can lag the lot.</p>
+
+  <h2>Cars — 9 of 11 shortlist picks still in play</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>#</th><th>Car</th><th>Dealer</th><th>List</th><th>Availability</th><th>Inquiry</th><th>Written quote</th></tr>
+      <tr><td class="num">5</td><td>2021 Grand Touring AWD (GT Premium pkg)</td><td>Hyundai / Ford of Kirkland</td><td class="num">$25,192</td><td><span class="chip ok">Active</span></td><td class="num">Sent Aug 11</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">3</td><td>2021 Grand Touring Reserve (2.5T)</td><td>BMW Seattle</td><td class="num">$24,999</td><td><span class="chip ok">Active</span></td><td class="num">Sent Aug 11</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">9</td><td>2023 2.5 S Carbon Edition · CPO</td><td>Puyallup Mazda</td><td class="num">$27,699</td><td><span class="chip ok">Active</span></td><td class="num">Via #6 inquiry</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">7</td><td>2022 2.5 S Carbon Edition · CPO</td><td>Lee Johnson Mazda (Seattle)</td><td class="num">$27,512</td><td><span class="chip ok">Active</span> <span class="note">price +$540 Aug 11</span></td><td class="num">Sent Aug 11</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">6</td><td>2021 Carbon Edition Turbo AWD</td><td>Puyallup Mazda</td><td class="num">$24,998+</td><td><span class="chip ok">Active</span></td><td class="num">Sent Aug 11</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">8</td><td>2023 2.5 S Preferred AWD · 16.6k mi</td><td>Royal Moore Mazda (Hillsboro OR)</td><td class="num">$26,900</td><td><span class="chip ok">Active</span></td><td class="num">Sent Aug 11 · in dialogue</td><td><span class="chip wait">Promised today</span></td></tr>
+      <tr><td class="num">4</td><td>2021 Carbon Edition AWD</td><td>Ron Tonkin Honda (Portland OR)</td><td class="num">$26,102 advertised</td><td><span class="chip ok">Active</span> <span class="note">price cut Aug 11</span></td><td class="num">—</td><td>—</td></tr>
+      <tr><td class="num">10</td><td>2023 2.5 S Preferred (Cars.com)</td><td>Columbia Sales &amp; Service (Portland OR)</td><td class="num">$24,095</td><td><span class="chip ok">Listed Aug 7</span></td><td class="num">Sent Aug 11</td><td><span class="chip wait">Awaiting</span></td></tr>
+      <tr><td class="num">11</td><td>2022 Carbon Edition (no-haggle)</td><td>CarMax Sacramento · $199 transfer</td><td class="num">$24,998</td><td><span class="chip ok">Reference</span></td><td class="num">—</td><td>Fixed price</td></tr>
+      <tr class="gone"><td class="num">1</td><td>2023 2.5 Turbo AWD</td><td>Puyallup Mazda</td><td class="num">$28,199</td><td><span class="chip sold">Sold</span> <span class="note">Aug 11</span></td><td class="num">Sent Aug 11</td><td>—</td></tr>
+      <tr class="gone"><td class="num">2</td><td>2022 2.5 Turbo AWD</td><td>Acura of Seattle</td><td class="num">$27,300</td><td><span class="chip sold">Sold</span> <span class="note">removed ~Aug 11</span></td><td class="num">—</td><td>—</td></tr>
+    </table>
+    <p class="note" style="margin-top:8px;">Ordered by current fit (comfort equipment, mileage, value), then the sold cars. The <a href="index.html#shortlist">full shortlist table</a> has every column and sorts on any of them; the <a href="trims.html">trim guide</a> explains what each trim gets you.</p>
+  </div>
+
+  <h2>Dealer inquiries</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Dealer</th><th>Inquiry sent</th><th>Latest from them</th></tr>
+      <tr><td>Hyundai / Ford of Kirkland</td><td class="num">Aug 11, 12:00 AM · email</td><td>—</td></tr>
+      <tr><td>Lee Johnson Mazda (Seattle)</td><td class="num">Aug 11, 12:00 AM · email</td><td>—</td></tr>
+      <tr><td>Columbia Sales &amp; Service</td><td class="num">Aug 11, 12:00 AM · email</td><td>—</td></tr>
+      <tr><td>Puyallup Mazda</td><td class="num">Aug 11, 12:45 AM · site form</td><td>Form confirmation</td></tr>
+      <tr><td>Royal Moore Mazda</td><td class="num">Aug 11, 1:14 AM · site form</td><td>Two replies Aug 11 AM; itemized quote promised today</td></tr>
+      <tr><td>BMW Seattle</td><td class="num">Aug 11, ~9:15 AM · site form</td><td>Responding (text)</td></tr>
+      <tr><td>Ron Tonkin Honda</td><td class="num">Not sent</td><td>—</td></tr>
+      <tr><td>Acura of Seattle</td><td class="num">Not sent (car sold)</td><td>—</td></tr>
+    </table>
+  </div>
+
+  <footer>Companion to the <a href="index.html">CX-5 Seattle Buyer's Report</a>. Availability is best-effort: a car is only truly available when the dealer confirms it on the phone or in writing.</footer>
+</div>
+</body>
+</html>
