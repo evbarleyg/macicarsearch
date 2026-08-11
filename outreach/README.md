@@ -697,3 +697,17 @@ Skipped (existing thread or by design):
 - **#1 / #6 / #9 Puyallup** - AM form lead live; Puyallup called Evan and is sending the OTD - fold #9 into that quote when it arrives.
 - **#15 CarMax Renton** - no-haggle; nothing to request.
 - **#10 Columbia S&S (OR indie)** - no-Oregon-visits pivot + Carfax-first rule.
+
+### Phone callbacks (2026-08-11 morning, from Evan's call log — all told: email the quote)
+
+Every dealer below called instead of emailing; Evan reiterated on each call that the quote should come **by email**. Numbers logged so future calls can be screened to voicemail.
+
+| Time (PT) | Caller ID | Dealer (car) | Status |
+|---|---|---|---|
+| 10:48 AM | (425) 212-1369 | Rodland Toyota of Everett (#14) — called ~15 min after the form submission | Owes emailed OTD |
+| 10:44 AM | (360) 763-4482 | Titus-Will Olympia (#13 Premium Plus) | Owes emailed OTD |
+| 10:23 AM | (253) 480-6379 | Puyallup Mazda (#1/#6; fold #9 into the same quote) | Owes emailed OTD |
+| 10:18 AM | (206) 635-3370 | BMW Seattle (#3) | Reported the car SOLD (recorded in v3; no quote expected) |
+| 9:29 AM | (971) 415-5938 (missed) | 971 = Portland area code — almost certainly Ron Tonkin (#4, Izzy) | Thread already live by email; no callback needed |
+
+Standing rule: any of these numbers calling again → let it go to voicemail and send the "email only" copy-paste reply (above) in the corresponding email thread.
