@@ -553,16 +553,26 @@ General sources: [Edmunds — internet price quotes](https://www.edmunds.com/car
 
 ## Tracking
 
+Status as of 2026-08-11 ~07:15Z (Aug 11 ~12:15 am PT). Sent = round-1 email sent by Evan from his personal Gmail.
+
 | Dealer | Car | Sent | Nudge | OTD received | OTD $ | Add-ons listed | Counter sent | Agreed OTD | Sat slot | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Puyallup Mazda | #1 2023 2.5 Turbo AWD · #YW29065 |  |  |  |  |  |  |  |  |  |
-| Puyallup Mazda | #6 2021 Carbon Edition Turbo AWD · #YS29241 |  |  |  |  |  |  |  |  |  |
-| Acura of Seattle | #2 2022 2.5 Turbo AWD · #A036 |  |  |  |  |  |  |  |  |  |
-| BMW Seattle | #3 2021 Grand Touring Reserve AWD (2.5 Turbo) · #463157ML2 |  |  |  |  |  |  |  |  |  |
-| Ron Tonkin Honda | #4 2021 Carbon Edition AWD · #UH1679 |  |  |  |  |  |  |  |  |  |
-| Hyundai of Kirkland / Ford of Kirkland | #5 2021 Grand Touring AWD (GT Premium Pkg per KBB) · #O94564A |  |  |  |  |  |  |  |  |  |
-| Lee Johnson Mazda of Seattle | #7 2022 2.5 S Carbon Edition AWD · #U14590 |  |  |  |  |  |  |  |  |  |
-| Royal Moore Mazda | #8 2023 2.5 S Preferred AWD · #661788A |  |  |  |  |  |  |  |  |  |
+| Puyallup Mazda | #1 2023 2.5 Turbo AWD · #YW29065 | not yet |  |  |  |  |  |  |  | v2 draft ready in Gmail (one email covers #1 + #6), no To — no sales inbox published anywhere (two sweeps incl. Mazda portal / BBB / DealerRater); contact form or one call for the ISM's email |
+| Puyallup Mazda | #6 2021 Carbon Edition Turbo AWD · #YS29241 | not yet |  |  |  |  |  |  |  | covered by the same email as #1 |
+| Acura of Seattle | #2 2022 2.5 Turbo AWD · #A036 | not yet (optional) |  |  |  |  |  |  |  | listing removed Aug 11, likely sold; v2 draft ready, addressed to acusea_leads@obautogroup.com |
+| BMW Seattle | #3 2021 Grand Touring Reserve AWD (2.5 Turbo) · #463157ML2 | not yet |  |  |  |  |  |  |  | v2 draft ready, addressed to waseabmw_service@lithia.com (service inbox, forward-to-sales ask in line 1); no sales inbox published — form is the alternative |
+| Ron Tonkin Honda | #4 2021 Carbon Edition AWD · #UH1679 | not yet |  |  |  |  |  |  |  | v2 draft ready in Gmail, no To — no sales inbox published anywhere (two sweeps); contact form or one call for the ISM's email |
+| Hyundai of Kirkland / Ford of Kirkland | #5 2021 Grand Touring AWD (GT Premium Pkg per KBB) · #O94564A | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to hamid@fordofkirkland.com, cc customerservice@fordofkirkland.com |
+| Lee Johnson Mazda of Seattle | #7 2022 2.5 S Carbon Edition AWD · #U14590 | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to ljtom@leejohnson.com — "Internet Sales" per Mazda USA dealer portal (dealer's own site publishes none); Attn: Hunter Reeves in body |
+| Royal Moore Mazda | #8 2023 2.5 S Preferred AWD · #661788A | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to shollingsworth@royalmoore.com — "Sales" per Mazda USA dealer portal (dealer's own site publishes none) |
+| Columbia Sales & Service (Portland OR — added, report pick #10) | 2023 2.5 S Preferred · 44,989 mi · VIN JM3KFBCM9P0119426 | ✅ Aug 11 ~06:55Z · v1 wording |  |  |  |  |  |  |  | to Contact@columbiasalesandservice.com (dealer's own site); 8th distinct dealership beyond the handoff's seven emails; listing status as of Aug 7 (not re-verified Aug 11); indie lot — Carfax requested in the email |
+
+### Contact log
+
+- 2026-08-11 ~06:52Z — 8 Gmail drafts created from the v1 handoff (subjects "Out-the-door price request: …"; em dashes removed per Evan's style).
+- 2026-08-11 ~06:55–07:00Z — Evan sent 4 of them (v1 wording): Kirkland, Lee Johnson, Royal Moore, Columbia. Nudges/replies for these four threads should quote the v1 subjects.
+- 2026-08-11 ~07:04Z — the 4 unsent drafts (Puyallup covering both cars, Ron Tonkin, BMW Seattle, Acura optional) rewritten in place to v2 wording, subjects "OTD request: …".
+- 2026-08-11 — second address sweep (Mazda USA portal, Honda/BMW locators, BBB, DealerRater, Facebook): no publishable sales inbox exists for Puyallup Mazda, Ron Tonkin Honda, or BMW Seattle; only pattern-guessed addresses surfaced and were rejected. Puyallup Mazda confirmed part of the Milam group (shared BBB file 1296-400392). Next step for these three: contact form, or one call asking only for the internet sales manager's email (voicemail script prepared; no phone number left).
 
 ## Listing re-check detail (2026-08-11)
 
