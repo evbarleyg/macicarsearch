@@ -122,10 +122,10 @@
       "miles": 39146,
       "miles_note": "KBB spec block now reads 39,141",
       "price_aug7": 24999,
-      "price_now": 24999,
-      "price_change": 0,
-      "status": "active",
-      "status_detail": "RE-LISTED, NOT SOLD (2026-08-11 PM). The old KBB listing 787237825 now redirects to a search page (expired) and the bmwseattle.com VIN URL redirects to their new-car search — BUT BMW Seattle re-listed the car: NEW CarGurus listing 455054228 at $24,999 ('price includes fees', $24,799 + $200 doc), 39,141 mi, Good Deal, days-on-market counter RESET to 9; also live on Cars.com at $24,999. Use the new URLs; the DOM reset hides that it has really been for sale since ~July.",
+      "price_now": null,
+      "price_change": null,
+      "status": "sold",
+      "status_detail": "SOLD — BMW Seattle told Evan directly on 2026-08-11 that the car sold. Dealer word supersedes the listings: the new CarGurus listing 455054228 still rendered active at $24,999 when re-checked the same day (syndicated feeds lag sales by days), but the KBB expiry and the dead dealer-site VIN URL were the real signals. Drop from outreach; do not contact.",
       "vin": "JM3KFBAY5M0463157",
       "stock": "463157ML2",
       "cpo": false,
@@ -162,7 +162,7 @@
         "https://www.kbb.com/cars-for-sale/vehicle/787237825 (expired Aug 11)",
         "https://www.bmwseattle.com/inventory/JM3KFBAY5M0463157?stocknum=463157ML2 (URL dead; car still in stock)"
       ],
-      "v3_recheck": "active - re-listed as CarGurus 455054228 @ $24,999 (DOM reset to 9); KBB listing expired"
+      "v3_recheck": "sold - dealer-confirmed to Evan 2026-08-11; CarGurus 455054228 still shows active (stale syndication), KBB expired, dealer VIN URL dead"
     },
     {
       "rank": 4,
@@ -888,61 +888,56 @@
       },
       {
         "comfort_rank": 2,
-        "car": 3,
-        "why": "GT Reserve = same comfort content + turbo, $24,999, in Seattle, just RE-LISTED (KBB expired, new CarGurus listing, DOM reset). Cheapest ventilated-seat car."
-      },
-      {
-        "comfort_rank": 3,
         "car": 12,
         "why": "NEW: Mazda CPO 2023 Preferred $26,348 at Lee Johnson Seattle — newest + CPO warranty at a real Mazda store; leather/heated/moonroof, no vents."
       },
       {
-        "comfort_rank": 4,
+        "comfort_rank": 3,
         "car": 13,
         "why": "NEW: 2022 Premium Plus $27,389 Olympia — ventilated seats + HUD + heated rears, no accidents; CarBravo (not Mazda) certified; 43.6k mi."
       },
       {
-        "comfort_rank": 5,
+        "comfort_rank": 4,
         "car": 4,
         "why": "Carbon Edition TURBO (confirmed) at $26,102 on the dealer's own site — leather, loaded, big value; OR dealer = fallback tier by brief."
       },
       {
-        "comfort_rank": 6,
+        "comfort_rank": 5,
         "car": 14,
         "why": "NEW: 2023 Premium, only 17.5k mi, $28,287+$200, Everett. Newest+freshest miles; near the cap."
       },
       {
-        "comfort_rank": 7,
+        "comfort_rank": 6,
         "car": 15,
         "why": "NEW: CarMax Renton 2023 Premium $27,998 no-haggle, in-state — the benchmark every negotiated OTD must beat."
       },
       {
-        "comfort_rank": 8,
+        "comfort_rank": 7,
         "car": 9,
         "why": "Mazda CPO 2023 Carbon $27,699 Puyallup — CPO warranty to 2030/100k; leatherette/suede, no vents."
       },
       {
-        "comfort_rank": 9,
+        "comfort_rank": 8,
         "car": 7,
         "why": "Mazda CPO 2022 Carbon $27,512 Seattle — held its +$540 raise; #12 at the same store is newer and cheaper."
       },
       {
-        "comfort_rank": 10,
+        "comfort_rank": 9,
         "car": 1,
         "why": "2023 2.5 Turbo $27,999 (dealer site) / $28,199 CG — NOT sold after all; loaded turbo, 27,990 mi, 88+ days + drops = negotiable."
       },
       {
-        "comfort_rank": 11,
+        "comfort_rank": 10,
         "car": 8,
         "why": "2023 Preferred 16,612 mi $26,900 no-dealer-fees — great car, but OR and its group's own #20 is now $400 cheaper."
       },
       {
-        "comfort_rank": 12,
+        "comfort_rank": 11,
         "car": 6,
         "why": "Carbon Turbo $25,198 Puyallup — cheapest tracked turbo but 42.5k mi and mid comfort tier."
       },
       {
-        "comfort_rank": 13,
+        "comfort_rank": 12,
         "car": 10,
         "why": "2023 Preferred $24,095 OR indie — price floor of the set; Carfax + inspection required."
       }
@@ -956,10 +951,10 @@
     ],
     "sold_removed": [
       2,
+      3,
       11
     ],
     "ventilated_seat_cars": [
-      3,
       5,
       13,
       19
@@ -968,7 +963,8 @@
       7,
       9,
       12
-    ]
+    ],
+    "note_2026_08_11_pm": "#3 (BMW Seattle GT Reserve) removed after the dealer confirmed the sale to Evan. Only remaining ventilated-seat cars: #5 (WA) and #13 (WA); #19 is the OR fallback."
   },
   "v3_watchlist": [
     {
