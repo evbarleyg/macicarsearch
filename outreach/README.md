@@ -62,6 +62,20 @@ Revised brief: **comfort first, not speed.** WA dealers strongly preferred (OR =
 
 Screened and parked (full list with reasons in `outreach_data.json → v3_watchlist`): Doug's 2022 Carbon $26,998; West Hills Bremerton **Mazda-CPO** 2022 Select $24,081 (cheapest CPO found, comfort-low); Titus-Will 2023 Carbon $27,260; Rodland 2023 Carbon $28,998; GoldBoyz Puyallup Preferred $25,895 (year unverified); Pacific Coast Burlington 2022 Select $24,995; Mazda of Everett 2021 Touring $27,999; Tonkin Gresham 2021 Carbon Turbo $27,722; Lexus of Portland 2023 Carbon $27,400 and 2023 Select $25,950 (13.5k mi).
 
+### v3 message standard (Evan's directive, 2026-08-11 PM — use in every reply and any future form)
+
+Every dealer message leads with these three points, in this order:
+
+1. **Email is our contact method — please don't call.** Replies by email only; a phone call will not move the process forward.
+2. **We are narrowing 10 cars down to 3 this week.** The way a car makes the top 3 is a written, itemized **best out-the-door price** (selling price, doc fee, tax rate, license/title/RTA, any add-ons on their own lines marked optional) plus the Carfax/AutoCheck.
+3. **Test drives come after the number, not before.** We'll schedule test drives only for the finalists — polite but explicit: "please don't reply asking us to come in and drive it first; the OTD email is the step that gets you a visit."
+
+Copy-paste reply for any dealer who calls instead of emailing:
+
+```text
+Thanks for reaching out. Quick heads-up on how we're buying: we're comparing 10 CX-5s and narrowing to 3 this week, and we're doing it entirely over email. Could you reply here with your best itemized out-the-door price (selling price, doc fee, tax rate, license/title/RTA, any add-ons listed separately) plus the Carfax/AutoCheck? The written OTD is what gets a car into our top 3 — we'll schedule test drives for the finalists only. Email only please, no calls. Thanks! — Evan
+```
+
 ### v3 practical notes
 
 - **Vented-seat shortlist:** #5, #13, (#19 OR) — #3 sold. **Mazda CPO shortlist:** #12, #9, #7 (+ West Hills Select on the watchlist).
