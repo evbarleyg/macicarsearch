@@ -1,0 +1,1742 @@
+{
+  "fetchedAt": "2026-08-11T19:21:05.012Z",
+  "counts": {
+    "raw_today": 360,
+    "uniqueVins_today": 198,
+    "vins_aug7": 153,
+    "passed_aug7": 102,
+    "newVins": 91,
+    "newPassed": 32,
+    "newDropped": 59,
+    "goneFromPassed": 29,
+    "priceDelta": {
+      "n": 107,
+      "median": 0,
+      "nDown": 26,
+      "nUp": 7
+    }
+  },
+  "sourceCounts": {
+    "autotempest": 125,
+    "cargurus": 47,
+    "carvana": 58,
+    "kbb": 45,
+    "carmax": 72,
+    "iseecars": 0,
+    "craigslist": 13
+  },
+  "shortlistStatus": [
+    {
+      "rank": 1,
+      "year": 2023,
+      "trim": "2.5 Turbo AWD",
+      "dealer": "Puyallup Mazda",
+      "vin": "JM3KFBAY3P0289626",
+      "price0": 28199,
+      "status": "active",
+      "price_now": 28199,
+      "change": 0,
+      "best_price_any": 27999,
+      "best_change": -200,
+      "seen_on": {
+        "CG": 28199,
+        "KBB": 27999,
+        "CarMax": null,
+        "AT": "CarGurus:$28199"
+      },
+      "dom": 88,
+      "url": "https://www.cargurus.com/Cars/listing/448185375"
+    },
+    {
+      "rank": 2,
+      "year": 2022,
+      "trim": "2.5 Turbo AWD",
+      "dealer": "Acura of Seattle",
+      "vin": "JM3KFBAY6N0592364",
+      "price0": 27300,
+      "status": "removed",
+      "price_now": null,
+      "change": null,
+      "best_price_any": 27300,
+      "best_change": 0,
+      "seen_on": {
+        "CG": 27300,
+        "KBB": null,
+        "CarMax": null,
+        "AT": null
+      },
+      "dom": 48,
+      "url": "https://www.cargurus.com/Cars/listing/451655500"
+    },
+    {
+      "rank": 3,
+      "year": 2021,
+      "trim": "GT Reserve (2.5T)",
+      "dealer": "BMW Seattle",
+      "vin": "JM3KFBAY5M0463157",
+      "price0": 24999,
+      "status": "active",
+      "price_now": 24999,
+      "change": 0,
+      "best_price_any": 24999,
+      "best_change": 0,
+      "seen_on": {
+        "CG": null,
+        "KBB": null,
+        "CarMax": null,
+        "AT": "Cars.com:$24999"
+      },
+      "dom": null,
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/787237825"
+    },
+    {
+      "rank": 4,
+      "year": 2021,
+      "trim": "Carbon Edition",
+      "dealer": "Ron Tonkin Honda",
+      "vin": "JM3KFBCYXM0385696",
+      "price0": 26512,
+      "status": "active",
+      "price_now": 26512,
+      "change": 0,
+      "best_price_any": 26302,
+      "best_change": -210,
+      "seen_on": {
+        "CG": 26302,
+        "KBB": 26512,
+        "CarMax": null,
+        "AT": "CarGurus:$26302"
+      },
+      "dom": null,
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/782577606"
+    },
+    {
+      "rank": 5,
+      "year": 2021,
+      "trim": "Grand Touring AWD",
+      "dealer": "Hyundai of Kirkland",
+      "vin": "JM3KFBDM3M0301052",
+      "price0": 25192,
+      "status": "active",
+      "price_now": 25192,
+      "change": 0,
+      "best_price_any": 25192,
+      "best_change": 0,
+      "seen_on": {
+        "CG": 25192,
+        "KBB": 25192,
+        "CarMax": null,
+        "AT": "CarGurus:$25192"
+      },
+      "dom": 47,
+      "url": "https://www.cargurus.com/Cars/listing/451807182"
+    },
+    {
+      "rank": 6,
+      "year": 2021,
+      "trim": "Carbon Ed Turbo AWD",
+      "dealer": "Puyallup Mazda",
+      "vin": "JM3KFBDYXM0120596",
+      "price0": 25198,
+      "status": "active",
+      "price_now": 25198,
+      "change": 0,
+      "best_price_any": 24998,
+      "best_change": -200,
+      "seen_on": {
+        "CG": 25198,
+        "KBB": 24998,
+        "CarMax": null,
+        "AT": "CarGurus:$25198"
+      },
+      "dom": 68,
+      "url": "https://www.cargurus.com/Cars/listing/449972241"
+    },
+    {
+      "rank": 7,
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition",
+      "dealer": "Lee Johnson Mazda",
+      "vin": "JM3KFBCM4N0546820",
+      "price0": 26972,
+      "status": "active",
+      "price_now": 27512,
+      "change": 540,
+      "best_price_any": 27512,
+      "best_change": 540,
+      "seen_on": {
+        "CG": 27512,
+        "KBB": 27512,
+        "CarMax": null,
+        "AT": "CarGurus:$27512"
+      },
+      "dom": 29,
+      "url": "https://www.cargurus.com/Cars/listing/453287059"
+    },
+    {
+      "rank": 8,
+      "year": 2023,
+      "trim": "2.5 S Preferred",
+      "dealer": "Royal Moore Mazda",
+      "vin": "JM3KFBCM6P0274841",
+      "price0": 26900,
+      "status": "active",
+      "price_now": 26900,
+      "change": 0,
+      "best_price_any": 26900,
+      "best_change": 0,
+      "seen_on": {
+        "CG": 26900,
+        "KBB": 26900,
+        "CarMax": null,
+        "AT": "Cars.com:$26900"
+      },
+      "dom": 14,
+      "url": "https://www.cargurus.com/Cars/listing/454567468"
+    },
+    {
+      "rank": 9,
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition",
+      "dealer": "Puyallup Mazda",
+      "vin": "JM3KFBCMXP0288130",
+      "price0": 27699,
+      "status": "active",
+      "price_now": 27699,
+      "change": 0,
+      "best_price_any": 27499,
+      "best_change": -200,
+      "seen_on": {
+        "CG": 27699,
+        "KBB": 27499,
+        "CarMax": null,
+        "AT": "CarGurus:$27699"
+      },
+      "dom": 57,
+      "url": "https://www.cargurus.com/Cars/listing/450917825"
+    },
+    {
+      "rank": 10,
+      "year": 2023,
+      "trim": "2.5 S Preferred",
+      "dealer": "Columbia Sales & Service",
+      "vin": "JM3KFBCM9P0119426",
+      "price0": 24095,
+      "status": "active",
+      "price_now": 23995,
+      "change": -100,
+      "best_price_any": 23995,
+      "best_change": -100,
+      "seen_on": {
+        "CG": 23995,
+        "KBB": null,
+        "CarMax": null,
+        "AT": "CarGurus:$23995"
+      },
+      "dom": null,
+      "url": "https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/"
+    },
+    {
+      "rank": 11,
+      "year": 2022,
+      "trim": "Carbon Edition",
+      "dealer": "CarMax Sacramento, CA",
+      "vin": "JM3KFBCM0N1599511",
+      "price0": 24998,
+      "status": "removed",
+      "price_now": null,
+      "change": null,
+      "best_price_any": null,
+      "best_change": null,
+      "seen_on": {
+        "CG": null,
+        "KBB": null,
+        "CarMax": null,
+        "AT": null
+      },
+      "dom": null,
+      "url": "https://www.carmax.com/car/70056694"
+    }
+  ],
+  "newCandidates": [
+    {
+      "source": "CarGurus",
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD",
+      "miles": 40402,
+      "price": 25998,
+      "dealer": "CarMax Texas Stadium (Irving)",
+      "city": "Irving, TX",
+      "vin": "JM3KFBCM2P0182660",
+      "dealRating": "Good Deal",
+      "belowMarket": 385,
+      "kbbFppDelta": null,
+      "daysOnMarket": 20,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "url": "https://www.cargurus.com/Cars/listing/454058854",
+      "alsoOn": [
+        "CarMax"
+      ],
+      "score": 20630
+    },
+    {
+      "source": "CarGurus",
+      "year": 2023,
+      "trim": "2.5 S Premium AWD",
+      "miles": 31166,
+      "price": 27998,
+      "dealer": "CarMax Renton",
+      "city": "Renton, WA",
+      "vin": "JM3KFBDM0P0215315",
+      "dealRating": "Good Deal",
+      "belowMarket": 298,
+      "kbbFppDelta": null,
+      "daysOnMarket": 2,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "url": "https://www.cargurus.com/Cars/listing/455754266",
+      "alsoOn": [
+        "CarMax"
+      ],
+      "score": 20587
+    },
+    {
+      "source": "CarGurus",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition AWD",
+      "miles": 40256,
+      "price": 25998,
+      "dealer": "CarMax Clermont",
+      "city": "Clermont, FL",
+      "vin": "JM3KFBCM1P0274214",
+      "dealRating": "Fair Deal",
+      "belowMarket": -151,
+      "kbbFppDelta": null,
+      "daysOnMarket": 42,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "url": "https://www.cargurus.com/Cars/listing/452224990",
+      "alsoOn": [
+        "CarMax"
+      ],
+      "score": 10245
+    },
+    {
+      "source": "KBB",
+      "year": 2021,
+      "trim": "Touring",
+      "miles": 21391,
+      "price": 27999,
+      "dealer": "Mazda of Everett",
+      "city": "Everett, WA",
+      "vin": "JM3KFBCM7M0308619",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": 331,
+      "daysOnMarket": 2,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/787834756",
+      "alsoOn": [
+        "Cars.com"
+      ],
+      "score": 655
+    },
+    {
+      "source": "KBB",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 23182,
+      "price": 28998,
+      "dealer": "Rodland Toyota",
+      "city": "Everett, WA",
+      "vin": "JM3KFBCMXP0160065",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": -548,
+      "daysOnMarket": 10,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/787184706",
+      "alsoOn": [],
+      "score": 320
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Preferred Package",
+      "miles": 7575,
+      "price": 27998,
+      "dealer": "CarMax Fremont",
+      "city": "Fremont, CA",
+      "vin": "JM3KFBCM2N0649086",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70047621",
+      "alsoOn": [],
+      "score": -27
+    },
+    {
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Touring",
+      "miles": 14578,
+      "price": 25998,
+      "dealer": "CarMax Dulles",
+      "city": "Sterling, VA",
+      "vin": "JM3KFACM6M0475161",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70112299",
+      "alsoOn": [],
+      "score": -56
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 16990,
+      "price": 27998,
+      "dealer": "CarMax Henderson",
+      "city": "Henderson, NV",
+      "vin": "JM3KFBCM4P0288754",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70145262",
+      "alsoOn": [],
+      "score": -61
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Preferred Package",
+      "miles": 17099,
+      "price": 26998,
+      "dealer": "CarMax Smithtown",
+      "city": "Saint James, NY",
+      "vin": "JM3KFBCM9N1593562",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70080504",
+      "alsoOn": [],
+      "score": -63
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 17784,
+      "price": 27998,
+      "dealer": "CarMax Stockton",
+      "city": "Stockton, CA",
+      "vin": "JM3KFBCM5P0198254",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70094751",
+      "alsoOn": [],
+      "score": -64
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 20460,
+      "price": 27998,
+      "dealer": "CarMax El Paso",
+      "city": "El Paso, TX",
+      "vin": "JM3KFBCM8P0129154",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70080108",
+      "alsoOn": [],
+      "score": -73
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 20205,
+      "price": 26998,
+      "dealer": "CarMax Naples",
+      "city": "Naples, FL",
+      "vin": "JM3KFBCM4P0130818",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28753989",
+      "alsoOn": [],
+      "score": -75
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "Carbon Edition",
+      "miles": 21719,
+      "price": 27998,
+      "dealer": "CarMax Garland",
+      "city": "Garland, TX",
+      "vin": "JM3KFBCM7N1543288",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70136720",
+      "alsoOn": [],
+      "score": -78
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 22215,
+      "price": 26998,
+      "dealer": "CarMax Jensen Beach",
+      "city": "Jensen Beach, FL",
+      "vin": "JM3KFBCM7P0182847",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28602647",
+      "alsoOn": [],
+      "score": -82
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "Turbo",
+      "miles": 23947,
+      "price": 27998,
+      "dealer": "CarMax Henderson",
+      "city": "Henderson, NV",
+      "vin": "JM3KFBAY4N0643280",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28975907",
+      "alsoOn": [],
+      "score": -86
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 30386,
+      "price": 26998,
+      "dealer": "CarMax Doral",
+      "city": "Doral, FL",
+      "vin": "JM3KFBCM7P0272726",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70108130",
+      "alsoOn": [],
+      "score": -113
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "Turbo",
+      "miles": 31699,
+      "price": 27998,
+      "dealer": "CarMax Fremont",
+      "city": "Fremont, CA",
+      "vin": "JM3KFBAY5N0633535",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70070314",
+      "alsoOn": [],
+      "score": -113
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 30119,
+      "price": 25998,
+      "dealer": "CarMax Jackson (MS)",
+      "city": "Jackson, MS",
+      "vin": "JM3KFBCM9P0285204",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28609531",
+      "alsoOn": [],
+      "score": -116
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "miles": 32600,
+      "price": 26998,
+      "dealer": "CarMax Killeen",
+      "city": "Killeen, TX",
+      "vin": "JM3KFBDM3P0292678",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70140220",
+      "alsoOn": [],
+      "score": -121
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "miles": 33191,
+      "price": 26998,
+      "dealer": "CarMax Edison",
+      "city": "Edison, NJ",
+      "vin": "JM3KFBDM0P0239663",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28910314",
+      "alsoOn": [],
+      "score": -123
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 31990,
+      "price": 25998,
+      "dealer": "CarMax Norcross",
+      "city": "Norcross, GA",
+      "vin": "JM3KFBCM7P0265775",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/28888239",
+      "alsoOn": [],
+      "score": -123
+    },
+    {
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Premium Package",
+      "miles": 35539,
+      "price": 26998,
+      "dealer": "CarMax Ontario",
+      "city": "Ontario, CA",
+      "vin": "JM3KFBDM8N1523775",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70166411",
+      "alsoOn": [],
+      "score": -132
+    },
+    {
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 34834,
+      "price": 25998,
+      "dealer": "CarMax White Marsh",
+      "city": "White Marsh, MD",
+      "vin": "JM3KFBCM0P0251281",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/29097548",
+      "alsoOn": [],
+      "score": -134
+    },
+    {
+      "source": "CarSoup",
+      "year": 2023,
+      "trim": "25 S Preferred Package",
+      "miles": 34718,
+      "price": 25849,
+      "dealer": "Owatonna Motor Company",
+      "city": "Owatonna, MN",
+      "vin": "JM3KFBCMXP0260618",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": null,
+      "alsoOn": [],
+      "score": -134
+    },
+    {
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Touring",
+      "miles": 33860,
+      "price": 24998,
+      "dealer": "CarMax Capitol Expressway",
+      "city": "San Jose, CA",
+      "vin": "JM3KFBCMXM0497508",
+      "dealRating": null,
+      "belowMarket": null,
+      "kbbFppDelta": null,
+      "daysOnMarket": null,
+      "oneOwner": null,
+      "accidents": null,
+      "cpo": null,
+      "url": "https://www.carmax.com/car/70034867",
+      "alsoOn": [],
+      "score": -135
+    }
+  ],
+  "newDropped": [
+    {
+      "vin": "JM3KFBCM6N0572187",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM5N0594666",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 24990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM2N0649251",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 25990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM2N1551752",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM1M0470519",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Touring Sport Utility 4D",
+      "price": 23590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBMXP0184562",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 27590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM3P0150329",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Sport Utility 4D",
+      "price": 27990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM0N0646007",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Premium Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFABM9M1305811",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Sport SUV 4D",
+      "price": 27990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM5P0269664",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 25990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAY1P0224760",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 Turbo Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM4P0190844",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM3P0229209",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 27590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM1P0292583",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 28990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFABM3M1315864",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Sport SUV 4D",
+      "price": 23990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM5M0446921",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Touring Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFACY0M0410499",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Carbon Edition Turbo Sport Utility 4D",
+      "price": 28990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM3P0267591",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Sport Utility 4D",
+      "price": 25590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM0P0128127",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 27590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM3N0573636",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 25990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4N0575413",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM6M0368553",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Touring Sport Utility 4D",
+      "price": 25590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4N1623650",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFACYXM0382310",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Carbon Edition Turbo Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM9P0286047",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Sport Utility 4D",
+      "price": 23990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM0P0222444",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM6N0530893",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 25590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM7M0376564",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Touring Sport Utility 4D",
+      "price": 24590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCMXP0168439",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCMXP0284093",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 27990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4N0644634",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 28990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4P0210359",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 28990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM7P0270848",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Sport Utility 4D",
+      "price": 24590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM8P0274860",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAY7N0639532",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 Turbo Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4N1618786",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 27590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM9P0174492",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 24990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM3P0260169",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Sport Utility 4D",
+      "price": 25990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAY9P0223548",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 Turbo Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM5P0281571",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBEM9P0130178",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus Sport Utility 4D",
+      "price": 28590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAY3P0289318",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 Turbo Sport Utility 4D",
+      "price": 28990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBAY2M0430603",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Grand Touring Reserve Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFACM9M0441716",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Touring Sport Utility 4D",
+      "price": 22990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM5P0119892",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 28590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM9P0286773",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCMXP0132489",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Preferred Sport Utility 4D",
+      "price": 24990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBEM0P0152358",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM8P0213619",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "price": 26990,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM7P0250324",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Select Sport Utility 4D",
+      "price": 27590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM9P0112443",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Sport Utility 4D",
+      "price": 25590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBEY2M0393174",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Signature Sport Utility 4D",
+      "price": 26590,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM1P0193844",
+      "source": "CarGurus",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition AWD",
+      "price": 25696,
+      "reasons": [
+        "accident"
+      ]
+    },
+    {
+      "vin": "JM3KFBAM9P0231663",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S",
+      "price": 23998,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBMXP0166031",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Select Package",
+      "price": 24998,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM9N1527742",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Select Package",
+      "price": 26998,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM2P0251770",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Select Package",
+      "price": 26998,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM2P0211043",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Select Package",
+      "price": 26998,
+      "reasons": [
+        "unwanted trim"
+      ]
+    },
+    {
+      "vin": "JM3KFADM7M1358150",
+      "source": "KBB",
+      "year": 2021,
+      "trim": "Grand Touring",
+      "price": 26975,
+      "reasons": [
+        "accident"
+      ]
+    }
+  ],
+  "goneVins": [
+    {
+      "vin": "JM3KFBCM3N0649064",
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition",
+      "price": 28245,
+      "dealer": "Ron Tonkin Acura",
+      "source": "Cars.com"
+    },
+    {
+      "vin": "JM3KFBEM6P0273606",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus AWD",
+      "price": 28988,
+      "dealer": "Olympia Mazda",
+      "source": "CarGurus"
+    },
+    {
+      "vin": "JM3KFBCM1P0116648",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition AWD",
+      "price": 26998,
+      "dealer": "CarMax Boise (Meridian)",
+      "source": "CarGurus"
+    },
+    {
+      "vin": "JM3KFBEY8M0387654",
+      "year": 2021,
+      "trim": "Signature AWD",
+      "price": 28199,
+      "dealer": "Mazda of Salem",
+      "source": "CarGurus"
+    },
+    {
+      "vin": "JM3KFBCMXM0489585",
+      "year": 2021,
+      "trim": "Touring",
+      "price": 26998,
+      "dealer": "CarMax Laurel",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM4N0549216",
+      "year": 2022,
+      "trim": "2.5 S Preferred Package",
+      "price": 25998,
+      "dealer": "CarMax Lithia Springs",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBDM8M1480246",
+      "year": 2021,
+      "trim": "Grand Touring",
+      "price": 26998,
+      "dealer": "CarMax Frederick",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM4M0434114",
+      "year": 2021,
+      "trim": "Carbon Edition",
+      "price": 26998,
+      "dealer": "CarMax Rochester",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBDM3N1522050",
+      "year": 2022,
+      "trim": "2.5 S Premium Package",
+      "price": 26998,
+      "dealer": "CarMax Sacramento South",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFADM7M1303696",
+      "year": 2021,
+      "trim": "Grand Touring",
+      "price": 25998,
+      "dealer": "CarMax Ocala",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM9P0264756",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "price": 26998,
+      "dealer": "CarMax Tallahassee",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM2N0527067",
+      "year": 2022,
+      "trim": "25 S Carbon Edition",
+      "price": 26840,
+      "dealer": "Luther Burnsville Hyundai",
+      "source": "CarSoup"
+    },
+    {
+      "vin": "JM3KFBCM1N1572740",
+      "year": 2022,
+      "trim": "2.5 S Preferred Package",
+      "price": 25998,
+      "dealer": "CarMax Charleston",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM2N1571712",
+      "year": 2022,
+      "trim": "2.5 S Preferred Package",
+      "price": 26998,
+      "dealer": "CarMax Garland",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM0N0630228",
+      "year": 2022,
+      "trim": "Carbon Edition",
+      "price": 26998,
+      "dealer": "CarMax Midlothian",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM5P0239904",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "price": 25998,
+      "dealer": "CarMax Austin North",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBDM0M0322005",
+      "year": 2021,
+      "trim": "Grand Touring",
+      "price": 25998,
+      "dealer": "CarMax Fremont",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBEM9P0132027",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "price": 26998,
+      "dealer": "CarMax Palmdale",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFACM6M0335482",
+      "year": 2021,
+      "trim": "Touring",
+      "price": 25998,
+      "dealer": "CarMax Phoenix-Gilbert",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBDM1N1630621",
+      "year": 2022,
+      "trim": "2.5 S Premium Package",
+      "price": 26998,
+      "dealer": "CarMax Merrillville",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM0M0470818",
+      "year": 2021,
+      "trim": "Touring",
+      "price": 24998,
+      "dealer": "CarMax Loveland",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCMXP0173964",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "price": 24998,
+      "dealer": "CarMax Parker",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM4P0287801",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "price": 26998,
+      "dealer": "CarMax Phoenix-Gilbert",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM0P0163640",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "price": 25998,
+      "dealer": "CarMax Salt Lake (South Jordan)",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBAMXN0648853",
+      "year": 2022,
+      "trim": "2.5 S",
+      "price": 22998,
+      "dealer": "CarMax Murrieta",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBDM0M1434300",
+      "year": 2021,
+      "trim": "Grand Touring",
+      "price": 25998,
+      "dealer": "CarMax Westborough",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM6M0484075",
+      "year": 2021,
+      "trim": "Touring",
+      "price": 23998,
+      "dealer": "CarMax Buford",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM0N1599511",
+      "year": 2022,
+      "trim": "Carbon Edition",
+      "price": 24998,
+      "dealer": "CarMax Sacramento South",
+      "source": "CarMax"
+    },
+    {
+      "vin": "JM3KFBCM9M0320352",
+      "year": 2021,
+      "trim": "Touring",
+      "price": 23998,
+      "dealer": "CarMax Virginia Beach",
+      "source": "CarMax"
+    }
+  ],
+  "newDealers": {
+    "CarMax Renton": "Renton, WA",
+    "Rodland Toyota": "Everett, WA",
+    "CarMax Fremont": "Fremont, CA",
+    "CarMax Santa Rosa": "Santa Rosa, CA"
+  },
+  "curatedAdditions": [
+    {
+      "slot": "replaces #11 (no-haggle floor)",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium",
+      "miles": 31166,
+      "price": 27998,
+      "dealer": "CarMax Renton",
+      "city": "Renton, WA",
+      "xfer": 0,
+      "vin": "JM3KFBDM0P0215315",
+      "hist": "1-own/0-acc (via CG)",
+      "url": "https://www.carmax.com/car/70134808",
+      "cgUrl": "https://www.cargurus.com/Cars/listing/455754266",
+      "rationale": "Only new in-WA CarMax unit; zero transfer; Premium > old #11 Carbon; CG-verified 1-own/0-acc"
+    },
+    {
+      "slot": "replaces #2 (turbo)",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 Turbo",
+      "miles": 35396,
+      "price": 26990,
+      "dealer": "Carvana",
+      "city": "San Antonio, TX (delivers)",
+      "vin": "JM3KFBAY1P0224760",
+      "hist": "unverified",
+      "url": "https://www.carvana.com/vehicle/4463370",
+      "rationale": "Cheapest 2023 Turbo anywhere, $1209 under #1, newer than sold #2"
+    },
+    {
+      "slot": "alt for #2",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "Turbo",
+      "miles": 31699,
+      "price": 27998,
+      "dealer": "CarMax Fremont",
+      "city": "Fremont, CA",
+      "xfer": 449,
+      "vin": "JM3KFBAY5N0633535",
+      "hist": "unverified",
+      "url": "https://www.carmax.com/car/70070314",
+      "rationale": "Direct like-for-like #2 replacement, no-haggle"
+    },
+    {
+      "slot": "bench",
+      "source": "Carvana",
+      "year": 2021,
+      "trim": "Carbon Edition Turbo",
+      "miles": 26610,
+      "price": 26990,
+      "dealer": "Carvana",
+      "city": "Greenfield, IN (delivers)",
+      "vin": "JM3KFACYXM0382310",
+      "hist": "unverified",
+      "url": "https://www.carvana.com/vehicle/4610436",
+      "rationale": "Low-mile 2021 turbo; alt to #6"
+    },
+    {
+      "slot": "bench",
+      "source": "Carvana",
+      "year": 2022,
+      "trim": "2.5 Turbo",
+      "miles": 42903,
+      "price": 26990,
+      "dealer": "Carvana",
+      "city": "Tooele, UT (delivers)",
+      "vin": "JM3KFBAY7N0639532",
+      "hist": "unverified",
+      "url": "https://www.carvana.com/vehicle/4580675",
+      "rationale": "Second 2022 turbo under $27k"
+    },
+    {
+      "slot": "bench",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Premium Plus",
+      "miles": 44686,
+      "price": 25998,
+      "dealer": "CarMax Santa Rosa",
+      "city": "Santa Rosa, CA",
+      "xfer": 449,
+      "vin": "JM3KFBEM3N0628406",
+      "hist": "unverified",
+      "url": "https://www.carmax.com/car/28707351",
+      "rationale": "Cheapest Premium Plus in dataset"
+    },
+    {
+      "slot": "bench (local, weak)",
+      "source": "KBB",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 23182,
+      "price": 28998,
+      "dealer": "Rodland Toyota",
+      "city": "Everett, WA",
+      "vin": "JM3KFBCMXP0160065",
+      "hist": "1-own/0-acc",
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/787184706",
+      "kbbFppDelta": -548,
+      "rationale": "Only new local franchise listing that passes; $548 over FPP, not competitive with #9"
+    }
+  ],
+  "notNewButMoved": [
+    {
+      "vin": "JM3KFBDM7P0281828",
+      "year": 2023,
+      "trim": "2.5 S Premium",
+      "dealer": "Rodland Toyota of Everett",
+      "city": "Everett, WA",
+      "price0": 28999,
+      "price": 28487,
+      "change": -512,
+      "miles": 17505,
+      "oneOwner": true,
+      "accidents": 0,
+      "belowMarket": 790,
+      "url": "https://www.cargurus.com/Cars/listing/453332129",
+      "note": "lowest-mile Premium locally, would slot near #8"
+    },
+    {
+      "vin": "JM3KFBCM2P0174560",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition",
+      "dealer": "Titus-Will Used Cars",
+      "city": "Olympia, WA",
+      "price0": 27760,
+      "price": 27260,
+      "change": -500,
+      "miles": 28928,
+      "oneOwner": false,
+      "accidents": 0,
+      "belowMarket": 757,
+      "url": "https://www.cargurus.com/Cars/listing/453420840",
+      "note": "cheaper than #9 by $439, 4k fewer mi, but 2-own & not CPO"
+    }
+  ]
+}

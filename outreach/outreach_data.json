@@ -122,10 +122,10 @@
       "miles": 39146,
       "miles_note": "KBB spec block now reads 39,141",
       "price_aug7": 24999,
-      "price_now": 24999,
-      "price_change": 0,
-      "status": "active",
-      "status_detail": "RE-LISTED, NOT SOLD (2026-08-11 PM). The old KBB listing 787237825 now redirects to a search page (expired) and the bmwseattle.com VIN URL redirects to their new-car search — BUT BMW Seattle re-listed the car: NEW CarGurus listing 455054228 at $24,999 ('price includes fees', $24,799 + $200 doc), 39,141 mi, Good Deal, days-on-market counter RESET to 9; also live on Cars.com at $24,999. Use the new URLs; the DOM reset hides that it has really been for sale since ~July.",
+      "price_now": null,
+      "price_change": null,
+      "status": "sold",
+      "status_detail": "SOLD — BMW Seattle told Evan directly on 2026-08-11 that the car sold. Dealer word supersedes the listings: the new CarGurus listing 455054228 still rendered active at $24,999 when re-checked the same day (syndicated feeds lag sales by days), but the KBB expiry and the dead dealer-site VIN URL were the real signals. Drop from outreach; do not contact.",
       "vin": "JM3KFBAY5M0463157",
       "stock": "463157ML2",
       "cpo": false,
@@ -162,7 +162,7 @@
         "https://www.kbb.com/cars-for-sale/vehicle/787237825 (expired Aug 11)",
         "https://www.bmwseattle.com/inventory/JM3KFBAY5M0463157?stocknum=463157ML2 (URL dead; car still in stock)"
       ],
-      "v3_recheck": "active - re-listed as CarGurus 455054228 @ $24,999 (DOM reset to 9); KBB listing expired"
+      "v3_recheck": "sold - dealer-confirmed to Evan 2026-08-11; CarGurus 455054228 still shows active (stale syndication), KBB expired, dealer VIN URL dead"
     },
     {
       "rank": 4,
@@ -557,25 +557,28 @@
       "dealer_key": "dougs_lynnwood_mazda",
       "listing_url": "https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/",
       "notes": "WA Mazda dealer GT with a $900-drop badge but still priced $3.5k over #5 for similar content — only worth a call if #5 and #3 die. Ask whether it carries the GT Premium package (would add ventilated seats).",
-      "source": "v3 new scan 2026-08-11 PM"
+      "source": "v3 new scan 2026-08-11 PM",
+      "status": "sold",
+      "status_detail": "SOLD - alex@mazda.dougs.com 2026-08-11 17:59Z: 'this vehicle has been sold yesterday.'"
     },
     {
       "rank": 17,
       "year": 2021,
       "model": "CX-5",
-      "trim": "Grand Touring AWD",
+      "trim": "Grand Touring w/ GT Premium Package AWD (verified: Autotrader VDP title)",
       "state": "WA",
       "miles": 30066,
       "price_now": 25799,
       "vin": null,
       "cpo": false,
-      "ventilated_seats": null,
+      "ventilated_seats": true,
       "dealer": "Auto 206 Inc., Kent (independent)",
       "dealer_key": "auto206",
       "listing_url": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
       "alt_listing_url": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
-      "notes": "Cheapest GT after #5. Independent lot — no deal rating shown on Autotrader; pull AutoCheck/Carfax and verify title before contact. Ask about GT Premium package.",
-      "source": "v3 new scan 2026-08-11 PM"
+      "notes": "UPGRADED FIND (v3 form wave): the Autotrader VDP titles it 'Grand Touring w/ GT Premium Package' - VENTILATED SEATS at $25,799, making it the third vented WA car and only ~$600 over #5. Deep Crystal Blue, 26 photos, Low Miles badge. Independent lot (Auto 206, Kent) - AutoCheck/Carfax and inspection still mandatory before any money talk. OTD request submitted via Autotrader form 2026-08-11 PM.",
+      "source": "v3 new scan 2026-08-11 PM",
+      "accident_history": "CARFAX (provided by dealer, VIN JM3KFBDM0M0305902): ACCIDENT 06/19/2024, rear-end collision, minor-to-moderate damage, airbags did not deploy. Otherwise: 1-owner WA personal vehicle, 17 service records, regular oil changes at a Mazda dealership. FAILS the brief's no-accident rule."
     },
     {
       "rank": 18,
@@ -593,7 +596,9 @@
       "listing_url": "https://www.cargurus.com/Cars/listing/450670232",
       "alt_listing_url": "https://www.cars.com/vehicledetail/0abdba65-e836-4fd7-a5c0-952399497e8f/",
       "notes": "Low-mile 2023 Preferred, 'No Accidents' per Autotrader, Good Deal, 60 days on market (leverage). Independent lot — Carfax + inspection before any money talk.",
-      "source": "v3 new scan 2026-08-11 PM"
+      "source": "v3 new scan 2026-08-11 PM",
+      "status": "sold",
+      "status_detail": "SOLD - keith@autocob.com (GM Keith Dinsmore) 2026-08-11 18:51Z: 'we just sold this vehicle.'"
     },
     {
       "rank": 19,
@@ -888,61 +893,56 @@
       },
       {
         "comfort_rank": 2,
-        "car": 3,
-        "why": "GT Reserve = same comfort content + turbo, $24,999, in Seattle, just RE-LISTED (KBB expired, new CarGurus listing, DOM reset). Cheapest ventilated-seat car."
-      },
-      {
-        "comfort_rank": 3,
         "car": 12,
         "why": "NEW: Mazda CPO 2023 Preferred $26,348 at Lee Johnson Seattle — newest + CPO warranty at a real Mazda store; leather/heated/moonroof, no vents."
       },
       {
-        "comfort_rank": 4,
+        "comfort_rank": 3,
         "car": 13,
         "why": "NEW: 2022 Premium Plus $27,389 Olympia — ventilated seats + HUD + heated rears, no accidents; CarBravo (not Mazda) certified; 43.6k mi."
       },
       {
-        "comfort_rank": 5,
+        "comfort_rank": 4,
         "car": 4,
         "why": "Carbon Edition TURBO (confirmed) at $26,102 on the dealer's own site — leather, loaded, big value; OR dealer = fallback tier by brief."
       },
       {
-        "comfort_rank": 6,
+        "comfort_rank": 5,
         "car": 14,
         "why": "NEW: 2023 Premium, only 17.5k mi, $28,287+$200, Everett. Newest+freshest miles; near the cap."
       },
       {
-        "comfort_rank": 7,
+        "comfort_rank": 6,
         "car": 15,
         "why": "NEW: CarMax Renton 2023 Premium $27,998 no-haggle, in-state — the benchmark every negotiated OTD must beat."
       },
       {
-        "comfort_rank": 8,
+        "comfort_rank": 7,
         "car": 9,
         "why": "Mazda CPO 2023 Carbon $27,699 Puyallup — CPO warranty to 2030/100k; leatherette/suede, no vents."
       },
       {
-        "comfort_rank": 9,
+        "comfort_rank": 8,
         "car": 7,
         "why": "Mazda CPO 2022 Carbon $27,512 Seattle — held its +$540 raise; #12 at the same store is newer and cheaper."
       },
       {
-        "comfort_rank": 10,
+        "comfort_rank": 9,
         "car": 1,
         "why": "2023 2.5 Turbo $27,999 (dealer site) / $28,199 CG — NOT sold after all; loaded turbo, 27,990 mi, 88+ days + drops = negotiable."
       },
       {
-        "comfort_rank": 11,
+        "comfort_rank": 10,
         "car": 8,
         "why": "2023 Preferred 16,612 mi $26,900 no-dealer-fees — great car, but OR and its group's own #20 is now $400 cheaper."
       },
       {
-        "comfort_rank": 12,
+        "comfort_rank": 11,
         "car": 6,
         "why": "Carbon Turbo $25,198 Puyallup — cheapest tracked turbo but 42.5k mi and mid comfort tier."
       },
       {
-        "comfort_rank": 13,
+        "comfort_rank": 12,
         "car": 10,
         "why": "2023 Preferred $24,095 OR indie — price floor of the set; Carfax + inspection required."
       }
@@ -956,19 +956,22 @@
     ],
     "sold_removed": [
       2,
+      3,
       11
     ],
     "ventilated_seat_cars": [
-      3,
       5,
       13,
+      17,
       19
     ],
     "mazda_cpo_cars": [
       7,
       9,
       12
-    ]
+    ],
+    "note_2026_08_11_pm": "#3 (BMW Seattle GT Reserve) removed after the dealer confirmed the sale to Evan. Only remaining ventilated-seat cars: #5 (WA) and #13 (WA); #19 is the OR fallback.",
+    "note_17_upgrade": "#17 verified as GT w/ GT Premium Package (ventilated seats) during the v3 form wave - kept in secondary tier only because it's an independent lot pending AutoCheck; on comfort content it slots right behind #5."
   },
   "v3_watchlist": [
     {
@@ -1041,5 +1044,96 @@
       "url": "https://www.cars.com/vehicledetail/59d3b36d-7131-439c-a3b7-7b91343a454d/",
       "why_not": "Lowest-mile car found, but Select trim + OR."
     }
-  ]
+  ],
+  "offers_2026_08_11": {
+    "generated": "2026-08-11 PM sweep of evbarleyg@gmail.com (PDFs read in Gmail preview)",
+    "written_offers": [
+      {
+        "car": 17,
+        "dealer": "Auto 206, Kent (Robert Dwyer, President)",
+        "vehicle": "2021 CX-5 GT w/ GT Premium Pkg, 30,066 mi, VIN JM3KFBDM0M0305902",
+        "otd": 28718.6,
+        "line_items": {
+          "selling": 25400,
+          "discount_vs_list": -399,
+          "doc_fee": 0,
+          "license_est": 550,
+          "sales_tax": 2768.6,
+          "tax_rate_implied": "10.9% of selling"
+        },
+        "validity": "through Wed Aug 12, 7 PM; refundable-deposit 72-hour hold offered",
+        "sheet_quality": "CLEAN - no doc fee, no add-ons, tax on selling price only",
+        "disqualifier": "Carfax accident 06/2024 (rear-end, minor-moderate) - fails no-accident rule",
+        "verdict": "Best raw number on the board but the accident caps it. Options: decline politely, or if Evan waives the rule, counter deep (accident cars trade well under clean retail): ~$24,300 selling / ~$27,500 OTD, with a pre-purchase inspection condition.",
+        "source": "email Robert@auto206.com 20:57Z + cx-5.pdf + cx-5 carfax.pdf"
+      },
+      {
+        "car": 13,
+        "dealer": "Titus-Will Chevrolet GMC Cadillac Olympia (Amy, sales manager; Dylan)",
+        "vehicle": "2022 CX-5 2.5 S Premium Plus, 43,640 mi, VIN JM3KFBEM1N0590576, stock P11101",
+        "otd": 32229.17,
+        "line_items": {
+          "msrp_retail": 29999,
+          "discount": 2610,
+          "selling": 27389,
+          "KARR_security_ADDON": 995,
+          "government_fees": 750,
+          "doc_fee": 200,
+          "subtotal_taxed": 29334,
+          "total_taxes": 2895.17,
+          "tax_rate_implied": "9.87% of subtotal incl. add-on"
+        },
+        "sheet_quality": "PADDED - $995 'KARR Security' dealer add-on (classic strike-it fee, and it is being TAXED); $750 'Government Fees' is vague/high (license/title usually ~$550-600); doc $200 is the WA cap, fine. Tax computed at ~9.87% (Olympia-ish); WA vehicle tax is finalized at the buyer's registration address, so expect recalculation.",
+        "verdict": "Counter: strike KARR ($995 + ~$98 tax on it) and ask Government Fees be billed at actuals -> ~$31,100-31,300 OTD for the clean-history, CarBravo-certified, ventilated-seat Premium Plus. That is the number to compare against other finalists.",
+        "source": "email dferrians@twcgc.tituswillmail.com 21:29Z + Proposal.pdf (read in Gmail preview)"
+      }
+    ],
+    "no_numbers_yet": [
+      {
+        "car": 14,
+        "dealer": "Rodland Toyota",
+        "status": "Christina Cross intro'd, promised walk-around video and to 'confirm with my used car manager' - no numbers"
+      },
+      {
+        "car": "1/6/9",
+        "dealer": "Puyallup Mazda",
+        "status": "called Evan, promised to send the OTD - nothing received yet"
+      },
+      {
+        "car": 5,
+        "dealer": "Kirkland (hamid@)",
+        "status": "no reply to Evan's 07:00Z email yet"
+      },
+      {
+        "car": "7/12",
+        "dealer": "Lee Johnson",
+        "status": "no reply to Evan's 07:00Z email (ljtom@leejohnson.com) yet"
+      },
+      {
+        "car": 4,
+        "dealer": "Ron Tonkin (Izzy)",
+        "status": "engaged, no numbers yet"
+      },
+      {
+        "car": "8/20",
+        "dealer": "Royal Moore (Fernando/Ashley)",
+        "status": "negotiation live; Evan re-asked for itemized OTD 21:44Z"
+      },
+      {
+        "car": 10,
+        "dealer": "Columbia Sales & Service",
+        "status": "no reply to Evan's 06:59Z email yet"
+      }
+    ],
+    "newly_dead": [
+      {
+        "car": 16,
+        "note": "Doug's Lynnwood GT sold ('yesterday' per Alex 17:59Z)"
+      },
+      {
+        "car": 18,
+        "note": "Auto Connections of Bellevue 2023 Preferred sold (Keith 18:51Z)"
+      }
+    ]
+  }
 }
