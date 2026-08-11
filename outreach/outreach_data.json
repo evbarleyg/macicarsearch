@@ -578,7 +578,8 @@
       "alt_listing_url": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
       "notes": "UPGRADED FIND (v3 form wave): the Autotrader VDP titles it 'Grand Touring w/ GT Premium Package' - VENTILATED SEATS at $25,799, making it the third vented WA car and only ~$600 over #5. Deep Crystal Blue, 26 photos, Low Miles badge. Independent lot (Auto 206, Kent) - AutoCheck/Carfax and inspection still mandatory before any money talk. OTD request submitted via Autotrader form 2026-08-11 PM.",
       "source": "v3 new scan 2026-08-11 PM",
-      "accident_history": "CARFAX (provided by dealer, VIN JM3KFBDM0M0305902): ACCIDENT 06/19/2024, rear-end collision, minor-to-moderate damage, airbags did not deploy. Otherwise: 1-owner WA personal vehicle, 17 service records, regular oil changes at a Mazda dealership. FAILS the brief's no-accident rule."
+      "accident_history": "CARFAX (provided by dealer, VIN JM3KFBDM0M0305902): ACCIDENT 06/19/2024, rear-end collision, minor-to-moderate damage, airbags did not deploy. Otherwise: 1-owner WA personal vehicle, 17 service records, regular oil changes at a Mazda dealership. FAILS the brief's no-accident rule.",
+      "carfax_deep_read": "Full 7-page Carfax (2026-08-11): 06/19/2024 'Damage Report - minor to moderate - rear-end collision - DAMAGE TO FRONT AND REAR - airbags did not deploy'. No structural damage reported, no airbag deployment, title clean & guaranteed (no brands), odometer clean. NO repair record appears after the accident (repair quality unknown). 1 owner, WA only, 5,700 mi/yr, 17 service records - bought AND serviced its whole life at Doug's Lynnwood Mazda, incl. post-accident maintenance (07/2025, 11/2025, 05/2026, 06/2026) + a United Car Care service-contract claim 07/2025. Doug's took it in and offered it for sale 06/06/2026; it surfaced at Auto 206 (indie) by August - a franchise store chose not to keep retailing it. PPI with paint-depth + frame check mandatory."
     },
     {
       "rank": 18,
@@ -1065,7 +1066,8 @@
         "sheet_quality": "CLEAN - no doc fee, no add-ons, tax on selling price only",
         "disqualifier": "Carfax accident 06/2024 (rear-end, minor-moderate) - fails no-accident rule",
         "verdict": "Best raw number on the board but the accident caps it. Options: decline politely, or if Evan waives the rule, counter deep (accident cars trade well under clean retail): ~$24,300 selling / ~$27,500 OTD, with a pre-purchase inspection condition.",
-        "source": "email Robert@auto206.com 20:57Z + cx-5.pdf + cx-5 carfax.pdf"
+        "source": "email Robert@auto206.com 20:57Z + cx-5.pdf + cx-5 carfax.pdf",
+        "counter_staged": "Gmail draft staged 2026-08-11 PM (reply to Robert): $27,000 OTD (~$23,900 selling on his own tax/license math), contingent on clean independent PPI (paint-depth + frame), refundable-deposit hold offered. Rationale: front+rear damage, no repair record, clean-comp GT Premium at $25,192."
       },
       {
         "car": 13,
@@ -1085,7 +1087,8 @@
         },
         "sheet_quality": "PADDED - $995 'KARR Security' dealer add-on (classic strike-it fee, and it is being TAXED); $750 'Government Fees' is vague/high (license/title usually ~$550-600); doc $200 is the WA cap, fine. Tax computed at ~9.87% (Olympia-ish); WA vehicle tax is finalized at the buyer's registration address, so expect recalculation.",
         "verdict": "Counter: strike KARR ($995 + ~$98 tax on it) and ask Government Fees be billed at actuals -> ~$31,100-31,300 OTD for the clean-history, CarBravo-certified, ventilated-seat Premium Plus. That is the number to compare against other finalists.",
-        "source": "email dferrians@twcgc.tituswillmail.com 21:29Z + Proposal.pdf (read in Gmail preview)"
+        "source": "email dferrians@twcgc.tituswillmail.com 21:29Z + Proposal.pdf (read in Gmail preview)",
+        "counter_staged": "Gmail draft staged 2026-08-11 PM (reply to Amy/Dylan): strike KARR + gov fees at actuals -> ~$31.1-31.2k OTD."
       }
     ],
     "no_numbers_yet": [

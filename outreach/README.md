@@ -771,3 +771,16 @@ Full copy-paste text delivered in the session; summary of the plays:
 - Tonkin #4: anchor to own-site $25,852+$250; itemized OTD by email; no Oregon trip without a signed-off price.
 - Kirkland #5: same-day bump - front-runner status revealed as urgency lever, Friday lock.
 - Royal Moore: continue Fernando thread; fold Toyota-store #20 ($26,500, 16,969 mi) into the same quote. Lee Johnson: covered by parallel session's staged draft - do not double-send.
+
+### Gmail drafts staged (2026-08-11 PM - in Drafts, nothing sent)
+
+All six email-channel responses now sit in Gmail Drafts for Evan to review and send:
+
+1. Auto 206 (Robert) - accident counter: $27,000 OTD, PPI condition (paint-depth + frame), refundable hold. Carfax deep-read behind it: damage to BOTH front and rear (minor-moderate), no structural/airbag flags, clean guaranteed title, NO post-accident repair record, lifelong Doug's Lynnwood Mazda service, Doug's took it in 06/2026 and it flowed to the indie lot.
+2. Titus-Will (Amy/Dylan) - strike KARR $995 + tax on it, gov fees at actuals -> ~$31.1-31.2k OTD = final-three entry.
+3. Rodland (Christina) - numbers-not-photos, itemized OTD + Carfax, Friday deadline.
+4. Tonkin (Izzy) - anchor $25,852+$250 own-site, itemized OTD, no OR trip without a signed number.
+5. Kirkland (hamid, cc customerservice) - front-runner bump, Friday lock.
+6. Royal Moore (Ashley) - itemized OTD for #8 + fold in the Toyota store's #20 ($26,500, 16,969 mi) in the same email.
+
+Not staged: Puyallup (no email channel - SMS text from the session log), Lee Johnson (parallel session's staged draft - do not duplicate), Columbia (no response yet, low priority).
