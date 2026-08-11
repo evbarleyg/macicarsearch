@@ -725,3 +725,16 @@ Two written OTDs in hand; PDFs pulled from Gmail preview. Statuses: #16 Doug's G
 Still owed numbers: Puyallup (#1/#6/#9, promised by phone), Rodland (#14, manager reviewing), Kirkland (#5), Lee Johnson (#7/#12), Tonkin (#4), Royal Moore (#8/#20), Columbia (#10).
 
 Read-across: with #16/#18 sold and #17 accident-flagged, the live comfort-first board is #5 Kirkland GT Premium, #12 Lee Johnson CPO Preferred, #13 at ~$31.1k post-strike, #4 Tonkin Turbo $26,102 (leverage/fallback), #14 Rodland, #15 CarMax Renton $27,998 benchmark, then #9/#7/#1. The $28,718.60 Auto 206 sheet is the cleanest fee structure seen yet - use it as the "this is what a no-junk-fee quote looks like" reference in counters.
+
+## Reply drafts (2026-08-11 PM, staged for Evan - NOT sent)
+
+Full copy-paste text delivered in the session; summary of the plays:
+
+- Universal SMS redirect: email-only, 10-to-3, itemized OTD earns the test drive.
+- Titus-Will #13: strike KARR $995 (+ its tax) and bill gov fees at actuals -> revised sheet ~$31.1-31.2k OTD = final-three entry.
+- Auto 206 #17: Version A polite pass (accident rule) with strong praise for the clean sheet; Version B deep counter $27,500 OTD conditioned on a clean independent pre-purchase inspection, only if Evan waives the rule.
+- Puyallup #1/#6/#9: written-quote nudge naming all three stock numbers, Friday deadline.
+- Rodland #14: photos are not numbers; itemized OTD or off the list Friday.
+- Tonkin #4: anchor to own-site $25,852+$250; itemized OTD by email; no Oregon trip without a signed-off price.
+- Kirkland #5: same-day bump - front-runner status revealed as urgency lever, Friday lock.
+- Royal Moore: continue Fernando thread; fold Toyota-store #20 ($26,500, 16,969 mi) into the same quote. Lee Johnson: covered by parallel session's staged draft - do not double-send.
