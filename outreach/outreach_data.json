@@ -563,18 +563,18 @@
       "rank": 17,
       "year": 2021,
       "model": "CX-5",
-      "trim": "Grand Touring AWD",
+      "trim": "Grand Touring w/ GT Premium Package AWD (verified: Autotrader VDP title)",
       "state": "WA",
       "miles": 30066,
       "price_now": 25799,
       "vin": null,
       "cpo": false,
-      "ventilated_seats": null,
+      "ventilated_seats": true,
       "dealer": "Auto 206 Inc., Kent (independent)",
       "dealer_key": "auto206",
       "listing_url": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
       "alt_listing_url": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
-      "notes": "Cheapest GT after #5. Independent lot — no deal rating shown on Autotrader; pull AutoCheck/Carfax and verify title before contact. Ask about GT Premium package.",
+      "notes": "UPGRADED FIND (v3 form wave): the Autotrader VDP titles it 'Grand Touring w/ GT Premium Package' - VENTILATED SEATS at $25,799, making it the third vented WA car and only ~$600 over #5. Deep Crystal Blue, 26 photos, Low Miles badge. Independent lot (Auto 206, Kent) - AutoCheck/Carfax and inspection still mandatory before any money talk. OTD request submitted via Autotrader form 2026-08-11 PM.",
       "source": "v3 new scan 2026-08-11 PM"
     },
     {
@@ -957,6 +957,7 @@
     "ventilated_seat_cars": [
       5,
       13,
+      17,
       19
     ],
     "mazda_cpo_cars": [
@@ -964,7 +965,8 @@
       9,
       12
     ],
-    "note_2026_08_11_pm": "#3 (BMW Seattle GT Reserve) removed after the dealer confirmed the sale to Evan. Only remaining ventilated-seat cars: #5 (WA) and #13 (WA); #19 is the OR fallback."
+    "note_2026_08_11_pm": "#3 (BMW Seattle GT Reserve) removed after the dealer confirmed the sale to Evan. Only remaining ventilated-seat cars: #5 (WA) and #13 (WA); #19 is the OR fallback.",
+    "note_17_upgrade": "#17 verified as GT w/ GT Premium Package (ventilated seats) during the v3 form wave - kept in secondary tier only because it's an independent lot pending AutoCheck; on comfort content it slots right behind #5."
   },
   "v3_watchlist": [
     {

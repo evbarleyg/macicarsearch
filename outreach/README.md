@@ -662,3 +662,24 @@ Notes for Evan:
 - Ron Tonkin's own vehicle page now shows **$25,852 + $250 title/reg processing = $26,102 list** (below the $26,512 quoted in the email) and labels the car "Carbon Edition **Turbo**" — worth confirming the engine and using the lower advertised price when their OTD arrives.
 - Puyallup's lead is attached to the 2023 Turbo (YW29065); the message body names both stock numbers, so ask them to quote the 2021 Carbon Turbo (YS29241) too if their reply covers only one.
 - Expect auto-responder emails/texts from Puyallup and Royal Moore; reply STOP to any marketing texts.
+
+## Contact log — v3 form wave (2026-08-11 PM, submitted on Evan's instruction)
+
+Compact OTD-request text (Seattle buyer 98101, pre-approved, no trade, buying this week; itemized OTD + history report; email only) submitted through listing-site / dealer-site forms. Details used: Evan's name + Gmail; phone left blank except where noted; no marketing/consent boxes left ticked (KBB pre-checks two - both unticked; Autotrader pre-checks price-alerts - unticked). Before submitting, Gmail was checked for existing threads and the parallel outreach session's log was read; every dealer with a live thread was SKIPPED.
+
+| Dealer (car) | Channel | Outcome | Notes |
+|---|---|---|---|
+| Titus-Will Chevrolet GMC Cadillac Olympia (#13 Premium Plus) | KBB VDP form 784195725 | **Submitted** - "Success! Your email has been sent." | Phone autofilled by Chrome (Evan's real mobile) and left in place, matching the AM-wave precedent. Two pre-checked KBB marketing boxes unticked before send. |
+| Rodland Toyota of Everett (#14 2023 Premium) | KBB VDP form 785511078 | **Submitted** - "Success!" | Marketing boxes unticked. Their similar-cars module showed a newly-listed 2021 Touring w/ Touring Preferred SV at $22,999 - below the comfort bar, not pursued. |
+| Doug's Lynnwood Mazda (#16 2021 GT) | Cars.com VDP "Contact seller" form | **Submitted** - "Seller contacted. Your message was sent." | Phone left blank. Message asks specifically whether the car has the GT Premium Package. Static autodialer-consent text under the button (no checkbox); moot with no phone given. |
+| Auto 206, Kent (#17 2021 GT w/ GT Premium Pkg) | Autotrader VDP form 787629893 | **Submitted** - "Success!" | DISCOVERY: the VDP title confirms **GT Premium Package = ventilated seats** at $25,799 - third vented WA car, ~$600 over #5. Price-alerts box unticked. |
+| Auto Connections of Bellevue (#18 2023 Preferred) | Autotrader VDP form 782892304 | **Submitted** - "Success!" | Price-alerts box unticked. Phone left blank. |
+
+Skipped (existing thread or by design):
+- **#5 Kirkland** - Evan emailed hamid@fordofkirkland.com 07:00Z (thread live).
+- **#4 Ron Tonkin** - KBB inquiry 16:27Z, Izzy Hernandez replying (thread live; use own-site $25,852+$250 in the reply).
+- **#8 / #20 Royal Moore** - active negotiation with Fernando/Ashley; ask for #20's quote inside that thread.
+- **#7 / #12 Lee Johnson** - parallel outreach session has a two-car reply draft staged.
+- **#1 / #6 / #9 Puyallup** - AM form lead live; Puyallup called Evan and is sending the OTD - fold #9 into that quote when it arrives.
+- **#15 CarMax Renton** - no-haggle; nothing to request.
+- **#10 Columbia S&S (OR indie)** - no-Oregon-visits pivot + Carfax-first rule.
