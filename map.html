@@ -681,6 +681,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   --accent: #7c1a1a; --accent-hover: #621313; --accent-soft: #f6ebe9;
   --good: #1a7657; --good-soft: #e2f1ea;
   --warn: #7d5408; --warn-soft: #fbefd4;
+  --info: #234e91; --info-soft: #e3ecf8;
   --sold: #898179; --sold-soft: #eeeae6;
   --shadow: 0 1px 2px rgba(45,28,16,.06), 0 8px 24px rgba(45,28,16,.05);
   --radius: 10px;
@@ -700,17 +701,22 @@ h3 { font-size: 1.06rem; font-weight: 650; }
 .small { font-size: .875rem; }
 
 .masthead { padding: 28px 0 18px; }
-.masthead .back { display: inline-block; font-size: .9rem; color: var(--accent); text-decoration: none; margin-bottom: 8px; }
+.masthead .toplinks { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-bottom: 8px; font-size: .9rem; }
+.masthead .back { color: var(--accent); text-decoration: none; }
 .masthead .back:hover { text-decoration: underline; }
+.masthead .sibs { display: inline-flex; gap: 12px; font-size: .84rem; }
+.masthead .sibs a { color: var(--ink-2); text-decoration: none; }
+.masthead .sibs a:hover { color: var(--accent); text-decoration: underline; }
 .masthead h1 { font-size: clamp(1.4rem, 1rem + 2vw, 2rem); font-weight: 750; letter-spacing: -.02em; }
-.masthead .asof { margin-top: 6px; font-size: .84rem; color: var(--ink-3); }
+.masthead .asof { margin: 6px 0 0; font-size: .84rem; color: var(--ink-3); }
 
 main.wrap { display: flex; flex-direction: column; gap: 22px; padding-bottom: 40px; }
 .card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 24px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.card > p { margin: 0; }
 
 /* map */
 #map { width: 100%; height: 65vh; max-height: 560px; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface-2); z-index: 0; }
-@media (min-width: 760px) { #map { height: 500px; } }
+@media (min-width: 760px) { #map { height: 520px; } }
 .mapnote { font-size: .78rem; color: var(--ink-3); }
 .legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .84rem; }
 .lg { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
@@ -720,21 +726,29 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
 /* pins */
 .pin { position: relative; width: 22px; height: 22px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
 .pin::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: rgba(255,255,255,.85); }
+.pin.sold { width: 16px; height: 16px; opacity: .8; }
+.pin.sold::after { inset: 3px; }
 
 /* popups */
 .leaflet-popup-content { margin: 12px 14px; font-family: var(--font); font-size: 14px; line-height: 1.45; color: var(--ink); }
 .leaflet-popup-content a { color: var(--ink); text-decoration-color: var(--accent); }
-.pop { display: flex; flex-direction: column; gap: 6px; max-width: 280px; }
+.pop { display: flex; flex-direction: column; gap: 7px; max-width: 290px; }
 .pop .pname { font-weight: 700; font-size: 15px; }
+.pop .pcity { font-weight: 500; font-size: 12.5px; color: var(--ink-2); }
 .pop .paddr { font-size: 12.5px; color: var(--ink-2); }
-.pop .pcar { font-size: 13px; }
+.pop .pcar { font-size: 12.5px; }
 .pop .pcar .rank { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 18px; padding: 0 5px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 700; margin-right: 2px; }
 .pop .pn { color: var(--ink-3); font-size: 11.5px; }
 .pop .pstat { font-size: 12px; padding: 4px 8px; border-radius: 5px; align-self: flex-start; }
-.pop .pstat.good { background: var(--good-soft); color: var(--good); }
-.pop .pstat.warn { background: var(--warn-soft); color: var(--warn); }
-.pop .pstat.sold { background: var(--sold-soft); color: var(--sold); }
+.pstat.good, .cstat.good { background: var(--good-soft); color: var(--good); }
+.pstat.warn, .cstat.warn { background: var(--warn-soft); color: var(--warn); }
+.pstat.info, .cstat.info { background: var(--info-soft); color: var(--info); }
+.pstat.sold, .cstat.sold { background: var(--sold-soft); color: var(--sold); }
+.cstat.muted { background: var(--surface-3); color: var(--ink-2); }
 .pop .plinks { display: flex; gap: 8px; margin-top: 2px; }
+.cstat { display: block; margin: 3px 0 2px; padding: 2px 7px; border-radius: 4px; font-size: 11.5px; line-height: 1.4; width: fit-content; max-width: 100%; }
+.was { color: var(--ink-3); text-decoration: line-through; }
+.soldcar { color: var(--ink-2); }
 
 /* buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: var(--accent); color: #fff; border: 1px solid var(--accent); border-radius: 7px; padding: 7px 12px; min-height: 34px; font: inherit; font-size: .86rem; font-weight: 600; text-decoration: none; line-height: 1.2; }
@@ -744,33 +758,42 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
 .pop .btn { min-height: 30px; padding: 5px 10px; font-size: 12.5px; }
 
 /* dealer cards */
+.summary { font-size: .9rem; color: var(--ink-2); }
 .dcards { display: flex; flex-direction: column; gap: 12px; }
 .dcard { border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; background: var(--surface); }
+.dcard.is-sold { background: var(--surface-2); }
+.dcard.is-sold .dname { color: var(--ink-2); }
 .dc-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .dist { font-variant-numeric: tabular-nums; font-weight: 700; font-size: .9rem; color: var(--accent); min-width: 48px; }
 .dname { font-weight: 650; font-size: 1.02rem; flex: 1 1 auto; min-width: 0; }
+.dcity { font-weight: 500; font-size: .88rem; color: var(--ink-2); }
 .badge { font-size: .72rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
 .badge.good { background: var(--good-soft); color: var(--good); }
 .badge.warn { background: var(--warn-soft); color: var(--warn); }
+.badge.info { background: var(--info-soft); color: var(--info); }
 .badge.sold { background: var(--sold-soft); color: var(--sold); }
-.dc-cars { display: flex; flex-direction: column; gap: 4px; }
+.dc-cars { display: flex; flex-direction: column; gap: 6px; }
 .dc-cars .car { font-size: .92rem; }
+.dc-cars .car .cstat { font-size: .76rem; }
 .rank.sm { display: inline-flex; align-items: center; justify-content: center; min-width: 30px; height: 20px; padding: 0 6px; border-radius: 5px; background: var(--accent-soft); color: var(--accent); font-size: .75rem; font-weight: 700; margin-right: 2px; }
+.dc-cars .pn { color: var(--ink-3); font-size: .8rem; }
+.dc-addr .approx { color: var(--warn); }
 .dc-links { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .88rem; }
 .dc-links a { color: var(--accent); text-decoration: none; }
 .dc-links a:hover { text-decoration: underline; }
+.subhead { margin: 6px 0 0; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
 
 /* clusters */
 .clusters { display: flex; flex-direction: column; gap: 14px; }
 .cluster { border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; background: var(--surface-2); }
 .cluster p { margin: 0; font-size: .92rem; }
-.cluster .stops { font-size: .82rem; }
+.cluster .stops { font-size: .84rem; }
 .cluster .btn { align-self: flex-start; }
 
 @media (max-width: 759px) {
   .wrap { padding: 0 16px; }
   .card { padding: 18px 16px; }
-  .badge { font-size: .68rem; }
+  .badge { font-size: .68rem; white-space: normal; }
 }
 @media (pointer: coarse) {
   .btn, .dc-links a { min-height: 44px; display: inline-flex; align-items: center; }
@@ -779,131 +802,218 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
 </head>
 <body>
 <header class="wrap masthead">
-  <a class="back" href="./">&larr; Back to the report</a>
+  <div class="toplinks">
+    <a class="back" href="./">&larr; Back to the report</a>
+    <span class="sibs"><a href="./status.html">Status board</a><a href="./trims.html">Trim guide</a></span>
+  </div>
   <h1>CX-5 dealerships — test-drive map</h1>
-  <p class="asof">Outreach status as of Aug 11, 2026 · distances from Seattle 98101</p>
+  <p class="asof">Status as of Aug 11, 2026 (evening) · shortlist #1–#20 · 15 live cars at 11 dealers, 5 sold · distances are straight-line from Seattle 98101</p>
 </header>
 <main class="wrap">
   <section class="card">
     <div id="map" role="region" aria-label="Map of shortlist dealerships"></div>
     <noscript><span class="nsnote">The interactive map needs JavaScript. The dealer list below works without it.</span></noscript>
-    <div class="legend"><span class="lg"><span class="lgdot" style="background:#1a7657"></span>Contacted — reply pending</span><span class="lg"><span class="lgdot" style="background:#c8860d"></span>Not yet — send from your browser</span><span class="lg"><span class="lgdot" style="background:#898179"></span>Car sold</span></div>
-    <p class="mapnote">Map tiles © OpenStreetMap contributors. Needs an internet connection for the map background.</p>
+    <div class="legend"><span class="lg"><span class="lgdot" style="background:#1a7657"></span>Contacted — quote pending or in hand</span><span class="lg"><span class="lgdot" style="background:#c8860d"></span>Live, not yet contacted</span><span class="lg"><span class="lgdot" style="background:#2a5da8"></span>No-haggle (CarMax) — fixed price</span><span class="lg"><span class="lgdot" style="background:#898179"></span>Sold / parked — nothing live here</span></div>
+    <p class="mapnote">Pin colour is per dealer: green if any car there has an inquiry out, amber if a live car there has not been contacted, blue for no-haggle, grey (small) where everything is sold. Map tiles © OpenStreetMap contributors; needs an internet connection for the map background.</p>
   </section>
 
   <section class="card" id="list">
     <h2>Dealers by distance</h2>
+    <p class="summary">Every shortlist car (#1–#20) grouped by the lot it sits on, with its current asking price and where the conversation stands. Availability lags the lot — a car is only really there when the dealer says so in writing.</p>
     <div class="dcards">
-      <div class="dcard">
-        <div class="dc-head">
-          <span class="dist">1 mi</span>
-          <span class="dname">BMW Seattle</span>
-          <span class="badge warn">Not yet — send from your browser</span>
-        </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#3</span> 2021 CX-5 Grand Touring Reserve · <strong>$24,999</strong> · <a href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener">Listing</a></div></div>
-        <div class="dc-addr muted small">1002 Airport Way S, Seattle, WA 98134</div>
-        <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=1002%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098134" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.bmwseattle.com/" target="_blank" rel="noopener">Website</a>
-        </div>
-      </div>
-      <div class="dcard">
+      <div class="dcard" id="d-lee_johnson_mazda">
         <div class="dc-head">
           <span class="dist">6 mi</span>
-          <span class="dname">Lee Johnson Mazda of Seattle</span>
-          <span class="badge good">Contacted — reply pending</span>
+          <span class="dname">Lee Johnson Mazda of Seattle <span class="dcity">· Seattle, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#7</span> 2022 CX-5 Carbon Edition (Mazda CPO) · <strong>$27,512</strong> · <a href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">Listing</a></div></div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#7</span> 2022 CX-5 2.5 S Carbon Edition · Mazda CPO · 34,749 mi · <strong>$27,512</strong> <span class="pn">(price +$540 on Aug 11)</span> · <a href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">Listing</a><div class="cstat good">Emailed Aug 11 · quote awaiting</div></div><div class="car"><span class="rank sm">#12</span> 2023 CX-5 2.5 S Preferred · Mazda CPO · 36,400 mi · <strong>$26,348</strong> <span class="pn">(comfort-rank 2)</span> · <a href="https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/" target="_blank" rel="noopener">Listing</a><div class="cstat muted">New find Aug 11 · not separately requested — ask for it inside the #7 thread</div></div></div>
         <div class="dc-addr muted small">8100 Lake City Way NE, Seattle, WA 98115</div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.mazdaofseattle.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">Listing</a> <a href="https://www.mazdaofseattle.com/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-kirkland">
         <div class="dc-head">
           <span class="dist">10 mi</span>
-          <span class="dname">Hyundai / Ford of Kirkland</span>
-          <span class="badge good">Contacted — reply pending</span>
+          <span class="dname">Hyundai / Ford of Kirkland <span class="dcity">· Kirkland, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#5</span> 2021 CX-5 Grand Touring · <strong>$25,192</strong> · <a href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener">Listing</a></div></div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#5</span> 2021 CX-5 Grand Touring AWD (GT Premium pkg · ventilated seats) · 33,336 mi · <strong>$25,192</strong> <span class="pn">(comfort-rank 1)</span> · <a href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener">Listing</a><div class="cstat good">Emailed Aug 11 · quote awaiting</div></div></div>
         <div class="dc-addr muted small">11706 124th Ave NE, Kirkland, WA 98034</div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.hyundaiofkirkland.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener">Listing</a> <a href="https://www.hyundaiofkirkland.com/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-carmax_renton">
         <div class="dc-head">
-          <span class="dist">11 mi</span>
-          <span class="dname">Acura of Seattle</span>
-          <span class="badge sold">Car sold</span>
+          <span class="dist">12 mi</span>
+          <span class="dname">CarMax Renton (no-haggle) <span class="dcity">· Renton, WA</span></span>
+          <span class="badge info">No-haggle (CarMax) — fixed price</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#2</span> 2022 CX-5 2.5 Turbo · <strong>$27,300</strong> · <a href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener">Listing</a></div></div>
-        <div class="dc-addr muted small">301 Baker Blvd, Tukwila, WA 98188</div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#15</span> 2023 CX-5 2.5 S Premium AWD · 31,166 mi · <strong>$27,998 flat</strong> <span class="pn">(the benchmark every negotiated OTD must beat)</span> · <a href="https://www.cargurus.com/Cars/listing/455754266" target="_blank" rel="noopener">Listing</a><div class="cstat info">Reference car · fixed price, no transfer fee — nothing to request; visit or hold online</div></div></div>
+        <div class="dc-addr muted small">3751 East Valley Road, Renton, WA 98057 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=301%20Baker%20Blvd%2C%20Tukwila%2C%20WA%2098188" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.acuraofseattle.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=3751%20East%20Valley%20Road%2C%20Renton%2C%20WA%2098057" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/455754266" target="_blank" rel="noopener">Listing</a> <a href="https://www.carmax.com/stores/7263" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-auto206">
+        <div class="dc-head">
+          <span class="dist">13 mi</span>
+          <span class="dname">Auto 206 (independent) <span class="dcity">· Kent, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
+        </div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#17</span> 2021 CX-5 Grand Touring w/ GT Premium pkg (ventilated seats) · 30,066 mi · <strong>$25,799</strong> · <a href="https://www.autotrader.com/cars-for-sale/vehicle/787629893" target="_blank" rel="noopener">Listing</a><div class="cstat good">Autotrader inquiry + call Aug 11 · written quote received (PDF) · AutoCheck + inspection still required</div></div></div>
+        <div class="dc-addr muted small">18110 East Valley Highway, Kent, WA 98031 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=18110%20East%20Valley%20Highway%2C%20Kent%2C%20WA%2098031" target="_blank" rel="noopener">Directions</a> <a href="https://www.autotrader.com/cars-for-sale/vehicle/787629893" target="_blank" rel="noopener">Listing</a>
+        </div>
+      </div>
+      <div class="dcard" id="d-rodland_toyota">
+        <div class="dc-head">
+          <span class="dist">23 mi</span>
+          <span class="dname">Rodland Toyota of Everett <span class="dcity">· Everett, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
+        </div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#14</span> 2023 CX-5 2.5 S Premium AWD · 17,505 mi · <strong>$28,287 + $200</strong> · <a href="https://www.cargurus.com/Cars/listing/453332129" target="_blank" rel="noopener">Listing</a><div class="cstat good">KBB inquiry + call Aug 11 · availability confirmed · OTD promised (with used-car manager)</div></div></div>
+        <div class="dc-addr muted small">6816 Evergreen Way, Everett, WA 98203 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=6816%20Evergreen%20Way%2C%20Everett%2C%20WA%2098203" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/453332129" target="_blank" rel="noopener">Listing</a> <a href="https://www.rodlandtoyota.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard" id="d-puyallup_mazda">
         <div class="dc-head">
           <span class="dist">28 mi</span>
-          <span class="dname">Puyallup Mazda</span>
-          <span class="badge good">Contacted — reply pending</span>
+          <span class="dname">Puyallup Mazda <span class="dcity">· Puyallup, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#1</span> 2023 CX-5 2.5 Turbo · <strong>$28,199</strong> · <a href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">Listing</a></div><div class="car"><span class="rank sm">#6</span> 2021 CX-5 Carbon Edition Turbo · <strong>$24,998</strong> · <a href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener">Listing</a></div></div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#1</span> 2023 CX-5 2.5 Turbo AWD · 27,990 mi · <strong>$28,199</strong> <span class="pn">($27,999 on dealer site; Aug 11 sale report was wrong)</span> · <a href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">Listing</a><div class="cstat good">Form lead sent Aug 11 · quote awaiting (they called; OTD to come by email)</div></div><div class="car"><span class="rank sm">#6</span> 2021 CX-5 Carbon Edition Turbo AWD · 42,515 mi · <strong>$24,998 + $200</strong> · <a href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener">Listing</a><div class="cstat good">Sent Aug 11 (same lead) · awaiting</div></div><div class="car"><span class="rank sm">#9</span> 2023 CX-5 2.5 S Carbon Edition · Mazda CPO · 33,006 mi · <strong>$27,699</strong> · <a href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener">Listing</a><div class="cstat good">Via the #1/#6 inquiry · awaiting</div></div></div>
         <div class="dc-addr muted small">608 River Rd, Puyallup, WA 98371</div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.puyallupmazda.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">Listing</a> <a href="https://www.puyallupmazda.com/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-titus_will_olympia">
+        <div class="dc-head">
+          <span class="dist">49 mi</span>
+          <span class="dname">Titus-Will Chevrolet GMC Cadillac <span class="dcity">· Olympia, WA</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
+        </div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#13</span> 2022 CX-5 2.5 S Premium Plus (ventilated seats) · 43,640 mi · <strong>$27,389 fees incl.</strong> <span class="pn">(comfort-rank 3)</span> · <a href="https://www.kbb.com/cars-for-sale/vehicle/784195725" target="_blank" rel="noopener">Listing</a><div class="cstat good">KBB inquiry Aug 11 · they called back · emailed OTD awaiting</div></div></div>
+        <div class="dc-addr muted small">2425 Carriage Loop SW, Olympia, WA 98502 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=2425%20Carriage%20Loop%20SW%2C%20Olympia%2C%20WA%2098502" target="_blank" rel="noopener">Directions</a> <a href="https://www.kbb.com/cars-for-sale/vehicle/784195725" target="_blank" rel="noopener">Listing</a> <a href="https://www.tituswill.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard" id="d-columbia_sales_service">
         <div class="dc-head">
           <span class="dist">141 mi</span>
-          <span class="dname">Columbia Sales &amp; Service</span>
-          <span class="badge good">Contacted — reply pending</span>
+          <span class="dname">Columbia Sales &amp; Service (independent) <span class="dcity">· Portland, OR</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#10</span> 2023 CX-5 2.5 S Preferred · <strong>$24,095</strong> · <a href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener">Listing</a></div></div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#10</span> 2023 CX-5 2.5 S Preferred AWD · 44,989 mi · <strong>$24,095</strong> <span class="pn">($23,995 + $100 doc prep)</span> · <a href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener">Listing</a><div class="cstat good">Emailed Aug 11 · awaiting · Carfax/AutoCheck + inspection before any visit</div></div></div>
         <div class="dc-addr muted small">4110 NE Columbia Blvd, Portland, OR 97211</div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.cars.com/dealers/6049454/columbia-sales-service/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211" target="_blank" rel="noopener">Directions</a> <a href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener">Listing</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-tonkin_gresham">
         <div class="dc-head">
           <span class="dist">144 mi</span>
-          <span class="dname">Ron Tonkin Honda</span>
-          <span class="badge warn">Not yet — send from your browser</span>
+          <span class="dname">Tonkin Gresham Honda <span class="dcity">· Troutdale, OR</span></span>
+          <span class="badge warn">Live, not yet contacted</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#4</span> 2021 CX-5 Carbon Edition Turbo · <strong>$26,102</strong> <span class="muted small">(site now shows $25,852 + $250)</span> · <a href="https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679" target="_blank" rel="noopener">Listing</a></div></div>
-        <div class="dc-addr muted small">300 SE 122nd Ave, Portland, OR 97233</div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#19</span> 2021 CX-5 Signature AWD (2.5T · ventilated seats, Nappa) · 40,451 mi · <strong>$26,712</strong> · <a href="https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/" target="_blank" rel="noopener">Listing</a><div class="cstat warn">Not contacted — OR fallback; same Gee/Tonkin family as #4, so one Portland trip covers both</div></div></div>
+        <div class="dc-addr muted small">24999 SE Stark Street, Troutdale, OR 97060 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.rontonkinhonda.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=24999%20SE%20Stark%20Street%2C%20Troutdale%2C%20OR%2097060" target="_blank" rel="noopener">Directions</a> <a href="https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/" target="_blank" rel="noopener">Listing</a> <a href="https://www.tonkingreshamhonda.com/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
-      <div class="dcard">
+      <div class="dcard" id="d-ron_tonkin_honda">
+        <div class="dc-head">
+          <span class="dist">144 mi</span>
+          <span class="dname">Ron Tonkin Honda <span class="dcity">· Portland, OR</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
+        </div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#4</span> 2021 CX-5 Carbon Edition Turbo AWD · 34,800 mi · <strong>$26,102</strong> <span class="pn">(dealer-site total $25,852 + $250; KBB shows $26,762 fees-incl)</span> · <a href="https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679" target="_blank" rel="noopener">Listing</a><div class="cstat good">Sent Aug 11 via KBB · in dialogue (car confirmed on lot, walk-around video promised) · OTD awaiting</div></div></div>
+        <div class="dc-addr muted small">300 SE 122nd Ave, Portland, OR 97233</div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233" target="_blank" rel="noopener">Directions</a> <a href="https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679" target="_blank" rel="noopener">Listing</a> <a href="https://www.rontonkinhonda.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard" id="d-royal_moore_mazda">
         <div class="dc-head">
           <span class="dist">148 mi</span>
-          <span class="dname">Royal Moore Mazda</span>
-          <span class="badge good">Contacted — reply pending</span>
+          <span class="dname">Royal Moore Mazda / Toyota <span class="dcity">· Hillsboro, OR</span></span>
+          <span class="badge good">Contacted — quote pending or in hand</span>
         </div>
-        <div class="dc-cars"><div class="car"><span class="rank sm">#8</span> 2023 CX-5 2.5 S Preferred · <strong>$26,900</strong> · <a href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener">Listing</a></div></div>
-        <div class="dc-addr muted small">1380 SE River Rd, Hillsboro, OR 97123</div>
+        <div class="dc-cars"><div class="car"><span class="rank sm">#8</span> 2023 CX-5 2.5 S Preferred AWD · 16,612 mi (Mazda store) · <strong>$26,900</strong> · <a href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener">Listing</a><div class="cstat good">Form sent Aug 11 · in dialogue · itemized quote promised today</div></div><div class="car"><span class="rank sm">#20</span> 2023 CX-5 2.5 S Preferred AWD · 16,969 mi (Toyota store, same group) · <strong>$26,500</strong> · <a href="https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/" target="_blank" rel="noopener">Listing</a><div class="cstat muted">Not separately requested — ask them to quote it inside the #8 thread</div></div></div>
+        <div class="dc-addr muted small">1380 SE River Rd, Hillsboro, OR 97123 · <span class="approx">Pin is the Mazda store; the Toyota lot is in the same Hillsboro auto center — confirm which lot holds #20.</span></div>
         <div class="dc-links">
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123" target="_blank" rel="noopener">Directions</a>
-          <a href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener">Listing</a>
-          <a href="https://www.royalmooremazda.com/" target="_blank" rel="noopener">Website</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener">Listing</a> <a href="https://www.royalmooremazda.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+    </div>
+    <p class="subhead">Sold or off the map</p>
+    <div class="dcards">
+      <div class="dcard is-sold" id="d-bmw_seattle">
+        <div class="dc-head">
+          <span class="dist">1 mi</span>
+          <span class="dname">BMW Seattle <span class="dcity">· Seattle, WA</span></span>
+          <span class="badge sold">Sold / parked — nothing live here</span>
+        </div>
+        <div class="dc-cars"><div class="car soldcar"><span class="rank sm">#3</span> 2021 CX-5 Grand Touring Reserve (2.5T) · 39,146 mi · <span class="was">was $24,999</span> · <a href="https://www.cargurus.com/Cars/listing/455054228" target="_blank" rel="noopener">Listing</a><div class="cstat sold">SOLD — dealer confirmed by phone Aug 11 (CarGurus feed still lags as active)</div></div></div>
+        <div class="dc-addr muted small">1002 Airport Way S, Seattle, WA 98134</div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=1002%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098134" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/455054228" target="_blank" rel="noopener">Listing</a> <a href="https://www.bmwseattle.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard is-sold" id="d-auto_connections_bellevue">
+        <div class="dc-head">
+          <span class="dist">8 mi</span>
+          <span class="dname">Auto Connections of Bellevue (independent) <span class="dcity">· Bellevue, WA</span></span>
+          <span class="badge sold">Sold / parked — nothing live here</span>
+        </div>
+        <div class="dc-cars"><div class="car soldcar"><span class="rank sm">#18</span> 2023 CX-5 2.5 S Preferred AWD · 20,533 mi · <span class="was">was $26,495</span> · <a href="https://www.cargurus.com/Cars/listing/450670232" target="_blank" rel="noopener">Listing</a><div class="cstat sold">Sold — GM replied Aug 11, 11:51 AM</div></div></div>
+        <div class="dc-addr muted small">13279 NE 20th Street, Bellevue, WA 98005 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=13279%20NE%2020th%20Street%2C%20Bellevue%2C%20WA%2098005" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/450670232" target="_blank" rel="noopener">Listing</a> <a href="https://www.autoconnectionsbellevue.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard is-sold" id="d-acura_of_seattle">
+        <div class="dc-head">
+          <span class="dist">11 mi</span>
+          <span class="dname">Acura of Seattle <span class="dcity">· Tukwila, WA</span></span>
+          <span class="badge sold">Sold / parked — nothing live here</span>
+        </div>
+        <div class="dc-cars"><div class="car soldcar"><span class="rank sm">#2</span> 2022 CX-5 2.5 Turbo AWD · 25,353 mi · <span class="was">was $27,300</span> · <a href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener">Listing</a><div class="cstat sold">Sold — listing closed, confirmed Aug 11 PM</div></div></div>
+        <div class="dc-addr muted small">301 Baker Blvd, Tukwila, WA 98188</div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=301%20Baker%20Blvd%2C%20Tukwila%2C%20WA%2098188" target="_blank" rel="noopener">Directions</a> <a href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener">Listing</a> <a href="https://www.acuraofseattle.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard is-sold" id="d-dougs_lynnwood_mazda">
+        <div class="dc-head">
+          <span class="dist">13 mi</span>
+          <span class="dname">Doug&#x27;s Lynnwood Mazda <span class="dcity">· Edmonds, WA</span></span>
+          <span class="badge sold">Sold / parked — nothing live here</span>
+        </div>
+        <div class="dc-cars"><div class="car soldcar"><span class="rank sm">#16</span> 2021 CX-5 Grand Touring AWD · 27,089 mi · <span class="was">was $28,700</span> · <a href="https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/" target="_blank" rel="noopener">Listing</a><div class="cstat sold">Sold — reported Aug 11 after the Cars.com inquiry; dropped from the board</div></div></div>
+        <div class="dc-addr muted small">22214 Pacific Highway, Edmonds, WA 98026 · <span class="approx">address per OpenStreetMap — confirm before driving</span></div>
+        <div class="dc-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=22214%20Pacific%20Highway%2C%20Edmonds%2C%20WA%2098026" target="_blank" rel="noopener">Directions</a> <a href="https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/" target="_blank" rel="noopener">Listing</a> <a href="https://www.dougsmazda.com/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+      <div class="dcard is-sold" id="d-carmax_sacramento">
+        <div class="dc-head">
+          <span class="dist">—</span>
+          <span class="dname">CarMax Sacramento South <span class="dcity">· Sacramento, CA</span></span>
+          <span class="badge sold">Sold / parked — nothing live here</span>
+        </div>
+        <div class="dc-cars"><div class="car soldcar"><span class="rank sm">#11</span> 2022 CX-5 Carbon Edition · 48,337 mi · <span class="was">was $24,998 + $199 transfer</span> · <a href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener">Listing</a><div class="cstat sold">Sold — &#x27;Sold&#x27; badge on the CarMax page Aug 11 PM; CarMax Renton #15 is the new no-haggle floor</div></div></div>
+        <div class="dc-addr muted small">Sacramento, CA — Out of area (would have shipped) — not a test-drive stop</div>
+        <div class="dc-links">
+          <a href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener">Listing</a> <a href="https://www.carmax.com/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
     </div>
@@ -911,25 +1021,31 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
 
   <section class="card" id="routes">
     <h2>Saturday route groupings</h2>
-    <p class="muted small">Drive times are rough — straight-line distance, no live traffic.</p>
+    <p class="muted small">Live dealers only (sold lots dropped). Distances are straight-line from 98101; drive-time notes are rough, no live traffic. Each Google Maps link starts from Seattle 98101 and chains the stops in the order shown.</p>
     <div class="clusters">
       <div class="cluster">
         <h3>Seattle / Eastside loop</h3>
-        <p class="muted small stops">BMW Seattle → Lee Johnson Mazda of Seattle → Hyundai / Ford of Kirkland</p>
-        <p>BMW Seattle (#3), Lee Johnson Mazda (#7), Hyundai of Kirkland (#5). All within ~15 mi of home; do these in one morning. (Acura #2 is here too but the car is gone.)</p>
-        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/1002%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098134/8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115/11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034" target="_blank" rel="noopener">Open route in Google Maps</a>
+        <p class="small stops">Lee Johnson Mazda of Seattle <span class="muted">(#7, #12 · 6 mi)</span> → Hyundai / Ford of Kirkland <span class="muted">(#5 · 10 mi)</span> → CarMax Renton (no-haggle) <span class="muted">(#15 · 12 mi)</span></p>
+        <p>Worth it if: always — this is the default Saturday-morning loop. Sit in the CarMax Renton Premium (#15) even if you buy elsewhere; it is the fixed-price benchmark. BMW Seattle (#3), Auto Connections Bellevue (#18) and Acura (#2) are sold and dropped from the route.</p>
+        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115/11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034/3751%20East%20Valley%20Road%2C%20Renton%2C%20WA%2098057" target="_blank" rel="noopener">Open route in Google Maps</a>
       </div>
       <div class="cluster">
-        <h3>Puyallup run</h3>
-        <p class="muted small stops">Puyallup Mazda</p>
-        <p>Puyallup Mazda (#1, #6). ~35 mi south, ~40 min each way. Pairs with the Seattle loop as an afternoon stop.</p>
-        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371" target="_blank" rel="noopener">Open route in Google Maps</a>
+        <h3>North — Everett</h3>
+        <p class="small stops">Rodland Toyota of Everett <span class="muted">(#14 · 23 mi)</span></p>
+        <p>Worth it if Rodland&#x27;s emailed OTD on #14 lands at or under the ~$29k all-in cap — it is the lowest-mile Premium in the set. ~30 min up I-5; Lee Johnson (#7/#12) is on the way back. Doug&#x27;s Lynnwood (#16) sold, so no Edmonds stop.</p>
+        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/6816%20Evergreen%20Way%2C%20Everett%2C%20WA%2098203" target="_blank" rel="noopener">Open route in Google Maps</a>
       </div>
       <div class="cluster">
-        <h3>Portland day</h3>
-        <p class="muted small stops">Ron Tonkin Honda → Columbia Sales &amp; Service → Royal Moore Mazda</p>
-        <p>Ron Tonkin Honda (#4), Royal Moore Mazda (#8), Columbia Sales (#10). ~175 mi / ~3 hr each way — only worth the drive if one of them sends a strong OTD. Tonkin and Columbia are Portland-side, Royal Moore is Hillsboro (~20 min west of them).</p>
-        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233/4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211/1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123" target="_blank" rel="noopener">Open route in Google Maps</a>
+        <h3>South Sound — Kent, Puyallup, Olympia</h3>
+        <p class="small stops">Auto 206 (independent) <span class="muted">(#17 · 13 mi)</span> → Puyallup Mazda <span class="muted">(#1, #6, #9 · 28 mi)</span> → Titus-Will Chevrolet GMC Cadillac <span class="muted">(#13 · 49 mi)</span></p>
+        <p>Worth it if Puyallup puts #1/#6/#9 in writing (three cars, one stop). Add Olympia only if #13&#x27;s OTD beats CarMax Renton&#x27;s ~$31.5k equivalent; stop at Auto 206 (#17, quote in hand) only after a clean AutoCheck. Kent → Puyallup → Olympia is ~1 hr 15 min of driving one way.</p>
+        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/18110%20East%20Valley%20Highway%2C%20Kent%2C%20WA%2098031/608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371/2425%20Carriage%20Loop%20SW%2C%20Olympia%2C%20WA%2098502" target="_blank" rel="noopener">Open route in Google Maps</a>
+      </div>
+      <div class="cluster">
+        <h3>Portland metro — Portland, Troutdale, Hillsboro</h3>
+        <p class="small stops">Ron Tonkin Honda <span class="muted">(#4 · 144 mi)</span> → Tonkin Gresham Honda <span class="muted">(#19 · 144 mi)</span> → Columbia Sales &amp; Service (independent) <span class="muted">(#10 · 141 mi)</span> → Royal Moore Mazda / Toyota <span class="muted">(#8, #20 · 148 mi)</span></p>
+        <p>Worth it only if a written OTD from #4 or #8/#20 clearly beats every WA finalist — it is ~175 road-miles / ~3 hr each way and the brief now treats Oregon as fallback. Tonkin Honda and Tonkin Gresham are the same dealer family (#4 + #19 in one visit); Royal Moore is ~20 min west in Hillsboro.</p>
+        <a class="btn ghost" href="https://www.google.com/maps/dir/Seattle%2C%20WA%2098101/300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233/24999%20SE%20Stark%20Street%2C%20Troutdale%2C%20OR%2097060/4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211/1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123" target="_blank" rel="noopener">Open route in Google Maps</a>
       </div>
     </div>
   </section>
@@ -944,7 +1060,7 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
 </script>
 <script>
 (function() {
-  var dealers = [{"lat": 47.20002, "lon": -122.30109, "name": "Puyallup Mazda", "color": "#1a7657", "popup": "<div class=\"pop\"><div class=\"pname\">Puyallup Mazda</div><div class=\"paddr\">608 River Rd, Puyallup, WA 98371</div><div class=\"pcar\"><span class=\"rank\">#1</span> 2023 CX-5 2.5 Turbo \u00b7 <strong>$28,199</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/448185375\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pcar\"><span class=\"rank\">#6</span> 2021 CX-5 Carbon Edition Turbo \u00b7 <strong>$24,998</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/449972241\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat good\">Contacted \u2014 website lead submitted 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/448185375\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.45714, "lon": -122.25319, "name": "Acura of Seattle", "color": "#898179", "popup": "<div class=\"pop\"><div class=\"pname\">Acura of Seattle</div><div class=\"paddr\">301 Baker Blvd, Tukwila, WA 98188</div><div class=\"pcar\"><span class=\"rank\">#2</span> 2022 CX-5 2.5 Turbo \u00b7 <strong>$27,300</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/451655500\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat sold\">Car sold \u2014 listing removed 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=301%20Baker%20Blvd%2C%20Tukwila%2C%20WA%2098188\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/451655500\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.59371, "lon": -122.32424, "name": "BMW Seattle", "color": "#c8860d", "popup": "<div class=\"pop\"><div class=\"pname\">BMW Seattle</div><div class=\"paddr\">1002 Airport Way S, Seattle, WA 98134</div><div class=\"pcar\"><span class=\"rank\">#3</span> 2021 CX-5 Grand Touring Reserve \u00b7 <strong>$24,999</strong> \u2014 <a href=\"https://www.kbb.com/cars-for-sale/vehicle/787237825\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat warn\">Not yet \u2014 site form firewall-blocked; paste from your own browser</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=1002%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098134\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.kbb.com/cars-for-sale/vehicle/787237825\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.52047, "lon": -122.53692, "name": "Ron Tonkin Honda", "color": "#c8860d", "popup": "<div class=\"pop\"><div class=\"pname\">Ron Tonkin Honda</div><div class=\"paddr\">300 SE 122nd Ave, Portland, OR 97233</div><div class=\"pcar\"><span class=\"rank\">#4</span> 2021 CX-5 Carbon Edition Turbo \u00b7 <strong>$26,102</strong> <span class=\"pn\">(site now shows $25,852 + $250)</span> \u2014 <a href=\"https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat warn\">Not yet \u2014 site form firewall-blocked; paste from your own browser</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.70496, "lon": -122.17528, "name": "Hyundai / Ford of Kirkland", "color": "#1a7657", "popup": "<div class=\"pop\"><div class=\"pname\">Hyundai / Ford of Kirkland</div><div class=\"paddr\">11706 124th Ave NE, Kirkland, WA 98034</div><div class=\"pcar\"><span class=\"rank\">#5</span> 2021 CX-5 Grand Touring \u00b7 <strong>$25,192</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/451807182\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat good\">Contacted \u2014 emailed 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/451807182\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.68816, "lon": -122.31072, "name": "Lee Johnson Mazda of Seattle", "color": "#1a7657", "popup": "<div class=\"pop\"><div class=\"pname\">Lee Johnson Mazda of Seattle</div><div class=\"paddr\">8100 Lake City Way NE, Seattle, WA 98115</div><div class=\"pcar\"><span class=\"rank\">#7</span> 2022 CX-5 Carbon Edition (Mazda CPO) \u00b7 <strong>$27,512</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/453287059\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat good\">Contacted \u2014 emailed 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/453287059\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.50932, "lon": -122.96969, "name": "Royal Moore Mazda", "color": "#1a7657", "popup": "<div class=\"pop\"><div class=\"pname\">Royal Moore Mazda</div><div class=\"paddr\">1380 SE River Rd, Hillsboro, OR 97123</div><div class=\"pcar\"><span class=\"rank\">#8</span> 2023 CX-5 2.5 S Preferred \u00b7 <strong>$26,900</strong> \u2014 <a href=\"https://www.cargurus.com/Cars/listing/454567468\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat good\">Contacted \u2014 website lead submitted 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/454567468\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.57185, "lon": -122.62143, "name": "Columbia Sales & Service", "color": "#1a7657", "popup": "<div class=\"pop\"><div class=\"pname\">Columbia Sales &amp; Service</div><div class=\"paddr\">4110 NE Columbia Blvd, Portland, OR 97211</div><div class=\"pcar\"><span class=\"rank\">#10</span> 2023 CX-5 2.5 S Preferred \u00b7 <strong>$24,095</strong> \u2014 <a href=\"https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/\" target=\"_blank\" rel=\"noopener\">Listing</a></div><div class=\"pstat good\">Contacted \u2014 emailed 8/11</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}];
+  var dealers = [{"lat": 47.45714, "lon": -122.25319, "name": "Acura of Seattle (#2)", "color": "#898179", "sold": true, "popup": "<div class=\"pop\"><div class=\"pname\">Acura of Seattle <span class=\"pcity\">\u00b7 Tukwila, WA \u00b7 11 mi</span></div><div class=\"paddr\">301 Baker Blvd, Tukwila, WA 98188</div><div class=\"pcar soldcar\"><span class=\"rank\">#2</span> 2022 CX-5 2.5 Turbo AWD \u00b7 25,353 mi \u00b7 <span class=\"was\">was $27,300</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/451655500\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat sold\">Sold \u2014 listing closed, confirmed Aug 11 PM</div></div><div class=\"pstat sold\">Sold / parked \u2014 nothing live here</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=301%20Baker%20Blvd%2C%20Tukwila%2C%20WA%2098188\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/451655500\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.59371, "lon": -122.32424, "name": "BMW Seattle (#3)", "color": "#898179", "sold": true, "popup": "<div class=\"pop\"><div class=\"pname\">BMW Seattle <span class=\"pcity\">\u00b7 Seattle, WA \u00b7 1 mi</span></div><div class=\"paddr\">1002 Airport Way S, Seattle, WA 98134</div><div class=\"pcar soldcar\"><span class=\"rank\">#3</span> 2021 CX-5 Grand Touring Reserve (2.5T) \u00b7 39,146 mi \u00b7 <span class=\"was\">was $24,999</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/455054228\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat sold\">SOLD \u2014 dealer confirmed by phone Aug 11 (CarGurus feed still lags as active)</div></div><div class=\"pstat sold\">Sold / parked \u2014 nothing live here</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=1002%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098134\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/455054228\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.7972, "lon": -122.33403, "name": "Doug's Lynnwood Mazda (#16)", "color": "#898179", "sold": true, "popup": "<div class=\"pop\"><div class=\"pname\">Doug&#x27;s Lynnwood Mazda <span class=\"pcity\">\u00b7 Edmonds, WA \u00b7 13 mi</span></div><div class=\"paddr\">22214 Pacific Highway, Edmonds, WA 98026</div><div class=\"pcar soldcar\"><span class=\"rank\">#16</span> 2021 CX-5 Grand Touring AWD \u00b7 27,089 mi \u00b7 <span class=\"was\">was $28,700</span> \u00b7 <a href=\"https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat sold\">Sold \u2014 reported Aug 11 after the Cars.com inquiry; dropped from the board</div></div><div class=\"pstat sold\">Sold / parked \u2014 nothing live here</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=22214%20Pacific%20Highway%2C%20Edmonds%2C%20WA%2098026\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.62773, "lon": -122.16196, "name": "Auto Connections of Bellevue (independent) (#18)", "color": "#898179", "sold": true, "popup": "<div class=\"pop\"><div class=\"pname\">Auto Connections of Bellevue (independent) <span class=\"pcity\">\u00b7 Bellevue, WA \u00b7 8 mi</span></div><div class=\"paddr\">13279 NE 20th Street, Bellevue, WA 98005</div><div class=\"pcar soldcar\"><span class=\"rank\">#18</span> 2023 CX-5 2.5 S Preferred AWD \u00b7 20,533 mi \u00b7 <span class=\"was\">was $26,495</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/450670232\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat sold\">Sold \u2014 GM replied Aug 11, 11:51 AM</div></div><div class=\"pstat sold\">Sold / parked \u2014 nothing live here</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=13279%20NE%2020th%20Street%2C%20Bellevue%2C%20WA%2098005\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/450670232\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.20002, "lon": -122.30109, "name": "Puyallup Mazda (#1, #6, #9)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Puyallup Mazda <span class=\"pcity\">\u00b7 Puyallup, WA \u00b7 28 mi</span></div><div class=\"paddr\">608 River Rd, Puyallup, WA 98371</div><div class=\"pcar\"><span class=\"rank\">#1</span> 2023 CX-5 2.5 Turbo AWD \u00b7 27,990 mi \u00b7 <strong>$28,199</strong> <span class=\"pn\">($27,999 on dealer site; Aug 11 sale report was wrong)</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/448185375\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Form lead sent Aug 11 \u00b7 quote awaiting (they called; OTD to come by email)</div></div><div class=\"pcar\"><span class=\"rank\">#6</span> 2021 CX-5 Carbon Edition Turbo AWD \u00b7 42,515 mi \u00b7 <strong>$24,998 + $200</strong> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/449972241\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Sent Aug 11 (same lead) \u00b7 awaiting</div></div><div class=\"pcar\"><span class=\"rank\">#9</span> 2023 CX-5 2.5 S Carbon Edition \u00b7 Mazda CPO \u00b7 33,006 mi \u00b7 <strong>$27,699</strong> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/450917825\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Via the #1/#6 inquiry \u00b7 awaiting</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=608%20River%20Rd%2C%20Puyallup%2C%20WA%2098371\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/448185375\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.52047, "lon": -122.53692, "name": "Ron Tonkin Honda (#4)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Ron Tonkin Honda <span class=\"pcity\">\u00b7 Portland, OR \u00b7 144 mi</span></div><div class=\"paddr\">300 SE 122nd Ave, Portland, OR 97233</div><div class=\"pcar\"><span class=\"rank\">#4</span> 2021 CX-5 Carbon Edition Turbo AWD \u00b7 34,800 mi \u00b7 <strong>$26,102</strong> <span class=\"pn\">(dealer-site total $25,852 + $250; KBB shows $26,762 fees-incl)</span> \u00b7 <a href=\"https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Sent Aug 11 via KBB \u00b7 in dialogue (car confirmed on lot, walk-around video promised) \u00b7 OTD awaiting</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=300%20SE%20122nd%20Ave%2C%20Portland%2C%20OR%2097233\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.70496, "lon": -122.17528, "name": "Hyundai / Ford of Kirkland (#5)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Hyundai / Ford of Kirkland <span class=\"pcity\">\u00b7 Kirkland, WA \u00b7 10 mi</span></div><div class=\"paddr\">11706 124th Ave NE, Kirkland, WA 98034</div><div class=\"pcar\"><span class=\"rank\">#5</span> 2021 CX-5 Grand Touring AWD (GT Premium pkg \u00b7 ventilated seats) \u00b7 33,336 mi \u00b7 <strong>$25,192</strong> <span class=\"pn\">(comfort-rank 1)</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/451807182\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Emailed Aug 11 \u00b7 quote awaiting</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=11706%20124th%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/451807182\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.68816, "lon": -122.31072, "name": "Lee Johnson Mazda of Seattle (#7, #12)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Lee Johnson Mazda of Seattle <span class=\"pcity\">\u00b7 Seattle, WA \u00b7 6 mi</span></div><div class=\"paddr\">8100 Lake City Way NE, Seattle, WA 98115</div><div class=\"pcar\"><span class=\"rank\">#7</span> 2022 CX-5 2.5 S Carbon Edition \u00b7 Mazda CPO \u00b7 34,749 mi \u00b7 <strong>$27,512</strong> <span class=\"pn\">(price +$540 on Aug 11)</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/453287059\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Emailed Aug 11 \u00b7 quote awaiting</div></div><div class=\"pcar\"><span class=\"rank\">#12</span> 2023 CX-5 2.5 S Preferred \u00b7 Mazda CPO \u00b7 36,400 mi \u00b7 <strong>$26,348</strong> <span class=\"pn\">(comfort-rank 2)</span> \u00b7 <a href=\"https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat muted\">New find Aug 11 \u00b7 not separately requested \u2014 ask for it inside the #7 thread</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=8100%20Lake%20City%20Way%20NE%2C%20Seattle%2C%20WA%2098115\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/453287059\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.50932, "lon": -122.96969, "name": "Royal Moore Mazda / Toyota (#8, #20)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Royal Moore Mazda / Toyota <span class=\"pcity\">\u00b7 Hillsboro, OR \u00b7 148 mi</span></div><div class=\"paddr\">1380 SE River Rd, Hillsboro, OR 97123</div><div class=\"pcar\"><span class=\"rank\">#8</span> 2023 CX-5 2.5 S Preferred AWD \u00b7 16,612 mi (Mazda store) \u00b7 <strong>$26,900</strong> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/454567468\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Form sent Aug 11 \u00b7 in dialogue \u00b7 itemized quote promised today</div></div><div class=\"pcar\"><span class=\"rank\">#20</span> 2023 CX-5 2.5 S Preferred AWD \u00b7 16,969 mi (Toyota store, same group) \u00b7 <strong>$26,500</strong> \u00b7 <a href=\"https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat muted\">Not separately requested \u2014 ask them to quote it inside the #8 thread</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=1380%20SE%20River%20Rd%2C%20Hillsboro%2C%20OR%2097123\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/454567468\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.57185, "lon": -122.62143, "name": "Columbia Sales & Service (independent) (#10)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Columbia Sales &amp; Service (independent) <span class=\"pcity\">\u00b7 Portland, OR \u00b7 141 mi</span></div><div class=\"paddr\">4110 NE Columbia Blvd, Portland, OR 97211</div><div class=\"pcar\"><span class=\"rank\">#10</span> 2023 CX-5 2.5 S Preferred AWD \u00b7 44,989 mi \u00b7 <strong>$24,095</strong> <span class=\"pn\">($23,995 + $100 doc prep)</span> \u00b7 <a href=\"https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Emailed Aug 11 \u00b7 awaiting \u00b7 Carfax/AutoCheck + inspection before any visit</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=4110%20NE%20Columbia%20Blvd%2C%20Portland%2C%20OR%2097211\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.44544, "lon": -122.22005, "name": "CarMax Renton (no-haggle) (#15)", "color": "#2a5da8", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">CarMax Renton (no-haggle) <span class=\"pcity\">\u00b7 Renton, WA \u00b7 12 mi</span></div><div class=\"paddr\">3751 East Valley Road, Renton, WA 98057</div><div class=\"pcar\"><span class=\"rank\">#15</span> 2023 CX-5 2.5 S Premium AWD \u00b7 31,166 mi \u00b7 <strong>$27,998 flat</strong> <span class=\"pn\">(the benchmark every negotiated OTD must beat)</span> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/455754266\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat info\">Reference car \u00b7 fixed price, no transfer fee \u2014 nothing to request; visit or hold online</div></div><div class=\"pstat info\">No-haggle (CarMax) \u2014 fixed price</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=3751%20East%20Valley%20Road%2C%20Renton%2C%20WA%2098057\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/455754266\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.03269, "lon": -122.93146, "name": "Titus-Will Chevrolet GMC Cadillac (#13)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Titus-Will Chevrolet GMC Cadillac <span class=\"pcity\">\u00b7 Olympia, WA \u00b7 49 mi</span></div><div class=\"paddr\">2425 Carriage Loop SW, Olympia, WA 98502</div><div class=\"pcar\"><span class=\"rank\">#13</span> 2022 CX-5 2.5 S Premium Plus (ventilated seats) \u00b7 43,640 mi \u00b7 <strong>$27,389 fees incl.</strong> <span class=\"pn\">(comfort-rank 3)</span> \u00b7 <a href=\"https://www.kbb.com/cars-for-sale/vehicle/784195725\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">KBB inquiry Aug 11 \u00b7 they called back \u00b7 emailed OTD awaiting</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=2425%20Carriage%20Loop%20SW%2C%20Olympia%2C%20WA%2098502\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.kbb.com/cars-for-sale/vehicle/784195725\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.93561, "lon": -122.22025, "name": "Rodland Toyota of Everett (#14)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Rodland Toyota of Everett <span class=\"pcity\">\u00b7 Everett, WA \u00b7 23 mi</span></div><div class=\"paddr\">6816 Evergreen Way, Everett, WA 98203</div><div class=\"pcar\"><span class=\"rank\">#14</span> 2023 CX-5 2.5 S Premium AWD \u00b7 17,505 mi \u00b7 <strong>$28,287 + $200</strong> \u00b7 <a href=\"https://www.cargurus.com/Cars/listing/453332129\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">KBB inquiry + call Aug 11 \u00b7 availability confirmed \u00b7 OTD promised (with used-car manager)</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=6816%20Evergreen%20Way%2C%20Everett%2C%20WA%2098203\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cargurus.com/Cars/listing/453332129\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 47.43982, "lon": -122.22049, "name": "Auto 206 (independent) (#17)", "color": "#1a7657", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Auto 206 (independent) <span class=\"pcity\">\u00b7 Kent, WA \u00b7 13 mi</span></div><div class=\"paddr\">18110 East Valley Highway, Kent, WA 98031</div><div class=\"pcar\"><span class=\"rank\">#17</span> 2021 CX-5 Grand Touring w/ GT Premium pkg (ventilated seats) \u00b7 30,066 mi \u00b7 <strong>$25,799</strong> \u00b7 <a href=\"https://www.autotrader.com/cars-for-sale/vehicle/787629893\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat good\">Autotrader inquiry + call Aug 11 \u00b7 written quote received (PDF) \u00b7 AutoCheck + inspection still required</div></div><div class=\"pstat good\">Contacted \u2014 quote pending or in hand</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=18110%20East%20Valley%20Highway%2C%20Kent%2C%20WA%2098031\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.autotrader.com/cars-for-sale/vehicle/787629893\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}, {"lat": 45.51984, "lon": -122.40619, "name": "Tonkin Gresham Honda (#19)", "color": "#c8860d", "sold": false, "popup": "<div class=\"pop\"><div class=\"pname\">Tonkin Gresham Honda <span class=\"pcity\">\u00b7 Troutdale, OR \u00b7 144 mi</span></div><div class=\"paddr\">24999 SE Stark Street, Troutdale, OR 97060</div><div class=\"pcar\"><span class=\"rank\">#19</span> 2021 CX-5 Signature AWD (2.5T \u00b7 ventilated seats, Nappa) \u00b7 40,451 mi \u00b7 <strong>$26,712</strong> \u00b7 <a href=\"https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/\" target=\"_blank\" rel=\"noopener\">Listing</a><div class=\"cstat warn\">Not contacted \u2014 OR fallback; same Gee/Tonkin family as #4, so one Portland trip covers both</div></div><div class=\"pstat warn\">Live, not yet contacted</div><div class=\"plinks\"><a class=\"btn\" href=\"https://www.google.com/maps/dir/?api=1&amp;destination=24999%20SE%20Stark%20Street%2C%20Troutdale%2C%20OR%2097060\" target=\"_blank\" rel=\"noopener\">Directions</a><a class=\"btn ghost\" href=\"https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/\" target=\"_blank\" rel=\"noopener\">Listing</a></div></div>"}];
   var map = L.map('map', { scrollWheelZoom: false, tap: true });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
@@ -952,12 +1068,13 @@ noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-so
   }).addTo(map);
   var pts = [];
   dealers.forEach(function(d) {
+    var sz = d.sold ? 16 : 22;
     var icon = L.divIcon({
-      className: '', iconSize: [22, 22], iconAnchor: [11, 22], popupAnchor: [0, -20],
-      html: '<div class="pin" style="background:' + d.color + '"></div>'
+      className: '', iconSize: [sz, sz], iconAnchor: [sz / 2, sz], popupAnchor: [0, -sz + 2],
+      html: '<div class="pin' + (d.sold ? ' sold' : '') + '" style="background:' + d.color + '"></div>'
     });
-    var m = L.marker([d.lat, d.lon], { icon: icon, title: d.name }).addTo(map);
-    m.bindPopup(d.popup, { maxWidth: 300, minWidth: 220 });
+    var m = L.marker([d.lat, d.lon], { icon: icon, title: d.name, zIndexOffset: d.sold ? -1000 : 0 }).addTo(map);
+    m.bindPopup(d.popup, { maxWidth: 310, minWidth: 230 });
     pts.push([d.lat, d.lon]);
   });
   map.fitBounds(pts, { padding: [30, 30] });
