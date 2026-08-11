@@ -751,3 +751,10 @@ All six email-channel responses now sit in Gmail Drafts for Evan to review and s
 6. Royal Moore (Ashley) - itemized OTD for #8 + fold in the Toyota store's #20 ($26,500, 16,969 mi) in the same email.
 
 Not staged: Puyallup (no email channel - SMS text from the session log), Lee Johnson (parallel session's staged draft - do not duplicate), Columbia (no response yet, low priority).
+
+### Directive updates (2026-08-11 late PM)
+
+1. **No "final 3" language in dealer messages.** Frame blockers as "what prevents us from moving forward"; never reveal shortlist mechanics.
+2. **Counter on every car before agreeing to any visit.** Each staged draft now names our number; no test drive until the written number works. Counter ladder (selling / approx OTD at Seattle 11.05%): Kirkland #5 $24,300 / $27,700 - Tonkin #4 $25,000 / $28,500 - Royal Moore #8 $26,150 / $29,600 and #20 $25,750 / $29,400 - Titus-Will #13 $26,500 / $30,200 (KARR + gov-fee strikes still required) - Rodland #14 $27,300 / $31,100 - Auto 206 #17 $23,900 / $27,000 (SENT by Evan 22:24Z, PPI condition).
+3. **Ventilated seats de-keyed.** They were a flag in the brief, not a ranking axis. Comfort rank = trim content + miles + history + price. Effect: #14 Rodland (17.5k mi) and #9 CPO Carbon strengthen; #13's case is now "most equipment, most miles, mid price" and it sits behind #5 and #12 on value.
+4. All five remaining Gmail drafts revised accordingly (Titus-Will, Rodland, Tonkin, Kirkland, Royal Moore). Auto 206's counter went out before the revision - content materially identical.
