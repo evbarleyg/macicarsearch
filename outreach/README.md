@@ -709,5 +709,6 @@ Every dealer below called instead of emailing; Evan reiterated on each call that
 | 10:23 AM | (253) 480-6379 | Puyallup Mazda (#1/#6; fold #9 into the same quote) | Owes emailed OTD |
 | 10:18 AM | (206) 635-3370 | BMW Seattle (#3) | Reported the car SOLD (recorded in v3; no quote expected) |
 | 9:29 AM | (971) 415-5938 (missed) | 971 = Portland area code — almost certainly Ron Tonkin (#4, Izzy) | Thread already live by email; no callback needed |
+| 11:00 AM | (206) 456-2995 | Auto 206, Kent (#17 GT w/ GT Premium Pkg) — number matches the one printed on their Autotrader listing photos; called ~20 min after the form | Owes emailed OTD |
 
 Standing rule: any of these numbers calling again → let it go to voicemail and send the "email only" copy-paste reply (above) in the corresponding email thread.
