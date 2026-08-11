@@ -314,6 +314,7 @@ svg.chart.m .bar-val { font-size: 13.5px; }
 .assump > div { background: var(--surface-2); padding: 9px 12px; display: flex; gap: 12px; min-width: 0; }
 .assump dt { flex: 0 0 128px; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; padding-top: 2px; }
 .assump dd { margin: 0; font-size: .9rem; font-variant-numeric: tabular-nums; min-width: 0; }
+.taxnote { margin: -6px 0 0; }
 .thumb { padding: 10px 14px; background: var(--accent-soft); border-radius: 8px; color: var(--accent); font-weight: 600; font-size: .95rem; }
 .calc { border: 1px solid var(--rule); border-radius: 10px; padding: 18px; background: var(--surface-2); display: flex; flex-direction: column; gap: 12px; }
 .calc h3.sub { margin-top: 0; }
@@ -464,6 +465,9 @@ textarea.email-ta {
   .calc-out .v { font-size: 1.02rem; }
   .calc-out .em .v { font-size: 1.12rem; }
   .caption { max-width: none; }
+  .taxnote { font-size: .8rem; line-height: 1.35; margin-top: -4px; }
+  .assump > div { padding: 7px 10px; }
+  .footer p { font-size: .78rem; }
 }
 </style>
 </head>
@@ -490,7 +494,7 @@ textarea.email-ta {
 
 <section class="card" id="tldr">
   <h2>TL;DR</h2>
-  <ul class="tldr"><li>Contact first: #3 2021 Grand Touring Reserve at BMW Seattle ($24,999), then #1 2023 2.5 Turbo at Puyallup Mazda ($28,199), then #7 2022 Carbon Edition CPO at Lee Johnson Mazda ($26,972).</li><li>Cheapest solid vs. stretch: 2021 Grand Touring at $25,192 ($556/mo) vs. 2023 2.5 Turbo at $28,199 ($621/mo) &#8212; +$3,007 list, +$65/mo buys two model years, the turbo, and 5k fewer miles.</li><li>Trim value: the 2023 2.5 Turbo ($28,199 vs. $30,980) and the 2021 GT Reserve ($24,999 vs. $27,770) both sit about $2.8k under KBB Seattle fair purchase price. Avoid the 2021 Signature &#8212; it trades $1,421 over.</li><li>Financing math: every $1,000 financed &#8776; $19.47/mo at 6.30% APR over 60 months. No Mazda CPO promo rate applies to the CX-5 right now (3.9% is CX-90/CX-70 only).</li></ul>
+  <ul class="tldr"><li>Contact first: #3 2021 Grand Touring Reserve at BMW Seattle ($24,999), then #1 2023 2.5 Turbo at Puyallup Mazda ($28,199), then #7 2022 Carbon Edition CPO at Lee Johnson Mazda ($26,972).</li><li>Cheapest solid vs. stretch: 2021 Grand Touring at $25,192 ($560/mo) vs. 2023 2.5 Turbo at $28,199 ($625/mo) &#8212; +$3,007 list, +$65/mo buys two model years, the turbo, and 5k fewer miles.</li><li>Trim value: the 2023 2.5 Turbo ($28,199 vs. $30,980) and the 2021 GT Reserve ($24,999 vs. $27,770) both sit about $2.8k under KBB Seattle fair purchase price. Avoid the 2021 Signature &#8212; it trades $1,421 over.</li><li>Financing math: every $1,000 financed &#8776; $19.47/mo at 6.30% APR over 60 months. No Mazda CPO promo rate applies to the CX-5 right now (3.9% is CX-90/CX-70 only).</li></ul>
 </section>
 
 <section class="card" id="top3">
@@ -502,7 +506,7 @@ textarea.email-ta {
       <div class="price">$24,999</div>
       <div class="pick-meta">39,146 mi &#183; BMW Seattle &#183; Seattle, WA <span class="muted">(3 mi away)</span></div>
       <div class="pick-badges"><span class="badge deal great">Great &#183; $2,771 under FPP</span><span class="badge plain">2 owners &#183; 0 accidents</span></div>
-      <div class="monthly"><strong>$552/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <div class="monthly"><strong>$556/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
       <p class="why">Round 2 upgraded this from &#8220;unverified&#8221; to confirmed 0-accident / no-frame / no-flood via KBB AutoCheck preview. Turbo + vented leather at the cheapest price on the list, $2,771 under FPP, 3 mi away. Only ding: 2 owners.</p>
       <a class="btn" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener">View listing</a>
     </article>
@@ -512,7 +516,7 @@ textarea.email-ta {
       <div class="price">$28,199</div>
       <div class="pick-meta">27,990 mi &#183; Puyallup Mazda &#183; Puyallup, WA <span class="muted">(84 days on lot)</span></div>
       <div class="pick-badges"><span class="badge deal great">Great &#183; $2,781 under FPP</span><span class="badge plain">1 owner &#183; 0 accidents</span></div>
-      <div class="monthly"><strong>$621/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <div class="monthly"><strong>$625/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
       <p class="why">Biggest FPP gap in the entire dataset ($2,781 under), 1-owner, 84 days on lot &#8594; strongest negotiating leverage. Price already dropped once on KBB.</p>
       <a class="btn" href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">View listing</a>
     </article>
@@ -522,7 +526,7 @@ textarea.email-ta {
       <div class="price">$26,972</div>
       <div class="pick-meta">34,749 mi &#183; Lee Johnson Mazda &#183; Seattle, WA <span class="muted">(6 mi away)</span></div>
       <div class="pick-badges"><span class="badge deal good">Good &#183; $978 below market</span><span class="badge plain">1 owner &#183; 0 accidents</span><span class="badge cpo">CPO</span></div>
-      <div class="monthly"><strong>$594/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <div class="monthly"><strong>$599/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
       <p class="why">Only in-Seattle CPO; 1-owner / 0-accident; Mazda dealer so the CPO warranty is real. 6 mi away.</p>
       <a class="btn" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">View listing</a>
     </article></div>
@@ -685,9 +689,9 @@ textarea.email-ta {
         <option value="monthly">Monthly &#183; low to high</option>
       </select></span></div>
     <div class="sl-cards" id="sl-cards" role="list">
-    <article class="slc" role="listitem" data-rank="1" data-price="28199" data-miles="27990" data-year="2023" data-monthly="621">
+    <article class="slc" role="listitem" data-rank="1" data-price="28199" data-miles="27990" data-year="2023" data-monthly="625">
       <header class="slc-head"><span class="rank">#1</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$28,199</span><span class="mo"><strong>$621</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$28,199</span><span class="mo"><strong>$625</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">27,990 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,781 &lt; FPP</span></dd></div>
@@ -698,9 +702,9 @@ textarea.email-ta {
       <p class="slc-note"><strong>Stretch pick.</strong> 84d aged, biggest FPP gap in set.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener" aria-label="View listing #1 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="2" data-price="27300" data-miles="25353" data-year="2022" data-monthly="601">
+    <article class="slc" role="listitem" data-rank="2" data-price="27300" data-miles="25353" data-year="2022" data-monthly="606">
       <header class="slc-head"><span class="rank">#2</span><h3 class="slc-title"><span class="yr">2022</span> 2.5 Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$27,300</span><span class="mo"><strong>$601</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$27,300</span><span class="mo"><strong>$606</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">25,353 mi &#183; Acura of Seattle &#183; Seattle, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,193 below</span></dd></div>
@@ -711,9 +715,9 @@ textarea.email-ta {
       <p class="slc-note">Lowest-mile turbo, 11 mi away. Ask why 2 owners.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener" aria-label="View listing #2 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="3" data-price="24999" data-miles="39146" data-year="2021" data-monthly="552">
+    <article class="slc" role="listitem" data-rank="3" data-price="24999" data-miles="39146" data-year="2021" data-monthly="556">
       <header class="slc-head"><span class="rank">#3</span><h3 class="slc-title"><span class="yr">2021</span> GT Reserve (2.5T)</h3><span class="badge src src-kbb">KBB</span></header>
-      <div class="slc-price"><span class="p">$24,999</span><span class="mo"><strong>$552</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$24,999</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">39,146 mi &#183; BMW Seattle &#183; Seattle, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,771 &lt; FPP</span></dd></div>
@@ -724,9 +728,9 @@ textarea.email-ta {
       <p class="slc-note"><strong>Cheapest turbo.</strong> KBB vhr now confirms 0 acc / no frame / no flood (was &#8220;unverified&#8221; in R1).</p>
       <a class="btn block" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener" aria-label="View listing #3 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="4" data-price="26512" data-miles="34800" data-year="2021" data-monthly="584">
+    <article class="slc" role="listitem" data-rank="4" data-price="26512" data-miles="34800" data-year="2021" data-monthly="589">
       <header class="slc-head"><span class="rank">#4</span><h3 class="slc-title"><span class="yr">2021</span> Carbon Edition</h3><span class="badge src src-kbb">KBB</span></header>
-      <div class="slc-price"><span class="p">$26,512</span><span class="mo"><strong>$584</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$26,512</span><span class="mo"><strong>$589</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">34,800 mi &#183; Ron Tonkin Honda &#183; Portland, OR</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,612 &lt; FPP</span></dd></div>
@@ -737,9 +741,9 @@ textarea.email-ta {
       <p class="slc-note"><strong>New R2 find.</strong> 3 price drops, 59d aged.</p>
       <a class="btn block" href="https://www.kbb.com/cars-for-sale/vehicle/782577606" target="_blank" rel="noopener" aria-label="View listing #4 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="5" data-price="25192" data-miles="33175" data-year="2021" data-monthly="556">
+    <article class="slc" role="listitem" data-rank="5" data-price="25192" data-miles="33175" data-year="2021" data-monthly="560">
       <header class="slc-head"><span class="rank">#5</span><h3 class="slc-title"><span class="yr">2021</span> Grand Touring AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$25,192</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$25,192</span><span class="mo"><strong>$560</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">33,175 mi &#183; Hyundai of Kirkland &#183; Kirkland, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$3,048 &lt; FPP</span></dd></div>
@@ -750,9 +754,9 @@ textarea.email-ta {
       <p class="slc-note"><strong>Cheapest solid.</strong> 3 drops, 43d. Note: KBB lists dealer as &#8220;Ford of Kirkland&#8221; &#8212; same lot.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener" aria-label="View listing #5 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="6" data-price="25198" data-miles="42515" data-year="2021" data-monthly="556">
+    <article class="slc" role="listitem" data-rank="6" data-price="25198" data-miles="42515" data-year="2021" data-monthly="560">
       <header class="slc-head"><span class="rank">#6</span><h3 class="slc-title"><span class="yr">2021</span> Carbon Ed Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$25,198</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$25,198</span><span class="mo"><strong>$560</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">42,515 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$1,720 below</span></dd></div>
@@ -763,9 +767,9 @@ textarea.email-ta {
       <p class="slc-note">Cheapest turbo alt. Higher miles.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener" aria-label="View listing #6 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="7" data-price="26972" data-miles="34749" data-year="2022" data-monthly="594">
+    <article class="slc" role="listitem" data-rank="7" data-price="26972" data-miles="34749" data-year="2022" data-monthly="599">
       <header class="slc-head"><span class="rank">#7</span><h3 class="slc-title"><span class="yr">2022</span> 2.5 S Carbon Edition</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$26,972</span><span class="mo"><strong>$594</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$26,972</span><span class="mo"><strong>$599</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">34,749 mi &#183; Lee Johnson Mazda &#183; Seattle, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$978 below</span></dd></div>
@@ -776,9 +780,9 @@ textarea.email-ta {
       <p class="slc-note">Only in-Seattle CPO. 6 mi away.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener" aria-label="View listing #7 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="8" data-price="26900" data-miles="16612" data-year="2023" data-monthly="593">
+    <article class="slc" role="listitem" data-rank="8" data-price="26900" data-miles="16612" data-year="2023" data-monthly="597">
       <header class="slc-head"><span class="rank">#8</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Preferred</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$26,900</span><span class="mo"><strong>$593</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$26,900</span><span class="mo"><strong>$597</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">16,612 mi &#183; Royal Moore Mazda &#183; Hillsboro, OR</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$808 below</span></dd></div>
@@ -789,9 +793,9 @@ textarea.email-ta {
       <p class="slc-note">Lowest miles (16.6k). OR car, 148 mi.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener" aria-label="View listing #8 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="9" data-price="27699" data-miles="33006" data-year="2023" data-monthly="610">
+    <article class="slc" role="listitem" data-rank="9" data-price="27699" data-miles="33006" data-year="2023" data-monthly="615">
       <header class="slc-head"><span class="rank">#9</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Carbon Edition</h3><span class="badge src src-cargurus">CarGurus</span></header>
-      <div class="slc-price"><span class="p">$27,699</span><span class="mo"><strong>$610</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$27,699</span><span class="mo"><strong>$615</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">33,006 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$521 below</span></dd></div>
@@ -802,9 +806,9 @@ textarea.email-ta {
       <p class="slc-note">Newest CPO &#8212; warranty to 2030/100k.</p>
       <a class="btn block" href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener" aria-label="View listing #9 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="10" data-price="24095" data-miles="44989" data-year="2023" data-monthly="532">
+    <article class="slc" role="listitem" data-rank="10" data-price="24095" data-miles="44989" data-year="2023" data-monthly="537">
       <header class="slc-head"><span class="rank">#10</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Preferred</h3><span class="badge src src-carscom">Cars.com</span></header>
-      <div class="slc-price"><span class="p">$24,095</span><span class="mo"><strong>$532</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$24,095</span><span class="mo"><strong>$537</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">44,989 mi &#183; Columbia Sales &amp; Service &#183; Portland, OR</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">Cars.com rating</span></dd></div>
@@ -815,9 +819,9 @@ textarea.email-ta {
       <p class="slc-note"><strong>Cheapest 2023.</strong> Indie lot &#8212; pull Carfax before contact.</p>
       <a class="btn block" href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener" aria-label="View listing #10 in a new tab">View listing</a>
     </article>
-    <article class="slc" role="listitem" data-rank="11" data-price="24998" data-miles="48337" data-year="2022" data-monthly="556">
+    <article class="slc" role="listitem" data-rank="11" data-price="24998" data-miles="48337" data-year="2022" data-monthly="560">
       <header class="slc-head"><span class="rank">#11</span><h3 class="slc-title"><span class="yr">2022</span> Carbon Edition</h3><span class="badge src src-carmax">CarMax</span></header>
-      <div class="slc-price"><span class="p">$24,998</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <div class="slc-price"><span class="p">$24,998</span><span class="mo"><strong>$560</strong>/mo <span class="muted">at $0 down</span></span></div>
       <p class="slc-meta">48,337 mi &#183; CarMax Sacramento, CA &#183; $199 xfer</p>
       <dl class="slc-facts">
         <div><dt>Deal / &#916;</dt><dd><span class="badge deal nohaggle">no-haggle</span></dd></div>
@@ -974,15 +978,16 @@ textarea.email-ta {
 
 <section class="card" id="cost">
   <div class="sec-head"><h2>What it costs per month</h2></div>
-  <dl class="assump"><div><dt>Term</dt><dd>60 months</dd></div><div><dt>APR</dt><dd>6.30% &#8212; Bankrate super-prime used-auto average, updated 7/31/26</dd></div><div><dt>Credit-union check</dt><dd>BECU 5.99% effective 8/1/26</dd></div><div><dt>CPO promo</dt><dd>None on CX-5 &#8212; Mazda's current 3.9% CPO rate is CX-90 / CX-70 only</dd></div><div><dt>Seattle sales tax</dt><dd>10.35%</dd></div><div><dt>Fees</dt><dd>+$200 doc &#183; +$550 title / registration</dd></div><div><dt>Out-the-door</dt><dd>OTD = list &#215; 1.1035 + $750 (+ transfer fee where noted)</dd></div><div><dt>Payment</dt><dd>M = P &#183; r(1+r)^n / ((1+r)^n &#8722; 1), r = APR/12, n = 60</dd></div></dl>
+  <dl class="assump"><div><dt>Term</dt><dd>60 months</dd></div><div><dt>APR</dt><dd>6.30% &#8212; Bankrate super-prime used-auto average, updated 7/31/26</dd></div><div><dt>Credit-union check</dt><dd>BECU 5.99% effective 8/1/26</dd></div><div><dt>CPO promo</dt><dd>None on CX-5 &#8212; Mazda's current 3.9% CPO rate is CX-90 / CX-70 only</dd></div><div><dt>Sales tax</dt><dd>11.05% (2026 all-in Seattle vehicle rate)</dd></div><div><dt>Fees</dt><dd>+$200 doc &#183; +$600 est. license / title / RTA</dd></div><div><dt>Out-the-door</dt><dd>OTD = list &#215; 1.1105 + $800 (+ transfer fee where noted)</dd></div><div><dt>Payment</dt><dd>M = P &#183; r(1+r)^n / ((1+r)^n &#8722; 1), r = APR/12, n = 60</dd></div></dl>
+  <p class="small muted taxnote">WA-dealer sales are taxed at the dealer's city rate (10.4&#8211;11.2% around Puget Sound in 2026), so a Kirkland or Puyallup dealer runs ~0.25 pt lower; Oregon-dealer purchases owe 11.05% WA use tax at registration. Earlier versions of this page used 10.35%, which understated OTD by roughly $200&#8211;250.</p>
   <p class="scroll-hint" aria-hidden="true">scroll for more columns &#8594;</p>
-  <div class="scroll"><table class="data" id="cost-table"><thead><tr><th class="num">#</th><th>Car</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th><th class="num">Total interest @ $0</th></tr></thead><tbody><tr><td class="num"><span class="rank sm">#1</span></td><td>2023 2.5 Turbo</td><td class="num">$28,199</td><td class="num">$31,868</td><td class="num"><strong>$621</strong></td><td class="num">$523</td><td class="num">$5,365</td></tr><tr><td class="num"><span class="rank sm">#2</span></td><td>2022 2.5 Turbo</td><td class="num">$27,300</td><td class="num">$30,876</td><td class="num"><strong>$601</strong></td><td class="num">$504</td><td class="num">$5,198</td></tr><tr><td class="num"><span class="rank sm">#3</span></td><td>2021 GT Reserve (2.5T)</td><td class="num">$24,999</td><td class="num">$28,336</td><td class="num"><strong>$552</strong></td><td class="num">$454</td><td class="num">$4,771</td></tr><tr><td class="num"><span class="rank sm">#4</span></td><td>2021 Carbon Edition</td><td class="num">$26,512</td><td class="num">$30,006</td><td class="num"><strong>$584</strong></td><td class="num">$487</td><td class="num">$5,052</td></tr><tr><td class="num"><span class="rank sm">#5</span></td><td>2021 Grand Touring</td><td class="num">$25,192</td><td class="num">$28,549</td><td class="num"><strong>$556</strong></td><td class="num">$459</td><td class="num">$4,806</td></tr><tr><td class="num"><span class="rank sm">#6</span></td><td>2021 Carbon Ed Turbo</td><td class="num">$25,198</td><td class="num">$28,556</td><td class="num"><strong>$556</strong></td><td class="num">$459</td><td class="num">$4,808</td></tr><tr><td class="num"><span class="rank sm">#7</span></td><td>2022 2.5 S Carbon Edition</td><td class="num">$26,972</td><td class="num">$30,514</td><td class="num"><strong>$594</strong></td><td class="num">$497</td><td class="num">$5,137</td></tr><tr><td class="num"><span class="rank sm">#8</span></td><td>2023 2.5 S Preferred</td><td class="num">$26,900</td><td class="num">$30,434</td><td class="num"><strong>$593</strong></td><td class="num">$495</td><td class="num">$5,124</td></tr><tr><td class="num"><span class="rank sm">#9</span></td><td>2023 2.5 S Carbon Edition</td><td class="num">$27,699</td><td class="num">$31,316</td><td class="num"><strong>$610</strong></td><td class="num">$512</td><td class="num">$5,272</td></tr><tr><td class="num"><span class="rank sm">#10</span></td><td>2023 2.5 S Preferred (Columbia)</td><td class="num">$24,095</td><td class="num">$27,339</td><td class="num"><strong>$532</strong></td><td class="num">$435</td><td class="num">$4,603</td></tr><tr><td class="num"><span class="rank sm">#11</span></td><td>2022 Carbon Ed (CarMax +$199 xfer)</td><td class="num">$24,998</td><td class="num">$28,534</td><td class="num"><strong>$556</strong></td><td class="num">$458</td><td class="num">$4,804</td></tr></tbody></table></div>
+  <div class="scroll"><table class="data" id="cost-table"><thead><tr><th class="num">#</th><th>Car</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th><th class="num">Total interest @ $0</th></tr></thead><tbody><tr><td class="num"><span class="rank sm">#1</span></td><td>2023 2.5 Turbo</td><td class="num">$28,199</td><td class="num">$32,115</td><td class="num"><strong>$625</strong></td><td class="num">$528</td><td class="num">$5,407</td></tr><tr><td class="num"><span class="rank sm">#2</span></td><td>2022 2.5 Turbo</td><td class="num">$27,300</td><td class="num">$31,117</td><td class="num"><strong>$606</strong></td><td class="num">$509</td><td class="num">$5,239</td></tr><tr><td class="num"><span class="rank sm">#3</span></td><td>2021 GT Reserve (2.5T)</td><td class="num">$24,999</td><td class="num">$28,561</td><td class="num"><strong>$556</strong></td><td class="num">$459</td><td class="num">$4,808</td></tr><tr><td class="num"><span class="rank sm">#4</span></td><td>2021 Carbon Edition</td><td class="num">$26,512</td><td class="num">$30,242</td><td class="num"><strong>$589</strong></td><td class="num">$492</td><td class="num">$5,091</td></tr><tr><td class="num"><span class="rank sm">#5</span></td><td>2021 Grand Touring</td><td class="num">$25,192</td><td class="num">$28,776</td><td class="num"><strong>$560</strong></td><td class="num">$463</td><td class="num">$4,845</td></tr><tr><td class="num"><span class="rank sm">#6</span></td><td>2021 Carbon Ed Turbo</td><td class="num">$25,198</td><td class="num">$28,782</td><td class="num"><strong>$560</strong></td><td class="num">$463</td><td class="num">$4,846</td></tr><tr><td class="num"><span class="rank sm">#7</span></td><td>2022 2.5 S Carbon Edition</td><td class="num">$26,972</td><td class="num">$30,752</td><td class="num"><strong>$599</strong></td><td class="num">$501</td><td class="num">$5,177</td></tr><tr><td class="num"><span class="rank sm">#8</span></td><td>2023 2.5 S Preferred</td><td class="num">$26,900</td><td class="num">$30,672</td><td class="num"><strong>$597</strong></td><td class="num">$500</td><td class="num">$5,164</td></tr><tr><td class="num"><span class="rank sm">#9</span></td><td>2023 2.5 S Carbon Edition</td><td class="num">$27,699</td><td class="num">$31,560</td><td class="num"><strong>$615</strong></td><td class="num">$517</td><td class="num">$5,313</td></tr><tr><td class="num"><span class="rank sm">#10</span></td><td>2023 2.5 S Preferred (Columbia)</td><td class="num">$24,095</td><td class="num">$27,557</td><td class="num"><strong>$537</strong></td><td class="num">$439</td><td class="num">$4,639</td></tr><tr><td class="num"><span class="rank sm">#11</span></td><td>2022 Carbon Ed (CarMax +$199 xfer)</td><td class="num">$24,998</td><td class="num">$28,759</td><td class="num"><strong>$560</strong></td><td class="num">$463</td><td class="num">$4,842</td></tr></tbody></table></div>
   <p class="thumb">Rule of thumb: every $1,000 financed &#8776; $19.47/mo at 6.30% / 60 mo.</p>
   <h3 class="sub">Cheapest solid vs. stretch</h3>
-  <div class="scroll fit"><table class="data compact" id="compare-table"><thead><tr><th></th><th>Year / Trim</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th></tr></thead><tbody><tr><th scope="row">Cheapest solid</th><td>2021 Grand Touring &#183; 33k mi</td><td class="num">$25,192</td><td class="num">$28,549</td><td class="num">$556</td><td class="num">$459</td></tr><tr><th scope="row">Stretch</th><td>2023 2.5 Turbo &#183; 28k mi</td><td class="num">$28,199</td><td class="num">$31,868</td><td class="num">$621</td><td class="num">$523</td></tr><tr class="delta-row"><th scope="row">&#916;</th><td>+2 model yrs, +turbo, &#8722;5k mi</td><td class="num">+$3,007</td><td class="num">+$3,318</td><td class="num"><strong>+$65/mo</strong></td><td class="num">+$65/mo</td></tr></tbody></table></div>
+  <div class="scroll fit"><table class="data compact" id="compare-table"><thead><tr><th></th><th>Year / Trim</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th></tr></thead><tbody><tr><th scope="row">Cheapest solid</th><td>2021 Grand Touring &#183; 33k mi</td><td class="num">$25,192</td><td class="num">$28,776</td><td class="num">$560</td><td class="num">$463</td></tr><tr><th scope="row">Stretch</th><td>2023 2.5 Turbo &#183; 28k mi</td><td class="num">$28,199</td><td class="num">$32,115</td><td class="num">$625</td><td class="num">$528</td></tr><tr class="delta-row"><th scope="row">&#916;</th><td>+2 model yrs, +turbo, &#8722;5k mi</td><td class="num">+$3,007</td><td class="num">+$3,339</td><td class="num"><strong>+$65/mo</strong></td><td class="num">+$65/mo</td></tr></tbody></table></div>
   <div class="calc" id="calculator">
     <h3 class="sub">Payment calculator</h3>
-    <p class="muted small">Uses the same math as the table: OTD = list &#215; 1.1035 + $750, standard amortization. Pre-filled with pick #3.</p>
+    <p class="muted small">Uses the same math as the table: OTD = list &#215; 1.1105 + $800 (11.05% tax, $800 fees), standard amortization. Pre-filled with pick #3.</p>
     <div class="calc-grid">
       <label>List price <span class="inwrap"><span class="pre">$</span><input type="text" id="c-list" value="24999" inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"></span></label>
       <label>Down payment <span class="inwrap"><span class="pre">$</span><input type="text" id="c-down" value="0" inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"></span></label>
@@ -990,13 +995,13 @@ textarea.email-ta {
       <label>Term <span class="inwrap"><input type="text" id="c-term" value="60" inputmode="numeric" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><span class="post">mo</span></span></label>
     </div>
     <div class="calc-out" aria-live="polite">
-      <div><span class="k">Out-the-door</span><span class="v" id="o-otd">$28,336</span></div>
-      <div><span class="k">Amount financed</span><span class="v" id="o-fin">$28,336</span></div>
-      <div class="em"><span class="k">Monthly payment</span><span class="v" id="o-mo">$552/mo</span></div>
-      <div><span class="k">Total interest</span><span class="v" id="o-int">$4,771</span></div>
+      <div><span class="k">Out-the-door</span><span class="v" id="o-otd">$28,561</span></div>
+      <div><span class="k">Amount financed</span><span class="v" id="o-fin">$28,561</span></div>
+      <div class="em"><span class="k">Monthly payment</span><span class="v" id="o-mo">$556/mo</span></div>
+      <div><span class="k">Total interest</span><span class="v" id="o-int">$4,808</span></div>
       <div><span class="k">Per $1,000 financed</span><span class="v" id="o-1k">$19.47/mo</span></div>
     </div>
-    <p class="calc-example"><strong>Worked example &#8212; pick #3:</strong> $24,999 list &#8594; $28,336 out-the-door &#8594; <strong>$552/mo</strong> at $0 down, or <strong>$454/mo</strong> with $5,000 down (6.30% APR, 60 mo).</p>
+    <p class="calc-example"><strong>Worked example &#8212; pick #3:</strong> $24,999 list &#8594; $28,561 out-the-door &#8594; <strong>$556/mo</strong> at $0 down, or <strong>$459/mo</strong> with $5,000 down (6.30% APR, 60 mo).</p>
   </div>
 </section>
 
@@ -1164,7 +1169,7 @@ textarea.email-ta {
     var down = Math.max(0, numval('c-down', 0));
     var apr = Math.max(0, numval('c-apr', 0));
     var n = Math.max(1, Math.round(numval('c-term', 60)));
-    var otd = list * 1.1035 + 750;
+    var otd = list * 1.1105 + 800;
     var fin = Math.max(0, otd - down);
     var r = apr / 100 / 12;
     var pmt = function (P) { return r === 0 ? P / n : P * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1); };
