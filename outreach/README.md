@@ -790,3 +790,25 @@ Not staged: Puyallup (no email channel - SMS text from the session log), Lee Joh
 - 2026-08-11 22:09Z — Royal Moore breakdown context (Fernando, body text): quote includes at least "Courtesy Guard" (theft code, claimed $5,000 stolen-vehicle payout) and "Forever Start" (battery anti-corrosion spray w/ lifetime battery coverage) — both strike-list add-ons; numbers are in 362407.pdf (unparsed).
 - 2026-08-11 22:39Z — RODLAND WRITTEN QUOTE RECEIVED (Christina Cross): pricing in an attachment (unparsed); note "options available to help protect the vehicle when you come in" = F&I padding forecast. Fourth written quote. Parse bottleneck: Royal Moore 362407.pdf + Rodland attachment + (verify) Titus PDF already parsed by Mac. Drive still empty; Mac sweep or Add-to-Drive needed.
 - 2026-08-11 ~22:50Z (3:50 PM PT) — Evan sent the fresh Lee Johnson two-car email ("Two of your certified CX-5s", new thread, human-toned, no Attn line): OTDs requested on #7 CPO Carbon and #12 CPO Preferred. FIELD COMPLETE: every live dealer now holds a current written ask. Outstanding quote parses: Royal Moore 362407.pdf, Rodland attachment.
+
+### 2026-08-11 23:58Z (4:58 PM PT) — Written-numbers wave; Kirkland ACCEPT staged
+
+Inbound processed (3:09–4:43 PM PT):
+
+- 3:09 PM Royal Moore (Fernando): the "breakdown" = justification of Courtesy Guard ($5,000 theft payout) and Forever Start (battery spray + lifetime battery coverage), no removal offered. Add-ons still on the deal. 4:01 PM Ashley: "did you not get the pricing breakdown."
+- 3:39 PM Rodland (Christina): responded to the $31,100 counter with a pricing PDF behind DriveCentric fileproxy (cloud egress blocks it; "Pricing for Mr. Evan Barley-Gr...ield.pdf", link live to Sep 11). Says she will have "options to help protect the vehicle" ready at a visit. 4:28 PM: personalized video follow-up.
+- 3:44 PM Kirkland (Ayres Horne): 8.99% is a standardized placeholder, no credit pulled; they work with every WA bank/CU.
+- 3:57 PM Ron Tonkin (Izzy): quote in preparation, manager to send.
+- 4:00 PM Auto 206 (Robert): DECLINES the $27,000 counter, cites wholesale market and fresh interest. $28,718.60 OTD stands, expires Wed 7:00 PM PT. Attached the Kirkland GT's Carfax ("FOK CX5.pdf") as goodwill — independently confirms clean history on #5. Per calibration (#17 proceeds only at ~$27k + PPI): insurance only, no reply planned before Wed evening.
+- 4:21 PM KIRKLAND WRITTEN PROPOSAL — the numbers were an embedded image; cloud session pulled the S3 image and parsed it. 2021 CX-5 Grand Touring AWD, Snowflake White Pearl/Black, 33,336 mi, VIN ...M0301052, stock O94564A. Selling $24,992 ($200 under list), tax $2,699.14 (10.80%), license estimate $700, doc $200 (WA cap), OTD $28,591.14, ZERO add-ons. Finance columns are 8.99% placeholder. Crossed in flight with the 3:5x PM website-form counter ($27,700).
+- 4:43 PM TITUS-WILL REVISED WRITTEN COUNTER (Amy Washington, sales manager): KARR removed, selling $27,268.60, OTD $31,000 even. Gov fee $750 defended as guess-high, refund-at-actuals. Proposal PDF "Mazda CX5.pdf" attached (unparsed, Gmail MCP cannot download).
+
+Decision per the evening calibration note (accept any Kirkland reply at or under $25,192 selling with a clean fee sheet): $24,992 + clean sheet QUALIFIES. ACCEPT draft staged in Gmail, replacing an initially staged re-counter: accepts $24,992 selling / $28,591.14 OTD with license billed at actuals, asks for a refundable deposit to hold the car through Saturday morning, and notes the earlier website-form counter is superseded.
+
+Reply drafts staged for Evan (priority order):
+1. Kirkland ACCEPT + deposit hold (r-1345649998151426458) — send first.
+2. Titus-Will hold at $30,200 (r602487916180028399).
+3. Royal Moore to Ashley: remove Courtesy Guard + Forever Start or we pass (r8083856508989942714).
+4. Rodland to Christina: paste numbers in email body, no protection products (r7746376021424541653).
+
+Draft hygiene: cleared recipients on the two leftover duplicates flagged by the local session (older Ashley reply w/ cc Fernando; older Kirkland/Hamid nudge) and on three stale drafts (old Lee Johnson reply; BMW Seattle and Acura of Seattle, both cars sold). None can send as-is.
