@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "version": "v1 (round-1 OTD-request drafts; negotiation-tuned v2 to follow)",
+    "generated": "2026-08-11",
+    "baseline_price_date": "2026-08-07",
+    "recheck_method": "One read-only page load per listing (CarGurus VDP listingViewPayload / KBB __NEXT_DATA__), plus KBB cross-listing for CG cars where a KBB id was already known. Dealer sites: home + contact/about/staff pages only; no forms touched.",
+    "buyer": { "first_name": "Evan", "home_city": "Seattle, WA", "purchase_window": "2026-08-15/16" }
+  },
+  "cars": [
+    {
+      "rank": 1, "year": 2023, "model": "CX-5", "trim": "2.5 Turbo AWD", "color": "Polymetal Gray Metallic (black leather)", "color_source": "KBB cross-listing 780500436",
+      "miles": 27990, "price_aug7": 28199, "price_aug7_note": "CarGurus $28,199; KBB/Autotrader showed $27,999 on Aug 7",
+      "price_now": 28199, "price_change": 0, "status": "active", "status_detail": "CarGurus listingStatus OPEN (88 days on CG); KBB active at $28,199 (KBB price history: $28,854 Jun 12 -> $28,814 Jul 10 -> $28,199)",
+      "vin": "JM3KFBAY3P0289626", "stock": "YW29065", "cpo": false, "owner_count": 1, "days_on_market": 88,
+      "listing_url": "https://www.cargurus.com/Cars/listing/448185375", "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/780500436",
+      "dealer_key": "puyallup_mazda"
+    },
+    {
+      "rank": 2, "year": 2022, "model": "CX-5", "trim": "2.5 Turbo AWD", "color": null, "color_source": null,
+      "miles": 25353, "price_aug7": 27300, "price_aug7_note": "CarGurus $27,300; KBB showed $26,900 on Aug 7",
+      "price_now": null, "price_change": null, "status": "removed", "status_detail": "CarGurus VDP now shows 'Looks like that one got away' (listingStatus CLOSED); KBB listing 783886508 redirects as expired; acuraofseattle.com used-inventory VIN search returns 0 vehicles (2026-08-11). Very likely sold or wholesaled. Email kept as optional 'if still available'.",
+      "vin": "JM3KFBAY6N0592364", "stock": "A036", "cpo": false, "owner_count": 2, "days_on_market": 48,
+      "listing_url": "https://www.cargurus.com/Cars/listing/451655500", "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/783886508",
+      "dealer_key": "acura_of_seattle"
+    },
+    {
+      "rank": 3, "year": 2021, "model": "CX-5", "trim": "Grand Touring Reserve AWD (2.5 Turbo)", "color": "Snowflake White Pearl Mica (black leather)", "color_source": "KBB 787237825",
+      "miles": 39146, "miles_note": "KBB spec block now reads 39,141", "price_aug7": 24999, "price_now": 24999, "price_change": 0, "status": "active", "status_detail": "KBB listing live; dealer fee shown $200; KBB FPP now $26,450 (was $27,770)",
+      "vin": "JM3KFBAY5M0463157", "stock": "463157ML2", "cpo": false, "owner_count": 2, "days_on_market": 10,
+      "listing_url": "https://www.kbb.com/cars-for-sale/vehicle/787237825", "alt_listing_url": "https://www.bmwseattle.com/inventory/JM3KFBAY5M0463157?stocknum=463157ML2",
+      "dealer_key": "bmw_seattle"
+    },
+    {
+      "rank": 4, "year": 2021, "model": "CX-5", "trim": "Carbon Edition AWD", "color": "Polymetal Gray (black interior)", "color_source": "KBB 782577606",
+      "miles": 34800, "price_aug7": 26512, "price_now": 26512, "price_change": 0, "status": "active", "status_detail": "KBB listing live; displayed $26,512 (KBB price-history widget reads $28,072 Jul 10 -> $27,462 -> $27,062 -> $26,762 'today' — widget lags the displayed price); dealer fee shown $250; 1-owner",
+      "vin": "JM3KFBCYXM0385696", "stock": "UH1679", "cpo": false, "owner_count": 1, "days_on_market": 63,
+      "listing_url": "https://www.kbb.com/cars-for-sale/vehicle/782577606", "alt_listing_url": "https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679",
+      "dealer_key": "ron_tonkin_honda"
+    },
+    {
+      "rank": 5, "year": 2021, "model": "CX-5", "trim": "Grand Touring AWD (GT Premium Pkg per KBB)", "color": "Snowflake White Pearl Mica (black leather)", "color_source": "KBB cross-listing 782572696",
+      "miles": 33175, "miles_note": "both sites now show 33,336 mi (+161 since Aug 7 — being driven/demoed)", "price_aug7": 25192, "price_now": 25192, "price_change": 0, "status": "active", "status_detail": "CarGurus OPEN (47 days); KBB active at $25,192 (history $27,651 -> $27,851 -> $27,092 -> $25,192)",
+      "vin": "JM3KFBDM3M0301052", "stock": "O94564A", "cpo": false, "owner_count": 1, "days_on_market": 47,
+      "listing_url": "https://www.cargurus.com/Cars/listing/451807182", "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/782572696",
+      "dealer_key": "kirkland",
+      "dealer_note": "CarGurus lists seller as Hyundai of Kirkland (11706 124th Ave NE); KBB lists Ford of Kirkland (11800 124th Ave NE) and deep-links to fordofkirkland.com/inventory/<VIN>. Same ownership, adjacent lots, stock # O94564A on both."
+    },
+    {
+      "rank": 6, "year": 2021, "model": "CX-5", "trim": "Carbon Edition Turbo AWD", "color": "Soul Red Crystal Metallic (black leather)", "color_source": "KBB cross-listing 782113493",
+      "miles": 42515, "price_aug7": 25198, "price_aug7_note": "CarGurus $25,198 ('price includes fees'); KBB/Autotrader shows $24,998 + $200 dealer fee",
+      "price_now": 25198, "price_change": 0, "status": "active", "status_detail": "CarGurus OPEN (68 days); KBB active at $24,998 (history $29,499 -> $29,699 -> $28,165 -> $25,198)",
+      "vin": "JM3KFBDYXM0120596", "stock": "YS29241", "cpo": false, "owner_count": "2 per Aug-7 report; CarGurus payload omits ownerCount and KBB shows no ONE_OWNER badge — ask dealer", "days_on_market": 68,
+      "listing_url": "https://www.cargurus.com/Cars/listing/449972241", "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/782113493",
+      "dealer_key": "puyallup_mazda"
+    },
+    {
+      "rank": 7, "year": 2022, "model": "CX-5", "trim": "2.5 S Carbon Edition AWD — Mazda Certified Pre-Owned", "color": "Polymetal Gray (red leather)", "color_source": "KBB cross-listing 785453744",
+      "miles": 34749, "price_aug7": 26972, "price_now": 27512, "price_change": 540, "status": "active", "status_detail": "PRICE UP $540 since Aug 7 on both CarGurus and KBB ($26,419 Jul 20 -> $27,112 Jul 21 -> $26,972 Aug 1 -> $27,512 now). CarGurus OPEN (29 days). KBB certifiedProduct = MAZCERT.",
+      "vin": "JM3KFBCM4N0546820", "stock": "U14590", "cpo": true, "owner_count": 1, "days_on_market": 29,
+      "listing_url": "https://www.cargurus.com/Cars/listing/453287059", "alt_listing_url": "https://www.kbb.com/cars-for-sale/vehicle/785453744",
+      "dealer_key": "lee_johnson_mazda"
+    },
+    {
+      "rank": 8, "year": 2023, "model": "CX-5", "trim": "2.5 S Preferred AWD", "color": null, "color_source": "not in CarGurus payload; dealer VDP not reachable (royalmooremazda.com TLS error via proxy)",
+      "miles": 16612, "price_aug7": 26900, "price_now": 26900, "price_change": 0, "status": "active", "status_detail": "CarGurus OPEN (14 days); VDP badge says 'No additional dealer fees'",
+      "vin": "JM3KFBCM6P0274841", "stock": "661788A", "cpo": false, "owner_count": 1, "days_on_market": 14,
+      "listing_url": "https://www.cargurus.com/Cars/listing/454567468", "alt_listing_url": null,
+      "dealer_key": "royal_moore_mazda"
+    }
+  ],
+  "dealers": {
+    "puyallup_mazda": {
+      "name": "Puyallup Mazda", "cars": [1, 6],
+      "website": "https://www.puyallupmazda.com/",
+      "contact_page": "https://www.puyallupmazda.com/contact-us/", "contact_form_url": "https://www.puyallupmazda.com/contact-us/",
+      "address": "608 River Rd, Puyallup, WA 98371",
+      "phone_sales_reference_only": "253-845-1766 (site header; contact page shows tracking number 253-251-4001)",
+      "published_email": null, "email_note": "none published — home, contact-us and about-us pages carry no email or mailto; /meet-our-staff/ was bot-blocked (403). Use website contact form.",
+      "sources_checked": ["https://www.puyallupmazda.com/", "https://www.puyallupmazda.com/contact-us/", "https://www.puyallupmazda.com/about-us/", "https://www.puyallupmazda.com/meet-our-staff/ (403)"]
+    },
+    "acura_of_seattle": {
+      "name": "Acura of Seattle (O'Brien Auto Group)", "cars": [2],
+      "website": "https://www.acuraofseattle.com/",
+      "contact_page": "https://www.acuraofseattle.com/contact.htm", "contact_form_url": "https://www.acuraofseattle.com/contact.htm",
+      "address": "301 Baker Blvd, Seattle (Tukwila), WA 98188",
+      "phone_sales_reference_only": "(206) 433-1000",
+      "published_email": "acusea_leads@obautogroup.com",
+      "email_visibility": "In the dealership's own site configuration (Dealer.com dataLayer 'dealership.email' and primaryContactInformation.email) in the page source of every page incl. contact.htm; it is the inbox their contact form routes to. Not rendered as visible text.",
+      "email_source_url": "https://www.acuraofseattle.com/contact.htm",
+      "sources_checked": ["https://www.acuraofseattle.com/", "https://www.acuraofseattle.com/contact.htm", "https://www.acuraofseattle.com/join-our-team.htm", "https://www.acuraofseattle.com/dealership/staff.htm", "https://www.acuraofseattle.com/used-inventory/index.htm?search=<VIN> (0 results)"]
+    },
+    "bmw_seattle": {
+      "name": "BMW Seattle (Lithia Motors)", "cars": [3],
+      "website": "https://www.bmwseattle.com/",
+      "contact_page": "https://www.bmwseattle.com/contact-us/", "contact_form_url": "https://www.bmwseattle.com/contact-us/",
+      "address": "1002 Airport Way S, Seattle, WA 98134",
+      "phone_sales_reference_only": "888-389-7195 (site sales line); 833-371-0804 (site meta); KBB lists office 877-786-2096",
+      "published_email": "waseabmw_service@lithia.com",
+      "email_visibility": "SERVICE-department inbox published in <meta property='og:email'> / business:contact_data:email on bmwseattle.com (home + contact page source). No sales/internet-sales email published; staff page bot-blocked (403). Treat as weak: usable only with an 'please forward to your pre-owned internet sales manager' line; contact form is the primary channel.",
+      "email_source_url": "https://www.bmwseattle.com/",
+      "sources_checked": ["https://www.bmwseattle.com/", "https://www.bmwseattle.com/contact-us/", "https://www.bmwseattle.com/about-us/staff/ (403)", "KBB listing owner block"]
+    },
+    "ron_tonkin_honda": {
+      "name": "Ron Tonkin Honda (Ron Tonkin Family of Dealerships / Gee Automotive)", "cars": [4],
+      "website": "https://www.rontonkinhonda.com/",
+      "contact_page": "https://www.rontonkinhonda.com/contact-us/", "contact_form_url": "https://www.rontonkinhonda.com/contact-us/",
+      "address": "300 SE 122nd Ave, Portland, OR 97233",
+      "phone_sales_reference_only": "971-509-8656 (site); 503-255-8345 (main office per KBB)",
+      "published_email": null, "email_note": "none published — contact-us and about-us pages have phones/hours only; home and /staff bot-blocked (403). Use website contact form.",
+      "sources_checked": ["https://www.rontonkinhonda.com/ (403)", "https://www.rontonkinhonda.com/contact-us/", "https://www.rontonkinhonda.com/about-us/", "https://www.rontonkinhonda.com/staff (403/404)", "KBB listing owner block"]
+    },
+    "kirkland": {
+      "name": "Hyundai of Kirkland / Ford of Kirkland (same owner, adjacent lots; car is stock O94564A)", "cars": [5],
+      "website": "https://www.hyundaiofkirkland.com/ (CarGurus seller) and https://www.fordofkirkland.com/ (KBB seller)",
+      "contact_page": "https://www.hyundaiofkirkland.com/contact.htm", "contact_form_url": "https://www.hyundaiofkirkland.com/contact.htm",
+      "contact_page_alt": "https://www.fordofkirkland.com/contact-us/",
+      "address": "Hyundai of Kirkland: 11706 124th Ave NE, Kirkland, WA 98034 · Ford of Kirkland: 11800 124th Ave NE, Kirkland, WA 98034",
+      "phone_sales_reference_only": "Hyundai sales 877-746-4180 (local 425-500-1030); Ford sales 425-380-2221; main 425-821-6611",
+      "published_email": "hamid@fordofkirkland.com",
+      "published_email_cc": "customerservice@fordofkirkland.com",
+      "email_visibility": "hyundaiofkirkland.com page source (Dealer.com config): dealership primary contact email = hamid@fordofkirkland.com; department contacts list customerservice@fordofkirkland.com (Financing), akuhns@fordofkirkland.com (Service), esills@fordofkirkland.com (Parts). Not rendered as visible text. fordofkirkland.com meta og:email shows a malformed 'h@fordofkirkland.com' — ignore.",
+      "email_source_url": "https://www.hyundaiofkirkland.com/contact.htm",
+      "sources_checked": ["https://www.hyundaiofkirkland.com/", "https://www.hyundaiofkirkland.com/contact.htm", "https://www.hyundaiofkirkland.com/dealership/about.htm", "https://www.hyundaiofkirkland.com/dealership/staff.htm", "https://www.fordofkirkland.com/contact-us/", "https://www.fordofkirkland.com/about-us/"]
+    },
+    "lee_johnson_mazda": {
+      "name": "Lee Johnson Mazda of Seattle (Lee Johnson Auto Family)", "cars": [7],
+      "website": "https://www.mazdaofseattle.com/",
+      "contact_page": "https://www.mazdaofseattle.com/contact-us/", "contact_form_url": "https://www.mazdaofseattle.com/contact-us/",
+      "staff_page": "https://www.mazdaofseattle.com/meet-our-staff/",
+      "address": "8100 Lake City Way NE, Seattle, WA 98115 (service/parts annex: 4522 Roosevelt Way NE)",
+      "phone_sales_reference_only": "206-209-0504 (site); 206-634-1191 (main office per KBB)",
+      "published_email": null, "email_note": "none published — staff page names Marcus Andrews (General Manager – Sales) and Hunter Reeves (Used Car Manager) but shows no emails or mailto links. Use website contact form; address the message to the Used Car Manager.",
+      "staff_names": { "gm_sales": "Marcus Andrews", "used_car_manager": "Hunter Reeves", "finance_manager": "David Kirkham" },
+      "sources_checked": ["https://www.mazdaofseattle.com/", "https://www.mazdaofseattle.com/contact-us/", "https://www.mazdaofseattle.com/meet-our-staff/", "https://www.mazdaofseattle.com/about-us/", "KBB listing owner block"]
+    },
+    "royal_moore_mazda": {
+      "name": "Royal Moore Mazda (Royal Moore Auto Center)", "cars": [8],
+      "website": "https://www.royalmooremazda.com/ (Mazda store) · group: https://www.royalmoore.com/",
+      "contact_page": "https://www.royalmooremazda.com/contactus", "contact_form_url": "https://www.royalmooremazda.com/contactus",
+      "contact_page_alt": "https://www.royalmoore.com/contactus.aspx",
+      "address": "1380 SE River Rd, Hillsboro, OR 97123",
+      "phone_sales_reference_only": "Mazda sales (971) 261-1190; group sales 503-648-3213",
+      "published_email": null, "email_note": "none published — group home/contact/about/staff pages and Mazda-store home carry phones only, no email or mailto. Use website contact form.",
+      "sources_checked": ["https://www.royalmoore.com/", "https://www.royalmoore.com/contactus.aspx", "https://www.royalmoore.com/aboutus.aspx", "https://www.royalmoore.com/staff.aspx", "https://www.royalmooremazda.com/"]
+    }
+  },
+  "no_haggle_floor": {
+    "2022_carbon_premium_tier": "CarMax $24,998 (48k mi, Sacramento, +$199 transfer)",
+    "2022_turbo_tier": "CarMax $25,998 (40k mi, +$1,999 transfer)",
+    "2023_preferred_tier": "Carvana $24,590 (41k mi); CarMax $24,998 (+$749 transfer)"
+  }
+}
