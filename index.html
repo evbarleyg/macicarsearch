@@ -200,6 +200,9 @@ tr.delta-row td, tr.delta-row th { background: var(--surface-2) !important; }
 .badge.status-sold { background: #8a8790; color: #fff; }
 tr:has(.status-sold) td { opacity: .55; }
 tr:has(.status-sold) td:nth-child(2) { opacity: 1; }
+#shortlist-table { font-size: .85em; }
+#shortlist-table th, #shortlist-table td { padding-right: 12px; }
+#shortlist-table td.note { min-width: 260px; }
 /* sortable headers */
 .sortable th button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .sortable th button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
@@ -541,123 +544,105 @@ textarea.email-ta {
 <section class="card" id="shortlist">
   <div class="sec-head"><h2>Shortlist: 9 active cars, ranked by value</h2><p class="muted">Click a column header to sort. #1 and #2 sold Aug 11 and were removed; the Aug 7 originals are preserved in the <a href="CX5-Seattle-Buyers-Report.pdf">PDF</a> and <a href="CX5-Seattle-Buyers-Report.xlsx">Excel</a>.</p></div>
   <p class="small">Filtered from 163 merged records &#8594; 112 passed disqualifiers (0 accidents, non-fleet, no lemon/frame, &#8805;6 photos where known, VIN present or CL/iSeeCars-flagged, wanted trim). Ranked on deal-rating / KBB-FPP-delta &#8594; $-below-market &#8594; 1-owner &#8594; CPO &#8594; mi/$. At least 3 non-CarGurus sources enforced. All VINs = 0 open NHTSA recalls (2021/22/23 CX-5, checked 8/7/26).</p>
-  <div class="sl-table-view"><div class="scroll"><table class="data sortable" id="shortlist-table"><thead><tr><th scope="col" class="num"><button type="button">#<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Status<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Source &#183; also on<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Year<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Trim<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Miles<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">List $<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Seller &#183; City<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Deal / &#916;<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">1-own / Acc<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">CPO<span class="si" aria-hidden="true"></span></button></th><th scope="col" data-nosort="1"><button type="button">Link<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Note<span class="si" aria-hidden="true"></span></button></th></tr></thead><tbody><tr>
+  <div class="sl-table-view"><div class="scroll"><table class="data sortable" id="shortlist-table"><thead><tr><th scope="col" class="num"><button type="button">#<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Status<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Source &#183; also on<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Year<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Trim<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Miles<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">List $<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Seller &#183; City<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Deal / &#916;<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">History<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Note<span class="si" aria-hidden="true"></span></button></th></tr></thead><tbody><tr>
       <td class="num" data-v="3"><span class="rank sm">#3</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="KBB"><span class="badge src src-kbb">KBB</span><div class="also">also Cars.com, iSeeCars</div></td>
       <td class="num" data-v="2021">2021</td>
-      <td>GT Reserve (2.5T)<div class="also">Full comfort: ventilated + heated seats, heated wheel, HUD, Bose, turbo</div></td>
+      <td><a href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener">GT Reserve (2.5T)</a></td>
       <td class="num" data-v="39146">39,146</td>
       <td class="num" data-v="24999"><strong>$24,999</strong></td>
       <td>BMW Seattle<br><span class="muted">Seattle, WA</span></td>
       <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,771 &lt; FPP</div></td>
       <td>2-own / 0</td>
-      <td>No</td>
-      <td><a class="tlink" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener" aria-label="Open listing #3 in a new tab">Open</a></td>
-      <td class="note"><strong>Cheapest turbo.</strong> KBB vhr now confirms 0 acc / no frame / no flood (was &#8220;unverified&#8221; in R1).</td>
+      <td class="note"><span class="muted">Full comfort: ventilated + heated seats, heated wheel, HUD, Bose, turbo.</span> <strong>Cheapest turbo.</strong> KBB vhr now confirms 0 acc / no frame / no flood (was &#8220;unverified&#8221; in R1).</td>
     </tr><tr>
       <td class="num" data-v="4"><span class="rank sm">#4</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="KBB"><span class="badge src src-kbb">KBB</span><div class="also">also Cars.com, iSeeCars</div></td>
       <td class="num" data-v="2021">2021</td>
-      <td>Carbon Edition<div class="also">Carbon look, heated seats; dealer page now says Turbo (verify)</div></td>
+      <td><a href="https://www.kbb.com/cars-for-sale/vehicle/782577606" target="_blank" rel="noopener">Carbon Edition</a></td>
       <td class="num" data-v="34800">34,800</td>
       <td class="num" data-v="26512"><strong>$26,512</strong></td>
       <td>Ron Tonkin Honda<br><span class="muted">Portland, OR</span></td>
       <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,612 &lt; FPP</div></td>
       <td>1-own / 0</td>
-      <td>No</td>
-      <td><a class="tlink" href="https://www.kbb.com/cars-for-sale/vehicle/782577606" target="_blank" rel="noopener" aria-label="Open listing #4 in a new tab">Open</a></td>
-      <td class="note"><strong>New R2 find.</strong> 3 price drops, 59d aged.</td>
+      <td class="note"><span class="muted">Carbon look, heated seats; dealer page now says Turbo (verify).</span> <strong>New R2 find.</strong> 3 price drops, 59d aged.</td>
     </tr><tr>
       <td class="num" data-v="5"><span class="rank sm">#5</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
       <td class="num" data-v="2021">2021</td>
-      <td>Grand Touring AWD<div class="also">Leather, Bose, moonroof; GT Premium pkg adds ventilated fronts, heated rears + wheel, HUD</div></td>
+      <td><a href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener">Grand Touring AWD</a></td>
       <td class="num" data-v="33336">33,336</td>
       <td class="num" data-v="25192"><strong>$25,192</strong></td>
       <td>Hyundai of Kirkland<br><span class="muted">Kirkland, WA</span></td>
       <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$3,048 &lt; FPP</div></td>
       <td>1-own / 0</td>
-      <td>No</td>
-      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener" aria-label="Open listing #5 in a new tab">Open</a></td>
-      <td class="note"><strong>Cheapest solid.</strong> 3 drops, 43d. Note: KBB lists dealer as &#8220;Ford of Kirkland&#8221;; same lot.</td>
+      <td class="note"><span class="muted">Leather, Bose, moonroof; GT Premium pkg adds ventilated fronts, heated rears + wheel, HUD.</span> <strong>Cheapest solid.</strong> 3 drops, 43d. Note: KBB lists dealer as &#8220;Ford of Kirkland&#8221;; same lot.</td>
     </tr><tr>
       <td class="num" data-v="6"><span class="rank sm">#6</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
       <td class="num" data-v="2021">2021</td>
-      <td>Carbon Ed Turbo AWD<div class="also">Carbon look: Soul Red, black 19s, heated seats, turbo</div></td>
+      <td><a href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener">Carbon Ed Turbo AWD</a></td>
       <td class="num" data-v="42515">42,515</td>
       <td class="num" data-v="25198"><strong>$25,198</strong></td>
       <td>Puyallup Mazda<br><span class="muted">Puyallup, WA</span></td>
       <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$1,720 below</div></td>
       <td>2-own / 0</td>
-      <td>No</td>
-      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener" aria-label="Open listing #6 in a new tab">Open</a></td>
-      <td class="note">Cheapest turbo alt. Higher miles.</td>
+      <td class="note"><span class="muted">Carbon look: Soul Red, black 19s, heated seats, turbo.</span> Cheapest turbo alt. Higher miles.</td>
     </tr><tr>
       <td class="num" data-v="7"><span class="rank sm">#7</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB, iSeeCars</div></td>
       <td class="num" data-v="2022">2022</td>
-      <td>2.5 S Carbon Edition<div class="also">Red leather, heated fronts, moonroof, Mazda CPO warranty</div></td>
+      <td><a href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">2.5 S Carbon Edition</a></td>
       <td class="num" data-v="34749">34,749</td>
       <td class="num" data-v="27512"><strong>$27,512</strong></td>
       <td>Lee Johnson Mazda<br><span class="muted">Seattle, WA</span></td>
       <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$978 below</div></td>
-      <td>1-own / 0</td>
-      <td><strong>Yes</strong></td>
-      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener" aria-label="Open listing #7 in a new tab">Open</a></td>
-      <td class="note">Only in-Seattle CPO. 6 mi away.</td>
+      <td>1-own / 0 &#183; CPO</td>
+      <td class="note"><span class="muted">Red leather, heated fronts, moonroof, Mazda CPO warranty.</span> Only in-Seattle CPO. 6 mi away.</td>
     </tr><tr>
       <td class="num" data-v="8"><span class="rank sm">#8</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also Craigslist</div></td>
       <td class="num" data-v="2023">2023</td>
-      <td>2.5 S Preferred<div class="also">Leatherette, heated fronts, power driver seat, moonroof</div></td>
+      <td><a href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener">2.5 S Preferred</a></td>
       <td class="num" data-v="16612">16,612</td>
       <td class="num" data-v="26900"><strong>$26,900</strong></td>
       <td>Royal Moore Mazda<br><span class="muted">Hillsboro, OR</span></td>
       <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$808 below</div></td>
       <td>1-own / 0</td>
-      <td>No</td>
-      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener" aria-label="Open listing #8 in a new tab">Open</a></td>
-      <td class="note">Lowest miles (16.6k). OR car, 148 mi.</td>
+      <td class="note"><span class="muted">Leatherette, heated fronts, power driver seat, moonroof.</span> Lowest miles (16.6k). OR car, 148 mi.</td>
     </tr><tr>
       <td class="num" data-v="9"><span class="rank sm">#9</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
       <td class="num" data-v="2023">2023</td>
-      <td>2.5 S Carbon Edition<div class="also">Red leather, heated fronts, Mazda CPO warranty</div></td>
+      <td><a href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener">2.5 S Carbon Edition</a></td>
       <td class="num" data-v="33006">33,006</td>
       <td class="num" data-v="27699"><strong>$27,699</strong></td>
       <td>Puyallup Mazda<br><span class="muted">Puyallup, WA</span></td>
       <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$521 below</div></td>
-      <td>1-own / 0</td>
-      <td><strong>Yes</strong></td>
-      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener" aria-label="Open listing #9 in a new tab">Open</a></td>
-      <td class="note">Newest CPO; warranty to 2030/100k.</td>
+      <td>1-own / 0 &#183; CPO</td>
+      <td class="note"><span class="muted">Red leather, heated fronts, Mazda CPO warranty.</span> Newest CPO; warranty to 2030/100k.</td>
     </tr><tr>
       <td class="num" data-v="10"><span class="rank sm">#10</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="Cars.com"><span class="badge src src-carscom">Cars.com</span><div class="also">also iSeeCars</div></td>
       <td class="num" data-v="2023">2023</td>
-      <td>2.5 S Preferred<div class="also">Leatherette, heated fronts, moonroof</div></td>
+      <td><a href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener">2.5 S Preferred</a></td>
       <td class="num" data-v="44989">44,989</td>
       <td class="num" data-v="24095"><strong>$24,095</strong></td>
       <td>Columbia Sales &amp; Service<br><span class="muted">Portland, OR</span></td>
       <td data-v="3"><span class="badge deal great">Great</span><div class="delta">Cars.com rating</div></td>
       <td><span class="badge warn wrapok">history unverified</span></td>
-      <td>?</td>
-      <td><a class="tlink" href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener" aria-label="Open listing #10 in a new tab">Open</a></td>
-      <td class="note"><strong>Cheapest 2023.</strong> Indie lot; pull Carfax before contact.</td>
+      <td class="note"><span class="muted">Leatherette, heated fronts, moonroof.</span> <strong>Cheapest 2023.</strong> Indie lot; pull Carfax before contact.</td>
     </tr><tr>
       <td class="num" data-v="11"><span class="rank sm">#11</span></td><td data-v="0"><span class="badge status-active">Active</span></td>
       <td data-v-text="CarMax"><span class="badge src src-carmax">CarMax</span><div class="also">CarMax only</div></td>
       <td class="num" data-v="2022">2022</td>
-      <td>Carbon Edition<div class="also">Carbon look, heated seats, CarMax warranty</div></td>
+      <td><a href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener">Carbon Edition</a></td>
       <td class="num" data-v="48337">48,337</td>
       <td class="num" data-v="24998"><strong>$24,998</strong></td>
       <td>CarMax Sacramento, CA<br><span class="muted">$199 xfer</span></td>
       <td data-v="1"><span class="badge deal nohaggle">no-haggle</span></td>
-      <td>— / —</td>
-      <td>CarMax warranty</td>
-      <td><a class="tlink" href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener" aria-label="Open listing #11 in a new tab">Open</a></td>
-      <td class="note"><strong>No-haggle floor.</strong> Cheapest wanted-trim 2022 at CarMax within cheap-transfer range.</td>
+      <td>— / — &#183; CarMax warranty</td>
+      <td class="note"><span class="muted">Carbon look, heated seats, CarMax warranty.</span> <strong>No-haggle floor.</strong> Cheapest wanted-trim 2022 at CarMax within cheap-transfer range.</td>
     </tr></tbody></table></div></div>
   <div class="sl-card-view"><div class="sl-tools"><label for="sl-sort">Sort by</label>
       <span class="selwrap"><select class="select" id="sl-sort">
