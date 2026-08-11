@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CX-5 Seattle Buyer's Report</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="light">
+<style>:root {
+  color-scheme: light;
+  --ground: #f2f0ed;
+  --surface: #ffffff;
+  --surface-2: #f8f6f4;
+  --surface-3: #efece8;
+  --ink: #211d1a;
+  --ink-2: #5a534e;
+  --ink-3: #898179;
+  --rule: #e6e0da;
+  --rule-2: #d6cec6;
+  --accent: #7c1a1a;
+  --accent-hover: #621313;
+  --accent-soft: #f6ebe9;
+  --mark: #a3262a;
+  --good: #1a7657;
+  --good-soft: #e2f1ea;
+  --bad: #a8412d;
+  --bad-soft: #f8e7e2;
+  --warn: #7d5408;
+  --warn-soft: #fbefd4;
+  --neutral-soft: #eeeae6;
+  --bar-good: #1b8a6b;
+  --bar-bad: #c8553d;
+  --dot: #b5ada6;
+  --y21: #2a78d6;
+  --y22: #eb6834;
+  --y23: #1baf7a;
+  --grid: #ede8e3;
+  --shadow: 0 1px 2px rgba(45, 28, 16, .06), 0 8px 24px rgba(45, 28, 16, .05);
+  --radius: 10px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 64px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font-family: var(--font); font-size: 16px; line-height: 1.55;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+}
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
+a:hover { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--surface); padding: 6px 10px; z-index: 100; }
+.skip:focus { left: 8px; }
+.muted { color: var(--ink-2); }
+.small { font-size: .875rem; }
+strong { font-weight: 650; }
+h1, h2, h3 { text-wrap: balance; margin: 0; line-height: 1.2; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.2rem; }
+li + li { margin-top: .35rem; }
+table { font-size: .875rem; border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+[hidden] { display: none !important; }
+
+/* nav */
+.topnav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255, 255, 255, .92); backdrop-filter: saturate(1.4) blur(8px); -webkit-backdrop-filter: saturate(1.4) blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+.navwrap { display: flex; align-items: center; gap: 20px; height: 48px; }
+.brand { font-weight: 700; letter-spacing: -.01em; text-decoration: none; white-space: nowrap; color: var(--accent); }
+.navlinks { position: relative; flex: 1 1 auto; min-width: 0; display: flex; gap: 2px; overflow-x: auto; overflow-y: hidden; scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+.navlinks::-webkit-scrollbar { display: none; }
+.navlinks a {
+  display: inline-flex; align-items: center; flex: 0 0 auto;
+  text-decoration: none; color: var(--ink-2); font-size: .875rem; padding: 6px 10px; border-radius: 6px; white-space: nowrap;
+}
+.navlinks a:hover { background: var(--surface-3); color: var(--ink); }
+.navlinks a.active { color: var(--accent); background: var(--accent-soft); }
+
+/* masthead */
+.masthead { padding-top: 44px; padding-bottom: 34px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 650; color: var(--accent); margin-bottom: 10px; }
+.masthead h1 { font-size: clamp(1.6rem, 1.05rem + 2.3vw, 2.45rem); font-weight: 750; letter-spacing: -.02em; }
+.nb { white-space: nowrap; }
+.scope { margin-top: 10px; color: var(--ink-2); font-size: 1.02rem; }
+.mast-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 18px; }
+.pill {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 10px; border-radius: 999px;
+  background: var(--warn-soft); color: var(--warn); font-size: .84rem; font-weight: 600; border: 1px solid #f0dcaa;
+}
+.pill .dot { flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: #d4900c; box-shadow: 0 0 0 3px rgba(212, 144, 12, .18); }
+.funnel { font-size: .84rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.tipline { margin-top: 14px; font-size: .8rem; color: var(--ink-3); }
+
+/* cards / sections */
+main.wrap { display: flex; flex-direction: column; gap: 22px; padding-bottom: 12px; }
+.card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 26px 28px; display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; }
+.card h2 { font-size: 1.28rem; font-weight: 700; letter-spacing: -.012em; }
+h3.sub { font-size: 1rem; font-weight: 650; margin-top: 6px; }
+h3.sub .muted { font-weight: 400; font-size: .875rem; }
+
+/* TL;DR */
+.tldr { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.tldr li { margin: 0; padding: 12px 14px 12px 40px; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 8px; position: relative; }
+.tldr li::before {
+  content: ""; position: absolute; left: 15px; top: 19px; width: 12px; height: 12px; border-radius: 3px; background: var(--accent);
+  transform: rotate(45deg); opacity: .9;
+}
+.tldr li:nth-child(n+2)::before { background: transparent; border: 2px solid var(--accent); }
+
+/* Top 3 */
+.picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media screen and (max-width: 860px) { .picks { grid-template-columns: 1fr; } }
+.pick { border: 1px solid var(--rule); border-radius: 10px; padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 9px; background: linear-gradient(180deg, var(--surface-2), var(--surface) 120px); min-width: 0; }
+.pick-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.rank { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; height: 26px; padding: 0 8px; border-radius: 6px; background: var(--accent); color: #fff; font-weight: 700; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.rank.sm { min-width: 30px; height: 22px; font-size: .8rem; background: var(--accent-soft); color: var(--accent); }
+.pick-tag { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 650; color: var(--ink-2); margin-right: auto; }
+.pick h3 { font-size: 1.06rem; font-weight: 650; }
+.price { font-size: 2rem; font-weight: 750; letter-spacing: -.02em; line-height: 1.05; font-variant-numeric: tabular-nums; }
+.pick-meta { font-size: .9rem; color: var(--ink-2); }
+.pick-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.monthly { font-size: .95rem; padding: 8px 10px; background: var(--surface-2); border-radius: 7px; border: 1px solid var(--rule); }
+.why { font-size: .9rem; color: var(--ink-2); flex: 1; }
+.runner { margin-top: 2px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; align-self: flex-start;
+  background: var(--accent); color: #fff; border: 1px solid var(--accent); border-radius: 7px; padding: 8px 14px; min-height: 36px;
+  font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none; cursor: pointer; line-height: 1.2;
+  -webkit-tap-highlight-color: rgba(124, 26, 26, .15);
+}
+.btn:hover { background: var(--accent-hover); color: #fff; }
+.btn.ghost { background: var(--surface); color: var(--accent); }
+.btn.ghost:hover { background: var(--accent-soft); }
+.btn.block { display: flex; align-self: stretch; width: 100%; min-height: 46px; font-size: .95rem; }
+
+/* badges */
+.badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; font-size: .75rem; font-weight: 600; line-height: 1.5; white-space: nowrap; background: var(--neutral-soft); color: var(--ink-2); }
+.badge.plain { background: var(--surface-3); color: var(--ink-2); }
+.badge.cpo { background: var(--accent-soft); color: var(--accent); }
+.badge.deal.great { background: var(--good-soft); color: var(--good); }
+.badge.deal.good { background: #e6eef8; color: #244f86; }
+.badge.deal.nohaggle { background: var(--warn-soft); color: var(--warn); }
+.badge.warn { background: var(--warn-soft); color: var(--warn); }
+.badge.status.ok { background: var(--good-soft); color: var(--good); }
+.badge.status.blocked { background: var(--bad-soft); color: var(--bad); }
+.badge.status.fallback { background: var(--warn-soft); color: var(--warn); }
+.badge.src { border-radius: 5px; font-weight: 650; letter-spacing: .01em; }
+.src-cargurus { background: #dff1f3; color: #0b5563; }
+.src-kbb { background: #e6e8f8; color: #2c3990; }
+.src-carscom { background: #f1e5f5; color: #6a2c80; }
+.src-carmax { background: #fcefcf; color: #74510a; }
+.src-carvana { background: #dff0fa; color: #0a5883; }
+.src-truecar { background: #e3f3e6; color: #1d6a3a; }
+.src-iseecars { background: #fbe8dc; color: #87400e; }
+.src-craigslist { background: #ede8f7; color: #4a2f92; }
+.src-autotempest, .src-carsoup, .src-autobytel { background: #ecebe8; color: #4a443f; }
+
+/* tables */
+.scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); -webkit-overflow-scrolling: touch; }
+.scroll-hint { display: none; font-size: .75rem; color: var(--ink-3); text-align: right; margin: -8px 2px -10px; letter-spacing: .02em; }
+table.data th, table.data td { padding: 9px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+table.data tbody tr:last-child td, table.data tbody tr:last-child th { border-bottom: 0; }
+table.data thead th { background: var(--surface-2); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; white-space: nowrap; position: relative; }
+table.data tbody tr:hover td { background: #fbfaf8; }
+table.data .num { text-align: right; white-space: nowrap; }
+table.data td.note { min-width: 220px; color: var(--ink-2); }
+table.data td.note strong { color: var(--ink); }
+table.data tr.hl td { background: #fdf8ef; }
+table.compact { width: auto; min-width: 60%; }
+table.compact th[scope=row] { font-weight: 650; white-space: nowrap; background: transparent; text-transform: none; letter-spacing: 0; font-size: inherit; color: var(--ink); }
+tr.delta-row td, tr.delta-row th { background: var(--surface-2) !important; }
+.good-t { color: var(--good); font-weight: 600; }
+.bad-t { color: var(--bad); font-weight: 600; }
+.tlink { font-weight: 600; font-size: .82rem; text-decoration: none; border: 1px solid var(--rule-2); padding: 3px 9px; border-radius: 6px; display: inline-block; white-space: nowrap; }
+.tlink:hover { border-color: var(--accent); background: var(--accent-soft); }
+.scroll.fit { width: -moz-fit-content; width: fit-content; max-width: 100%; }
+/* the 12-column shortlist table gets a compact treatment and may break out of the 1100px column on wide screens */
+#shortlist { align-self: center; width: min(1230px, calc(100vw - 56px)); }
+@media (max-width: 1160px) { #shortlist { width: 100%; } }
+#shortlist-table { font-size: .8125rem; }
+#shortlist-table th, #shortlist-table td { padding: 8px 8px; }
+#shortlist-table thead th { letter-spacing: .04em; }
+#shortlist-table td:nth-child(4) { min-width: 96px; }
+#shortlist-table td:nth-child(7) { min-width: 118px; }
+#shortlist-table td.note { min-width: 160px; }
+#shortlist-table .delta { color: var(--ink-2); margin-top: 3px; white-space: nowrap; font-size: .75rem; }
+#shortlist-table .also { color: var(--ink-3); margin-top: 3px; font-size: .72rem; line-height: 1.3; }
+.badge.wrapok { white-space: normal; text-align: center; line-height: 1.25; padding-top: 3px; padding-bottom: 3px; }
+
+/* sortable headers */
+.sortable th button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.sortable th button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.sortable th .si { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid var(--rule-2); opacity: .9; }
+.sortable th[aria-sort=ascending] .si { border-top: 0; border-bottom: 5px solid var(--accent); }
+.sortable th[aria-sort=descending] .si { border-top: 5px solid var(--accent); }
+.sortable th[data-nosort] .si { display: none; }
+.sortable th[data-nosort] button { cursor: default; }
+.dq { border-top: 1px solid var(--rule); padding-top: 12px; }
+
+/* shortlist: card presentation (phones + print); the table is the desktop presentation */
+.sl-card-view { display: none; flex-direction: column; gap: 12px; }
+.sl-tools { display: none; align-items: center; gap: 12px; }
+.js .sl-tools { display: flex; }
+.sl-tools label { flex: 0 0 auto; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; }
+.selwrap { position: relative; flex: 1 1 auto; min-width: 0; display: flex; }
+.selwrap::after {
+  content: ""; position: absolute; right: 16px; top: 50%; width: 8px; height: 8px; pointer-events: none;
+  border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent); transform: translateY(-70%) rotate(45deg);
+}
+.select {
+  -webkit-appearance: none; appearance: none; width: 100%; font: inherit; font-size: 1rem; color: var(--ink); min-height: 44px;
+  padding: 8px 38px 8px 12px; border: 1px solid var(--rule-2); border-radius: 8px; background: var(--surface);
+}
+.select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(124, 26, 26, .12); }
+.sl-cards { display: flex; flex-direction: column; gap: 12px; }
+.slc { border: 1px solid var(--rule); border-radius: 10px; padding: 14px 14px 14px; display: flex; flex-direction: column; gap: 9px; background: linear-gradient(180deg, var(--surface-2), var(--surface) 90px); min-width: 0; }
+.slc-head { display: flex; align-items: flex-start; gap: 10px; }
+.slc-head .rank { flex: 0 0 auto; margin-top: 1px; }
+.slc-title { flex: 1 1 auto; min-width: 0; font-size: 1.02rem; font-weight: 650; line-height: 1.3; text-wrap: pretty; }
+.slc-title .yr { color: var(--ink-2); font-weight: 600; font-variant-numeric: tabular-nums; }
+.slc-head .badge.src { flex: 0 0 auto; margin-top: 3px; }
+.slc-price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px; font-variant-numeric: tabular-nums; }
+.slc-price .p { font-size: 1.6rem; font-weight: 750; letter-spacing: -.02em; line-height: 1.05; }
+.slc-price .mo { font-size: 1rem; color: var(--ink); }
+.slc-price .mo strong { font-size: 1.1rem; color: var(--accent); font-weight: 700; }
+.slc-price .mo .muted { font-size: .8rem; }
+.slc-meta { font-size: .9rem; color: var(--ink-2); }
+.slc-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; margin: 0; padding: 9px 10px; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 8px; }
+.slc-facts > div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.slc-facts dt { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); font-weight: 650; }
+.slc-facts dd { margin: 0; font-size: .86rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.slc-facts .delta { color: var(--ink-2); font-size: .8rem; white-space: nowrap; }
+.slc-facts .also { flex: 0 0 100%; color: var(--ink-2); font-size: .8rem; }
+.slc-note { font-size: .9rem; color: var(--ink-2); }
+.slc-note strong { color: var(--ink); }
+
+/* charts */
+.chart-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); padding: 8px; }
+svg.chart { display: block; width: 100%; height: auto; font-family: var(--font); -webkit-tap-highlight-color: transparent; }
+svg.chart.m { display: none; }
+svg.chart .plot-bg { fill: #fdfcfb; }
+svg.chart .grid { stroke: var(--grid); stroke-width: 1; }
+svg.chart .grid-v { stroke: #f3efeb; }
+svg.chart .grid-minor { stroke: #f5f2ee; stroke-width: 1; }
+svg.chart .axis { stroke: var(--rule-2); stroke-width: 1; }
+svg.chart .tick { font-size: 13px; fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+svg.chart .axis-title { font-size: 13.5px; fill: var(--ink-2); font-weight: 600; }
+svg.chart .axis-note { font-size: 12.5px; fill: var(--ink-3); }
+svg.chart .pt circle, svg.chart .pt path { fill: var(--dot); stroke: #fff; stroke-width: 1.2px; opacity: .9; transition: fill .2s; }
+svg.chart.tinted .pt.y2021:not(.sl) circle { fill: var(--y21); opacity: .7; }
+svg.chart.tinted .pt.y2022:not(.sl) path { fill: var(--y22); opacity: .7; }
+svg.chart.tinted .pt.y2023:not(.sl) path { fill: var(--y23); opacity: .75; }
+svg.chart .pt.sl circle, svg.chart .pt.sl path { fill: var(--mark); stroke: #fff; stroke-width: 1.8px; opacity: 1; }
+svg.chart .pt.hot circle, svg.chart .pt.hot path { stroke: var(--ink); stroke-width: 2px; opacity: 1; }
+svg.chart .pt-label { font-size: 12.5px; font-weight: 700; fill: var(--ink); paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; font-variant-numeric: tabular-nums; }
+svg.chart .row-label { font-size: 13px; fill: var(--ink); }
+svg.chart .row-year { fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+svg.chart .bar-good { fill: var(--bar-good); }
+svg.chart .bar-bad { fill: var(--bar-bad); }
+svg.chart .bar-val { font-size: 12.5px; fill: var(--ink-2); font-variant-numeric: tabular-nums; font-weight: 600; }
+svg.chart .bar-val.neg { fill: var(--good); }
+svg.chart .bar-val.pos { fill: var(--bad); }
+svg.chart .row-hit { fill: transparent; }
+svg.chart .bar-row:hover .row-hit, svg.chart .bar-row.hot .row-hit { fill: #f7f4f0; }
+/* portrait tablets scale the 900-unit desktop charts to ~650px: bump type there so it stays around 10-11px effective */
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+  svg.chart.d .tick, svg.chart.d .axis-title { font-size: 15px; }
+  svg.chart.d .axis-note, svg.chart.d .row-label, svg.chart.d .bar-val { font-size: 14px; }
+  svg.chart.d .pt-label { font-size: 14.5px; stroke-width: 3.5px; }
+}
+/* phone variants carry larger type so labels stay legible when the viewBox is scaled to ~300px */
+svg.chart.m .tick { font-size: 13.5px; }
+svg.chart.m .axis-title { font-size: 13.5px; }
+svg.chart.m .axis-note { font-size: 13px; }
+svg.chart.m .pt-label { font-size: 14px; stroke-width: 3.5px; }
+svg.chart.m .row-label { font-size: 14px; }
+svg.chart.m .bar-val { font-size: 13.5px; }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; font-size: .84rem; color: var(--ink-2); }
+.lg-item { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.lg { width: 14px; height: 14px; flex: 0 0 auto; }
+.lg circle, .lg path { fill: var(--dot); stroke: #fff; stroke-width: 1; }
+.legend.tinted .lg.y2021 circle { fill: var(--y21); }
+.legend.tinted .lg.y2022 path { fill: var(--y22); }
+.legend.tinted .lg.y2023 path { fill: var(--y23); }
+.lg.slmark circle { fill: var(--mark); }
+.lg-sep { width: 1px; height: 16px; background: var(--rule-2); }
+.toggle { margin-left: auto; display: none; align-items: center; gap: 6px; cursor: pointer; user-select: none; -webkit-user-select: none; }
+.js .toggle { display: inline-flex; }
+.toggle input { accent-color: var(--accent); width: 15px; height: 15px; margin: 0; }
+.caption { font-size: .875rem; color: var(--ink-2); max-width: 80ch; }
+.tip {
+  position: fixed; z-index: 80; pointer-events: none; max-width: 280px;
+  background: #231e1b; color: #fff; font-size: .8rem; line-height: 1.4; padding: 8px 10px; border-radius: 7px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .18);
+}
+.tip b { font-weight: 650; }
+.tip .t2 { color: #d9d1ca; }
+
+/* trims */
+.footnotes { display: flex; flex-direction: column; gap: 4px; }
+.soft li, .nh li, .rules li { margin-top: .45rem; }
+
+/* cost */
+.assump { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin: 0; background: var(--rule); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+@media (max-width: 720px) { .assump { grid-template-columns: 1fr; } }
+.assump > div { background: var(--surface-2); padding: 9px 12px; display: flex; gap: 12px; min-width: 0; }
+.assump dt { flex: 0 0 128px; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; padding-top: 2px; }
+.assump dd { margin: 0; font-size: .9rem; font-variant-numeric: tabular-nums; min-width: 0; }
+.thumb { padding: 10px 14px; background: var(--accent-soft); border-radius: 8px; color: var(--accent); font-weight: 600; font-size: .95rem; }
+.calc { border: 1px solid var(--rule); border-radius: 10px; padding: 18px; background: var(--surface-2); display: flex; flex-direction: column; gap: 12px; }
+.calc h3.sub { margin-top: 0; }
+.calc-grid { display: none; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.js .calc-grid { display: grid; }
+@media (max-width: 760px) { .calc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.calc-grid label { display: flex; flex-direction: column; gap: 5px; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; min-width: 0; }
+.inwrap { display: flex; align-items: center; background: var(--surface); border: 1px solid var(--rule-2); border-radius: 7px; overflow: hidden; min-height: 44px; }
+.inwrap:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(124, 26, 26, .12); }
+.inwrap .pre, .inwrap .post { padding: 0 9px; color: var(--ink-3); font-size: .9rem; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.inwrap input { all: unset; flex: 1; min-width: 0; padding: 9px 8px; font-size: 1rem; color: var(--ink); font-variant-numeric: tabular-nums; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.calc-out { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 860px) { .calc-out { grid-template-columns: repeat(2, minmax(0, 1fr)); } .calc-out .em { grid-column: 1 / -1; order: -1; } }
+.calc-out > div { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.calc-out .k { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 650; }
+.calc-out .v { font-size: 1.25rem; font-weight: 700; letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+.calc-out .em { border-color: #e7c9c4; background: #fffaf9; }
+.calc-out .em .v { color: var(--accent); font-size: 1.45rem; }
+.calc-example { font-size: .84rem; color: var(--ink-2); padding: 8px 10px; border: 1px dashed var(--rule-2); border-radius: 7px; background: var(--surface); font-variant-numeric: tabular-nums; }
+.calc-example strong { color: var(--ink); }
+
+/* email */
+blockquote.email { margin: 0; padding: 16px 18px; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 8px; font-size: .95rem; line-height: 1.6; white-space: pre-wrap; }
+textarea.email-ta {
+  display: block; width: 100%; min-height: 15rem; margin: 0; padding: 14px 16px; resize: vertical;
+  font: inherit; font-size: 1rem; line-height: 1.55; color: var(--ink); background: #fffef8; border: 2px solid var(--accent); border-radius: 8px;
+}
+#copy-btn { display: none; min-height: 40px; }
+.js #copy-btn { display: inline-flex; }
+.copy-status { font-size: .84rem; color: var(--ink-2); }
+.recall { padding: 10px 14px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface-2); font-size: .92rem; }
+.foot { display: flex; flex-direction: column; gap: 2px; }
+
+.footer { padding-top: 26px; padding-bottom: 48px; color: var(--ink-3); font-size: .84rem; text-align: center; }
+.footer p { max-width: 78ch; margin: 0 auto; }
+
+/* touch screens of any size get 44px targets in the chrome */
+@media screen and (pointer: coarse) {
+  .navlinks a, .btn, #copy-btn { min-height: 44px; }
+  .tlink { padding: 9px 12px; }
+  .toggle { min-height: 40px; }
+}
+
+/* ---------- phones & small tablets (screen only, so print keeps the desktop presentation) ---------- */
+@media screen and (max-width: 759px) {
+  .navwrap { height: 52px; gap: 10px; }
+  .navlinks { gap: 4px; padding: 0 2px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+  .navlinks::after { content: ""; flex: 0 0 22px; }
+  .navlinks a { min-height: 44px; padding: 0 1px; border-radius: 999px; }
+  .navlinks a > span { display: inline-flex; align-items: center; height: 32px; padding: 0 12px; border: 1px solid var(--rule-2); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: .86rem; font-weight: 550; }
+  /* let long numeric headers wrap so the name column keeps its width inside the side-scrolling tables */
+  table.data thead th, table.data thead th.num { white-space: normal; line-height: 1.3; vertical-align: bottom; }
+  #trim-table td:nth-child(2) { min-width: 118px; }
+  #cost-table td:nth-child(2) { min-width: 150px; }
+  #trim-table thead th.num, #cost-table thead th.num { min-width: 64px; }
+  .navlinks a:hover { background: transparent; }
+  .navlinks a.active { background: transparent; }
+  .navlinks a.active > span { background: var(--accent); border-color: var(--accent); color: #fff; }
+  /* shortlist as cards */
+  .sl-table-view { display: none; }
+  .sl-card-view { display: flex; }
+  #shortlist .sec-head p { display: none; }
+  /* phone chart variants */
+  svg.chart.d { display: none; }
+  svg.chart.m { display: block; max-width: 540px; margin: 0 auto; }
+  .chart-wrap { padding: 4px; }
+  .legend { gap: 8px 14px; }
+  .toggle { margin-left: 0; min-height: 40px; }
+  .scroll-hint { display: block; }
+  .btn { min-height: 44px; }
+  .pick .btn { align-self: stretch; width: 100%; min-height: 46px; }
+  #copy-btn { min-height: 44px; padding: 8px 18px; }
+  .calc-out .v { font-size: 1.15rem; }
+  table.data td.note { min-width: 180px; }
+}
+@media screen and (max-width: 600px) {
+  .wrap { padding: 0 12px; }
+  .card { padding: 18px 16px; }
+  .masthead { padding-top: 30px; padding-bottom: 26px; }
+  .brand { display: none; }
+  table.data th, table.data td { padding: 8px 9px; }
+  .assump dt { flex-basis: 104px; }
+  .calc { padding: 14px; }
+}
+@media screen and (max-width: 479px) {
+  .calc-grid { grid-template-columns: 1fr; }
+  .slc-price .p { font-size: 1.5rem; }
+}
+
+/* ---------- print / PDF ---------- */
+@page { size: letter portrait; margin: 0.5in 0.45in; }
+@media print {
+  :root { --shadow: none; }
+  html { scroll-padding-top: 0; }
+  body { background: #fff; font-size: 10.5pt; }
+  .topnav, .skip, .tipline, .sl-tools, .scroll-hint, .calc-grid, #copy-btn, .copy-status, .toggle, .tip, textarea.email-ta { display: none !important; }
+  blockquote.email { display: block !important; }
+  .wrap { max-width: none; padding: 0; }
+  main.wrap { gap: 18px; }
+  .masthead { padding-top: 0; padding-bottom: 14px; }
+  .masthead h1 { font-size: 1.85rem; }
+  .mast-row { margin-top: 12px; }
+  /* sections become ruled headings instead of boxes, so a section that starts at a page foot never leaves an empty frame behind */
+  .card { box-shadow: none; border: 0; border-radius: 0; background: transparent; break-inside: auto; padding: 0; gap: 10px; }
+  .card > h2, .card > .sec-head { border-top: 1.5px solid #cfc7bf; padding-top: 10px; }
+  .tldr { gap: 6px; }
+  .tldr li { padding: 8px 12px 8px 34px; }
+  .tldr li::before { top: 13px; left: 12px; }
+  #shortlist { width: 100%; }
+  .pick, .slc, tr, .assump > div, .chart-wrap, blockquote.email, .calc, .calc-out, .tldr li, .thumb, .recall { break-inside: avoid; page-break-inside: avoid; }
+  table.data { break-inside: auto; }
+  thead { display: table-header-group; }
+  .scroll, .chart-wrap { overflow: visible; border-color: #ddd; }
+  .scroll.fit { width: auto; }
+  table.data thead th, table.data thead th.num { white-space: normal; line-height: 1.3; vertical-align: bottom; }
+  table.data th, table.data td { padding: 6px 8px; }
+  #trim-table td:nth-child(2) { min-width: 150px; }
+  #cost-table td:nth-child(2) { min-width: 190px; }
+  svg.chart.d { display: block; }
+  svg.chart.m { display: none; }
+  /* top 3: one compact two-column card per pick so each can break onto the next page on its own */
+  .picks { grid-template-columns: 1fr; gap: 10px; }
+  .pick { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); column-gap: 18px; row-gap: 4px; align-items: start; padding: 10px 12px; background: #fff; }
+  .monthly { padding: 5px 8px; }
+  .pick > * { grid-column: 1; }
+  .pick .why { grid-column: 2; grid-row: 1 / span 5; font-size: .86rem; }
+  .pick .btn { grid-column: 2; grid-row: 6; justify-self: start; align-self: end; }
+  .price { font-size: 1.5rem; }
+  /* shortlist as two-up cards (the 12-column table clips on Letter) */
+  .sl-table-view { display: none; }
+  .sl-card-view { display: block; }
+  .sl-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .slc { padding: 10px 12px; gap: 6px; background: #fff; }
+  .slc-title { font-size: .98rem; }
+  .slc-price .p { font-size: 1.3rem; }
+  .slc-price .mo strong { font-size: 1rem; }
+  .slc-facts { grid-template-columns: minmax(0, 1.3fr) minmax(0, .9fr) minmax(0, .8fr) minmax(0, 1.4fr); padding: 6px 8px; gap: 4px 10px; background: #fafafa; }
+  .slc-facts dd { font-size: .8rem; }
+  .slc-note { font-size: .82rem; }
+  a.btn, a.btn.block { background: none; color: var(--accent); border-color: #ccc; min-height: 0; padding: 5px 10px; font-size: .84rem; }
+  a.btn.block { display: inline-flex; width: auto; align-self: flex-start; }
+  a[href^="http"]::after { content: none; }
+  h2, h3, .sec-head, .scroll-hint, .legend { break-after: avoid; page-break-after: avoid; }
+  .calc { padding: 12px 14px; gap: 8px; background: #fafafa; }
+  .calc-out { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+  .calc-out .em { grid-column: auto; order: 0; }
+  .calc-out > div { padding: 7px 9px; }
+  .calc-out .v { font-size: 1.02rem; }
+  .calc-out .em .v { font-size: 1.12rem; }
+  .caption { max-width: none; }
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js');</script>
+<a class="skip" href="#tldr">Skip to content</a>
+<nav class="topnav" aria-label="Sections"><div class="wrap navwrap">
+  <a class="brand" href="#top">CX-5 Buyer's Report</a>
+  <div class="navlinks"><a href="#tldr"><span>TL;DR</span></a><a href="#top3"><span>Top 3</span></a><a href="#shortlist"><span>Shortlist</span></a><a href="#chart"><span>Price vs. miles</span></a><a href="#trims"><span>Trims</span></a><a href="#cost"><span>Monthly cost</span></a><a href="#nohaggle"><span>No-haggle</span></a><a href="#email"><span>Email</span></a><a href="#sources"><span>Sources</span></a></div>
+</div></nav>
+
+<header class="masthead wrap" id="top">
+  <p class="eyebrow">Used-car research &#183; Seattle, WA</p>
+  <h1>2021&#8211;2023 Mazda <span class="nb">CX-5</span> &#8212; Seattle Buyer's Report</h1>
+  <p class="scope">Within 250 mi of 98101 &#183; under 50k mi &#183; under $29k list &#183; clean title / no accidents</p>
+  <div class="mast-row">
+    <span class="pill"><span class="dot" aria-hidden="true"></span>Prices captured Aug 7, 2026 &#8212; listings change daily; verify before contacting</span>
+    <span class="funnel">278 raw listings &#8594; 153 unique VINs &#8594; 112 pass filter</span>
+  </div>
+  <p class="tipline">Tip: open this file in Safari or Chrome for sorting and the payment calculator.</p>
+</header>
+
+<main class="wrap">
+
+<section class="card" id="tldr">
+  <h2>TL;DR</h2>
+  <ul class="tldr"><li>Contact first: #3 2021 Grand Touring Reserve at BMW Seattle ($24,999), then #1 2023 2.5 Turbo at Puyallup Mazda ($28,199), then #7 2022 Carbon Edition CPO at Lee Johnson Mazda ($26,972).</li><li>Cheapest solid vs. stretch: 2021 Grand Touring at $25,192 ($556/mo) vs. 2023 2.5 Turbo at $28,199 ($621/mo) &#8212; +$3,007 list, +$65/mo buys two model years, the turbo, and 5k fewer miles.</li><li>Trim value: the 2023 2.5 Turbo ($28,199 vs. $30,980) and the 2021 GT Reserve ($24,999 vs. $27,770) both sit about $2.8k under KBB Seattle fair purchase price. Avoid the 2021 Signature &#8212; it trades $1,421 over.</li><li>Financing math: every $1,000 financed &#8776; $19.47/mo at 6.30% APR over 60 months. No Mazda CPO promo rate applies to the CX-5 right now (3.9% is CX-90/CX-70 only).</li></ul>
+</section>
+
+<section class="card" id="top3">
+  <div class="sec-head"><h2>Top 3 to contact first</h2><p class="muted">Ranks refer to the 11-car shortlist below.</p></div>
+  <div class="picks">
+    <article class="pick">
+      <div class="pick-head"><span class="rank">#3</span><span class="pick-tag">Cheapest turbo</span><span class="badge src src-kbb">KBB</span></div>
+      <h3>2021 Grand Touring Reserve (2.5T)</h3>
+      <div class="price">$24,999</div>
+      <div class="pick-meta">39,146 mi &#183; BMW Seattle &#183; Seattle, WA <span class="muted">(3 mi away)</span></div>
+      <div class="pick-badges"><span class="badge deal great">Great &#183; $2,771 under FPP</span><span class="badge plain">2 owners &#183; 0 accidents</span></div>
+      <div class="monthly"><strong>$552/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <p class="why">Round 2 upgraded this from &#8220;unverified&#8221; to confirmed 0-accident / no-frame / no-flood via KBB AutoCheck preview. Turbo + vented leather at the cheapest price on the list, $2,771 under FPP, 3 mi away. Only ding: 2 owners.</p>
+      <a class="btn" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener">View listing</a>
+    </article>
+    <article class="pick">
+      <div class="pick-head"><span class="rank">#1</span><span class="pick-tag">Stretch pick</span><span class="badge src src-cargurus">CarGurus</span></div>
+      <h3>2023 2.5 Turbo AWD</h3>
+      <div class="price">$28,199</div>
+      <div class="pick-meta">27,990 mi &#183; Puyallup Mazda &#183; Puyallup, WA <span class="muted">(84 days on lot)</span></div>
+      <div class="pick-badges"><span class="badge deal great">Great &#183; $2,781 under FPP</span><span class="badge plain">1 owner &#183; 0 accidents</span></div>
+      <div class="monthly"><strong>$621/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <p class="why">Biggest FPP gap in the entire dataset ($2,781 under), 1-owner, 84 days on lot &#8594; strongest negotiating leverage. Price already dropped once on KBB.</p>
+      <a class="btn" href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener">View listing</a>
+    </article>
+    <article class="pick">
+      <div class="pick-head"><span class="rank">#7</span><span class="pick-tag">Only in-Seattle CPO</span><span class="badge src src-cargurus">CarGurus</span></div>
+      <h3>2022 2.5 S Carbon Edition</h3>
+      <div class="price">$26,972</div>
+      <div class="pick-meta">34,749 mi &#183; Lee Johnson Mazda &#183; Seattle, WA <span class="muted">(6 mi away)</span></div>
+      <div class="pick-badges"><span class="badge deal good">Good &#183; $978 below market</span><span class="badge plain">1 owner &#183; 0 accidents</span><span class="badge cpo">CPO</span></div>
+      <div class="monthly"><strong>$594/mo</strong> <span class="muted">at $0 down &#183; 6.30% &#183; 60 mo</span></div>
+      <p class="why">Only in-Seattle CPO; 1-owner / 0-accident; Mazda dealer so the CPO warranty is real. 6 mi away.</p>
+      <a class="btn" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener">View listing</a>
+    </article></div>
+  <p class="muted small runner">Runner-up: #5 &#8212; 2021 GT Kirkland, $3,048 under FPP with 3 price drops already; and #4 &#8212; new KBB find in Portland, 59 days aged with 3 drops.</p>
+</section>
+
+<section class="card" id="shortlist">
+  <div class="sec-head"><h2>Shortlist &#8212; 11 cars, ranked by value</h2><p class="muted">Click a column header to sort.</p></div>
+  <p class="small">Filtered from 163 merged records &#8594; 112 passed disqualifiers (0 accidents, non-fleet, no lemon/frame, &#8805;6 photos where known, VIN present or CL/iSeeCars-flagged, wanted trim). Ranked on deal-rating / KBB-FPP-delta &#8594; $-below-market &#8594; 1-owner &#8594; CPO &#8594; mi/$. At least 3 non-CarGurus sources enforced. All VINs = 0 open NHTSA recalls (2021/22/23 CX-5, checked 8/7/26).</p>
+  <div class="sl-table-view"><div class="scroll"><table class="data sortable" id="shortlist-table"><thead><tr><th scope="col" class="num"><button type="button">#<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Source &#183; also on<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Year<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Trim<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">Miles<span class="si" aria-hidden="true"></span></button></th><th scope="col" class="num"><button type="button">List $<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Seller &#183; City<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Deal / &#916;<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">1-own / Acc<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">CPO<span class="si" aria-hidden="true"></span></button></th><th scope="col" data-nosort="1"><button type="button">Link<span class="si" aria-hidden="true"></span></button></th><th scope="col"><button type="button">Note<span class="si" aria-hidden="true"></span></button></th></tr></thead><tbody><tr>
+      <td class="num" data-v="1"><span class="rank sm">#1</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
+      <td class="num" data-v="2023">2023</td>
+      <td>2.5 Turbo AWD</td>
+      <td class="num" data-v="27990">27,990</td>
+      <td class="num" data-v="28199"><strong>$28,199</strong></td>
+      <td>Puyallup Mazda<br><span class="muted">Puyallup, WA</span></td>
+      <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,781 &lt; FPP</div></td>
+      <td>1-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener" aria-label="Open listing #1 in a new tab">Open</a></td>
+      <td class="note"><strong>Stretch pick.</strong> 84d aged, biggest FPP gap in set.</td>
+    </tr><tr>
+      <td class="num" data-v="2"><span class="rank sm">#2</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB, iSeeCars</div></td>
+      <td class="num" data-v="2022">2022</td>
+      <td>2.5 Turbo AWD</td>
+      <td class="num" data-v="25353">25,353</td>
+      <td class="num" data-v="27300"><strong>$27,300</strong></td>
+      <td>Acura of Seattle<br><span class="muted">Seattle, WA</span></td>
+      <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,193 below</div></td>
+      <td>2-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener" aria-label="Open listing #2 in a new tab">Open</a></td>
+      <td class="note">Lowest-mile turbo, 11 mi away. Ask why 2 owners.</td>
+    </tr><tr>
+      <td class="num" data-v="3"><span class="rank sm">#3</span></td>
+      <td data-v-text="KBB"><span class="badge src src-kbb">KBB</span><div class="also">also Cars.com, iSeeCars</div></td>
+      <td class="num" data-v="2021">2021</td>
+      <td>GT Reserve (2.5T)</td>
+      <td class="num" data-v="39146">39,146</td>
+      <td class="num" data-v="24999"><strong>$24,999</strong></td>
+      <td>BMW Seattle<br><span class="muted">Seattle, WA</span></td>
+      <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,771 &lt; FPP</div></td>
+      <td>2-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener" aria-label="Open listing #3 in a new tab">Open</a></td>
+      <td class="note"><strong>Cheapest turbo.</strong> KBB vhr now confirms 0 acc / no frame / no flood (was &#8220;unverified&#8221; in R1).</td>
+    </tr><tr>
+      <td class="num" data-v="4"><span class="rank sm">#4</span></td>
+      <td data-v-text="KBB"><span class="badge src src-kbb">KBB</span><div class="also">also Cars.com, iSeeCars</div></td>
+      <td class="num" data-v="2021">2021</td>
+      <td>Carbon Edition</td>
+      <td class="num" data-v="34800">34,800</td>
+      <td class="num" data-v="26512"><strong>$26,512</strong></td>
+      <td>Ron Tonkin Honda<br><span class="muted">Portland, OR</span></td>
+      <td data-v="3"><span class="badge deal great">Great</span><div class="delta">$2,612 &lt; FPP</div></td>
+      <td>1-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.kbb.com/cars-for-sale/vehicle/782577606" target="_blank" rel="noopener" aria-label="Open listing #4 in a new tab">Open</a></td>
+      <td class="note"><strong>New R2 find.</strong> 3 price drops, 59d aged.</td>
+    </tr><tr>
+      <td class="num" data-v="5"><span class="rank sm">#5</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
+      <td class="num" data-v="2021">2021</td>
+      <td>Grand Touring AWD</td>
+      <td class="num" data-v="33175">33,175</td>
+      <td class="num" data-v="25192"><strong>$25,192</strong></td>
+      <td>Hyundai of Kirkland<br><span class="muted">Kirkland, WA</span></td>
+      <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$3,048 &lt; FPP</div></td>
+      <td>1-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener" aria-label="Open listing #5 in a new tab">Open</a></td>
+      <td class="note"><strong>Cheapest solid.</strong> 3 drops, 43d. Note: KBB lists dealer as &#8220;Ford of Kirkland&#8221; &#8212; same lot.</td>
+    </tr><tr>
+      <td class="num" data-v="6"><span class="rank sm">#6</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
+      <td class="num" data-v="2021">2021</td>
+      <td>Carbon Ed Turbo AWD</td>
+      <td class="num" data-v="42515">42,515</td>
+      <td class="num" data-v="25198"><strong>$25,198</strong></td>
+      <td>Puyallup Mazda<br><span class="muted">Puyallup, WA</span></td>
+      <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$1,720 below</div></td>
+      <td>2-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener" aria-label="Open listing #6 in a new tab">Open</a></td>
+      <td class="note">Cheapest turbo alt. Higher miles.</td>
+    </tr><tr>
+      <td class="num" data-v="7"><span class="rank sm">#7</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB, iSeeCars</div></td>
+      <td class="num" data-v="2022">2022</td>
+      <td>2.5 S Carbon Edition</td>
+      <td class="num" data-v="34749">34,749</td>
+      <td class="num" data-v="26972"><strong>$26,972</strong></td>
+      <td>Lee Johnson Mazda<br><span class="muted">Seattle, WA</span></td>
+      <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$978 below</div></td>
+      <td>1-own / 0</td>
+      <td><strong>Yes</strong></td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener" aria-label="Open listing #7 in a new tab">Open</a></td>
+      <td class="note">Only in-Seattle CPO. 6 mi away.</td>
+    </tr><tr>
+      <td class="num" data-v="8"><span class="rank sm">#8</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also Craigslist</div></td>
+      <td class="num" data-v="2023">2023</td>
+      <td>2.5 S Preferred</td>
+      <td class="num" data-v="16612">16,612</td>
+      <td class="num" data-v="26900"><strong>$26,900</strong></td>
+      <td>Royal Moore Mazda<br><span class="muted">Hillsboro, OR</span></td>
+      <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$808 below</div></td>
+      <td>1-own / 0</td>
+      <td>No</td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener" aria-label="Open listing #8 in a new tab">Open</a></td>
+      <td class="note">Lowest miles (16.6k). OR car, 148 mi.</td>
+    </tr><tr>
+      <td class="num" data-v="9"><span class="rank sm">#9</span></td>
+      <td data-v-text="CarGurus"><span class="badge src src-cargurus">CarGurus</span><div class="also">also KBB</div></td>
+      <td class="num" data-v="2023">2023</td>
+      <td>2.5 S Carbon Edition</td>
+      <td class="num" data-v="33006">33,006</td>
+      <td class="num" data-v="27699"><strong>$27,699</strong></td>
+      <td>Puyallup Mazda<br><span class="muted">Puyallup, WA</span></td>
+      <td data-v="2"><span class="badge deal good">Good</span><div class="delta">$521 below</div></td>
+      <td>1-own / 0</td>
+      <td><strong>Yes</strong></td>
+      <td><a class="tlink" href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener" aria-label="Open listing #9 in a new tab">Open</a></td>
+      <td class="note">Newest CPO &#8212; warranty to 2030/100k.</td>
+    </tr><tr>
+      <td class="num" data-v="10"><span class="rank sm">#10</span></td>
+      <td data-v-text="Cars.com"><span class="badge src src-carscom">Cars.com</span><div class="also">also iSeeCars</div></td>
+      <td class="num" data-v="2023">2023</td>
+      <td>2.5 S Preferred</td>
+      <td class="num" data-v="44989">44,989</td>
+      <td class="num" data-v="24095"><strong>$24,095</strong></td>
+      <td>Columbia Sales &amp; Service<br><span class="muted">Portland, OR</span></td>
+      <td data-v="3"><span class="badge deal great">Great</span><div class="delta">Cars.com rating</div></td>
+      <td><span class="badge warn wrapok">history unverified</span></td>
+      <td>?</td>
+      <td><a class="tlink" href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener" aria-label="Open listing #10 in a new tab">Open</a></td>
+      <td class="note"><strong>Cheapest 2023.</strong> Indie lot &#8212; pull Carfax before contact.</td>
+    </tr><tr>
+      <td class="num" data-v="11"><span class="rank sm">#11</span></td>
+      <td data-v-text="CarMax"><span class="badge src src-carmax">CarMax</span><div class="also">CarMax only</div></td>
+      <td class="num" data-v="2022">2022</td>
+      <td>Carbon Edition</td>
+      <td class="num" data-v="48337">48,337</td>
+      <td class="num" data-v="24998"><strong>$24,998</strong></td>
+      <td>CarMax Sacramento, CA<br><span class="muted">$199 xfer</span></td>
+      <td data-v="1"><span class="badge deal nohaggle">no-haggle</span></td>
+      <td>&#8212; / &#8212;</td>
+      <td>CarMax warranty</td>
+      <td><a class="tlink" href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener" aria-label="Open listing #11 in a new tab">Open</a></td>
+      <td class="note"><strong>No-haggle floor.</strong> Cheapest wanted-trim 2022 at CarMax within cheap-transfer range.</td>
+    </tr></tbody></table></div></div>
+  <div class="sl-card-view"><div class="sl-tools"><label for="sl-sort">Sort by</label>
+      <span class="selwrap"><select class="select" id="sl-sort">
+        <option value="rank" selected>Value rank</option>
+        <option value="price">Price &#183; low to high</option>
+        <option value="miles">Miles &#183; low to high</option>
+        <option value="year">Year &#183; newest first</option>
+        <option value="monthly">Monthly &#183; low to high</option>
+      </select></span></div>
+    <div class="sl-cards" id="sl-cards" role="list">
+    <article class="slc" role="listitem" data-rank="1" data-price="28199" data-miles="27990" data-year="2023" data-monthly="621">
+      <header class="slc-head"><span class="rank">#1</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$28,199</span><span class="mo"><strong>$621</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">27,990 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,781 &lt; FPP</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>Stretch pick.</strong> 84d aged, biggest FPP gap in set.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/448185375" target="_blank" rel="noopener" aria-label="View listing #1 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="2" data-price="27300" data-miles="25353" data-year="2022" data-monthly="601">
+      <header class="slc-head"><span class="rank">#2</span><h3 class="slc-title"><span class="yr">2022</span> 2.5 Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$27,300</span><span class="mo"><strong>$601</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">25,353 mi &#183; Acura of Seattle &#183; Seattle, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,193 below</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>2-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB, iSeeCars</span></dd></div>
+      </dl>
+      <p class="slc-note">Lowest-mile turbo, 11 mi away. Ask why 2 owners.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/451655500" target="_blank" rel="noopener" aria-label="View listing #2 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="3" data-price="24999" data-miles="39146" data-year="2021" data-monthly="552">
+      <header class="slc-head"><span class="rank">#3</span><h3 class="slc-title"><span class="yr">2021</span> GT Reserve (2.5T)</h3><span class="badge src src-kbb">KBB</span></header>
+      <div class="slc-price"><span class="p">$24,999</span><span class="mo"><strong>$552</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">39,146 mi &#183; BMW Seattle &#183; Seattle, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,771 &lt; FPP</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>2-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>KBB<span class="also">also Cars.com, iSeeCars</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>Cheapest turbo.</strong> KBB vhr now confirms 0 acc / no frame / no flood (was &#8220;unverified&#8221; in R1).</p>
+      <a class="btn block" href="https://www.kbb.com/cars-for-sale/vehicle/787237825" target="_blank" rel="noopener" aria-label="View listing #3 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="4" data-price="26512" data-miles="34800" data-year="2021" data-monthly="584">
+      <header class="slc-head"><span class="rank">#4</span><h3 class="slc-title"><span class="yr">2021</span> Carbon Edition</h3><span class="badge src src-kbb">KBB</span></header>
+      <div class="slc-price"><span class="p">$26,512</span><span class="mo"><strong>$584</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">34,800 mi &#183; Ron Tonkin Honda &#183; Portland, OR</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">$2,612 &lt; FPP</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>KBB<span class="also">also Cars.com, iSeeCars</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>New R2 find.</strong> 3 price drops, 59d aged.</p>
+      <a class="btn block" href="https://www.kbb.com/cars-for-sale/vehicle/782577606" target="_blank" rel="noopener" aria-label="View listing #4 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="5" data-price="25192" data-miles="33175" data-year="2021" data-monthly="556">
+      <header class="slc-head"><span class="rank">#5</span><h3 class="slc-title"><span class="yr">2021</span> Grand Touring AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$25,192</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">33,175 mi &#183; Hyundai of Kirkland &#183; Kirkland, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$3,048 &lt; FPP</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>Cheapest solid.</strong> 3 drops, 43d. Note: KBB lists dealer as &#8220;Ford of Kirkland&#8221; &#8212; same lot.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/451807182" target="_blank" rel="noopener" aria-label="View listing #5 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="6" data-price="25198" data-miles="42515" data-year="2021" data-monthly="556">
+      <header class="slc-head"><span class="rank">#6</span><h3 class="slc-title"><span class="yr">2021</span> Carbon Ed Turbo AWD</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$25,198</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">42,515 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$1,720 below</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>2-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB</span></dd></div>
+      </dl>
+      <p class="slc-note">Cheapest turbo alt. Higher miles.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/449972241" target="_blank" rel="noopener" aria-label="View listing #6 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="7" data-price="26972" data-miles="34749" data-year="2022" data-monthly="594">
+      <header class="slc-head"><span class="rank">#7</span><h3 class="slc-title"><span class="yr">2022</span> 2.5 S Carbon Edition</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$26,972</span><span class="mo"><strong>$594</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">34,749 mi &#183; Lee Johnson Mazda &#183; Seattle, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$978 below</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd><strong>Yes</strong></dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB, iSeeCars</span></dd></div>
+      </dl>
+      <p class="slc-note">Only in-Seattle CPO. 6 mi away.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/453287059" target="_blank" rel="noopener" aria-label="View listing #7 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="8" data-price="26900" data-miles="16612" data-year="2023" data-monthly="593">
+      <header class="slc-head"><span class="rank">#8</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Preferred</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$26,900</span><span class="mo"><strong>$593</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">16,612 mi &#183; Royal Moore Mazda &#183; Hillsboro, OR</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$808 below</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd>No</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also Craigslist</span></dd></div>
+      </dl>
+      <p class="slc-note">Lowest miles (16.6k). OR car, 148 mi.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/454567468" target="_blank" rel="noopener" aria-label="View listing #8 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="9" data-price="27699" data-miles="33006" data-year="2023" data-monthly="610">
+      <header class="slc-head"><span class="rank">#9</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Carbon Edition</h3><span class="badge src src-cargurus">CarGurus</span></header>
+      <div class="slc-price"><span class="p">$27,699</span><span class="mo"><strong>$610</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">33,006 mi &#183; Puyallup Mazda &#183; Puyallup, WA</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal good">Good</span><span class="delta">$521 below</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>1-own / 0</dd></div>
+        <div><dt>CPO</dt><dd><strong>Yes</strong></dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarGurus<span class="also">also KBB</span></dd></div>
+      </dl>
+      <p class="slc-note">Newest CPO &#8212; warranty to 2030/100k.</p>
+      <a class="btn block" href="https://www.cargurus.com/Cars/listing/450917825" target="_blank" rel="noopener" aria-label="View listing #9 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="10" data-price="24095" data-miles="44989" data-year="2023" data-monthly="532">
+      <header class="slc-head"><span class="rank">#10</span><h3 class="slc-title"><span class="yr">2023</span> 2.5 S Preferred</h3><span class="badge src src-carscom">Cars.com</span></header>
+      <div class="slc-price"><span class="p">$24,095</span><span class="mo"><strong>$532</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">44,989 mi &#183; Columbia Sales &amp; Service &#183; Portland, OR</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal great">Great</span><span class="delta">Cars.com rating</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd><span class="badge warn wrapok">history unverified</span></dd></div>
+        <div><dt>CPO</dt><dd>?</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>Cars.com<span class="also">also iSeeCars</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>Cheapest 2023.</strong> Indie lot &#8212; pull Carfax before contact.</p>
+      <a class="btn block" href="https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/" target="_blank" rel="noopener" aria-label="View listing #10 in a new tab">View listing</a>
+    </article>
+    <article class="slc" role="listitem" data-rank="11" data-price="24998" data-miles="48337" data-year="2022" data-monthly="556">
+      <header class="slc-head"><span class="rank">#11</span><h3 class="slc-title"><span class="yr">2022</span> Carbon Edition</h3><span class="badge src src-carmax">CarMax</span></header>
+      <div class="slc-price"><span class="p">$24,998</span><span class="mo"><strong>$556</strong>/mo <span class="muted">at $0 down</span></span></div>
+      <p class="slc-meta">48,337 mi &#183; CarMax Sacramento, CA &#183; $199 xfer</p>
+      <dl class="slc-facts">
+        <div><dt>Deal / &#916;</dt><dd><span class="badge deal nohaggle">no-haggle</span></dd></div>
+        <div><dt>1-own / Acc</dt><dd>&#8212; / &#8212;</dd></div>
+        <div><dt>CPO</dt><dd>CarMax warranty</dd></div>
+        <div><dt>Source &#183; also on</dt><dd>CarMax<span class="also">CarMax only</span></dd></div>
+      </dl>
+      <p class="slc-note"><strong>No-haggle floor.</strong> Cheapest wanted-trim 2022 at CarMax within cheap-transfer range.</p>
+      <a class="btn block" href="https://www.carmax.com/car/70056694" target="_blank" rel="noopener" aria-label="View listing #11 in a new tab">View listing</a>
+    </article></div></div>
+  <p class="muted small dq">Notable disqualifications: 2021 Touring $22,900 Royal Moore (accident); 2021 Signature $24,490 Monroe (accident); 2021 GT 15k-mi $27,282 Tacoma (accident); 2022 Preferred $24,998 CarMax Beaverton (accident); 3 KBB listings with ACCIDENTS_REPORTED; 21 unwanted-trim (Select/base 2.5 S) not &gt;$3k under year-avg.</p>
+</section>
+
+<section class="card" id="chart">
+  <div class="sec-head"><h2>Price vs. miles &#8212; where the picks sit in the market</h2></div>
+  <div class="legend" id="scatter-legend">
+    <span class="lg-item"><svg class="lg y2021" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="4.2"/></svg> 2021</span>
+    <span class="lg-item"><svg class="lg y2022" viewBox="0 0 14 14" aria-hidden="true"><path d="M7,1.8l5.2,5.2l-5.2,5.2l-5.2,-5.2z"/></svg> 2022</span>
+    <span class="lg-item"><svg class="lg y2023" viewBox="0 0 14 14" aria-hidden="true"><path d="M7,1.6L12.4,10.8L1.6,10.8z"/></svg> 2023</span>
+    <span class="lg-sep" aria-hidden="true"></span>
+    <span class="lg-item"><svg class="lg cloud" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="3.4"/></svg> passing listing (112)</span>
+    <span class="lg-item"><svg class="lg slmark" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5"/></svg> shortlist pick, labeled by rank</span>
+    <label class="toggle"><input type="checkbox" id="tint"> Tint cloud by model year</label>
+  </div>
+  <div class="chart-wrap" id="scatter-wrap"><svg class="chart scatter d" id="scatter" viewBox="0 0 900 470" role="img" aria-label="Scatter plot of 112 passing listings: odometer miles on the x axis, list price on the y axis. The 11 shortlist picks are numbered.">
+  <rect class="plot-bg" x="66" y="22" width="808" height="392"/>
+  <line class="grid" x1="66" x2="874" y1="386.0" y2="386.0"/><text class="tick" x="56" y="390.5" text-anchor="end">$23k</text><line class="grid" x1="66" x2="874" y1="330.0" y2="330.0"/><text class="tick" x="56" y="334.5" text-anchor="end">$24k</text><line class="grid" x1="66" x2="874" y1="274.0" y2="274.0"/><text class="tick" x="56" y="278.5" text-anchor="end">$25k</text><line class="grid" x1="66" x2="874" y1="218.0" y2="218.0"/><text class="tick" x="56" y="222.5" text-anchor="end">$26k</text><line class="grid" x1="66" x2="874" y1="162.0" y2="162.0"/><text class="tick" x="56" y="166.5" text-anchor="end">$27k</text><line class="grid" x1="66" x2="874" y1="106.0" y2="106.0"/><text class="tick" x="56" y="110.5" text-anchor="end">$28k</text><line class="grid" x1="66" x2="874" y1="50.0" y2="50.0"/><text class="tick" x="56" y="54.5" text-anchor="end">$29k</text><line class="grid grid-v" x1="88.4" x2="88.4" y1="22" y2="414"/><text class="tick" x="88.4" y="432" text-anchor="middle">15k</text><line class="grid grid-v" x1="200.7" x2="200.7" y1="22" y2="414"/><text class="tick" x="200.7" y="432" text-anchor="middle">20k</text><line class="grid grid-v" x1="312.9" x2="312.9" y1="22" y2="414"/><text class="tick" x="312.9" y="432" text-anchor="middle">25k</text><line class="grid grid-v" x1="425.1" x2="425.1" y1="22" y2="414"/><text class="tick" x="425.1" y="432" text-anchor="middle">30k</text><line class="grid grid-v" x1="537.3" x2="537.3" y1="22" y2="414"/><text class="tick" x="537.3" y="432" text-anchor="middle">35k</text><line class="grid grid-v" x1="649.6" x2="649.6" y1="22" y2="414"/><text class="tick" x="649.6" y="432" text-anchor="middle">40k</text><line class="grid grid-v" x1="761.8" x2="761.8" y1="22" y2="414"/><text class="tick" x="761.8" y="432" text-anchor="middle">45k</text><line class="grid grid-v" x1="874.0" x2="874.0" y1="22" y2="414"/><text class="tick" x="874.0" y="432" text-anchor="middle">50k</text><line class="axis" x1="66" x2="874" y1="414" y2="414"/><text class="axis-title" x="470.0" y="460" text-anchor="middle">Odometer (miles)</text><text class="axis-title" x="16" y="218" text-anchor="middle" transform="rotate(-90 16 218)">List price</text>
+  <g class="pts"><g class="pt y2023" data-i="0" data-x="272.5" data-y="54.8"><path d="M272.5,49.9L277.2,58.2L267.9,58.2z"/></g><g class="pt y2023" data-i="1" data-x="289.8" data-y="50.1"><path d="M289.8,45.2L294.4,53.5L285.1,53.5z"/></g><g class="pt y2023" data-i="2" data-x="376.6" data-y="131.5"><path d="M376.6,126.6L381.2,134.9L371.9,134.9z"/></g><g class="pt y2021" data-i="3" data-x="636.4" data-y="135.6"><circle cx="636.4" cy="135.6" r="3.7"/></g><g class="pt y2023" data-i="4" data-x="498.3" data-y="223.9"><path d="M498.3,219.0L503.0,227.3L493.6,227.3z"/></g><g class="pt y2023" data-i="5" data-x="344.5" data-y="83.6"><path d="M344.5,78.7L349.2,87.0L339.9,87.0z"/></g><g class="pt y2022" data-i="6" data-x="731.3" data-y="140.2"><path d="M731.3,135.5l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="7" data-x="401.0" data-y="119.4"><path d="M401.0,114.5L405.6,122.9L396.3,122.9z"/></g><g class="pt y2021" data-i="8" data-x="453.2" data-y="137.8"><circle cx="453.2" cy="137.8" r="3.7"/></g><g class="pt y2023" data-i="9" data-x="483.3" data-y="128.5"><path d="M483.3,123.6L488.0,131.9L478.7,131.9z"/></g><g class="pt y2022" data-i="10" data-x="589.8" data-y="92.3"><path d="M589.8,87.6l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="11" data-x="659.7" data-y="192.1"><circle cx="659.7" cy="192.1" r="3.7"/></g><g class="pt y2022" data-i="12" data-x="814.1" data-y="134.1"><path d="M814.1,129.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="13" data-x="277.1" data-y="50.7"><path d="M277.1,45.8L281.8,54.1L272.5,54.1z"/></g><g class="pt y2021" data-i="14" data-x="338.3" data-y="177.6"><circle cx="338.3" cy="177.6" r="3.7"/></g><g class="pt y2023" data-i="15" data-x="414.0" data-y="176.2"><path d="M414.0,171.3L418.7,179.6L409.4,179.6z"/></g><g class="pt y2023" data-i="16" data-x="778.1" data-y="162.1"><path d="M778.1,157.2L782.7,165.5L773.4,165.5z"/></g><g class="pt y2022" data-i="17" data-x="759.0" data-y="330.1"><path d="M759.0,325.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="18" data-x="326.4" data-y="94.9"><circle cx="326.4" cy="94.9" r="3.7"/></g><g class="pt y2023" data-i="19" data-x="474.5" data-y="106.1"><path d="M474.5,101.2L479.1,109.5L469.8,109.5z"/></g><g class="pt y2022" data-i="20" data-x="745.6" data-y="205.7"><path d="M745.6,201.0l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="21" data-x="545.0" data-y="159.8"><path d="M545.0,154.9L549.6,163.2L540.3,163.2z"/></g><g class="pt y2022" data-i="22" data-x="533.8" data-y="203.3"><path d="M533.8,198.6l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="23" data-x="632.7" data-y="148.0"><path d="M632.7,143.3l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="24" data-x="781.1" data-y="166.8"><path d="M781.1,162.1l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="25" data-x="241.8" data-y="51.0"><path d="M241.8,46.1L246.5,54.4L237.2,54.4z"/></g><g class="pt y2021" data-i="26" data-x="359.8" data-y="78.0"><circle cx="359.8" cy="78.0" r="3.7"/></g><g class="pt y2023" data-i="27" data-x="144.7" data-y="50.1"><path d="M144.7,45.2L149.3,53.5L140.0,53.5z"/></g><g class="pt y2022" data-i="28" data-x="651.7" data-y="118.8"><path d="M651.7,114.1l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="29" data-x="747.9" data-y="162.0"><path d="M747.9,157.1L752.5,165.4L743.2,165.4z"/></g><g class="pt y2021" data-i="30" data-x="525.5" data-y="179.5"><circle cx="525.5" cy="179.5" r="3.7"/></g><g class="pt y2023" data-i="31" data-x="824.4" data-y="164.1"><path d="M824.4,159.2L829.0,167.6L819.7,167.6z"/></g><g class="pt y2021" data-i="32" data-x="94.8" data-y="118.5"><circle cx="94.8" cy="118.5" r="3.7"/></g><g class="pt y2023" data-i="33" data-x="124.6" data-y="117.2"><path d="M124.6,112.3L129.3,120.6L120.0,120.6z"/></g><g class="pt y2023" data-i="34" data-x="132.6" data-y="167.6"><path d="M132.6,162.7L137.3,171.0L128.0,171.0z"/></g><g class="pt y2021" data-i="35" data-x="261.8" data-y="162.1"><circle cx="261.8" cy="162.1" r="3.7"/></g><g class="pt y2022" data-i="36" data-x="320.8" data-y="103.8"><path d="M320.8,99.1l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="37" data-x="311.3" data-y="218.1"><path d="M311.3,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="38" data-x="335.3" data-y="191.6"><circle cx="335.3" cy="191.6" r="3.7"/></g><g class="pt y2021" data-i="39" data-x="329.2" data-y="218.1"><circle cx="329.2" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="40" data-x="357.2" data-y="162.1"><circle cx="357.2" cy="162.1" r="3.7"/></g><g class="pt y2023" data-i="41" data-x="376.6" data-y="117.5"><path d="M376.6,112.6L381.2,120.9L371.9,120.9z"/></g><g class="pt y2023" data-i="42" data-x="363.9" data-y="162.1"><path d="M363.9,157.2L368.6,165.5L359.3,165.5z"/></g><g class="pt y2021" data-i="43" data-x="366.7" data-y="162.1"><circle cx="366.7" cy="162.1" r="3.7"/></g><g class="pt y2021" data-i="44" data-x="394.3" data-y="162.1"><circle cx="394.3" cy="162.1" r="3.7"/></g><g class="pt y2022" data-i="45" data-x="402.9" data-y="162.1"><path d="M402.9,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="46" data-x="428.7" data-y="162.1"><path d="M428.7,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="47" data-x="425.1" data-y="190.2"><path d="M425.1,185.3L429.8,193.6L420.5,193.6z"/></g><g class="pt y2023" data-i="48" data-x="425.1" data-y="190.2"><path d="M425.1,185.3L429.8,193.6L420.5,193.6z"/></g><g class="pt y2021" data-i="49" data-x="413.8" data-y="218.1"><circle cx="413.8" cy="218.1" r="3.7"/></g><g class="pt y2023" data-i="50" data-x="452.2" data-y="162.1"><path d="M452.2,157.2L456.9,165.5L447.6,165.5z"/></g><g class="pt y2023" data-i="51" data-x="466.2" data-y="162.1"><path d="M466.2,157.2L470.8,165.5L461.5,165.5z"/></g><g class="pt y2022" data-i="52" data-x="473.9" data-y="171.0"><path d="M473.9,166.3l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="53" data-x="506.4" data-y="162.1"><circle cx="506.4" cy="162.1" r="3.7"/></g><g class="pt y2022" data-i="54" data-x="481.0" data-y="218.1"><path d="M481.0,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="55" data-x="516.6" data-y="162.1"><path d="M516.6,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="56" data-x="557.8" data-y="89.3"><path d="M557.8,84.4L562.5,92.7L553.2,92.7z"/></g><g class="pt y2021" data-i="57" data-x="505.7" data-y="218.1"><circle cx="505.7" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="58" data-x="478.6" data-y="274.1"><circle cx="478.6" cy="274.1" r="3.7"/></g><g class="pt y2022" data-i="59" data-x="539.9" data-y="162.1"><path d="M539.9,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="60" data-x="520.5" data-y="218.1"><path d="M520.5,213.2L525.2,221.5L515.8,221.5z"/></g><g class="pt y2021" data-i="61" data-x="549.0" data-y="218.1"><circle cx="549.0" cy="218.1" r="3.7"/></g><g class="pt y2023" data-i="62" data-x="596.5" data-y="162.1"><path d="M596.5,157.2L601.1,165.5L591.8,165.5z"/></g><g class="pt y2021" data-i="63" data-x="593.3" data-y="218.1"><circle cx="593.3" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="64" data-x="635.6" data-y="162.1"><circle cx="635.6" cy="162.1" r="3.7"/></g><g class="pt y2021" data-i="65" data-x="570.4" data-y="274.1"><circle cx="570.4" cy="274.1" r="3.7"/></g><g class="pt y2022" data-i="66" data-x="662.1" data-y="162.1"><path d="M662.1,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="67" data-x="631.6" data-y="218.1"><path d="M631.6,213.2L636.2,221.5L626.9,221.5z"/></g><g class="pt y2021" data-i="68" data-x="604.7" data-y="274.1"><circle cx="604.7" cy="274.1" r="3.7"/></g><g class="pt y2022" data-i="69" data-x="678.6" data-y="162.1"><path d="M678.6,157.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="70" data-x="653.2" data-y="218.1"><path d="M653.2,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2023" data-i="71" data-x="717.5" data-y="162.1"><path d="M717.5,157.2L722.1,165.5L712.8,165.5z"/></g><g class="pt y2023" data-i="72" data-x="684.9" data-y="218.1"><path d="M684.9,213.2L689.5,221.5L680.2,221.5z"/></g><g class="pt y2023" data-i="73" data-x="714.0" data-y="218.1"><path d="M714.0,213.2L718.7,221.5L709.4,221.5z"/></g><g class="pt y2023" data-i="74" data-x="716.8" data-y="218.1"><path d="M716.8,213.2L721.5,221.5L712.2,221.5z"/></g><g class="pt y2021" data-i="75" data-x="717.3" data-y="218.1"><circle cx="717.3" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="76" data-x="686.0" data-y="274.1"><circle cx="686.0" cy="274.1" r="3.7"/></g><g class="pt y2023" data-i="77" data-x="735.6" data-y="218.1"><path d="M735.6,213.2L740.3,221.5L731.0,221.5z"/></g><g class="pt y2022" data-i="78" data-x="737.2" data-y="218.1"><path d="M737.2,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="79" data-x="778.9" data-y="166.1"><circle cx="778.9" cy="166.1" r="3.7"/></g><g class="pt y2023" data-i="80" data-x="706.6" data-y="274.1"><path d="M706.6,269.2L711.2,277.5L701.9,277.5z"/></g><g class="pt y2023" data-i="81" data-x="784.2" data-y="162.1"><path d="M784.2,157.2L788.8,165.5L779.5,165.5z"/></g><g class="pt y2021" data-i="82" data-x="748.1" data-y="218.1"><circle cx="748.1" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="83" data-x="711.3" data-y="274.1"><circle cx="711.3" cy="274.1" r="3.7"/></g><g class="pt y2023" data-i="84" data-x="761.7" data-y="218.1"><path d="M761.7,213.2L766.3,221.5L757.0,221.5z"/></g><g class="pt y2023" data-i="85" data-x="768.9" data-y="218.1"><path d="M768.9,213.2L773.6,221.5L764.3,221.5z"/></g><g class="pt y2022" data-i="86" data-x="655.7" data-y="386.1"><path d="M655.7,381.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="87" data-x="798.9" data-y="218.1"><path d="M798.9,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2022" data-i="88" data-x="805.2" data-y="218.1"><path d="M805.2,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="89" data-x="806.7" data-y="229.9"><circle cx="806.7" cy="229.9" r="3.7"/></g><g class="pt y2021" data-i="90" data-x="806.7" data-y="229.9"><circle cx="806.7" cy="229.9" r="3.7"/></g><g class="pt y2021" data-i="91" data-x="709.4" data-y="363.6"><circle cx="709.4" cy="363.6" r="3.7"/></g><g class="pt y2021" data-i="92" data-x="831.2" data-y="218.1"><circle cx="831.2" cy="218.1" r="3.7"/></g><g class="pt y2021" data-i="93" data-x="835.7" data-y="218.1"><circle cx="835.7" cy="218.1" r="3.7"/></g><g class="pt y2022" data-i="94" data-x="837.7" data-y="218.1"><path d="M837.7,213.4l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="95" data-x="765.7" data-y="330.1"><circle cx="765.7" cy="330.1" r="3.7"/></g><g class="pt y2021" data-i="96" data-x="850.5" data-y="255.1"><circle cx="850.5" cy="255.1" r="3.7"/></g><g class="pt y2023" data-i="97" data-x="753.0" data-y="386.1"><path d="M753.0,381.2L757.7,389.5L748.3,389.5z"/></g><g class="pt y2022" data-i="98" data-x="820.0" data-y="353.0"><path d="M820.0,348.3l4.7,4.7l-4.7,4.7l-4.7,-4.7z"/></g><g class="pt y2021" data-i="99" data-x="842.2" data-y="330.1"><circle cx="842.2" cy="330.1" r="3.7"/></g><g class="pt y2021" data-i="100" data-x="805.7" data-y="215.9"><circle cx="805.7" cy="215.9" r="3.7"/></g><g class="pt y2022 sl" data-i="101" data-x="836.7" data-y="274.1"><path d="M836.7,265.9l8.2,8.2l-8.2,8.2l-8.2,-8.2z"/></g><g class="pt y2023 sl" data-i="102" data-x="761.5" data-y="324.7"><path d="M761.5,316.1L769.7,330.7L753.4,330.7z"/></g><g class="pt y2023 sl" data-i="103" data-x="492.6" data-y="122.9"><path d="M492.6,114.3L500.7,128.9L484.4,128.9z"/></g><g class="pt y2023 sl" data-i="104" data-x="124.6" data-y="167.6"><path d="M124.6,159.0L132.8,173.6L116.5,173.6z"/></g><g class="pt y2022 sl" data-i="105" data-x="531.7" data-y="163.6"><path d="M531.7,155.3l8.2,8.2l-8.2,8.2l-8.2,-8.2z"/></g><g class="pt y2021 sl" data-i="106" data-x="706.0" data-y="262.9"><circle cx="706.0" cy="262.9" r="6.5"/></g><g class="pt y2021 sl" data-i="107" data-x="496.4" data-y="263.2"><circle cx="496.4" cy="263.2" r="6.5"/></g><g class="pt y2021 sl" data-i="108" data-x="532.8" data-y="189.3"><circle cx="532.8" cy="189.3" r="6.5"/></g><g class="pt y2021 sl" data-i="109" data-x="630.4" data-y="274.1"><circle cx="630.4" cy="274.1" r="6.5"/></g><g class="pt y2022 sl" data-i="110" data-x="320.8" data-y="145.2"><path d="M320.8,137.0l8.2,8.2l-8.2,8.2l-8.2,-8.2z"/></g><g class="pt y2023 sl" data-i="111" data-x="380.0" data-y="94.9"><path d="M380.0,86.3L388.1,100.9L371.9,100.9z"/></g></g>
+  <g class="labels"><text class="pt-label" x="847.7" y="262.1">#11</text><text class="pt-label" x="772.5" y="312.7">#10</text><text class="pt-label" x="503.6" y="110.9">#9</text><text class="pt-label" x="135.6" y="155.6">#8</text><text class="pt-label" x="542.7" y="151.6">#7</text><text class="pt-label" x="717.0" y="250.9">#6</text><text class="pt-label" x="507.4" y="251.2">#5</text><text class="pt-label" x="543.8" y="177.3">#4</text><text class="pt-label" x="641.4" y="262.1">#3</text><text class="pt-label" x="331.8" y="133.2">#2</text><text class="pt-label" x="391.0" y="82.9">#1</text></g>
+</svg><svg class="chart scatter m" id="scatter-m" viewBox="0 0 360 410" role="img" aria-label="Scatter plot of 112 passing listings: odometer miles on the x axis, list price on the y axis. The 11 shortlist picks are numbered.">
+  <rect class="plot-bg" x="44" y="30" width="302" height="330"/>
+  <line class="grid" x1="44" x2="346" y1="336.4" y2="336.4"/><text class="tick" x="38" y="340.9" text-anchor="end">$23k</text><line class="grid" x1="44" x2="346" y1="289.3" y2="289.3"/><text class="tick" x="38" y="293.8" text-anchor="end">$24k</text><line class="grid" x1="44" x2="346" y1="242.1" y2="242.1"/><text class="tick" x="38" y="246.6" text-anchor="end">$25k</text><line class="grid" x1="44" x2="346" y1="195.0" y2="195.0"/><text class="tick" x="38" y="199.5" text-anchor="end">$26k</text><line class="grid" x1="44" x2="346" y1="147.9" y2="147.9"/><text class="tick" x="38" y="152.4" text-anchor="end">$27k</text><line class="grid" x1="44" x2="346" y1="100.7" y2="100.7"/><text class="tick" x="38" y="105.2" text-anchor="end">$28k</text><line class="grid" x1="44" x2="346" y1="53.6" y2="53.6"/><text class="tick" x="38" y="58.1" text-anchor="end">$29k</text><line class="grid-minor" x1="52.4" x2="52.4" y1="30" y2="360"/><line class="grid-minor" x1="136.3" x2="136.3" y1="30" y2="360"/><line class="grid-minor" x1="220.2" x2="220.2" y1="30" y2="360"/><line class="grid-minor" x1="304.1" x2="304.1" y1="30" y2="360"/><line class="grid grid-v" x1="94.3" x2="94.3" y1="30" y2="360"/><text class="tick" x="94.3" y="378" text-anchor="middle">20k</text><line class="grid grid-v" x1="178.2" x2="178.2" y1="30" y2="360"/><text class="tick" x="178.2" y="378" text-anchor="middle">30k</text><line class="grid grid-v" x1="262.1" x2="262.1" y1="30" y2="360"/><text class="tick" x="262.1" y="378" text-anchor="middle">40k</text><line class="grid grid-v" x1="346.0" x2="346.0" y1="30" y2="360"/><text class="tick" x="346.0" y="378" text-anchor="middle">50k</text><line class="axis" x1="44" x2="346" y1="360" y2="360"/><text class="axis-title" x="195.0" y="402" text-anchor="middle">Odometer (miles)</text><text class="axis-title" x="6" y="16" text-anchor="start">List price</text>
+  <g class="pts"><g class="pt y2023" data-i="0" data-x="121.2" data-y="57.6"><path d="M121.2,53.2L125.4,60.7L117.0,60.7z"/></g><g class="pt y2023" data-i="1" data-x="127.6" data-y="53.7"><path d="M127.6,49.3L131.8,56.8L123.4,56.8z"/></g><g class="pt y2023" data-i="2" data-x="160.1" data-y="122.2"><path d="M160.1,117.8L164.3,125.3L155.9,125.3z"/></g><g class="pt y2021" data-i="3" data-x="257.2" data-y="125.6"><circle cx="257.2" cy="125.6" r="3.3"/></g><g class="pt y2023" data-i="4" data-x="205.6" data-y="200.0"><path d="M205.6,195.5L209.8,203.0L201.4,203.0z"/></g><g class="pt y2023" data-i="5" data-x="148.1" data-y="81.9"><path d="M148.1,77.4L152.3,84.9L143.9,84.9z"/></g><g class="pt y2022" data-i="6" data-x="292.6" data-y="129.5"><path d="M292.6,125.3l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="7" data-x="169.2" data-y="112.0"><path d="M169.2,107.6L173.4,115.1L165.0,115.1z"/></g><g class="pt y2021" data-i="8" data-x="188.7" data-y="127.5"><circle cx="188.7" cy="127.5" r="3.3"/></g><g class="pt y2023" data-i="9" data-x="200.0" data-y="119.6"><path d="M200.0,115.2L204.2,122.7L195.8,122.7z"/></g><g class="pt y2022" data-i="10" data-x="239.8" data-y="89.2"><path d="M239.8,84.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="11" data-x="265.9" data-y="173.2"><circle cx="265.9" cy="173.2" r="3.3"/></g><g class="pt y2022" data-i="12" data-x="323.6" data-y="124.4"><path d="M323.6,120.1l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="13" data-x="122.9" data-y="54.1"><path d="M122.9,49.7L127.1,57.2L118.7,57.2z"/></g><g class="pt y2021" data-i="14" data-x="145.8" data-y="161.0"><circle cx="145.8" cy="161.0" r="3.3"/></g><g class="pt y2023" data-i="15" data-x="174.1" data-y="159.8"><path d="M174.1,155.4L178.3,162.9L169.9,162.9z"/></g><g class="pt y2023" data-i="16" data-x="310.1" data-y="148.0"><path d="M310.1,143.5L314.3,151.0L306.0,151.0z"/></g><g class="pt y2022" data-i="17" data-x="303.0" data-y="289.4"><path d="M303.0,285.1l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="18" data-x="141.3" data-y="91.3"><circle cx="141.3" cy="91.3" r="3.3"/></g><g class="pt y2023" data-i="19" data-x="196.7" data-y="100.8"><path d="M196.7,96.4L200.9,103.9L192.5,103.9z"/></g><g class="pt y2022" data-i="20" data-x="298.0" data-y="184.7"><path d="M298.0,180.4l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="21" data-x="223.0" data-y="146.0"><path d="M223.0,141.6L227.2,149.1L218.8,149.1z"/></g><g class="pt y2022" data-i="22" data-x="218.8" data-y="182.6"><path d="M218.8,178.4l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="23" data-x="255.8" data-y="136.1"><path d="M255.8,131.8l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="24" data-x="311.3" data-y="151.9"><path d="M311.3,147.6l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="25" data-x="109.7" data-y="54.4"><path d="M109.7,50.0L113.9,57.5L105.5,57.5z"/></g><g class="pt y2021" data-i="26" data-x="153.8" data-y="77.1"><circle cx="153.8" cy="77.1" r="3.3"/></g><g class="pt y2023" data-i="27" data-x="73.4" data-y="53.6"><path d="M73.4,49.2L77.6,56.7L69.2,56.7z"/></g><g class="pt y2022" data-i="28" data-x="262.9" data-y="111.5"><path d="M262.9,107.2l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="29" data-x="298.9" data-y="147.9"><path d="M298.9,143.4L303.1,150.9L294.7,150.9z"/></g><g class="pt y2021" data-i="30" data-x="215.8" data-y="162.6"><circle cx="215.8" cy="162.6" r="3.3"/></g><g class="pt y2023" data-i="31" data-x="327.5" data-y="149.6"><path d="M327.5,145.2L331.6,152.7L323.3,152.7z"/></g><g class="pt y2021" data-i="32" data-x="54.7" data-y="111.2"><circle cx="54.7" cy="111.2" r="3.3"/></g><g class="pt y2023" data-i="33" data-x="65.9" data-y="110.1"><path d="M65.9,105.7L70.1,113.2L61.7,113.2z"/></g><g class="pt y2023" data-i="34" data-x="68.9" data-y="152.6"><path d="M68.9,148.2L73.1,155.7L64.7,155.7z"/></g><g class="pt y2021" data-i="35" data-x="117.2" data-y="148.0"><circle cx="117.2" cy="148.0" r="3.3"/></g><g class="pt y2022" data-i="36" data-x="139.2" data-y="98.8"><path d="M139.2,94.6l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="37" data-x="135.7" data-y="195.1"><path d="M135.7,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="38" data-x="144.7" data-y="172.8"><circle cx="144.7" cy="172.8" r="3.3"/></g><g class="pt y2021" data-i="39" data-x="142.4" data-y="195.0"><circle cx="142.4" cy="195.0" r="3.3"/></g><g class="pt y2021" data-i="40" data-x="152.9" data-y="148.0"><circle cx="152.9" cy="148.0" r="3.3"/></g><g class="pt y2023" data-i="41" data-x="160.1" data-y="110.4"><path d="M160.1,106.0L164.3,113.5L155.9,113.5z"/></g><g class="pt y2023" data-i="42" data-x="155.4" data-y="148.0"><path d="M155.4,143.5L159.5,151.0L151.2,151.0z"/></g><g class="pt y2021" data-i="43" data-x="156.4" data-y="148.0"><circle cx="156.4" cy="148.0" r="3.3"/></g><g class="pt y2021" data-i="44" data-x="166.7" data-y="148.0"><circle cx="166.7" cy="148.0" r="3.3"/></g><g class="pt y2022" data-i="45" data-x="169.9" data-y="148.0"><path d="M169.9,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="46" data-x="179.6" data-y="148.0"><path d="M179.6,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="47" data-x="178.2" data-y="171.6"><path d="M178.2,167.2L182.4,174.7L174.0,174.7z"/></g><g class="pt y2023" data-i="48" data-x="178.2" data-y="171.6"><path d="M178.2,167.2L182.4,174.7L174.0,174.7z"/></g><g class="pt y2021" data-i="49" data-x="174.0" data-y="195.1"><circle cx="174.0" cy="195.1" r="3.3"/></g><g class="pt y2023" data-i="50" data-x="188.4" data-y="148.0"><path d="M188.4,143.5L192.5,151.0L184.2,151.0z"/></g><g class="pt y2023" data-i="51" data-x="193.6" data-y="148.0"><path d="M193.6,143.5L197.8,151.0L189.4,151.0z"/></g><g class="pt y2022" data-i="52" data-x="196.5" data-y="155.4"><path d="M196.5,151.2l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="53" data-x="208.6" data-y="148.0"><circle cx="208.6" cy="148.0" r="3.3"/></g><g class="pt y2022" data-i="54" data-x="199.1" data-y="195.1"><path d="M199.1,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="55" data-x="212.4" data-y="148.0"><path d="M212.4,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="56" data-x="227.8" data-y="86.6"><path d="M227.8,82.2L232.0,89.7L223.6,89.7z"/></g><g class="pt y2021" data-i="57" data-x="208.3" data-y="195.1"><circle cx="208.3" cy="195.1" r="3.3"/></g><g class="pt y2021" data-i="58" data-x="198.2" data-y="242.2"><circle cx="198.2" cy="242.2" r="3.3"/></g><g class="pt y2022" data-i="59" data-x="221.1" data-y="148.0"><path d="M221.1,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="60" data-x="213.9" data-y="195.1"><path d="M213.9,190.7L218.1,198.2L209.7,198.2z"/></g><g class="pt y2021" data-i="61" data-x="224.5" data-y="195.1"><circle cx="224.5" cy="195.1" r="3.3"/></g><g class="pt y2023" data-i="62" data-x="242.3" data-y="148.0"><path d="M242.3,143.5L246.5,151.0L238.1,151.0z"/></g><g class="pt y2021" data-i="63" data-x="241.1" data-y="195.1"><circle cx="241.1" cy="195.1" r="3.3"/></g><g class="pt y2021" data-i="64" data-x="256.9" data-y="148.0"><circle cx="256.9" cy="148.0" r="3.3"/></g><g class="pt y2021" data-i="65" data-x="232.5" data-y="242.2"><circle cx="232.5" cy="242.2" r="3.3"/></g><g class="pt y2022" data-i="66" data-x="266.8" data-y="148.0"><path d="M266.8,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="67" data-x="255.4" data-y="195.1"><path d="M255.4,190.7L259.6,198.2L251.2,198.2z"/></g><g class="pt y2021" data-i="68" data-x="245.3" data-y="242.2"><circle cx="245.3" cy="242.2" r="3.3"/></g><g class="pt y2022" data-i="69" data-x="273.0" data-y="148.0"><path d="M273.0,143.7l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="70" data-x="263.5" data-y="195.1"><path d="M263.5,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2023" data-i="71" data-x="287.5" data-y="148.0"><path d="M287.5,143.5L291.7,151.0L283.3,151.0z"/></g><g class="pt y2023" data-i="72" data-x="275.3" data-y="195.1"><path d="M275.3,190.7L279.5,198.2L271.1,198.2z"/></g><g class="pt y2023" data-i="73" data-x="286.2" data-y="195.1"><path d="M286.2,190.7L290.4,198.2L282.0,198.2z"/></g><g class="pt y2023" data-i="74" data-x="287.3" data-y="195.1"><path d="M287.3,190.7L291.5,198.2L283.1,198.2z"/></g><g class="pt y2021" data-i="75" data-x="287.4" data-y="195.1"><circle cx="287.4" cy="195.1" r="3.3"/></g><g class="pt y2021" data-i="76" data-x="275.7" data-y="242.2"><circle cx="275.7" cy="242.2" r="3.3"/></g><g class="pt y2023" data-i="77" data-x="294.3" data-y="195.1"><path d="M294.3,190.7L298.5,198.2L290.1,198.2z"/></g><g class="pt y2022" data-i="78" data-x="294.9" data-y="195.1"><path d="M294.9,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="79" data-x="310.5" data-y="151.3"><circle cx="310.5" cy="151.3" r="3.3"/></g><g class="pt y2023" data-i="80" data-x="283.4" data-y="242.2"><path d="M283.4,237.8L287.6,245.3L279.2,245.3z"/></g><g class="pt y2023" data-i="81" data-x="312.4" data-y="148.0"><path d="M312.4,143.5L316.6,151.0L308.2,151.0z"/></g><g class="pt y2021" data-i="82" data-x="298.9" data-y="195.1"><circle cx="298.9" cy="195.1" r="3.3"/></g><g class="pt y2021" data-i="83" data-x="285.2" data-y="242.2"><circle cx="285.2" cy="242.2" r="3.3"/></g><g class="pt y2023" data-i="84" data-x="304.0" data-y="195.1"><path d="M304.0,190.7L308.2,198.2L299.8,198.2z"/></g><g class="pt y2023" data-i="85" data-x="306.7" data-y="195.1"><path d="M306.7,190.7L310.9,198.2L302.5,198.2z"/></g><g class="pt y2022" data-i="86" data-x="264.4" data-y="336.5"><path d="M264.4,332.3l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="87" data-x="317.9" data-y="195.1"><path d="M317.9,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2022" data-i="88" data-x="320.3" data-y="195.1"><path d="M320.3,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="89" data-x="320.8" data-y="205.0"><circle cx="320.8" cy="205.0" r="3.3"/></g><g class="pt y2021" data-i="90" data-x="320.8" data-y="205.0"><circle cx="320.8" cy="205.0" r="3.3"/></g><g class="pt y2021" data-i="91" data-x="284.5" data-y="317.6"><circle cx="284.5" cy="317.6" r="3.3"/></g><g class="pt y2021" data-i="92" data-x="330.0" data-y="195.1"><circle cx="330.0" cy="195.1" r="3.3"/></g><g class="pt y2021" data-i="93" data-x="331.7" data-y="195.1"><circle cx="331.7" cy="195.1" r="3.3"/></g><g class="pt y2022" data-i="94" data-x="332.4" data-y="195.1"><path d="M332.4,190.9l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="95" data-x="305.5" data-y="289.4"><circle cx="305.5" cy="289.4" r="3.3"/></g><g class="pt y2021" data-i="96" data-x="337.2" data-y="226.2"><circle cx="337.2" cy="226.2" r="3.3"/></g><g class="pt y2023" data-i="97" data-x="300.8" data-y="336.5"><path d="M300.8,332.1L305.0,339.6L296.6,339.6z"/></g><g class="pt y2022" data-i="98" data-x="325.8" data-y="308.6"><path d="M325.8,304.4l4.2,4.2l-4.2,4.2l-4.2,-4.2z"/></g><g class="pt y2021" data-i="99" data-x="334.1" data-y="289.4"><circle cx="334.1" cy="289.4" r="3.3"/></g><g class="pt y2021" data-i="100" data-x="320.5" data-y="193.3"><circle cx="320.5" cy="193.3" r="3.3"/></g><g class="pt y2022 sl" data-i="101" data-x="332.0" data-y="242.2"><path d="M332.0,235.2l7.1,7.1l-7.1,7.1l-7.1,-7.1z"/></g><g class="pt y2023 sl" data-i="102" data-x="304.0" data-y="284.8"><path d="M304.0,277.5L310.9,290.0L297.0,290.0z"/></g><g class="pt y2023 sl" data-i="103" data-x="203.4" data-y="114.9"><path d="M203.4,107.6L210.4,120.0L196.5,120.0z"/></g><g class="pt y2023 sl" data-i="104" data-x="65.9" data-y="152.6"><path d="M65.9,145.2L72.9,157.7L58.9,157.7z"/></g><g class="pt y2022 sl" data-i="105" data-x="218.1" data-y="149.2"><path d="M218.1,142.1l7.1,7.1l-7.1,7.1l-7.1,-7.1z"/></g><g class="pt y2021 sl" data-i="106" data-x="283.2" data-y="232.8"><circle cx="283.2" cy="232.8" r="5.6"/></g><g class="pt y2021 sl" data-i="107" data-x="204.9" data-y="233.1"><circle cx="204.9" cy="233.1" r="5.6"/></g><g class="pt y2021 sl" data-i="108" data-x="218.5" data-y="170.9"><circle cx="218.5" cy="170.9" r="5.6"/></g><g class="pt y2021 sl" data-i="109" data-x="254.9" data-y="242.2"><circle cx="254.9" cy="242.2" r="5.6"/></g><g class="pt y2022 sl" data-i="110" data-x="139.2" data-y="133.7"><path d="M139.2,126.7l7.1,7.1l-7.1,7.1l-7.1,-7.1z"/></g><g class="pt y2023 sl" data-i="111" data-x="161.4" data-y="91.3"><path d="M161.4,84.0L168.3,96.5L154.4,96.5z"/></g></g>
+  <g class="labels"><text class="pt-label" x="296.2" y="231.2">#11</text><text class="pt-label" x="314.0" y="273.8">#10</text><text class="pt-label" x="213.4" y="103.9">#9</text><text class="pt-label" x="75.9" y="141.6">#8</text><text class="pt-label" x="228.1" y="138.2">#7</text><text class="pt-label" x="256.0" y="221.8">#6</text><text class="pt-label" x="214.9" y="222.1">#5</text><text class="pt-label" x="228.5" y="159.9">#4</text><text class="pt-label" x="264.9" y="262.2">#3</text><text class="pt-label" x="149.2" y="122.7">#2</text><text class="pt-label" x="171.4" y="80.3">#1</text></g>
+</svg></div>
+  <p class="caption">All 112 listings that passed the filters (from the merged, de-duplicated set), plotted by odometer and list price. Read it vertically: at any given mileage, a dot <em>below the cloud</em> is priced under comparable cars &#8212; that is where the numbered shortlist picks should sit, and mostly do. Hover or tap a dot for details.</p>
+</section>
+
+<section class="card" id="trims">
+  <div class="sec-head"><h2>Which trim is the best buy</h2><p class="muted">KBB Fair Purchase Price vs. the lowest clean listing found</p></div>
+  <p class="small muted">KBB national = kbb.com pricing pages (default zip, &#8220;typical&#8221; mileage). KBB Seattle = per-listing FPP averaged from KBB search results (mileage-adjusted, local). &#916; = lowest clean listing &#8722; Seattle FPP (or national when Seattle n/a).</p>
+  <p class="scroll-hint" aria-hidden="true">scroll for more columns &#8594;</p>
+  <div class="scroll"><table class="data" id="trim-table"><thead><tr>
+    <th class="num">Year</th><th>Trim</th><th class="num">KBB nat'l FPP</th><th class="num">KBB Seattle FPP&#185;</th><th class="num">Lowest clean listing</th><th class="num">&#916; vs Seattle</th><th class="num">Listings</th>
+  </tr></thead><tbody><tr>
+      <td class="num">2021</td><td>Touring</td>
+      <td class="num">$18,600</td>
+      <td class="num">$25,809</td>
+      <td class="num">$23,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num good-t">&#8722;$1,811</td>
+      <td class="num">6</td></tr><tr>
+      <td class="num">2021</td><td>Grand Touring</td>
+      <td class="num">$19,900</td>
+      <td class="num">$27,552</td>
+      <td class="num">$24,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num good-t">&#8722;$2,554</td>
+      <td class="num">8</td></tr><tr>
+      <td class="num">2021</td><td>Carbon Edition</td>
+      <td class="num">$21,100</td>
+      <td class="num">$28,678</td>
+      <td class="num">$26,512 <span class="muted small">(KBB)</span></td>
+      <td class="num good-t">&#8722;$2,166</td>
+      <td class="num">3</td></tr><tr>
+      <td class="num">2021</td><td>Carbon Ed Turbo</td>
+      <td class="num">$21,700</td>
+      <td class="num"><span class="muted">&#8212;</span></td>
+      <td class="num">$25,198 <span class="muted small">(CarGurus)</span></td>
+      <td class="num muted">+$3,498&#178;</td>
+      <td class="num">2</td></tr><tr class="hl">
+      <td class="num">2021</td><td>GT Reserve (turbo)</td>
+      <td class="num">$21,800</td>
+      <td class="num">$27,770</td>
+      <td class="num"><strong>$24,999</strong> <span class="muted small">(KBB)</span></td>
+      <td class="num good-t"><strong>&#8722;$2,771</strong></td>
+      <td class="num">2</td></tr><tr class="hl">
+      <td class="num">2021</td><td>Signature (turbo)</td>
+      <td class="num">$21,700</td>
+      <td class="num">$25,041</td>
+      <td class="num"><strong>$26,462</strong> <span class="muted small">(KBB)</span></td>
+      <td class="num bad-t"><strong>+$1,421</strong></td>
+      <td class="num">3</td></tr><tr>
+      <td class="num">2022</td><td>2.5 S Preferred</td>
+      <td class="num">$21,800</td>
+      <td class="num"><span class="muted">&#8212;</span></td>
+      <td class="num">$24,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num muted">+$3,198&#178;</td>
+      <td class="num">3</td></tr><tr>
+      <td class="num">2022</td><td>2.5 S Premium</td>
+      <td class="num">$22,500</td>
+      <td class="num"><span class="muted">&#8212;</span></td>
+      <td class="num">$25,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num muted">+$3,498&#178;</td>
+      <td class="num">4</td></tr><tr>
+      <td class="num">2022</td><td>2.5 S Premium Plus</td>
+      <td class="num">$23,200</td>
+      <td class="num">$27,000</td>
+      <td class="num">$27,389 <span class="muted small">(KBB)</span></td>
+      <td class="num bad-t">+$389</td>
+      <td class="num">2</td></tr><tr>
+      <td class="num">2022</td><td>2.5 S Carbon Edition</td>
+      <td class="num">$22,900</td>
+      <td class="num">$25,934</td>
+      <td class="num">$24,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num good-t">&#8722;$936</td>
+      <td class="num">8</td></tr><tr>
+      <td class="num">2022</td><td>2.5 Turbo</td>
+      <td class="num">$22,900</td>
+      <td class="num">$27,370</td>
+      <td class="num">$27,300 <span class="muted small">(CarGurus)</span></td>
+      <td class="num good-t">&#8722;$70</td>
+      <td class="num">2</td></tr><tr>
+      <td class="num">2023</td><td>2.5 S Preferred</td>
+      <td class="num">$23,400</td>
+      <td class="num"><span class="muted">&#8212;</span></td>
+      <td class="num">$24,095 <span class="muted small">(Cars.com)</span></td>
+      <td class="num muted">+$695&#178;</td>
+      <td class="num">12</td></tr><tr>
+      <td class="num">2023</td><td>2.5 S Premium</td>
+      <td class="num">$24,500</td>
+      <td class="num">$27,825</td>
+      <td class="num">$27,545 <span class="muted small">(CarGurus)</span></td>
+      <td class="num good-t">&#8722;$280</td>
+      <td class="num">4</td></tr><tr>
+      <td class="num">2023</td><td>2.5 S Premium Plus</td>
+      <td class="num">$26,100</td>
+      <td class="num">$30,161</td>
+      <td class="num">$28,915 <span class="muted small">(CarGurus)</span></td>
+      <td class="num good-t">&#8722;$1,246</td>
+      <td class="num">3</td></tr><tr>
+      <td class="num">2023</td><td>2.5 S Carbon Edition</td>
+      <td class="num">$24,600</td>
+      <td class="num">$27,373</td>
+      <td class="num">$26,998 <span class="muted small">(CarMax)</span></td>
+      <td class="num good-t">&#8722;$375</td>
+      <td class="num">8</td></tr><tr class="hl">
+      <td class="num">2023</td><td>2.5 Turbo</td>
+      <td class="num">$25,900</td>
+      <td class="num">$30,980</td>
+      <td class="num"><strong>$28,199</strong> <span class="muted small">(CarGurus)</span></td>
+      <td class="num good-t"><strong>&#8722;$2,781</strong></td>
+      <td class="num">2</td></tr></tbody></table></div>
+  <div class="footnotes small muted"><p>&#185; Seattle FPP = mean of per-listing kbbFppAmount from KBB search results (n=1&#8211;5 per cell).</p><p>&#178; No Seattle FPP for this cell; &#916; shown vs national &#8212; national is systematically ~$3&#8211;5k low (default-zip, higher-mileage assumption), so treat these as &#8220;at market,&#8221; not overpriced.</p></div>
+  <h3 class="sub">&#916; vs. KBB Seattle fair purchase price <span class="muted">(rows with a Seattle FPP)</span></h3>
+  <div class="chart-wrap" id="bars-wrap"><svg class="chart bars d" id="bars" viewBox="0 0 900 440" role="img" aria-label="Horizontal bar chart: lowest clean listing minus KBB Seattle fair purchase price, by year and trim. Negative bars mean the trim is listed under book value.">
+  <line class="grid grid-v" x1="260.5" x2="260.5" y1="34" y2="400"/><text class="tick" x="260.5" y="418" text-anchor="middle">&#8722;$3k</text><line class="grid grid-v" x1="381.6" x2="381.6" y1="34" y2="400"/><text class="tick" x="381.6" y="418" text-anchor="middle">&#8722;$2k</text><line class="grid grid-v" x1="502.7" x2="502.7" y1="34" y2="400"/><text class="tick" x="502.7" y="418" text-anchor="middle">&#8722;$1k</text><line class="grid grid-v" x1="623.8" x2="623.8" y1="34" y2="400"/><text class="tick" x="623.8" y="418" text-anchor="middle">$0</text><line class="grid grid-v" x1="744.9" x2="744.9" y1="34" y2="400"/><text class="tick" x="744.9" y="418" text-anchor="middle">+$1k</text><text class="axis-note" x="615.8181818181818" y="24" text-anchor="end">&#8592; listed under KBB Seattle fair price</text><text class="axis-note" x="631.8181818181818" y="24" text-anchor="start">over &#8594;</text><line class="grid" x1="10" x2="866" y1="190.0" y2="190.0"/><line class="grid" x1="10" x2="866" y1="280.0" y2="280.0"/><line class="axis" x1="623.8" x2="623.8" y1="34" y2="400"/>
+  <g class="bar-row" data-tip="2021 Touring: lowest clean listing $23,998 (CarMax) vs KBB Seattle FPP $25,809 &#8594; &#8722;$1,811"><rect class="row-hit" x="0" y="40.0" width="900" height="30"/><text class="row-label" x="188" y="59.0" text-anchor="end"><tspan class="row-year">2021</tspan> Touring</text><rect class="bar-good" x="404.5" y="48.0" width="219.3" height="14" rx="2"/><text class="bar-val" x="398.5" y="59.0" text-anchor="end">&#8722;$1,811</text></g><g class="bar-row" data-tip="2021 Grand Touring: lowest clean listing $24,998 (CarMax) vs KBB Seattle FPP $27,552 &#8594; &#8722;$2,554"><rect class="row-hit" x="0" y="70.0" width="900" height="30"/><text class="row-label" x="188" y="89.0" text-anchor="end"><tspan class="row-year">2021</tspan> Grand Touring</text><rect class="bar-good" x="314.6" y="78.0" width="309.3" height="14" rx="2"/><text class="bar-val" x="308.6" y="89.0" text-anchor="end">&#8722;$2,554</text></g><g class="bar-row" data-tip="2021 Carbon Edition: lowest clean listing $26,512 (KBB) vs KBB Seattle FPP $28,678 &#8594; &#8722;$2,166"><rect class="row-hit" x="0" y="100.0" width="900" height="30"/><text class="row-label" x="188" y="119.0" text-anchor="end"><tspan class="row-year">2021</tspan> Carbon Edition</text><rect class="bar-good" x="361.5" y="108.0" width="262.3" height="14" rx="2"/><text class="bar-val" x="355.5" y="119.0" text-anchor="end">&#8722;$2,166</text></g><g class="bar-row" data-tip="2021 GT Reserve (turbo): lowest clean listing $24,999 (KBB) vs KBB Seattle FPP $27,770 &#8594; &#8722;$2,771"><rect class="row-hit" x="0" y="130.0" width="900" height="30"/><text class="row-label" x="188" y="149.0" text-anchor="end"><tspan class="row-year">2021</tspan> GT Reserve (turbo)</text><rect class="bar-good" x="288.3" y="138.0" width="335.5" height="14" rx="2"/><text class="bar-val" x="282.3" y="149.0" text-anchor="end">&#8722;$2,771</text></g><g class="bar-row" data-tip="2021 Signature (turbo): lowest clean listing $26,462 (KBB) vs KBB Seattle FPP $25,041 &#8594; +$1,421"><rect class="row-hit" x="0" y="160.0" width="900" height="30"/><text class="row-label" x="188" y="179.0" text-anchor="end"><tspan class="row-year">2021</tspan> Signature (turbo)</text><rect class="bar-bad" x="623.8" y="168.0" width="172.1" height="14" rx="2"/><text class="bar-val" x="801.9" y="179.0" text-anchor="start">+$1,421</text></g><g class="bar-row" data-tip="2022 2.5 S Premium Plus: lowest clean listing $27,389 (KBB) vs KBB Seattle FPP $27,000 &#8594; +$389"><rect class="row-hit" x="0" y="190.0" width="900" height="30"/><text class="row-label" x="188" y="209.0" text-anchor="end"><tspan class="row-year">2022</tspan> 2.5 S Premium Plus</text><rect class="bar-bad" x="623.8" y="198.0" width="47.1" height="14" rx="2"/><text class="bar-val" x="676.9" y="209.0" text-anchor="start">+$389</text></g><g class="bar-row" data-tip="2022 2.5 S Carbon Edition: lowest clean listing $24,998 (CarMax) vs KBB Seattle FPP $25,934 &#8594; &#8722;$936"><rect class="row-hit" x="0" y="220.0" width="900" height="30"/><text class="row-label" x="188" y="239.0" text-anchor="end"><tspan class="row-year">2022</tspan> 2.5 S Carbon Edition</text><rect class="bar-good" x="510.5" y="228.0" width="113.3" height="14" rx="2"/><text class="bar-val" x="504.5" y="239.0" text-anchor="end">&#8722;$936</text></g><g class="bar-row" data-tip="2022 2.5 Turbo: lowest clean listing $27,300 (CarGurus) vs KBB Seattle FPP $27,370 &#8594; &#8722;$70"><rect class="row-hit" x="0" y="250.0" width="900" height="30"/><text class="row-label" x="188" y="269.0" text-anchor="end"><tspan class="row-year">2022</tspan> 2.5 Turbo</text><rect class="bar-good" x="615.3" y="258.0" width="8.5" height="14" rx="2"/><text class="bar-val" x="609.3" y="269.0" text-anchor="end">&#8722;$70</text></g><g class="bar-row" data-tip="2023 2.5 S Premium: lowest clean listing $27,545 (CarGurus) vs KBB Seattle FPP $27,825 &#8594; &#8722;$280"><rect class="row-hit" x="0" y="280.0" width="900" height="30"/><text class="row-label" x="188" y="299.0" text-anchor="end"><tspan class="row-year">2023</tspan> 2.5 S Premium</text><rect class="bar-good" x="589.9" y="288.0" width="33.9" height="14" rx="2"/><text class="bar-val" x="583.9" y="299.0" text-anchor="end">&#8722;$280</text></g><g class="bar-row" data-tip="2023 2.5 S Premium Plus: lowest clean listing $28,915 (CarGurus) vs KBB Seattle FPP $30,161 &#8594; &#8722;$1,246"><rect class="row-hit" x="0" y="310.0" width="900" height="30"/><text class="row-label" x="188" y="329.0" text-anchor="end"><tspan class="row-year">2023</tspan> 2.5 S Premium Plus</text><rect class="bar-good" x="472.9" y="318.0" width="150.9" height="14" rx="2"/><text class="bar-val" x="466.9" y="329.0" text-anchor="end">&#8722;$1,246</text></g><g class="bar-row" data-tip="2023 2.5 S Carbon Edition: lowest clean listing $26,998 (CarMax) vs KBB Seattle FPP $27,373 &#8594; &#8722;$375"><rect class="row-hit" x="0" y="340.0" width="900" height="30"/><text class="row-label" x="188" y="359.0" text-anchor="end"><tspan class="row-year">2023</tspan> 2.5 S Carbon Edition</text><rect class="bar-good" x="578.4" y="348.0" width="45.4" height="14" rx="2"/><text class="bar-val" x="572.4" y="359.0" text-anchor="end">&#8722;$375</text></g><g class="bar-row" data-tip="2023 2.5 Turbo: lowest clean listing $28,199 (CarGurus) vs KBB Seattle FPP $30,980 &#8594; &#8722;$2,781"><rect class="row-hit" x="0" y="370.0" width="900" height="30"/><text class="row-label" x="188" y="389.0" text-anchor="end"><tspan class="row-year">2023</tspan> 2.5 Turbo</text><rect class="bar-good" x="287.1" y="378.0" width="336.8" height="14" rx="2"/><text class="bar-val" x="281.1" y="389.0" text-anchor="end">&#8722;$2,781</text></g>
+</svg><svg class="chart bars m" id="bars-m" viewBox="0 0 360 630" role="img" aria-label="Horizontal bar chart: lowest clean listing minus KBB Seattle fair purchase price, by year and trim. Negative bars mean the trim is listed under book value.">
+  <line class="grid grid-v" x1="39.3" x2="39.3" y1="38" y2="594"/><text class="tick" x="39.3" y="613" text-anchor="middle">&#8722;$3k</text><line class="grid grid-v" x1="101.8" x2="101.8" y1="38" y2="594"/><text class="tick" x="101.8" y="613" text-anchor="middle">&#8722;$2k</text><line class="grid grid-v" x1="164.4" x2="164.4" y1="38" y2="594"/><text class="tick" x="164.4" y="613" text-anchor="middle">&#8722;$1k</text><line class="grid grid-v" x1="226.9" x2="226.9" y1="38" y2="594"/><text class="tick" x="226.9" y="613" text-anchor="middle">$0</text><line class="grid grid-v" x1="289.5" x2="289.5" y1="38" y2="594"/><text class="tick" x="289.5" y="613" text-anchor="middle">+$1k</text><text class="axis-note" x="8" y="18" text-anchor="start">&#8592; listed under KBB Seattle fair price</text><text class="axis-note" x="352" y="18" text-anchor="end">over &#8594;</text><line class="grid" x1="0" x2="360" y1="272.0" y2="272.0"/><line class="grid" x1="0" x2="360" y1="410.0" y2="410.0"/><line class="axis" x1="226.9" x2="226.9" y1="38" y2="594"/>
+  <g class="bar-row" data-tip="2021 Touring: lowest clean listing $23,998 (CarMax) vs KBB Seattle FPP $25,809 &#8594; &#8722;$1,811"><rect class="row-hit" x="0" y="42.0" width="360" height="46"/><text class="row-label" x="8" y="59.0" text-anchor="start"><tspan class="row-year">2021</tspan> Touring</text><text class="bar-val neg" x="352" y="59.0" text-anchor="end">&#8722;$1,811</text><rect class="bar-good" x="113.6" y="66.0" width="113.3" height="13" rx="2"/></g><g class="bar-row" data-tip="2021 Grand Touring: lowest clean listing $24,998 (CarMax) vs KBB Seattle FPP $27,552 &#8594; &#8722;$2,554"><rect class="row-hit" x="0" y="88.0" width="360" height="46"/><text class="row-label" x="8" y="105.0" text-anchor="start"><tspan class="row-year">2021</tspan> Grand Touring</text><text class="bar-val neg" x="352" y="105.0" text-anchor="end">&#8722;$2,554</text><rect class="bar-good" x="67.2" y="112.0" width="159.7" height="13" rx="2"/></g><g class="bar-row" data-tip="2021 Carbon Edition: lowest clean listing $26,512 (KBB) vs KBB Seattle FPP $28,678 &#8594; &#8722;$2,166"><rect class="row-hit" x="0" y="134.0" width="360" height="46"/><text class="row-label" x="8" y="151.0" text-anchor="start"><tspan class="row-year">2021</tspan> Carbon Edition</text><text class="bar-val neg" x="352" y="151.0" text-anchor="end">&#8722;$2,166</text><rect class="bar-good" x="91.4" y="158.0" width="135.5" height="13" rx="2"/></g><g class="bar-row" data-tip="2021 GT Reserve (turbo): lowest clean listing $24,999 (KBB) vs KBB Seattle FPP $27,770 &#8594; &#8722;$2,771"><rect class="row-hit" x="0" y="180.0" width="360" height="46"/><text class="row-label" x="8" y="197.0" text-anchor="start"><tspan class="row-year">2021</tspan> GT Reserve (turbo)</text><text class="bar-val neg" x="352" y="197.0" text-anchor="end">&#8722;$2,771</text><rect class="bar-good" x="53.6" y="204.0" width="173.3" height="13" rx="2"/></g><g class="bar-row" data-tip="2021 Signature (turbo): lowest clean listing $26,462 (KBB) vs KBB Seattle FPP $25,041 &#8594; +$1,421"><rect class="row-hit" x="0" y="226.0" width="360" height="46"/><text class="row-label" x="8" y="243.0" text-anchor="start"><tspan class="row-year">2021</tspan> Signature (turbo)</text><text class="bar-val pos" x="352" y="243.0" text-anchor="end">+$1,421</text><rect class="bar-bad" x="226.9" y="250.0" width="88.9" height="13" rx="2"/></g><g class="bar-row" data-tip="2022 2.5 S Premium Plus: lowest clean listing $27,389 (KBB) vs KBB Seattle FPP $27,000 &#8594; +$389"><rect class="row-hit" x="0" y="272.0" width="360" height="46"/><text class="row-label" x="8" y="289.0" text-anchor="start"><tspan class="row-year">2022</tspan> 2.5 S Premium Plus</text><text class="bar-val pos" x="352" y="289.0" text-anchor="end">+$389</text><rect class="bar-bad" x="226.9" y="296.0" width="24.3" height="13" rx="2"/></g><g class="bar-row" data-tip="2022 2.5 S Carbon Edition: lowest clean listing $24,998 (CarMax) vs KBB Seattle FPP $25,934 &#8594; &#8722;$936"><rect class="row-hit" x="0" y="318.0" width="360" height="46"/><text class="row-label" x="8" y="335.0" text-anchor="start"><tspan class="row-year">2022</tspan> 2.5 S Carbon Edition</text><text class="bar-val neg" x="352" y="335.0" text-anchor="end">&#8722;$936</text><rect class="bar-good" x="168.4" y="342.0" width="58.5" height="13" rx="2"/></g><g class="bar-row" data-tip="2022 2.5 Turbo: lowest clean listing $27,300 (CarGurus) vs KBB Seattle FPP $27,370 &#8594; &#8722;$70"><rect class="row-hit" x="0" y="364.0" width="360" height="46"/><text class="row-label" x="8" y="381.0" text-anchor="start"><tspan class="row-year">2022</tspan> 2.5 Turbo</text><text class="bar-val neg" x="352" y="381.0" text-anchor="end">&#8722;$70</text><rect class="bar-good" x="222.5" y="388.0" width="4.4" height="13" rx="2"/></g><g class="bar-row" data-tip="2023 2.5 S Premium: lowest clean listing $27,545 (CarGurus) vs KBB Seattle FPP $27,825 &#8594; &#8722;$280"><rect class="row-hit" x="0" y="410.0" width="360" height="46"/><text class="row-label" x="8" y="427.0" text-anchor="start"><tspan class="row-year">2023</tspan> 2.5 S Premium</text><text class="bar-val neg" x="352" y="427.0" text-anchor="end">&#8722;$280</text><rect class="bar-good" x="209.4" y="434.0" width="17.5" height="13" rx="2"/></g><g class="bar-row" data-tip="2023 2.5 S Premium Plus: lowest clean listing $28,915 (CarGurus) vs KBB Seattle FPP $30,161 &#8594; &#8722;$1,246"><rect class="row-hit" x="0" y="456.0" width="360" height="46"/><text class="row-label" x="8" y="473.0" text-anchor="start"><tspan class="row-year">2023</tspan> 2.5 S Premium Plus</text><text class="bar-val neg" x="352" y="473.0" text-anchor="end">&#8722;$1,246</text><rect class="bar-good" x="149.0" y="480.0" width="77.9" height="13" rx="2"/></g><g class="bar-row" data-tip="2023 2.5 S Carbon Edition: lowest clean listing $26,998 (CarMax) vs KBB Seattle FPP $27,373 &#8594; &#8722;$375"><rect class="row-hit" x="0" y="502.0" width="360" height="46"/><text class="row-label" x="8" y="519.0" text-anchor="start"><tspan class="row-year">2023</tspan> 2.5 S Carbon Edition</text><text class="bar-val neg" x="352" y="519.0" text-anchor="end">&#8722;$375</text><rect class="bar-good" x="203.5" y="526.0" width="23.5" height="13" rx="2"/></g><g class="bar-row" data-tip="2023 2.5 Turbo: lowest clean listing $28,199 (CarGurus) vs KBB Seattle FPP $30,980 &#8594; &#8722;$2,781"><rect class="row-hit" x="0" y="548.0" width="360" height="46"/><text class="row-label" x="8" y="565.0" text-anchor="start"><tspan class="row-year">2023</tspan> 2.5 Turbo</text><text class="bar-val neg" x="352" y="565.0" text-anchor="end">&#8722;$2,781</text><rect class="bar-good" x="53.0" y="572.0" width="173.9" height="13" rx="2"/></g>
+</svg></div>
+  <h3 class="sub">Where the market is soft right now</h3>
+  <ul class="soft"><li><strong>2023 2.5 Turbo is the standout buy</strong> &#8212; $28,199 vs Seattle FPP $30,980, ~$2.8k under. Only 2 in the dataset and both under book. If you want the turbo, 2023 is cheaper relative to value than 2022 ($27,300 vs $27,370 FPP = at-market).</li><li><strong>2021 GT Reserve at $24,999</strong> is turbo + vented leather + HUD for Grand-Touring money &#8212; $2,771 under its own FPP and only $200 more than a 2021 GT.</li><li><strong>Premium Plus is worth the stretch over Premium</strong>: 2023 Premium lowest is $27,545, Premium Plus lowest is $28,915 &#8212; $1,370 gap buys 360&#176; camera, vented seats, wireless CarPlay, rear heated seats. That's ~$27/mo.</li><li><strong>Avoid 2021 Signature</strong> &#8212; trading $1,400 over Seattle FPP; the GT Reserve one rung down is $1,500 cheaper for the same drivetrain.</li></ul>
+</section>
+
+<section class="card" id="cost">
+  <div class="sec-head"><h2>What it costs per month</h2></div>
+  <dl class="assump"><div><dt>Term</dt><dd>60 months</dd></div><div><dt>APR</dt><dd>6.30% &#8212; Bankrate super-prime used-auto average, updated 7/31/26</dd></div><div><dt>Credit-union check</dt><dd>BECU 5.99% effective 8/1/26</dd></div><div><dt>CPO promo</dt><dd>None on CX-5 &#8212; Mazda's current 3.9% CPO rate is CX-90 / CX-70 only</dd></div><div><dt>Seattle sales tax</dt><dd>10.35%</dd></div><div><dt>Fees</dt><dd>+$200 doc &#183; +$550 title / registration</dd></div><div><dt>Out-the-door</dt><dd>OTD = list &#215; 1.1035 + $750 (+ transfer fee where noted)</dd></div><div><dt>Payment</dt><dd>M = P &#183; r(1+r)^n / ((1+r)^n &#8722; 1), r = APR/12, n = 60</dd></div></dl>
+  <p class="scroll-hint" aria-hidden="true">scroll for more columns &#8594;</p>
+  <div class="scroll"><table class="data" id="cost-table"><thead><tr><th class="num">#</th><th>Car</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th><th class="num">Total interest @ $0</th></tr></thead><tbody><tr><td class="num"><span class="rank sm">#1</span></td><td>2023 2.5 Turbo</td><td class="num">$28,199</td><td class="num">$31,868</td><td class="num"><strong>$621</strong></td><td class="num">$523</td><td class="num">$5,365</td></tr><tr><td class="num"><span class="rank sm">#2</span></td><td>2022 2.5 Turbo</td><td class="num">$27,300</td><td class="num">$30,876</td><td class="num"><strong>$601</strong></td><td class="num">$504</td><td class="num">$5,198</td></tr><tr><td class="num"><span class="rank sm">#3</span></td><td>2021 GT Reserve (2.5T)</td><td class="num">$24,999</td><td class="num">$28,336</td><td class="num"><strong>$552</strong></td><td class="num">$454</td><td class="num">$4,771</td></tr><tr><td class="num"><span class="rank sm">#4</span></td><td>2021 Carbon Edition</td><td class="num">$26,512</td><td class="num">$30,006</td><td class="num"><strong>$584</strong></td><td class="num">$487</td><td class="num">$5,052</td></tr><tr><td class="num"><span class="rank sm">#5</span></td><td>2021 Grand Touring</td><td class="num">$25,192</td><td class="num">$28,549</td><td class="num"><strong>$556</strong></td><td class="num">$459</td><td class="num">$4,806</td></tr><tr><td class="num"><span class="rank sm">#6</span></td><td>2021 Carbon Ed Turbo</td><td class="num">$25,198</td><td class="num">$28,556</td><td class="num"><strong>$556</strong></td><td class="num">$459</td><td class="num">$4,808</td></tr><tr><td class="num"><span class="rank sm">#7</span></td><td>2022 2.5 S Carbon Edition</td><td class="num">$26,972</td><td class="num">$30,514</td><td class="num"><strong>$594</strong></td><td class="num">$497</td><td class="num">$5,137</td></tr><tr><td class="num"><span class="rank sm">#8</span></td><td>2023 2.5 S Preferred</td><td class="num">$26,900</td><td class="num">$30,434</td><td class="num"><strong>$593</strong></td><td class="num">$495</td><td class="num">$5,124</td></tr><tr><td class="num"><span class="rank sm">#9</span></td><td>2023 2.5 S Carbon Edition</td><td class="num">$27,699</td><td class="num">$31,316</td><td class="num"><strong>$610</strong></td><td class="num">$512</td><td class="num">$5,272</td></tr><tr><td class="num"><span class="rank sm">#10</span></td><td>2023 2.5 S Preferred (Columbia)</td><td class="num">$24,095</td><td class="num">$27,339</td><td class="num"><strong>$532</strong></td><td class="num">$435</td><td class="num">$4,603</td></tr><tr><td class="num"><span class="rank sm">#11</span></td><td>2022 Carbon Ed (CarMax +$199 xfer)</td><td class="num">$24,998</td><td class="num">$28,534</td><td class="num"><strong>$556</strong></td><td class="num">$458</td><td class="num">$4,804</td></tr></tbody></table></div>
+  <p class="thumb">Rule of thumb: every $1,000 financed &#8776; $19.47/mo at 6.30% / 60 mo.</p>
+  <h3 class="sub">Cheapest solid vs. stretch</h3>
+  <div class="scroll fit"><table class="data compact" id="compare-table"><thead><tr><th></th><th>Year / Trim</th><th class="num">List</th><th class="num">OTD</th><th class="num">@ $0 down</th><th class="num">@ $5k down</th></tr></thead><tbody><tr><th scope="row">Cheapest solid</th><td>2021 Grand Touring &#183; 33k mi</td><td class="num">$25,192</td><td class="num">$28,549</td><td class="num">$556</td><td class="num">$459</td></tr><tr><th scope="row">Stretch</th><td>2023 2.5 Turbo &#183; 28k mi</td><td class="num">$28,199</td><td class="num">$31,868</td><td class="num">$621</td><td class="num">$523</td></tr><tr class="delta-row"><th scope="row">&#916;</th><td>+2 model yrs, +turbo, &#8722;5k mi</td><td class="num">+$3,007</td><td class="num">+$3,318</td><td class="num"><strong>+$65/mo</strong></td><td class="num">+$65/mo</td></tr></tbody></table></div>
+  <div class="calc" id="calculator">
+    <h3 class="sub">Payment calculator</h3>
+    <p class="muted small">Uses the same math as the table: OTD = list &#215; 1.1035 + $750, standard amortization. Pre-filled with pick #3.</p>
+    <div class="calc-grid">
+      <label>List price <span class="inwrap"><span class="pre">$</span><input type="text" id="c-list" value="24999" inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"></span></label>
+      <label>Down payment <span class="inwrap"><span class="pre">$</span><input type="text" id="c-down" value="0" inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"></span></label>
+      <label>APR <span class="inwrap"><input type="text" id="c-apr" value="6.30" inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><span class="post">%</span></span></label>
+      <label>Term <span class="inwrap"><input type="text" id="c-term" value="60" inputmode="numeric" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"><span class="post">mo</span></span></label>
+    </div>
+    <div class="calc-out" aria-live="polite">
+      <div><span class="k">Out-the-door</span><span class="v" id="o-otd">$28,336</span></div>
+      <div><span class="k">Amount financed</span><span class="v" id="o-fin">$28,336</span></div>
+      <div class="em"><span class="k">Monthly payment</span><span class="v" id="o-mo">$552/mo</span></div>
+      <div><span class="k">Total interest</span><span class="v" id="o-int">$4,771</span></div>
+      <div><span class="k">Per $1,000 financed</span><span class="v" id="o-1k">$19.47/mo</span></div>
+    </div>
+    <p class="calc-example"><strong>Worked example &#8212; pick #3:</strong> $24,999 list &#8594; $28,336 out-the-door &#8594; <strong>$552/mo</strong> at $0 down, or <strong>$454/mo</strong> with $5,000 down (6.30% APR, 60 mo).</p>
+  </div>
+</section>
+
+<section class="card" id="nohaggle">
+  <div class="sec-head"><h2>No-haggle ceiling &#8212; CarMax / Carvana</h2></div>
+  <p>Walk-away numbers &#8212; if a dealer won't beat these for the same tier, buy the fixed-price unit.</p>
+  <ul class="nh"><li><strong>2022 NA-high (Carbon / Premium):</strong> CarMax <strong>$24,998</strong> <span class="muted">(48k mi, Sacramento, +$199 xfer (pick #11))</span> &#183; Carvana $28,590 <span class="muted">(15k mi Premium)</span></li><li><strong>2023 NA-mid (Preferred):</strong> CarMax <strong>$24,998</strong> <span class="muted">(43k mi, Parker CO, +$749 xfer)</span> &#183; Carvana $24,590 <span class="muted">(41k mi)</span></li><li><strong>2022 Turbo:</strong> CarMax <strong>$25,998</strong> <span class="muted">(40k mi, +$1,999 xfer)</span> &#8212; Makes #2 at $27,300 / 25k mi fair, and #6 at $25,198 an outright win.</li></ul>
+</section>
+
+<section class="card" id="email">
+  <div class="sec-head"><h2>Email template &#8212; itemized OTD request</h2><button type="button" class="btn ghost" id="copy-btn" data-label="Copy">Copy</button></div>
+  <blockquote class="email" id="email-text">Hi &#8212; I'm Evan, looking at your [YEAR] Mazda CX-5 [TRIM], stock #[STOCK] / VIN [VIN]. I'm comparing several CX-5s in the Seattle area this week and narrowing to two or three. Could you email me an <strong>itemized out-the-door quote in writing</strong> &#8212; vehicle price, doc fee, sales tax, title/registration, and any dealer add-ons listed separately? I'm undecided on financing vs. outside lender, so please quote the cash OTD; we can talk financing after. Thanks &#8212; happy to come see the car once I have the numbers.</blockquote>
+  <textarea class="email-ta" id="email-ta" readonly rows="9" aria-label="Email template text, selected for copying" hidden>Hi &#8212; I'm Evan, looking at your [YEAR] Mazda CX-5 [TRIM], stock #[STOCK] / VIN [VIN]. I'm comparing several CX-5s in the Seattle area this week and narrowing to two or three. Could you email me an itemized out-the-door quote in writing &#8212; vehicle price, doc fee, sales tax, title/registration, and any dealer add-ons listed separately? I'm undecided on financing vs. outside lender, so please quote the cash OTD; we can talk financing after. Thanks &#8212; happy to come see the car once I have the numbers.</textarea>
+  <p class="copy-status" id="copy-status" aria-live="polite"></p>
+</section>
+
+<section class="card" id="sources">
+  <div class="sec-head"><h2>Sources &amp; method</h2><p class="muted">13 sources across 2 rounds</p></div>
+  <div class="scroll"><table class="data" id="sources-table"><thead><tr><th>Source</th><th>Status</th><th class="num">Pulled</th><th>What it added</th></tr></thead><tbody><tr><td><strong>AutoTempest</strong></td><td><span class="badge status ok">ok</span></td><td class="num">77</td><td class="small">Aggregator seed &#8212; Cars.com / CarGurus / TrueCar / Carvana / CarSoup / AutoByTel VINs in one shot</td></tr><tr><td><strong>CarGurus</strong></td><td><span class="badge status ok">ok (VDPs only)</span></td><td class="num">41</td><td class="small">Richest per-car data: accidents, owners, CPO, photo count, days-on-lot, $-below-market. Search page is DataDome-blocked; detail pages fetched via AutoTempest listing IDs</td></tr><tr><td><strong>CarMax</strong></td><td><span class="badge status ok">ok</span></td><td class="num">72</td><td class="small">National no-haggle floor via /cars/api/search/run JSON API. Transfer fees per unit</td></tr><tr><td><strong>Carvana</strong></td><td><span class="badge status fallback">blocked (fallback ok)</span></td><td class="num">10</td><td class="small">Cloudflare Turnstile on carvana.com; 10 listings recovered via AutoTempest</td></tr><tr><td><strong>KBB</strong></td><td><span class="badge status ok">ok</span></td><td class="num">47</td><td class="small">Round-2 win. Per-listing KBB Fair Purchase Price + delta, price-drop history, AutoCheck vhrPreview (accidents / 1-owner), CPO flag. Cox backend = Autotrader inventory</td></tr><tr><td><strong>iSeeCars</strong></td><td><span class="badge status ok">ok</span></td><td class="num">20</td><td class="small">Price/miles only (no VIN on search page). 15/20 soft-matched to existing VINs &#8212; confirmed cross-listing, no net-new inventory</td></tr><tr><td><strong>Craigslist</strong></td><td><span class="badge status ok">ok</span></td><td class="num">11</td><td class="small">All dealer reposts (Royal Moore, Mazda of Gladstone, Ron Tonkin). No private-party CX-5s in range. No VINs on search page</td></tr><tr><td><strong>Autotrader</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">Akamai bot-block (headful too). Same Cox inventory as KBB &#8212; covered</td></tr><tr><td><strong>Edmunds</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">403 edge/WAF, IP-based. Tried headless, headful, direct API</td></tr><tr><td><strong>Cars.com (VDPs)</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">Cloudflare challenge on detail pages. Search-page data via AutoTempest is fine (18 listings)</td></tr><tr><td><strong>TrueCar</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">PerimeterX captcha. 5 listings recovered via AutoTempest</td></tr><tr><td><strong>CarFax</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">DataDome captcha (captcha-delivery.com)</td></tr><tr><td><strong>FB Marketplace</strong></td><td><span class="badge status blocked">blocked</span></td><td class="num">0</td><td class="small">Login wall &#8212; skipped per read-only rule</td></tr></tbody></table></div>
+  <p><strong>Honest read:</strong> the proxy IP is on Akamai / Cloudflare / DataDome / PerimeterX blocklists, so 6 of 13 direct sources are unreachable. But the blocks cost almost nothing: Autotrader = KBB inventory (got it), TrueCar / Cars.com = AutoTempest feed (got it), CarFax listings = mostly CarGurus overlap. Net-new inventory from round 2 is ~22 cars (KBB-only VINs); everything else was already in round 1 under a different badge.</p>
+  <p><strong>Dedupe:</strong> 278 raw &#8594; 153 unique VINs (VIN-matched) + 10 no-VIN orphans. 21 no-VIN records soft-matched to existing VINs by (year, &#177;1k mi, &#177;$250) and folded in as &#8220;also on&#8221; tags.</p>
+  <h3 class="sub">Filter &amp; ranking rules</h3>
+  <ul class="rules"><li>Disqualify: any reported accident, fleet / rental prior use, lemon or frame-damage flag, fewer than 6 photos (where photo count is known), missing VIN (unless Craigslist / iSeeCars-flagged), missing price or miles.</li><li>Trim: unwanted trims (Sport, Select, base 2.5 S) dropped unless priced more than $3k under the year average.</li><li>Rank: deal rating / KBB FPP delta &#8594; $ below market &#8594; 1-owner &#8594; CPO &#8594; miles per dollar; at least 3 non-CarGurus sources and all 3 model years enforced on the shortlist.</li></ul>
+  <p class="recall"><strong>NHTSA recalls:</strong> 0 open campaigns for MY2021&#8211;2023 CX-5 (checked 8/7/26). Verify by VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> before purchase.</p>
+  <h3 class="sub">Footnotes</h3>
+  <ul class="foot small muted"><li>Merge: 278 raw records (R1 200 + R2 78) &#8594; 153 unique VINs by exact VIN match; 21 no-VIN records soft-matched by (year, &#177;1k mi, &#177;$250); 10 no-VIN orphans retained (Craigslist / iSeeCars). Per-source primary contribution after dedupe: CarMax 68, CarGurus 41, KBB 22, Carvana 10, Cars.com 7, iSeeCars 5 orphan, Craigslist 5 orphan, TrueCar 2, CarSoup 2, AutoByTel 1.</li><li>KBB national FPP is default-zip (75201) at &#8220;typical&#8221; mileage &#8212; reads ~$3&#8211;5k below Seattle retail across the board. Use the Seattle-derived FPP column for delta math.</li><li>#6 KBB record has null kbbFpp (delta shows as &#8722;$25,198 in raw data &#8212; artifact, ignored).</li><li>CarMax pick #11: priorUse=[] (no fleet flag); CarMax history report available on the vehicle page.</li><li>iSeeCars adds no VINs and no history data &#8212; useful only as a cross-listing signal. Craigslist yielded zero private-party sellers in this range.</li><li>Data captured Aug 7, 2026.</li></ul>
+</section>
+
+</main>
+
+<footer class="wrap footer"><p>Research compiled Aug 7, 2026. Read-only scan &#8212; no dealer was contacted, no forms submitted. Not affiliated with any seller. Verify history reports and pricing independently before purchase.</p></footer>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script>(function () {
+  'use strict';
+  var PTS = [{"y":2023,"m":23202,"p":28915,"r":null,"t":"2.5 S Premium Plus AWD","d":"Chuck Colvin Auto Group","c":"Mcminnville, OR","s":"CarGurus"},{"y":2023,"m":23970,"p":28998,"r":null,"t":"2.5 Turbo AWD","d":"CarMax Salem","c":"Salem, OR","s":"CarGurus"},{"y":2023,"m":27837,"p":27545,"r":null,"t":"2.5 S Premium AWD","d":"Ron Tonkin Chrysler Jeep Dodge Ram Fiat","c":"Milwaukie, OR","s":"CarGurus"},{"y":2021,"m":39412,"p":27472,"r":null,"t":"Carbon Edition","d":"Tonkin Gresham Honda","c":"Troutdale, OR","s":"KBB"},{"y":2023,"m":33261,"p":25895,"r":null,"t":"2.5 S Preferred AWD","d":"GoldBoyz Auto Sales","c":"Puyallup, WA","s":"CarGurus"},{"y":2023,"m":26409,"p":28400,"r":null,"t":"Carbon Edition","d":"Toyota of Newport","c":"Newport, OR","s":"KBB"},{"y":2022,"m":43640,"p":27389,"r":null,"t":"AWD 2.5 S w/ Premium Plus Pkg","d":"Titus-Will Chevrolet GMC Cadillac - Olympia Auto Mall","c":"Olympia, WA","s":"KBB"},{"y":2023,"m":28924,"p":27760,"r":null,"t":"2.5 S Carbon Edition AWD","d":"Titus-Will Used Cars - Olympia","c":"Olympia, WA","s":"CarGurus"},{"y":2021,"m":31250,"p":27432,"r":null,"t":"Touring","d":"Kendall Gmc Buick Of Nampa","c":"Nampa, ID","s":"Cars.com"},{"y":2023,"m":32594,"p":27599,"r":null,"t":"2.5 S Carbon Edition","d":"Lexus Of Portland","c":"Portland, OR","s":"Cars.com"},{"y":2022,"m":37339,"p":28245,"r":null,"t":"2.5 S Carbon Edition","d":"Ron Tonkin Acura","c":"Portland, OR","s":"Cars.com"},{"y":2021,"m":40451,"p":26462,"r":null,"t":"Signature","d":"Tonkin Gresham Honda","c":"Troutdale, OR","s":"KBB"},{"y":2022,"m":47333,"p":27498,"r":null,"t":"Carbon Edition","d":"Doug's Lynnwood Mazda","c":"Edmonds, WA","s":"KBB"},{"y":2023,"m":23406,"p":28988,"r":null,"t":"2.5 S Premium Plus AWD","d":"Olympia Mazda","c":"Olympia, WA","s":"CarGurus"},{"y":2021,"m":26133,"p":26721,"r":null,"t":"Touring AWD","d":"Mazda of Gladstone","c":"Gladstone, OR","s":"CarGurus"},{"y":2023,"m":29506,"p":26747,"r":null,"t":"2.5 S Preferred AWD","d":"Mazda of Gladstone","c":"Gladstone, OR","s":"CarGurus"},{"y":2023,"m":45726,"p":26998,"r":null,"t":"2.5 S Carbon Edition AWD","d":"CarMax Boise (Meridian)","c":"Meridian, ID","s":"CarGurus"},{"y":2022,"m":44878,"p":23998,"r":null,"t":"2.5 S Select AWD","d":"CarMax Tri-Cities - Kennewick","c":"Richland, WA","s":"CarGurus"},{"y":2021,"m":25604,"p":28199,"r":null,"t":"Signature AWD","d":"Mazda of Salem","c":"Salem, OR","s":"CarGurus"},{"y":2023,"m":32200,"p":27998,"r":null,"t":"2.5 S Carbon Edition AWD","d":"CarMax Beaverton","c":"Beaverton, OR","s":"CarGurus"},{"y":2022,"m":44278,"p":26219,"r":null,"t":"2.5 S Preferred AWD","d":"Legacy Chrysler Jeep Dodge RAM","c":"La Grande, OR","s":"CarGurus"},{"y":2023,"m":35341,"p":27040,"r":null,"t":"2.5 S Preferred AWD","d":"Roger Kehdi Mitsubishi","c":"Tigard, OR","s":"CarGurus"},{"y":2022,"m":34843,"p":26262,"r":null,"t":"2.5 S Preferred AWD","d":"Dick Hannah Honda","c":"Vancouver, WA","s":"CarGurus"},{"y":2022,"m":39250,"p":27250,"r":null,"t":"2.5 S Carbon Edition AWD","d":"Newberg Dodge Jeep Chrysler","c":"Newberg, OR","s":"CarGurus"},{"y":2022,"m":45860,"p":26915,"r":null,"t":"2.5 S Carbon Edition AWD","d":"Newport Chevrolet GMC","c":"Newport, OR","s":"CarGurus"},{"y":2023,"m":21833,"p":28982,"r":null,"t":"AWD 2.5 S w/ Premium Plus Pkg","d":"Ron Tonkin Mazda of Portland","c":"Portland, OR","s":"KBB"},{"y":2021,"m":27089,"p":28500,"r":null,"t":"Grand Touring","d":"Doug's Lynnwood Mazda","c":"Edmonds, WA","s":"KBB"},{"y":2023,"m":17505,"p":28999,"r":null,"t":"AWD 2.5 S w/ Premium Package","d":"Rodland Toyota","c":"Everett, WA","s":"KBB"},{"y":2022,"m":40095,"p":27772,"r":null,"t":"Carbon Edition","d":"Ron Tonkin Mazda of Portland","c":"Portland, OR","s":"KBB"},{"y":2023,"m":44381,"p":27000,"r":null,"t":"AWD 2.5 S w/ Premium Package","d":"McCurley Chevrolet","c":"Pasco, WA","s":"KBB"},{"y":2021,"m":34475,"p":26688,"r":null,"t":"Touring AWD","d":"Knudtsen Foothills Mazda","c":"Spokane, WA","s":"CarGurus"},{"y":2023,"m":47789,"p":26962,"r":null,"t":"Carbon Edition","d":"Tonkin Gresham Honda","c":"Troutdale, OR","s":"KBB"},{"y":2021,"m":15281,"p":27777,"r":null,"t":"Grand Touring","d":"","c":"Tacoma, WA","s":"iSeeCars"},{"y":2023,"m":16612,"p":27800,"r":null,"t":"2.5 S Preferred","d":"","c":"Hillsboro, OR","s":"iSeeCars"},{"y":2023,"m":16969,"p":26900,"r":null,"t":"2.5 S Preferred Package","d":"Royal Moore Toyota","c":"Hillsboro, OR","s":"Cars.com"},{"y":2021,"m":22725,"p":26998,"r":null,"t":"Touring","d":"CarMax Laurel","c":"Laurel, MD","s":"CarMax"},{"y":2022,"m":25353,"p":28040,"r":null,"t":"2.5 Turbo","d":"","c":"Seattle, WA","s":"iSeeCars"},{"y":2022,"m":24927,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Lithia Springs","c":"Lithia Springs, GA","s":"CarMax"},{"y":2021,"m":26000,"p":26471,"r":null,"t":"Touring","d":"","c":"Mazda of Gladstone","s":"Craigslist"},{"y":2021,"m":25727,"p":25999,"r":null,"t":"Touring","d":"Mazda Of Everett","c":"Everett, WA","s":"AutoByTel"},{"y":2021,"m":26976,"p":26998,"r":null,"t":"Grand Touring","d":"CarMax Frederick","c":"Frederick, MD","s":"CarMax"},{"y":2023,"m":27837,"p":27795,"r":null,"t":"2.5 S Premium","d":"","c":"Portland, OR","s":"iSeeCars"},{"y":2023,"m":27274,"p":26998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Roswell","c":"Roswell, GA","s":"CarMax"},{"y":2021,"m":27399,"p":26998,"r":null,"t":"Grand Touring","d":"CarMax Dulles","c":"Sterling, VA","s":"CarMax"},{"y":2021,"m":28627,"p":26998,"r":null,"t":"Carbon Edition","d":"CarMax Rochester","c":"Rochester, NY","s":"CarMax"},{"y":2022,"m":29010,"p":26998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Sacramento South","c":"Sacramento, CA","s":"CarMax"},{"y":2022,"m":30159,"p":26998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Greenville","c":"Greenville, SC","s":"CarMax"},{"y":2023,"m":30000,"p":26497,"r":null,"t":"Preferred","d":"","c":"Mazda of Gladstone","s":"Craigslist"},{"y":2023,"m":30000,"p":26497,"r":null,"t":"Preferred","d":"","c":"Mazda of Gladstone","s":"Craigslist"},{"y":2021,"m":29497,"p":25998,"r":null,"t":"Grand Touring","d":"CarMax Ocala","c":"Ocala, FL","s":"CarMax"},{"y":2023,"m":31208,"p":26998,"r":null,"t":"Carbon Edition","d":"CarMax Modesto","c":"Modesto, CA","s":"CarMax"},{"y":2023,"m":31830,"p":26998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Tallahassee","c":"Tallahassee, FL","s":"CarMax"},{"y":2022,"m":32175,"p":26840,"r":null,"t":"25 S Carbon Edition","d":"Luther Burnsville Hyundai","c":"Burnsville, MN","s":"CarSoup"},{"y":2021,"m":33620,"p":26998,"r":null,"t":"Grand Touring","d":"CarMax Centennial","c":"Las Vegas, NV","s":"CarMax"},{"y":2022,"m":32492,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Charleston","c":"Charleston, SC","s":"CarMax"},{"y":2022,"m":34078,"p":26998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Garland","c":"Garland, TX","s":"CarMax"},{"y":2023,"m":35913,"p":28299,"r":null,"t":"2.5 S Premium","d":"Walkers Renton Mazda","c":"Renton, WA","s":"TrueCar"},{"y":2021,"m":33590,"p":25998,"r":null,"t":"Carbon Edition Turbo","d":"CarMax Albuquerque","c":"Albuquerque, NM","s":"CarMax"},{"y":2021,"m":32385,"p":24998,"r":null,"t":"Touring","d":"CarMax Fremont","c":"Fremont, CA","s":"CarMax"},{"y":2022,"m":35115,"p":26998,"r":null,"t":"Carbon Edition","d":"CarMax Midlothian","c":"Midlothian, VA","s":"CarMax"},{"y":2023,"m":34250,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Austin North","c":"Austin, TX","s":"CarMax"},{"y":2021,"m":35518,"p":25998,"r":null,"t":"Grand Touring","d":"CarMax Fremont","c":"Fremont, CA","s":"CarMax"},{"y":2023,"m":37634,"p":26998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Palmdale","c":"Palmdale, CA","s":"CarMax"},{"y":2021,"m":37493,"p":25998,"r":null,"t":"Touring","d":"CarMax Phoenix-Gilbert","c":"Gilbert, AZ","s":"CarMax"},{"y":2021,"m":39377,"p":26998,"r":null,"t":"Signature","d":"CarMax West Broad","c":"Glen Allen, VA","s":"CarMax"},{"y":2021,"m":36473,"p":24998,"r":null,"t":"Grand Touring","d":"CarMax Hulen Mall","c":"Fort Worth, TX","s":"CarMax"},{"y":2022,"m":40558,"p":26998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Merrillville","c":"Merrillville, IN","s":"CarMax"},{"y":2023,"m":39198,"p":25998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Smithtown","c":"Saint James, NY","s":"CarMax"},{"y":2021,"m":38000,"p":24998,"r":null,"t":"Touring","d":"CarMax Loveland","c":"Loveland, CO","s":"CarMax"},{"y":2022,"m":41295,"p":26998,"r":null,"t":"2.5 S Premium Package","d":"CarMax Garland","c":"Garland, TX","s":"CarMax"},{"y":2022,"m":40163,"p":25998,"r":null,"t":"Turbo","d":"CarMax Boynton Beach","c":"Boynton Beach, FL","s":"CarMax"},{"y":2023,"m":43025,"p":26998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Greenwood","c":"Indianapolis, IN","s":"CarMax"},{"y":2023,"m":41573,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Fresno","c":"Fresno, CA","s":"CarMax"},{"y":2023,"m":42873,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Live Oak","c":"San Antonio, TX","s":"CarMax"},{"y":2023,"m":42998,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Newark","c":"Newark, DE","s":"CarMax"},{"y":2021,"m":43019,"p":25998,"r":null,"t":"Touring","d":"CarMax Merrillville","c":"Merrillville, IN","s":"CarMax"},{"y":2021,"m":41625,"p":24998,"r":null,"t":"Touring","d":"CarMax Tuscaloosa","c":"Tuscaloosa, AL","s":"CarMax"},{"y":2023,"m":43835,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Garland","c":"Garland, TX","s":"CarMax"},{"y":2022,"m":43904,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Ocala","c":"Ocala, FL","s":"CarMax"},{"y":2021,"m":45764,"p":26926,"r":null,"t":"Grand Touring AWD","d":"Tonkin Hillsboro Chrysler Jeep Dodge RAM","c":"Hillsboro, OR","s":"CarGurus"},{"y":2023,"m":42541,"p":24998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Parker","c":"Parker, CO","s":"CarMax"},{"y":2023,"m":45998,"p":26998,"r":null,"t":"Carbon Edition","d":"CarMax Phoenix-Gilbert","c":"Gilbert, AZ","s":"CarMax"},{"y":2021,"m":44390,"p":25998,"r":null,"t":"Grand Touring","d":"CarMax Gaithersburg","c":"Gaithersburg, MD","s":"CarMax"},{"y":2021,"m":42753,"p":24998,"r":null,"t":"Grand Touring","d":"CarMax Jacksonville","c":"Jacksonville, FL","s":"CarMax"},{"y":2023,"m":44995,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Orlando","c":"Orlando, FL","s":"CarMax"},{"y":2023,"m":45319,"p":25998,"r":null,"t":"2.5 S Preferred Package","d":"CarMax Salt Lake (South Jordan)","c":"South Jordan, UT","s":"CarMax"},{"y":2022,"m":40273,"p":22998,"r":null,"t":"2.5 S","d":"CarMax Murrieta","c":"Murrieta, CA","s":"CarMax"},{"y":2022,"m":46655,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Grand Rapids (Kentwood)","c":"Kentwood, MI","s":"CarMax"},{"y":2022,"m":46935,"p":25998,"r":null,"t":"2.5 S Premium Plus Package","d":"CarMax Clermont","c":"Clermont, FL","s":"CarMax"},{"y":2021,"m":47000,"p":25787,"r":null,"t":"Touring","d":"","c":"Mazda of Gladstone","s":"Craigslist"},{"y":2021,"m":47000,"p":25787,"r":null,"t":"Touring","d":"","c":"Mazda of Gladstone","s":"Craigslist"},{"y":2021,"m":42665,"p":23400,"r":null,"t":"Touring","d":"","c":"Hillsboro, OR","s":"iSeeCars"},{"y":2021,"m":48092,"p":25998,"r":null,"t":"Grand Touring","d":"CarMax Westborough","c":"Westborough, MA","s":"CarMax"},{"y":2021,"m":48294,"p":25998,"r":null,"t":"Grand Touring Reserve","d":"CarMax Brandywine","c":"Brandywine, MD","s":"CarMax"},{"y":2022,"m":48384,"p":25998,"r":null,"t":"Carbon Edition","d":"CarMax Salt Lake (South Jordan)","c":"South Jordan, UT","s":"CarMax"},{"y":2021,"m":45174,"p":23998,"r":null,"t":"Touring","d":"CarMax Buford","c":"Buford, GA","s":"CarMax"},{"y":2021,"m":48955,"p":25338,"r":null,"t":"Grand Touring","d":"Barnett White Bear Chrysler Jeep Dodge Ram Kia","c":"White Bear Lake, MN","s":"CarSoup"},{"y":2023,"m":44609,"p":22998,"r":null,"t":"2.5 S","d":"CarMax White Marsh","c":"White Marsh, MD","s":"CarMax"},{"y":2022,"m":47595,"p":23590,"r":null,"t":"2.5 S Select Sport Utility 4D","d":"","c":"Eugene, OR","s":"Carvana"},{"y":2021,"m":48583,"p":23998,"r":null,"t":"Touring","d":"CarMax Virginia Beach","c":"Virginia Beach, VA","s":"CarMax"},{"y":2021,"m":46958,"p":26037,"r":null,"t":"Touring AWD","d":"Mazda of Gladstone","c":"Gladstone, OR","s":"CarGurus"},{"y":2022,"m":48337,"p":24998,"r":11,"t":"Carbon Edition","d":"CarMax Sacramento South","c":"Sacramento, CA","s":"CarMax"},{"y":2023,"m":44989,"p":24095,"r":10,"t":"2.5 S Preferred Package","d":"Columbia Sales & Service","c":"Portland, OR","s":"Cars.com"},{"y":2023,"m":33006,"p":27699,"r":9,"t":"2.5 S Carbon Edition AWD","d":"Puyallup Mazda","c":"Puyallup, WA","s":"CarGurus"},{"y":2023,"m":16612,"p":26900,"r":8,"t":"2.5 S Preferred AWD","d":"Royal Moore Mazda Buick GMC","c":"Hillsboro, OR","s":"CarGurus"},{"y":2022,"m":34749,"p":26972,"r":7,"t":"2.5 S Carbon Edition AWD","d":"Lee Johnson Mazda of Seattle","c":"Seattle, WA","s":"CarGurus"},{"y":2021,"m":42515,"p":25198,"r":6,"t":"Carbon Edition Turbo AWD","d":"Puyallup Mazda","c":"Puyallup, WA","s":"CarGurus"},{"y":2021,"m":33175,"p":25192,"r":5,"t":"Grand Touring AWD","d":"Hyundai of Kirkland","c":"Kirkland, WA","s":"CarGurus"},{"y":2021,"m":34800,"p":26512,"r":4,"t":"Carbon Edition","d":"Ron Tonkin Honda","c":"Portland, OR","s":"KBB"},{"y":2021,"m":39146,"p":24999,"r":3,"t":"Grand Touring Reserve","d":"BMW Seattle","c":"Seattle, WA","s":"KBB"},{"y":2022,"m":25353,"p":27300,"r":2,"t":"2.5 Turbo AWD","d":"Acura of Seattle","c":"Seattle, WA","s":"CarGurus"},{"y":2023,"m":27990,"p":28199,"r":1,"t":"2.5 Turbo AWD","d":"Puyallup Mazda","c":"Puyallup, WA","s":"CarGurus"}];
+  var EMAIL = "Hi \u2014 I'm Evan, looking at your [YEAR] Mazda CX-5 [TRIM], stock #[STOCK] / VIN [VIN]. I'm comparing several CX-5s in the Seattle area this week and narrowing to two or three. Could you email me an itemized out-the-door quote in writing \u2014 vehicle price, doc fee, sales tax, title/registration, and any dealer add-ons listed separately? I'm undecided on financing vs. outside lender, so please quote the cash OTD; we can talk financing after. Thanks \u2014 happy to come see the car once I have the numbers.";
+  var fmt$ = function (n) { return (n < 0 ? '\u2212$' : '$') + Math.abs(Math.round(n)).toLocaleString('en-US'); };
+  var fmt$2 = function (n) { return '$' + n.toFixed(2); };
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  var closest = function (el, sel) {
+    while (el && el.nodeType === 1) {
+      var m = el.matches || el.webkitMatchesSelector || el.msMatchesSelector;
+      if (m && m.call(el, sel)) return el;
+      el = el.parentNode;
+    }
+    return null;
+  };
+
+  // ---- sortable table (desktop presentation) ----
+  Array.prototype.forEach.call(document.querySelectorAll('table.sortable'), function (table) {
+    var ths = table.tHead.rows[0].cells;
+    Array.prototype.forEach.call(ths, function (th, col) {
+      if (th.hasAttribute('data-nosort')) return;
+      th.querySelector('button').addEventListener('click', function () {
+        var dir = th.getAttribute('aria-sort') === 'ascending' ? 'descending' : 'ascending';
+        Array.prototype.forEach.call(ths, function (o) { o.removeAttribute('aria-sort'); });
+        th.setAttribute('aria-sort', dir);
+        var body = table.tBodies[0];
+        var rows = Array.prototype.slice.call(body.rows);
+        var key = function (tr) {
+          var td = tr.cells[col];
+          if (td.hasAttribute('data-v')) return parseFloat(td.getAttribute('data-v'));
+          var t = td.textContent.trim().replace(/\u2212/g, '-');
+          var n = parseFloat(t.replace(/[$,#%]/g, ''));
+          return (/^[-+]?[$#]?[\d,.]+/.test(t) && !isNaN(n)) ? n : t.toLowerCase();
+        };
+        rows.sort(function (a, b) {
+          var ka = key(a), kb = key(b), r;
+          if (typeof ka === 'number' && typeof kb === 'number') r = ka - kb;
+          else r = String(ka).localeCompare(String(kb), undefined, { numeric: true });
+          return dir === 'ascending' ? r : -r;
+        });
+        rows.forEach(function (tr) { body.appendChild(tr); });
+      });
+    });
+  });
+
+  // ---- sortable cards (phone presentation) ----
+  var sel = document.getElementById('sl-sort'), list = document.getElementById('sl-cards');
+  if (sel && list) sel.addEventListener('change', function () {
+    var k = sel.value;
+    var cards = Array.prototype.slice.call(list.children);
+    cards.sort(function (a, b) {
+      var av = parseFloat(a.getAttribute('data-' + k)), bv = parseFloat(b.getAttribute('data-' + k));
+      var r = k === 'year' ? bv - av : av - bv;
+      return r || (parseFloat(a.getAttribute('data-rank')) - parseFloat(b.getAttribute('data-rank')));
+    });
+    cards.forEach(function (c) { list.appendChild(c); });
+  });
+
+  // ---- tooltip ----
+  var tip = document.getElementById('tip');
+  function showTip(html, x, y) {
+    tip.innerHTML = html; tip.hidden = false;
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var left = x + 14, top = y - h - 12;
+    if (left + w > window.innerWidth - 8) left = x - w - 14;
+    if (top < 8) top = y + 16;
+    tip.style.left = Math.max(8, Math.min(left, window.innerWidth - w - 8)) + 'px'; tip.style.top = top + 'px';
+  }
+  function hideTip() { tip.hidden = true; }
+  var hot = null;
+  function clearHot() { if (hot) hot.classList.remove('hot'); hot = null; }
+  // touch screens synthesize mouse events after a tap (and some park the virtual pointer elsewhere right after);
+  // ignore mouseleave that closely follows a touch so a tapped tooltip stays up until the next tap
+  var lastTouch = 0;
+  document.addEventListener('touchstart', function () { lastTouch = Date.now(); }, { passive: true, capture: true });
+  var recentTouch = function () { return Date.now() - lastTouch < 900; };
+
+  // scatter (desktop + phone variants): nearest point to the pointer / finger, centres come from data-x / data-y
+  Array.prototype.forEach.call(document.querySelectorAll('svg.scatter'), function (svg) {
+    var centers = Array.prototype.map.call(svg.querySelectorAll('.pt'), function (g) {
+      return { x: +g.getAttribute('data-x'), y: +g.getAttribute('data-y'), g: g, i: +g.getAttribute('data-i') };
+    });
+    var pick = function (clientX, clientY) {
+      var ctm = svg.getScreenCTM && svg.getScreenCTM();
+      if (!ctm) return;
+      var pt = svg.createSVGPoint(); pt.x = clientX; pt.y = clientY;
+      var p = pt.matrixTransform(ctm.inverse());
+      var best = null, bd = Infinity;
+      for (var k = 0; k < centers.length; k++) {
+        var c = centers[k], dx = c.x - p.x, dy = c.y - p.y, d = dx * dx + dy * dy;
+        if (d < bd) { bd = d; best = c; }
+      }
+      var maxR = 24 / (ctm.a || 1);
+      if (!best || bd > maxR * maxR) { clearHot(); hideTip(); return; }
+      if (hot !== best.g) { clearHot(); hot = best.g; hot.classList.add('hot'); }
+      var d0 = PTS[best.i];
+      var head = (d0.r ? '<b>#' + d0.r + ' \u00b7 </b>' : '') + '<b>' + d0.y + ' ' + esc(d0.t || 'CX-5') + '</b>';
+      var html = head + '<br>' + fmt$(d0.p) + ' \u00b7 ' + Math.round(d0.m).toLocaleString('en-US') + ' mi<br><span class="t2">' + esc(d0.d || '') + (d0.c ? ' \u00b7 ' + esc(d0.c) : '') + ' \u00b7 ' + esc(d0.s) + '</span>';
+      var r = best.g.getBoundingClientRect();
+      showTip(html, r.left + r.width / 2, r.top);
+    };
+    svg.addEventListener('mousemove', function (e) { if (!recentTouch()) pick(e.clientX, e.clientY); });
+    svg.addEventListener('click', function (e) { pick(e.clientX, e.clientY); });
+    svg.addEventListener('mouseleave', function () { if (recentTouch()) return; clearHot(); hideTip(); });
+    svg.addEventListener('touchstart', function (e) { var t = e.touches && e.touches[0]; if (t) pick(t.clientX, t.clientY); }, { passive: true });
+  });
+  var tint = document.getElementById('tint');
+  var legend = document.getElementById('scatter-legend');
+  if (tint) tint.addEventListener('change', function () {
+    Array.prototype.forEach.call(document.querySelectorAll('svg.scatter'), function (s) { s.classList.toggle('tinted', tint.checked); });
+    if (legend) legend.classList.toggle('tinted', tint.checked);
+  });
+  // bars: hover / tap a row
+  Array.prototype.forEach.call(document.querySelectorAll('svg.bars .bar-row'), function (g) {
+    var show = function (x, y) { if (hot !== g) { clearHot(); hot = g; g.classList.add('hot'); } showTip(esc(g.getAttribute('data-tip')), x, y); };
+    g.addEventListener('mousemove', function (e) { if (!recentTouch()) show(e.clientX, e.clientY); });
+    g.addEventListener('mouseleave', function () { if (recentTouch()) return; clearHot(); hideTip(); });
+    g.addEventListener('click', function (e) { show(e.clientX, e.clientY); });
+    g.addEventListener('touchstart', function (e) { var t = e.touches && e.touches[0]; if (t) show(t.clientX, t.clientY); }, { passive: true });
+  });
+  // tap / click anywhere outside a chart hides the tooltip
+  var outside = function (e) { if (!closest(e.target, 'svg.chart')) { clearHot(); hideTip(); } };
+  document.addEventListener('touchstart', outside, { passive: true });
+  document.addEventListener('click', outside);
+  window.addEventListener('scroll', hideTip, { passive: true });
+  window.addEventListener('resize', hideTip);
+
+  // ---- calculator ----
+  var el = function (id) { return document.getElementById(id); };
+  var numval = function (id, dflt) { var v = parseFloat(String(el(id).value).replace(/[^0-9.\-]/g, '')); return isNaN(v) ? dflt : v; };
+  function calc() {
+    var list = Math.max(0, numval('c-list', 0));
+    var down = Math.max(0, numval('c-down', 0));
+    var apr = Math.max(0, numval('c-apr', 0));
+    var n = Math.max(1, Math.round(numval('c-term', 60)));
+    var otd = list * 1.1035 + 750;
+    var fin = Math.max(0, otd - down);
+    var r = apr / 100 / 12;
+    var pmt = function (P) { return r === 0 ? P / n : P * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1); };
+    var m = pmt(fin);
+    var interest = m * n - fin;
+    el('o-otd').textContent = fmt$(otd);
+    el('o-fin').textContent = fmt$(fin);
+    el('o-mo').textContent = fmt$(m) + '/mo';
+    el('o-int').textContent = fmt$(interest);
+    el('o-1k').textContent = fmt$2(pmt(1000)) + '/mo';
+  }
+  ['c-list', 'c-down', 'c-apr', 'c-term'].forEach(function (id) { var e = el(id); if (e) { e.addEventListener('input', calc); e.addEventListener('change', calc); } });
+  if (el('c-list')) calc();
+
+  // ---- copy email (never throws: clipboard API inside the gesture, textarea-select fallback) ----
+  var btn = document.getElementById('copy-btn');
+  var ta = document.getElementById('email-ta');
+  var quote = document.getElementById('email-text');
+  var status = document.getElementById('copy-status');
+  var setLabel = function (t, ms) { btn.textContent = t; if (ms) setTimeout(function () { btn.textContent = 'Copy'; }, ms); };
+  var selectFallback = function () {
+    try {
+      if (ta) {
+        ta.hidden = false; if (quote) quote.hidden = true;
+        ta.focus(); ta.select();
+        try { ta.setSelectionRange(0, ta.value.length); } catch (e1) { /* older engines */ }
+        var ok = false;
+        try { ok = !!(document.execCommand && document.execCommand('copy')); } catch (e2) { ok = false; }
+        if (ok) { setLabel('Copied', 2200); if (status) status.textContent = 'Copied. The text also stays selected below.'; }
+        else { setLabel('Text selected \u2014 tap Copy'); if (status) status.textContent = 'Tap Copy in the menu that appears, or press and hold the text.'; }
+      } else setLabel('Press and hold the text to copy');
+    } catch (e3) { setLabel('Press and hold the text to copy'); }
+  };
+  if (btn) btn.addEventListener('click', function () {
+    try {
+      if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function' && window.isSecureContext !== false) {
+        navigator.clipboard.writeText(EMAIL).then(function () { setLabel('Copied', 2200); if (status) status.textContent = ''; }, selectFallback);
+      } else selectFallback();
+    } catch (e) { selectFallback(); }
+  });
+
+  // ---- active nav chip + keep it scrolled into view ----
+  var nav = document.querySelector('.navlinks');
+  var links = {};
+  Array.prototype.forEach.call(document.querySelectorAll('.navlinks a'), function (a) { links[a.getAttribute('href').slice(1)] = a; });
+  var reveal = function (a) {
+    if (!nav || !a) return;
+    var L = a.offsetLeft, R = L + a.offsetWidth;
+    if (L < nav.scrollLeft + 8) nav.scrollLeft = Math.max(0, L - 16);
+    else if (R > nav.scrollLeft + nav.clientWidth - 8) nav.scrollLeft = R - nav.clientWidth + 28;
+  };
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          if (current) current.classList.remove('active');
+          current = links[en.target.id]; if (current) { current.classList.add('active'); reveal(current); }
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    Object.keys(links).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+  }
+})();
+</script>
+
+</body>
+</html>
