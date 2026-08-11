@@ -557,7 +557,9 @@
       "dealer_key": "dougs_lynnwood_mazda",
       "listing_url": "https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/",
       "notes": "WA Mazda dealer GT with a $900-drop badge but still priced $3.5k over #5 for similar content — only worth a call if #5 and #3 die. Ask whether it carries the GT Premium package (would add ventilated seats).",
-      "source": "v3 new scan 2026-08-11 PM"
+      "source": "v3 new scan 2026-08-11 PM",
+      "status": "sold",
+      "status_detail": "SOLD - alex@mazda.dougs.com 2026-08-11 17:59Z: 'this vehicle has been sold yesterday.'"
     },
     {
       "rank": 17,
@@ -575,7 +577,8 @@
       "listing_url": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
       "alt_listing_url": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
       "notes": "UPGRADED FIND (v3 form wave): the Autotrader VDP titles it 'Grand Touring w/ GT Premium Package' - VENTILATED SEATS at $25,799, making it the third vented WA car and only ~$600 over #5. Deep Crystal Blue, 26 photos, Low Miles badge. Independent lot (Auto 206, Kent) - AutoCheck/Carfax and inspection still mandatory before any money talk. OTD request submitted via Autotrader form 2026-08-11 PM.",
-      "source": "v3 new scan 2026-08-11 PM"
+      "source": "v3 new scan 2026-08-11 PM",
+      "accident_history": "CARFAX (provided by dealer, VIN JM3KFBDM0M0305902): ACCIDENT 06/19/2024, rear-end collision, minor-to-moderate damage, airbags did not deploy. Otherwise: 1-owner WA personal vehicle, 17 service records, regular oil changes at a Mazda dealership. FAILS the brief's no-accident rule."
     },
     {
       "rank": 18,
@@ -593,7 +596,9 @@
       "listing_url": "https://www.cargurus.com/Cars/listing/450670232",
       "alt_listing_url": "https://www.cars.com/vehicledetail/0abdba65-e836-4fd7-a5c0-952399497e8f/",
       "notes": "Low-mile 2023 Preferred, 'No Accidents' per Autotrader, Good Deal, 60 days on market (leverage). Independent lot — Carfax + inspection before any money talk.",
-      "source": "v3 new scan 2026-08-11 PM"
+      "source": "v3 new scan 2026-08-11 PM",
+      "status": "sold",
+      "status_detail": "SOLD - keith@autocob.com (GM Keith Dinsmore) 2026-08-11 18:51Z: 'we just sold this vehicle.'"
     },
     {
       "rank": 19,
@@ -1039,5 +1044,96 @@
       "url": "https://www.cars.com/vehicledetail/59d3b36d-7131-439c-a3b7-7b91343a454d/",
       "why_not": "Lowest-mile car found, but Select trim + OR."
     }
-  ]
+  ],
+  "offers_2026_08_11": {
+    "generated": "2026-08-11 PM sweep of evbarleyg@gmail.com (PDFs read in Gmail preview)",
+    "written_offers": [
+      {
+        "car": 17,
+        "dealer": "Auto 206, Kent (Robert Dwyer, President)",
+        "vehicle": "2021 CX-5 GT w/ GT Premium Pkg, 30,066 mi, VIN JM3KFBDM0M0305902",
+        "otd": 28718.6,
+        "line_items": {
+          "selling": 25400,
+          "discount_vs_list": -399,
+          "doc_fee": 0,
+          "license_est": 550,
+          "sales_tax": 2768.6,
+          "tax_rate_implied": "10.9% of selling"
+        },
+        "validity": "through Wed Aug 12, 7 PM; refundable-deposit 72-hour hold offered",
+        "sheet_quality": "CLEAN - no doc fee, no add-ons, tax on selling price only",
+        "disqualifier": "Carfax accident 06/2024 (rear-end, minor-moderate) - fails no-accident rule",
+        "verdict": "Best raw number on the board but the accident caps it. Options: decline politely, or if Evan waives the rule, counter deep (accident cars trade well under clean retail): ~$24,300 selling / ~$27,500 OTD, with a pre-purchase inspection condition.",
+        "source": "email Robert@auto206.com 20:57Z + cx-5.pdf + cx-5 carfax.pdf"
+      },
+      {
+        "car": 13,
+        "dealer": "Titus-Will Chevrolet GMC Cadillac Olympia (Amy, sales manager; Dylan)",
+        "vehicle": "2022 CX-5 2.5 S Premium Plus, 43,640 mi, VIN JM3KFBEM1N0590576, stock P11101",
+        "otd": 32229.17,
+        "line_items": {
+          "msrp_retail": 29999,
+          "discount": 2610,
+          "selling": 27389,
+          "KARR_security_ADDON": 995,
+          "government_fees": 750,
+          "doc_fee": 200,
+          "subtotal_taxed": 29334,
+          "total_taxes": 2895.17,
+          "tax_rate_implied": "9.87% of subtotal incl. add-on"
+        },
+        "sheet_quality": "PADDED - $995 'KARR Security' dealer add-on (classic strike-it fee, and it is being TAXED); $750 'Government Fees' is vague/high (license/title usually ~$550-600); doc $200 is the WA cap, fine. Tax computed at ~9.87% (Olympia-ish); WA vehicle tax is finalized at the buyer's registration address, so expect recalculation.",
+        "verdict": "Counter: strike KARR ($995 + ~$98 tax on it) and ask Government Fees be billed at actuals -> ~$31,100-31,300 OTD for the clean-history, CarBravo-certified, ventilated-seat Premium Plus. That is the number to compare against other finalists.",
+        "source": "email dferrians@twcgc.tituswillmail.com 21:29Z + Proposal.pdf (read in Gmail preview)"
+      }
+    ],
+    "no_numbers_yet": [
+      {
+        "car": 14,
+        "dealer": "Rodland Toyota",
+        "status": "Christina Cross intro'd, promised walk-around video and to 'confirm with my used car manager' - no numbers"
+      },
+      {
+        "car": "1/6/9",
+        "dealer": "Puyallup Mazda",
+        "status": "called Evan, promised to send the OTD - nothing received yet"
+      },
+      {
+        "car": 5,
+        "dealer": "Kirkland (hamid@)",
+        "status": "no reply to Evan's 07:00Z email yet"
+      },
+      {
+        "car": "7/12",
+        "dealer": "Lee Johnson",
+        "status": "no reply to Evan's 07:00Z email (ljtom@leejohnson.com) yet"
+      },
+      {
+        "car": 4,
+        "dealer": "Ron Tonkin (Izzy)",
+        "status": "engaged, no numbers yet"
+      },
+      {
+        "car": "8/20",
+        "dealer": "Royal Moore (Fernando/Ashley)",
+        "status": "negotiation live; Evan re-asked for itemized OTD 21:44Z"
+      },
+      {
+        "car": 10,
+        "dealer": "Columbia Sales & Service",
+        "status": "no reply to Evan's 06:59Z email yet"
+      }
+    ],
+    "newly_dead": [
+      {
+        "car": 16,
+        "note": "Doug's Lynnwood GT sold ('yesterday' per Alex 17:59Z)"
+      },
+      {
+        "car": 18,
+        "note": "Auto Connections of Bellevue 2023 Preferred sold (Keith 18:51Z)"
+      }
+    ]
+  }
 }

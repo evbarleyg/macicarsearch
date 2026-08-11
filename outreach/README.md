@@ -712,3 +712,16 @@ Every dealer below called instead of emailing; Evan reiterated on each call that
 | 11:00 AM | (206) 456-2995 | Auto 206, Kent (#17 GT w/ GT Premium Pkg) — number matches the one printed on their Autotrader listing photos; called ~20 min after the form | Owes emailed OTD |
 
 Standing rule: any of these numbers calling again → let it go to voicemail and send the "email only" copy-paste reply (above) in the corresponding email thread.
+
+## Offer scoreboard (2026-08-11 PM inbox sweep)
+
+Two written OTDs in hand; PDFs pulled from Gmail preview. Statuses: #16 Doug's GT SOLD, #18 Auto Connections SOLD.
+
+| Car | Dealer | Written OTD | Sheet | Read |
+|---|---|---|---|---|
+| #17 GT w/ GT Premium (vents), 30,066 mi | Auto 206 (Robert Dwyer) | **$28,718.60** ($25,400 selling, $0 doc, $550 lic, $2,768.60 tax) - valid Wed 7 PM | CLEAN - zero add-ons, no doc fee | **Carfax shows a 06/2024 rear-end accident (minor-moderate)** - fails the no-accident rule. 1-owner WA, 17 Mazda-dealer service records. Decline, or waive the rule only with a deep counter (~$27,500 OTD) + pre-purchase inspection. |
+| #13 Premium Plus (vents), 43,640 mi | Titus-Will Olympia (Amy/Dylan) | **$32,229.17** ($27,389 selling + $995 KARR + $750 gov fees + $200 doc + $2,895.17 tax) | PADDED - $995 KARR Security add-on (taxed!), vague $750 gov fees | Clean history, CarBravo certified. Counter: strike KARR + gov fees at actuals -> **~$31,100-31,300 OTD**. That's the real comparable. |
+
+Still owed numbers: Puyallup (#1/#6/#9, promised by phone), Rodland (#14, manager reviewing), Kirkland (#5), Lee Johnson (#7/#12), Tonkin (#4), Royal Moore (#8/#20), Columbia (#10).
+
+Read-across: with #16/#18 sold and #17 accident-flagged, the live comfort-first board is #5 Kirkland GT Premium, #12 Lee Johnson CPO Preferred, #13 at ~$31.1k post-strike, #4 Tonkin Turbo $26,102 (leverage/fallback), #14 Rodland, #15 CarMax Renton $27,998 benchmark, then #9/#7/#1. The $28,718.60 Auto 206 sheet is the cleanest fee structure seen yet - use it as the "this is what a no-junk-fee quote looks like" reference in counters.
