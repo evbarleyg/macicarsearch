@@ -768,3 +768,7 @@ Kirkland escalation: hamid@ email confirmed a dead inbox (no bounce, no reply, n
 Cleanup for Evan: two leftover duplicate drafts in Gmail (to Hamid; to Ashley cc Fernando) - delete both to prevent a double-send.
 
 Outstanding: Puyallup promised quote (phone) still not received - SMS nudge if silent by Wed AM. Lee Johnson thread owned by the parallel session. Columbia unresponsive.
+
+### Negotiation calibration note (2026-08-11 evening)
+
+Market tempo check: five cars from the tracked set sold within ~24h (#2, #3, #11, #16, #18 - the last at full ask, same day). Counters are calibrated asks, not steals. PRIORITY RULE for whichever session handles replies: #5 Kirkland is the value frontier and the gap to the next clean alternative (#12, ~$30.0k OTD) is ~$1,300 - so accept ANY Kirkland reply at or under $25,192 selling with a clean fee sheet rather than optimizing the last $500 and risking the car. Titus-Will: the fee strikes ($1,745) matter more than the selling-price cut. Rodland is a price-check, fine to lose. Auto 206 only proceeds at ~$27,000 OTD + clean PPI.
