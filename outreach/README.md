@@ -758,3 +758,13 @@ Not staged: Puyallup (no email channel - SMS text from the session log), Lee Joh
 2. **Counter on every car before agreeing to any visit.** Each staged draft now names our number; no test drive until the written number works. Counter ladder (selling / approx OTD at Seattle 11.05%): Kirkland #5 $24,300 / $27,700 - Tonkin #4 $25,000 / $28,500 - Royal Moore #8 $26,150 / $29,600 and #20 $25,750 / $29,400 - Titus-Will #13 $26,500 / $30,200 (KARR + gov-fee strikes still required) - Rodland #14 $27,300 / $31,100 - Auto 206 #17 $23,900 / $27,000 (SENT by Evan 22:24Z, PPI condition).
 3. **Ventilated seats de-keyed.** They were a flag in the brief, not a ranking axis. Comfort rank = trim content + miles + history + price. Effect: #14 Rodland (17.5k mi) and #9 CPO Carbon strengthen; #13's case is now "most equipment, most miles, mid price" and it sits behind #5 and #12 on value.
 4. All five remaining Gmail drafts revised accordingly (Titus-Will, Rodland, Tonkin, Kirkland, Royal Moore). Auto 206's counter went out before the revision - content materially identical.
+
+### Outbound complete (2026-08-11 ~3:36 PM PT)
+
+All six counters SENT from Evan's Gmail (verified in Sent): Auto 206 3:24 PM ($27,000 OTD w/ PPI condition); then at 3:35-3:36 PM the reframed versions to Royal Moore (Ashley, two-car $29,600/$29,400), Kirkland (Hamid bump, $27,700), Tonkin (Izzy, $28,500), Rodland (Christina, $31,100), Titus-Will (Amy/Dylan, KARR+gov-fee strikes, $30,200).
+
+Kirkland escalation: hamid@ email confirmed a dead inbox (no bounce, no reply, nothing in spam; car still live at $25,192). Website contact form submitted 3:5x PM with the counter - "Thank you for contacting Hyundai of Kirkland" confirmation received (Purpose: Sales, contact-by Email, ZIP 98101, phone blank, text-consent box left unchecked).
+
+Cleanup for Evan: two leftover duplicate drafts in Gmail (to Hamid; to Ashley cc Fernando) - delete both to prevent a double-send.
+
+Outstanding: Puyallup promised quote (phone) still not received - SMS nudge if silent by Wed AM. Lee Johnson thread owned by the parallel session. Columbia unresponsive.
