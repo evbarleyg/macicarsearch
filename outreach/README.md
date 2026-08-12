@@ -812,3 +812,7 @@ Reply drafts staged for Evan (priority order):
 4. Rodland to Christina: paste numbers in email body, no protection products (r7746376021424541653).
 
 Draft hygiene: cleared recipients on the two leftover duplicates flagged by the local session (older Ashley reply w/ cc Fernando; older Kirkland/Hamid nudge) and on three stale drafts (old Lee Johnson reply; BMW Seattle and Acura of Seattle, both cars sold). None can send as-is.
+
+### 2026-08-12 00:2xZ (5:2x PM PT) — Royal Moore consolidated to likely-pass per Evan
+
+Evan's call: combine the Ashley and Fernando threads and tell both we are not interested in either car and will likely pass, numbers still too high. The staged remove-or-pass draft (r8083856508989942714) rewritten accordingly: to Ashley, cc Fernando, covers both cars (#8 Mazda-store 2023 Preferred and #20 Toyota-store twin), states current all-in numbers with Courtesy Guard + Forever Start are above what we sent and above lower clean-sheet WA quotes, likely passing; a written all-in number with add-ons removed is the only reopener. Consistent with Oregon-leverage-only role now that Kirkland's accept is staged.
