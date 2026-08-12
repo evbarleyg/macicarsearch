@@ -909,3 +909,16 @@ Evan uploaded Proposal.pdf (generated 1:55 PM): 2022 CX-5 Carbon Edition, Polyme
 ### 2026-08-12 23:4xZ (4:4x PM PT Wed) — Second Lee Johnson bounce confirms the channel is fully dead
 
 postmaster@leejohnson.com NDR at 3:48 PM for Tuesday's "Two of your certified CX-5s" (connection timeouts, retries exhausted) — as predicted. Both sends to ljtom@ conclusively failed; Lee Johnson has received nothing, ever. #7/#12 remain unreachable until the mazdaofseattle.com site-form resend happens (Mac session or Evan — outstanding since 12:41 AM). Otherwise quiet: no dealer replies this cycle, refs unchanged, Auto 206 expires 7:00 PM (silence holds).
+
+### 2026-08-13 00:0xZ (5:0x PM PT Wed) — Evan greenlights the concession-push wave; all drafts rebuilt to "movement earns the Saturday shortlist"
+
+Directive from Evan: push every live dealer for good-faith concessions; visits go to cars that make the Saturday shortlist. Sending authorized — but the Gmail connector has no send capability (drafts only, hard limit), so the wave is fully staged for Evan's one-pass send (or the Mac session sends from browser Gmail). Six drafts, addressed and threaded:
+
+1. Kirkland (r-1345649998151426458): confirmations (sheet stands, license actuals, both fobs, sticker) + movement ask anchored on the live $27,700 form counter vs their $28,591.14; first written answer with movement gets the first Saturday slot.
+2. Titus-Will (r602487916180028399): $30,200 same-lines puts it on the list; buyer's order + Saturday time; tell-me-today walk line.
+3. Rodland (r7746376021424541653): itemize the $3,470.24 line + the standing $31,100 gets the visit; no protection products.
+4. Puyallup/Bilori (r-8273505614311630922): #6 counter $27,300 fired (v2.1 target; miles/two-owner leverage); #9 CPO breakdown requested; #1 must restart from their own-site $27,999, not $28,199.
+5. Doug's (r1078870038507841322, NEW): no number named (no worked-up target); "meaningful room in the $29,774.50 gets the list" + Carfax as PDF.
+6. Royal Moore (r8083856508989942714): unchanged — the likely-pass/remove-add-ons demand already is the concession message.
+
+Skipped by rule: Tonkin + Columbia (Oregon, no visit to offer), Auto 206 (expires 7 PM tonight, silence holds), Lee Johnson (no channel until site-form resend), #21 Cortes (form-only, history-first).
