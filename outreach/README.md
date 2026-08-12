@@ -889,3 +889,7 @@ Evan uploaded "EVAN8-11-26 11.21.pdf" (2 pages, scanned F&I deal worksheets, bot
 - No sheet for #9 (2023 Carbon CPO, stock 288130). Bilori draft updated (r-8273505614311630922): both received, request #9's itemized breakdown, numbers in body.
 - These are the sheets that sat in spam since Tue 11:28 AM. Puyallup was in fact the fastest Mazda store to written numbers.
 - Counters NOT fired (v2.1 cadence: Thu/Fri, one per finalist; Kirkland accept-track leads). v2.1 targets on file: #6 $27,300 (floor $28,400), #1 $30,750 (floor $32,100).
+
+### 2026-08-12 19:5xZ (12:5x PM PT Wed) — Evan: run a contenders tab, no walk-away framing; pre-visit concessions locked into the Kirkland draft
+
+Evan's direction: keep a running tab of contenders judged on merits (the scoreboard is the tab); drop the fixed walk-away framing from decision-making (v2.1 floors remain as negotiation aids only, not gates). Pre-visit concessions defined and folded into the Kirkland confirmations draft (r-1345649998151426458, still non-committal): sheet stands through Saturday with nothing added at the desk, license at actuals with refund, both key fobs + GT Premium package confirmed on the window sticker, car on the Kirkland lot, price not contingent on dealer financing. Same concession checklist applies to any other car that earns a visit (two fobs, no desk additions, sticker-verified equipment, fees at actuals).
