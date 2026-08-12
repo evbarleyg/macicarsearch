@@ -1420,7 +1420,7 @@ def inbox_card(it):
     body = []
     if V.get('bullets'): body.append('<div><h4>Why</h4><ul>' + ''.join(f'<li>{esc(b)}</li>' for b in V['bullets']) + '</ul></div>')
     if V.get('flags'): body.append('<div><h4>Flags</h4><ul class="ib-flags">' + ''.join(f'<li class="{flag_cls(f)}">{esc(f)}</li>' for f in V['flags']) + '</ul></div>')
-    if V.get('openingMove'): body.append(f'<div><h4>Opening move</h4><p>{esc(V["openingMove"])}' + (f' <span class="muted">(target OTD {money(V["targetOtd"])})</span>' if V.get('targetOtd') else '') + '</p></div>')
+    # site rule: openingMove / targetOtd stay in inbox.json for the buyer side and never render publicly
     if V.get('slot'): body.append(f'<div><h4>Where it would slot vs. the board</h4><p>{esc(V["slot"])}</p></div>')
     dl = []
     if L.get('vin'): dl.append(('VIN · stock', esc(L['vin']) + (f' · {esc(L["stock"])}' if L.get('stock') else '')))
@@ -1450,7 +1450,7 @@ def inbox_card(it):
     lk = [(u, t) for u, t in lk if u]
     if lk: body.append('<div class="ib-links">' + ''.join(ext(u, t, 'btn ghost') for u, t in lk) + '</div>')
     err = f'<p class="ib-one bad-t">{esc(it["error"])}</p>' if it.get('error') else ''
-    details = f'<details class="ib-more"><summary>Details: why, flags, opening move, links</summary><div class="ib-body">{"".join(body)}</div></details>' if body else ''
+    details = f'<details class="ib-more"><summary>Details: why, flags, links</summary><div class="ib-body">{"".join(body)}</div></details>' if body else ''
     return f'''    <article class="ib is-{re.sub(r"[^a-z0-9]", "", label)}" id="a-{sid}">
       <header class="ib-head">{badge(lab, "vd " + cls)}<span class="when">checked {t_disp(it.get("analyzedAt"), False)}</span></header>
       <h3 class="ib-title">{title}</h3>
