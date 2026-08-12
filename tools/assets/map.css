@@ -1,0 +1,126 @@
+
+:root {
+  color-scheme: light;
+  --ground: #f2f0ed; --surface: #ffffff; --surface-2: #f8f6f4; --surface-3: #efece8;
+  --ink: #211d1a; --ink-2: #5a534e; --ink-3: #898179;
+  --rule: #e6e0da; --rule-2: #d6cec6;
+  --accent: #7c1a1a; --accent-hover: #621313; --accent-soft: #f6ebe9;
+  --good: #1a7657; --good-soft: #e2f1ea;
+  --warn: #7d5408; --warn-soft: #fbefd4;
+  --info: #234e91; --info-soft: #e3ecf8;
+  --sold: #898179; --sold-soft: #eeeae6;
+  --shadow: 0 1px 2px rgba(45,28,16,.06), 0 8px 24px rgba(45,28,16,.05);
+  --radius: 10px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; overflow-wrap: break-word; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
+a:hover { color: var(--accent); }
+strong { font-weight: 650; }
+h1, h2, h3 { margin: 0; line-height: 1.2; text-wrap: balance; }
+h2 { font-size: 1.28rem; font-weight: 700; letter-spacing: -.012em; }
+h3 { font-size: 1.06rem; font-weight: 650; }
+.muted { color: var(--ink-2); }
+.small { font-size: .875rem; }
+
+.masthead { padding: 28px 0 18px; }
+.masthead .toplinks { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-bottom: 8px; font-size: .9rem; }
+.masthead .back { color: var(--accent); text-decoration: none; }
+.masthead .back:hover { text-decoration: underline; }
+.masthead .sibs { display: inline-flex; gap: 12px; font-size: .84rem; }
+.masthead .sibs a { color: var(--ink-2); text-decoration: none; }
+.masthead .sibs a:hover { color: var(--accent); text-decoration: underline; }
+.masthead h1 { font-size: clamp(1.4rem, 1rem + 2vw, 2rem); font-weight: 750; letter-spacing: -.02em; }
+.masthead .asof { margin: 6px 0 0; font-size: .84rem; color: var(--ink-3); }
+
+main.wrap { display: flex; flex-direction: column; gap: 22px; padding-bottom: 40px; }
+.card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 24px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.card > p { margin: 0; }
+
+/* map */
+#map { width: 100%; height: 65vh; max-height: 560px; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface-2); z-index: 0; }
+@media (min-width: 760px) { #map { height: 520px; } }
+.mapnote { font-size: .78rem; color: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .84rem; }
+.lg { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.lgdot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.25); flex: 0 0 auto; }
+noscript .nsnote { display: block; padding: 10px 12px; background: var(--warn-soft); color: var(--warn); border-radius: 6px; font-size: .88rem; }
+
+/* pins */
+.pin { position: relative; width: 22px; height: 22px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.pin::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: rgba(255,255,255,.85); }
+.pin.sold { width: 16px; height: 16px; opacity: .8; }
+.pin.sold::after { inset: 3px; }
+
+/* popups */
+.leaflet-popup-content { margin: 12px 14px; font-family: var(--font); font-size: 14px; line-height: 1.45; color: var(--ink); }
+.leaflet-popup-content a { color: var(--ink); text-decoration-color: var(--accent); }
+.pop { display: flex; flex-direction: column; gap: 7px; max-width: 290px; }
+.pop .pname { font-weight: 700; font-size: 15px; }
+.pop .pcity { font-weight: 500; font-size: 12.5px; color: var(--ink-2); }
+.pop .paddr { font-size: 12.5px; color: var(--ink-2); }
+.pop .pcar { font-size: 12.5px; }
+.pop .pcar .rank { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 18px; padding: 0 5px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 700; margin-right: 2px; }
+.pop .pn { color: var(--ink-3); font-size: 11.5px; }
+.pop .pstat { font-size: 12px; padding: 4px 8px; border-radius: 5px; align-self: flex-start; }
+.pstat.good, .cstat.good { background: var(--good-soft); color: var(--good); }
+.pstat.warn, .cstat.warn { background: var(--warn-soft); color: var(--warn); }
+.pstat.info, .cstat.info { background: var(--info-soft); color: var(--info); }
+.pstat.sold, .cstat.sold { background: var(--sold-soft); color: var(--sold); }
+.cstat.muted { background: var(--surface-3); color: var(--ink-2); }
+.pop .plinks { display: flex; gap: 8px; margin-top: 2px; }
+.cstat { display: block; margin: 3px 0 2px; padding: 2px 7px; border-radius: 4px; font-size: 11.5px; line-height: 1.4; width: fit-content; max-width: 100%; }
+.was { color: var(--ink-3); text-decoration: line-through; }
+.soldcar { color: var(--ink-2); }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: var(--accent); color: #fff; border: 1px solid var(--accent); border-radius: 7px; padding: 7px 12px; min-height: 34px; font: inherit; font-size: .86rem; font-weight: 600; text-decoration: none; line-height: 1.2; }
+.btn:hover { background: var(--accent-hover); color: #fff; }
+.btn.ghost { background: var(--surface); color: var(--accent); }
+.btn.ghost:hover { background: var(--accent-soft); }
+.pop .btn { min-height: 30px; padding: 5px 10px; font-size: 12.5px; }
+
+/* dealer cards */
+.summary { font-size: .9rem; color: var(--ink-2); }
+.dcards { display: flex; flex-direction: column; gap: 12px; }
+.dcard { border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; background: var(--surface); }
+.dcard.is-sold { background: var(--surface-2); }
+.dcard.is-sold .dname { color: var(--ink-2); }
+.dc-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.dist { font-variant-numeric: tabular-nums; font-weight: 700; font-size: .9rem; color: var(--accent); min-width: 48px; }
+.dname { font-weight: 650; font-size: 1.02rem; flex: 1 1 auto; min-width: 0; }
+.dcity { font-weight: 500; font-size: .88rem; color: var(--ink-2); }
+.badge { font-size: .72rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
+.badge.good { background: var(--good-soft); color: var(--good); }
+.badge.warn { background: var(--warn-soft); color: var(--warn); }
+.badge.info { background: var(--info-soft); color: var(--info); }
+.badge.sold { background: var(--sold-soft); color: var(--sold); }
+.dc-cars { display: flex; flex-direction: column; gap: 6px; }
+.dc-cars .car { font-size: .92rem; }
+.dc-cars .car .cstat { font-size: .76rem; }
+.rank.sm { display: inline-flex; align-items: center; justify-content: center; min-width: 30px; height: 20px; padding: 0 6px; border-radius: 5px; background: var(--accent-soft); color: var(--accent); font-size: .75rem; font-weight: 700; margin-right: 2px; }
+.dc-cars .pn { color: var(--ink-3); font-size: .8rem; }
+.dc-addr .approx { color: var(--warn); }
+.dc-links { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .88rem; }
+.dc-links a { color: var(--accent); text-decoration: none; }
+.dc-links a:hover { text-decoration: underline; }
+.subhead { margin: 6px 0 0; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+
+/* clusters */
+.clusters { display: flex; flex-direction: column; gap: 14px; }
+.cluster { border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; background: var(--surface-2); }
+.cluster p { margin: 0; font-size: .92rem; }
+.cluster .stops { font-size: .84rem; }
+.cluster .btn { align-self: flex-start; }
+
+@media (max-width: 759px) {
+  .wrap { padding: 0 16px; }
+  .card { padding: 18px 16px; }
+  .badge { font-size: .68rem; white-space: normal; }
+}
+@media (pointer: coarse) {
+  .btn, .dc-links a { min-height: 44px; display: inline-flex; align-items: center; }
+}

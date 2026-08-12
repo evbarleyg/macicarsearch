@@ -1,0 +1,5144 @@
+{
+ "meta": {
+  "title": "2021–2023 Mazda CX-5: Seattle Buyer's Report",
+  "scope": "Within 250 mi of 98101 · under 50k mi · under $29k list · clean title / no accidents",
+  "published": "2026-08-07",
+  "refreshed": "2026-08-12",
+  "refreshNote": "read-only listing sweep; dealer replies logged through Aug 11, 5:00 PM PT",
+  "commsThrough": "Tue Aug 11, 5:00 PM PT",
+  "purchaseWindow": "Aug 15–16",
+  "apr": 6.3,
+  "termMonths": 60,
+  "aprSource": "Bankrate super-prime used-auto average, updated 7/31/26",
+  "creditUnionCheck": "BECU 5.99% effective 8/1/26",
+  "cpoPromo": "None on CX-5; Mazda's current 3.9% CPO rate is CX-90 / CX-70 only",
+  "defaultTaxRate": 11.05,
+  "useTaxRateOR": 11.05,
+  "docFeeWA": 200,
+  "docFeeOR": 250,
+  "licenseEst": 600,
+  "taxNote": "WA-dealer sales are taxed at the dealer's city rate (DOR Q3-2026 combined rate + 0.5% motor-vehicle tax: 9.1–11.2% around Puget Sound), so a Kirkland or Puyallup dealer runs ~0.25 pt under Seattle and Burlington nearly 2 pt under; Oregon-dealer purchases owe 11.05% WA use tax at registration. Tax is applied to the vehicle price; the doc fee and licence estimate are added untaxed, which is how the written dealer sheets received so far are built. Earlier versions of this page used a flat 10.35%, which understated OTD by roughly $200–250.",
+  "taxSources": [
+   "https://dor.wa.gov/sites/default/files/2026-05/Q326_MVET-flyer-by-county.pdf",
+   "https://dor.wa.gov/forms-publications/publications-subject/tax-topics/vehicles-brought-washington-out-state"
+  ],
+  "funnel": "278 raw listings → 153 unique VINs → 112 pass filter (Aug 7); Aug 12 sweep 386 raw → 223 VINs",
+  "homeZip": "98101",
+  "home": [
+   47.6062,
+   -122.3321
+  ],
+  "buyerFirstName": "Evan",
+  "siteNote": "Every section of index.html, status.html, map.html and the PDF / Excel / Word downloads is generated from this file by tools/build_site.py."
+ },
+ "taxRatesByCity": {
+  "Seattle, WA": 11.05,
+  "Kirkland, WA": 10.8,
+  "Bellevue, WA": 10.8,
+  "Renton, WA": 11.0,
+  "Kent, WA": 10.9,
+  "Everett, WA": 10.4,
+  "Puyallup, WA": 10.8,
+  "Olympia, WA": 10.2,
+  "Burlington, WA": 9.1,
+  "Lynnwood, WA": 11.2,
+  "Edmonds, WA": 11.1,
+  "Tacoma, WA": 11.0,
+  "Tukwila, WA": 11.0
+ },
+ "cars": [
+  {
+   "rank": 1,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 Turbo AWD",
+   "trimFull": "2.5 Turbo AWD",
+   "trimKey": "2.5 Turbo",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Loaded turbo: heated leather, Bose, sunroof, 227 hp.",
+   "ventilatedSeats": false,
+   "color": "Polymetal Gray Metallic (black leather)",
+   "miles": 27990,
+   "milesNote": null,
+   "price": {
+    "listed": 28199,
+    "advertised": 27999,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": 28199,
+    "listedNote": null,
+    "note": "CarGurus $28,199 (price includes the $200 doc); KBB and Puyallup Mazda's own site show $27,999",
+    "history": [
+     "$28,854",
+     "$28,814",
+     "$28,199"
+    ]
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus + KBB AutoCheck preview"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Great",
+    "belowMarket": 1945,
+    "kbbFpp": 30980,
+    "kbbFppDelta": 2781,
+    "display": "$2,781 < FPP",
+    "note": null
+   },
+   "daysListed": 89,
+   "daysListedNote": null,
+   "vin": "JM3KFBAY3P0289626",
+   "stock": "YW29065",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/448185375",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/780500436"
+    }
+   },
+   "dealerKey": "puyallup_mazda",
+   "comfortRank": 9,
+   "latest": {
+    "text": "awaiting written OTD; form lead Aug 11 plus a phone promise, nothing received.",
+    "short": "awaiting written OTD (form lead + phone promise Aug 11).",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": {
+    "targetSelling": 27000,
+    "targetOtd": 30750,
+    "walkAwaySelling": 28199,
+    "walkAwayOtd": 32100,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": 2,
+   "pickTag": "Stretch pick",
+   "pickWhy": "Biggest FPP gap in the entire dataset ($2,781 under), 1-owner, {days} days on lot → strongest negotiating leverage. Dealer's own site shows $27,999; still no written OTD as of {refreshed} (form lead + phone promise Aug 11).",
+   "tag": "Stretch pick.",
+   "notes": {
+    "table": "{days} days listed, several drops; KBB and the dealer's own site show $27,999. Active on CarGurus, KBB and AutoTempest {refreshed} (the Aug 11 sale report was wrong).",
+    "card": "{days} days listed, biggest FPP gap in set; dealer site $27,999."
+   },
+   "statusBoard": {
+    "listNote": "($27,999 on dealer site)",
+    "availability": "sale report Aug 11 was wrong; live on 3 sources Aug 12, 89 days listed",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 (form lead) · phone promise",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "Comfort",
+    "highlights": "Loaded turbo: heated leather, Bose, sunroof. Sale report Aug 11 was wrong; active, dealer site shows $27,999"
+   },
+   "map": {
+    "note": "$27,999 on KBB / dealer site; Aug 11 sale report was wrong"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $28,199 · 89d",
+     "KBB SRP $27,999",
+     "KBB VDP $27,999 · 88d on site",
+     "AT: CarGurus $28,199"
+    ],
+    "pricesBySource": {
+     "cg": 28199,
+     "kbb": 27999,
+     "kbb_vdp": 27999,
+     "at": 28199
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 2,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "sold",
+   "year": 2022,
+   "trim": "2.5 Turbo AWD",
+   "trimFull": "2.5 Turbo AWD",
+   "trimKey": "2.5 Turbo",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Turbo, leather, Bose.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 25353,
+   "milesNote": null,
+   "price": {
+    "listed": 27300,
+    "advertised": 27300,
+    "docFee": 200,
+    "asOf": "2026-08-11",
+    "aug7": 27300,
+    "listedNote": null,
+    "note": null
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": null,
+    "kbbFpp": 27370,
+    "kbbFppDelta": 70,
+    "display": null,
+    "note": null
+   },
+   "daysListed": 48,
+   "daysListedNote": null,
+   "vin": "JM3KFBAY6N0592364",
+   "stock": "A036",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/451655500",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "iSeeCars"
+    ],
+    "others": {}
+   },
+   "dealerKey": "acura_of_seattle",
+   "comfortRank": null,
+   "latest": {
+    "text": "Sold (confirmed Aug 11 PM).",
+    "short": "Sold Aug 11.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "none",
+   "quote": null,
+   "counter": null,
+   "targets": {
+    "targetSelling": 26300,
+    "targetOtd": 30000,
+    "walkAwaySelling": 26900,
+    "walkAwayOtd": 30650,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": {
+    "date": "2026-08-11",
+    "how": "confirmed Aug 11 PM",
+    "statusLine": "Sold — listing closed, confirmed Aug 11 PM",
+    "short": "Acura of Seattle 2022 Turbo",
+    "label": "2.5 Turbo AWD · 25k mi"
+   },
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": null,
+    "card": null
+   },
+   "statusBoard": null,
+   "guide": null,
+   "map": null,
+   "sweep": {
+    "verdict": "SOLD (repo-confirmed; not overridden)",
+    "signals": [
+     "CG closed"
+    ],
+    "pricesBySource": {
+     "cg": 27300
+    },
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 3,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "sold",
+   "year": 2021,
+   "trim": "Grand Touring Reserve (2.5T)",
+   "trimFull": "Grand Touring Reserve AWD (2.5 Turbo)",
+   "trimKey": "GT Reserve (turbo)",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Turbo + ventilated leather + HUD.",
+   "ventilatedSeats": true,
+   "color": "Snowflake White Pearl Mica (black leather)",
+   "miles": 39141,
+   "milesNote": null,
+   "price": {
+    "listed": 24999,
+    "advertised": 24999,
+    "docFee": 200,
+    "asOf": "2026-08-11",
+    "aug7": 24999,
+    "listedNote": null,
+    "note": null
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "KBB AutoCheck preview"
+   },
+   "deal": {
+    "source": "KBB",
+    "rating": "Great",
+    "belowMarket": null,
+    "kbbFpp": 27770,
+    "kbbFppDelta": 2771,
+    "display": "$2,771 < FPP",
+    "note": null
+   },
+   "daysListed": 10,
+   "daysListedNote": null,
+   "vin": "JM3KFBAY5M0463157",
+   "stock": "463157ML2",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/455054228",
+    "primarySource": "KBB",
+    "alsoOn": [
+     "CarGurus"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/787237825"
+    }
+   },
+   "dealerKey": "bmw_seattle",
+   "comfortRank": null,
+   "latest": {
+    "text": "Sold (dealer-confirmed by phone Aug 11).",
+    "short": "Sold Aug 11.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": {
+    "targetSelling": 24300,
+    "targetOtd": 27750,
+    "walkAwaySelling": 24999,
+    "walkAwayOtd": 28500,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": {
+    "date": "2026-08-11",
+    "how": "dealer confirmed Aug 11 PM; CarGurus copy closed Aug 12",
+    "statusLine": "SOLD — dealer confirmed by phone Aug 11; CarGurus copy closed Aug 12",
+    "short": "BMW Seattle GT Reserve",
+    "label": "Grand Touring Reserve (2.5T)"
+   },
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": null,
+    "card": null
+   },
+   "statusBoard": null,
+   "guide": null,
+   "map": null,
+   "sweep": {
+    "verdict": "SOLD (repo-confirmed; not overridden)",
+    "signals": [
+     "CG closed",
+     "KBB VDP removed/expired",
+     "AT: Cars.com $24,999"
+    ],
+    "pricesBySource": {
+     "cg": 24999,
+     "at": 24999
+    },
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 4,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2021,
+   "trim": "Carbon Edition Turbo",
+   "trimFull": "Carbon Edition TURBO AWD (confirmed by dealer VDP + VIN pattern JM3KFBCY)",
+   "trimKey": "Carbon Ed Turbo",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Carbon look, heated seats; turbo confirmed by the dealer.",
+   "ventilatedSeats": false,
+   "color": "Polymetal Gray (black interior)",
+   "miles": 34800,
+   "milesNote": null,
+   "price": {
+    "listed": 26102,
+    "advertised": 25852,
+    "docFee": 250,
+    "asOf": "2026-08-12",
+    "aug7": 26512,
+    "listedNote": "dealer site; KBB $26,512",
+    "note": "Dealer's own site: $25,852 + $250 title/reg processing = $26,102 (re-checked {refreshed}); KBB $26,512, CarGurus $26,302, Cars.com $26,352"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "KBB AutoCheck preview + CarGurus"
+   },
+   "deal": {
+    "source": "KBB",
+    "rating": "Great",
+    "belowMarket": 149,
+    "kbbFpp": 29374,
+    "kbbFppDelta": 2612,
+    "display": "$2,612 < FPP",
+    "note": null
+   },
+   "daysListed": 64,
+   "daysListedNote": null,
+   "vin": "JM3KFBCYXM0385696",
+   "stock": "UH1679",
+   "links": {
+    "primary": "https://www.kbb.com/cars-for-sale/vehicle/782577606",
+    "primarySource": "KBB",
+    "alsoOn": [
+     "Cars.com",
+     "iSeeCars"
+    ],
+    "alsoOnCard": [
+     "CarGurus",
+     "Cars.com",
+     "dealer site"
+    ],
+    "others": {
+     "dealer": "https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679",
+     "cg": "https://www.cargurus.com/Cars/listing/450351356",
+     "carscom": "https://www.cars.com/vehicledetail/3a09ac68-292b-412d-808d-9edf3e4e37b0/"
+    },
+    "mapListing": "dealer"
+   },
+   "dealerKey": "ron_tonkin_honda",
+   "comfortRank": 4,
+   "latest": {
+    "text": "quote in preparation (Aug 11, 3:57 PM); Evan's $28,500 OTD counter sent. Oregon: email-only leverage.",
+    "short": "quote in preparation (Aug 11); $28,500 OTD counter sent. Oregon: email-only.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "engaged",
+   "quote": null,
+   "counter": {
+    "otd": 28500,
+    "date": "2026-08-11",
+    "note": "sent 3:36 PM PT"
+   },
+   "targets": {
+    "targetSelling": 25400,
+    "targetOtd": 28950,
+    "walkAwaySelling": 25900,
+    "walkAwayOtd": 29500,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": "Dealer-site total $25,852 + $250 re-checked {refreshed} (KBB $26,512, CarGurus $26,302). {days} days listed, 3 drops.",
+    "card": "Dealer-site total $25,852 + $250 (KBB $26,512); turbo confirmed; {days} days listed."
+   },
+   "statusBoard": {
+    "listNote": "dealer-site total",
+    "availability": "dealer confirms Carbon Edition Turbo; own-site $25,852 + $250 re-verified Aug 12",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 · via KBB · countered $28,500 OTD",
+    "quoteBadge": "In preparation",
+    "quoteBadgeCls": "wait",
+    "quoteNote": "(3:57 PM Aug 11)",
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "The look",
+    "highlights": "Carbon look on the turbo engine: black leather, heated fronts; dealer-confirmed Carbon Edition Turbo"
+   },
+   "map": {
+    "note": "dealer-site total $25,852 + $250 re-verified {refreshed}; KBB $26,512; {days} days listed"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $26,302 · 64d",
+     "KBB SRP $26,512",
+     "KBB VDP $26,512 · 63d on site",
+     "AT: CarGurus $26,302",
+     "dealer VDP http 200 VIN present"
+    ],
+    "pricesBySource": {
+     "cg": 26302,
+     "kbb": 26512,
+     "kbb_vdp": 26512,
+     "at": 26302
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 5,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2021,
+   "trim": "Grand Touring AWD",
+   "trimFull": "Grand Touring AWD (GT Premium Pkg per KBB)",
+   "trimKey": "Grand Touring",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Leather, Bose, moonroof; GT Premium pkg adds ventilated fronts, heated rears + wheel, HUD.",
+   "ventilatedSeats": true,
+   "color": "Snowflake White Pearl Mica (black leather)",
+   "miles": 33336,
+   "milesNote": "odometer 33,175 on Aug 7; 33,336 since Aug 11",
+   "price": {
+    "listed": 25192,
+    "advertised": 25192,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": 25192,
+    "listedNote": null,
+    "note": "CarGurus 'price includes fees'; 4 price cuts before Aug 7"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "Carfax (copy in hand) + CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 1088,
+    "kbbFpp": 28530,
+    "kbbFppDelta": 3338,
+    "display": "$3,338 < FPP",
+    "note": null
+   },
+   "daysListed": 48,
+   "daysListedNote": null,
+   "vin": "JM3KFBDM3M0301052",
+   "stock": "O94564A",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/451807182",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/782572696"
+    }
+   },
+   "dealerKey": "kirkland",
+   "comfortRank": 1,
+   "latest": {
+    "text": "written quote Aug 11, 4:21 PM: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit-hold reply staged. KBB lists the dealer as “Ford of Kirkland”; same lot.",
+    "short": "written quote Aug 11: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit hold staged.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "quote",
+   "quote": {
+    "otd": 28591.14,
+    "selling": 24992,
+    "doc": 200,
+    "license": 700,
+    "tax": 2699.14,
+    "taxRate": 10.8,
+    "addOns": [],
+    "date": "2026-08-11",
+    "time": "4:21 PM PT",
+    "docType": "itemized written proposal (email)",
+    "clean": true,
+    "note": "selling $200 under list; zero add-ons"
+   },
+   "counter": {
+    "otd": 27700,
+    "date": "2026-08-11",
+    "note": "front-runner bump via site form; superseded by the priority rule: accept any clean sheet at or under list"
+   },
+   "targets": {
+    "targetSelling": 24300,
+    "targetOtd": 27650,
+    "walkAwaySelling": 25192,
+    "walkAwayOtd": 28650,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": 1,
+   "pickTag": "Cheapest solid",
+   "pickWhy": "Comfort-per-dollar leader: the GT Premium package (ventilated fronts, heated rears + wheel, HUD) on the non-turbo engine, $3,338 under KBB fair purchase price after 4 cuts and {days} days listed, Carfax clean. The only pick with a clean written sheet: $24,992 selling / $28,591.14 out-the-door, zero add-ons (Aug 11); accept + deposit-hold reply staged.",
+   "tag": "Cheapest solid.",
+   "notes": {
+    "table": "4 cuts, {days} days listed; Carfax clean (copy in hand).",
+    "card": "4 cuts, {days} days listed; Carfax clean."
+   },
+   "statusBoard": {
+    "listNote": "quoted selling $24,992",
+    "availability": "48 days listed; Carfax clean",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 · email + site form",
+    "quoteBadge": "Received · itemized, in writing",
+    "quoteBadgeCls": "ok",
+    "quoteNote": "$28,591.14 OTD, zero add-ons (4:21 PM); accept + deposit hold staged",
+    "carSuffix": "(GT Premium pkg)"
+   },
+   "guide": {
+    "tier": "Full comfort",
+    "highlights": "Leather, Bose, moonroof, ventilated fronts, heated rears + wheel, HUD"
+   },
+   "map": {
+    "note": "comfort-rank 1"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $25,192 · 48d",
+     "KBB SRP $25,192",
+     "KBB VDP $25,192 · 63d on site",
+     "AT: CarGurus $25,192"
+    ],
+    "pricesBySource": {
+     "cg": 25192,
+     "kbb": 25192,
+     "kbb_vdp": 25192,
+     "at": 25192
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 6,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2021,
+   "trim": "Carbon Ed Turbo AWD",
+   "trimFull": "Carbon Edition Turbo AWD",
+   "trimKey": "Carbon Ed Turbo",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Carbon look: Soul Red, black 19s, heated seats, turbo.",
+   "ventilatedSeats": false,
+   "color": "Soul Red Crystal Metallic (black leather)",
+   "miles": 42515,
+   "milesNote": null,
+   "price": {
+    "listed": 25198,
+    "advertised": 24998,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": 25198,
+    "listedNote": "$24,998 + $200 on KBB",
+    "note": "CarGurus $25,198 with the doc fee; KBB $24,998 + $200"
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "Aug 7 CarGurus payload (2 owners); today’s payload omits owner count — ask the dealer",
+    "ownersUnconfirmed": true
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Great",
+    "belowMarket": 1939,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": "$1,939 below",
+    "note": "was Good Aug 7"
+   },
+   "daysListed": 69,
+   "daysListedNote": null,
+   "vin": "JM3KFBDYXM0120596",
+   "stock": "YS29241",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/449972241",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB"
+    ],
+    "alsoOnCard": [
+     "KBB ($24,998 + $200)"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/782113493"
+    }
+   },
+   "dealerKey": "puyallup_mazda",
+   "comfortRank": 11,
+   "latest": {
+    "text": "awaiting written OTD; same Puyallup lead as #1 (Aug 11), phone promise only.",
+    "short": "awaiting written OTD (same Puyallup lead as #1).",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": {
+    "targetSelling": 24000,
+    "targetOtd": 27300,
+    "walkAwaySelling": 24998,
+    "walkAwayOtd": 28400,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": "Cheapest live turbo now that #3 sold; higher miles; {days} days listed.",
+    "card": "Cheapest live turbo now that #3 sold; higher miles; {days} days listed."
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "CarGurus now rates it Great Deal",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 (same lead as #1)",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "The look",
+    "highlights": "Soul Red, black wheels, heated fronts; the quick one"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $25,198 · 69d",
+     "KBB SRP $24,998",
+     "KBB VDP $24,998 · 61d on site",
+     "AT: CarGurus $25,198"
+    ],
+    "pricesBySource": {
+     "cg": 25198,
+     "kbb": 24998,
+     "kbb_vdp": 24998,
+     "at": 25198
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 7,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2022,
+   "trim": "2.5 S Carbon Edition",
+   "trimFull": "2.5 S Carbon Edition AWD — Mazda Certified Pre-Owned",
+   "trimKey": "2.5 S Carbon Edition",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Red leather, heated fronts, moonroof, Mazda CPO warranty.",
+   "ventilatedSeats": false,
+   "color": "Polymetal Gray (red leather)",
+   "miles": 34749,
+   "milesNote": null,
+   "price": {
+    "listed": 27512,
+    "advertised": 27512,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": 26972,
+    "listedNote": "was $26,972 Aug 7",
+    "note": "+$540 raise on Aug 11, held since"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": true,
+    "cpoProgram": "Mazda Certified Pre-Owned",
+    "verifiedVia": "CarGurus + KBB"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 349,
+    "kbbFpp": 27440,
+    "kbbFppDelta": -72,
+    "display": "$349 below",
+    "note": "KBB $72 over FPP"
+   },
+   "daysListed": 30,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM4N0546820",
+   "stock": "U14590",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/453287059",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB",
+     "iSeeCars"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785453744"
+    }
+   },
+   "dealerKey": "lee_johnson_mazda",
+   "comfortRank": 8,
+   "latest": {
+    "text": "two-car OTD request (#7 + #12) emailed Aug 11, 3:50 PM; no reply yet.",
+    "short": "two-car OTD request (#7 + #12) emailed Aug 11; no reply yet.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": {
+    "targetSelling": 26650,
+    "targetOtd": 30350,
+    "walkAwaySelling": 26972,
+    "walkAwayOtd": 30700,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": 3,
+   "pickTag": "Only in-Seattle CPO",
+   "pickWhy": "Only in-Seattle CPO; 1-owner / 0-accident; Mazda dealer so the CPO warranty is real. 6 mi away. Price rose $540 on Aug 11 and has held; the same store's CPO 2023 Preferred (#12, $26,348) is newer and cheaper, and both are in one written OTD request (sent Aug 11, no reply yet).",
+   "tag": null,
+   "notes": {
+    "table": "In-Seattle CPO, 6 mi away; +$540 raise held through {refreshed}; {days} days listed.",
+    "card": "In-Seattle CPO, 6 mi away; +$540 raise held; {days} days listed."
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "price +$540 Aug 11, held Aug 12",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 · two-car request (#7 + #12) 3:50 PM",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "The look",
+    "highlights": "Red leather, heated fronts, CPO warranty, closest lot to home"
+   },
+   "map": {
+    "note": "price +$540 Aug 11, held {refreshed}; {days} days listed"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $27,512 · 30d",
+     "KBB SRP $27,512",
+     "KBB VDP $27,512 · 30d on site",
+     "AT: CarGurus $27,512"
+    ],
+    "pricesBySource": {
+     "cg": 27512,
+     "kbb": 27512,
+     "kbb_vdp": 27512,
+     "at": 27512
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 8,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Preferred",
+   "trimFull": "2.5 S Preferred AWD",
+   "trimKey": "2.5 S Preferred",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Leatherette, heated fronts, power driver seat, moonroof.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 16615,
+   "milesNote": "odometer 16,612 on Aug 7; 16,615 since Aug 11",
+   "price": {
+    "listed": 26900,
+    "advertised": 26900,
+    "docFee": 0,
+    "asOf": "2026-08-12",
+    "aug7": 26900,
+    "listedNote": "no dealer fees",
+    "note": "CarGurus 'No additional dealer fees' badge"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 469,
+    "kbbFpp": 27590,
+    "kbbFppDelta": 690,
+    "display": "$469 below",
+    "note": null
+   },
+   "daysListed": 15,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM6P0274841",
+   "stock": "661788A",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/454567468",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "Craigslist"
+    ],
+    "alsoOnCard": [
+     "KBB",
+     "Cars.com",
+     "Craigslist"
+    ],
+    "others": {}
+   },
+   "dealerKey": "royal_moore_mazda",
+   "comfortRank": 10,
+   "latest": {
+    "text": "written quote received Aug 11 (PDF, figures not yet transcribed; it lists Courtesy Guard + Forever Start add-ons); Evan countered $29,600 OTD. Oregon: email-only.",
+    "short": "written quote Aug 11 (PDF, figures not yet transcribed; lists Courtesy Guard + Forever Start add-ons); countered $29,600 OTD. Oregon: email-only.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "quote",
+   "quote": {
+    "otd": null,
+    "selling": null,
+    "doc": null,
+    "license": null,
+    "tax": null,
+    "taxRate": null,
+    "addOns": [
+     {
+      "name": "Courtesy Guard",
+      "amount": null
+     },
+     {
+      "name": "Forever Start",
+      "amount": null
+     }
+    ],
+    "date": "2026-08-11",
+    "time": "3:06 PM PT",
+    "docType": "pricing breakdown PDF (figures not yet transcribed)",
+    "clean": false,
+    "note": "carries two dealer add-ons to strike"
+   },
+   "counter": {
+    "otd": 29600,
+    "date": "2026-08-11",
+    "note": "two-car counter with #20 ($29,400)"
+   },
+   "targets": {
+    "targetSelling": 26150,
+    "targetOtd": 29600,
+    "walkAwaySelling": 26900,
+    "walkAwayOtd": 30450,
+    "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
+   },
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": "Lowest miles on the list; OR car, 148 mi; {days} days listed.",
+    "card": "Lowest miles on the list; OR car, 148 mi; {days} days listed."
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "odo 16,615",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 · in dialogue · countered $29,600 OTD",
+    "quoteBadge": "Received (PDF)",
+    "quoteBadgeCls": "ok",
+    "quoteNote": "figures not yet transcribed; lists Courtesy Guard + Forever Start add-ons",
+    "carSuffix": "· 16.6k mi"
+   },
+   "guide": {
+    "tier": "Everyday",
+    "highlights": "Leatherette, heated fronts, moonroof; lowest miles by far"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $26,900 · 15d",
+     "KBB SRP $26,900",
+     "AT: Cars.com $26,900"
+    ],
+    "pricesBySource": {
+     "cg": 26900,
+     "kbb": 26900,
+     "at": 26900
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 9,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Carbon Edition",
+   "trimFull": "2.5 S Carbon Edition AWD — Mazda Certified Pre-Owned",
+   "trimKey": "2.5 S Carbon Edition",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Red leather, heated fronts, Mazda CPO warranty.",
+   "ventilatedSeats": false,
+   "color": "Polymetal Gray (per v1 report)",
+   "miles": 33006,
+   "milesNote": null,
+   "price": {
+    "listed": 27699,
+    "advertised": 27499,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": 27699,
+    "listedNote": "KBB $27,499",
+    "note": "CarGurus $27,699 with the doc fee; KBB $27,499"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": true,
+    "cpoProgram": "Mazda Certified Pre-Owned",
+    "verifiedVia": "CarGurus + KBB"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 518,
+    "kbbFpp": 28090,
+    "kbbFppDelta": 391,
+    "display": "$518 below",
+    "note": null
+   },
+   "daysListed": 58,
+   "daysListedNote": null,
+   "vin": "JM3KFBCMXP0288130",
+   "stock": "M260362A",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/450917825",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB"
+    ],
+    "alsoOnCard": [
+     "KBB ($27,499)"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/783147875",
+     "carscom": "https://www.cars.com/vehicledetail/67cca9d1-ea1b-4988-991e-b91f9bcb629e/"
+    }
+   },
+   "dealerKey": "puyallup_mazda",
+   "comfortRank": 7,
+   "latest": {
+    "text": "folded into the Puyallup #1/#6 inquiry; no written numbers yet.",
+    "short": "folded into the Puyallup #1/#6 inquiry; no written numbers yet.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": "Newest CPO; warranty to 2030/100k; {days} days listed.",
+    "card": "Newest CPO; warranty to 2030/100k; {days} days listed."
+   },
+   "statusBoard": {
+    "listNote": "KBB $27,499",
+    "availability": null,
+    "availBadge": "Active",
+    "inquiry": "Via #1/#6 inquiry",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "The look",
+    "highlights": "Red leather, heated fronts + CPO warranty, newest year"
+   },
+   "map": {
+    "note": "KBB $27,499"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $27,699 · 58d",
+     "KBB SRP $27,499",
+     "KBB VDP $27,499 · 57d on site",
+     "AT: CarGurus $27,699"
+    ],
+    "pricesBySource": {
+     "cg": 27699,
+     "kbb": 27499,
+     "kbb_vdp": 27499,
+     "at": 27699
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 10,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Preferred",
+   "trimFull": "2.5 S Preferred AWD",
+   "trimKey": "2.5 S Preferred",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Leatherette, heated fronts, moonroof.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 44989,
+   "milesNote": null,
+   "price": {
+    "listed": 24095,
+    "advertised": 23995,
+    "docFee": 100,
+    "asOf": "2026-08-12",
+    "aug7": 24095,
+    "listedNote": "$23,995 + $100 doc",
+    "note": "Cars.com / CarGurus $23,995 + $100 doc prep"
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus (Aug 12); independent lot, so Carfax + inspection still required"
+   },
+   "deal": {
+    "source": "Cars.com",
+    "rating": "Great",
+    "belowMarket": 1449,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": "Cars.com rating",
+    "note": "CG $1,449 below"
+   },
+   "daysListed": 29,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM9P0119426",
+   "stock": "2468",
+   "links": {
+    "primary": "https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/",
+    "primarySource": "Cars.com",
+    "alsoOn": [
+     "CarGurus",
+     "iSeeCars"
+    ],
+    "others": {
+     "cg": "https://www.cargurus.com/Cars/listing/453316571"
+    }
+   },
+   "dealerKey": "columbia_sales_service",
+   "comfortRank": 12,
+   "latest": {
+    "text": "emailed Aug 11, no reply. Oregon: email-only.",
+    "short": "emailed Aug 11, no reply. Oregon: email-only.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": "Cheapest 2023.",
+   "notes": {
+    "table": "History now verified 2-owner / 0-accident (CarGurus, {days} days listed); indie lot, so Carfax + inspection still required.",
+    "card": "$23,995 + $100 doc; history verified 2-owner / 0-accident on CarGurus; indie lot, Carfax + inspection still required."
+   },
+   "statusBoard": {
+    "listNote": "$23,995 + $100 doc",
+    "availability": "CarGurus Aug 12; 2-owner / 0-acc",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": "no reply",
+    "carSuffix": "(Cars.com)"
+   },
+   "guide": {
+    "tier": "Everyday",
+    "highlights": "Same Preferred content, cheapest 2023"
+   },
+   "map": {
+    "note": "$23,995 + $100 doc prep; {days} days listed"
+   },
+   "sweep": {
+    "verdict": "active (2 src)",
+    "signals": [
+     "CG active $23,995 · 29d",
+     "AT: CarGurus $23,995"
+    ],
+    "pricesBySource": {
+     "cg": 23995,
+     "at": 23995
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 11,
+   "cohort": "aug7",
+   "foundDate": "2026-08-07",
+   "status": "sold",
+   "year": 2022,
+   "trim": "Carbon Edition",
+   "trimFull": "Carbon Edition",
+   "trimKey": "2.5 S Carbon Edition",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "No-haggle CarMax unit (was the price floor).",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 48337,
+   "milesNote": null,
+   "price": {
+    "listed": 24998,
+    "advertised": 24998,
+    "docFee": null,
+    "asOf": "2026-08-11",
+    "aug7": 24998,
+    "listedNote": "+$199 transfer",
+    "note": null
+   },
+   "history": {
+    "owners": null,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarMax"
+   },
+   "deal": {
+    "source": "CarMax",
+    "rating": "no-haggle",
+    "belowMarket": null,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": null,
+    "note": null
+   },
+   "daysListed": null,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM0N1599511",
+   "stock": "70056694",
+   "links": {
+    "primary": "https://www.carmax.com/car/70056694",
+    "primarySource": "CarMax",
+    "alsoOn": [],
+    "others": {}
+   },
+   "dealerKey": "carmax_sacramento",
+   "comfortRank": null,
+   "latest": {
+    "text": "Sold (Aug 11 PM).",
+    "short": "Sold Aug 11.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "none",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": {
+    "date": "2026-08-11",
+    "how": "Aug 11 PM",
+    "statusLine": "Sold — 'Sold' badge on the CarMax page Aug 11 PM; CarMax Renton #15 is the new no-haggle floor",
+    "label": "Carbon Edition (was the no-haggle floor)",
+    "short": "CarMax Sacramento"
+   },
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": null,
+    "card": null
+   },
+   "statusBoard": null,
+   "guide": null,
+   "map": null,
+   "sweep": {
+    "verdict": "SOLD (repo-confirmed; not overridden)",
+    "signals": [
+     "CarMax absent from CarMax API results (98101, ≤$29k, ≤50k mi)"
+    ],
+    "pricesBySource": {},
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 12,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Preferred · Mazda CPO",
+   "trimFull": "2.5 S Preferred AWD — Mazda Certified Pre-Owned",
+   "trimKey": "2.5 S Preferred",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Leather-trimmed Preferred content (heated fronts, moonroof) with the Mazda CPO warranty.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 36400,
+   "milesNote": null,
+   "price": {
+    "listed": 26348,
+    "advertised": 26348,
+    "docFee": 200,
+    "asOf": "2026-08-11",
+    "aug7": null,
+    "listedNote": null,
+    "note": "Cars.com / dealer-site listing; not re-checkable from the sweep environment (Cars.com blocks datacenter traffic)"
+   },
+   "history": {
+    "owners": null,
+    "accidents": 0,
+    "cpo": true,
+    "cpoProgram": "Mazda Certified Pre-Owned",
+    "verifiedVia": "dealer listing (Mazda CPO); history report not yet in hand"
+   },
+   "deal": {
+    "source": "Cars.com",
+    "rating": null,
+    "belowMarket": null,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": null,
+    "note": null
+   },
+   "daysListed": null,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM7P0256994",
+   "stock": null,
+   "links": {
+    "primary": "https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/",
+    "primarySource": "Cars.com",
+    "alsoOn": [
+     "dealer site"
+    ],
+    "others": {}
+   },
+   "dealerKey": "lee_johnson_mazda",
+   "comfortRank": 2,
+   "latest": {
+    "text": "in the Lee Johnson two-car OTD request emailed Aug 11, 3:50 PM; no reply yet.",
+    "short": "in the Lee Johnson two-car request (Aug 11); no reply yet.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "Mazda CPO, newer and cheaper than the same store's #7; VIN …P0256994. Cars.com/dealer-only listing, so the {refreshed} sweep could not re-verify it from here (Cars.com blocks datacenter traffic).",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "Cars.com-only listing; not re-checkable in the Aug 12 sweep",
+    "availBadge": "Active",
+    "inquiry": "Sent Aug 11 · two-car request 3:50 PM",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "Everyday",
+    "highlights": "Mazda CPO at $26,348; newer and cheaper than the same store's Carbon"
+   },
+   "map": {
+    "note": "comfort-rank 2"
+   },
+   "sweep": {
+    "verdict": "unverified (Cars.com-only listing; not reachable from the sweep environment)",
+    "signals": [],
+    "pricesBySource": {},
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 13,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2022,
+   "trim": "2.5 S Premium Plus",
+   "trimFull": "2.5 S w/ Premium Plus Package AWD",
+   "trimKey": "2.5 S Premium Plus",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Ventilated seats, HUD, heated rears; CarBravo (GM) certified, not Mazda CPO.",
+   "ventilatedSeats": true,
+   "color": null,
+   "miles": 43640,
+   "milesNote": null,
+   "price": {
+    "listed": 27389,
+    "advertised": 27389,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": null,
+    "note": "KBB $27,389 (dealer fees included); Cars.com shows $27,789",
+    "history": [
+     "$28,195",
+     "$27,889",
+     "$27,589",
+     "$27,389"
+    ]
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "cpoProgram": "CarBravo (GM) certified",
+    "verifiedVia": "KBB AutoCheck preview (1-owner, no accidents)"
+   },
+   "deal": {
+    "source": "KBB",
+    "rating": "Good",
+    "belowMarket": null,
+    "kbbFpp": 27000,
+    "kbbFppDelta": -389,
+    "display": "$389 over FPP",
+    "note": null
+   },
+   "daysListed": 45,
+   "daysListedNote": null,
+   "vin": "JM3KFBEM1N0590576",
+   "stock": "P11101",
+   "links": {
+    "primary": "https://www.kbb.com/cars-for-sale/vehicle/784195725",
+    "primarySource": "KBB",
+    "alsoOn": [
+     "Cars.com"
+    ],
+    "others": {
+     "carscom": "https://www.cars.com/vehicledetail/0a20ba70-ab2e-4f4a-a332-093e8e7eb594/"
+    }
+   },
+   "dealerKey": "titus_will_olympia",
+   "comfortRank": 3,
+   "latest": {
+    "text": "revised written quote Aug 11, 4:43 PM: $31,000 OTD with the $995 KARR add-on struck (first sheet was $32,229.17); Evan holding at $30,200 OTD.",
+    "short": "revised written quote Aug 11: $31,000 OTD, KARR struck; holding at $30,200.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "quote",
+   "quote": {
+    "otd": 31000,
+    "selling": 27268.6,
+    "doc": 200,
+    "license": 750,
+    "tax": null,
+    "taxRate": null,
+    "addOns": [],
+    "date": "2026-08-11",
+    "time": "4:43 PM PT",
+    "docType": "revised written proposal (PDF)",
+    "clean": true,
+    "firstOtd": 32229.17,
+    "firstSheet": {
+     "selling": 27389,
+     "addOns": [
+      {
+       "name": "KARR Security",
+       "amount": 995,
+       "taxed": true
+      }
+     ],
+     "govFees": 750,
+     "doc": 200,
+     "tax": 2895.17
+    },
+    "note": "$995 KARR add-on struck on the revision; $750 government fees to be trued up at actuals"
+   },
+   "counter": {
+    "otd": 30200,
+    "date": "2026-08-11",
+    "note": "KARR + gov-fee strikes; holding"
+   },
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "Listed $27,389 fees-included on KBB (Cars.com shows $27,789); {days} days on KBB, priced $389 over KBB FPP.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": "fees incl.; quoted selling $27,268.60",
+    "availability": "45 days on KBB",
+    "availBadge": "Active",
+    "inquiry": "Aug 11 · KBB · countered $30,200 OTD",
+    "quoteBadge": "Received · revised Aug 11 PM",
+    "quoteBadgeCls": "ok",
+    "quoteNote": "$31,000 OTD, KARR struck (first sheet $32,229.17)",
+    "carSuffix": "· ventilated"
+   },
+   "guide": {
+    "tier": "Full comfort",
+    "highlights": "Ventilated fronts, heated rears, HUD, non-turbo; fees included in price"
+   },
+   "map": {
+    "note": "comfort-rank 3"
+   },
+   "sweep": {
+    "verdict": "active (2 src)",
+    "signals": [
+     "KBB SRP $27,389",
+     "KBB VDP $27,389 · 45d on site",
+     "AT: Cars.com $27,789"
+    ],
+    "pricesBySource": {
+     "kbb": 27389,
+     "kbb_vdp": 27389,
+     "at": 27789
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 14,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Premium",
+   "trimFull": "2.5 S Premium AWD",
+   "trimKey": "2.5 S Premium",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Lowest-mile comfort car in the set: Soul Red, leather, Bose, heated wheel (no ventilation).",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 17505,
+   "milesNote": null,
+   "price": {
+    "listed": 28487,
+    "advertised": 28287,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": "$28,287 + $200",
+    "listedDisplay": "$28,287 + $200",
+    "note": "CarGurus 'price plus fees' $28,487; Autotrader / KBB $28,287"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus + Autotrader (No Accidents badge)"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 873,
+    "kbbFpp": 27750,
+    "kbbFppDelta": -537,
+    "display": "$873 below",
+    "note": "KBB $537 over FPP"
+   },
+   "daysListed": 29,
+   "daysListedNote": null,
+   "vin": "JM3KFBDM7P0281828",
+   "stock": "68987A",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/453332129",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "KBB",
+     "Autotrader"
+    ],
+    "others": {
+     "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785511078"
+    }
+   },
+   "dealerKey": "rodland_toyota",
+   "comfortRank": 5,
+   "latest": {
+    "text": "written quote Aug 11: $31,957.24 OTD (clean sheet: $28,287 + $200 doc, $0 add-ons, tax + licence lumped at $3,470.24, not itemized); Evan countered $31,100 OTD; next ask is the itemized tax/licence.",
+    "short": "written quote Aug 11: $31,957.24 OTD, clean sheet; countered $31,100.",
+    "asOf": "2026-08-12"
+   },
+   "contact": "quote",
+   "quote": {
+    "otd": 31957.24,
+    "selling": 28487,
+    "retail": 28287,
+    "doc": 200,
+    "license": null,
+    "tax": null,
+    "taxRate": null,
+    "taxesAndFeesLumped": 3470.24,
+    "addOns": [],
+    "date": "2026-08-11",
+    "time": "3:24 PM PT",
+    "docType": "'Estimated Pricing Summary' payment-estimator printout (PDF, 3 pages; not a signed buyer's order)",
+    "clean": true,
+    "signed": false,
+    "expiry": null,
+    "note": "tax + licence lumped, consistent with Everett 10.40% plus ~$508 of title/licence; ask for the itemized rate and licence"
+   },
+   "counter": {
+    "otd": 31100,
+    "date": "2026-08-11",
+    "note": "$27,300 selling; gap $857"
+   },
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "Lowest-mile comfort car in the set; CarGurus Good, $873 below market; {days} days listed; KBB reads it $537 over FPP. VIN …P0281828, stock 68987A.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "29 days listed",
+    "availBadge": "Active",
+    "inquiry": "Aug 11 · KBB + call · countered $31,100 OTD",
+    "quoteBadge": "Received · in writing",
+    "quoteBadgeCls": "ok",
+    "quoteNote": "$31,957.24 OTD (3:24 PM): $28,287 + $200 doc, $0 add-ons, tax + licence lumped $3,470.24 (not itemized)",
+    "carSuffix": "· 17.5k mi"
+   },
+   "guide": {
+    "tier": "Comfort",
+    "highlights": "Leather, Bose, heated wheel, 17.5k mi; no ventilation"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $28,487 · 29d",
+     "KBB SRP $28,287",
+     "KBB VDP $28,287 · 28d on site",
+     "AT: CarGurus $28,487"
+    ],
+    "pricesBySource": {
+     "cg": 28487,
+     "kbb": 28287,
+     "kbb_vdp": 28287,
+     "at": 28487
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 15,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "benchmark",
+   "year": 2023,
+   "trim": "2.5 S Premium · no-haggle",
+   "trimFull": "2.5 S Premium AWD",
+   "trimKey": "2.5 S Premium",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "In-state no-haggle benchmark, no transfer fee.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 31166,
+   "milesNote": null,
+   "price": {
+    "listed": 27998,
+    "advertised": 27998,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": "flat",
+    "listedDisplay": "$27,998 flat",
+    "note": "fixed price, no transfer fee (stock 70134808)"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarMax + CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Fair",
+    "belowMarket": 222,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": "$222 below",
+    "note": null
+   },
+   "daysListed": 3,
+   "daysListedNote": null,
+   "vin": "JM3KFBDM0P0215315",
+   "stock": "70134808",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/455754266",
+    "primarySource": "CarMax",
+    "alsoOn": [
+     "CarGurus"
+    ],
+    "others": {
+     "carmax": "https://www.carmax.com/car/70134808"
+    }
+   },
+   "dealerKey": "carmax_renton",
+   "comfortRank": 6,
+   "latest": {
+    "text": "reference car; nothing to request.",
+    "short": "reference car; nothing to request.",
+    "asOf": "2026-08-12"
+   },
+   "contact": "nohaggle",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "In-state no-haggle benchmark, no transfer fee; 1-owner / 0-accident, listed Aug 10 (stock 70134808), still saleable {refreshed}.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "saleable Aug 12 (stock 70134808)",
+    "availBadge": "Reference",
+    "inquiry": "—",
+    "quoteBadge": null,
+    "quoteBadgeCls": null,
+    "quoteNote": "Fixed price",
+    "carSuffix": "(no-haggle)"
+   },
+   "guide": {
+    "tier": "Comfort",
+    "highlights": "Premium content at a fixed price; the number every negotiated OTD must beat"
+   },
+   "map": {
+    "note": "the benchmark every negotiated OTD must beat"
+   },
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $27,998 · 3d",
+     "AT: CarGurus $27,998",
+     "CarMax API $27,998"
+    ],
+    "pricesBySource": {
+     "cg": 27998,
+     "carmax": 27998,
+     "at": 27998
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 16,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "sold",
+   "year": 2021,
+   "trim": "Grand Touring AWD",
+   "trimFull": "Grand Touring AWD",
+   "trimKey": "Grand Touring",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "GT, 27k mi.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 27089,
+   "milesNote": null,
+   "price": {
+    "listed": 28700,
+    "advertised": 28700,
+    "docFee": 200,
+    "asOf": "2026-08-11",
+    "aug7": null,
+    "listedNote": null,
+    "note": null
+   },
+   "history": {
+    "owners": null,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "listing"
+   },
+   "deal": {
+    "source": "Cars.com",
+    "rating": null,
+    "belowMarket": null,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": null,
+    "note": null
+   },
+   "daysListed": null,
+   "daysListedNote": null,
+   "vin": null,
+   "stock": null,
+   "links": {
+    "primary": "https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/",
+    "primarySource": "Cars.com",
+    "alsoOn": [],
+    "others": {}
+   },
+   "dealerKey": "dougs_lynnwood_mazda",
+   "comfortRank": null,
+   "latest": {
+    "text": "Sold (dealer email Aug 11).",
+    "short": "Sold Aug 11.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": {
+    "date": "2026-08-11",
+    "how": "dealer email Aug 11 (sold Aug 10)",
+    "statusLine": "Sold — reported Aug 11 after the Cars.com inquiry; dropped from the board",
+    "label": "Grand Touring AWD · 27,089 mi",
+    "short": "Doug's Lynnwood GT"
+   },
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": null,
+    "card": null
+   },
+   "statusBoard": null,
+   "guide": null,
+   "map": null,
+   "sweep": {
+    "verdict": "SOLD (repo-confirmed; not overridden)",
+    "signals": [
+     "AT: Cars.com $28,700"
+    ],
+    "pricesBySource": {
+     "at": 28700
+    },
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 17,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2021,
+   "trim": "Grand Touring w/ GT Premium pkg",
+   "trimFull": "Grand Touring w/ GT Premium Package AWD (verified: Autotrader VDP title)",
+   "trimKey": "Grand Touring",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Ventilated seats at GT money (GT Premium package), Deep Crystal Blue.",
+   "ventilatedSeats": true,
+   "color": null,
+   "miles": 30066,
+   "milesNote": null,
+   "price": {
+    "listed": 25799,
+    "advertised": 25799,
+    "docFee": 0,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": null,
+    "note": "Autotrader $25,799; CarGurus $25,999 with a doc fee the written sheet does not charge"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 1,
+    "cpo": false,
+    "verifiedVia": "Carfax (dealer-provided): 06/2024 rear-end accident, minor-to-moderate, front + rear damage, no structural / airbag flags; CarGurus counts 2 records",
+    "accidentDetail": "06/19/2024 rear-end collision; no repair record afterwards; 1-owner WA car serviced at Doug’s Lynnwood Mazda its whole life"
+   },
+   "deal": {
+    "source": "KBB",
+    "rating": null,
+    "belowMarket": null,
+    "kbbFpp": 29080,
+    "kbbFppDelta": 3281,
+    "display": "$3,281 < FPP",
+    "note": "accident car; clean-comp FPP"
+   },
+   "daysListed": 5,
+   "daysListedNote": null,
+   "vin": "JM3KFBDM0M0305902",
+   "stock": "13014",
+   "links": {
+    "primary": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
+    "primarySource": "Autotrader",
+    "alsoOn": [
+     "Cars.com",
+     "CarGurus"
+    ],
+    "others": {
+     "carscom": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
+     "cg": "https://www.cargurus.com/Cars/listing/455519602"
+    }
+   },
+   "dealerKey": "auto206",
+   "comfortRank": null,
+   "latest": {
+    "text": "written $28,718.60 OTD ($25,400 selling, $0 doc, no add-ons) valid to Aug 12, 7 PM; Evan's $27,000 + inspection counter was declined.",
+    "short": "written $28,718.60 OTD, clean sheet, valid to Aug 12 7 PM; $27,000 + PPI counter declined.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "quote",
+   "quote": {
+    "otd": 28718.6,
+    "selling": 25400,
+    "doc": 0,
+    "license": 550,
+    "tax": 2768.6,
+    "taxRate": 10.9,
+    "addOns": [],
+    "date": "2026-08-11",
+    "time": "1:57 PM PT",
+    "expires": "Aug 12, 7 PM PT",
+    "docType": "itemized written offer (email + PDF)",
+    "clean": true,
+    "note": "cleanest fee sheet seen: no doc fee, no add-ons; disqualified by the Carfax accident unless the rule is waived"
+   },
+   "counter": {
+    "otd": 27000,
+    "date": "2026-08-11",
+    "note": "contingent on a clean independent PPI; declined by the dealer"
+   },
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "Ventilated seats at GT money and a clean fee sheet (listed $25,799; CarGurus shows $25,999 with the doc fee; {days} days listed), but the <strong>Carfax shows a 06/2024 rear-end accident</strong> (front + rear damage, no structural or airbag flags; CarGurus counts 2 records): fails the no-accident rule unless waived.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": "quoted selling $25,400",
+    "availability": "Carfax: 06/2024 accident (fails no-accident rule unless waived)",
+    "availBadge": "Active",
+    "inquiry": "Aug 11 · Autotrader + call · $27,000 + PPI counter declined",
+    "quoteBadge": "Received · itemized, in writing",
+    "quoteBadgeCls": "ok",
+    "quoteNote": "$28,718.60 OTD, clean sheet, valid to Aug 12 7 PM",
+    "carSuffix": "· 30,066 mi"
+   },
+   "guide": {
+    "tier": "Full comfort",
+    "highlights": "GT Premium package (ventilated fronts, heated rears, HUD); Carfax accident 06/2024"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $25,999 · 5d",
+     "KBB SRP $25,799",
+     "KBB VDP $25,799 · 5d on site",
+     "AT: CarGurus $25,999"
+    ],
+    "pricesBySource": {
+     "cg": 25999,
+     "kbb": 25799,
+     "kbb_vdp": 25799,
+     "at": 25999
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 18,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "sold",
+   "year": 2023,
+   "trim": "2.5 S Preferred",
+   "trimFull": "2.5 S Preferred AWD",
+   "trimKey": "2.5 S Preferred",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "Preferred, 20k mi.",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 20533,
+   "milesNote": null,
+   "price": {
+    "listed": 26495,
+    "advertised": 26495,
+    "docFee": 200,
+    "asOf": "2026-08-11",
+    "aug7": null,
+    "listedNote": null,
+    "note": null
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 1200,
+    "kbbFpp": 27030,
+    "kbbFppDelta": 535,
+    "display": null,
+    "note": null
+   },
+   "daysListed": 61,
+   "daysListedNote": null,
+   "vin": "JM3KFBCM4P0156996",
+   "stock": "S21261",
+   "links": {
+    "primary": "https://www.cargurus.com/Cars/listing/450670232",
+    "primarySource": "CarGurus",
+    "alsoOn": [
+     "Cars.com"
+    ],
+    "others": {
+     "carscom": "https://www.cars.com/vehicledetail/0abdba65-e836-4fd7-a5c0-952399497e8f/"
+    }
+   },
+   "dealerKey": "auto_connections_bellevue",
+   "comfortRank": null,
+   "latest": {
+    "text": "Sold (GM email Aug 11).",
+    "short": "Sold Aug 11.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "sent",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": {
+    "date": "2026-08-11",
+    "how": "Aug 11, 11:51 AM",
+    "statusLine": "Sold — GM replied Aug 11, 11:51 AM",
+    "label": "2.5 S Preferred · 20,533 mi",
+    "short": "Auto Connections Bellevue"
+   },
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "table": null,
+    "card": null
+   },
+   "statusBoard": null,
+   "guide": null,
+   "map": null,
+   "sweep": {
+    "verdict": "SOLD (repo-confirmed; not overridden)",
+    "signals": [
+     "CG active $26,495 · 61d",
+     "KBB SRP $26,495",
+     "AT: Cars.com $26,495"
+    ],
+    "pricesBySource": {
+     "cg": 26495,
+     "kbb": 26495,
+     "at": 26495
+    },
+    "priceMoveVsRecorded": null
+   }
+  },
+  {
+   "rank": 19,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2021,
+   "trim": "Signature (2.5T, ventilated)",
+   "trimFull": "Signature AWD (2.5 Turbo)",
+   "trimKey": "Signature (turbo)",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "Top 2021 trim (Nappa, vents, 360 camera).",
+   "ventilatedSeats": true,
+   "color": null,
+   "miles": 40451,
+   "milesNote": null,
+   "price": {
+    "listed": 26712,
+    "advertised": 26712,
+    "docFee": 250,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": "KBB $26,462",
+    "note": "Cars.com / CarGurus $26,712; KBB $26,462"
+   },
+   "history": {
+    "owners": 2,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "CarGurus"
+   },
+   "deal": {
+    "source": "CarGurus",
+    "rating": "Good",
+    "belowMarket": 700,
+    "kbbFpp": 24480,
+    "kbbFppDelta": -2182,
+    "display": "$700 below",
+    "note": "KBB reads it over FPP"
+   },
+   "daysListed": 18,
+   "daysListedNote": null,
+   "vin": "JM3KFBEY2M0349546",
+   "stock": "G6186020B",
+   "links": {
+    "primary": "https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/",
+    "primarySource": "Cars.com",
+    "alsoOn": [
+     "CarGurus",
+     "KBB"
+    ],
+    "others": {
+     "cg": "https://www.cargurus.com/Cars/listing/454358043"
+    }
+   },
+   "dealerKey": "tonkin_gresham",
+   "comfortRank": null,
+   "latest": {
+    "text": "not contacted; Oregon fallback, email-only.",
+    "short": "not contacted; Oregon fallback, email-only.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "none",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "CarGurus Good, $700 below; 2-owner / 0-accident; {days} days listed. Same dealer family as #4.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": "KBB $26,462",
+    "availability": "{days} days listed; 2-owner / 0-accident",
+    "availBadge": "Active",
+    "inquiry": "Not contacted (Oregon fallback)",
+    "quoteBadge": null,
+    "quoteBadgeCls": null,
+    "quoteNote": null,
+    "carSuffix": null
+   },
+   "guide": {
+    "tier": "Full comfort",
+    "highlights": "Nappa leather, ventilated fronts, 360 camera, turbo"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (3 src)",
+    "signals": [
+     "CG active $26,712 · 18d",
+     "KBB SRP $26,462",
+     "AT: CarGurus $26,712"
+    ],
+    "pricesBySource": {
+     "cg": 26712,
+     "kbb": 26462,
+     "at": 26712
+    },
+    "priceMoveVsRecorded": 0
+   }
+  },
+  {
+   "rank": 20,
+   "cohort": "aug11",
+   "foundDate": "2026-08-11",
+   "status": "live",
+   "year": 2023,
+   "trim": "2.5 S Preferred",
+   "trimFull": "2.5 S Preferred AWD",
+   "trimKey": "2.5 S Preferred",
+   "engine": "2.5",
+   "turbo": false,
+   "features": "The Royal Moore group's second low-mile Preferred (Toyota store, same auto center as #8).",
+   "ventilatedSeats": false,
+   "color": null,
+   "miles": 16969,
+   "milesNote": null,
+   "price": {
+    "listed": 26500,
+    "advertised": 26500,
+    "docFee": 250,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": null,
+    "note": "$400 under #8 after a recent drop"
+   },
+   "history": {
+    "owners": null,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "listing (history report not yet in hand)"
+   },
+   "deal": {
+    "source": "Cars.com",
+    "rating": null,
+    "belowMarket": null,
+    "kbbFpp": null,
+    "kbbFppDelta": null,
+    "display": null,
+    "note": null
+   },
+   "daysListed": 18,
+   "daysListedNote": null,
+   "vin": null,
+   "stock": null,
+   "links": {
+    "primary": "https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/",
+    "primarySource": "Cars.com",
+    "alsoOn": [
+     "KBB"
+    ],
+    "others": {}
+   },
+   "dealerKey": "royal_moore_mazda",
+   "comfortRank": null,
+   "latest": {
+    "text": "folded into the #8 thread with a $29,400 OTD counter (Aug 11); no separate quote yet. Oregon: email-only.",
+    "short": "folded into the #8 thread ($29,400 counter Aug 11); no separate quote yet.",
+    "asOf": "2026-08-11"
+   },
+   "contact": "engaged",
+   "quote": null,
+   "counter": {
+    "otd": 29400,
+    "date": "2026-08-11",
+    "note": "in the #8 two-car counter"
+   },
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "The group's second low-mile Preferred, $400 under #8; VIN …P0182690; 18 days on KBB (Aug 12).",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "Toyota lot, same group as #8",
+    "availBadge": "Active",
+    "inquiry": "Via the #8 thread · countered $29,400 OTD",
+    "quoteBadge": "Awaiting",
+    "quoteBadgeCls": "wait",
+    "quoteNote": "no separate quote yet",
+    "carSuffix": "· 17.0k mi"
+   },
+   "guide": {
+    "tier": "Everyday",
+    "highlights": "Same Preferred content as #8, 17k mi, $400 less"
+   },
+   "map": null,
+   "sweep": {
+    "verdict": "active (1 src)",
+    "signals": [
+     "AT: Cars.com $26,500"
+    ],
+    "pricesBySource": {
+     "at": 26500
+    },
+    "priceMoveVsRecorded": 0
+   },
+   "sellerDisplay": "Royal Moore Toyota, Hillsboro OR (same group as #8)"
+  },
+  {
+   "rank": 21,
+   "cohort": "aug12",
+   "foundDate": "2026-08-12",
+   "status": "live",
+   "year": 2021,
+   "trim": "Signature (2.5T)",
+   "trimFull": "Signature AWD (2.5 Turbo)",
+   "trimKey": "Signature (turbo)",
+   "engine": "2.5 Turbo",
+   "turbo": true,
+   "features": "WA car, top 2021 trim (Nappa leather, ventilated fronts, 360 camera, turbo), Snowflake White / Caturra Brown.",
+   "ventilatedSeats": true,
+   "color": "Snowflake White Pearl Mica / Caturra Brown Nappa",
+   "miles": 35589,
+   "milesNote": null,
+   "price": {
+    "listed": 25999,
+    "advertised": 25999,
+    "docFee": 200,
+    "asOf": "2026-08-12",
+    "aug7": null,
+    "listedNote": "+ $200",
+    "listedDisplay": "$25,999 + $200",
+    "note": "KBB $25,999 + $200 dealer fees ($26,199 displayed)"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "cpo": false,
+    "verifiedVia": "KBB AutoCheck preview: 1-owner, no accidents, no salvage; independent lot, so a full report + inspection first"
+   },
+   "deal": {
+    "source": "KBB",
+    "rating": "Good",
+    "belowMarket": null,
+    "kbbFpp": 25410,
+    "kbbFppDelta": -789,
+    "display": "$789 over FPP",
+    "note": "$2,000 under the CarMax benchmark"
+   },
+   "daysListed": 0,
+   "daysListedNote": null,
+   "vin": "JM3KFBEY0M0417715",
+   "stock": "B1851",
+   "links": {
+    "primary": "https://www.kbb.com/cars-for-sale/vehicle/787933636",
+    "primarySource": "KBB",
+    "alsoOn": [],
+    "others": {}
+   },
+   "dealerKey": "cortes_auto_center",
+   "comfortRank": null,
+   "latest": {
+    "text": "not contacted (found Aug 12).",
+    "short": "not contacted (found Aug 12).",
+    "asOf": "2026-08-12"
+   },
+   "contact": "none",
+   "quote": null,
+   "counter": null,
+   "targets": null,
+   "soldInfo": null,
+   "topPick": null,
+   "pickTag": null,
+   "pickWhy": null,
+   "tag": null,
+   "notes": {
+    "candidate": "Only new listing to pass the Aug 12 screen (26 new VINs, 25 disqualified). Stock B1851, VIN JM3KFBEY0M0417715. KBB AutoCheck preview: 1-owner, no accidents, no salvage; listed Aug 12 ({days} days). Value: $2,000 under the CarMax Renton benchmark and $713 under #19 with 4.9k fewer miles, though KBB rates it $789 over its own $25,410 FPP. Independent lot 61 mi north: full history report + inspection before any money talk.",
+    "table": null,
+    "card": null
+   },
+   "statusBoard": {
+    "listNote": null,
+    "availability": "listed Aug 12; KBB: 1-owner, no accidents",
+    "availBadge": "Active",
+    "inquiry": "Not contacted (found Aug 12)",
+    "quoteBadge": null,
+    "quoteBadgeCls": null,
+    "quoteNote": "—",
+    "carSuffix": "· 35,589 mi"
+   },
+   "guide": {
+    "tier": "Full comfort",
+    "highlights": "Nappa leather (Caturra Brown), ventilated fronts, 360 camera, turbo; independent lot"
+   },
+   "map": {
+    "note": "listed Aug 12; $789 over KBB FPP but $2k under the CarMax benchmark"
+   },
+   "sweep": {
+    "verdict": null,
+    "signals": null,
+    "pricesBySource": null,
+    "priceMoveVsRecorded": null
+   },
+   "isNew": true
+  }
+ ],
+ "dealers": {
+  "puyallup_mazda": {
+   "key": "puyallup_mazda",
+   "name": "Puyallup Mazda",
+   "short": "Puyallup Mazda",
+   "city": "Puyallup, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.puyallupmazda.com/",
+   "sites": [
+    {
+     "name": "Puyallup Mazda",
+     "url": "https://www.puyallupmazda.com/"
+    }
+   ],
+   "address": "608 River Rd, Puyallup, WA 98371",
+   "addressSource": null,
+   "lat": 47.20002,
+   "lon": -122.30109,
+   "region": "south",
+   "phoneMain": "253-845-1766",
+   "taxRate": 10.8,
+   "taxBasis": "Puyallup vehicle rate",
+   "docFee": 200,
+   "mapName": "Puyallup Mazda",
+   "statusName": "Puyallup Mazda",
+   "channel": "none published — home, contact-us and about-us pages carry no email or mailto; /meet-our-staff/ was bot-blocked (403). Use website contact form.",
+   "inquiry": {
+    "sent": "Aug 11, 12:45 AM · site form",
+    "latest": "Form confirmation"
+   },
+   "note": null
+  },
+  "acura_of_seattle": {
+   "key": "acura_of_seattle",
+   "name": "Acura of Seattle",
+   "short": "Acura of Seattle",
+   "city": "Tukwila, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.acuraofseattle.com/",
+   "sites": [
+    {
+     "name": "Acura of Seattle",
+     "url": "https://www.acuraofseattle.com/"
+    }
+   ],
+   "address": "301 Baker Blvd, Tukwila, WA 98188",
+   "addressSource": null,
+   "lat": 47.45714,
+   "lon": -122.25319,
+   "region": "seattle",
+   "phoneMain": "(206) 433-1000",
+   "taxRate": 11.0,
+   "taxBasis": "Tukwila vehicle rate",
+   "docFee": 200,
+   "mapName": "Acura of Seattle",
+   "statusName": "Acura of Seattle",
+   "channel": "In the dealership's own site configuration (Dealer.com dataLayer 'dealership.email' and primaryContactInformation.email) in the page source of every page incl. contact.htm; it is the inbox their contact form routes to. Not rendered as visible text.",
+   "inquiry": {
+    "sent": "Not sent (car sold)",
+    "latest": null
+   },
+   "note": null
+  },
+  "bmw_seattle": {
+   "key": "bmw_seattle",
+   "name": "BMW Seattle",
+   "short": "BMW Seattle",
+   "city": "Seattle, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.bmwseattle.com/",
+   "sites": [
+    {
+     "name": "BMW Seattle",
+     "url": "https://www.bmwseattle.com/"
+    }
+   ],
+   "address": "1002 Airport Way S, Seattle, WA 98134",
+   "addressSource": null,
+   "lat": 47.59371,
+   "lon": -122.32424,
+   "region": "seattle",
+   "phoneMain": "888-389-7195",
+   "taxRate": 11.05,
+   "taxBasis": "Seattle vehicle rate",
+   "docFee": 200,
+   "mapName": "BMW Seattle",
+   "statusName": "BMW Seattle",
+   "channel": "SERVICE-department inbox published in <meta property='og:email'> / business:contact_data:email on bmwseattle.com (home + contact page source). No sales/internet-sales email published; staff page bot-blocked (403). Treat as weak: usable only with an 'please forward to your pre-owned internet sales manager' line; contact form is the primary channel.",
+   "inquiry": {
+    "sent": "Aug 11, ~9:15 AM · site form",
+    "latest": "Car sold (confirmed by phone, 10:18 AM)"
+   },
+   "note": null
+  },
+  "ron_tonkin_honda": {
+   "key": "ron_tonkin_honda",
+   "name": "Ron Tonkin Honda",
+   "short": "Ron Tonkin Honda",
+   "city": "Portland, OR",
+   "state": "OR",
+   "type": "franchise",
+   "website": "https://www.rontonkinhonda.com/",
+   "sites": [
+    {
+     "name": "Ron Tonkin Honda",
+     "url": "https://www.rontonkinhonda.com/"
+    }
+   ],
+   "address": "300 SE 122nd Ave, Portland, OR 97233",
+   "addressSource": null,
+   "lat": 45.52047,
+   "lon": -122.53692,
+   "region": "portland",
+   "phoneMain": "971-509-8656",
+   "taxRate": 11.05,
+   "taxBasis": "WA use tax at the Seattle rate (Oregon dealer)",
+   "docFee": 250,
+   "mapName": "Ron Tonkin Honda",
+   "statusName": "Ron Tonkin Honda (Portland OR)",
+   "channel": "none published — contact-us and about-us pages have phones/hours only; home and /staff bot-blocked (403). Use website contact form.",
+   "inquiry": {
+    "sent": "Aug 11, 9:27 AM · KBB inquiry",
+    "latest": "Quote in preparation with manager (3:57 PM)"
+   },
+   "note": null
+  },
+  "kirkland": {
+   "key": "kirkland",
+   "name": "Hyundai of Kirkland / Ford of Kirkland",
+   "short": "Hyundai of Kirkland",
+   "city": "Kirkland, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.hyundaiofkirkland.com/",
+   "sites": [
+    {
+     "name": "Hyundai",
+     "url": "https://www.hyundaiofkirkland.com/"
+    },
+    {
+     "name": "Ford of Kirkland",
+     "url": "https://www.fordofkirkland.com/"
+    }
+   ],
+   "address": "11706 124th Ave NE, Kirkland, WA 98034",
+   "addressSource": null,
+   "lat": 47.70496,
+   "lon": -122.17528,
+   "region": "seattle",
+   "phoneMain": "425-821-6611",
+   "taxRate": 10.8,
+   "taxBasis": "Kirkland vehicle rate",
+   "docFee": 200,
+   "mapName": "Hyundai / Ford of Kirkland",
+   "statusName": "Hyundai / Ford of Kirkland",
+   "channel": "hyundaiofkirkland.com page source (Dealer.com config): dealership primary contact email = hamid@fordofkirkland.com; department contacts list customerservice@fordofkirkland.com (Financing), akuhns@fordofkirkland.com (Service), esills@fordofkirkland.com (Parts). Not rendered as visible text. fordofkirkland.com meta og:email shows a malformed 'h@fordofkirkland.com' — ignore.",
+   "inquiry": {
+    "sent": "Aug 11, 12:00 AM · email; site form 3:50 PM",
+    "latest": "Itemized written quote, in writing (4:21 PM)"
+   },
+   "note": "CarGurus lists the seller as Hyundai of Kirkland, KBB as Ford of Kirkland: same owner, adjacent lots, stock O94564A on both."
+  },
+  "lee_johnson_mazda": {
+   "key": "lee_johnson_mazda",
+   "name": "Lee Johnson Mazda of Seattle",
+   "short": "Lee Johnson Mazda",
+   "city": "Seattle, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.mazdaofseattle.com/",
+   "sites": [
+    {
+     "name": "Lee Johnson Mazda",
+     "url": "https://www.mazdaofseattle.com/"
+    }
+   ],
+   "address": "8100 Lake City Way NE, Seattle, WA 98115",
+   "addressSource": null,
+   "lat": 47.68816,
+   "lon": -122.31072,
+   "region": "seattle",
+   "phoneMain": "206-209-0504",
+   "taxRate": 11.05,
+   "taxBasis": "Seattle vehicle rate",
+   "docFee": 200,
+   "mapName": "Lee Johnson Mazda of Seattle",
+   "statusName": "Lee Johnson Mazda (Seattle)",
+   "channel": "none published — staff page names Marcus Andrews (General Manager – Sales) and Hunter Reeves (Used Car Manager) but shows no emails or mailto links. Use website contact form; address the message to the Used Car Manager.",
+   "inquiry": {
+    "sent": "Aug 11, 12:00 AM · email; two-car request (#7 + #12) 3:50 PM",
+    "latest": null
+   },
+   "note": null
+  },
+  "royal_moore_mazda": {
+   "key": "royal_moore_mazda",
+   "name": "Royal Moore Mazda",
+   "short": "Royal Moore Mazda",
+   "city": "Hillsboro, OR",
+   "state": "OR",
+   "type": "franchise",
+   "website": "https://www.royalmooremazda.com/",
+   "sites": [
+    {
+     "name": "Royal Moore Mazda",
+     "url": "https://www.royalmooremazda.com/"
+    }
+   ],
+   "address": "1380 SE River Rd, Hillsboro, OR 97123",
+   "addressSource": null,
+   "lat": 45.50932,
+   "lon": -122.96969,
+   "region": "portland",
+   "phoneMain": "(971) 261-1190",
+   "taxRate": 11.05,
+   "taxBasis": "WA use tax at the Seattle rate (Oregon dealer)",
+   "docFee": 250,
+   "mapName": "Royal Moore Mazda / Toyota",
+   "statusName": "Royal Moore Mazda (Hillsboro OR)",
+   "channel": "none published — group home/contact/about/staff pages and Mazda-store home carry phones only, no email or mailto. Use website contact form.",
+   "inquiry": {
+    "sent": "Aug 11, 1:14 AM · site form",
+    "latest": "Pricing breakdown received (3:09 PM); follow-up from team (4:01 PM)"
+   },
+   "note": "Pin is the Mazda store; the Toyota lot (#20) is in the same Hillsboro auto center — confirm which lot holds #20."
+  },
+  "columbia_sales_service": {
+   "key": "columbia_sales_service",
+   "name": "Columbia Sales & Service",
+   "short": "Columbia Sales & Service",
+   "city": "Portland, OR",
+   "state": "OR",
+   "type": "independent",
+   "website": "https://www.columbiasalesandservice.com/",
+   "sites": [
+    {
+     "name": "Columbia Sales & Service",
+     "url": "https://www.columbiasalesandservice.com/"
+    }
+   ],
+   "address": "4110 NE Columbia Blvd, Portland, OR 97211",
+   "addressSource": null,
+   "lat": 45.57185,
+   "lon": -122.62143,
+   "region": "portland",
+   "phoneMain": null,
+   "taxRate": 11.05,
+   "taxBasis": "WA use tax at the Seattle rate (Oregon dealer)",
+   "docFee": 250,
+   "mapName": "Columbia Sales & Service (independent)",
+   "statusName": "Columbia Sales & Service (Portland OR)",
+   "channel": "Independent lot; contact via the Cars.com listing. Pull AutoCheck/Carfax first.",
+   "inquiry": {
+    "sent": "Aug 11, 12:00 AM · email",
+    "latest": null
+   },
+   "note": null
+  },
+  "carmax_sacramento": {
+   "key": "carmax_sacramento",
+   "name": "CarMax Sacramento South",
+   "short": "CarMax Sacramento",
+   "city": "Sacramento, CA",
+   "state": "CA",
+   "type": "nohaggle",
+   "website": "https://www.carmax.com/",
+   "sites": [
+    {
+     "name": "CarMax Sacramento",
+     "url": "https://www.carmax.com/"
+    }
+   ],
+   "address": null,
+   "addressSource": null,
+   "lat": null,
+   "lon": null,
+   "region": null,
+   "phoneMain": null,
+   "taxRate": null,
+   "taxBasis": null,
+   "docFee": null,
+   "mapName": "CarMax Sacramento South",
+   "statusName": "CarMax Sacramento South",
+   "channel": "Car SOLD 2026-08-11; no outreach.",
+   "inquiry": null,
+   "note": "Out of area (would have shipped) — not a test-drive stop"
+  },
+  "carmax_renton": {
+   "key": "carmax_renton",
+   "name": "CarMax Renton",
+   "short": "CarMax",
+   "city": "Renton, WA",
+   "state": "WA",
+   "type": "nohaggle",
+   "website": "https://www.carmax.com/stores/7263",
+   "sites": [
+    {
+     "name": "CarMax",
+     "url": "https://www.carmax.com/stores/7263"
+    }
+   ],
+   "address": "3751 East Valley Road, Renton, WA 98057",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.44544,
+   "lon": -122.22005,
+   "region": "seattle",
+   "phoneMain": null,
+   "taxRate": 11.0,
+   "taxBasis": "Renton vehicle rate",
+   "docFee": 200,
+   "mapName": "CarMax Renton (no-haggle)",
+   "statusName": "CarMax Renton · no transfer fee",
+   "channel": "No-haggle: no outreach email needed; the sticker is the price. Visit or hold online.",
+   "inquiry": {
+    "sent": "— (no-haggle reference; nothing to request)",
+    "latest": null
+   },
+   "note": null
+  },
+  "titus_will_olympia": {
+   "key": "titus_will_olympia",
+   "name": "Titus-Will Chevrolet GMC Cadillac",
+   "short": "Titus-Will",
+   "city": "Olympia, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.titus-will.com/",
+   "sites": [
+    {
+     "name": "Titus-Will",
+     "url": "https://www.titus-will.com/"
+    }
+   ],
+   "address": "2425 Carriage Loop SW, Olympia, WA 98502",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.03269,
+   "lon": -122.93146,
+   "region": "south",
+   "phoneMain": null,
+   "taxRate": 10.2,
+   "taxBasis": "Olympia vehicle rate",
+   "docFee": 200,
+   "mapName": "Titus-Will Chevrolet GMC Cadillac",
+   "statusName": "Titus-Will (Olympia)",
+   "channel": "Contacts not yet researched (v3 scan). Use the KBB listing's contact box or the store site form.",
+   "inquiry": {
+    "sent": "Aug 11, 10:42 AM · KBB",
+    "latest": "Proposal (2:29 PM); revised proposal (4:43 PM)"
+   },
+   "note": null
+  },
+  "rodland_toyota": {
+   "key": "rodland_toyota",
+   "name": "Rodland Toyota of Everett",
+   "short": "Rodland Toyota",
+   "city": "Everett, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.rodlandtoyota.com/",
+   "sites": [
+    {
+     "name": "Rodland Toyota",
+     "url": "https://www.rodlandtoyota.com/"
+    }
+   ],
+   "address": "6816 Evergreen Way, Everett, WA 98203",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.93561,
+   "lon": -122.22025,
+   "region": "north",
+   "phoneMain": "(425) 353-1111",
+   "taxRate": 10.4,
+   "taxBasis": "Everett vehicle rate",
+   "docFee": 200,
+   "mapName": "Rodland Toyota of Everett",
+   "statusName": "Rodland Toyota (Everett)",
+   "channel": "Contacts not yet researched (v3 scan).",
+   "inquiry": {
+    "sent": "Aug 11, 10:43 AM · KBB + call",
+    "latest": "Pricing sheet received as PDF (3:39 PM; $31,957.24 OTD, no add-ons); video follow-up (4:28 PM)"
+   },
+   "note": null
+  },
+  "dougs_lynnwood_mazda": {
+   "key": "dougs_lynnwood_mazda",
+   "name": "Doug's Lynnwood Mazda",
+   "short": "Doug's Lynnwood Mazda",
+   "city": "Edmonds, WA",
+   "state": "WA",
+   "type": "franchise",
+   "website": "https://www.dougsmazda.com/",
+   "sites": [
+    {
+     "name": "Doug's Lynnwood Mazda",
+     "url": "https://www.dougsmazda.com/"
+    }
+   ],
+   "address": "22214 Pacific Highway, Edmonds, WA 98026",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.7972,
+   "lon": -122.33403,
+   "region": "north",
+   "phoneMain": null,
+   "taxRate": 11.1,
+   "taxBasis": "Edmonds vehicle rate",
+   "docFee": 200,
+   "mapName": "Doug's Lynnwood Mazda",
+   "statusName": "Doug's Lynnwood Mazda (Edmonds)",
+   "channel": "Contacts not yet researched (v3 scan).",
+   "inquiry": {
+    "sent": "Aug 11 · Cars.com inquiry",
+    "latest": "Car sold (dealer email Aug 11; sold Aug 10)"
+   },
+   "note": null
+  },
+  "auto206": {
+   "key": "auto206",
+   "name": "Auto 206 (independent)",
+   "short": "Auto 206",
+   "city": "Kent, WA",
+   "state": "WA",
+   "type": "independent",
+   "website": "https://www.auto206.com/",
+   "sites": [
+    {
+     "name": "Auto 206",
+     "url": "https://www.auto206.com/"
+    }
+   ],
+   "address": "18110 East Valley Highway, Kent, WA 98031",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.43982,
+   "lon": -122.22049,
+   "region": "south",
+   "phoneMain": null,
+   "taxRate": 10.9,
+   "taxBasis": "Kent vehicle rate",
+   "docFee": 200,
+   "mapName": "Auto 206 (independent)",
+   "statusName": "Auto 206 (Kent, independent)",
+   "channel": "Independent lot; AutoCheck/Carfax before contact.",
+   "inquiry": {
+    "sent": "Aug 11, 10:50 AM · Autotrader + call",
+    "latest": "Written offer reaffirmed (4:00 PM); valid through Wed 7 PM"
+   },
+   "note": null
+  },
+  "auto_connections_bellevue": {
+   "key": "auto_connections_bellevue",
+   "name": "Auto Connections of Bellevue (independent)",
+   "short": "Auto Connections of Bellevue",
+   "city": "Bellevue, WA",
+   "state": "WA",
+   "type": "independent",
+   "website": "https://www.autoconnectionsbellevue.com/",
+   "sites": [
+    {
+     "name": "Auto Connections of Bellevue",
+     "url": "https://www.autoconnectionsbellevue.com/"
+    }
+   ],
+   "address": "13279 NE 20th Street, Bellevue, WA 98005",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 47.62773,
+   "lon": -122.16196,
+   "region": "seattle",
+   "phoneMain": null,
+   "taxRate": 10.8,
+   "taxBasis": "Bellevue vehicle rate",
+   "docFee": 200,
+   "mapName": "Auto Connections of Bellevue (independent)",
+   "statusName": "Auto Connections of Bellevue",
+   "channel": "Independent lot; AutoCheck/Carfax before contact.",
+   "inquiry": {
+    "sent": "Aug 11, 10:51 AM · Autotrader",
+    "latest": "Car sold (GM, 11:51 AM)"
+   },
+   "note": null
+  },
+  "tonkin_gresham": {
+   "key": "tonkin_gresham",
+   "name": "Tonkin Gresham Honda",
+   "short": "Tonkin Gresham Honda",
+   "city": "Troutdale, OR",
+   "state": "OR",
+   "type": "franchise",
+   "website": "https://www.tonkingreshamhonda.com/",
+   "sites": [
+    {
+     "name": "Tonkin Gresham Honda",
+     "url": "https://www.tonkingreshamhonda.com/"
+    }
+   ],
+   "address": "24999 SE Stark Street, Troutdale, OR 97060",
+   "addressSource": "OpenStreetMap POI (Nominatim, 2026-08-11)",
+   "lat": 45.51984,
+   "lon": -122.40619,
+   "region": "portland",
+   "phoneMain": null,
+   "taxRate": 11.05,
+   "taxBasis": "WA use tax at the Seattle rate (Oregon dealer)",
+   "docFee": 250,
+   "mapName": "Tonkin Gresham Honda",
+   "statusName": "Tonkin Gresham Honda, Troutdale OR",
+   "channel": "Same group as #4 — a single Portland trip could cover both cars.",
+   "inquiry": {
+    "sent": "Not sent (Oregon fallback, email-only)",
+    "latest": null
+   },
+   "note": null
+  },
+  "cortes_auto_center": {
+   "key": "cortes_auto_center",
+   "name": "Cortes Auto Center (independent)",
+   "short": "Cortes Auto Center",
+   "city": "Burlington, WA",
+   "state": "WA",
+   "type": "independent",
+   "website": "http://www.cortesautocenter.com",
+   "sites": [
+    {
+     "name": "Cortes Auto Center",
+     "url": "http://www.cortesautocenter.com"
+    }
+   ],
+   "address": "1757 Walton Dr, Burlington, WA 98233",
+   "addressSource": "KBB listing payload (dealer address), geocoded via OpenStreetMap Nominatim 2026-08-12",
+   "lat": 48.49012,
+   "lon": -122.33431,
+   "region": "north",
+   "phoneMain": "(360) 707-4420",
+   "taxRate": 9.1,
+   "taxBasis": "Burlington vehicle rate",
+   "docFee": 200,
+   "mapName": "Cortes Auto Center (independent)",
+   "statusName": "Cortes Auto Center (Burlington, independent)",
+   "channel": "Not researched (no dealer-site fetch per read-only scope). Use the KBB listing \"email dealer\" box without a phone number, or the site contact form if it allows omitting phone.",
+   "inquiry": {
+    "sent": "Not sent (found Aug 12)",
+    "latest": null
+   },
+   "note": null
+  }
+ },
+ "inquiryOrder": [
+  "kirkland",
+  "lee_johnson_mazda",
+  "columbia_sales_service",
+  "puyallup_mazda",
+  "royal_moore_mazda",
+  "bmw_seattle",
+  "ron_tonkin_honda",
+  "auto206",
+  "rodland_toyota",
+  "dougs_lynnwood_mazda",
+  "auto_connections_bellevue",
+  "titus_will_olympia",
+  "acura_of_seattle",
+  "cortes_auto_center",
+  "tonkin_gresham"
+ ],
+ "trims": [
+  {
+   "year": 2021,
+   "trim": "Touring",
+   "kbbNational": 18600,
+   "kbbSeattle": 25809,
+   "aug7Low": 23998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 6
+  },
+  {
+   "year": 2021,
+   "trim": "Grand Touring",
+   "kbbNational": 19900,
+   "kbbSeattle": 27552,
+   "aug7Low": 24998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 8
+  },
+  {
+   "year": 2021,
+   "trim": "Carbon Edition",
+   "kbbNational": 21100,
+   "kbbSeattle": 28678,
+   "aug7Low": 26512,
+   "aug7LowSrc": "KBB",
+   "aug7N": 3
+  },
+  {
+   "year": 2021,
+   "trim": "Carbon Ed Turbo",
+   "kbbNational": 21700,
+   "kbbSeattle": null,
+   "aug7Low": 25198,
+   "aug7LowSrc": "CarGurus",
+   "aug7N": 2
+  },
+  {
+   "year": 2021,
+   "trim": "GT Reserve (turbo)",
+   "kbbNational": 21800,
+   "kbbSeattle": 27770,
+   "aug7Low": 24999,
+   "aug7LowSrc": "KBB",
+   "aug7N": 2
+  },
+  {
+   "year": 2021,
+   "trim": "Signature (turbo)",
+   "kbbNational": 21700,
+   "kbbSeattle": 25041,
+   "aug7Low": 26462,
+   "aug7LowSrc": "KBB",
+   "aug7N": 3
+  },
+  {
+   "year": 2022,
+   "trim": "2.5 S Preferred",
+   "kbbNational": 21800,
+   "kbbSeattle": null,
+   "aug7Low": 24998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 3
+  },
+  {
+   "year": 2022,
+   "trim": "2.5 S Premium",
+   "kbbNational": 22500,
+   "kbbSeattle": null,
+   "aug7Low": 25998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 4
+  },
+  {
+   "year": 2022,
+   "trim": "2.5 S Premium Plus",
+   "kbbNational": 23200,
+   "kbbSeattle": 27000,
+   "aug7Low": 27389,
+   "aug7LowSrc": "KBB",
+   "aug7N": 2
+  },
+  {
+   "year": 2022,
+   "trim": "2.5 S Carbon Edition",
+   "kbbNational": 22900,
+   "kbbSeattle": 25934,
+   "aug7Low": 24998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 8
+  },
+  {
+   "year": 2022,
+   "trim": "2.5 Turbo",
+   "kbbNational": 22900,
+   "kbbSeattle": 27370,
+   "aug7Low": 27300,
+   "aug7LowSrc": "CarGurus",
+   "aug7N": 2
+  },
+  {
+   "year": 2023,
+   "trim": "2.5 S Preferred",
+   "kbbNational": 23400,
+   "kbbSeattle": null,
+   "aug7Low": 24095,
+   "aug7LowSrc": "Cars.com",
+   "aug7N": 12
+  },
+  {
+   "year": 2023,
+   "trim": "2.5 S Premium",
+   "kbbNational": 24500,
+   "kbbSeattle": 27825,
+   "aug7Low": 27545,
+   "aug7LowSrc": "CarGurus",
+   "aug7N": 4
+  },
+  {
+   "year": 2023,
+   "trim": "2.5 S Premium Plus",
+   "kbbNational": 26100,
+   "kbbSeattle": 30161,
+   "aug7Low": 28915,
+   "aug7LowSrc": "CarGurus",
+   "aug7N": 3
+  },
+  {
+   "year": 2023,
+   "trim": "2.5 S Carbon Edition",
+   "kbbNational": 24600,
+   "kbbSeattle": 27373,
+   "aug7Low": 26998,
+   "aug7LowSrc": "CarMax",
+   "aug7N": 8
+  },
+  {
+   "year": 2023,
+   "trim": "2.5 Turbo",
+   "kbbNational": 25900,
+   "kbbSeattle": 30980,
+   "aug7Low": 28199,
+   "aug7LowSrc": "CarGurus",
+   "aug7N": 2
+  }
+ ],
+ "market": {
+  "capturedDate": "2026-08-07",
+  "passing": 112,
+  "refreshedAgainst": "2026-08-12",
+  "note": "Aug 7 passing set (112 of 163 merged records); price/miles refreshed by VIN wherever the listing appeared in the latest sweep",
+  "cloud": [
+   {
+    "y": 2023,
+    "m": 27990,
+    "p": 28199,
+    "p0": 28199,
+    "t": "2.5 Turbo AWD",
+    "tk": "2.5 Turbo",
+    "d": "Puyallup Mazda",
+    "c": "Puyallup, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBAY3P0289626",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2021,
+    "m": 34800,
+    "p": 26302,
+    "p0": 26512,
+    "t": "Carbon Edition",
+    "tk": "Carbon Ed Turbo",
+    "d": "Ron Tonkin Honda",
+    "c": "Portland, OR",
+    "s": "KBB",
+    "vin": "JM3KFBCYXM0385696",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2021,
+    "m": 39141,
+    "p": 24999,
+    "p0": 24999,
+    "t": "Grand Touring Reserve",
+    "tk": "GT Reserve (turbo)",
+    "d": "BMW Seattle",
+    "c": "Seattle, WA",
+    "s": "KBB",
+    "vin": "JM3KFBAY5M0463157",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2022,
+    "m": 25353,
+    "p": 27300,
+    "p0": 27300,
+    "t": "2.5 Turbo AWD",
+    "tk": "2.5 Turbo",
+    "d": "Acura of Seattle",
+    "c": "Seattle, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBAY6N0592364",
+    "seenLatest": false,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 44989,
+    "p": 23995,
+    "p0": 24095,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "Columbia Sales & Service",
+    "c": "Portland, OR",
+    "s": "Cars.com",
+    "vin": "JM3KFBCM9P0119426",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2021,
+    "m": 33336,
+    "p": 25192,
+    "p0": 25192,
+    "t": "Grand Touring AWD",
+    "tk": "Grand Touring",
+    "d": "Hyundai of Kirkland",
+    "c": "Kirkland, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBDM3M0301052",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2021,
+    "m": 42515,
+    "p": 25198,
+    "p0": 25198,
+    "t": "Carbon Edition Turbo AWD",
+    "tk": "Carbon Ed Turbo",
+    "d": "Puyallup Mazda",
+    "c": "Puyallup, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBDYXM0120596",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2022,
+    "m": 34749,
+    "p": 27512,
+    "p0": 26972,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Lee Johnson Mazda of Seattle",
+    "c": "Seattle, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM4N0546820",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 16615,
+    "p": 26900,
+    "p0": 26900,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "Royal Moore Mazda Buick GMC",
+    "c": "Hillsboro, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM6P0274841",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 23202,
+    "p": 28915,
+    "p0": 28915,
+    "t": "2.5 S Premium Plus AWD",
+    "tk": "2.5 S Premium Plus",
+    "d": "Chuck Colvin Auto Group",
+    "c": "Mcminnville, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBEM0P0175347",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 33006,
+    "p": 27699,
+    "p0": 27699,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Puyallup Mazda",
+    "c": "Puyallup, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCMXP0288130",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 23970,
+    "p": 28998,
+    "p0": 28998,
+    "t": "2.5 Turbo AWD",
+    "tk": "2.5 Turbo",
+    "d": "CarMax Salem",
+    "c": "Salem, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBAYXP0132630",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 27837,
+    "p": 27240,
+    "p0": 27545,
+    "t": "2.5 S Premium AWD",
+    "tk": "2.5 S Premium",
+    "d": "Ron Tonkin Chrysler Jeep Dodge Ram Fiat",
+    "c": "Milwaukie, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBDM6P0128857",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 39412,
+    "p": 27472,
+    "p0": 27472,
+    "t": "Carbon Edition",
+    "tk": "Carbon Ed Turbo",
+    "d": "Tonkin Gresham Honda",
+    "c": "Troutdale, OR",
+    "s": "KBB",
+    "vin": "JM3KFBCYXM0499388",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 33261,
+    "p": 25895,
+    "p0": 25895,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "GoldBoyz Auto Sales",
+    "c": "Puyallup, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM5P0285460",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 26409,
+    "p": 28635,
+    "p0": 28400,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Toyota of Newport",
+    "c": "Newport, OR",
+    "s": "KBB",
+    "vin": "JM3KFBCM5P0156988",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 43640,
+    "p": 27389,
+    "p0": 27389,
+    "t": "AWD 2.5 S w/ Premium Plus Pkg",
+    "tk": "2.5 S Premium Plus",
+    "d": "Titus-Will Chevrolet GMC Cadillac - Olympia Auto Mall",
+    "c": "Olympia, WA",
+    "s": "KBB",
+    "vin": "JM3KFBEM1N0590576",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 28928,
+    "p": 27260,
+    "p0": 27760,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Titus-Will Used Cars - Olympia",
+    "c": "Olympia, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM2P0174560",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 31250,
+    "p": 27432,
+    "p0": 27432,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "Kendall Gmc Buick Of Nampa",
+    "c": "Nampa, ID",
+    "s": "Cars.com",
+    "vin": "JM3KFACM1M0409049",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 32594,
+    "p": 27400,
+    "p0": 27599,
+    "t": "2.5 S Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Lexus Of Portland",
+    "c": "Portland, OR",
+    "s": "Cars.com",
+    "vin": "JM3KFBCM4P0157436",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 37339,
+    "p": 28245,
+    "p0": 28245,
+    "t": "2.5 S Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Ron Tonkin Acura",
+    "c": "Portland, OR",
+    "s": "Cars.com",
+    "vin": "JM3KFBCM3N0649064",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 40451,
+    "p": 26712,
+    "p0": 26462,
+    "t": "Signature",
+    "tk": "Signature (turbo)",
+    "d": "Tonkin Gresham Honda",
+    "c": "Troutdale, OR",
+    "s": "KBB",
+    "vin": "JM3KFBEY2M0349546",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2022,
+    "m": 47333,
+    "p": 27198,
+    "p0": 27498,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Doug's Lynnwood Mazda",
+    "c": "Edmonds, WA",
+    "s": "KBB",
+    "vin": "JM3KFBCM7N0543071",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 23406,
+    "p": 28988,
+    "p0": 28988,
+    "t": "2.5 S Premium Plus AWD",
+    "tk": "2.5 S Premium Plus",
+    "d": "Olympia Mazda",
+    "c": "Olympia, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBEM6P0273606",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 26133,
+    "p": 25882,
+    "p0": 26721,
+    "t": "Touring AWD",
+    "tk": "Touring",
+    "d": "Mazda of Gladstone",
+    "c": "Gladstone, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM5M0474976",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 29506,
+    "p": 26637,
+    "p0": 26747,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "Mazda of Gladstone",
+    "c": "Gladstone, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM1P0279915",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 45726,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Boise (Meridian)",
+    "c": "Meridian, ID",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM1P0116648",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 44878,
+    "p": 23998,
+    "p0": 23998,
+    "t": "2.5 S Select AWD",
+    "tk": null,
+    "d": "CarMax Tri-Cities - Kennewick",
+    "c": "Richland, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBBM6N0606730",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 25604,
+    "p": 28199,
+    "p0": 28199,
+    "t": "Signature AWD",
+    "tk": "Signature (turbo)",
+    "d": "Mazda of Salem",
+    "c": "Salem, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBEY8M0387654",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 32200,
+    "p": 27998,
+    "p0": 27998,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Beaverton",
+    "c": "Beaverton, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM8P0257586",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 44278,
+    "p": 26219,
+    "p0": 26219,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "Legacy Chrysler Jeep Dodge RAM",
+    "c": "La Grande, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM5N0566459",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 35341,
+    "p": 26060,
+    "p0": 27040,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "Roger Kehdi Mitsubishi",
+    "c": "Tigard, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM2P0183114",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 34843,
+    "p": 26262,
+    "p0": 26262,
+    "t": "2.5 S Preferred AWD",
+    "tk": "2.5 S Preferred",
+    "d": "Dick Hannah Honda",
+    "c": "Vancouver, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM0N1603573",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 39250,
+    "p": 27150,
+    "p0": 27250,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Newberg Dodge Jeep Chrysler",
+    "c": "Newberg, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM1N1614906",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 45860,
+    "p": 26915,
+    "p0": 26915,
+    "t": "2.5 S Carbon Edition AWD",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Newport Chevrolet GMC",
+    "c": "Newport, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM4N0540855",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 21833,
+    "p": 28982,
+    "p0": 28982,
+    "t": "AWD 2.5 S w/ Premium Plus Pkg",
+    "tk": "2.5 S Premium Plus",
+    "d": "Ron Tonkin Mazda of Portland",
+    "c": "Portland, OR",
+    "s": "KBB",
+    "vin": "JM3KFBEM9P0155100",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 27089,
+    "p": 28700,
+    "p0": 28500,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "Doug's Lynnwood Mazda",
+    "c": "Edmonds, WA",
+    "s": "KBB",
+    "vin": "JM3KFBDM1M0461446",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 17505,
+    "p": 28487,
+    "p0": 28999,
+    "t": "AWD 2.5 S w/ Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "Rodland Toyota",
+    "c": "Everett, WA",
+    "s": "KBB",
+    "vin": "JM3KFBDM7P0281828",
+    "seenLatest": true,
+    "board": true
+   },
+   {
+    "y": 2022,
+    "m": 40095,
+    "p": 27772,
+    "p0": 27772,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Ron Tonkin Mazda of Portland",
+    "c": "Portland, OR",
+    "s": "KBB",
+    "vin": "JM3KFBCM4N0538233",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 44391,
+    "p": 27000,
+    "p0": 27000,
+    "t": "AWD 2.5 S w/ Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "McCurley Chevrolet",
+    "c": "Pasco, WA",
+    "s": "KBB",
+    "vin": "JM3KFBDM8P0184766",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 34475,
+    "p": 27188,
+    "p0": 26688,
+    "t": "Touring AWD",
+    "tk": "Touring",
+    "d": "Knudtsen Foothills Mazda",
+    "c": "Spokane, WA",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM4M0442052",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 47797,
+    "p": 27212,
+    "p0": 26962,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Tonkin Gresham Honda",
+    "c": "Troutdale, OR",
+    "s": "KBB",
+    "vin": "JM3KFBCM3P0103108",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 15281,
+    "p": 27777,
+    "p0": 27777,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "",
+    "c": "Tacoma, WA",
+    "s": "iSeeCars",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 16612,
+    "p": 27800,
+    "p0": 27800,
+    "t": "2.5 S Preferred",
+    "tk": "2.5 S Preferred",
+    "d": "",
+    "c": "Hillsboro, OR",
+    "s": "iSeeCars",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 16969,
+    "p": 26500,
+    "p0": 26900,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "Royal Moore Toyota",
+    "c": "Hillsboro, OR",
+    "s": "Cars.com",
+    "vin": "JM3KFBCM0P0182690",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 22725,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Laurel",
+    "c": "Laurel, MD",
+    "s": "CarMax",
+    "vin": "JM3KFBCMXM0489585",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 25353,
+    "p": 28040,
+    "p0": 28040,
+    "t": "2.5 Turbo",
+    "tk": "2.5 Turbo",
+    "d": "",
+    "c": "Seattle, WA",
+    "s": "iSeeCars",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 24927,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Lithia Springs",
+    "c": "Lithia Springs, GA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM4N0549216",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 26000,
+    "p": 26471,
+    "p0": 26471,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "",
+    "c": "Mazda of Gladstone",
+    "s": "Craigslist",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 25727,
+    "p": 25999,
+    "p0": 25999,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "Mazda Of Everett",
+    "c": "Everett, WA",
+    "s": "AutoByTel",
+    "vin": "JM3KFBCMXM0449698",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 26976,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Frederick",
+    "c": "Frederick, MD",
+    "s": "CarMax",
+    "vin": "JM3KFBDM8M1480246",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 27837,
+    "p": 27795,
+    "p0": 27795,
+    "t": "2.5 S Premium",
+    "tk": "2.5 S Premium",
+    "d": "",
+    "c": "Portland, OR",
+    "s": "iSeeCars",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 27274,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Roswell",
+    "c": "Roswell, GA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM0P0248364",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 27399,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Dulles",
+    "c": "Sterling, VA",
+    "s": "CarMax",
+    "vin": "JM3KFBDM5M0372446",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 28627,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Carbon Edition",
+    "tk": "Carbon Edition",
+    "d": "CarMax Rochester",
+    "c": "Rochester, NY",
+    "s": "CarMax",
+    "vin": "JM3KFBCM4M0434114",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 29010,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Sacramento South",
+    "c": "Sacramento, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBDM3N1522050",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 30159,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Greenville",
+    "c": "Greenville, SC",
+    "s": "CarMax",
+    "vin": "JM3KFBDM3N1523862",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 30000,
+    "p": 26497,
+    "p0": 26497,
+    "t": "Preferred",
+    "tk": "2.5 S Preferred",
+    "d": "",
+    "c": "Mazda of Gladstone",
+    "s": "Craigslist",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 30000,
+    "p": 26497,
+    "p0": 26497,
+    "t": "Preferred",
+    "tk": "2.5 S Preferred",
+    "d": "",
+    "c": "Mazda of Gladstone",
+    "s": "Craigslist",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 29497,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Ocala",
+    "c": "Ocala, FL",
+    "s": "CarMax",
+    "vin": "JM3KFADM7M1303696",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 31208,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Modesto",
+    "c": "Modesto, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM3P0197006",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 31830,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Tallahassee",
+    "c": "Tallahassee, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBCM9P0264756",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 32175,
+    "p": 26840,
+    "p0": 26840,
+    "t": "25 S Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "Luther Burnsville Hyundai",
+    "c": "Burnsville, MN",
+    "s": "CarSoup",
+    "vin": "JM3KFBCM2N0527067",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 33620,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Centennial",
+    "c": "Las Vegas, NV",
+    "s": "CarMax",
+    "vin": "JM3KFBDM8M0498400",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 32492,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Charleston",
+    "c": "Charleston, SC",
+    "s": "CarMax",
+    "vin": "JM3KFBCM1N1572740",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 34078,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Garland",
+    "c": "Garland, TX",
+    "s": "CarMax",
+    "vin": "JM3KFBCM2N1571712",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 35913,
+    "p": 28288,
+    "p0": 28299,
+    "t": "2.5 S Premium",
+    "tk": "2.5 S Premium",
+    "d": "Walkers Renton Mazda",
+    "c": "Renton, WA",
+    "s": "TrueCar",
+    "vin": "JM3KFBDM8P0179342",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 33590,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition Turbo",
+    "tk": "Carbon Ed Turbo",
+    "d": "CarMax Albuquerque",
+    "c": "Albuquerque, NM",
+    "s": "CarMax",
+    "vin": "JM3KFACY1M0414366",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 32385,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Fremont",
+    "c": "Fremont, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBCMXM0388160",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 35115,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Midlothian",
+    "c": "Midlothian, VA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM0N0630228",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 34250,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Austin North",
+    "c": "Austin, TX",
+    "s": "CarMax",
+    "vin": "JM3KFBCM5P0239904",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 35518,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Fremont",
+    "c": "Fremont, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBDM0M0322005",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 37634,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Palmdale",
+    "c": "Palmdale, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBEM9P0132027",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 37493,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Phoenix-Gilbert",
+    "c": "Gilbert, AZ",
+    "s": "CarMax",
+    "vin": "JM3KFACM6M0335482",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 39377,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Signature",
+    "tk": "Signature (turbo)",
+    "d": "CarMax West Broad",
+    "c": "Glen Allen, VA",
+    "s": "CarMax",
+    "vin": "JM3KFBEY1M0361784",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 36473,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Hulen Mall",
+    "c": "Fort Worth, TX",
+    "s": "CarMax",
+    "vin": "JM3KFADM1M0302971",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 40558,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Merrillville",
+    "c": "Merrillville, IN",
+    "s": "CarMax",
+    "vin": "JM3KFBDM1N1630621",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 39198,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Smithtown",
+    "c": "Saint James, NY",
+    "s": "CarMax",
+    "vin": "JM3KFBDM2P0189476",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 38000,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Loveland",
+    "c": "Loveland, CO",
+    "s": "CarMax",
+    "vin": "JM3KFBCM0M0470818",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 41295,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Premium Package",
+    "tk": "2.5 S Premium",
+    "d": "CarMax Garland",
+    "c": "Garland, TX",
+    "s": "CarMax",
+    "vin": "JM3KFBDM3N0591200",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 40163,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Turbo",
+    "tk": "2.5 Turbo",
+    "d": "CarMax Boynton Beach",
+    "c": "Boynton Beach, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBAY1N0606168",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 43025,
+    "p": 26998,
+    "p0": 26998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Greenwood",
+    "c": "Indianapolis, IN",
+    "s": "CarMax",
+    "vin": "JM3KFBCM1P0250785",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 41573,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Fresno",
+    "c": "Fresno, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM2P0149707",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 42873,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Live Oak",
+    "c": "San Antonio, TX",
+    "s": "CarMax",
+    "vin": "JM3KFBCM9P0172790",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 42998,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Newark",
+    "c": "Newark, DE",
+    "s": "CarMax",
+    "vin": "JM3KFBCM8P0249133",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 43019,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Merrillville",
+    "c": "Merrillville, IN",
+    "s": "CarMax",
+    "vin": "JM3KFBCM1M0438671",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 41625,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Tuscaloosa",
+    "c": "Tuscaloosa, AL",
+    "s": "CarMax",
+    "vin": "JM3KFACM4M0378606",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 43835,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Garland",
+    "c": "Garland, TX",
+    "s": "CarMax",
+    "vin": "JM3KFBCMXP0250400",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 43904,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Ocala",
+    "c": "Ocala, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBCM7N0543653",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 45764,
+    "p": 26230,
+    "p0": 26926,
+    "t": "Grand Touring AWD",
+    "tk": "Grand Touring",
+    "d": "Tonkin Hillsboro Chrysler Jeep Dodge RAM",
+    "c": "Hillsboro, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBDM6M0429625",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 42541,
+    "p": 24998,
+    "p0": 24998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Parker",
+    "c": "Parker, CO",
+    "s": "CarMax",
+    "vin": "JM3KFBCMXP0173964",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 45998,
+    "p": 26998,
+    "p0": 26998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Phoenix-Gilbert",
+    "c": "Gilbert, AZ",
+    "s": "CarMax",
+    "vin": "JM3KFBCM4P0287801",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 44390,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Gaithersburg",
+    "c": "Gaithersburg, MD",
+    "s": "CarMax",
+    "vin": "JM3KFBDM6M0454430",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 42753,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Jacksonville",
+    "c": "Jacksonville, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBDM2M1436677",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 44995,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Orlando",
+    "c": "Orlando, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBCM7P0232842",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2023,
+    "m": 45319,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Preferred Package",
+    "tk": "2.5 S Preferred",
+    "d": "CarMax Salt Lake (South Jordan)",
+    "c": "South Jordan, UT",
+    "s": "CarMax",
+    "vin": "JM3KFBCM0P0163640",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 40273,
+    "p": 22998,
+    "p0": 22998,
+    "t": "2.5 S",
+    "tk": null,
+    "d": "CarMax Murrieta",
+    "c": "Murrieta, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBAMXN0648853",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 46655,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Grand Rapids (Kentwood)",
+    "c": "Kentwood, MI",
+    "s": "CarMax",
+    "vin": "JM3KFBCM4N0551015",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 46935,
+    "p": 25998,
+    "p0": 25998,
+    "t": "2.5 S Premium Plus Package",
+    "tk": "2.5 S Premium Plus",
+    "d": "CarMax Clermont",
+    "c": "Clermont, FL",
+    "s": "CarMax",
+    "vin": "JM3KFBEMXN0545975",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 47000,
+    "p": 25787,
+    "p0": 25787,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "",
+    "c": "Mazda of Gladstone",
+    "s": "Craigslist",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 47000,
+    "p": 25787,
+    "p0": 25787,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "",
+    "c": "Mazda of Gladstone",
+    "s": "Craigslist",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 42665,
+    "p": 23400,
+    "p0": 23400,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "",
+    "c": "Hillsboro, OR",
+    "s": "iSeeCars",
+    "vin": null,
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 48092,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "CarMax Westborough",
+    "c": "Westborough, MA",
+    "s": "CarMax",
+    "vin": "JM3KFBDM0M1434300",
+    "seenLatest": false,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 48294,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Grand Touring Reserve",
+    "tk": "GT Reserve (turbo)",
+    "d": "CarMax Brandywine",
+    "c": "Brandywine, MD",
+    "s": "CarMax",
+    "vin": "JM3KFBAY7M0431309",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 48384,
+    "p": 25998,
+    "p0": 25998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Salt Lake (South Jordan)",
+    "c": "South Jordan, UT",
+    "s": "CarMax",
+    "vin": "JM3KFBCMXN1522287",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 45174,
+    "p": 23998,
+    "p0": 23998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Buford",
+    "c": "Buford, GA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM6M0484075",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 48955,
+    "p": 25338,
+    "p0": 25338,
+    "t": "Grand Touring",
+    "tk": "Grand Touring",
+    "d": "Barnett White Bear Chrysler Jeep Dodge Ram Kia",
+    "c": "White Bear Lake, MN",
+    "s": "CarSoup",
+    "vin": "JM3KFBDM6M0453665",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 48337,
+    "p": 24998,
+    "p0": 24998,
+    "t": "Carbon Edition",
+    "tk": "2.5 S Carbon Edition",
+    "d": "CarMax Sacramento South",
+    "c": "Sacramento, CA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM0N1599511",
+    "seenLatest": false,
+    "board": true
+   },
+   {
+    "y": 2023,
+    "m": 44609,
+    "p": 22998,
+    "p0": 22998,
+    "t": "2.5 S",
+    "tk": null,
+    "d": "CarMax White Marsh",
+    "c": "White Marsh, MD",
+    "s": "CarMax",
+    "vin": "JM3KFBAM6P0206302",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2022,
+    "m": 47595,
+    "p": 22990,
+    "p0": 23590,
+    "t": "2.5 S Select Sport Utility 4D",
+    "tk": null,
+    "d": "",
+    "c": "Eugene, OR",
+    "s": "Carvana",
+    "vin": "JM3KFBBM1N0608403",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 48583,
+    "p": 23998,
+    "p0": 23998,
+    "t": "Touring",
+    "tk": "Touring",
+    "d": "CarMax Virginia Beach",
+    "c": "Virginia Beach, VA",
+    "s": "CarMax",
+    "vin": "JM3KFBCM9M0320352",
+    "seenLatest": true,
+    "board": false
+   },
+   {
+    "y": 2021,
+    "m": 46958,
+    "p": 25482,
+    "p0": 26037,
+    "t": "Touring AWD",
+    "tk": "Touring",
+    "d": "Mazda of Gladstone",
+    "c": "Gladstone, OR",
+    "s": "CarGurus",
+    "vin": "JM3KFBCM6M1434271",
+    "seenLatest": true,
+    "board": false
+   }
+  ]
+ },
+ "watchlist": [
+  {
+   "car": "2022 2.5 S Carbon Edition, 47,333 mi, $26,998+$200",
+   "dealer": "Doug's Lynnwood Mazda",
+   "state": "WA",
+   "url": "https://www.cargurus.com/Cars/listing/454596751",
+   "whyNot": "Fair Deal rating, 47k mi; #7/#9 beat it on miles and CPO.",
+   "latest": {
+    "price": 27198,
+    "was": 27198,
+    "move": 0,
+    "daysListed": 15,
+    "deal": "Fair",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "Mazda CPO 2022 2.5 S Select, 48,468 mi, $24,081+$299",
+   "dealer": "West Hills Mazda, Bremerton",
+   "state": "WA",
+   "url": "https://www.autotrader.com/cars-for-sale/vehicle/786226153",
+   "whyNot": "Cheapest Mazda-CPO car found, but Select trim (comfort-low) + 48k mi; budget backup only.",
+   "latest": {
+    "price": 24081,
+    "was": 24081,
+    "move": 0,
+    "daysListed": null,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2023 2.5 S Carbon Edition, 28,928 mi, $27,060+$200",
+   "dealer": "Titus-Will Used Cars - Olympia",
+   "state": "WA",
+   "url": "https://www.cargurus.com/Cars/listing/453420840",
+   "whyNot": "$1.6k of drops already; loses to #9 (CPO, same money).",
+   "latest": {
+    "price": 27260,
+    "was": 27260,
+    "move": 0,
+    "daysListed": 28,
+    "deal": "Good",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2023 2.5 S Carbon Edition, 23K mi, $28,998",
+   "dealer": "Rodland Toyota of Everett",
+   "state": "WA",
+   "url": "https://www.autotrader.com/cars-for-sale/vehicle/787184706",
+   "whyNot": "At the cap before fees; #14 at the same store is the better comfort buy.",
+   "latest": {
+    "price": 28998,
+    "was": 28998,
+    "move": 0,
+    "daysListed": null,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2.5 S Preferred AWD (year unverified), 33,261 mi, $25,695+$200",
+   "dealer": "GoldBoyz Auto Sales, Puyallup (indie)",
+   "state": "WA",
+   "url": "https://www.cargurus.com/Cars/listing/449710675",
+   "whyNot": "Sponsored indie tile, 70 days on market; verify year + history before considering.",
+   "latest": {
+    "price": 25895,
+    "was": 25895,
+    "move": 0,
+    "daysListed": 71,
+    "deal": "Good",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2022 2.5 S Select, 28,548 mi, $24,995+$200",
+   "dealer": "Pacific Coast Auto Center, Burlington (indie)",
+   "state": "WA",
+   "url": "https://www.cargurus.com/Cars/listing/449233426",
+   "whyNot": "Fair Deal, Select trim, 75 days; budget tier only.",
+   "latest": {
+    "price": 25195,
+    "was": 25195,
+    "move": 0,
+    "daysListed": 77,
+    "deal": "Fair",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2021 Touring, 21,391 mi, $27,999-$28,199",
+   "dealer": "Mazda of Everett",
+   "state": "WA",
+   "url": "https://www.autotrader.com/cars-for-sale/vehicle/787834756",
+   "whyNot": "Touring = below the comfort bar at a GT price.",
+   "latest": {
+    "price": 27999,
+    "was": 27999,
+    "move": 0,
+    "daysListed": null,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2021 Carbon Edition Turbo, 39,412 mi, $27,722",
+   "dealer": "Tonkin Gresham Honda",
+   "state": "OR",
+   "url": "https://www.cars.com/vehicledetail/c5fca301-f2de-4480-801a-bed903370d40/",
+   "whyNot": "#4 is the same formula $1.6k cheaper.",
+   "latest": {
+    "price": 27722,
+    "was": 27722,
+    "move": 0,
+    "daysListed": null,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2023 2.5 S Carbon Edition, 32,594 mi, $27,400",
+   "dealer": "Lexus of Portland",
+   "state": "OR",
+   "url": "https://www.cars.com/vehicledetail/094ebb74-c5d0-4fa6-91f5-9b677cc9e444/",
+   "whyNot": "OR, loses to #9 (WA + CPO) at the same money.",
+   "latest": {
+    "price": null,
+    "was": 27400,
+    "move": null,
+    "daysListed": null,
+    "deal": null,
+    "seen": false,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "car": "2023 2.5 S Select, 13,555 mi, $25,950",
+   "dealer": "Lexus of Portland",
+   "state": "OR",
+   "url": "https://www.cars.com/vehicledetail/59d3b36d-7131-439c-a3b7-7b91343a454d/",
+   "whyNot": "Lowest-mile car found, but Select trim + OR.",
+   "latest": {
+    "price": 25950,
+    "was": 25950,
+    "move": 0,
+    "daysListed": null,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  }
+ ],
+ "noHaggle": [
+  {
+   "tier": "2023 Premium tier (WA)",
+   "seller": "CarMax Renton",
+   "price": 27998,
+   "detail": "31,166 mi, no transfer fee, listed Aug 10",
+   "car": 15,
+   "carvana": null,
+   "note": "the benchmark every negotiated OTD must beat"
+  },
+  {
+   "tier": "2023 Preferred tier",
+   "seller": "Columbia Sales & Service (OR indie)",
+   "price": 24095,
+   "detail": "44,989 mi, $23,995 + $100 doc",
+   "car": 10,
+   "carvana": {
+    "price": 24590,
+    "detail": "41k mi, Aug 7 reference"
+   },
+   "note": null
+  },
+  {
+   "tier": "2022 Carbon / Premium tier",
+   "seller": "CarMax",
+   "price": null,
+   "detail": "the $24,998 Sacramento Carbon (#11) sold Aug 11",
+   "car": 11,
+   "carvana": {
+    "price": 28590,
+    "detail": "15k mi Premium, Aug 7 reference"
+   },
+   "note": "nearest replacements: CarMax Huntsville 2022 Carbon $27,998 (21,750 mi) + shipping; CarMax Henderson 2023 2.5 Turbo $27,998 (23,947 mi) + shipping"
+  }
+ ],
+ "sources": [
+  {
+   "source": "AutoTempest",
+   "status": "ok",
+   "statusLabel": "ok",
+   "pulled": 77,
+   "added": "Aggregator seed — Cars.com / CarGurus / TrueCar / Carvana / CarSoup / AutoByTel VINs in one shot"
+  },
+  {
+   "source": "CarGurus",
+   "status": "ok",
+   "statusLabel": "ok (VDPs only)",
+   "pulled": 41,
+   "added": "Richest per-car data: accidents, owners, CPO, photo count, days-on-lot, $-below-market. Search page is DataDome-blocked; detail pages fetched via AutoTempest listing IDs"
+  },
+  {
+   "source": "CarMax",
+   "status": "ok",
+   "statusLabel": "ok",
+   "pulled": 72,
+   "added": "National no-haggle floor via /cars/api/search/run JSON API. Transfer fees per unit"
+  },
+  {
+   "source": "Carvana",
+   "status": "fallback",
+   "statusLabel": "blocked (fallback ok)",
+   "pulled": 10,
+   "added": "Cloudflare Turnstile on carvana.com; 10 listings recovered via AutoTempest"
+  },
+  {
+   "source": "KBB",
+   "status": "ok",
+   "statusLabel": "ok",
+   "pulled": 47,
+   "added": "Round-2 win. Per-listing KBB Fair Purchase Price + delta, price-drop history, AutoCheck vhrPreview (accidents / 1-owner), CPO flag. Cox backend = Autotrader inventory"
+  },
+  {
+   "source": "iSeeCars",
+   "status": "ok",
+   "statusLabel": "ok",
+   "pulled": 20,
+   "added": "Price/miles only (no VIN on search page). 15/20 soft-matched to existing VINs — confirmed cross-listing, no net-new inventory"
+  },
+  {
+   "source": "Craigslist",
+   "status": "ok",
+   "statusLabel": "ok",
+   "pulled": 11,
+   "added": "All dealer reposts (Royal Moore, Mazda of Gladstone, Ron Tonkin). No private-party CX-5s in range. No VINs on search page"
+  },
+  {
+   "source": "Autotrader",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "Akamai bot-block (headful too). Same Cox inventory as KBB — covered"
+  },
+  {
+   "source": "Edmunds",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "403 edge/WAF, IP-based. Tried headless, headful, direct API"
+  },
+  {
+   "source": "Cars.com (VDPs)",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "Cloudflare challenge on detail pages. Search-page data via AutoTempest is fine (18 listings)"
+  },
+  {
+   "source": "TrueCar",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "PerimeterX captcha. 5 listings recovered via AutoTempest"
+  },
+  {
+   "source": "CarFax",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "DataDome captcha (captcha-delivery.com)"
+  },
+  {
+   "source": "FB Marketplace",
+   "status": "blocked",
+   "statusLabel": "blocked",
+   "pulled": 0,
+   "added": "Login wall — skipped per read-only rule"
+  }
+ ],
+ "sweeps": [
+  {
+   "date": "2026-08-12",
+   "kind": "read-only datacenter sweep",
+   "raw": 386,
+   "uniqueVins": 223,
+   "newVins": 26,
+   "newPassed": 1,
+   "newDisqualified": 25,
+   "sourceCounts": {
+    "autotempest": 125,
+    "cargurus": 47,
+    "carvana": 59,
+    "kbb": 45,
+    "carmax": 96,
+    "craigslist": 14
+   },
+   "sold": [],
+   "unverifiable": [
+    12
+   ],
+   "priceMovesBoard": [],
+   "added": [
+    21
+   ],
+   "method": "Read-only datacenter sweep: AutoTempest results page, CarGurus VDP JSON for every CG id (board + feed), KBB SRP __NEXT_DATA__ (2 pages) + KBB VDPs for board/Autotrader ids, CarMax /cars/api/search/run, Craigslist SRP, one dealer VDP GET (#4). No forms, no availability clicks. Dealer comms logged in the repo take precedence over listing state.",
+   "note": "No listed-price change on any live board car (source by source); no watchlist move; #12 could not be re-verified (Cars.com-only listing, bot-blocked from the sweep environment). No further car met the two-source sold test."
+  },
+  {
+   "date": "2026-08-11",
+   "kind": "live re-check in the buyer’s own browser + WA-first re-scan",
+   "sold": [
+    2,
+    3,
+    11,
+    16,
+    18
+   ],
+   "added": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "method": "Live page loads in Evan's own Chrome (residential IP): CarGurus VDP rendered text, KBB VDP, Cars.com VDP/SRP, CarMax VDP, Autotrader SRP, dealer own-site VDP/inventory search. Read-only; no forms touched, no logins.",
+   "note": "Five tracked cars sold within ~24 h; #1’s reported sale was disconfirmed (live on CarGurus and the dealer’s own site)."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-08-12",
+   "bullets": [
+    "Fresh read-only sweep (AutoTempest, CarGurus, KBB, CarMax, Carvana, Craigslist: 386 raw / 223 VINs). Every live board car re-verified with no listed-price change; #12 (Cars.com-only) could not be re-checked from the sweep environment.",
+    "26 VINs not seen before: 25 disqualified (unwanted trim, out-of-area no-haggle units no better than #15, no value signal), 1 added as #21 (2021 Signature, Burlington WA, $25,999 + $200).",
+    "Rodland (#14) pricing sheet transcribed: $31,957.24 OTD, clean ($0 add-ons, $200 doc; tax + licence lumped).",
+    "Site now regenerates every section and download from one board file, so the cost table, compare box, calculator and top picks follow the live set (sold #3 dropped from the picks; quoted OTDs replace estimates where dealers have replied)."
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "bullets": [
+    "Buyer outreach began: itemized-OTD requests to every live dealer; written numbers back from Kirkland (#5), Titus-Will (#13, revised), Auto 206 (#17), Rodland (#14) and Royal Moore (#8, add-ons to strike).",
+    "Sold and removed: #2 Acura of Seattle Turbo, #3 BMW Seattle GT Reserve (dealer-confirmed), #11 CarMax Sacramento, #16 Doug’s Lynnwood GT, #18 Auto Connections Bellevue. #1’s reported sale was wrong (live on CarGurus and Puyallup Mazda’s own site at $27,999).",
+    "Comfort-first re-rank and WA-first re-scan added #12–#20; tax model corrected to dealer-city rates (Seattle 11.05%) from the flat 10.35% used on Aug 7."
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "bullets": [
+    "Initial read-only market scan: 278 raw listings → 153 unique VINs → 112 pass the disqualifiers; 11-car shortlist ranked by value."
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "key": "seattle",
+   "title": "Seattle / Eastside loop",
+   "order": [
+    "lee_johnson_mazda",
+    "kirkland",
+    "auto_connections_bellevue",
+    "bmw_seattle",
+    "acura_of_seattle",
+    "carmax_renton"
+   ],
+   "worth": "Worth it if: always — this is the default Saturday-morning loop, and Kirkland (#5) now has a written $24,992 / $28,591 OTD sheet. Sit in the CarMax Renton Premium (#15) even if you buy elsewhere; it is the fixed-price benchmark. BMW Seattle (#3), Auto Connections Bellevue (#18) and Acura (#2) are sold and dropped from the route."
+  },
+  {
+   "key": "north",
+   "title": "North — Everett, Burlington",
+   "order": [
+    "rodland_toyota",
+    "cortes_auto_center",
+    "dougs_lynnwood_mazda"
+   ],
+   "worth": "Worth it if Rodland's written number on #14 comes down toward the $31,100 OTD counter — it is the lowest-mile Premium in the set. ~30 min up I-5; Lee Johnson (#7/#12) is on the way back. Burlington (#21, the Aug 12 Signature find) is another ~40 min north of Everett: add it only after a clean history report and an emailed OTD. Doug's Lynnwood (#16) sold, so no Edmonds stop."
+  },
+  {
+   "key": "south",
+   "title": "South Sound — Kent, Puyallup, Olympia",
+   "order": [
+    "auto206",
+    "puyallup_mazda",
+    "titus_will_olympia"
+   ],
+   "worth": "Worth it if Puyallup puts #1/#6/#9 in writing (three cars, one stop). Add Olympia only if #13's $31,000 written OTD moves toward the $30,200 counter (CarMax Renton's equivalent is ~$31.9k); Auto 206 (#17) has a clean-fee $28,718.60 sheet but a 2024 accident on the Carfax, so stop there only if that rule is waived. Kent → Puyallup → Olympia is ~1 hr 15 min of driving one way."
+  },
+  {
+   "key": "portland",
+   "title": "Portland metro — Portland, Troutdale, Hillsboro",
+   "order": [
+    "ron_tonkin_honda",
+    "tonkin_gresham",
+    "columbia_sales_service",
+    "royal_moore_mazda"
+   ],
+   "worth": "Worth it only if a written OTD from #4 or #8/#20 clearly beats every WA finalist — it is ~175 road-miles / ~3 hr each way and the brief now treats Oregon as fallback. Tonkin Honda and Tonkin Gresham are the same dealer family (#4 + #19 in one visit); Royal Moore is ~20 min west in Hillsboro."
+  }
+ ],
+ "prose": {
+  "shortlistIntro": "Filtered from 163 merged records → 112 passed disqualifiers (0 accidents, non-fleet, no lemon/frame, ≥6 photos where known, VIN present or CL/iSeeCars-flagged, wanted trim). Ranked on deal-rating / KBB-FPP-delta → $-below-market → 1-owner → CPO → mi/$. At least 3 non-CarGurus sources enforced. All VINs = 0 open NHTSA recalls (2021/22/23 CX-5, checked 8/7/26).",
+  "notableDQ": "Notable disqualifications: 2021 Touring $22,900 Royal Moore (accident); 2021 Signature $24,490 Monroe (accident); 2021 GT 15k-mi $27,282 Tacoma (accident); 2022 Preferred $24,998 CarMax Beaverton (accident); 3 KBB listings with ACCIDENTS_REPORTED; 21 unwanted-trim (Select/base 2.5 S) not >$3k under year-avg.",
+  "trimIntro": "KBB national = kbb.com pricing pages (default zip, “typical” mileage). KBB Seattle = per-listing FPP averaged from KBB search results (mileage-adjusted, local). Δ = lowest clean listing − Seattle FPP (or national when Seattle n/a).",
+  "trimFootnotes": [
+   "¹ Seattle FPP = mean of per-listing kbbFppAmount from KBB search results (n=1–5 per cell).",
+   "² No Seattle FPP for this cell; Δ shown vs national — national is systematically ~$3–5k low (default-zip, higher-mileage assumption), so treat these as “at market,” not overpriced."
+  ],
+  "noHaggleIntro": "Walk-away numbers: if a dealer won't beat these for the same tier, buy the fixed-price unit.",
+  "email": "Hi, I'm Evan, looking at your [YEAR] Mazda CX-5 [TRIM], stock #[STOCK] / VIN [VIN]. I'm comparing several CX-5s in the Seattle area this week and narrowing to two or three. Could you email me an itemized out-the-door quote in writing: vehicle price, doc fee, sales tax, title/registration, and any dealer add-ons listed separately? I'm undecided on financing vs. outside lender, so please quote the cash OTD; we can talk financing after. Thanks. Happy to come see the car once I have the numbers.",
+  "honestRead": "Honest read: the proxy IP is on Akamai / Cloudflare / DataDome / PerimeterX blocklists, so 6 of 13 direct sources are unreachable. But the blocks cost almost nothing: Autotrader = KBB inventory (got it), TrueCar / Cars.com = AutoTempest feed (got it), CarFax listings = mostly CarGurus overlap. Net-new inventory from round 2 is ~22 cars (KBB-only VINs); everything else was already in round 1 under a different badge.",
+  "dedupe": "Dedupe: 278 raw → 153 unique VINs (VIN-matched) + 10 no-VIN orphans. 21 no-VIN records soft-matched to existing VINs by (year, ±1k mi, ±$250) and folded in as “also on” tags.",
+  "filterRules": [
+   "Disqualify: any reported accident, fleet / rental prior use, lemon or frame-damage flag, fewer than 6 photos (where photo count is known), missing VIN (unless Craigslist / iSeeCars-flagged), missing price or miles.",
+   "Trim: unwanted trims (Sport, Select, base 2.5 S) dropped unless priced more than $3k under the year average.",
+   "Rank: deal rating / KBB FPP delta → $ below market → 1-owner → CPO → miles per dollar; at least 3 non-CarGurus sources and all 3 model years enforced on the shortlist."
+  ],
+  "recallNote": "NHTSA recalls: 0 open campaigns for MY2021–2023 CX-5 (checked 8/7/26). Verify by VIN at nhtsa.gov/recalls before purchase.",
+  "footnotes": [
+   "Merge: 278 raw records (R1 200 + R2 78) → 153 unique VINs by exact VIN match; 21 no-VIN records soft-matched by (year, ±1k mi, ±$250); 10 no-VIN orphans retained (Craigslist / iSeeCars). Per-source primary contribution after dedupe: CarMax 68, CarGurus 41, KBB 22, Carvana 10, Cars.com 7, iSeeCars 5 orphan, Craigslist 5 orphan, TrueCar 2, CarSoup 2, AutoByTel 1.",
+   "KBB national FPP is default-zip (75201) at “typical” mileage — reads ~$3–5k below Seattle retail across the board. Use the Seattle-derived FPP column for delta math.",
+   "#6 KBB record has null kbbFpp (delta shows as −$25,198 in raw data — artifact, ignored).",
+   "CarMax pick #11: priorUse=[] (no fleet flag); CarMax history report available on the vehicle page.",
+   "iSeeCars adds no VINs and no history data — useful only as a cross-listing signal. Craigslist yielded zero private-party sellers in this range."
+  ],
+  "sourcesHead": "13 sources across 2 rounds, plus daily re-check sweeps",
+  "runnerUp": "Runners-up, comfort-first: #12, the Mazda-CPO 2023 Preferred at Lee Johnson ($26,348, in the same written request as #7), and #13, the ventilated-seat 2022 Premium Plus in Olympia ($31,000 OTD quoted, holding at $30,200); #4, the dealer-confirmed Carbon Turbo in Portland ($26,102, quote in preparation), is the Oregon fallback (email only).",
+  "bestRemaining": "Best remaining, comfort-first: #5 2021 Grand Touring + GT Premium pkg at Kirkland ($25,192 list, $24,992 quoted in writing), then #12 Mazda-CPO 2023 Preferred at Lee Johnson ($26,348) and #13 ventilated-seat 2022 Premium Plus in Olympia ($27,389 list, $31,000 OTD quoted), then the CPO pair: #9 2023 Carbon at Puyallup ($27,699) and #7 2022 Carbon at Lee Johnson ($27,512). #4, the dealer-confirmed Carbon Turbo in Portland at $26,102, is the Oregon fallback (email only). See New candidates below.",
+  "statusScope": "maintained automatically as dealer replies and listing changes come in. Prices are listed asking prices; availability reflects the latest information we have and can lag the lot.",
+  "statusFootnote": "Ordered by current fit (comfort equipment, mileage, value). The full shortlist table has every column and sorts on any of them; the trim guide explains what each trim gets you.",
+  "mapSummary": "Every board car grouped by the lot it sits on, with its current asking price and where the conversation stands. Availability lags the lot — a car is only really there when the dealer says so in writing.",
+  "guideReading": "Comfort-first reading: the full-comfort cars are the luxury-feel standouts; the CPO Carbons trade some pampering for warranty peace of mind; the Preferreds are pleasant but plainer inside. Prices and availability move daily; the status board is the live view and the main report has the full data."
+ }
+}
