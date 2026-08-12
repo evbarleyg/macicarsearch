@@ -897,3 +897,7 @@ Evan's direction: keep a running tab of contenders judged on merits (the scorebo
 ### 2026-08-12 20:1xZ (1:1x PM PT Wed) — PR #2 noted; Pages deploys now exclude outreach/
 
 Evan opened PR #2 (outreach → main) from the Claude Code UI to consolidate the research pack onto main. Both Pages workflows uploaded the full repo root, so the merge would have made the negotiation pack (per-car targets, private floors, counter templates: outreach/CX5-Dealer-Emails.html, outreach_data.json, negotiation_research.md) live URLs on the public site domain. Fixed on main before merge (rm -rf outreach in the workflow workspace pre-upload, both workflows): content merges to main normally, the deployed site never serves it. PR #2 is safe to merge whenever Evan wants; it updates automatically on Mac pushes to outreach.
+
+### 2026-08-12 21:4xZ (2:4x PM PT Wed) — Doug's written proposal arrived (PDF, unparsed)
+
+Alex (Doug's Lynnwood) delivered at 1:56 PM: "Proposal From Doug's Lynnwood Mazda", body just "THANK YOU", numbers in attached Proposal.pdf — presumably the 2022 Carbon Edition (stock #260724, $26,998 list, 47k mi). Unparsed (Gmail connector cannot download attachments); Evan to upload here or Add-to-Drive, or Mac transcribes. Thread labeled. Under two hours from request to written proposal — responsive dealer. No action until parsed; the merit bar: at 47k mi it must undercut Puyallup #6's clean $28,547.78 to matter.
