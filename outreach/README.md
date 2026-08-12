@@ -834,3 +834,12 @@ PUBLIC-SITE NEUTRALITY ENFORCEMENT (main @ 55127b9): the rebuilt site rendered d
 ### 2026-08-12 02:1xZ (7:1x PM PT Tue) — Evan: no acceptance over email
 
 Directive from Evan: the Kirkland acceptance does not happen over email. The staged ACCEPT draft (r-1345649998151426458) rewritten as a keep-warm reply only: confirms license-bills-at-actuals and weekend availability at the Kirkland lot, says Saturday plans are being locked, commits to nothing. Deliberate side effect: the 3:50 PM site-form counter ($27,700) is no longer superseded and stays live in their CRM as pressure. Commitment/deposit/signing happen in person or by phone through Evan directly. Standing risk noted once: until a deposit or visit, nothing holds the car (market cleared 5 tracked cars in ~24h). Send order for the other drafts unchanged: Titus $30,200 hold, Royal Moore likely-pass, Rodland itemization.
+
+### 2026-08-12 02:4xZ (7:4x PM PT Tue) — v2.1 ingested; Titus draft adopts assertive close
+
+Mac session's v2.1 pack ingested (outreach @ 3f9c8a8): assertive closes (one OTD, buyer's-order-with-VIN ask, fixed Saturday time + same-day deadline), nothing offered up front to hold a car, private floors never stated, no second counter / no split-the-difference, and NO new counters on #12–#20 until targets are worked up. Reconciliation of the four staged drafts:
+- Kirkland keep-warm: UNCHANGED (Evan's no-email-acceptance directive governs). Note: per the v2.1 playbook rule (final written number at or under floor with a clean sheet = book the slot), Kirkland's $28,591.14 already qualifies — booking happens off email through Evan.
+- Titus-Will hold (r602487916180028399): REWRITTEN to the v2.1 close — $30,200 OTD stated once (continuity of the already-sent counter, not a new one), buyer's order + Saturday [time] + tell-me-today walk line. Evan fills [time] before sending.
+- Royal Moore likely-pass: UNCHANGED (Evan's direct order supersedes the generic #8 counter template).
+- Rodland itemization ask: UNCHANGED (not a counter; #14 has no worked-up target and gets none until numbers are).
+Gmail quiet this cycle (only Evan's 6:59 PM forward of the Kirkland sheet to Maci). Promotions tab clean; label hygiene holding. Drive: nothing new. Public site: no changes needed.
