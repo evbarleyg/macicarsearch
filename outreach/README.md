@@ -864,3 +864,9 @@ Scheduled nudge evaluation, result: ZERO in-thread Gmail nudges staged, by rule.
 ### 2026-08-12 17:5xZ (10:5x AM PT Wed) — Doug's Lynnwood pitches an alternative; reply drafted
 
 Alex Nikolaev (Doug's Lynnwood Mazda) 9:42 AM: "have you seen my previous email" follow-up (the previous email = the Aug 11 sold notice for #16, already logged; nothing was in spam) pitching the parked watchlist car: 2022 2.5 S Carbon Edition AWD, 47k mi, Polymetal Gray, stock #260724, $26,998, "recent trade-in". Read: worse value than #7 (Lee Johnson CPO Carbon, 12.6k fewer miles, +$514, CPO warranty); est. OTD ~$30.9k. Not a chase, but a free WA written quote. Reply draft staged (r-6537637440782721650, v2.1 round-1 flavor): itemized written OTD + Carfax, miles named as the deciding factor, email only. FIVE drafts now wait on Evan: Kirkland confirmations, Titus $30,200, Royal Moore likely-pass, Rodland itemization, Doug's OTD request. Thread labeled CX-5 dealers.
+
+### 2026-08-12 18:5xZ (11:5x AM PT Wed) — Doug's engaged after Evan's send; Fernando presumes a Saturday visit
+
+- 11:10 AM: Evan SENT the Doug's OTD-request draft (r-6537637440782721650). 11:30 AM: Alex replies with the Carfax link (in HTML body) and "numbers are to follow." Doug's 2022 Carbon (#watchlist, 47k, $26,998) now owes a written OTD. No action until numbers land.
+- 11:26 AM: Fernando (Royal Moore): "Do you have any questions... Are we good to go for Saturday at afternoon?" — a presumptive close on a visit that was NEVER agreed (no-Oregon-visits rule; written-OTD-earns-visit standard; his add-ons still on the deal). The staged likely-pass draft to Ashley cc Fernando (r8083856508989942714) answers this directly and its send is now time-sensitive: every hour unsent lets the phantom appointment harden. Flagged to Evan by push.
+- Remaining Gmail queue after the Doug's send: Kirkland confirmations, Titus $30,200 (fill Saturday time), Royal Moore likely-pass (now urgent), Rodland itemization.
