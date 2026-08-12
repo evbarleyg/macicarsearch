@@ -1,8 +1,10 @@
 # CX-5 dealer outreach — v3 re-pull on top of v2
 
+> **v2.1 (2026-08-12): counters, follow-ups, last call and playbook below rewritten — assertive closes on a fixed signing time plus a same-day deadline, concrete leverage (cheaper comparable at its price, days listed, price cuts), nothing offered up front to hold a car, private floor never stated. Supersedes the v2 close wording everywhere, including the staged reply drafts logged further down.**
+
 > **Site generation (2026-08-12):** the public pages now generate from `data/board.json` on `main` via `tools/build_site.py` (index, status board, map, trim-guide candidates, PDF, Excel, Word — every section from the one file, live cars only, quoted OTDs overriding estimates). To update the public pages after logging comms here, mirror the change into `board.json` (car `status` / `latest` / `quote` / `counter`, `sweeps`, `changelog`) and run the generator, or ask the site session to; never hand-edit the generated files.
 
-> **v2 — negotiation-tuned; v1 drafts preserved in git history.** Files here: `CX5-Dealer-Emails.html` (phone-first: copy buttons, mail links, fee/tax checker), `CX5-Dealer-Emails.pdf`, `CX5-Dealer-Emails.docx`, `negotiation_research.md` (research memo with sources), `outreach_data.json` (per-car facts, listing re-check, targets/walk-aways).
+> **v2 — negotiation-tuned; v1 drafts preserved in git history.** Files here: `CX5-Dealer-Emails.html` (phone-first: copy buttons, mail links, fee/tax checker), `CX5-Dealer-Emails.pdf`, `CX5-Dealer-Emails.docx`, `negotiation_research.md` (research memo with sources), `outreach_data.json` (per-car facts, listing re-check, targets/private floors).
 
 ## v3 re-pull (2026-08-11 PM) — comfort-first
 
@@ -81,20 +83,20 @@ Thanks for reaching out. Quick heads-up on how we're buying: we're comparing 10 
 ### v3 practical notes
 
 - **Vented-seat shortlist:** #5, #13, (#19 OR) — #3 sold. **Mazda CPO shortlist:** #12, #9, #7 (+ West Hills Select on the watchlist).
-- v2 negotiation targets/walk-aways below remain valid for tracked cars #1–#8. New cars #12–#20 have **no targets yet** — do not counter on them until numbers are worked up.
+- v2.1 negotiation targets / private floors below remain valid for tracked cars #1–#8. New cars #12–#20 have **no targets yet** — do not counter on them until numbers are worked up.
 - #15 CarMax Renton ($27,998 Premium, no transfer fee) is the new walk-away benchmark: any negotiated OTD on a comfort-tier car should beat its ~$31.5k OTD equivalent after Renton tax, or the no-haggle car wins.
 - Lee Johnson now holds TWO ranked cars (#7 CPO Carbon, #12 CPO Preferred) — one conversation, make them price both. Same for Puyallup (#1, #6, #9) and the Tonkin/Gee family (#4, #19).
 
 ---
 
-> **v2 — negotiation-tuned; v1 drafts preserved in git history.** Round-1 OTD-request emails rewritten per the research memo (`negotiation_research.md`), plus follow-ups, one round-2 counter per car, private target/walk-away numbers and a playbook. Evan sends everything himself from his personal email; nothing here has been sent and no dealer form was touched. Listing status/prices re-checked 2026-08-11 (baseline 2026-08-07). Contact details come only from the dealers' own sites and listing pages; no address was guessed.
+> **v2.1 (2026-08-12) — assertive closes; supersedes the v2 counter / follow-up / close wording (v2 and v1 in git history).** Every round-2 counter and the Friday last call now name the leverage concretely (cheaper comparable at its price, days listed and every price cut, same-store facts), state one OTD, and close on a fixed Saturday signing time plus a same-day deadline — nothing is offered up front to hold a car, and the private floor never appears in a message. Round-1 OTD-request emails per the research memo (`negotiation_research.md`), follow-ups, one counter per car, private target/floor numbers and a playbook. Evan sends everything himself from his personal email. Listing status/prices in this pack re-checked 2026-08-11 (baseline 2026-08-07); later re-checks and comms are logged further down. Contact details come only from the dealers' own sites and listing pages; no address was guessed.
 
 ## How to use this
 1. Send Tue late morning or Wed ~9–10 am; send all 7 within the same hour, each individually from your personal email (never cc dealers together). #2 Acura is optional — the car appears sold.
 2. Reply-all from your personal email; do not give a phone number anywhere. If a form insists on one, skip the form (see the per-dealer note) — do not invent a number.
-3. ~24 h later send the nudge to non-responders; Thu/Fri send ONE counter per finalist (round-2 drafts below, fill in their add-on names and your time slot); Fri noon "last call" to the runner-up; lock Saturday by Fri 5 pm.
+3. ~24 h later send the nudge to non-responders; Thu/Fri send ONE counter per finalist (round-2 drafts below: fill in their add-on names and your Saturday time — each names the cheaper comparable, the days listed and price cuts, the OTD we sign at and a same-day deadline); Fri noon "last call" to the runner-up; lock Saturday by Fri 5 pm. No half-steps: they write the number or we go with the other car.
 4. When OTDs come back, re-price them with the fee/tax checker (dealer-city tax rate, doc cap, RTA) and compare against the no-haggle floor: 2022 Carbon/Premium tier CarMax $24,998 (+$199 xfer) · 2022 Turbo tier CarMax $25,998 (+$1,999 xfer) · 2023 Preferred Carvana $24,590.
-5. Everything under "For Evan only" (targets, walk-aways, playbook) stays private — never paste it into a dealer email.
+5. Everything under "For Evan only" (targets, private floors, playbook) stays private — never paste it into a dealer email, and never state the floor.
 
 ## Status + contacts (re-checked Aug 11)
 
@@ -132,9 +134,9 @@ Two of your used CX-5s are on our short list:
 
 We're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week — we're seeing our three finalists in person Saturday (Aug 15).
 
-Could you email an itemized out-the-door price for each — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck for both? On the 2021, please also say how many prior owners it has had. If there's room on the selling price, put your best number in the OTD.
+Could you email an itemized out-the-door price for each — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck for both? On the 2021, please also say how many prior owners it has had. Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -156,7 +158,7 @@ We're Seattle buyers (98101), pre-approved through our credit union, no trade, b
 
 Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? It shows two prior owners — a line on that history would help.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call. If it has sold, a one-line reply is appreciated.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call. If it has sold, a one-line reply is appreciated.
 
 Thanks,
 Evan
@@ -178,7 +180,7 @@ We're Seattle buyers (98101), pre-approved through our credit union, no trade, b
 
 Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? It shows two prior owners — a line on that history would help.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -198,9 +200,9 @@ Re: your 2021 Mazda CX-5 Carbon Edition AWD, Polymetal Gray, 34,800 mi, stock #U
 
 We're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week — we're seeing our three finalists in person Saturday (Aug 15).
 
-Could you email an itemized out-the-door price — selling price, doc fee, tax, license/title estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? Please also say whether you collect Washington use tax and file WA plates for Seattle buyers, or whether we'd handle that at licensing. If there's room on the selling price, put your best number in the OTD.
+Could you email an itemized out-the-door price — selling price, doc fee, tax, license/title estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? Please also say whether you collect Washington use tax and file WA plates for Seattle buyers, or whether we'd handle that at licensing. Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -220,9 +222,9 @@ Re: your 2021 Mazda CX-5 Grand Touring AWD, Snowflake White Pearl, about 33,300 
 
 We're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week — we're seeing our three finalists in person Saturday (Aug 15).
 
-Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? If there's room on the selling price, put your best number in the OTD.
+Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -244,7 +246,7 @@ We're Seattle buyers (98101), pre-approved through our credit union, no trade, b
 
 Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items, packages or certification fee on their own lines (say which are optional) — plus the Carfax, the Mazda CPO inspection report and the CPO warranty start/end dates?
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -266,7 +268,7 @@ We're Seattle buyers (98101), pre-approved through our credit union, no trade, b
 
 Could you email an itemized out-the-door price — selling price, doc fee, tax, license/title estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? Please also say whether you collect Washington use tax and file WA plates for Seattle buyers, or whether we'd handle that at licensing.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -280,7 +282,7 @@ Evan
 **Subject:** Re: OTD request — [Year] CX-5 [Trim], stock #[STOCK] — buying this week
 
 ```text
-Hi — following up on stock #[STOCK]. We're still interested and deciding Friday; a simple itemized out-the-door figure by email (selling price, doc, tax rate, license estimate, any added items) is all I need to keep the car on our Saturday list. If it has sold, a one-line reply is fine.
+Hi — following up on stock #[STOCK]. We're deciding Friday between written numbers: an itemized out-the-door figure by email today (selling price, doc, tax rate, license estimate, any added items) keeps the car on our Saturday list; without one it comes off. If it has sold, a one-line reply is fine.
 
 Thanks,
 Evan
@@ -290,17 +292,17 @@ Evan
 **Subject:** Re: [their subject]
 
 ```text
-Thanks — happy to come inspect, drive and sign once the numbers are agreed in writing; that's how we're doing it with every store on our list, and Saturday's slots go to the cars with a written OTD. If you can send the itemized figure (selling price, doc, tax rate, license estimate, any added items on their own lines), I'll confirm a time the same day. If email pricing isn't something your store does, no hard feelings — just let me know so I can plan around it.
+Thanks — we inspect, drive and sign after the number is agreed in writing, the same as every store on our list, and Saturday's slots go to the cars with a written OTD. Send the itemized figure (selling price, doc, tax rate, license estimate, any added items on their own lines) and I'll confirm a time the same day. If your store won't price by email, tell me today and the slot goes to one that will.
 
 Thanks,
 Evan
 ```
 
-### Friday "last call" to the runner-up (send by ~noon Fri; one chance, then stop)
+### Friday "last call" to the runner-up (send by ~noon Fri; one message, then stop)
 **Subject:** Re: OTD request — [Year] CX-5 [Trim], stock #[STOCK] — deciding today
 
 ```text
-Hi [Name] — thanks again for the written numbers on stock #[STOCK]. Being straight with you: we have a slightly better itemized OTD in writing on a comparable CX-5, and we're locking in Saturday's plan at 5 pm today. If you'd like to revisit, an updated OTD by then keeps you in it — [optionally: at $[X,XXX] out the door as itemized we'd make yours the first stop and place a card deposit today]. If not, no hard feelings and thanks for the quick replies.
+Hi [Name] — we have a better itemized OTD in writing on a comparable CX-5, and we're locking Saturday's plan at 5 pm today. If you can write stock #[STOCK] at $[X,XXX] out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
@@ -316,9 +318,9 @@ Re: your [YEAR] Mazda CX-5 [TRIM], [COLOR], [MILES] mi, stock #[STOCK], VIN [VIN
 
 We're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week — we're seeing our three finalists in person Saturday (Aug 15).
 
-Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? [Oregon dealer: Please also say whether you collect Washington use tax and file WA plates for Seattle buyers, or whether we'd handle that at licensing.] [CPO: plus the CPO inspection report and warranty start/end dates.]
+Could you email an itemized out-the-door price — selling price, doc fee, the sales-tax rate you're using, license/title/RTA estimate, and any dealer-added items or packages on their own lines (say which are optional) — plus the Carfax or AutoCheck? [Oregon dealer: Please also say whether you collect Washington use tax and file WA plates for Seattle buyers, or whether we'd handle that at licensing.] [CPO: plus the CPO inspection report and warranty start/end dates.] Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
 
-We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. We're set on financing, though we're open to running it through your lender if the overall deal is right. Email is best until we have numbers — no need to call.
+We're comparing a short list of similar CX-5s and deciding Friday; the visit is just to inspect and sign, so the written number is what we'll go on. Financing is arranged; we're open to your lender if it beats our credit union with nothing added. Email is best until we have numbers — no need to call.
 
 Thanks,
 Evan
@@ -328,163 +330,147 @@ Evan
 
 ## Round 2 — one counter per car (send Thu pm / Fri am to the best 3–4 written OTDs)
 
-Fill in: [Name], the add-on line(s) they listed (or delete that paragraph if the sheet was clean), and your Saturday time. The OTD number in each counter = the TARGET below; do not go below it in writing, and stop at the WALK-AWAY.
+Fill in: [Name], the add-on line(s) they listed (or delete that paragraph if the sheet was clean), and your Saturday time. The OTD in each counter is the TARGET — the number we sign at, stated once with a same-day deadline. The private floor below never goes in a message: if their final written number lands at or under it with a clean sheet, book the slot; if not, go with the other car. No second counter, no split-the-difference.
 
-### Counter — #1 Puyallup Mazda · target $30,750 OTD · walk-away $32,100 OTD
+### Counter — #1 Puyallup Mazda · target $30,750 OTD · private floor $32,100 OTD (never state it)
 **Subject:** Re: OTD request — 2023 CX-5 2.5 Turbo, stock #YW29065 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2023 CX-5 2.5 Turbo (stock #YW29065). Two things stand between us and a yes.
+Thanks for the breakdown on the 2023 CX-5 2.5 Turbo (stock #YW29065). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
 
-Second, the number itself: a comparable low-mile CX-5 Turbo is available to us for less out the door, and yours has been on our watch list through a couple of reductions already, so I'd rather agree a number now than wait for the next one.
+Second, the price: this car has been listed since mid-May through three prices ($28,854, $28,814, now $28,199), your own site shows it at $27,999 today, and a no-haggle 2023 CX-5 Turbo with 24k miles is in front of us at $27,998 — with a 2021 Signature turbo behind it at $25,999. Ninety days in, the next scheduled reduction is already priced into our number.
 
-If you can do $30,750 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive down.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $30,750 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #6 Puyallup Mazda · target $27,300 OTD · walk-away $28,400 OTD
+### Counter — #6 Puyallup Mazda · target $27,300 OTD · private floor $28,400 OTD (never state it)
 **Subject:** Re: OTD request — 2021 CX-5 Carbon Edition Turbo, stock #YS29241 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2021 CX-5 Carbon Edition Turbo (stock #YS29241). Two things stand between us and a yes.
+Thanks for the breakdown on the 2021 CX-5 Carbon Edition Turbo (stock #YS29241). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
 
-Second, the number itself: with 42k miles and two prior owners it sits against newer, lower-mile turbo CX-5s on our list, including a no-haggle one, that land within a few hundred dollars of it out the door.
+Second, the price: it has been listed since early June and cut from $29,499 to $28,165 to $25,198, it has 42k miles and two prior owners, and a 2021 Signature — same turbo, Nappa leather, ventilated seats, 40k miles — is in front of us at $25,999, with a one-owner 2021 Carbon Turbo at 35k miles at $26,102. Yours only wins on price, so the price has to win.
 
-If you can do $27,300 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive down.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $27,300 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #2 Acura of Seattle (optional) · target $30,000 OTD · walk-away $30,650 OTD
+### Counter — #2 Acura of Seattle (optional) · target $30,000 OTD · private floor $30,650 OTD (never state it)
 **Subject:** Re: OTD request — 2022 CX-5 2.5 Turbo, stock #A036 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2022 CX-5 2.5 Turbo (stock #A036). Two things stand between us and a yes.
+Thanks for the breakdown on the 2022 CX-5 2.5 Turbo (stock #A036). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
 
-Second, the number itself: the same car was advertised at $26,900 elsewhere last week, and a comparable 2022 Turbo is available to us from a no-haggle seller for less; two owners also narrows its resale later.
+Second, the price: you advertised this same car at $26,900 on another site last week against $27,300 here, it has been listed since late June with two prior owners, and a no-haggle 2022 CX-5 Turbo is in front of us at $25,998. We're pricing from your $26,900, not from $27,300.
 
-If you can do $30,000 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive over.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $30,000 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #3 BMW Seattle · target $27,750 OTD · walk-away $28,500 OTD
+### Counter — #3 BMW Seattle · target $27,750 OTD · private floor $28,500 OTD (never state it)
 **Subject:** Re: OTD request — 2021 CX-5 Grand Touring Reserve, stock #463157ML2 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2021 CX-5 Grand Touring Reserve (stock #463157ML2). Two things stand between us and a yes.
+Thanks for the breakdown on the 2021 CX-5 Grand Touring Reserve (stock #463157ML2). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
 
-Second, the number itself: it's a two-owner car at 39k miles, and a comparable one-owner turbo CX-5 on our list is within a few hundred dollars of it out the door, so I need a little room to make yours the first stop.
+Second, the price: it is a two-owner car at 39k miles, and a one-owner 2021 Grand Touring with the Premium package — same ventilated seats — is in front of us at $25,192, with a 2021 Signature turbo at $25,999. An off-brand trade doesn't get more valuable sitting on a BMW lot.
 
-If you can do $27,750 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive over.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $27,750 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #4 Ron Tonkin Honda · target $28,950 OTD · walk-away $29,500 OTD
+### Counter — #4 Ron Tonkin Honda · target $28,950 OTD · private floor $29,500 OTD (never state it)
 **Subject:** Re: OTD request — 2021 CX-5 Carbon Edition, stock #UH1679 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2021 CX-5 Carbon Edition (stock #UH1679). Two things stand between us and a yes.
+Thanks for the breakdown on the 2021 CX-5 Carbon Edition (stock #UH1679). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. If there is a CAT recovery or similar pass-through line, please fold it into the selling price rather than listing it as a tax.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. If there is a CAT recovery or similar pass-through line, fold it into the selling price — it is not a tax and we will not pay it as one.
 
-Second, the number itself: a year-newer Carbon Edition is available to us from a no-haggle seller at about $25,000 before tax, so at $26,512 plus Washington use tax yours comes out well above it all-in.
+Second, the price: your own site prices this car at $25,852 plus the $250 doc fee, so that is the starting line, not the $26,512 on the listing sites; it has been listed since early June through four prices ($28,072, $27,462, $27,062, $26,512); and a 2021 Signature turbo — the trim above it — is in front of us at $25,999, with a no-haggle 2023 Premium at $27,998 in Washington that carries no use-tax paperwork.
 
-If you can do $28,950 all-in as itemized — car, doc fee, Washington use tax and plates, nothing else added (or, if you don't collect Washington tax, $25,650 for the car and doc fee with nothing added, and we handle tax and plates at licensing) — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive down.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $28,950 all-in — car, doc, Washington use tax and plates, nothing added (or $25,650 for the car and doc if you don't collect Washington tax, and we handle tax and plates at licensing) — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #5 Hyundai / Ford of Kirkland · target $27,650 OTD · walk-away $28,650 OTD
+### Counter — #5 Hyundai / Ford of Kirkland · target $27,650 OTD · private floor $28,650 OTD (never state it)
 **Subject:** Re: OTD request — 2021 CX-5 Grand Touring, stock #O94564A — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2021 CX-5 Grand Touring (stock #O94564A). Two things stand between us and a yes.
+Thanks for the breakdown on the 2021 CX-5 Grand Touring (stock #O94564A). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it.
 
-Second, the number itself: a comparable 2021 Grand Touring is available to us from a no-haggle seller at about $25,000, and yours has come down in steps while we've watched it, so I think we're close — I just need your real number rather than the next scheduled one.
+Second, the price: it has been listed since June through four prices ($27,651, $27,851, $27,092, $25,192), the odometer has climbed while it sat, and a no-haggle 2021 Grand Touring is in front of us at $24,998. We want your number now, not the next scheduled cut.
 
-If you can do $27,650 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive over.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $27,650 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #7 Lee Johnson Mazda of Seattle · target $30,350 OTD · walk-away $30,700 OTD
+### Counter — #7 Lee Johnson Mazda of Seattle · target $30,350 OTD · private floor $30,700 OTD (never state it)
 **Subject:** Re: OTD request — 2022 CX-5 2.5 S Carbon Edition (Certified), stock #U14590 — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2022 CX-5 2.5 S Carbon Edition (Certified) (stock #U14590). Two things stand between us and a yes.
+Thanks for the breakdown on the 2022 CX-5 2.5 S Carbon Edition (Certified) (stock #U14590). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. Please also drop any separate certification or reconditioning fee — the certification is why the car is priced where it is.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. Also strike any separate certification or reconditioning fee — the certification is already in the price.
 
-Second, the number itself: it was $26,972 a week ago, and a comparable non-certified 2022 Carbon Edition is available to us from a no-haggle seller at about $25,000; I value the Mazda CPO coverage, which is why I'm near last week's price rather than at that number.
+Second, the price: this car was $26,972 a week ago and you raised it $540 a month into the listing; your own store has a Certified 2023 Preferred at $26,348 — a year newer and $1,164 cheaper — and a no-haggle 2023 Premium is in front of us at $27,998. The CPO coverage is why our number sits near last week's price instead of under it.
 
-If you can do $30,350 out the door as itemized — car, doc fee, tax, license/title, nothing else added — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive over.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $30,350 out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
 ```
 
-### Counter — #8 Royal Moore Mazda · target $29,600 OTD · walk-away $30,450 OTD
+### Counter — #8 Royal Moore Mazda · target $29,600 OTD · private floor $30,450 OTD (never state it)
 **Subject:** Re: OTD request — 2023 CX-5 2.5 S Preferred, stock #661788A — buying this week
 
 ```text
 Hi [Name],
 
-Thanks for the breakdown on the 2023 CX-5 2.5 S Preferred (stock #661788A). Two things stand between us and a yes.
+Thanks for the breakdown on the 2023 CX-5 2.5 S Preferred (stock #661788A). Two changes and we sign Saturday.
 
-First, please take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. Your listing promised no additional dealer fees, so I have assumed a $0 doc/admin line.
+First, take off [ADD-ON / PACKAGE NAME, $___] — we don't want it, so quote the car without it rather than discounting around it. Your listing says no additional dealer fees, so the doc/admin line is $0.
 
-Second, the number itself: a comparable 2023 Preferred is available to us delivered from a no-haggle seller at about $24,600; yours has far fewer miles, which is why I'm well above that rather than at it.
+Second, the price: your own group's Toyota store lists a 2023 Preferred with 17k miles at $26,500 — $400 under this one — another 2023 Preferred is in front of us at $24,095 out of Portland, and a no-haggle one delivered to Seattle is $24,590. The low miles are why our number is above those, not at them.
 
-If you can do $29,600 all-in as itemized — car, doc fee, Washington use tax and plates, nothing else added (or, if you don't collect Washington tax, $26,150 for the car and doc fee with nothing added, and we handle tax and plates at licensing) — I'll place a card deposit today and we'll come sign Saturday at [time]. We're also open to your financing if it beats our credit union with nothing added. Please send the buyer's order with the VIN so I can check it matches before we drive down.
-
-If that doesn't work on your side, no hard feelings — just let me know either way today so we can firm up Saturday.
+If you can write it at $29,600 all-in — car, doc, Washington use tax and plates, nothing added (or $26,150 for the car and doc if you don't collect Washington tax, and we handle tax and plates at licensing) — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; we're open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car.
 
 Thanks,
 Evan
@@ -498,7 +484,7 @@ Evan
 
 Assumptions: WA dealer → sales tax at the dealer's city Q3-2026 vehicle rate; OR dealer → WA use tax at Seattle 11.05%; doc WA $200 / OR $250 (untaxed); license/title ≈ $300 fixed + RTA 1.1% × approx. MSRP × DOL depreciation (2023 = yr 4 = 83%, 2022 = yr 5 = 74%, 2021 = yr 6 = 65%). MSRPs are approximations; RTA uses DOL's MSRP of record.
 
-| # | Car | List (Aug 11) | Est. dealer OTD at list | TARGET OTD (selling) | WALK-AWAY OTD (selling) | Tax basis |
+| # | Car | List (Aug 11) | Est. dealer OTD at list | TARGET OTD (selling) — the demand | PRIVATE FLOOR OTD (selling) — never state it | Tax basis |
 |---|---|---|---|---|---|---|
 | 1 | 2023 2.5 Turbo AWD | $28,199 | $32,096 | **$30,750** ($27,000) | **$32,100** ($28,199) | Puyallup 10.80% |
 | 2 | 2022 2.5 Turbo AWD | $27,300 | $31,118 | **$30,000** ($26,300) | **$30,650** ($26,900) | Seattle 11.05% (store is in Tukwila; ask which location code they apply) |
@@ -512,55 +498,55 @@ Assumptions: WA dealer → sales tax at the dealer's city Q3-2026 vehicle rate; 
 **#1 2023 2.5 Turbo AWD — Puyallup Mazda**
 - At list: $28,199 selling + $200 doc + $3,045 tax (10.80% × selling; doc untaxed) + $352 RTA (1.1% × $38,500 MSRP × 0.83) + $300 title/plates/fees ≈ $32,096
 - Target: $27,000 selling (−$1,199 vs list) + $200 doc + $2,916 tax + $352 RTA + $300 ≈ $30,768 → say $30,750
-- Walk-away: $28,199 selling + $200 doc + $3,045 tax + $352 RTA + $300 ≈ $32,096 → $32,100, and only with zero add-ons
-- Why: Aged unit: 88 days listed, reductions $28,854 → $28,814 → $28,199, 1-owner, already ~$2,800 under KBB Seattle fair price. Memo range for 60–84+ day units with prior drops = $1,000–1,500 off; ask $1,200. Walk-away = list price with a clean sheet (it is already the best-value turbo in the set).
+- Private floor: $28,199 selling + $200 doc + $3,045 tax + $352 RTA + $300 ≈ $32,096 → $32,100, and only with zero add-ons — private floor, never state it
+- Why: Aged unit: 88 days listed (since mid-May), three prices $28,854 → $28,814 → $28,199, own site shows $27,999, 1-owner, already ~$2,800 under KBB Seattle fair price. Memo range for 60–84+ day units with prior drops = $1,000–1,500 off; demand $1,200. Private floor = list price with a clean sheet (it is already the best-value turbo in the set).
 
 **#2 2022 2.5 Turbo AWD — Acura of Seattle**
 - At list: $27,300 selling + $200 doc + $3,017 tax (11.05% × selling; doc untaxed) + $301 RTA (1.1% × $37,000 MSRP × 0.74) + $300 title/plates/fees ≈ $31,118
 - Target: $26,300 selling (−$1,000 vs list) + $200 doc + $2,906 tax + $301 RTA + $300 ≈ $30,007 → say $30,000
-- Walk-away: $26,900 selling + $200 doc + $2,972 tax + $301 RTA + $300 ≈ $30,674 → $30,650, and only with zero add-ons
-- Why: OPTIONAL — listing removed Aug 11, probably sold. If it resurfaces: 48 days, 2 owners, KBB/Autotrader had it at $26,900 vs $27,300 on CarGurus; CarMax 2022 Turbo floor $25,998 + $1,999 xfer. Target = $1,000 under CG price; walk-away = the $26,900 they already advertised elsewhere, clean.
+- Private floor: $26,900 selling + $200 doc + $2,972 tax + $301 RTA + $300 ≈ $30,674 → $30,650, and only with zero add-ons — private floor, never state it
+- Why: OPTIONAL — listing removed Aug 11, probably sold. If it resurfaces: 48 days (since late June), 2 owners, KBB/Autotrader had it at $26,900 vs $27,300 on CarGurus; CarMax 2022 Turbo floor $25,998 + $1,999 xfer. Target = $1,000 under CG price; private floor = the $26,900 they already advertised elsewhere, clean.
 
 **#3 2021 Grand Touring Reserve AWD (2.5 Turbo) — BMW Seattle**
 - At list: $24,999 selling + $200 doc + $2,762 tax (11.05% × selling; doc untaxed) + $254 RTA (1.1% × $35,500 MSRP × 0.65) + $300 title/plates/fees ≈ $28,515
 - Target: $24,300 selling (−$699 vs list) + $200 doc + $2,685 tax + $254 RTA + $300 ≈ $27,739 → say $27,750
-- Walk-away: $24,999 selling + $200 doc + $2,762 tax + $254 RTA + $300 ≈ $28,515 → $28,500, and only with zero add-ons
-- Why: Fresh listing (~10 days) at a BMW store selling an off-brand trade; "Great" price, $1,450–2,770 under KBB fair price depending on the day, but 2 owners and 39k mi. Memo range for fresh market-priced units = $300–1,000; ask $700 and expect to land $300–500. Walk-away = list, clean sheet (still the cheapest turbo/vented-seat car on the list).
+- Private floor: $24,999 selling + $200 doc + $2,762 tax + $254 RTA + $300 ≈ $28,515 → $28,500, and only with zero add-ons — private floor, never state it
+- Why: Fresh listing (~10 days) at a BMW store selling an off-brand trade; "Great" price, $1,450–2,770 under KBB fair price depending on the day, but 2 owners and 39k mi. Memo range for fresh market-priced units = $300–1,000; demand $700. Private floor = list, clean sheet (still the cheapest turbo/vented-seat car on the list).
 
 **#4 2021 Carbon Edition AWD — Ron Tonkin Honda**
 - At list: $26,512 selling + $250 doc + $2,930 tax (11.05% × selling; doc untaxed) + $204 RTA (1.1% × $28,500 MSRP × 0.65) + $300 title/plates/fees ≈ $30,195 (+$35 OR trip permit if they don't file WA plates; if they don't collect WA tax their invoice is just selling + doc and you pay the tax/RTA/fees at King County licensing — same total)
 - Target: $25,400 selling (−$1,112 vs list) + $250 doc + $2,807 tax + $204 RTA + $300 ≈ $28,960 → say $28,950 (dealer-side figure if they don't collect WA tax: $25,650 = selling + doc)
-- Walk-away: $25,900 selling + $250 doc + $2,862 tax + $204 RTA + $300 ≈ $29,516 → $29,500, and only with zero add-ons
-- Why: 63 days listed with three cuts ($28,072 → $27,462 → $27,062 → $26,512), 1-owner. Comparable no-haggle: CarMax 2022 Carbon Edition $24,998 + $199 xfer (a year newer, 48k mi) ≈ $28,500 OTD-equivalent after WA use tax — so $26,512 for a 2021 non-turbo Carbon is not cheap despite the KBB delta. Ask ~$1,100 (aged + drops); walk below list at ~$25,900 selling.
+- Private floor: $25,900 selling + $250 doc + $2,862 tax + $204 RTA + $300 ≈ $29,516 → $29,500, and only with zero add-ons — private floor, never state it
+- Why: 63 days listed (since early June) with three cuts ($28,072 → $27,462 → $27,062 → $26,512); the dealer's own site shows $25,852 + $250 doc = $26,102; 1-owner. Comparable no-haggle: CarMax 2022 Carbon Edition $24,998 + $199 xfer (a year newer, 48k mi) ≈ $28,500 OTD-equivalent after WA use tax — so $26,512 is not cheap despite the KBB delta. Demand ~$1,100 off the listing price (≈ $450 under their own-site price); private floor ~$25,900 selling.
 
 **#5 2021 Grand Touring AWD (GT Premium Pkg per KBB) — Hyundai of Kirkland / Ford of Kirkland**
 - At list: $25,192 selling + $200 doc + $2,721 tax (10.80% × selling; doc untaxed) + $225 RTA (1.1% × $31,500 MSRP × 0.65) + $300 title/plates/fees ≈ $28,638
 - Target: $24,300 selling (−$892 vs list) + $200 doc + $2,624 tax + $225 RTA + $300 ≈ $27,650 → say $27,650
-- Walk-away: $25,192 selling + $200 doc + $2,721 tax + $225 RTA + $300 ≈ $28,638 → $28,650, and only with zero add-ons
-- Why: 47 days on CarGurus / 63 on KBB, reductions $27,651 → $27,851 → $27,092 → $25,192, 1-owner, ~$3,000 under KBB Seattle fair price, odometer creeping (being demoed). Aged-with-drops range $1,000–1,500 but it is already the cheapest solid car; ask ~$900. Walk-away = list, clean sheet. CarMax 2021 GT reference $24,998.
+- Private floor: $25,192 selling + $200 doc + $2,721 tax + $225 RTA + $300 ≈ $28,638 → $28,650, and only with zero add-ons — private floor, never state it
+- Why: 47 days on CarGurus / 63 on KBB (since June), prices $27,651 → $27,851 → $27,092 → $25,192, 1-owner, ~$3,000 under KBB Seattle fair price, odometer creeping (being demoed). Aged-with-drops range $1,000–1,500 but it is already the cheapest solid car; demand ~$900. Private floor = list, clean sheet. CarMax 2021 GT reference $24,998.
 
 **#6 2021 Carbon Edition Turbo AWD — Puyallup Mazda**
 - At list: $24,998 selling + $200 doc + $2,700 tax (10.80% × selling; doc untaxed) + $222 RTA (1.1% × $31,000 MSRP × 0.65) + $300 title/plates/fees ≈ $28,419
 - Target: $24,000 selling (−$998 vs list) + $200 doc + $2,592 tax + $222 RTA + $300 ≈ $27,314 → say $27,300
-- Walk-away: $24,998 selling + $200 doc + $2,700 tax + $222 RTA + $300 ≈ $28,419 → $28,400, and only with zero add-ons
-- Why: 68 days listed, reductions $29,499 → $28,165 → $25,198 (advertised $24,998 + $200 doc), 42.5k mi, likely 2 owners. CarMax 2022 Turbo floor is $25,998 + $1,999 transfer ≈ $28,000 before tax, so this is already the cheap turbo; ask ~$1,000 for age/miles/owners. Walk-away = list, clean sheet.
+- Private floor: $24,998 selling + $200 doc + $2,700 tax + $222 RTA + $300 ≈ $28,419 → $28,400, and only with zero add-ons — private floor, never state it
+- Why: 68 days listed (since early June), prices $29,499 → $28,165 → $25,198 (advertised $24,998 + $200 doc), 42.5k mi, likely 2 owners. CarMax 2022 Turbo floor is $25,998 + $1,999 transfer ≈ $28,000 before tax, so this is already the cheap turbo; demand ~$1,000 for age/miles/owners. Private floor = list, clean sheet.
 
 **#7 2022 2.5 S Carbon Edition AWD — Mazda Certified Pre-Owned — Lee Johnson Mazda of Seattle**
 - At list: $27,512 selling + $200 doc + $3,040 tax (11.05% × selling; doc untaxed) + $244 RTA (1.1% × $30,000 MSRP × 0.74) + $300 title/plates/fees ≈ $31,296
 - Target: $26,650 selling (−$862 vs list) + $200 doc + $2,945 tax + $244 RTA + $300 ≈ $30,339 → say $30,350
-- Walk-away: $26,972 selling + $200 doc + $2,980 tax + $244 RTA + $300 ≈ $30,697 → $30,700, and only with zero add-ons
-- Why: Mazda CPO, 29 days, 1-owner; price was RAISED $540 on ~Aug 8–11 ($26,419 → $27,112 → $26,972 → $27,512). CPO units move least on price (memo: aim at fee strikes + $300–500), so target = last week's $26,972 minus ~$300, plus no cert/recon fee. Walk-away = last week's $26,972 clean; above that, the non-CPO CarMax 2022 Carbon at $24,998 + $199 (≈ $28,500 OTD-equiv.) plus a third-party warranty is the better buy.
+- Private floor: $26,972 selling + $200 doc + $2,980 tax + $244 RTA + $300 ≈ $30,697 → $30,700, and only with zero add-ons — private floor, never state it
+- Why: Mazda CPO, 29 days (since mid-July), 1-owner; price was RAISED $540 on ~Aug 8–11 ($26,419 → $27,112 → $26,972 → $27,512). Same store lists a CPO 2023 Preferred at $26,348 (newer and cheaper). CPO units move least on price (memo: fee strikes + $300–500), so target = last week's $26,972 minus ~$300, plus no cert/recon fee. Private floor = last week's $26,972 clean; above that, the non-CPO CarMax 2022 Carbon at $24,998 + $199 (≈ $28,500 OTD-equiv.) plus a third-party warranty is the better buy.
 
 **#8 2023 2.5 S Preferred AWD — Royal Moore Mazda**
 - At list: $26,900 selling + $250 doc + $2,972 tax (11.05% × selling; doc untaxed) + $278 RTA (1.1% × $30,500 MSRP × 0.83) + $300 title/plates/fees ≈ $30,701 (+$35 OR trip permit if they don't file WA plates; if they don't collect WA tax their invoice is just selling + doc and you pay the tax/RTA/fees at King County licensing — same total) — CarGurus badge says "No additional dealer fees" — doc may be $0; estimate keeps $250 to be safe
 - Target: $26,150 selling (−$750 vs list) + $0 doc + $2,890 tax + $278 RTA + $300 ≈ $29,618 → say $29,600 (dealer-side figure if they don't collect WA tax: $26,150 = selling + doc)
-- Walk-away: $26,900 selling + $0 doc + $2,972 tax + $278 RTA + $300 ≈ $30,451 → $30,450, and only with zero add-ons
-- Why: Fresh (14 days), "Good" price, 1-owner, 16.6k mi. No-haggle anchor: Carvana 2023 Preferred $24,590 with 41k mi (≈ $27,900 OTD-equiv.) — the extra ~25k miles of life is worth roughly the $2,300 gap, so this is fairly priced. Fresh-unit range $300–1,000; ask $750. Walk-away = list with zero dealer fees (hold them to the "no additional dealer fees" badge).
+- Private floor: $26,900 selling + $0 doc + $2,972 tax + $278 RTA + $300 ≈ $30,451 → $30,450, and only with zero add-ons — private floor, never state it
+- Why: Fresh (14 days, since late July), "Good" price, 1-owner, 16.6k mi. Same dealer group's Toyota store lists a 2023 Preferred with 17k mi at $26,500 ($400 under this one). No-haggle anchor: Carvana 2023 Preferred $24,590 with 41k mi (≈ $27,900 OTD-equiv.) — the extra ~25k miles of life is worth roughly the $2,300 gap, so this is fairly priced. Fresh-unit range $300–1,000; demand $750. Private floor = list with zero dealer fees (hold them to the "no additional dealer fees" badge).
 
 ### Cadence
 - Tue 8/11 late morning or Wed 8/12 ~9–10 am: send all 7 round-1 emails within the same hour, each from your personal address, individually (never cc dealers together).
 - Wed/Thu morning (~24 h later): one 2–3 sentence nudge to non-responders and to anyone who answered without line items. Anyone who still won't put numbers in writing after that is dropped.
-- Thu afternoon / Fri morning: ONE justified counter (round 2) to the 3–4 best written OTDs; give the runner-up one "last call" by Fri noon; lock the Saturday plan Fri 5 pm. At most one further half-step (split a remaining $200–300 once), then stop.
+- Thu afternoon / Fri morning: ONE counter (round 2) to the 3–4 best written OTDs — name the cheaper comparable at its price, the days listed and every price cut, the OTD we sign at, and a same-day deadline. Runner-up gets one "last call" by Fri noon; lock the Saturday plan Fri 5 pm. No half-steps or split-the-difference rounds from our side: they write the number or we go with the other car.
 - Sat 8/15: up to three visits, best deal first, ~90 min apart (e.g., 9:30 / 11:00 / 12:30, add drive time for Puyallup or Portland). Inspect, drive, verify, sign only if the contract matches the emailed OTD line-for-line.
 
 ### TL;DR (10 lines, from the research memo)
@@ -568,11 +554,11 @@ Assumptions: WA dealer → sales tax at the dealer's city Q3-2026 vehicle rate; 
 2. Ask the two Oregon dealers up front whether they collect WA use tax and file WA plates; if not, plan a $35 Oregon trip permit and pay 11.05% use tax + fees at a King County licensing office.
 3. The site's 10.35% is wrong for 2026: WA-dealer deals are taxed at the dealer's city rate incl. the 0.5% motor-vehicle tax (Seattle 11.05%, Kirkland/Bellevue 10.80%, Puyallup 10.80%, Renton/Tacoma 11.00%, Lynnwood 11.20%, Everett 10.40%, Burlington 9.10%); Oregon purchases are taxed at your Seattle rate, 11.05%.
 4. Legit lines only: price, tax, actual DOL fees (~$200–350 + RTA ~$200–350 for a 2021–23 CX-5), doc fee (WA ≤ $200, negotiable; OR ≤ $250/$200). Strike recon/cert/prep, etch, nitrogen, protection packages, "CAT" pass-throughs.
-5. If a mandatory add-on appears, note calmly that WA (WAC 308-66-152) and OR (OAR 137-020-0020) require the advertised price to include everything except tax, license and doc fee.
+5. If a mandatory add-on appears, state that WA (WAC 308-66-152) and OR (OAR 137-020-0020) require the advertised price to include everything except tax, license and doc fee — quote the car without it.
 6. 24 h later: one two-line nudge to non-responders; drop anyone who won't put numbers in writing after that.
-7. Thu/Fri: one justified counter per finalist — cite a cheaper comp (incl. CarMax/Carvana) and, lightly, the price-drop history; realistic ask is $400–1,200 under their OTD, more only on 60–90+ day units.
-8. Close with: "If you can do $X OTD as itemized, I'll put a card deposit down today and sign Saturday at [time]; open to your financing if it beats my credit union with nothing attached."
-9. Use the best written OTD to give the runner-up one chance to beat it; then stop negotiating — no re-trading in the showroom.
+7. Thu/Fri: one counter per finalist — name the cheaper comparable at its price (no dealer names), the days listed and every price cut, and any same-store fact (own-site price lower than the listing, a newer/cheaper unit on their own lot, a price raise). Demand $300–1,000 under their OTD on fresh units and $1,000–1,500 on 60+ day units with prior cuts; CPO = fee strikes + a few hundred. State it as the number we sign at, not a range.
+8. Close every counter and the last call with: "If you can write it at $X out the door — same lines, nothing added — send the buyer's order with the VIN and we'll be there Saturday at [time] to sign and drive it home; open to your lender if it beats our credit union with nothing added. If not, tell me today and we'll go with the other car." Never offer a deposit, hold fee or card-down to close — the signing time and the deadline are the commitment.
+9. Use the best written OTD to give the runner-up one message to beat it by a stated hour; then stop negotiating — no re-trading in the showroom.
 10. Saturday: visit up to 3 with printed buyer's orders; sign only if the contract matches line-for-line, decline F&I products, and walk to the next appointment the moment a new fee appears.
 
 ### Fees — legitimate vs strike
@@ -617,13 +603,16 @@ Sources: [WA DOR Q3-2026 motor-vehicle rate flyer](https://dor.wa.gov/sites/defa
 - A target price or "what would it take" in round 1 — let them bid first.
 - Your credit-union rate, a monthly payment, a down-payment amount, or "how will you be paying" details before the OTD is fixed ("I'm focused only on the total out-the-door price").
 - A phone number (forms will demand one — skip the form rather than give it).
-- Other dealers' names or exact numbers (say "a comparable CX-5 is available to us at $X"; show proof only if asked and only after your counter).
-- Legal citations in round 1; threats; "final offer" language you don't mean; more than one counter plus one half-step.
-- Anything about the report, the website, days-on-lot counts, or how the shortlist was built.
+- Other dealers' names (their numbers, yes: "a comparable 2023 Preferred is in front of us at $X" — show proof only if asked and only after your counter).
+- Your private floor, a range, or "somewhere around" — one OTD number per counter, stated as the number we sign at.
+- Softeners and apologies — any phrasing that makes the ask sound optional, asks whether they might consider it, or says we are fine either way. State what we want, by when, and which car we go with otherwise.
+- Anything offered up front to hold the car (card, hold fee, "we'll put money down") — the fixed signing time plus the deadline is the commitment.
+- Legal citations in round 1; a deadline you won't keep; a second counter — one number, one deadline, then the other car.
+- Anything about the report, the website, or how the shortlist was built (days listed and price cuts are public listing facts — use them).
 - "We'll finalize when we get there" — never agree to re-open numbers in the showroom.
 
 ### Saturday signing checklist
-- [ ] Bring: printed buyer's orders / OTD emails per car, pre-approval letter, driver's licenses, insurance card/binder, a card for the deposit and CU draft/cashier's-check plan for the balance, phone charger.
+- [ ] Bring: printed buyer's orders / OTD emails per car, pre-approval letter, driver's licenses, insurance card/binder, the CU draft / cashier's-check plan for the full agreed OTD (plus a card in case they take part of it that way), phone charger.
 - [ ] Order: best written deal first; appointments ~90 min apart; tell each store the arrival time you committed to in the counter.
 - [ ] At the car: VIN on dash/door matches the paperwork; odometer within ~100 mi of the quote; two keys/fobs; tire tread and brand match; no warning lights; cold start; A/C; CarPlay; all windows/hatch; look for overspray/panel gaps; test drive incl. highway.
 - [ ] CPO (#7): get the signed 160-point inspection sheet and the CPO warranty registration showing in-service date; confirm 12-mo/12k limited + 7-yr/100k powertrain from in-service, $0 deductible ([Mazda CPO](https://www.mazdausa.com/certified-pre-owned)).
@@ -785,7 +774,7 @@ Full detail: `outreach/resweep_0812/README.md` (+ `resweep_0812.json`). Sources:
 
 **Price moves:** none on the board; none on the parked watchlist (the +$200 CarGurus figures on several WA cars are the doc fee folded into "price includes fees", not moves). Market-wide: 197 VINs seen both days, median change $0, 17 down / 2 up.
 
-**Quotes now on file (dealer comms, for the record):** #5 Kirkland written $24,992 selling / $28,591.14 OTD, zero add-ons (accept + deposit hold staged); #13 Titus-Will revised $27,268.60 selling / $31,000 OTD, KARR struck (Evan holding $30,200); #14 Rodland "Estimated Pricing Summary" $28,287 + $200 doc, $0 add-ons, taxes/fees lumped $3,470.24 = **$31,957.24 OTD** (transcribed Aug 12; countered $31,100, gap $857; ask for itemized tax/licence); #17 Auto 206 $25,400 selling / $28,718.60 OTD clean sheet, valid to Aug 12 7 PM, $27,000 + PPI counter declined, Carfax 06/2024 accident; #8 Royal Moore PDF unparsed, carries Courtesy Guard + Forever Start (countered $29,600 / #20 $29,400). Still owed: Puyallup (#1/#6/#9), Lee Johnson (#7/#12), Tonkin (#4, "in preparation"), Columbia (#10).
+**Quotes now on file (dealer comms, for the record):** #5 Kirkland written $24,992 selling / $28,591.14 OTD, zero add-ons (accept staged — per v2.1 send it with a signing time and deadline only, no hold offer); #13 Titus-Will revised $27,268.60 selling / $31,000 OTD, KARR struck (Evan holding $30,200); #14 Rodland "Estimated Pricing Summary" $28,287 + $200 doc, $0 add-ons, taxes/fees lumped $3,470.24 = **$31,957.24 OTD** (transcribed Aug 12; countered $31,100, gap $857; ask for itemized tax/licence); #17 Auto 206 $25,400 selling / $28,718.60 OTD clean sheet, valid to Aug 12 7 PM, $27,000 + PPI counter declined, Carfax 06/2024 accident; #8 Royal Moore PDF unparsed, carries Courtesy Guard + Forever Start (countered $29,600 / #20 $29,400). Still owed: Puyallup (#1/#6/#9), Lee Johnson (#7/#12), Tonkin (#4, "in preparation"), Columbia (#10).
 
 **New candidates:** 26 VINs not seen Aug 7/11 → 25 disqualified (11× no value signal vs the CarMax Renton benchmark — all out-of-area CarMax units; 8× unwanted trim; nationwide Carvana units no better than #15) → **1 added:**
 
