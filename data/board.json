@@ -801,8 +801,8 @@
    "dealerKey": "lee_johnson_mazda",
    "comfortRank": 8,
    "latest": {
-    "text": "two-car OTD request (#7 + #12) emailed Aug 11, 3:50 PM; no reply yet.",
-    "short": "two-car OTD request (#7 + #12) emailed Aug 11; no reply yet.",
+    "text": "two-car OTD request emailed Aug 11 — both emails to the dealer's listed sales address bounced back Aug 12 (server unreachable after 24h of retries) — the request never arrived; a new contact path is being arranged.",
+    "short": "Lee Johnson emails bounced Aug 12; request never arrived.",
     "asOf": "2026-08-11"
    },
    "contact": "sent",
@@ -828,10 +828,10 @@
     "listNote": null,
     "availability": "price +$540 Aug 11, held Aug 12",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 · two-car request (#7 + #12) 3:50 PM",
+    "inquiry": "Sent Aug 11 · email bounced Aug 12",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": null,
+    "quoteNote": "Not received · inquiry undelivered",
     "carSuffix": null
    },
    "guide": {
@@ -1359,8 +1359,8 @@
    "dealerKey": "lee_johnson_mazda",
    "comfortRank": 2,
    "latest": {
-    "text": "in the Lee Johnson two-car OTD request emailed Aug 11, 3:50 PM; no reply yet.",
-    "short": "in the Lee Johnson two-car request (Aug 11); no reply yet.",
+    "text": "in the Lee Johnson two-car OTD request (Aug 11) — both emails to the dealer's listed sales address bounced back Aug 12 (server unreachable after 24h of retries) — the request never arrived; a new contact path is being arranged.",
+    "short": "Lee Johnson emails bounced Aug 12; request never arrived.",
     "asOf": "2026-08-11"
    },
    "contact": "sent",
@@ -1381,10 +1381,10 @@
     "listNote": null,
     "availability": "Cars.com-only listing; not re-checkable in the Aug 12 sweep",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 · two-car request 3:50 PM",
+    "inquiry": "Sent Aug 11 · email bounced Aug 12",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": null,
+    "quoteNote": "Not received · inquiry undelivered",
     "carSuffix": null
    },
    "guide": {
@@ -2601,7 +2601,7 @@
    "channel": "none published — staff page names Marcus Andrews (General Manager – Sales) and Hunter Reeves (Used Car Manager) but shows no emails or mailto links. Use website contact form; address the message to the Used Car Manager.",
    "inquiry": {
     "sent": "Aug 11, 12:00 AM · email; two-car request (#7 + #12) 3:50 PM",
-    "latest": null
+    "latest": "Emails bounced (Aug 12, server unreachable); new contact path needed"
    },
    "note": null
   },
@@ -5274,6 +5274,12 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-08-12",
+   "bullets": [
+    "Lee Johnson (#7, #12): both inquiry emails bounced back undelivered (dealer mail server unreachable); a new contact path is being arranged."
+   ]
+  },
   {
    "date": "2026-08-12",
    "bullets": [
