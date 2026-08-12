@@ -905,3 +905,7 @@ Alex (Doug's Lynnwood) delivered at 1:56 PM: "Proposal From Doug's Lynnwood Mazd
 ### 2026-08-12 21:5xZ (2:5x PM PT Wed) — Doug's proposal parsed: $29,774.50 OTD, clean
 
 Evan uploaded Proposal.pdf (generated 1:55 PM): 2022 CX-5 Carbon Edition, Polymetal Gray, 47,333 mi, VIN JM3KFBCM7N0543071, stock #260724. Selling $26,000 ($998 self-discount off the $26,998 list, unprompted), taxes $2,912.00 (11.2% Lynnwood — correct), license est $662.50, doc $200, cash structure, zero add-ons = $29,774.50 OTD ("$29,775" headline). Score ~56: below Puyallup #6 (59) and Titus (60) — $1,183 over Kirkland with 14k more miles and less equipment; $1,227 over #6 with 4.8k more miles but non-turbo and a year newer. Contenders unchanged (Kirkland > Puyallup #6 > Titus); Doug's = third WA fallback. No counter (no worked-up target; none warranted while Kirkland stands). Carfax link from Alex still unopened here; history line unverified.
+
+### 2026-08-12 23:4xZ (4:4x PM PT Wed) — Second Lee Johnson bounce confirms the channel is fully dead
+
+postmaster@leejohnson.com NDR at 3:48 PM for Tuesday's "Two of your certified CX-5s" (connection timeouts, retries exhausted) — as predicted. Both sends to ljtom@ conclusively failed; Lee Johnson has received nothing, ever. #7/#12 remain unreachable until the mazdaofseattle.com site-form resend happens (Mac session or Evan — outstanding since 12:41 AM). Otherwise quiet: no dealer replies this cycle, refs unchanged, Auto 206 expires 7:00 PM (silence holds).
