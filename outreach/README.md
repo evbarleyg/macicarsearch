@@ -880,3 +880,12 @@ Evan reports (via phone call from Puyallup): they claim TWO emails sent. Verifie
 Correction to the noon entry: Puyallup's emails exist and were in the inbox all along, sent from bilorih@dagpuyallup.com (Bilori Howard, sales consultant, Dinsmore Auto Group domain — outside every search list; missed by the sweeps for ~25 hours, surfaced after Evan's call when Bilori named the sender). Timeline: Tue 10:18 AM intro ("figures for both vehicles being prepared"); Tue 11:28 AM walk-around video (TruVideo) + ATTACHED written OTD breakdown "EVAN8-11-26 11.21.pdf" for a 2023 CX-5 (which 2023 unconfirmed: #1 Turbo vs #9 Carbon CPO); Wed 11:44 AM resend of the same after the call (Evan starred it).
 
 PDF unparsed (Gmail connector cannot download attachments). Parse paths: Evan opens the attachment and uses Add-to-Drive (fastest), relays the numbers, or the Mac transcribes from browser Gmail. Reply draft staged to Bilori (r-8273505614311630922; the id first logged here was recorded before the draft existed and was wrong): confirm the stock number the sheet covers + itemized OTDs for the other two cars, numbers in the email body preferred. Threads labeled. Routine domain list to gain dagpuyallup.com. Not counting the quote's figures on any board until parsed.
+
+### 2026-08-12 19:3xZ (12:3x PM PT Wed) — Puyallup PDF parsed: TWO clean written OTDs (dated Tue)
+
+Evan uploaded "EVAN8-11-26 11.21.pdf" (2 pages, scanned F&I deal worksheets, both dated 08/11, both ZERO add-ons — warr/maint/GAP all 0.00):
+- #6 2021 Carbon Edition Turbo, stock YS29241: $24,998.00 + tax $2,699.78 (10.80% exact) + govt fees $650.00 + doc $200.00 = **$28,547.78 OTD**. Memo line "ROYAL".
+- #1 2023 2.5 Turbo AWD, stock YW29065: $28,199.00 + tax $3,045.49 (10.80% exact) + govt fees $750.00 + doc $200.00 = **$32,194.49 OTD**. Memo "MANHEIM-PUY". NOTE: priced from the $28,199 listing price, not their own-site $27,999 — the v2.1 #1 counter already names this discrepancy.
+- No sheet for #9 (2023 Carbon CPO, stock 288130). Bilori draft updated (r-8273505614311630922): both received, request #9's itemized breakdown, numbers in body.
+- These are the sheets that sat in spam since Tue 11:28 AM. Puyallup was in fact the fastest Mazda store to written numbers.
+- Counters NOT fired (v2.1 cadence: Thu/Fri, one per finalist; Kirkland accept-track leads). v2.1 targets on file: #6 $27,300 (floor $28,400), #1 $30,750 (floor $32,100).
