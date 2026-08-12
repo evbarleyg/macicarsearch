@@ -772,3 +772,46 @@ Outstanding: Puyallup promised quote (phone) still not received - SMS nudge if s
 ### Negotiation calibration note (2026-08-11 evening)
 
 Market tempo check: five cars from the tracked set sold within ~24h (#2, #3, #11, #16, #18 - the last at full ask, same day). Counters are calibrated asks, not steals. PRIORITY RULE for whichever session handles replies: #5 Kirkland is the value frontier and the gap to the next clean alternative (#12, ~$30.0k OTD) is ~$1,300 - so accept ANY Kirkland reply at or under $25,192 selling with a clean fee sheet rather than optimizing the last $500 and risking the car. Titus-Will: the fee strikes ($1,745) matter more than the selling-price cut. Rodland is a price-check, fine to lose. Auto 206 only proceeds at ~$27,000 OTD + clean PPI.
+
+## Aug 12 sweep (read-only listing re-check + new-candidate screen)
+
+Full detail: `outreach/resweep_0812/README.md` (+ `resweep_0812.json`). Sources: AutoTempest 125 · CarGurus VDPs 50 (3 closed) · KBB 45 + board VDPs · CarMax API 96 · Carvana via AT 59 · Craigslist 14. Page loads / JSON GETs only; no forms, no availability clicks. Dealer word already logged here overrides listing state (e.g. #3 stays sold although Cars.com still syndicates it; #18 stays sold although CarGurus/KBB still show it).
+
+**Sold (unchanged from Aug 11, now removed from the public shortlist tables):** #2 Acura of Seattle (CG closed), #3 BMW Seattle GT Reserve (dealer-confirmed; CG copy closed today, KBB expired), #11 CarMax Sacramento (absent from the CarMax API), #16 Doug's Lynnwood GT (dealer email), #18 Auto Connections Bellevue (GM email; listings still lag as active). No further car met the two-source sold test today.
+
+**Re-verified active Aug 12 (no listed-price change on any of them, compared source by source):** #1 (CG $28,199 · KBB/dealer $27,999 · 89 days), #4 (dealer VDP $25,852 + $250 = $26,102 · KBB $26,512 · CG $26,302 · 63 days), #5 ($25,192 · 48 days · KBB $3,338 under FPP), #6 ($24,998 + $200 · CG now **Great Deal** · 69 days), #7 ($27,512 held · 30 days · KBB $72 over FPP), #8 ($26,900 · odo 16,615 · 15 days), #9 ($27,699 CG / $27,499 KBB · 58 days), #10 ($23,995 + $100 · CG confirms 2-owner / 0-acc · 29 days), #13 ($27,389 KBB · Cars.com $27,789 · 45 days), #14 ($28,287 + $200 · 29 days), #15 (CarMax API: saleable, $27,998, stock 70134808, VIN JM3KFBDM0P0215315), #17 ($25,799 KBB / $25,999 CG · CG counts 2 accident records), #19 ($26,712 CG · KBB $26,462 · 18 days), #20 (Cars.com via AT $26,500 · VIN JM3KFBCM0P0182690 · 18 days on KBB). **Not verifiable from the sweep environment:** #12 (Cars.com/dealer-only listing; Cars.com returns a Cloudflare 403 to datacenter traffic and the car has never been in the AutoTempest feed) — treat as unknown, not as a sold signal.
+
+**Price moves:** none on the board; none on the parked watchlist (the +$200 CarGurus figures on several WA cars are the doc fee folded into "price includes fees", not moves). Market-wide: 197 VINs seen both days, median change $0, 17 down / 2 up.
+
+**Quotes now on file (dealer comms, for the record):** #5 Kirkland written $24,992 selling / $28,591.14 OTD, zero add-ons (accept + deposit hold staged); #13 Titus-Will revised $27,268.60 selling / $31,000 OTD, KARR struck (Evan holding $30,200); #14 Rodland "Estimated Pricing Summary" $28,287 + $200 doc, $0 add-ons, taxes/fees lumped $3,470.24 = **$31,957.24 OTD** (transcribed Aug 12; countered $31,100, gap $857; ask for itemized tax/licence); #17 Auto 206 $25,400 selling / $28,718.60 OTD clean sheet, valid to Aug 12 7 PM, $27,000 + PPI counter declined, Carfax 06/2024 accident; #8 Royal Moore PDF unparsed, carries Courtesy Guard + Forever Start (countered $29,600 / #20 $29,400). Still owed: Puyallup (#1/#6/#9), Lee Johnson (#7/#12), Tonkin (#4, "in preparation"), Columbia (#10).
+
+**New candidates:** 26 VINs not seen Aug 7/11 → 25 disqualified (11× no value signal vs the CarMax Renton benchmark — all out-of-area CarMax units; 8× unwanted trim; nationwide Carvana units no better than #15) → **1 added:**
+
+| # | Car | Seller | Miles | Price | VIN | Value read | History | Listed |
+|---|---|---|---|---|---|---|---|---|
+| **#21 NEW** | 2021 CX-5 **Signature** AWD (2.5T; Nappa, ventilated fronts, 360 cam), Snowflake White / Caturra Brown, stock B1851 | Cortes Auto Center, Burlington WA (independent, ~61 mi N) | 35,589 | $25,999 + $200 doc | JM3KFBEY0M0417715 | $2,000 under the CarMax Renton benchmark; $713 under #19 (OR Signature) with 4.9k fewer miles; KBB "Good" indicator but **$789 over** its own $25,410 FPP (range $24,210–26,610) | KBB AutoCheck preview: 1-owner, no accidents, no salvage | Aug 12 (0 days) · [KBB](https://www.kbb.com/cars-for-sale/vehicle/787933636) |
+
+Why it is on the list at all: it is the only WA-dealer Signature under the cap, and it slots against #19 rather than against #5/#12. Why to be careful: independent lot, brand-new listing, KBB says slightly over book — full history report + PPI before any money talk; no target worked up (do not counter yet). Seen but not eligible: a Craigslist Camas WA post for a 2023 Premium (~33k mi, $24,900, "clean title") has no VIN and was already in the Aug 11 pull.
+
+### Round-1 email — #21 Cortes Auto Center · 2021 CX-5 Signature · stock B1851 (WA dealer; send via the KBB "email dealer" box or their site form, phone field blank)
+
+**Subject:** Written out-the-door price request: 2021 CX-5 Signature, stock B1851
+
+```text
+Hi, for whoever handles internet sales,
+
+Re: your 2021 Mazda CX-5 Signature AWD, Snowflake White / Caturra Brown, 35,589 mi, stock B1851, VIN JM3KFBEY0M0417715, listed at $25,999.
+
+Quick note on how we're buying, so nobody wastes a trip: we're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week, and we're doing the whole comparison by email. Please reply here rather than calling; a phone call won't move things forward.
+
+What we need to see before coming up to Burlington:
+1. Your best itemized out-the-door price in writing: selling price, doc fee, the sales-tax rate you're using, license/title estimate, and any dealer-added items on their own lines marked optional.
+2. The full AutoCheck or Carfax for this VIN.
+
+Other dealers on our list have already sent same-day written quotes (one with no doc fee and no add-ons), so the written number is what decides which cars we drive. Test drives come after the number, not before; if the sheet and the history report look right, we'll schedule a visit and an independent pre-purchase inspection.
+
+Thanks,
+Evan
+```
+
+If they call anyway: let it go to voicemail and paste the "email only" reply from the v3 message standard above into the KBB thread.
