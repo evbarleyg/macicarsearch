@@ -1,5 +1,7 @@
 # CX-5 dealer outreach — v3 re-pull on top of v2
 
+> **Site generation (2026-08-12):** the public pages now generate from `data/board.json` on `main` via `tools/build_site.py` (index, status board, map, trim-guide candidates, PDF, Excel, Word — every section from the one file, live cars only, quoted OTDs overriding estimates). To update the public pages after logging comms here, mirror the change into `board.json` (car `status` / `latest` / `quote` / `counter`, `sweeps`, `changelog`) and run the generator, or ask the site session to; never hand-edit the generated files.
+
 > **v2 — negotiation-tuned; v1 drafts preserved in git history.** Files here: `CX5-Dealer-Emails.html` (phone-first: copy buttons, mail links, fee/tax checker), `CX5-Dealer-Emails.pdf`, `CX5-Dealer-Emails.docx`, `negotiation_research.md` (research memo with sources), `outreach_data.json` (per-car facts, listing re-check, targets/walk-aways).
 
 ## v3 re-pull (2026-08-11 PM) — comfort-first
