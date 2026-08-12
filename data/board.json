@@ -433,8 +433,8 @@
    "dealerKey": "ron_tonkin_honda",
    "comfortRank": 4,
    "latest": {
-    "text": "quote in preparation (Aug 11, 3:57 PM); Evan's $28,500 OTD counter sent. Oregon: email-only leverage.",
-    "short": "quote in preparation (Aug 11); $28,500 OTD counter sent. Oregon: email-only.",
+    "text": "quote in preparation (Aug 11, 3:57 PM); our written-number request is with the dealer. Oregon: email-only leverage.",
+    "short": "quote in preparation (Aug 11, 3:57 PM); our written-number request is with the dealer. Oregon: email-only leverage.",
     "asOf": "2026-08-11"
    },
    "contact": "engaged",
@@ -464,7 +464,7 @@
     "listNote": "dealer-site total",
     "availability": "dealer confirms Carbon Edition Turbo; own-site $25,852 + $250 re-verified Aug 12",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 · via KBB · countered $28,500 OTD",
+    "inquiry": "Sent Aug 11 · via KBB · our number sent",
     "quoteBadge": "In preparation",
     "quoteBadgeCls": "wait",
     "quoteNote": "(3:57 PM Aug 11)",
@@ -552,8 +552,8 @@
    "dealerKey": "kirkland",
    "comfortRank": 1,
    "latest": {
-    "text": "written quote Aug 11, 4:21 PM: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit-hold reply staged. KBB lists the dealer as “Ford of Kirkland”; same lot.",
-    "short": "written quote Aug 11: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit hold staged.",
+    "text": "written itemized quote received Aug 11, 4:21 PM (zero add-ons, doc fee at the state cap); reply prepared. KBB lists the dealer as “Ford of Kirkland”; same lot.",
+    "short": "written itemized quote received Aug 11, 4:21 PM (zero add-ons, doc fee at the state cap); reply prepared. KBB lists the dealer as “Ford of Kirkland”; same lot.",
     "asOf": "2026-08-11"
    },
    "contact": "quote",
@@ -574,7 +574,7 @@
    "counter": {
     "otd": 27700,
     "date": "2026-08-11",
-    "note": "front-runner bump via site form; superseded by the priority rule: accept any clean sheet at or under list"
+    "note": "front-runner bump via site form; superseded (see outreach log)"
    },
    "targets": {
     "targetSelling": 24300,
@@ -586,20 +586,20 @@
    "soldInfo": null,
    "topPick": 1,
    "pickTag": "Cheapest solid",
-   "pickWhy": "Comfort-per-dollar leader: the GT Premium package (ventilated fronts, heated rears + wheel, HUD) on the non-turbo engine, $3,338 under KBB fair purchase price after 4 cuts and {days} days listed, Carfax clean. The only pick with a clean written sheet: $24,992 selling / $28,591.14 out-the-door, zero add-ons (Aug 11); accept + deposit-hold reply staged.",
+   "pickWhy": "Comfort-per-dollar leader: the GT Premium package (ventilated fronts, heated rears + wheel, HUD) on the non-turbo 2.5 at the lowest list price of any GT in the set — and the only car with a written itemized quote in hand (zero add-ons, doc at the state cap).",
    "tag": "Cheapest solid.",
    "notes": {
     "table": "4 cuts, {days} days listed; Carfax clean (copy in hand).",
     "card": "4 cuts, {days} days listed; Carfax clean."
    },
    "statusBoard": {
-    "listNote": "quoted selling $24,992",
+    "listNote": null,
     "availability": "48 days listed; Carfax clean",
     "availBadge": "Active",
     "inquiry": "Sent Aug 11 · email + site form",
     "quoteBadge": "Received · itemized, in writing",
     "quoteBadgeCls": "ok",
-    "quoteNote": "$28,591.14 OTD, zero add-ons (4:21 PM); accept + deposit hold staged",
+    "quoteNote": "Received · itemized, in writing (4:21 PM); reply prepared",
     "carSuffix": "(GT Premium pkg)"
    },
    "guide": {
@@ -918,8 +918,8 @@
    "dealerKey": "royal_moore_mazda",
    "comfortRank": 10,
    "latest": {
-    "text": "written quote received Aug 11 (PDF, figures not yet transcribed; it lists Courtesy Guard + Forever Start add-ons); Evan countered $29,600 OTD. Oregon: email-only.",
-    "short": "written quote Aug 11 (PDF, figures not yet transcribed; lists Courtesy Guard + Forever Start add-ons); countered $29,600 OTD. Oregon: email-only.",
+    "text": "written quote received Aug 11 as a PDF; it lists Courtesy Guard + Forever Start add-ons and their removal has been requested. Oregon: email-only.",
+    "short": "written quote received Aug 11 as a PDF; it lists Courtesy Guard + Forever Start add-ons and their removal has been requested. Oregon: email-only.",
     "asOf": "2026-08-11"
    },
    "contact": "quote",
@@ -949,7 +949,7 @@
    "counter": {
     "otd": 29600,
     "date": "2026-08-11",
-    "note": "two-car counter with #20 ($29,400)"
+    "note": "two-car counter with #20"
    },
    "targets": {
     "targetSelling": 26150,
@@ -971,7 +971,7 @@
     "listNote": null,
     "availability": "odo 16,615",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 · in dialogue · countered $29,600 OTD",
+    "inquiry": "Sent Aug 11 · in dialogue · our number sent",
     "quoteBadge": "Received (PDF)",
     "quoteBadgeCls": "ok",
     "quoteNote": "figures not yet transcribed; lists Courtesy Guard + Forever Start add-ons",
@@ -1465,8 +1465,8 @@
    "dealerKey": "titus_will_olympia",
    "comfortRank": 3,
    "latest": {
-    "text": "revised written quote Aug 11, 4:43 PM: $31,000 OTD with the $995 KARR add-on struck (first sheet was $32,229.17); Evan holding at $30,200 OTD.",
-    "short": "revised written quote Aug 11: $31,000 OTD, KARR struck; holding at $30,200.",
+    "text": "revised written quote received Aug 11, 4:43 PM with the KARR add-on struck; discussion ongoing.",
+    "short": "revised written quote received Aug 11, 4:43 PM with the KARR add-on struck; discussion ongoing.",
     "asOf": "2026-08-11"
    },
    "contact": "quote",
@@ -1515,13 +1515,13 @@
     "card": null
    },
    "statusBoard": {
-    "listNote": "fees incl.; quoted selling $27,268.60",
+    "listNote": "fees incl.",
     "availability": "45 days on KBB",
     "availBadge": "Active",
-    "inquiry": "Aug 11 · KBB · countered $30,200 OTD",
+    "inquiry": "Aug 11 · KBB · our number sent",
     "quoteBadge": "Received · revised Aug 11 PM",
     "quoteBadgeCls": "ok",
-    "quoteNote": "$31,000 OTD, KARR struck (first sheet $32,229.17)",
+    "quoteNote": "Received · revised, KARR add-on struck (4:43 PM)",
     "carSuffix": "· ventilated"
    },
    "guide": {
@@ -1605,8 +1605,8 @@
    "dealerKey": "rodland_toyota",
    "comfortRank": 5,
    "latest": {
-    "text": "written quote Aug 11: $31,957.24 OTD (clean sheet: $28,287 + $200 doc, $0 add-ons, tax + licence lumped at $3,470.24, not itemized); Evan countered $31,100 OTD; next ask is the itemized tax/licence.",
-    "short": "written quote Aug 11: $31,957.24 OTD, clean sheet; countered $31,100.",
+    "text": "written quote received Aug 11 (clean sheet; tax and licence lumped in one line, itemization requested); discussion ongoing.",
+    "short": "written quote received Aug 11 (clean sheet; tax and licence lumped in one line, itemization requested); discussion ongoing.",
     "asOf": "2026-08-12"
    },
    "contact": "quote",
@@ -1648,10 +1648,10 @@
     "listNote": null,
     "availability": "29 days listed",
     "availBadge": "Active",
-    "inquiry": "Aug 11 · KBB + call · countered $31,100 OTD",
+    "inquiry": "Aug 11 · KBB + call · our number sent",
     "quoteBadge": "Received · in writing",
     "quoteBadgeCls": "ok",
-    "quoteNote": "$31,957.24 OTD (3:24 PM): $28,287 + $200 doc, $0 add-ons, tax + licence lumped $3,470.24 (not itemized)",
+    "quoteNote": "Received · written sheet (3:24 PM); tax + licence lumped, itemization requested",
     "carSuffix": "· 17.5k mi"
    },
    "guide": {
@@ -1934,8 +1934,8 @@
    "dealerKey": "auto206",
    "comfortRank": null,
    "latest": {
-    "text": "written $28,718.60 OTD ($25,400 selling, $0 doc, no add-ons) valid to Aug 12, 7 PM; Evan's $27,000 + inspection counter was declined.",
-    "short": "written $28,718.60 OTD, clean sheet, valid to Aug 12 7 PM; $27,000 + PPI counter declined.",
+    "text": "written offer in hand, valid to Aug 12, 7 PM; Carfax shows a 6/2024 accident. Discussion paused.",
+    "short": "written offer in hand, valid to Aug 12, 7 PM; Carfax shows a 6/2024 accident. Discussion paused.",
     "asOf": "2026-08-11"
    },
    "contact": "quote",
@@ -1971,13 +1971,13 @@
     "card": null
    },
    "statusBoard": {
-    "listNote": "quoted selling $25,400",
+    "listNote": null,
     "availability": "Carfax: 06/2024 accident (fails no-accident rule unless waived)",
     "availBadge": "Active",
-    "inquiry": "Aug 11 · Autotrader + call · $27,000 + PPI counter declined",
+    "inquiry": "Aug 11 · Autotrader + call · in discussion",
     "quoteBadge": "Received · itemized, in writing",
     "quoteBadgeCls": "ok",
-    "quoteNote": "$28,718.60 OTD, clean sheet, valid to Aug 12 7 PM",
+    "quoteNote": "Received · itemized, in writing; valid to Aug 12 7 PM",
     "carSuffix": "· 30,066 mi"
    },
    "guide": {
@@ -2261,8 +2261,8 @@
    "dealerKey": "royal_moore_mazda",
    "comfortRank": null,
    "latest": {
-    "text": "folded into the #8 thread with a $29,400 OTD counter (Aug 11); no separate quote yet. Oregon: email-only.",
-    "short": "folded into the #8 thread ($29,400 counter Aug 11); no separate quote yet.",
+    "text": "folded into the #8 thread; no separate quote yet. Oregon: email-only.",
+    "short": "folded into the #8 thread; no separate quote yet. Oregon: email-only.",
     "asOf": "2026-08-11"
    },
    "contact": "engaged",
@@ -2270,7 +2270,7 @@
    "counter": {
     "otd": 29400,
     "date": "2026-08-11",
-    "note": "in the #8 two-car counter"
+    "note": "in the #8 two-car thread"
    },
    "targets": null,
    "soldInfo": null,
@@ -2287,7 +2287,7 @@
     "listNote": null,
     "availability": "Toyota lot, same group as #8",
     "availBadge": "Active",
-    "inquiry": "Via the #8 thread · countered $29,400 OTD",
+    "inquiry": "Via the #8 thread · our number sent",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
     "quoteNote": "no separate quote yet",
@@ -2790,7 +2790,7 @@
    "channel": "Contacts not yet researched (v3 scan).",
    "inquiry": {
     "sent": "Aug 11, 10:43 AM · KBB + call",
-    "latest": "Pricing sheet received as PDF (3:39 PM; $31,957.24 OTD, no add-ons); video follow-up (4:28 PM)"
+    "latest": "Pricing sheet received as PDF (3:39 PM); itemization requested; video follow-up (4:28 PM)"
    },
    "note": null
   },
@@ -5043,7 +5043,7 @@
    "bullets": [
     "Fresh read-only sweep (AutoTempest, CarGurus, KBB, CarMax, Carvana, Craigslist: 386 raw / 223 VINs). Every live board car re-verified with no listed-price change; #12 (Cars.com-only) could not be re-checked from the sweep environment.",
     "26 VINs not seen before: 25 disqualified (unwanted trim, out-of-area no-haggle units no better than #15, no value signal), 1 added as #21 (2021 Signature, Burlington WA, $25,999 + $200).",
-    "Rodland (#14) pricing sheet transcribed: $31,957.24 OTD, clean ($0 add-ons, $200 doc; tax + licence lumped).",
+    "Rodland (#14) pricing sheet transcribed: clean sheet, no add-ons; tax and licence lumped in one line, itemization requested.",
     "Site now regenerates every section and download from one board file, so the cost table, compare box, calculator and top picks follow the live set (sold #3 dropped from the picks; quoted OTDs replace estimates where dealers have replied)."
    ]
   },
@@ -5074,7 +5074,7 @@
     "acura_of_seattle",
     "carmax_renton"
    ],
-   "worth": "Worth it if: always — this is the default Saturday-morning loop, and Kirkland (#5) now has a written $24,992 / $28,591 OTD sheet. Sit in the CarMax Renton Premium (#15) even if you buy elsewhere; it is the fixed-price benchmark. BMW Seattle (#3), Auto Connections Bellevue (#18) and Acura (#2) are sold and dropped from the route."
+   "worth": "Worth it if: always — this is the default Saturday-morning loop, and Kirkland (#5) now has a written itemized sheet in hand. Sit in the CarMax Renton Premium (#15) even if you buy elsewhere; it is the fixed-price benchmark. BMW Seattle (#3), Auto Connections Bellevue (#18) and Acura (#2) are sold and dropped from the route."
   },
   {
    "key": "north",
@@ -5084,7 +5084,7 @@
     "cortes_auto_center",
     "dougs_lynnwood_mazda"
    ],
-   "worth": "Worth it if Rodland's written number on #14 comes down toward the $31,100 OTD counter — it is the lowest-mile Premium in the set. ~30 min up I-5; Lee Johnson (#7/#12) is on the way back. Burlington (#21, the Aug 12 Signature find) is another ~40 min north of Everett: add it only after a clean history report and an emailed OTD. Doug's Lynnwood (#16) sold, so no Edmonds stop."
+   "worth": "Worth it if Rodland's written number on #14 improves — it is the lowest-mile Premium in the set. ~30 min up I-5; Lee Johnson (#7/#12) is on the way back. Burlington (#21, the Aug 12 Signature find) is another ~40 min north of Everett: add it only after a clean history report and an emailed OTD. Doug's Lynnwood (#16) sold, so no Edmonds stop."
   },
   {
    "key": "south",
@@ -5094,7 +5094,7 @@
     "puyallup_mazda",
     "titus_will_olympia"
    ],
-   "worth": "Worth it if Puyallup puts #1/#6/#9 in writing (three cars, one stop). Add Olympia only if #13's $31,000 written OTD moves toward the $30,200 counter (CarMax Renton's equivalent is ~$31.9k); Auto 206 (#17) has a clean-fee $28,718.60 sheet but a 2024 accident on the Carfax, so stop there only if that rule is waived. Kent → Puyallup → Olympia is ~1 hr 15 min of driving one way."
+   "worth": "Worth it if Puyallup puts #1/#6/#9 in writing (three cars, one stop). Add Olympia only if #13's written number improves further (CarMax Renton stays the fixed-price yardstick); Auto 206 (#17) has a clean-fee written sheet but a 2024 accident on the Carfax, so stop there only if that rule is waived. Kent → Puyallup → Olympia is ~1 hr 15 min of driving one way."
   },
   {
    "key": "portland",
@@ -5134,8 +5134,8 @@
    "iSeeCars adds no VINs and no history data — useful only as a cross-listing signal. Craigslist yielded zero private-party sellers in this range."
   ],
   "sourcesHead": "13 sources across 2 rounds, plus daily re-check sweeps",
-  "runnerUp": "Runners-up, comfort-first: #12, the Mazda-CPO 2023 Preferred at Lee Johnson ($26,348, in the same written request as #7), and #13, the ventilated-seat 2022 Premium Plus in Olympia ($31,000 OTD quoted, holding at $30,200); #4, the dealer-confirmed Carbon Turbo in Portland ($26,102, quote in preparation), is the Oregon fallback (email only).",
-  "bestRemaining": "Best remaining, comfort-first: #5 2021 Grand Touring + GT Premium pkg at Kirkland ($25,192 list, $24,992 quoted in writing), then #12 Mazda-CPO 2023 Preferred at Lee Johnson ($26,348) and #13 ventilated-seat 2022 Premium Plus in Olympia ($27,389 list, $31,000 OTD quoted), then the CPO pair: #9 2023 Carbon at Puyallup ($27,699) and #7 2022 Carbon at Lee Johnson ($27,512). #4, the dealer-confirmed Carbon Turbo in Portland at $26,102, is the Oregon fallback (email only). See New candidates below.",
+  "runnerUp": "Runners-up, comfort-first: #12, the Mazda-CPO 2023 Preferred at Lee Johnson ($26,348, in the same written request as #7), and #13, the ventilated-seat 2022 Premium Plus in Olympia (revised written quote in hand); #4, the dealer-confirmed Carbon Turbo in Portland ($26,102, quote in preparation), is the Oregon fallback (email only).",
+  "bestRemaining": "Best remaining, comfort-first: #5 2021 Grand Touring + GT Premium pkg at Kirkland ($25,192 list, written itemized quote in hand), then #12 Mazda-CPO 2023 Preferred at Lee Johnson ($26,348) and #13 ventilated-seat 2022 Premium Plus in Olympia ($27,389 list, revised written quote in hand), then the CPO pair: #9 2023 Carbon at Puyallup ($27,699) and #7 2022 Carbon at Lee Johnson ($27,512). #4, the dealer-confirmed Carbon Turbo in Portland at $26,102, is the Oregon fallback (email only). See New candidates below.",
   "statusScope": "maintained automatically as dealer replies and listing changes come in. Prices are listed asking prices; availability reflects the latest information we have and can lag the lot.",
   "statusFootnote": "Ordered by current fit (comfort equipment, mileage, value). The full shortlist table has every column and sorts on any of them; the trim guide explains what each trim gets you.",
   "mapSummary": "Every board car grouped by the lot it sits on, with its current asking price and where the conversation stands. Availability lags the lot — a car is only really there when the dealer says so in writing.",

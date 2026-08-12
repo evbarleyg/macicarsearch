@@ -113,11 +113,8 @@ def cost_row(c):
     q = c.get('quote') or {}
     row = {'car': c, 'rate': rate, 'doc': doc, 'advertised': adv, 'est': est, 'struck': None}
     if q.get('otd'):
-        row.update(basis='quoted', otd=q['otd'], price=q.get('retail') or q.get('selling') or adv, date=q.get('date'))
-        addons = [a for a in q.get('addOns') or [] if a.get('amount')]
-        if addons:
-            row['struck'] = q['otd'] - sum(a['amount'] * ((1 + rate / 100) if a.get('taxed') else 1) for a in addons)
-            row['struckNames'] = [a['name'] for a in addons]
+        # site rule: public pages carry a written-quote chip only, never the dealer's figures
+        row.update(basis='quoted', otd=est, price=adv, date=q.get('date'))
     else:
         row.update(basis='est', otd=est, price=adv, date=c['price'].get('asOf'))
     row['m0'] = pmt(row['otd']); row['m5'] = pmt(max(0, row['otd'] - 5000)); row['interest'] = row['m0'] * N - row['otd']
@@ -134,7 +131,7 @@ def solid(c):
     return (c['status'] == 'live' and clean_history(c) and (h.get('owners') == 1 or h.get('cpo'))
             and (c['dealer']['type'] == 'franchise' or h.get('cpo')))
 
-SOLID_RULE = 'lowest out-the-door figure (written quote where one exists, else the estimate) among live cars with a verified 1-owner / 0-accident history (or Mazda CPO) at a franchise dealer'
+SOLID_RULE = 'lowest estimated out-the-door figure among live cars with a verified 1-owner / 0-accident history (or Mazda CPO) at a franchise dealer'
 STRETCH_RULE = 'best-value live 2023 in the Turbo / Premium tiers, ranked by list price against KBB Seattle fair purchase price'
 solid_cands = [c for c in LIVE if solid(c)]
 CHEAPEST = min(solid_cands, key=lambda c: COST[c['rank']]['otd']) if solid_cands else None
@@ -336,9 +333,8 @@ def price_listed_display(c):
     return p.get('listedDisplay') or money(p['listed'])
 
 def quoted_selling(c):
-    q = c.get('quote') or {}
-    s = q.get('retail') or q.get('selling')
-    return s if (s and s < c['price']['listed']) else None
+    # site rule: dealer-quoted figures never render on the public pages
+    return None
 
 def latest_html(c, short=False):
     t = c['latest'].get('short') if short else c['latest']['text']
@@ -360,15 +356,14 @@ def tldr():
     sold_recent = [c for c in SOLD]
     sold_txt = ', '.join(f'#{c["rank"]} ({c["soldInfo"].get("short") or c["dealer"]["short"]})' for c in sold_recent)
     quotes_txt = '; '.join(
-        f'{c["dealer"]["short"]} (#{c["rank"]}: ' + (f'{money(c["quote"]["otd"], True)} OTD' + (f', {money(c["quote"]["selling"])} selling' if c["quote"].get("selling") and c["quote"]["selling"] < c["price"]["listed"] else '') if c['quote'].get('otd') else 'sheet received, ' + esc(c['quote'].get('note') or 'figures pending')) +
-        (', accident on the Carfax' if not clean_history(c) else '') + ')'
+        f'{c["dealer"]["short"]} (#{c["rank"]}' + (', accident on the Carfax' if not clean_history(c) else '') + ')'
         for c in QUOTED)
     bench = BENCH[0] if BENCH else None
     new_today = [c for c in IN_PLAY if c.get('foundDate') == REF]
     b1 = (f'<strong>Update {d_short(REF)}:</strong> fresh {esc(sw["kind"])}. ' +
           (f'{len(sold_recent)} tracked cars have sold and are removed from the tables below: {esc(sold_txt)}. ' if sold_recent else '') +
           f'Every other numbered car re-verified with no listed-price change' + (f' except {", ".join("#%d" % r for r in sw.get("unverifiable", []))} (not reachable from the sweep environment)' if sw.get('unverifiable') else '') + '. ' +
-          (f'Written numbers are in from {quotes_txt}. ' if QUOTED else '') +
+          (f'Written quotes are in hand from {quotes_txt}; the figures stay off this public page. ' if QUOTED else '') +
           (f'No-haggle anchor: {bench["year"]} {bench["trim"].split(" ·")[0]} at {esc(bench["dealer"]["name"])}, {money(bench["price"]["listed"])}, no transfer fee. ' if bench else '') +
           (f'{len(new_today)} new WA listing{"s" if len(new_today) != 1 else ""} passed today\'s screen ({", ".join("#%d" % c["rank"] for c in new_today)}). ' if new_today else '') +
           'Live availability on the <a href="status.html">status board</a>.')
@@ -416,7 +411,7 @@ def pick_card(c):
     meta = f'{num(c["miles"])} mi · {esc(d["short"])} · {esc(d["city"])} <span class="muted">({away}{" · " if away else ""}{c["daysListed"]} days listed as of {d_short(REF)})</span>'
     dl = c['deal']; dtxt = (dl.get('rating') or '—') + (f' · {dl["display"].replace("<", "under").replace("FPP", "FPP")}' if dl.get('display') else '')
     badges = badge(dtxt, 'deal ' + deal_cls(c)) + badge(hist_words(c), 'plain') + (badge('CPO', 'cpo') if c['history'].get('cpo') else '')
-    basis = 'written OTD' if cr['basis'] == 'quoted' else f'est. OTD {money(cr["otd"])}'
+    basis = f'est. OTD {money(cr["otd"])}' + (' · written quote in hand' if cr['basis'] == 'quoted' else '')
     return f'''    <article class="pick">
       <div class="pick-head"><span class="rank">#{c["rank"]}</span><span class="pick-tag">{esc(c.get("pickTag") or "")}</span>{src_badge(c["links"]["primarySource"])}</div>
       <h3>{esc(car_title(c))}</h3>
@@ -432,7 +427,7 @@ def top3():
     gone_picks = [c for c in SOLD if c['rank'] in (1, 3, 7)]  # picks at publication were #3, #1, #7
     note = (f'Picks are drawn from live cars only, as of the {d_short(REF)} refresh; ranks refer to the full board (#1–#{max(c["rank"] for c in CARS)}), so gaps are expected. '
             + (' '.join(f'#{c["rank"]}, a pick at publication, sold {d_short(c["soldInfo"]["date"])} ({esc(c["soldInfo"]["how"])}).' for c in gone_picks) + ' ' if gone_picks else '')
-            + 'Monthly figures use each car’s written out-the-door quote where one exists, otherwise the dealer-city estimate from the cost table. See the <a href="status.html">status board</a> for what remains.')
+            + 'Monthly figures use the dealer-city estimate for every car; a “quoted” chip marks cars whose written sheet is in hand, with the figures kept off this page. See the <a href="status.html">status board</a> for what remains.')
     return f'''  <div class="sec-head"><h2>Top 3 right now ({d_short(REF)})</h2><p class="muted">{note}</p></div>
   <div class="picks">
 {chr(10).join(pick_card(c) for c in PICKS[:3])}</div>
@@ -609,7 +604,7 @@ def cost_assumptions():
     rows = [('Term', f'{N} months'), ('APR', f'{APR:.2f}%, {META["aprSource"]}'), ('Credit-union check', META['creditUnionCheck']), ('CPO promo', META['cpoPromo']),
             ('Sales tax', f'Dealer-city vehicle rate: {rates_used()}; Oregon dealers → {META["useTaxRateOR"]:.2f}% WA use tax'),
             ('Fees', f'+${META["docFeeWA"]} doc (WA; ${META["docFeeOR"]} OR; $0–$100 where the dealer advertises none) · +${META["licenseEst"]} est. license / title / RTA'),
-            ('Out-the-door', 'Written dealer OTD where one exists (marked “quoted”); otherwise est. OTD = price × (1 + rate) + doc + $%d' % META['licenseEst']),
+            ('Out-the-door', 'Est. OTD = price × (1 + rate) + doc + $%d; a “quoted” chip marks cars with a written dealer sheet in hand, figures kept off this page' % META['licenseEst']),
             ('Payment', f'M = P · r(1+r)^n / ((1+r)^n − 1), r = APR/12, n = {N}')]
     return ''.join(f'<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in rows)
 
@@ -623,7 +618,7 @@ def cost_table():
     for r in COST_SORTED:
         c = r['car']
         name = f'{c["year"]} {c["trim"].split(" ·")[0]} <span class="sub">{esc(c["dealer"]["short"])}{" · benchmark" if c["status"] == "benchmark" else ""}{" · accident on Carfax" if not clean_history(c) else ""}</span>'
-        otd = money(r['otd']) + (f'<span class="sub">est. {money(r["est"])} at list</span>' if r['basis'] == 'quoted' else '') + (f'<span class="sub">if add-ons struck: {money(r["struck"])}</span>' if r.get('struck') else '')
+        otd = money(r['otd'])
         ptxt = money(r['price']) + (f'<span class="sub">listed {money(c["price"]["listed"])}</span>' if r['basis'] == 'quoted' and round(r['price']) != c['price']['listed'] else '')
         rows += f'<tr{" class=" + chr(34) + "bench" + chr(34) if c["status"] == "benchmark" else ""}><td class="num"><span class="rank sm">#{c["rank"]}</span></td><td>{name}</td><td>{basis_cell(r)}</td><td class="num">{ptxt}</td><td class="num">{otd}</td><td class="num"><strong>{money(r["m0"])}</strong></td><td class="num">{money(r["m5"])}</td><td class="num">{money(r["interest"])}</td></tr>'
     return f'''<p class="scroll-hint" aria-hidden="true">scroll for more columns →</p>
@@ -650,10 +645,8 @@ def calc_defaults():
     c = CHEAPEST; r = COST[c['rank']]; q = c.get('quote') or {}
     d = dict(price=r['price'], tax=r['rate'], doc=r['doc'], lic=META['licenseEst'])
     d['est'] = d['price'] * (1 + d['tax'] / 100) + d['doc'] + d['lic']
-    if r['basis'] == 'quoted':
-        d.update(otdq=q['otd'], otd=q['otd'], mode='written')
-    else:
-        d.update(otdq=0, otd=d['est'], mode='est')
+    # site rule: the public example always uses the estimate; dealer figures stay off the page
+    d.update(otdq=0, otd=d['est'], mode='est')
     d['m0'] = pmt(d['otd']); d['m5'] = pmt(max(0, d['otd'] - 5000)); d['interest'] = d['m0'] * N - d['otd']
     # guard: the static example must equal the car's cost-table row (never a new number)
     for k in ('otd', 'm0', 'm5', 'interest'):
@@ -1256,12 +1249,52 @@ if (!chromium) { console.log('NO_PLAYWRIGHT'); process.exit(2); }
         print('  ! node not found; PDF not rebuilt'); return False
     if 'PDF_OK' in out.stdout:
         return True
+    if 'NO_PLAYWRIGHT' in out.stdout and _build_pdf_py(index_path, pdf_path):
+        return True
     print('  ! PDF step failed:', (out.stdout + out.stderr).strip()[:400]); return False
 
+def _build_pdf_py(index_path, pdf_path):
+    # fallback for environments with python playwright + a preinstalled chromium but no node playwright
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return False
+    import glob as _glob
+    try:
+        with sync_playwright() as pw:
+            try:
+                browser = pw.chromium.launch(headless=True, args=['--no-proxy-server'])
+            except Exception:
+                exes = _glob.glob('/opt/pw-browsers/chromium*/chrome-linux/chrome') or _glob.glob('/opt/pw-browsers/chromium')
+                if not exes: return False
+                browser = pw.chromium.launch(headless=True, executable_path=exes[0], args=['--no-proxy-server'])
+            page = browser.new_context(viewport={'width': 1100, 'height': 900}).new_page()
+            page.route('**/*', lambda r: r.continue_() if r.request.url.startswith('file:') else r.abort())
+            page.goto('file://' + index_path, wait_until='load')
+            page.emulate_media(media='print')
+            page.wait_for_timeout(200)
+            page.pdf(path=pdf_path, format='Letter', print_background=True, margin={'top': '0.5in', 'bottom': '0.5in', 'left': '0.45in', 'right': '0.45in'})
+            browser.close()
+        return True
+    except Exception as e:
+        print('  ! python PDF fallback failed:', str(e)[:200]); return False
+
 def model_for_downloads():
-    """Plain data handed to tools/downloads.py (xlsx + docx) so both derive from the same computed rows as the page."""
-    return dict(B=B, META=META, CARS=CARS, IN_PLAY=IN_PLAY, LIVE=LIVE, SOLD=SOLD, QUOTED=QUOTED, COST=COST, COST_SORTED=COST_SORTED, CHEAPEST=CHEAPEST, STRETCH=STRETCH,
-                PICKS=PICKS, TRIMS=TRIMS, CALC=CALC, PER1K=PER1K, APR=APR, N=N, REF=REF, PUB=PUB, SOLID_RULE=SOLID_RULE, STRETCH_RULE=STRETCH_RULE,
+    """Plain data handed to tools/downloads.py (xlsx + docx) so both derive from the same computed rows as the page.
+    Site rule: the public downloads carry no dealer quote figures, counters, or gaps — quote objects are
+    stripped from the copy handed over, and cost rows render on the estimate basis."""
+    import copy as _copy
+    bundle = _copy.deepcopy(dict(B=B, CARS=CARS, IN_PLAY=IN_PLAY, LIVE=LIVE, SOLD=SOLD, COST=COST, COST_SORTED=COST_SORTED, CHEAPEST=CHEAPEST, STRETCH=STRETCH, PICKS=PICKS))
+    quoted_ranks = {c['rank'] for c in QUOTED}
+    for c in bundle['CARS']:
+        c['quote'] = None; c['counter'] = None
+    for c in bundle['B'].get('cars', []):
+        c['quote'] = None; c['counter'] = None
+    for r in bundle['COST'].values():
+        r['basis'] = 'est'; r['struck'] = None
+    return dict(B=bundle['B'], META=META, CARS=bundle['CARS'], IN_PLAY=bundle['IN_PLAY'], LIVE=bundle['LIVE'], SOLD=bundle['SOLD'],
+                QUOTED=[c for c in bundle['CARS'] if c['rank'] in quoted_ranks], COST=bundle['COST'], COST_SORTED=bundle['COST_SORTED'], CHEAPEST=bundle['CHEAPEST'], STRETCH=bundle['STRETCH'],
+                PICKS=bundle['PICKS'], TRIMS=TRIMS, CALC=CALC, PER1K=PER1K, APR=APR, N=N, REF=REF, PUB=PUB, SOLID_RULE=SOLID_RULE, STRETCH_RULE=STRETCH_RULE,
                 helpers=dict(money=money, signed=signed, num=num, d_short=d_short, d_long=d_long, tpl=tpl, tax_rate=tax_rate, doc_fee=doc_fee, hist_short=hist_short,
                              hist_words=hist_words, clean_history=clean_history, quoted_selling=quoted_selling, price_listed_display=price_listed_display, dist_mi=dist_mi, pmt=pmt))
 
