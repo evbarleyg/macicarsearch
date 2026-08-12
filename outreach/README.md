@@ -806,3 +806,58 @@ Evan
 ```
 
 If they call anyway: let it go to voicemail and paste the "email only" reply from the v3 message standard above into the KBB thread.
+
+## Aug 12 — 2024 model-year sweep
+
+Full detail: `outreach/sweep_2024/README.md` (+ `sweep_2024.json`: top10 / passing / dropped / stats). Read-only 2024 CX-5 sweep, 438 rows → 263 VINs (40 at WA/OR dealers, 74 no-haggle, 142 out-of-area); ~11% of disclosed 2024s are ex-rental/fleet, concentrated in Select / Carbon Edition under $26.5k. Verdict: no verified-clean, non-rental 2024 Preferred / Carbon / Premium under 40k mi lands at or below the finalists' OTD range, so nothing joins the numbered board; three 2024s sit on the public watchlist (2024 group on the report page).
+Two emails are worth sending, both round-1 asks in the v2.1 style (email only, written OTD before any visit, no phone number given): **Seattle Finest Motors, Lynnwood — 2024 Premium 18.3k mi $28,779, VIN JM3KFBDM7R0396688** (itemized OTD + Carfax owner-type line + in-service date; at ~$28.0k selling it ties #14 with a newer car) and **Volkswagen of McMinnville, OR — 2024 Carbon Edition 35.5k mi $25,814, VIN JM3KFBCL9R0527404** (Carfax owner-type first — it fits the ex-rental profile; if "Personal" it slots at ~$29.5k OTD between #17 and #21).
+Not emailing: McCurley Chevrolet Pasco's VIN-decoded 2024 Carbon Turbo ($29,500 / 18.4k mi, ~$33.6k OTD) stays a stretch watch only. No targets or floors are worked up for any 2024 — do not counter on them yet.
+
+### Round-1 email — Seattle Finest Motors (Lynnwood, independent) · 2024 CX-5 2.5 S Premium · stock C396688 (send via the CarGurus or KBB "email dealer" box, phone field blank)
+
+- 2024 CX-5 2.5 S Premium AWD · 18,281 mi · stock C396688 · VIN JM3KFBDM7R0396688 · $28,779 (KBB) / $28,979 on CarGurus with the $200 doc folded in · CarGurus Good Deal, 1-owner, 0 accidents, fleet/rental flags false, 64 photos · 9 days listed, three small trims already ($28,787 → $28,779) · https://www.cargurus.com/Cars/listing/455108730 · https://www.kbb.com/cars-for-sale/vehicle/787297863
+- Est. OTD at Lynnwood 11.2%: ~$32,802 — $845 over #14 Rodland's written $31,957.24 for a 2023 Premium with the same miles (it ties #14 at a ~$28,019 selling price, −$760); the ask below is built to close that gap in writing before anyone drives to Lynnwood.
+- **Subject:** Written out-the-door price request: 2024 CX-5 Premium, stock C396688 — buying this week
+
+```text
+Hi, for whoever handles internet sales,
+
+Re: your 2024 Mazda CX-5 2.5 S Premium AWD, 18,281 mi, stock C396688, VIN JM3KFBDM7R0396688, listed at $28,779.
+
+Quick note on how we're buying, so nobody wastes a trip: we're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week, and we're doing the whole comparison by email. Please reply here rather than calling; a phone call won't move things forward.
+
+What we need to see before coming up to Lynnwood:
+1. Your best itemized out-the-door price in writing: selling price, doc fee, the sales-tax rate you're using, license/title estimate, and any dealer-added items on their own lines marked optional. Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
+2. The full Carfax or AutoCheck for this VIN, including the "type of owner" line (personal vs. rental/fleet/lease).
+3. The original in-service date, so we know exactly how much of the 36-month factory warranty is left on an early-build 2024.
+
+For context: we already hold a written, itemized quote from a franchise dealer on a 2023 Premium with the same mileage, so your car is competing against a real number, not a listing. It has been up nine days with three small price trims; a sharp written OTD this week is what gets it into our final three. Test drives come after the number, not before; if the sheet, the history report and the in-service date look right, we'll schedule a visit and an independent pre-purchase inspection for Saturday (Aug 15).
+
+Thanks,
+Evan
+```
+
+### Round-1 email — Volkswagen of McMinnville (OR) · 2024 CX-5 2.5 S Carbon Edition · VIN JM3KFBCL9R0527404 (send via the KBB "email dealer" box or the Cars.com lead form, phone field blank; Oregon = email only, we are not driving to McMinnville for a number)
+
+- 2024 CX-5 2.5 S Carbon Edition · 35,542 mi · VIN JM3KFBCL9R0527404 · $25,814 (KBB and Cars.com) · KBB: 1-owner, no accidents, no salvage, $196 under its $26,010 FPP; Cars.com "Good Deal" · 26 days on site · not in the CarGurus feed, so no fleet/rental flag either way — 1-owner + 35.5k mi + Carbon Edition on a VW lot is exactly the ex-rental profile · https://www.kbb.com/cars-for-sale/vehicle/785745356 · https://www.cars.com/vehicledetail/2da6917d-2e5b-43f1-8ca1-0b8ad1ccf215/
+- Est. OTD ~$29,466 with 11.05% WA use tax + $250 OR doc + licence — between #17 and #21 if, and only if, the Carfax owner type says Personal.
+- **Subject:** Carfax owner type + written out-the-door price: 2024 CX-5 Carbon Edition, VIN …R0527404 — Seattle buyer, this week
+
+```text
+Hi, for your Internet Sales / Used Car Manager,
+
+Re: your 2024 Mazda CX-5 2.5 S Carbon Edition, 35,542 mi, VIN JM3KFBCL9R0527404, listed at $25,814.
+
+We're Seattle buyers (98101), pre-approved through our credit union, no trade, buying this week, and we're doing the whole comparison by email — please reply here rather than calling; a phone call won't move things forward, and we won't be driving to McMinnville before we have numbers.
+
+Two things, in this order:
+1. The full Carfax or AutoCheck for this VIN, and specifically the "type of owner" line. A one-owner 2024 Carbon Edition at 35k miles on a non-Mazda lot is usually an ex-rental; if this one was personal use, it moves straight onto our short list, and if it was a rental or fleet unit, just say so and we'll both save the time.
+2. If it was personal use: your best itemized out-the-door price in writing — selling price, doc fee, any dealer-added items on their own lines marked optional — and please say whether you collect Washington use tax and file WA title/plates for a Seattle buyer or whether we'd handle that at licensing here. Put your best selling price in the OTD — we're deciding between written numbers, not list prices.
+
+We're comparing it against written quotes already in hand from Seattle-area stores and deciding Friday; the car has been listed about four weeks, so a clean history plus a sharp written number this week is what would justify the trip south to inspect and sign. Test drives come after the number, not before.
+
+Thanks,
+Evan
+```
+
+If either store calls instead of writing: let it go to voicemail and paste the "email only" reply from the v3 message standard above into the listing-site thread.
