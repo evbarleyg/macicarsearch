@@ -874,3 +874,9 @@ Alex Nikolaev (Doug's Lynnwood Mazda) 9:42 AM: "have you seen my previous email"
 ### 2026-08-12 19:0xZ (12:0x PM PT Wed) — Puyallup emails never delivered; address suspected wrong in their CRM
 
 Evan reports (via phone call from Puyallup): they claim TWO emails sent. Verified on our side: nothing in inbox, spam, or trash, and no unknown-domain thread mentioning Puyallup — their sends never reached evbarleyg@gmail.com at all. Diagnosis: wrong address on file in their CRM (or CRM send failure). Evan instructed to have them read back the address, resend live on the call, or text a photo of the quote (Mac transcribes). Verbal numbers do not count on the board until emailed. Their three cars (#1/#6/#9) remain Awaiting written OTD.
+
+### 2026-08-12 19:1xZ (12:1x PM PT Wed) — FOUND: Puyallup HAS been emailing; written OTD sheet since Tue 11:28 AM
+
+Correction to the noon entry: Puyallup's emails exist and were in the inbox all along, sent from bilorih@dagpuyallup.com (Bilori Howard, sales consultant, Dinsmore Auto Group domain — outside every search list; missed by the sweeps for ~25 hours, surfaced after Evan's call when Bilori named the sender). Timeline: Tue 10:18 AM intro ("figures for both vehicles being prepared"); Tue 11:28 AM walk-around video (TruVideo) + ATTACHED written OTD breakdown "EVAN8-11-26 11.21.pdf" for a 2023 CX-5 (which 2023 unconfirmed: #1 Turbo vs #9 Carbon CPO); Wed 11:44 AM resend of the same after the call (Evan starred it).
+
+PDF unparsed (Gmail connector cannot download attachments). Parse paths: Evan opens the attachment and uses Add-to-Drive (fastest), relays the numbers, or the Mac transcribes from browser Gmail. Reply draft staged to Bilori (r-6477342500494184393): confirm the stock number the sheet covers + itemized OTDs for the other two cars, numbers in the email body preferred. Threads labeled. Routine domain list to gain dagpuyallup.com. Not counting the quote's figures on any board until parsed.
