@@ -139,7 +139,7 @@
     "inquiry": "Sent Aug 11 (form lead) · phone promise",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": null,
+    "quoteNote": "Received (PDF) · covers at least one of the three; being confirmed",
     "carSuffix": null
    },
    "guide": {
@@ -2437,7 +2437,7 @@
    "channel": "none published — home, contact-us and about-us pages carry no email or mailto; /meet-our-staff/ was bot-blocked (403). Use website contact form.",
    "inquiry": {
     "sent": "Aug 11, 12:45 AM · site form",
-    "latest": "Dealer reports emailing quotes twice; nothing received on our side (address being corrected by phone, Aug 12 noon)"
+    "latest": "Written OTD breakdown received (PDF, Tue 11:28 AM — surfaced Wed after a phone call; sender used a group domain that evaded filters); figures being extracted; walk-around video included"
    },
    "note": null
   },
