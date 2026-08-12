@@ -4854,6 +4854,209 @@
     "seen": true,
     "asOf": "2026-08-12"
    }
+  },
+  {
+   "group": "2024 watch",
+   "car": "2024 2.5 S Premium, 18,281 mi, $28,779 ($28,979 on CarGurus w/ doc)",
+   "dealer": "Seattle Finest Motors",
+   "dealerType": "independent",
+   "city": "Lynnwood, WA",
+   "state": "WA",
+   "url": "https://www.cargurus.com/Cars/listing/455108730",
+   "year": 2024,
+   "trim": "2.5 S Premium",
+   "trimListed": null,
+   "vin": "JM3KFBDM7R0396688",
+   "stock": "C396688",
+   "miles": 18281,
+   "price": 28779,
+   "prices": {
+    "CarGurus": 28984,
+    "CarGurus VDP": 28979,
+    "KBB": 28779
+   },
+   "msrp": 35320,
+   "links": {
+    "cargurus": "https://www.cargurus.com/Cars/listing/455108730",
+    "kbb": "https://www.kbb.com/cars-for-sale/vehicle/787297863"
+   },
+   "deal": {
+    "cargurus": {
+     "rating": "Good",
+     "vsImv": 1283
+    },
+    "kbbFpp": 28950,
+    "kbbFppDelta": 171,
+    "kbbRating": null,
+    "display": "Good Deal (CarGurus) · $171 under KBB FPP $28,950"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "rental": "no (CG flags false)",
+    "likelyRentalProfile": false,
+    "cpo": null,
+    "photos": 64
+   },
+   "flags": [
+    "independent dealer",
+    "early build: B2B may end late 2026 / early 2027"
+   ],
+   "taxRate": 11.2,
+   "taxBasis": "Lynnwood, WA",
+   "estOtd": 32802,
+   "monthly": {
+    "m0": 639,
+    "m5": 541,
+    "apr": 6.3,
+    "termMonths": 60
+   },
+   "warranty": "B2B ≈ to late-2026/early-2027 (early build R039xxxx) or 17.7k mi left; PT ≈ to 2028–29 or 41.7k mi left",
+   "slot": "after all 16 (>$31,957)",
+   "whyNot": "Cheapest verified-clean 2024 Premium (1-owner, 0 accidents, CarGurus fleet/rental flags false, 64 photos); est. OTD lands roughly $800 over #14, Rodland’s 2023 Premium with the same miles, and above every finalist. Independent lot and an early build (VIN R039…), so ask for the in-service date before valuing the extra warranty year.",
+   "note": "cheapest verified-clean 2024 Premium; $845 over Rodland's written '23 Premium (#14); ask in-service date (early build)",
+   "latest": {
+    "price": 28779,
+    "was": 28779,
+    "move": 0,
+    "daysListed": 9,
+    "deal": "Good",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "group": "2024 watch",
+   "car": "2024 2.5 S Carbon Edition, 35,542 mi, $25,814",
+   "dealer": "Volkswagen of McMinnville",
+   "dealerType": "franchise",
+   "city": "McMinnville, OR",
+   "state": "OR",
+   "url": "https://www.kbb.com/cars-for-sale/vehicle/785745356",
+   "year": 2024,
+   "trim": "2.5 S Carbon Edition",
+   "trimListed": null,
+   "vin": "JM3KFBCL9R0527404",
+   "stock": null,
+   "miles": 35542,
+   "price": 25814,
+   "prices": {
+    "Cars.com": 25814,
+    "KBB": 25814
+   },
+   "msrp": 33370,
+   "links": {
+    "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785745356",
+    "carscom": "https://www.cars.com/vehicledetail/2da6917d-2e5b-43f1-8ca1-0b8ad1ccf215/"
+   },
+   "deal": {
+    "cargurus": null,
+    "kbbFpp": 26010,
+    "kbbFppDelta": 196,
+    "kbbRating": null,
+    "display": "$196 under KBB FPP $26,010"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "rental": "unknown",
+    "likelyRentalProfile": true,
+    "cpo": null,
+    "photos": null
+   },
+   "flags": [
+    "likely-rental profile: verify Carfax owner type",
+    "no CarGurus VDP: photo count and fleet flag unknown",
+    "Oregon dealer (email only)"
+   ],
+   "taxRate": 11.05,
+   "taxBasis": "OR dealer → 11.05% WA use tax",
+   "estOtd": 29466,
+   "monthly": {
+    "m0": 574,
+    "m5": 476,
+    "apr": 6.3,
+    "termMonths": 60
+   },
+   "warranty": "B2B ≈ to mid/late-2027 or 0.5k mi left; PT ≈ to 2028–29 or 24.5k mi left",
+   "slot": "slot 6/17: just under #4 ($29,559), above #21 ($29,165)",
+   "whyNot": "Clean on KBB (1-owner, no accidents, +$196 vs FPP) and the only sub-$30k-OTD 2024 above Select with under 40k mi in the region, but 1-owner + 35.5k mi + Carbon Edition on a VW lot fits the ex-rental profile: needs the Carfax owner-type line before anything else. Oregon dealer = email only; 11.05% WA use tax at registration.",
+   "note": "clean on KBB but fits the ex-rental profile — needs Carfax owner-type before anything; OR = email-only",
+   "latest": {
+    "price": 25814,
+    "was": 25814,
+    "move": 0,
+    "daysListed": 26,
+    "deal": null,
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
+  },
+  {
+   "group": "2024 watch",
+   "car": "2024 2.5 Carbon Turbo (listed as “Carbon Edition”), 18,446 mi, $29,500",
+   "dealer": "McCurley Chevrolet",
+   "dealerType": "franchise",
+   "city": "Pasco, WA",
+   "state": "WA",
+   "url": "https://www.kbb.com/cars-for-sale/vehicle/787560771",
+   "year": 2024,
+   "trim": "2.5 Carbon Turbo",
+   "trimListed": "2.5 S Carbon Edition",
+   "vin": "JM3KFBAY0R0350370",
+   "stock": null,
+   "miles": 18446,
+   "price": 29500,
+   "prices": {
+    "KBB": 29500
+   },
+   "msrp": 38420,
+   "links": {
+    "kbb": "https://www.kbb.com/cars-for-sale/vehicle/787560771"
+   },
+   "deal": {
+    "cargurus": null,
+    "kbbFpp": 33430,
+    "kbbFppDelta": 3930,
+    "kbbRating": "Great",
+    "display": "$3,930 under KBB FPP $33,430"
+   },
+   "history": {
+    "owners": 1,
+    "accidents": 0,
+    "rental": "unknown",
+    "likelyRentalProfile": false,
+    "cpo": "dealer-certified (not Mazda CPO)",
+    "photos": null
+   },
+   "flags": [
+    "stretch: over the $29.5k list cap / $32k OTD ceiling",
+    "listed trim mislabelled (VIN BAY = Carbon Turbo)",
+    "no CarGurus VDP: photo count and fleet flag unknown",
+    "~215 mi from Seattle"
+   ],
+   "taxRate": 11.05,
+   "taxBasis": "default 11.05% (city not in board table)",
+   "estOtd": 33560,
+   "monthly": {
+    "m0": 654,
+    "m5": 556,
+    "apr": 6.3,
+    "termMonths": 60
+   },
+   "warranty": "B2B ≈ to late-2026/early-2027 (early build R035xxxx) or 17.6k mi left; PT ≈ to 2028–29 or 41.6k mi left · dealer-brand \"certified\" (not Mazda CPO)",
+   "slot": "after all 16 (>$31,957)",
+   "whyNot": "VIN decodes as the Carbon Turbo although the listing says Carbon Edition; ~$3.9k under KBB FPP ($33,430), 1-owner / 0 accidents, GM-dealer “certified” (not Mazda CPO), 5 days listed. Stretch outlier: est. OTD $33,560 at the default rate is over the $32k ceiling and the car is ~215 road-miles away.",
+   "note": "VIN decodes as the turbo; ~$3.9k under KBB FPP; stretch outlier, 5 days listed",
+   "latest": {
+    "price": 29500,
+    "was": 29500,
+    "move": 0,
+    "daysListed": 5,
+    "deal": "Great",
+    "seen": true,
+    "asOf": "2026-08-12"
+   }
   }
  ],
  "noHaggle": [
@@ -5013,6 +5216,39 @@
    "note": "No listed-price change on any live board car (source by source); no watchlist move; #12 could not be re-verified (Cars.com-only listing, bot-blocked from the sweep environment). No further car met the two-source sold test."
   },
   {
+   "date": "2026-08-12",
+   "scope": "2024 watch",
+   "kind": "2024 model-year sweep (read-only, watchlist only)",
+   "raw": 438,
+   "uniqueVins": 263,
+   "localDealerVins": 40,
+   "noHaggleVins": 74,
+   "outOfAreaDealerVins": 142,
+   "passedHardFilters": 48,
+   "sourceCounts": {
+    "autotempest": 196,
+    "cargurusVdp": 112,
+    "kbb": 38,
+    "carmax": 58,
+    "carvana": 16,
+    "craigslist": 34
+   },
+   "rentalShare": {
+    "disclosed": "18 of 159 (11.3%) flagged rental/fleet where a source discloses it (CarGurus VDP flags 10/112, CarMax prior use 11/58)",
+    "concentration": "Select 10/50 and Carbon Edition 6/37, nearly all under $26.5k at non-Mazda lots; Preferred 0/43, Premium 1/14",
+    "profileUnverified": "10 of 104 undisclosed VINs fit the likely-rental profile (1-owner, 25–40k mi, Select/Preferred/Carbon, non-Mazda lot)"
+   },
+   "watchlistVins": [
+    "JM3KFBDM7R0396688",
+    "JM3KFBCL9R0527404",
+    "JM3KFBAY0R0350370"
+   ],
+   "sold": [],
+   "added": [],
+   "method": "AutoTempest results page (Cars.com, AutoByTel, CarGurus, TrueCar, CarSoup, Carvana cards), CarGurus VDP JSON for all 112 CG ids, KBB SRP __NEXT_DATA__ + KBB pricing page (8 trims), CarMax /cars/api/search/run (nationwide, shippable to 98101), Craigslist Seattle + Portland, NHTSA recalls/complaints. Page loads and JSON GETs only; no forms, contact clicks or accounts.",
+   "note": "438 rows → 263 unique 2024 VINs: 40 at WA/OR dealers, 74 no-haggle (CarMax/Carvana), 142 out-of-area. Rental/fleet share ~11% where disclosed, concentrated in Select / Carbon Edition under $26.5k. No verified-clean, non-rental 2024 Preferred / Carbon / Premium under 40k mi lands at or below the finalists’ est. OTD range; three cars added to the watchlist (2024 group), none to the numbered board. NHTSA: 0 recall campaigns for the 2024 CX-5."
+  },
+  {
    "date": "2026-08-11",
    "kind": "live re-check in the buyer’s own browser + WA-first re-scan",
    "sold": [
@@ -5044,7 +5280,8 @@
     "Fresh read-only sweep (AutoTempest, CarGurus, KBB, CarMax, Carvana, Craigslist: 386 raw / 223 VINs). Every live board car re-verified with no listed-price change; #12 (Cars.com-only) could not be re-checked from the sweep environment.",
     "26 VINs not seen before: 25 disqualified (unwanted trim, out-of-area no-haggle units no better than #15, no value signal), 1 added as #21 (2021 Signature, Burlington WA, $25,999 + $200).",
     "Rodland (#14) pricing sheet transcribed: clean sheet, no add-ons; tax and licence lumped in one line, itemization requested.",
-    "Site now regenerates every section and download from one board file, so the cost table, compare box, calculator and top picks follow the live set (sold #3 dropped from the picks; quoted OTDs replace estimates where dealers have replied)."
+    "Site now regenerates every section and download from one board file, so the cost table, compare box, calculator and top picks follow the live set (sold #3 dropped from the picks; quoted OTDs replace estimates where dealers have replied).",
+    "2024 model-year sweep — no verified-clean, non-rental 2024 Preferred/Carbon/Premium under 40k mi lands at or below the finalists’ $28.7–32k est. OTD; three 2024s added to the watchlist (watch only, not numbered board cars)."
    ]
   },
   {
@@ -5140,5 +5377,17 @@
   "statusFootnote": "Ordered by current fit (comfort equipment, mileage, value). The full shortlist table has every column and sorts on any of them; the trim guide explains what each trim gets you.",
   "mapSummary": "Every board car grouped by the lot it sits on, with its current asking price and where the conversation stands. Availability lags the lot — a car is only really there when the dealer says so in writing.",
   "guideReading": "Comfort-first reading: the full-comfort cars are the luxury-feel standouts; the CPO Carbons trade some pampering for warranty peace of mind; the Preferreds are pleasant but plainer inside. Prices and availability move daily; the status board is the live view and the main report has the full data."
- }
+ },
+ "watchlistGroups": [
+  {
+   "key": "parked",
+   "title": "Screened and parked",
+   "intro": "MY2021–2023 cars that passed the filters but lose to a numbered board car on miles, trim, history or location; re-priced on every sweep in case one moves."
+  },
+  {
+   "key": "2024 watch",
+   "title": "2024 model year: watch only (checked Aug 12)",
+   "intro": "A separate Aug 12 read-only sweep of used 2024 CX-5s (263 VINs; 40 at WA/OR dealers) found no verified-clean, non-rental Preferred / Carbon / Premium under 40k mi that lands at or below the finalists’ est. out-the-door range, so 2024s stay off the numbered board. These three are the ones worth watching; est. OTD = price × (1 + dealer-city rate) + $200 doc + $600 licence, monthly at 6.30% / 60 mo. About 11% of 2024s with a disclosed history are ex-rental or fleet, concentrated in Select / Carbon Edition under $26.5k, so any cheap 2024 needs the Carfax owner-type line first."
+  }
+ ]
 }

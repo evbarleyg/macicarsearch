@@ -89,6 +89,18 @@ SOLD = [c for c in CARS if c['status'] == 'sold']
 QUOTED = [c for c in IN_PLAY if c.get('quote')]
 QUOTED_NUM = [c for c in QUOTED if c['quote'].get('otd')]
 
+# Sweeps: entries without a "scope" re-check the numbered board (newest first; BOARD_SWEEPS[0] drives the TL;DR);
+# scoped entries (e.g. scope "2024 watch") are side sweeps that only feed the watchlist and the method lists.
+BOARD_SWEEPS = [s for s in B['sweeps'] if not s.get('scope')]
+SIDE_SWEEPS = [s for s in B['sweeps'] if s.get('scope')]
+SWEEP_DATES = sorted({s['date'] for s in BOARD_SWEEPS})
+
+# Watchlist: flat items, optionally tagged with "group"; untagged items fall in the first (default) group.
+WATCH_GROUPS = B.get('watchlistGroups') or [{'key': 'parked', 'title': 'Screened and parked', 'intro': ''}]
+def watch_items(key):
+    default = WATCH_GROUPS[0]['key']
+    return [w for w in B['watchlist'] if (w.get('group') or default) == key]
+
 APR, N = META['apr'], META['termMonths']
 def pmt(P, apr=APR, n=N):
     r = apr / 100 / 12
@@ -344,7 +356,7 @@ def car_title(c): return f'{c["year"]} {c["trim"]}'
 def dealer_city(c): return c['dealer']['city']
 
 # ----------------------------------------------------------------------------- index.html sections
-NAV = [('#tldr', 'TL;DR'), ('#top3', 'Top 3'), ('#shortlist', 'Shortlist'), ('#chart', 'Price vs. miles'), ('#trims', 'Trims'), ('status.html', 'Status'), ('map.html', 'Dealership map'),
+NAV = [('#tldr', 'TL;DR'), ('#top3', 'Top 3'), ('#shortlist', 'Shortlist'), ('#watchlist', 'Watchlist'), ('#chart', 'Price vs. miles'), ('#trims', 'Trims'), ('status.html', 'Status'), ('map.html', 'Dealership map'),
        ('trims.html', 'Trim guide'), ('#cost', 'Monthly cost'), ('#nohaggle', 'No-haggle'), ('#email', 'Email'), ('#sources', 'Sources')]
 
 def car_ref(c, with_price=True):
@@ -352,7 +364,8 @@ def car_ref(c, with_price=True):
     return s + (f' ({money(c["price"]["listed"])})' if with_price else '')
 
 def tldr():
-    sw = B['sweeps'][0]
+    sw = BOARD_SWEEPS[0]
+    side_today = [s for s in SIDE_SWEEPS if s['date'] == REF]
     sold_recent = [c for c in SOLD]
     sold_txt = ', '.join(f'#{c["rank"]} ({c["soldInfo"].get("short") or c["dealer"]["short"]})' for c in sold_recent)
     quotes_txt = '; '.join(
@@ -366,6 +379,7 @@ def tldr():
           (f'Written quotes are in hand from {quotes_txt}; the figures stay off this public page. ' if QUOTED else '') +
           (f'No-haggle anchor: {bench["year"]} {bench["trim"].split(" ·")[0]} at {esc(bench["dealer"]["name"])}, {money(bench["price"]["listed"])}, no transfer fee. ' if bench else '') +
           (f'{len(new_today)} new WA listing{"s" if len(new_today) != 1 else ""} passed today\'s screen ({", ".join("#%d" % c["rank"] for c in new_today)}). ' if new_today else '') +
+          ''.join(f'{esc(s["scope"].split(" ")[0])}s checked {d_short(s["date"])} in a separate sweep: <a href="#watchlist">watchlist only</a> ({len(s.get("watchlistVins") or [])} cars), none joins the numbered board. ' for s in side_today) +
           'Live availability on the <a href="status.html">status board</a>.')
     b2 = esc(tpl(B['prose']['bestRemaining']))
     cs, st = COST[CHEAPEST['rank']], COST[STRETCH['rank']]
@@ -545,12 +559,84 @@ def candidates_table():
     return rows
 
 def candidates_footer():
-    sw = B['sweeps'][0]
+    sw = BOARD_SWEEPS[0]
     gone = [c for c in SOLD if c['cohort'] != 'aug7']
     g = (' and '.join(f'#{c["rank"]} ({c["dealer"]["short"]} {c["year"]} {c["trim"]}, {money(c["price"]["listed"])})' for c in gone) + f' sold and are removed. ') if gone else ''
     sc = sw.get('sourceCounts') or {}
     return (g + f'{d_short(sw["date"])} sweep: {sw.get("uniqueVins")} VINs across AutoTempest, CarGurus, KBB, CarMax, Carvana and Craigslist; {sw.get("newVins")} not seen before, {sw.get("newDisqualified")} disqualified (unwanted trim, out-of-area no-haggle units no better than #15, no value signal), {sw.get("newPassed")} added'
             + (f' as {", ".join("#%d" % r for r in sw.get("added", []))}' if sw.get('added') else '') + '. ' + esc(sw.get('note') or ''))
+
+# ----------------------------------------------------------------------------- watchlist (parked + side-sweep groups)
+def watch_move(w):
+    l = w.get('latest') or {}
+    if not l.get('seen', True): return f'not seen {d_short(l["asOf"])}' if l.get('asOf') else 'not seen'
+    mv = l.get('move')
+    bits = []
+    if mv: bits.append(f'{signed(mv)} since first seen')
+    elif l.get('price') is not None and not w.get('group'): bits.append('no move')
+    if l.get('daysListed') is not None: bits.append(f'{l["daysListed"]} d listed')
+    if l.get('deal'): bits.append(f'{l["deal"]} Deal')
+    return ' · '.join(bits)
+
+def watch_parked_table(items):
+    rows = ''
+    for w in items:
+        l = w.get('latest') or {}
+        price = money(l.get('price')) if l.get('price') is not None else (money(l.get('was')) + ' <span class="muted small">(last seen)</span>' if l.get('was') else '—')
+        rows += (f'    <tr><td>{ext(w["url"], esc(w["car"]))}</td><td>{esc(w["dealer"])}{"" if w.get("state") in (None, "WA") else " <span class=" + chr(34) + "badge plain" + chr(34) + ">" + esc(w["state"]) + "</span>"}</td>'
+                 f'<td class="num">{price}<div class="muted small">{esc(watch_move(w))}</div></td><td class="note">{esc(tpl(w["whyNot"]))}</td></tr>\n')
+    return f'''<p class="scroll-hint" aria-hidden="true">scroll for more columns →</p>
+  <div class="scroll"><table class="data watch">
+    <thead><tr><th>Car</th><th>Seller</th><th>Price {d_short(REF)}</th><th>Why parked</th></tr></thead><tbody>
+{rows}  </tbody></table></div>'''
+
+def watch_links(w):
+    names = {'cargurus': 'CarGurus', 'kbb': 'KBB', 'carscom': 'Cars.com', 'autotrader': 'Autotrader', 'dealer': 'dealer site', 'carmax': 'CarMax', 'carvana': 'Carvana'}
+    ls = w.get('links') or {}
+    return ' · '.join(ext(u, names.get(k, k), 'small') for k, u in ls.items() if u and u != w.get('url'))
+
+def watch_detail_table(items):
+    """Richer rows for side-sweep groups (year / trim / VIN / est. OTD / monthly / history / flags)."""
+    rows = ''
+    for w in items:
+        h = w.get('history') or {}; dl = w.get('deal') or {}; mo = w.get('monthly') or {}
+        title = f'{w.get("year", "")} {w.get("trim", "")}'.strip() or w['car']
+        car = ext(w['url'], esc(title)) + (f'<div class="muted small">listed as “{esc(w["trimListed"])}”</div>' if w.get('trimListed') else '')
+        car += f'<div class="muted small"><span class="nb">VIN {esc(w.get("vin") or "—")}</span>' + (f' · stock {esc(w["stock"])}' if w.get('stock') else '') + '</div>'
+        more = watch_links(w)
+        if more: car += f'<div class="small">also on {more}</div>'
+        seller = esc(w['dealer']) + (f'<div class="muted small">{esc(w.get("city") or "")}' + (' · independent' if w.get('dealerType') == 'independent' else '') + '</div>' if w.get('city') or w.get('dealerType') else '')
+        mv = watch_move(w)
+        price = f'<strong>{money(w.get("price"))}</strong>' + (f'<div class="muted small">{num(w["miles"])} mi</div>' if w.get('miles') is not None else '') + (f'<div class="muted small">{esc(mv)}</div>' if mv else '')
+        otd = (f'{money(w["estOtd"])}<div class="muted small">est. at {w.get("taxRate", META["defaultTaxRate"]):.2f}%</div>' if w.get('estOtd') else '—') + (f'<div class="small"><strong>{money(mo["m0"])}</strong>/mo at $0 dn</div><div class="muted small">{money(mo["m5"])}/mo at $5k dn</div>' if mo.get('m0') else '')
+        hist = []
+        if h.get('owners'): hist.append(f'{h["owners"]}-owner')
+        if h.get('accidents') is not None: hist.append(f'{h["accidents"]} accidents' if h['accidents'] != 1 else '1 accident')
+        if h.get('rental'): hist.append(f'rental: {h["rental"]}')
+        if h.get('cpo'): hist.append(h['cpo'])
+        if h.get('photos'): hist.append(f'{h["photos"]} photos')
+        deal_txt = esc(dl.get('display') or '')
+        flags = ''.join(f'<li>{esc(f)}</li>' for f in (w.get('flags') or []))
+        why = (f'<div class="small hist"><strong>History:</strong> {esc(" · ".join(hist)) or "unverified"}' + (f' · {deal_txt}' if deal_txt else '') + '</div>'
+               + f'{esc(tpl(w["whyNot"]))}' + (f'<ul class="flags small">{flags}</ul>' if flags else ''))
+        rows += f'    <tr><td>{car}</td><td>{seller}</td><td class="num">{price}</td><td class="num">{otd}</td><td class="note">{why}</td></tr>\n'
+    return f'''<p class="scroll-hint" aria-hidden="true">scroll for more columns →</p>
+  <div class="scroll"><table class="data watch watch-detail">
+    <thead><tr><th>Car · VIN</th><th>Seller</th><th>Price {d_short(REF)} · miles</th><th>Est. OTD · /mo</th><th>History · why it is watch-only</th></tr></thead><tbody>
+{rows}  </tbody></table></div>'''
+
+def watchlist_section():
+    parts = ''
+    for i, g in enumerate(WATCH_GROUPS):
+        items = watch_items(g['key'])
+        if not items: continue
+        sw = next((s for s in SIDE_SWEEPS if s.get('scope') == g['key']), None)
+        head = f'<h3 class="sub" id="watch-{re.sub(r"[^a-z0-9]+", "-", g["key"].lower())}">{esc(g["title"])} <span class="muted">({len(items)})</span></h3>'
+        intro = f'<p class="small muted">{esc(tpl(g.get("intro") or ""))}</p>' if g.get('intro') else ''
+        table = watch_parked_table(items) if i == 0 else watch_detail_table(items)
+        foot = f'<p class="muted small">{d_short(sw["date"])} {esc(sw["kind"])}: {esc(sw.get("note") or "")}</p>' if sw else ''
+        parts += f'  {head}\n  {intro}\n  {table}\n  {foot}\n'
+    return parts
 
 def trim_table():
     rows = ''
@@ -717,7 +803,10 @@ def build_index():
     n_live, n_sold, n_q = len(IN_PLAY), len(SOLD), len(QUOTED)
     pill = f'Published {d_short(PUB)} · refreshed {d_long(REF)}: {n_live} cars in play, {n_sold} sold, {n_q} written quotes in hand · every row shows price, miles, days listed and dealer replies as of the {d_short(REF)} sweep · listings change daily; verify before contacting'
     sold_aug7 = [c for c in SOLD if c['cohort'] == 'aug7']
-    latest_foot = f'Data captured {d_long(PUB)}; board and candidates re-checked with fresh sweeps ' + ', '.join(d_short(s['date']) for s in reversed(B['sweeps'])) + f', {d_iso(REF).year}. This page, the status board, the map and the downloads are regenerated together from one board file on every refresh.'
+    latest_foot = (f'Data captured {d_long(PUB)}; board and candidates re-checked with fresh sweeps ' + ', '.join(d_short(d) for d in SWEEP_DATES) + f', {d_iso(REF).year}'
+                   + ''.join(f'; {esc(s["scope"].split(" ")[0])} model year swept separately {d_short(s["date"])} (watchlist only)' for s in SIDE_SWEEPS)
+                   + '. This page, the status board, the map and the downloads are regenerated together from one board file on every refresh.')
+    n_watch = len(B['watchlist']); side_groups = [g for g in WATCH_GROUPS[1:] if watch_items(g['key'])]
     body = f'''<script>document.documentElement.classList.add('js');</script>
 <a class="skip" href="#tldr">Skip to content</a>
 <nav class="topnav" aria-label="Sections"><div class="wrap navwrap">
@@ -758,7 +847,7 @@ def build_index():
   <p class="small">{esc(B["prose"]["shortlistIntro"])}</p>
   <div class="sl-table-view">{shortlist_table()}</div>
   <div class="sl-card-view">{shortlist_cards()}</div>
-  <p class="muted small removed">{esc(removed_line(SOLD))}{" No further car met the two-source sold test on " + d_short(REF) + "." if not B["sweeps"][0].get("sold") else ""} Rank numbers are kept stable, so gaps are expected.</p>
+  <p class="muted small removed">{esc(removed_line(SOLD))}{" No further car met the two-source sold test on " + d_short(REF) + "." if not BOARD_SWEEPS[0].get("sold") else ""} Rank numbers are kept stable, so gaps are expected.</p>
   <p class="muted small dq">{esc(B["prose"]["notableDQ"])}</p>
 </section>
 
@@ -769,6 +858,10 @@ def build_index():
 {candidates_table()}  </tbody></table></div>
   <p class="muted small">{candidates_footer()}</p>
 </section>
+
+<section class="card" id="watchlist">
+  <div class="sec-head"><h2>Watchlist: {n_watch} cars screened, not on the board</h2><p class="muted">Not numbered board cars and not in the top picks, cost table or chart. Re-priced on each sweep (price column as of {d_short(REF)}); a car moves onto the board only if it clears the same filters and beats a live finalist on out-the-door cost.{" " + " ".join(esc(g["title"].split(" (")[0]) + " sits in its own group below." for g in side_groups) if side_groups else ""}</p></div>
+{watchlist_section()}</section>
 
 <section class="card" id="chart">
   <div class="sec-head"><h2>Price vs. miles: where the picks sit in the market</h2></div>
@@ -928,7 +1021,7 @@ def status_sold():
 
 def build_status():
     css = open(os.path.join(ASSETS, 'status.css'), encoding='utf-8').read()
-    sw = B['sweeps'][0]
+    sw = BOARD_SWEEPS[0]
     doc = f'''<!doctype html>
 <html lang="en">
 <head>
@@ -1295,6 +1388,7 @@ def model_for_downloads():
     return dict(B=bundle['B'], META=META, CARS=bundle['CARS'], IN_PLAY=bundle['IN_PLAY'], LIVE=bundle['LIVE'], SOLD=bundle['SOLD'],
                 QUOTED=[c for c in bundle['CARS'] if c['rank'] in quoted_ranks], COST=bundle['COST'], COST_SORTED=bundle['COST_SORTED'], CHEAPEST=bundle['CHEAPEST'], STRETCH=bundle['STRETCH'],
                 PICKS=bundle['PICKS'], TRIMS=TRIMS, CALC=CALC, PER1K=PER1K, APR=APR, N=N, REF=REF, PUB=PUB, SOLID_RULE=SOLID_RULE, STRETCH_RULE=STRETCH_RULE,
+                WATCH_GROUPS=[dict(g, items=[w for w in bundle['B']['watchlist'] if (w.get('group') or WATCH_GROUPS[0]['key']) == g['key']]) for g in WATCH_GROUPS],
                 helpers=dict(money=money, signed=signed, num=num, d_short=d_short, d_long=d_long, tpl=tpl, tax_rate=tax_rate, doc_fee=doc_fee, hist_short=hist_short,
                              hist_words=hist_words, clean_history=clean_history, quoted_selling=quoted_selling, price_listed_display=price_listed_display, dist_mi=dist_mi, pmt=pmt))
 

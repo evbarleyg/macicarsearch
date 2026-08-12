@@ -151,13 +151,24 @@ def build_xlsx(m, path):
         r += 1
 
     # ---- Watchlist
-    ws = _sheet(wb, 'Watchlist', f'Screened and parked (re-checked {H["d_long"](m["REF"])})')
-    _hdr(ws, 3, ['Car', 'Dealer', 'State', 'Price now', 'Was', 'Move', 'Days listed', 'Deal', 'Why parked', 'URL'], [42, 30, 6, 10, 10, 8, 8, 8, 60, 55])
+    ws = _sheet(wb, 'Watchlist', f'Watchlist: screened, not on the board (re-checked {H["d_long"](m["REF"])})')
+    _hdr(ws, 3, ['Group', 'Car', 'Dealer', 'State', 'Price now', 'Was', 'Move', 'Days listed', 'Deal', 'VIN', 'Est. OTD', '/mo @ $0 dn', 'History', 'Why parked / watch-only', 'URL'],
+         [22, 42, 30, 6, 10, 10, 8, 8, 8, 20, 10, 10, 28, 60, 55])
     r = 4
-    for w in B['watchlist']:
-        l = w.get('latest') or {}
-        _row(ws, r, [w['car'], w['dealer'], w['state'], l.get('price'), l.get('was'), l.get('move'), l.get('daysListed'), l.get('deal'), w['whyNot'], w['url']], [None, None, None, CUR, CUR, CUR, INT, None, None, None], wrap_cols=(8,))
-        for col in (4, 5): ws.cell(row=r, column=1 + col).font = BLUE
+    for g in m.get('WATCH_GROUPS') or [{'title': 'Screened and parked', 'items': B['watchlist']}]:
+        if not g.get('items'): continue
+        c = ws.cell(row=r, column=2, value=f'{g["title"]} ({len(g["items"])})'); c.font = BOLD; c.fill = FILL_G
+        for col in range(3, 17): ws.cell(row=r, column=col).fill = FILL_G
+        r += 1
+        if g.get('intro'):
+            c = ws.cell(row=r, column=3, value=tpl(g['intro'])); c.font = MUTE; r += 1
+        for w in g['items']:
+            l = w.get('latest') or {}; h = w.get('history') or {}; mo = w.get('monthly') or {}
+            hist = ' / '.join(x for x in [f'{h["owners"]}-own' if h.get('owners') else '', f'{h["accidents"]} acc' if h.get('accidents') is not None else '', f'rental: {h["rental"]}' if h.get('rental') else '', h.get('cpo') or ''] if x)
+            _row(ws, r, [g['title'].split(' (')[0].split(':')[0], w['car'], w['dealer'] + (f', {w["city"].split(",")[0]}' if w.get('city') else '') + (' (indie)' if w.get('dealerType') == 'independent' else ''), w['state'], l.get('price'), l.get('was'), l.get('move'), l.get('daysListed'), l.get('deal'), w.get('vin'), w.get('estOtd'), mo.get('m0'), hist or None, tpl(w['whyNot']), w['url']],
+                 [None, None, None, None, CUR, CUR, CUR, INT, None, None, CUR, CUR, None, None, None], wrap_cols=(12, 13))
+            for col in (5, 6, 10): ws.cell(row=r, column=1 + col).font = BLUE  # listing price / was / VIN are source inputs; est. OTD and /mo are computed
+            r += 1
         r += 1
 
     # ---- Trim values
@@ -252,6 +263,25 @@ def build_docx(m, path):
     sold_line = 'Removed as sold: ' + ', '.join(f'#{c["rank"]} {c["dealer"]["short"]} {c["year"]} {c["trim"]} ({d_short(c["soldInfo"]["date"])})' for c in m['SOLD']) + '.'
     doc.add_paragraph(sold_line)
     doc.add_paragraph(B['prose']['notableDQ'])
+
+    doc.add_heading(f'Watchlist: {len(B["watchlist"])} cars screened, not on the board', 1)
+    doc.add_paragraph(f'Not numbered board cars and not in the top picks, cost table or chart; re-priced on each sweep (prices as of {d_short(m["REF"])}).')
+    for gi, g in enumerate(m.get('WATCH_GROUPS') or []):
+        if not g.get('items'): continue
+        doc.add_heading(f'{g["title"]} ({len(g["items"])})', 2)
+        if g.get('intro'): doc.add_paragraph(tpl(g['intro']))
+        if gi == 0:
+            table(['Car', 'Dealer', f'Price {d_short(m["REF"])}', 'Days', 'Why parked'],
+                  [[w['car'], f'{w["dealer"]}{"" if w.get("state") in (None, "WA") else " (" + w["state"] + ")"}', money((w.get('latest') or {}).get('price')), (w.get('latest') or {}).get('daysListed'), tpl(w['whyNot'])] for w in g['items']])
+        else:
+            rows = []
+            for w in g['items']:
+                h = w.get('history') or {}; mo = w.get('monthly') or {}
+                hist = ' / '.join(x for x in [f'{h["owners"]}-owner' if h.get('owners') else '', f'{h["accidents"]} acc' if h.get('accidents') is not None else '', f'rental: {h["rental"]}' if h.get('rental') else '', h.get('cpo') or ''] if x)
+                rows.append([f'{w.get("year", "")} {w.get("trim", "")}'.strip() + (f' (listed as {w["trimListed"]})' if w.get('trimListed') else '') + f'\nVIN {w.get("vin") or "—"}', f'{w["dealer"]} · {w.get("city") or w.get("state")}' + (' (independent)' if w.get('dealerType') == 'independent' else ''),
+                             H['num'](w['miles']) if w.get('miles') is not None else '—', money(w.get('price')), (money(w['estOtd']) + (f' · {money(mo["m0"])}/mo' if mo.get('m0') else '')) if w.get('estOtd') else '—', hist or 'unverified',
+                             tpl(w['whyNot']) + ((' Flags: ' + '; '.join(w['flags']) + '.') if w.get('flags') else '') + f'\n{w["url"]}'])
+            table(['Car · VIN', 'Seller', 'Miles', 'Price', 'Est. OTD · /mo', 'History', 'Why watch-only'], rows)
 
     doc.add_heading('Which trim is the best buy', 1)
     doc.add_paragraph(B['prose']['trimIntro'])
