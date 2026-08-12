@@ -901,3 +901,7 @@ Evan opened PR #2 (outreach → main) from the Claude Code UI to consolidate the
 ### 2026-08-12 21:4xZ (2:4x PM PT Wed) — Doug's written proposal arrived (PDF, unparsed)
 
 Alex (Doug's Lynnwood) delivered at 1:56 PM: "Proposal From Doug's Lynnwood Mazda", body just "THANK YOU", numbers in attached Proposal.pdf — presumably the 2022 Carbon Edition (stock #260724, $26,998 list, 47k mi). Unparsed (Gmail connector cannot download attachments); Evan to upload here or Add-to-Drive, or Mac transcribes. Thread labeled. Under two hours from request to written proposal — responsive dealer. No action until parsed; the merit bar: at 47k mi it must undercut Puyallup #6's clean $28,547.78 to matter.
+
+### 2026-08-12 21:5xZ (2:5x PM PT Wed) — Doug's proposal parsed: $29,774.50 OTD, clean
+
+Evan uploaded Proposal.pdf (generated 1:55 PM): 2022 CX-5 Carbon Edition, Polymetal Gray, 47,333 mi, VIN JM3KFBCM7N0543071, stock #260724. Selling $26,000 ($998 self-discount off the $26,998 list, unprompted), taxes $2,912.00 (11.2% Lynnwood — correct), license est $662.50, doc $200, cash structure, zero add-ons = $29,774.50 OTD ("$29,775" headline). Score ~56: below Puyallup #6 (59) and Titus (60) — $1,183 over Kirkland with 14k more miles and less equipment; $1,227 over #6 with 4.8k more miles but non-turbo and a year newer. Contenders unchanged (Kirkland > Puyallup #6 > Titus); Doug's = third WA fallback. No counter (no worked-up target; none warranted while Kirkland stands). Carfax link from Alex still unopened here; history line unverified.
