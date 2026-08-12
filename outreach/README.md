@@ -843,3 +843,10 @@ Mac session's v2.1 pack ingested (outreach @ 3f9c8a8): assertive closes (one OTD
 - Royal Moore likely-pass: UNCHANGED (Evan's direct order supersedes the generic #8 counter template).
 - Rodland itemization ask: UNCHANGED (not a counter; #14 has no worked-up target and gets none until numbers are).
 Gmail quiet this cycle (only Evan's 6:59 PM forward of the Kirkland sheet to Maci). Promotions tab clean; label hygiene holding. Drive: nothing new. Public site: no changes needed.
+
+### 2026-08-12 03:4xZ (8:4x PM PT Tue) — 2024 sweep + Ask page ingested; Lake City answered
+
+Mac pushes ingested (outreach @ 0a53f1d, main @ 679b2f3). Gmail/Drive quiet; Promotions clean; figures-scan on regenerated main pages: CLEAN (neutrality patch held through the Mac's rebuild).
+- 2024 model-year sweep: 263 VINs screened, ~11% ex-rental; nothing joins the board; 3 cars on a public 2024 watchlist. Two round-1 asks worth sending, BOTH form-box submissions (Seattle Finest Motors Lynnwood 2024 Premium $28,779/18.3k, VW of McMinnville 2024 Carbon $25,814/35.5k, owner-type check first) — nothing Gmail-able, Mac/Evan send via CarGurus/KBB boxes. No targets/floors on any 2024; no counters.
+- Ask page (ask.html) is live: submit-a-listing inbox rendered from data/inbox.json (form not connected yet), seeded with three evaluations. It answers Evan's Toyota of Lake City question with the actual listing: VIN ...1490456 is a 68,769-mile 2021 GT + GT Premium at $22,970 + $200 (est. OTD $26,308) — fails the 50k-mile rule by ~19k, powertrain warranty exhausted, priced at market for the mileage (~$420 under KBB FPP). Verdict: price benchmark only, not a chase. Supersedes the provisional "strong backup if ≤$24,900" read logged 00:5x, which assumed board-typical mileage.
+- Board note: my scoring-model translation of the Ask verdict — value strong (~$26.3k OTD) but reliability/miles ~3/15 and warranty gone → ~mid-50s, below every live finalist. Logged for the scoreboard aggregate; not a numbered car.
