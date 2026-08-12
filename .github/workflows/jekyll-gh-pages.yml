@@ -30,6 +30,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Exclude buyer-side outreach files from the deployed site
+        run: rm -rf outreach
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
