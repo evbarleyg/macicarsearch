@@ -1,4 +1,15 @@
-:root {
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128663;</text></svg>">
+<title>Ask: send a CX-5 listing to check</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="light">
+<meta name="generator" content="tools/build_site.py from data/inbox.json + data/board.json (refreshed 2026-08-12)">
+<style>:root {
   color-scheme: light;
   --ground: #f2f0ed;
   --surface: #ffffff;
@@ -512,3 +523,130 @@ textarea.email-ta {
 .askline a:hover { background: #f1dfdc; }
 @media screen and (pointer: coarse) { .askline a { min-height: 44px; } }
 @media print { .askline { display: none !important; } }
+
+/* ask.html additions on top of report.css: submit box, judging rules, analysis cards */
+.ask-mast { padding-top: 34px; padding-bottom: 22px; }
+.ask-mast .scope { max-width: 62ch; }
+.ask-cta { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.ask-cta .btn { min-height: 52px; padding: 12px 20px; font-size: 1.02rem; border-radius: 9px; }
+.ask-cta .btn .sub { font-weight: 400; opacity: .9; }
+.ask-cta .eta { font-size: .9rem; color: var(--ink-2); }
+.notconn { margin-top: 18px; padding: 12px 14px; border: 1px dashed var(--rule-2); border-radius: 8px; background: var(--surface-2); color: var(--ink-2); font-size: .92rem; max-width: 62ch; }
+ul.judge { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+ul.judge li { margin: 0; padding: 10px 12px 10px 38px; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 8px; position: relative; font-size: .95rem; }
+ul.judge li::before { content: ""; position: absolute; left: 14px; top: 16px; width: 11px; height: 11px; border-radius: 3px; border: 2px solid var(--accent); transform: rotate(45deg); }
+ul.judge li strong { color: var(--ink); }
+.legend-v { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-size: .84rem; color: var(--ink-2); }
+
+/* verdict / status badges */
+.badge.vd { font-size: .78rem; padding: 3px 10px; }
+.badge.vd-pursue { background: var(--good-soft); color: var(--good); }
+.badge.vd-benchmark { background: var(--warn-soft); color: var(--warn); }
+.badge.vd-skip, .badge.vd-notcx5 { background: var(--surface-3); color: var(--ink-2); }
+.badge.vd-couldntload, .badge.vd-error { background: var(--bad-soft); color: var(--bad); }
+.badge.vd-queued { background: #e6eef8; color: #244f86; }
+.badge.vd-analyzing { background: var(--accent-soft); color: var(--accent); }
+
+/* analysis cards */
+.inbox-list { display: flex; flex-direction: column; gap: 14px; }
+.ib { border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; background: linear-gradient(180deg, var(--surface-2), var(--surface) 110px); min-width: 0; }
+.ib.is-pursue { border-color: #b9dccb; }
+.ib.is-queued, .ib.is-analyzing { background: var(--surface-2); border-style: dashed; }
+.ib-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ib-head .when { margin-left: auto; font-size: .8rem; color: var(--ink-3); }
+.ib-title { font-size: 1.05rem; font-weight: 650; line-height: 1.3; }
+.ib-title .sub { font-weight: 400; color: var(--ink-2); }
+.ib-facts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.ib-facts .p { font-weight: 700; font-size: 1.15rem; letter-spacing: -.01em; }
+.ib-facts .mo strong { font-weight: 700; }
+.ib-one { font-size: .95rem; }
+.ib-url { font-size: .84rem; color: var(--ink-2); word-break: break-all; }
+.ib-foot { font-size: .82rem; color: var(--ink-3); border-top: 1px solid var(--rule); padding-top: 8px; margin-top: 2px; }
+.ib-foot q { color: var(--ink-2); font-style: italic; }
+details.ib-more { border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); }
+details.ib-more > summary { cursor: pointer; list-style: none; padding: 10px 12px; font-size: .9rem; font-weight: 600; color: var(--accent); display: flex; align-items: center; gap: 8px; min-height: 44px; -webkit-tap-highlight-color: rgba(124, 26, 26, .12); }
+details.ib-more > summary::-webkit-details-marker { display: none; }
+details.ib-more > summary::before { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; margin-right: 2px; }
+details.ib-more[open] > summary::before { transform: rotate(45deg); }
+details.ib-more[open] > summary { border-bottom: 1px solid var(--rule); }
+.ib-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 12px; font-size: .9rem; }
+.ib-body h4 { margin: 0 0 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); font-weight: 650; }
+.ib-body ul { padding-left: 1.15em; margin: 0; }
+.ib-body li + li { margin-top: .3rem; }
+ul.ib-flags { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+ul.ib-flags li { margin: 0; padding: 6px 9px 6px 11px; border-radius: 6px; border-left: 4px solid var(--rule-2); background: var(--surface-2); }
+ul.ib-flags li.f-red { border-left-color: var(--bad); background: var(--bad-soft); }
+ul.ib-flags li.f-yellow { border-left-color: #c8860d; background: var(--warn-soft); }
+ul.ib-flags li.f-green { border-left-color: var(--good); background: var(--good-soft); }
+dl.ib-dl { margin: 0; display: grid; grid-template-columns: minmax(0, 9.5rem) minmax(0, 1fr); gap: 5px 12px; }
+dl.ib-dl dt { color: var(--ink-2); font-size: .84rem; }
+dl.ib-dl dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.ib-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.ib-links .btn { min-height: 38px; padding: 6px 12px; font-size: .86rem; }
+.empty { padding: 14px; border: 1px dashed var(--rule-2); border-radius: 8px; color: var(--ink-2); font-size: .92rem; }
+@media screen and (max-width: 600px) {
+  .ib { padding: 14px 13px; }
+  .ib-title .sub { display: block; font-size: .95rem; }
+  .ib-title .sep { display: none; }
+  dl.ib-dl { grid-template-columns: 1fr; gap: 1px 0; }
+  dl.ib-dl dt { margin-top: 6px; }
+  .ask-cta .btn { align-self: stretch; width: 100%; }
+}
+</style>
+</head>
+<body>
+<nav class="topnav" aria-label="Sections"><div class="wrap navwrap">
+  <a class="brand" href="index.html">CX-5 Buyer's Report</a>
+  <div class="navlinks"><a href="index.html"><span>Report</span></a><a href="ask.html" class="active" aria-current="page"><span>Ask</span></a><a href="status.html"><span>Status</span></a><a href="map.html"><span>Map</span></a><a href="trims.html"><span>Trim guide</span></a></div>
+</div></nav>
+
+<header class="masthead ask-mast wrap" id="top">
+  <p class="eyebrow">CX-5 search &#183; Seattle &#183; send a link</p>
+  <h1>Send us a listing to check</h1>
+  <p class="scope">Seen a CX-5 for sale somewhere: a dealer page, CarGurus, Autotrader, KBB, Craigslist, a Facebook post? Paste the link and we run it through the same checks as the <a href="index.html">report</a>: right trim, miles, history, price against the market, and what it would really cost per month. The answer lands on this page.</p>
+  <p class="notconn">Submission form not connected yet. Once it is, a button here opens a 10-second form: paste the link, add a note if you like, done.</p>
+</header>
+
+<main class="wrap">
+
+<section class="card" id="how">
+  <div class="sec-head"><h2>How we judge a listing</h2><p class="muted">Same rules as the numbered board, so every answer below reads the same way.</p></div>
+  <ul class="judge"><li><strong>Right car, right trim:</strong> 2021&#8211;2023 Mazda CX-5 (a 2024 gets a look if the price is right). Comfort trims first: Premium / Premium Plus, Grand Touring with the Premium Package, Carbon Edition, Turbo, Signature. Base trims (Sport, Select, plain 2.5 S) only count if they are more than $3,000 under the going rate.</li><li><strong>Under 50,000 miles:</strong> and ideally one owner. Higher-mile cars can still be useful as a price benchmark, but they do not go on the board.</li><li><strong>Clean history:</strong> no reported accidents, no rental / fleet past, no lemon or frame-damage flags, a real VIN and at least a handful of real photos. Mazda Certified Pre-Owned is a plus, not a must.</li><li><strong>Priced at or under market:</strong> we check the asking price against KBB Fair Purchase Price and the CarGurus market value for that exact car, look at how long it has been listed and whether the price has been cut, and compare it with the cars already on the board.</li><li><strong>What it really costs:</strong> estimated out-the-door = price &#215; (1 + the dealer city&#8217;s sales-tax rate, 9.1&#8211;11.2% around here) + $200 doc fee + $600 licence, then a monthly payment at 6.30% APR over 60 months (about $19.47 per $1,000 financed) at $0 and $5,000 down. Dealer-quoted figures never appear on this page.</li></ul>
+  <p class="legend-v"><span>Verdicts:</span> <span class="badge vd vd-pursue">Pursue</span> <span class="badge vd vd-benchmark">Benchmark</span> <span class="badge vd vd-skip">Skip</span> <span class="badge vd vd-notcx5">Not a CX-5</span> <span class="badge vd vd-couldntload">Couldn&#x27;t load</span> <span class="badge vd vd-queued">Queued</span> <span>&#183; &#8220;benchmark&#8221; means useful as a price reference but not one to chase.</span></p>
+</section>
+
+<section class="card" id="analyses">
+  <div class="sec-head"><h2>Analyses</h2><p class="muted">Newest first &#183; 3 checked &#183; figures as of the day each was checked; listings change daily.</p></div>
+  <div class="inbox-list">
+    <article class="ib is-benchmark" id="a-fc1de0c8">
+      <header class="ib-head"><span class="badge vd vd-benchmark">Benchmark</span><span class="when">checked Aug 12</span></header>
+      <h3 class="ib-title">2021 Mazda CX-5 Grand Touring AWD w/ GT Premium Pkg<span class="sub"><span class="sep"> &#183; </span>Toyota of Lake City &#183; Seattle, WA</span></h3>
+      <p class="ib-facts"><span class="p">$22,970</span> <span class="muted small">+ $200 doc</span> <span>68,769 mi</span> <span>est. OTD <strong>$26,308</strong></span> <span class="mo"><strong>$512</strong>/mo <span class="muted small">$0 down &#183; $415/mo with $5k down</span></span></p>
+      <p class="ib-one">Right spec (GT + Premium Package, Soul Red, 1-owner, clean) at the lowest out-the-door figure seen so far &#8212; but only because it has 68,769 miles: it fails the under-50k rule by almost 19k and is priced at market for that mileage, not under it. Useful as a price benchmark; not one to chase.</p>
+      <details class="ib-more"><summary>Details: why, flags, opening move, links</summary><div class="ib-body"><div><h4>Why</h4><ul><li>Fails the mileage rule: 68,769 mi vs the 50,000 cap. The factory powertrain warranty (5 yr / 60k) is already gone, so any repair is out of pocket from day one; every car on the board still has 10&#8211;30k mi of powertrain coverage left.</li><li>Priced at market, not below it: KBB&#x27;s fair purchase price for this exact car and mileage is $23,390, so $22,970 is only about $420 under; CarGurus calls it a Good Deal at $635 under its market value. The big gap to the board&#x27;s 2021 GT numbers is almost entirely the extra miles.</li><li>Comparables say the same: CarMax has a 39k-mile 2021 GT for about $1,000 more (no-haggle), and #5 on the board (Kirkland, 2021 GT with the same Premium Package, 33k mi) is roughly $2,400 more on estimated OTD for half the miles and warranty remaining. Other 60&#8211;75k-mile 2021 GTs around Puget Sound list at $22.6k&#8211;$24.7k, so this one is mid-pack for its band.</li><li>The listing itself is clean: sale price $22,970 (was $23,780; two cuts in three weeks, 23 days listed), $200 doc fee disclosed as negotiable and at the WA cap, no add-on packages, 31 real photos, franchise dealer in Seattle proper (11.05% rate, so no tax edge).</li><li>History is claims-only so far: dealer says CARFAX 1-Owner / clean / local trade and CarGurus + KBB previews agree (1 owner, 0 accidents, not fleet or rental), but the full report would not load read-only. Registration state, service records and last odometer are unverified until someone sees the Carfax PDF.</li></ul></div><div><h4>Flags</h4><ul class="ib-flags"><li class="f-red">RED: 68,769 miles &#8212; fails the under-50k rule; factory powertrain warranty expired.</li><li class="f-yellow">YELLOW: history depth unverified (full Carfax not viewable read-only; 1-owner / clean rests on dealer claims + AutoCheck preview). Ask for the Carfax PDF: WA-only registration, personal use, service cadence.</li><li class="f-yellow">YELLOW: &#x27;LOW MILES&#x27; in the dealer blurb is boilerplate (it is high for a 2021); dealer CarGurus rating 3.3 stars on 3 reviews; &#x27;offers expire daily&#x27; language and a 3% card surcharge.</li><li class="f-green">GREEN: GT Premium Package (ventilated seats, HUD, heated wheel and rear seats), Soul Red, 1-owner / 0 accidents claimed, no add-ons, doc fee at cap and disclosed, 23 days + two cuts = some leverage, no open recalls for the 2021 CX-5.</li></ul></div><div><h4>Opening move</h4><p>None recommended while the 50k rule stands. If the rule is deliberately waived for budget reasons: one email to the internet desk asking for an itemized out-the-door sheet plus the Carfax PDF, opening at $21,500 selling (about $24,675 OTD; rationale: KBB range floor $22,190, out of powertrain warranty, 23 days with two cuts, a 65.8k-mile GT in Puyallup listed at $22,629) and walking away above $22,300 selling (about $25,565 OTD). Above that, #5, #6 and #10 on the board are better money. <span class="muted">(target OTD $24,675)</span></p></div><div><h4>Where it would slot vs. the board</h4><p>By estimated OTD ($26,308, $512/mo) it would sit first, about $1,000 under #10 Columbia 2023 Preferred ($27,346 est.) &#8212; but only because it carries roughly twice the miles of anything on the board. Not added; benchmark note only.</p></div><div><h4>Listing facts</h4><dl class="ib-dl"><dt>VIN &#183; stock</dt><dd>JM3KFBDM3M1490456 &#183; 70554A</dd><dt>Days listed</dt><dd>23 as of Aug 12</dd><dt>Price history</dt><dd>Jul 20 $23,780 <span class="muted small">(first listed)</span> &#8594; Jul 28 $22,995 &#8594; Aug 12 $22,970 <span class="muted small">(two cuts, &#8722;$810 in 3 weeks)</span></dd><dt>History</dt><dd>1 owner &#183; 0 accidents &#183; no rental / fleet flag &#183; 31 photos</dd><dt>Market check</dt><dd>CarGurus Good Deal ($635 under their market value) &#183; KBB fair purchase price $23,390 &#8594; asking is $420 under</dd><dt>OTD basis</dt><dd>est. at Seattle 11.05% + $200 doc + $600 licence (sale price $22,970; the dealer shows $23,170 with the doc fee folded in)</dd></dl></div><div class="ib-links"><a class="btn ghost" href="https://www.toyotaoflakecity.com/used-Seattle-2021-+-Mazda+CX+5-Grand+Touring++AWD-JM3KFBDM3M1490456" target="_blank" rel="noopener">Source listing</a><a class="btn ghost" href="https://www.cargurus.com/Cars/listing/453870986" target="_blank" rel="noopener">CarGurus</a><a class="btn ghost" href="https://www.kbb.com/cars-for-sale/vehicle/786080902" target="_blank" rel="noopener">KBB</a></div></div></details>
+      <footer class="ib-foot">submitted Aug 12 by Evan &#183; <q>Soul Red GT at the Toyota store on Lake City Way; is the price as good as it looks?</q></footer>
+    </article>
+    <article class="ib is-nota5" id="a-5a65d3a5">
+      <header class="ib-head"><span class="badge vd vd-notcx5">Not a CX-5</span><span class="when">checked Aug 12</span></header>
+      <h3 class="ib-title">2023 Honda CR-V EX AWD (HondaTrue Certified+)<span class="sub"><span class="sep"> &#183; </span>Klein Honda &#183; Everett, WA</span></h3>
+      <p class="ib-facts"><span class="p">$27,699</span> <span class="muted small">+ $200 doc</span> <span>37,822 mi</span> <span>est. OTD <strong>$31,380</strong></span> <span class="mo"><strong>$611</strong>/mo <span class="muted small">$0 down &#183; $514/mo with $5k down</span></span></p>
+      <p class="ib-one">This CarGurus link (id 453528843) opens a 2023 Honda CR-V EX AWD at Klein Honda in Everett, not a CX-5 &#8212; a genuinely well-priced Honda-certified CR-V, but about $31.4k out-the-door for cloth-seat EX content, and simply not the car this search is about. If a different listing was meant, send the link again.</p>
+      <details class="ib-more"><summary>Details: why, flags, opening move, links</summary><div class="ib-body"><div><h4>Why</h4><ul><li>Identity check: both forms of the link resolve to the same vehicle &#8212; 2023 Honda CR-V EX AWD, VIN 2HKRS4H49PH435662, stock 17614PX. There is no CX-5 behind this id, so either the link was mis-pasted from a search page or it is a deliberate cross-shop.</li><li>As a CR-V it is a good listing: Honda-certified (Certified+: powertrain to 7 yr / 100k, non-powertrain extended to 5 yr / 60k, which matters at 37.8k mi), 1 owner, 0 accidents, not fleet or rental, 32 photos, franchise dealer rated 5.0, CarGurus Great Deal at $2,219 under its market value, KBB fair purchase price $29,600.</li><li>Two public prices $1,150 apart: CarGurus shows $27,899 all-in ($27,699 + $200 doc, one $300 cut) while the KBB / Autotrader feed shows $29,049 for the same VIN, including a $450 raise on Jul 31. Anyone contacting the store needs the CarGurus number confirmed in writing first.</li><li>Content vs. the CX-5 board: the EX is Honda&#x27;s mid trim &#8212; heated cloth seats, moonroof, 7-inch screen, no leather, no ventilated seats, no power liftgate &#8212; so it sits below even a CX-5 Preferred on the comfort list, at more money than most of the board.</li><li>Cost: about $31,380 est. OTD and $611/mo at $0 down (Everett&#x27;s 10.4% rate saves ~$180 vs Seattle). That is CarMax-Premium money on this board.</li></ul></div><div><h4>Flags</h4><ul class="ib-flags"><li class="f-red">RED (scope): not a Mazda CX-5; cloth EX trim is below the comfort bar (no leather, no ventilated seats, no power liftgate).</li><li class="f-yellow">YELLOW: two public prices $1,150 apart (CarGurus $27,899 all-in vs KBB / Autotrader $29,049), with a $450 raise in the feed on Jul 31 &#8212; pin the number in writing before any visit.</li><li class="f-yellow">YELLOW: 1.5-litre turbo + CVT powertrain vs the CX-5&#x27;s simpler non-turbo 2.5 / 6-speed automatic that this search chose on purpose.</li><li class="f-green">GREEN: Honda Certified+ with long powertrain coverage, 1-owner, 0 accidents, 32 photos, franchise dealer, Great Deal $2.2k under market, 27 days listed with a cut.</li></ul></div><div><h4>Opening move</h4><p>Nothing to do for the CX-5 search. Only if a CR-V lane is being opened on purpose: one email asking Klein&#x27;s internet desk to confirm the $27,899 CarGurus all-in price on an itemized out-the-door sheet, targeting $27,000 selling (about $30,600 OTD) and walking away at the CarGurus price (about $31,380 OTD); rationale: KBB fair price $29,600 less a typical certified spread, 27 days listed, comparable CX-5s on the board under $29k OTD. <span class="muted">(target OTD $30,600)</span></p></div><div><h4>Where it would slot vs. the board</h4><p>By estimated OTD ($31,380) it would land 14th of 17 &#8212; dearer than every negotiable CX-5 on the board except #1 Puyallup Turbo ($31,823 est.), the CarMax benchmark #15 ($31,878) and #14 Rodland Premium &#8212; for less equipment than a Preferred. Not added; the sweeps stay Mazda-only.</p></div><div><h4>Listing facts</h4><dl class="ib-dl"><dt>VIN &#183; stock</dt><dd>2HKRS4H49PH435662 &#183; 17614PX</dd><dt>Days listed</dt><dd>27 as of Aug 12</dd><dt>Price history</dt><dd>$27,999 <span class="muted small">(earlier CarGurus price ($28,199 shown with doc fee))</span> &#8594; Aug 12 $27,699 <span class="muted small">(CarGurus now ($27,899 with doc); the KBB / Autotrader feed shows $28,849 for the same VIN, $1,150 higher)</span></dd><dt>History</dt><dd>1 owner &#183; 0 accidents &#183; no rental / fleet flag &#183; HondaTrue Certified+ (7 yr / 100k powertrain) &#183; 32 photos</dd><dt>Market check</dt><dd>CarGurus Great Deal ($2,219 under their market value) &#183; KBB fair purchase price $29,600 &#8594; asking is $1,901 under</dd><dt>OTD basis</dt><dd>est. at Everett 10.4% + $200 doc + $600 licence on the CarGurus $27,699 price; at the KBB-feed price ($28,849) it would be about $32,650</dd></dl></div><div class="ib-links"><a class="btn ghost" href="https://www.cargurus.com/details/453528843" target="_blank" rel="noopener">Source listing</a><a class="btn ghost" href="https://www.cargurus.com/Cars/listing/453528843" target="_blank" rel="noopener">CarGurus</a><a class="btn ghost" href="https://www.kbb.com/cars-for-sale/vehicle/785703255" target="_blank" rel="noopener">KBB</a></div></div></details>
+      <footer class="ib-foot">submitted Aug 12 by Evan &#183; <q>CarGurus link from a search around 98144</q></footer>
+    </article>
+    <article class="ib is-skip" id="a-2f5bb120">
+      <header class="ib-head"><span class="badge vd vd-skip">Skip</span><span class="when">checked Aug 12</span></header>
+      <h3 class="ib-title">2024 Mazda CX-5 2.5 S Select AWD<span class="sub"><span class="sep"> &#183; </span>Pierre Ford of Lynnwood &#183; Lynnwood, WA</span></h3>
+      <p class="ib-facts"><span class="p">$26,491</span> <span class="muted small">+ $200 doc</span> <span>24,011 mi</span> <span>est. OTD <strong>$30,258</strong></span> <span class="mo"><strong>$589</strong>/mo <span class="muted small">$0 down &#183; $492/mo with $5k down</span></span></p>
+      <p class="ib-one">An honest listing (real photos, no add-ons, no conditional pricing, 1-owner, some factory warranty left) but the wrong tier at the wrong price: a base Select asking 2024-Premium-Plus book money, about $30.3k out-the-door &#8212; the same as the 17k-mile 2023 Preferreds already on the board and within ~$1.6k of Premium and Turbo cars. Skip.</p>
+      <details class="ib-more"><summary>Details: why, flags, opening move, links</summary><div class="ib-body"><div><h4>Why</h4><ul><li>Fails the trim rule: Select is the 2024 base tier &#8212; leatherette, heated front seats, wireless CarPlay, radar cruise, but no ventilated seats, no Bose, no HUD, no moonroof, no power liftgate, no leather. The board only admits a Select at $3,000+ under market, and this one is over it.</li><li>Priced over book: $26,491 is $1,321 over KBB&#x27;s fair purchase price for this exact car ($25,170, range $23,170&#8211;$27,170) and $2,691 over KBB&#x27;s national 2024 Select figure ($23,800); the asking price equals KBB&#x27;s number for a 2024 Premium Plus ($26,500). CarGurus disagrees and calls it a Good Deal at $651 under its market value &#8212; the outlier signal, with 0 saves.</li><li>Sticky pricing: 31&#8211;32 days listed with a net change of about &#8722;$110 (it went up $200 before coming down $110). Local 2024 Selects undercut it: Rairdon Monroe $24,090 / 35k mi (CarGurus Great Deal), West Hills Bremerton $27,299 with only 14.8k mi; a 2024 Carbon Edition with leather and Bose in Burlington lists at $25,499.</li><li>Against the board at ~$30.3k est. OTD: same money as #12 Lee Johnson 2023 Preferred with Mazda CPO ($30,059), #20 / #8 Royal Moore 2023 Preferreds with 17k mi ($30,278 / $30,472) &#8212; all one tier above Select &#8212; and only ~$1.6k under #1 Puyallup 2023 Turbo ($31,823) and the CarMax Premium benchmark #15 ($31,878).</li><li>What the 2024 actually buys over the board&#x27;s 2023s: one model year, roughly a year / 12k mi of remaining bumper-to-bumper warranty (powertrain to ~2029), wireless CarPlay and Soul Red. Worth a few hundred dollars, not a $2.7k premium over Select book. &#x27;Ford Blue Certified&#x27; is a 90-day / 4,000-mi dealer wrapper with a 14-day return, not Mazda CPO.</li></ul></div><div><h4>Flags</h4><ul class="ib-flags"><li class="f-red">RED (rule): Select trim with none of the comfort items; the playbook only admits a Select at $3k+ under market and this one is about $1.3k over KBB&#x27;s figure for the car.</li><li class="f-yellow">YELLOW: pricing sticky and optimistic &#8212; a month listed, net &#8722;$110; +$1.3k vs KBB for this VIN, +$2.7k vs the national Select figure; CarGurus &#x27;Good Deal / Hot seller&#x27; with 0 saves is the outlier.</li><li class="f-yellow">YELLOW: history depth unverified &#8212; full Carfax would not load read-only; 1-owner / 0 accidents rest on AutoCheck + the Carfax 1-Owner badge; rental / lease use, registration state and Mazda in-service date unknown (many used 2024s are ex-rental or ex-loaner; CarGurus says not fleet / rental here, but get the PDF).</li><li class="f-yellow">YELLOW: off-brand unit at a Ford store rated 2.75 stars on CarGurus (12 reviews); Lynnwood&#x27;s 11.2% is the highest rate on the board (no tax edge).</li><li class="f-green">GREEN: clean, unconditional price stack (price + $200 doc, no add-ons, no finance or trade conditions); 32 photos + video; Soul Red; factory bumper-to-bumper still alive and powertrain to ~2029; 14-day / 1,000-mi return; no open recalls for the 2024 CX-5.</li></ul></div><div><h4>Opening move</h4><p>Not recommended. If someone wants to test it anyway (email only): ask the internet desk for an itemized out-the-door sheet (selling / doc / tax at 11.2% / licence, confirmation of zero add-ons) plus the Carfax PDF and the Mazda in-service date; open at $24,300 selling (about $27,822 OTD; rationale: CarGurus market value $27,342 less the $3k Select discount the board requires, Rairdon Monroe&#x27;s 2024 Select at $24,090, KBB national Select $23,800, a month listed with no real cut) and walk away above $25,200 selling (about $28,822 OTD, KBB&#x27;s figure for this VIN). Above that, #10 / #5 / #6 are cheaper out-the-door and #12 / #20 / #8 are more car for the same money. <span class="muted">(target OTD $27,822)</span></p></div><div><h4>Where it would slot vs. the board</h4><p>8th of 17 by estimated OTD ($30,258, $589/mo): between #12 Lee Johnson 2023 Preferred CPO ($30,059) and #20 Royal Moore 2023 Preferred 17k mi ($30,278) &#8212; 2023-Preferred money for a 2024 Select. By value it sits in the bottom third of the board. Not added; kept as a &#x27;what a 2024 Select costs locally&#x27; benchmark alongside Rairdon Monroe&#x27;s $24,090 unit.</p></div><div><h4>Listing facts</h4><dl class="ib-dl"><dt>VIN &#183; stock</dt><dd>JM3KFBBL6R0513672 &#183; H260345A</dd><dt>Days listed</dt><dd>32 as of Aug 12</dd><dt>Price history</dt><dd>Jul 11 $26,401 <span class="muted small">(into inventory; $26,601 shown with doc)</span> &#8594; Jul 25 $26,601 <span class="muted small">($26,801 with doc (a $200 raise))</span> &#8594; Aug 12 $26,491 <span class="muted small">($26,691 with doc; net movement in a month about &#8722;$110)</span></dd><dt>History</dt><dd>1 owner &#183; 0 accidents &#183; no rental / fleet flag &#183; Ford Blue Certified (90-day / 4,000-mi dealer warranty; not Mazda CPO) &#183; 32 photos</dd><dt>Market check</dt><dd>CarGurus Good Deal ($651 under their market value) &#183; KBB fair purchase price $25,170 &#8594; asking is $1,321 over</dd><dt>OTD basis</dt><dd>est. at Lynnwood 11.2% + $200 doc + $600 licence on the $26,491 &#x27;Pierre Price&#x27; (the site shows $26,691 with the doc fee folded in)</dd></dl></div><div class="ib-links"><a class="btn ghost" href="https://www.pierrefordoflynnwood.com/used/Mazda/2024-Mazda-CX-5-5667f5d3ac181a15172eb39561fa142f.htm" target="_blank" rel="noopener">Source listing</a><a class="btn ghost" href="https://www.cargurus.com/Cars/listing/453275837" target="_blank" rel="noopener">CarGurus</a><a class="btn ghost" href="https://www.kbb.com/cars-for-sale/vehicle/785445539" target="_blank" rel="noopener">KBB</a></div></div></details>
+      <footer class="ib-foot">submitted Aug 12 by Evan &#183; <q>A 2024 at a Ford dealer in Lynnwood, 24k miles</q></footer>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap footer"><p>Read-only research: nobody here contacts a seller on your behalf from this page, and nothing is affiliated with any dealer or listing site. Prices, availability and history badges are as found on the day checked; verify the history report, the out-the-door sheet and the car itself before buying. Board changes stay manual: a &#8220;pursue&#8221; here does not add a car to the <a href="status.html">status board</a> by itself.</p></footer>
+</body>
+</html>

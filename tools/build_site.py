@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Build the whole CX-5 buyer's-report site from data/board.json.
 
-    python3 tools/build_site.py            # index.html, status.html, map.html, trims.html + PDF, XLSX, DOCX
+    python3 tools/build_site.py            # index.html, status.html, map.html, trims.html, ask.html + PDF, XLSX, DOCX
     python3 tools/build_site.py --no-pdf   # skip the Chromium print step
 
-Every number, table row, chart marker and download derives from data/board.json.
-Never hand-edit the generated files; edit the board file and re-run.
+Every number, table row, chart marker and download derives from data/board.json
+(plus data/inbox.json for the Ask page). Never hand-edit the generated files; edit the data and re-run.
 """
 import json, math, html, re, os, sys, subprocess, datetime, urllib.parse
 
@@ -14,6 +14,8 @@ TOOLS = os.path.join(ROOT, 'tools')
 ASSETS = os.path.join(TOOLS, 'assets')
 B = json.load(open(os.path.join(ROOT, 'data', 'board.json'), encoding='utf-8'))
 META = B['meta']
+_INBOX_PATH = os.path.join(ROOT, 'data', 'inbox.json')
+INBOX = json.load(open(_INBOX_PATH, encoding='utf-8')) if os.path.exists(_INBOX_PATH) else {'config': {}, 'items': []}
 
 # ----------------------------------------------------------------------------- helpers
 def esc(s):
@@ -356,8 +358,12 @@ def car_title(c): return f'{c["year"]} {c["trim"]}'
 def dealer_city(c): return c['dealer']['city']
 
 # ----------------------------------------------------------------------------- index.html sections
-NAV = [('#tldr', 'TL;DR'), ('#top3', 'Top 3'), ('#shortlist', 'Shortlist'), ('#watchlist', 'Watchlist'), ('#chart', 'Price vs. miles'), ('#trims', 'Trims'), ('status.html', 'Status'), ('map.html', 'Dealership map'),
+NAV = [('#tldr', 'TL;DR'), ('ask.html', 'Ask'), ('#top3', 'Top 3'), ('#shortlist', 'Shortlist'), ('#watchlist', 'Watchlist'), ('#chart', 'Price vs. miles'), ('#trims', 'Trims'), ('status.html', 'Status'), ('map.html', 'Dealership map'),
        ('trims.html', 'Trim guide'), ('#cost', 'Monthly cost'), ('#nohaggle', 'No-haggle'), ('#email', 'Email'), ('#sources', 'Sources')]
+# page-level nav shared by status.html / ask.html (trims.html carries the same links in its template; map.html has its own header)
+PAGES = [('index.html', 'Report'), ('ask.html', 'Ask'), ('status.html', 'Status'), ('map.html', 'Map'), ('trims.html', 'Trim guide')]
+def pages_nav(current):
+    return ''.join(f'<a href="{h}"{" aria-current=" + chr(34) + "page" + chr(34) if h == current else ""}>{esc(l)}</a>' for h, l in PAGES)
 
 def car_ref(c, with_price=True):
     s = f'#{c["rank"]} {c["year"]} {c["trim"]} at {c["dealer"]["short"]}'
@@ -823,6 +829,7 @@ def build_index():
     <span class="funnel">{esc(META["funnel"])}</span>
   </div>
   {downloads_line()}
+  <p class="askline"><a href="ask.html"><strong>Have a listing you want checked?</strong> <span aria-hidden="true">&rarr;</span> Ask page</a></p>
   <p class="tipline">Tip: open this file in Safari or Chrome for sorting and the payment calculator.</p>
 </header>
 
@@ -1038,7 +1045,7 @@ def build_status():
 <body>
 <nav class="topnav" aria-label="Sections"><div class="navwrap">
   <a class="brand" href="index.html">CX-5 Buyer's Report</a>
-  <div class="navlinks"><a href="index.html">Report</a><a href="status.html" aria-current="page">Status</a><a href="map.html">Map</a><a href="trims.html">Trim guide</a></div>
+  <div class="navlinks">{pages_nav("status.html")}</div>
 </div></nav>
 
 <header class="masthead wrap">
@@ -1254,7 +1261,7 @@ def build_map():
 <header class="wrap masthead">
   <div class="toplinks">
     <a class="back" href="./">&larr; Back to the report</a>
-    <span class="sibs"><a href="./status.html">Status board</a><a href="./trims.html">Trim guide</a></span>
+    <span class="sibs"><a href="./ask.html">Ask</a><a href="./status.html">Status board</a><a href="./trims.html">Trim guide</a></span>
   </div>
   <h1>CX-5 dealerships — test-drive map</h1>
   <p class="asof">{as_of} · board #1–#{max_rank} · {n_live_cars} live cars at {n_live_dealers} dealers, {n_sold_cars} sold · distances are straight-line from Seattle {META["homeZip"]}</p>
@@ -1316,6 +1323,208 @@ def build_trims():
                  f'<td class="tier">—</td><td>{esc(c["engine"])}</td><td>Removed from the board</td><td class="num">{round(c["miles"] / 1000)}k</td><td class="num"><s>{money(c["price"]["listed"])}</s></td></tr>\n')
     note = f'<p class="note">{esc(B["prose"]["guideReading"]).replace("status board", "<a href=" + chr(34) + "status.html" + chr(34) + ">status board</a>").replace("main report", "<a href=" + chr(34) + "index.html" + chr(34) + ">main report</a>")} Live cars as of the {d_short(REF)} refresh, grouped by tier; prices are listed asking prices.</p>'
     return t.replace('<!--CANDIDATE_ROWS-->\n', rows).replace('<!--CANDIDATE_NOTE-->', note)
+
+# ----------------------------------------------------------------------------- ask.html (submit-a-listing inbox; data/inbox.json via tools/inbox.py)
+# Everything in an inbox item is untrusted text (it arrives through a public form): every field goes through esc(),
+# links render only when they are http(s), and the page carries no script at all.
+VERDICT_BADGE = {'pursue': ('Pursue', 'vd-pursue'), 'benchmark': ('Benchmark', 'vd-benchmark'), 'skip': ('Skip', 'vd-skip'),
+                 'not a CX-5': ('Not a CX-5', 'vd-notcx5'), "couldn't load": ("Couldn't load", 'vd-couldntload')}
+
+def t_disp(s, with_time=True):
+    """'2026-08-12T09:14:05' → 'Aug 12, 9:14 AM'; '2026-08-12' → 'Aug 12'; anything else is echoed escaped."""
+    s = str(s or '').strip()
+    if not s: return ''
+    try:
+        if 'T' in s or ' ' in s:
+            dt = datetime.datetime.fromisoformat(s.replace(' ', 'T')[:19])
+            out = dt.strftime('%b ') + str(dt.day)
+            if with_time: out += ', ' + (dt.strftime('%I:%M %p').lstrip('0'))
+            if dt.year != d_iso(REF).year: out += f', {dt.year}'
+            return out
+        d = datetime.date.fromisoformat(s[:10])
+        return d.strftime('%b ') + str(d.day) + (f', {d.year}' if d.year != d_iso(REF).year else '')
+    except ValueError:
+        return esc(s[:40])
+
+def safe_href(u):
+    u = str(u or '').strip()
+    return u if urllib.parse.urlsplit(u).scheme in ('http', 'https') and not re.search(r'[\s<>"\']', u) else None
+
+def host_of(u):
+    h = urllib.parse.urlsplit(str(u or '')).hostname or ''
+    return h[4:] if h.startswith('www.') else h
+
+def city_rate(city, state):
+    if (state or 'WA') != 'WA': return META['useTaxRateOR']
+    key = f'{(city or "").split(",")[0].strip()}, WA'
+    return B['taxRatesByCity'].get(key) or META['defaultTaxRate']
+
+def inbox_numbers(it):
+    """Public rule: the Ask page shows estimates only (price × (1 + dealer-city rate) + doc + licence), never a dealer-quoted OTD."""
+    L = it.get('listing') or {}; n = dict(it.get('numbers') or {})
+    price = L.get('price')
+    if price:
+        rate = n.get('taxRate') or city_rate(L.get('city'), L.get('state'))
+        doc = L.get('docFee') if L.get('docFee') is not None else (META['docFeeWA'] if (L.get('state') or 'WA') == 'WA' else META['docFeeOR'])
+        est = est_otd(price, rate, doc)
+        n.setdefault('taxRate', rate); n.setdefault('estOtd', est)
+        n.setdefault('monthly0', pmt(n['estOtd'])); n.setdefault('monthly5k', pmt(max(0, n['estOtd'] - 5000)))
+        n.setdefault('basis', f'est. at {rate:.2f}% + ${doc:,.0f} doc + ${META["licenseEst"]:,} licence')
+    return n
+
+def judge_rules():
+    yrs = re.search(r'(20\d\d)\D+(20\d\d)', META['title'])
+    span = f'{yrs.group(1)}–{yrs.group(2)}' if yrs else '2021–2023'
+    return [
+        ('Right car, right trim', f'{span} Mazda CX-5 (a 2024 gets a look if the price is right). Comfort trims first: Premium / Premium Plus, Grand Touring with the Premium Package, Carbon Edition, Turbo, Signature. Base trims (Sport, Select, plain 2.5 S) only count if they are more than $3,000 under the going rate.'),
+        ('Under 50,000 miles', 'and ideally one owner. Higher-mile cars can still be useful as a price benchmark, but they do not go on the board.'),
+        ('Clean history', 'no reported accidents, no rental / fleet past, no lemon or frame-damage flags, a real VIN and at least a handful of real photos. Mazda Certified Pre-Owned is a plus, not a must.'),
+        ('Priced at or under market', 'we check the asking price against KBB Fair Purchase Price and the CarGurus market value for that exact car, look at how long it has been listed and whether the price has been cut, and compare it with the cars already on the board.'),
+        ('What it really costs', f'estimated out-the-door = price × (1 + the dealer city’s sales-tax rate, {min(B["taxRatesByCity"].values()):.1f}–{max(B["taxRatesByCity"].values()):.1f}% around here) + ${META["docFeeWA"]} doc fee + ${META["licenseEst"]} licence, then a monthly payment at {APR:.2f}% APR over {N} months (about ${PER1K:.2f} per $1,000 financed) at $0 and $5,000 down. Dealer-quoted figures never appear on this page.'),
+    ]
+
+def flag_cls(f):
+    m = re.match(r'\s*(RED|YELLOW|AMBER|GREEN)\b', str(f), re.I)
+    return {'red': 'f-red', 'yellow': 'f-yellow', 'amber': 'f-yellow', 'green': 'f-green'}.get(m.group(1).lower(), '') if m else ''
+
+def inbox_card(it):
+    st = it.get('status') or 'queued'
+    L = it.get('listing') or {}; V = it.get('verdict') or {}; n = inbox_numbers(it)
+    sid = esc(str(it.get('id') or '')[:8])
+    src = safe_href(it.get('url'))
+    sub_bits = ['submitted ' + t_disp(it.get('submittedAt'))] if it.get('submittedAt') else ['submitted']
+    if it.get('submitter'): sub_bits.append('by ' + esc(it['submitter']))
+    foot = ' '.join(sub_bits) + (f' · <q>{esc(it["submittedNote"])}</q>' if it.get('submittedNote') else '')
+    url_line = f'<p class="ib-url">{ext(src, esc(it["url"])) if src else esc(it.get("url"))}</p>'
+    if st in ('queued', 'analyzing'):
+        lab, cls = ('Queued', 'vd-queued') if st == 'queued' else ('Analyzing', 'vd-analyzing')
+        line = 'In line — ' + sub_bits[0] if st == 'queued' else 'Being checked now — ' + sub_bits[0]
+        return f'''    <article class="ib is-{st}" id="a-{sid}">
+      <header class="ib-head">{badge(lab, "vd " + cls)}<span class="muted small">{esc(host_of(it.get("url")))}</span></header>
+      <p class="ib-one">{line}{(" by " + esc(it["submitter"])) if it.get("submitter") else ""}.</p>
+      {url_line}
+      {f'<footer class="ib-foot"><q>{esc(it["submittedNote"])}</q></footer>' if it.get("submittedNote") else ""}
+    </article>'''
+    label = V.get('label') or ("couldn't load" if st == 'error' else 'skip')
+    lab, cls = VERDICT_BADGE.get(label, (label.title(), 'vd-skip'))
+    if st == 'error' and label != "couldn't load": lab, cls = "Couldn't load", 'vd-error'
+    # title: year make model trim · dealer · city
+    car = ' '.join(str(x) for x in [L.get('year'), L.get('make'), L.get('model'), L.get('trim')] if x)
+    where = ' · '.join(esc(x) for x in [L.get('dealer'), ', '.join(y for y in [L.get('city'), L.get('state')] if y)] if x)
+    title = (esc(car) or esc(host_of(it.get('url')))) + (f'<span class="sub"><span class="sep"> · </span>{where}</span>' if where else '')
+    facts = []
+    if L.get('price') is not None: facts.append(f'<span class="p">{money(L["price"])}</span>' + (f' <span class="muted small">+ ${L["docFee"]:,.0f} doc</span>' if L.get('docFee') else ''))
+    if L.get('miles') is not None: facts.append(f'<span>{num(L["miles"])} mi</span>')
+    if n.get('estOtd'): facts.append(f'<span>est. OTD <strong>{money(n["estOtd"])}</strong></span>')
+    if n.get('monthly0'): facts.append(f'<span class="mo"><strong>{money(n["monthly0"])}</strong>/mo <span class="muted small">$0 down · {money(n.get("monthly5k"))}/mo with $5k down</span></span>')
+    body = []
+    if V.get('bullets'): body.append('<div><h4>Why</h4><ul>' + ''.join(f'<li>{esc(b)}</li>' for b in V['bullets']) + '</ul></div>')
+    if V.get('flags'): body.append('<div><h4>Flags</h4><ul class="ib-flags">' + ''.join(f'<li class="{flag_cls(f)}">{esc(f)}</li>' for f in V['flags']) + '</ul></div>')
+    if V.get('openingMove'): body.append(f'<div><h4>Opening move</h4><p>{esc(V["openingMove"])}' + (f' <span class="muted">(target OTD {money(V["targetOtd"])})</span>' if V.get('targetOtd') else '') + '</p></div>')
+    if V.get('slot'): body.append(f'<div><h4>Where it would slot vs. the board</h4><p>{esc(V["slot"])}</p></div>')
+    dl = []
+    if L.get('vin'): dl.append(('VIN · stock', esc(L['vin']) + (f' · {esc(L["stock"])}' if L.get('stock') else '')))
+    if L.get('daysListed') is not None: dl.append(('Days listed', f'{L["daysListed"]} as of {t_disp(it.get("analyzedAt"), False)}'))
+    ph = [p for p in (L.get('priceHistory') or []) if p and p.get('price')]
+    if ph: dl.append(('Price history', ' → '.join((t_disp(p.get('date'), False) + ' ' if p.get('date') else '') + money(p['price']) + (f' <span class="muted small">({esc(p["note"])})</span>' if p.get('note') else '') for p in ph)))
+    h = L.get('history') or {}
+    if h:
+        hb = []
+        if h.get('owners'): hb.append(f'{h["owners"]} owner' + ('s' if h['owners'] != 1 else ''))
+        if h.get('accidents') is not None: hb.append(f'{h["accidents"]} accident' + ('s' if h['accidents'] != 1 else ''))
+        if h.get('rental') not in (None, False, ''): hb.append('rental / fleet: ' + ('yes' if h['rental'] is True else esc(h['rental'])))
+        elif h.get('rental') is False: hb.append('no rental / fleet flag')
+        if h.get('cpo') not in (None, False, ''): hb.append('CPO' if h['cpo'] is True else esc(h['cpo']))
+        if L.get('photos'): hb.append(f'{L["photos"]} photos')
+        dl.append(('History', ' · '.join(hb) or 'unverified'))
+    dd = L.get('deal') or {}
+    if dd:
+        db = []
+        if dd.get('cgRating'): db.append(f'CarGurus {esc(dd["cgRating"])}' + (f' ({money(abs(dd["cgDelta"]))} {"under" if dd["cgDelta"] < 0 else "over"} their market value)' if dd.get('cgDelta') else ''))
+        if dd.get('kbbFpp'): db.append(f'KBB fair purchase price {money(dd["kbbFpp"])}' + (f' → asking is {money(abs(dd["kbbDelta"]))} {"under" if dd["kbbDelta"] < 0 else "over"}' if dd.get('kbbDelta') else ''))
+        if db: dl.append(('Market check', ' · '.join(db)))
+    if n.get('estOtd'): dl.append(('OTD basis', esc(n.get('basis') or 'estimate')))
+    if dl: body.append('<div><h4>Listing facts</h4><dl class="ib-dl">' + ''.join(f'<dt>{k}</dt><dd>{v}</dd>' for k, v in dl) + '</dl></div>')
+    links = L.get('links') or {}
+    lk = [(safe_href(links.get('source')) or src, 'Source listing'), (safe_href(links.get('cargurus')), 'CarGurus'), (safe_href(links.get('kbb')), 'KBB')]
+    lk = [(u, t) for u, t in lk if u]
+    if lk: body.append('<div class="ib-links">' + ''.join(ext(u, t, 'btn ghost') for u, t in lk) + '</div>')
+    err = f'<p class="ib-one bad-t">{esc(it["error"])}</p>' if it.get('error') else ''
+    details = f'<details class="ib-more"><summary>Details: why, flags, opening move, links</summary><div class="ib-body">{"".join(body)}</div></details>' if body else ''
+    return f'''    <article class="ib is-{re.sub(r"[^a-z0-9]", "", label)}" id="a-{sid}">
+      <header class="ib-head">{badge(lab, "vd " + cls)}<span class="when">checked {t_disp(it.get("analyzedAt"), False)}</span></header>
+      <h3 class="ib-title">{title}</h3>
+      {f'<p class="ib-facts">{" ".join(facts)}</p>' if facts else url_line}
+      {f'<p class="ib-one">{esc(V["oneLine"])}</p>' if V.get("oneLine") else ""}{err}
+      {details}
+      <footer class="ib-foot">{foot}</footer>
+    </article>'''
+
+def build_ask():
+    css = open(os.path.join(ASSETS, 'report.css'), encoding='utf-8').read() + '\n' + open(os.path.join(ASSETS, 'ask.css'), encoding='utf-8').read()
+    cfg = INBOX.get('config') or {}
+    items = sorted(INBOX.get('items') or [], key=lambda it: (str(it.get('analyzedAt') or it.get('submittedAt') or ''), str(it.get('submittedAt') or '')), reverse=True)
+    n_done = sum(1 for it in items if it.get('status') in ('done', 'error')); n_wait = len(items) - n_done
+    form = safe_href(cfg.get('formUrl'))
+    if form:
+        cta = f'''<div class="ask-cta">
+    {ext(form, 'Paste a link <span class="sub">(opens a 10-second form)</span>', 'btn')}
+    <p class="eta">Results appear below within about an hour (sooner if {esc(META.get("buyerFirstName") or "someone")} pokes it). New links are {esc(cfg.get("pollNote") or "checked hourly")}.</p>
+  </div>'''
+    else:
+        cta = '<p class="notconn">Submission form not connected yet. Once it is, a button here opens a 10-second form: paste the link, add a note if you like, done.</p>'
+    rules = ''.join(f'<li><strong>{esc(a)}:</strong> {esc(b)}</li>' for a, b in judge_rules())
+    legend = ' '.join(badge(l, 'vd ' + c) for l, c in [('Pursue', 'vd-pursue'), ('Benchmark', 'vd-benchmark'), ('Skip', 'vd-skip'), ('Not a CX-5', 'vd-notcx5'), ("Couldn't load", 'vd-couldntload'), ('Queued', 'vd-queued')])
+    cards = '\n'.join(inbox_card(it) for it in items) if items else '<p class="empty">Nothing submitted yet.</p>'
+    body = f'''<nav class="topnav" aria-label="Sections"><div class="wrap navwrap">
+  <a class="brand" href="index.html">CX-5 Buyer's Report</a>
+  <div class="navlinks">{''.join(f'<a href="{h}"{" class=" + chr(34) + "active" + chr(34) + " aria-current=" + chr(34) + "page" + chr(34) if h == "ask.html" else ""}><span>{esc(l)}</span></a>' for h, l in PAGES)}</div>
+</div></nav>
+
+<header class="masthead ask-mast wrap" id="top">
+  <p class="eyebrow">CX-5 search · Seattle · send a link</p>
+  <h1>Send us a listing to check</h1>
+  <p class="scope">Seen a CX-5 for sale somewhere: a dealer page, CarGurus, Autotrader, KBB, Craigslist, a Facebook post? Paste the link and we run it through the same checks as the <a href="index.html">report</a>: right trim, miles, history, price against the market, and what it would really cost per month. The answer lands on this page.</p>
+  {cta}
+</header>
+
+<main class="wrap">
+
+<section class="card" id="how">
+  <div class="sec-head"><h2>How we judge a listing</h2><p class="muted">Same rules as the numbered board, so every answer below reads the same way.</p></div>
+  <ul class="judge">{rules}</ul>
+  <p class="legend-v"><span>Verdicts:</span> {legend} <span>· “benchmark” means useful as a price reference but not one to chase.</span></p>
+</section>
+
+<section class="card" id="analyses">
+  <div class="sec-head"><h2>Analyses</h2><p class="muted">Newest first · {n_done} checked{f", {n_wait} in line" if n_wait else ""} · figures as of the day each was checked; listings change daily.</p></div>
+  <div class="inbox-list">
+{cards}
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap footer"><p>Read-only research: nobody here contacts a seller on your behalf from this page, and nothing is affiliated with any dealer or listing site. Prices, availability and history badges are as found on the day checked; verify the history report, the out-the-door sheet and the car itself before buying. Board changes stay manual: a “pursue” here does not add a car to the <a href="status.html">status board</a> by itself.</p></footer>
+'''
+    doc = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+{FAVICON}
+<title>Ask: send a CX-5 listing to check</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="light">
+<meta name="generator" content="tools/build_site.py from data/inbox.json + data/board.json (refreshed {REF})">
+<style>{css}</style>
+</head>
+<body>
+{body}</body>
+</html>
+'''
+    return ascii_safe(doc)
 
 # ----------------------------------------------------------------------------- downloads
 def build_pdf(index_path, pdf_path):
@@ -1400,6 +1609,7 @@ def main():
         'status.html': build_status(),
         'map.html': build_map(),
         'trims.html': build_trims(),
+        'ask.html': build_ask(),
     }
     for name, content in outputs.items():
         with open(os.path.join(ROOT, name), 'w', encoding='utf-8') as f: f.write(content)

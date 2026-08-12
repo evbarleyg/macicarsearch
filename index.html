@@ -516,6 +516,13 @@ textarea.email-ta {
 @media (max-width: 760px) { .js .calc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 430px) { .js .calc-grid { grid-template-columns: 1fr; } }
 @media print { .downloads { display: none !important; } }
+/* Ask page entry point (Aug 12): masthead link on the report; the page itself adds tools/assets/ask.css */
+.askline { margin: 10px 0 0; font-size: .92rem; }
+.askline a { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 9px 14px; border-radius: 8px; background: var(--accent-soft); border: 1px solid #e8cfcb; color: var(--accent); text-decoration: none; line-height: 1.3; }
+.askline a strong { color: var(--ink); font-weight: 650; }
+.askline a:hover { background: #f1dfdc; }
+@media screen and (pointer: coarse) { .askline a { min-height: 44px; } }
+@media print { .askline { display: none !important; } }
 </style>
 </head>
 <body>
@@ -523,7 +530,7 @@ textarea.email-ta {
 <a class="skip" href="#tldr">Skip to content</a>
 <nav class="topnav" aria-label="Sections"><div class="wrap navwrap">
   <a class="brand" href="#top">CX-5 Buyer's Report</a>
-  <div class="navlinks"><a href="#tldr"><span>TL;DR</span></a><a href="#top3"><span>Top 3</span></a><a href="#shortlist"><span>Shortlist</span></a><a href="#watchlist"><span>Watchlist</span></a><a href="#chart"><span>Price vs. miles</span></a><a href="#trims"><span>Trims</span></a><a href="status.html"><span>Status</span></a><a href="map.html"><span>Dealership map</span></a><a href="trims.html"><span>Trim guide</span></a><a href="#cost"><span>Monthly cost</span></a><a href="#nohaggle"><span>No-haggle</span></a><a href="#email"><span>Email</span></a><a href="#sources"><span>Sources</span></a></div>
+  <div class="navlinks"><a href="#tldr"><span>TL;DR</span></a><a href="ask.html"><span>Ask</span></a><a href="#top3"><span>Top 3</span></a><a href="#shortlist"><span>Shortlist</span></a><a href="#watchlist"><span>Watchlist</span></a><a href="#chart"><span>Price vs. miles</span></a><a href="#trims"><span>Trims</span></a><a href="status.html"><span>Status</span></a><a href="map.html"><span>Dealership map</span></a><a href="trims.html"><span>Trim guide</span></a><a href="#cost"><span>Monthly cost</span></a><a href="#nohaggle"><span>No-haggle</span></a><a href="#email"><span>Email</span></a><a href="#sources"><span>Sources</span></a></div>
 </div></nav>
 
 <header class="masthead wrap" id="top">
@@ -535,6 +542,7 @@ textarea.email-ta {
     <span class="funnel">278 raw listings &#8594; 153 unique VINs &#8594; 112 pass filter (Aug 7); Aug 12 sweep 386 raw &#8594; 223 VINs</span>
   </div>
   <p class="downloads">Downloads (same data as this page, regenerated Aug 12): <a href="CX5-Seattle-Buyers-Report.pdf">PDF</a> &#183; <a href="CX5-Seattle-Buyers-Report.xlsx">Excel</a> &#183; <a href="cx5_report.docx">Word</a></p>
+  <p class="askline"><a href="ask.html"><strong>Have a listing you want checked?</strong> <span aria-hidden="true">&rarr;</span> Ask page</a></p>
   <p class="tipline">Tip: open this file in Safari or Chrome for sorting and the payment calculator.</p>
 </header>
 

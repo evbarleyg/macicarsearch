@@ -33,6 +33,7 @@ a:hover { color: var(--accent-hover); }
 .navlinks { display: flex; gap: 14px; font-size: .85rem; }
 .navlinks a { text-decoration: none; color: var(--ink-2); }
 .navlinks a:hover { color: var(--accent); }
+@media (max-width: 600px) { .brand { display: none; } .navwrap { justify-content: flex-start; } .navlinks a { white-space: nowrap; padding: 8px 2px; } }
 .masthead { padding: 34px 0 22px; }
 .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; color: var(--ink-3); margin: 0 0 8px; }
 h1 { font-size: 1.9rem; line-height: 1.15; letter-spacing: -.015em; margin: 0 0 8px; text-wrap: balance; }
@@ -65,7 +66,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
 <body>
 <nav class="topnav" aria-label="Sections"><div class="navwrap">
   <a class="brand" href="index.html">CX-5 Buyer's Report</a>
-  <div class="navlinks"><a href="index.html">Report</a><a href="status.html" aria-current="page">Status</a><a href="map.html">Map</a><a href="trims.html">Trim guide</a></div>
+  <div class="navlinks"><a href="index.html">Report</a><a href="ask.html">Ask</a><a href="status.html" aria-current="page">Status</a><a href="map.html">Map</a><a href="trims.html">Trim guide</a></div>
 </div></nav>
 
 <header class="masthead wrap">

@@ -1,0 +1,261 @@
+{
+  "config": {
+    "formUrl": null,
+    "sheetCsvUrl": null,
+    "pollNote": "checked hourly"
+  },
+  "items": [
+    {
+      "id": "fc1de0c832354cb6959377eba37923a3af3c0620",
+      "url": "https://www.toyotaoflakecity.com/used-Seattle-2021-+-Mazda+CX+5-Grand+Touring++AWD-JM3KFBDM3M1490456",
+      "submittedAt": "2026-08-12",
+      "submittedNote": "Soul Red GT at the Toyota store on Lake City Way; is the price as good as it looks?",
+      "submitter": "Evan",
+      "status": "done",
+      "analyzedAt": "2026-08-12",
+      "listing": {
+        "year": 2021,
+        "make": "Mazda",
+        "model": "CX-5",
+        "trim": "Grand Touring AWD w/ GT Premium Pkg",
+        "miles": 68769,
+        "price": 22970,
+        "docFee": 200,
+        "dealer": "Toyota of Lake City",
+        "city": "Seattle",
+        "state": "WA",
+        "vin": "JM3KFBDM3M1490456",
+        "stock": "70554A",
+        "daysListed": 23,
+        "priceHistory": [
+          {
+            "date": "2026-07-20",
+            "price": 23780,
+            "note": "first listed"
+          },
+          {
+            "date": "2026-07-28",
+            "price": 22995
+          },
+          {
+            "date": "2026-08-12",
+            "price": 22970,
+            "note": "two cuts, −$810 in 3 weeks"
+          }
+        ],
+        "history": {
+          "owners": 1,
+          "accidents": 0,
+          "rental": false,
+          "cpo": false
+        },
+        "deal": {
+          "cgRating": "Good Deal",
+          "cgDelta": -635,
+          "kbbFpp": 23390,
+          "kbbDelta": -420
+        },
+        "photos": 31,
+        "links": {
+          "source": "https://www.toyotaoflakecity.com/used-Seattle-2021-+-Mazda+CX+5-Grand+Touring++AWD-JM3KFBDM3M1490456",
+          "cargurus": "https://www.cargurus.com/Cars/listing/453870986",
+          "kbb": "https://www.kbb.com/cars-for-sale/vehicle/786080902"
+        }
+      },
+      "numbers": {
+        "taxRate": 11.05,
+        "estOtd": 26308,
+        "monthly0": 512,
+        "monthly5k": 415,
+        "basis": "est. at Seattle 11.05% + $200 doc + $600 licence (sale price $22,970; the dealer shows $23,170 with the doc fee folded in)"
+      },
+      "verdict": {
+        "label": "benchmark",
+        "oneLine": "Right spec (GT + Premium Package, Soul Red, 1-owner, clean) at the lowest out-the-door figure seen so far — but only because it has 68,769 miles: it fails the under-50k rule by almost 19k and is priced at market for that mileage, not under it. Useful as a price benchmark; not one to chase.",
+        "bullets": [
+          "Fails the mileage rule: 68,769 mi vs the 50,000 cap. The factory powertrain warranty (5 yr / 60k) is already gone, so any repair is out of pocket from day one; every car on the board still has 10–30k mi of powertrain coverage left.",
+          "Priced at market, not below it: KBB's fair purchase price for this exact car and mileage is $23,390, so $22,970 is only about $420 under; CarGurus calls it a Good Deal at $635 under its market value. The big gap to the board's 2021 GT numbers is almost entirely the extra miles.",
+          "Comparables say the same: CarMax has a 39k-mile 2021 GT for about $1,000 more (no-haggle), and #5 on the board (Kirkland, 2021 GT with the same Premium Package, 33k mi) is roughly $2,400 more on estimated OTD for half the miles and warranty remaining. Other 60–75k-mile 2021 GTs around Puget Sound list at $22.6k–$24.7k, so this one is mid-pack for its band.",
+          "The listing itself is clean: sale price $22,970 (was $23,780; two cuts in three weeks, 23 days listed), $200 doc fee disclosed as negotiable and at the WA cap, no add-on packages, 31 real photos, franchise dealer in Seattle proper (11.05% rate, so no tax edge).",
+          "History is claims-only so far: dealer says CARFAX 1-Owner / clean / local trade and CarGurus + KBB previews agree (1 owner, 0 accidents, not fleet or rental), but the full report would not load read-only. Registration state, service records and last odometer are unverified until someone sees the Carfax PDF."
+        ],
+        "flags": [
+          "RED: 68,769 miles — fails the under-50k rule; factory powertrain warranty expired.",
+          "YELLOW: history depth unverified (full Carfax not viewable read-only; 1-owner / clean rests on dealer claims + AutoCheck preview). Ask for the Carfax PDF: WA-only registration, personal use, service cadence.",
+          "YELLOW: 'LOW MILES' in the dealer blurb is boilerplate (it is high for a 2021); dealer CarGurus rating 3.3 stars on 3 reviews; 'offers expire daily' language and a 3% card surcharge.",
+          "GREEN: GT Premium Package (ventilated seats, HUD, heated wheel and rear seats), Soul Red, 1-owner / 0 accidents claimed, no add-ons, doc fee at cap and disclosed, 23 days + two cuts = some leverage, no open recalls for the 2021 CX-5."
+        ],
+        "openingMove": "None recommended while the 50k rule stands. If the rule is deliberately waived for budget reasons: one email to the internet desk asking for an itemized out-the-door sheet plus the Carfax PDF, opening at $21,500 selling (about $24,675 OTD; rationale: KBB range floor $22,190, out of powertrain warranty, 23 days with two cuts, a 65.8k-mile GT in Puyallup listed at $22,629) and walking away above $22,300 selling (about $25,565 OTD). Above that, #5, #6 and #10 on the board are better money.",
+        "targetOtd": 24675,
+        "slot": "By estimated OTD ($26,308, $512/mo) it would sit first, about $1,000 under #10 Columbia 2023 Preferred ($27,346 est.) — but only because it carries roughly twice the miles of anything on the board. Not added; benchmark note only."
+      }
+    },
+    {
+      "id": "5a65d3a5227e379028e5268dd7091e6970b5906c",
+      "url": "https://www.cargurus.com/details/453528843",
+      "submittedAt": "2026-08-12",
+      "submittedNote": "CarGurus link from a search around 98144",
+      "submitter": "Evan",
+      "status": "done",
+      "analyzedAt": "2026-08-12",
+      "listing": {
+        "year": 2023,
+        "make": "Honda",
+        "model": "CR-V",
+        "trim": "EX AWD (HondaTrue Certified+)",
+        "miles": 37822,
+        "price": 27699,
+        "docFee": 200,
+        "dealer": "Klein Honda",
+        "city": "Everett",
+        "state": "WA",
+        "vin": "2HKRS4H49PH435662",
+        "stock": "17614PX",
+        "daysListed": 27,
+        "priceHistory": [
+          {
+            "price": 27999,
+            "note": "earlier CarGurus price ($28,199 shown with doc fee)"
+          },
+          {
+            "date": "2026-08-12",
+            "price": 27699,
+            "note": "CarGurus now ($27,899 with doc); the KBB / Autotrader feed shows $28,849 for the same VIN, $1,150 higher"
+          }
+        ],
+        "history": {
+          "owners": 1,
+          "accidents": 0,
+          "rental": false,
+          "cpo": "HondaTrue Certified+ (7 yr / 100k powertrain)"
+        },
+        "deal": {
+          "cgRating": "Great Deal",
+          "cgDelta": -2219,
+          "kbbFpp": 29600,
+          "kbbDelta": -1901
+        },
+        "photos": 32,
+        "links": {
+          "source": "https://www.cargurus.com/details/453528843",
+          "cargurus": "https://www.cargurus.com/Cars/listing/453528843",
+          "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785703255"
+        }
+      },
+      "numbers": {
+        "taxRate": 10.4,
+        "estOtd": 31380,
+        "monthly0": 611,
+        "monthly5k": 514,
+        "basis": "est. at Everett 10.4% + $200 doc + $600 licence on the CarGurus $27,699 price; at the KBB-feed price ($28,849) it would be about $32,650"
+      },
+      "verdict": {
+        "label": "not a CX-5",
+        "oneLine": "This CarGurus link (id 453528843) opens a 2023 Honda CR-V EX AWD at Klein Honda in Everett, not a CX-5 — a genuinely well-priced Honda-certified CR-V, but about $31.4k out-the-door for cloth-seat EX content, and simply not the car this search is about. If a different listing was meant, send the link again.",
+        "bullets": [
+          "Identity check: both forms of the link resolve to the same vehicle — 2023 Honda CR-V EX AWD, VIN 2HKRS4H49PH435662, stock 17614PX. There is no CX-5 behind this id, so either the link was mis-pasted from a search page or it is a deliberate cross-shop.",
+          "As a CR-V it is a good listing: Honda-certified (Certified+: powertrain to 7 yr / 100k, non-powertrain extended to 5 yr / 60k, which matters at 37.8k mi), 1 owner, 0 accidents, not fleet or rental, 32 photos, franchise dealer rated 5.0, CarGurus Great Deal at $2,219 under its market value, KBB fair purchase price $29,600.",
+          "Two public prices $1,150 apart: CarGurus shows $27,899 all-in ($27,699 + $200 doc, one $300 cut) while the KBB / Autotrader feed shows $29,049 for the same VIN, including a $450 raise on Jul 31. Anyone contacting the store needs the CarGurus number confirmed in writing first.",
+          "Content vs. the CX-5 board: the EX is Honda's mid trim — heated cloth seats, moonroof, 7-inch screen, no leather, no ventilated seats, no power liftgate — so it sits below even a CX-5 Preferred on the comfort list, at more money than most of the board.",
+          "Cost: about $31,380 est. OTD and $611/mo at $0 down (Everett's 10.4% rate saves ~$180 vs Seattle). That is CarMax-Premium money on this board."
+        ],
+        "flags": [
+          "RED (scope): not a Mazda CX-5; cloth EX trim is below the comfort bar (no leather, no ventilated seats, no power liftgate).",
+          "YELLOW: two public prices $1,150 apart (CarGurus $27,899 all-in vs KBB / Autotrader $29,049), with a $450 raise in the feed on Jul 31 — pin the number in writing before any visit.",
+          "YELLOW: 1.5-litre turbo + CVT powertrain vs the CX-5's simpler non-turbo 2.5 / 6-speed automatic that this search chose on purpose.",
+          "GREEN: Honda Certified+ with long powertrain coverage, 1-owner, 0 accidents, 32 photos, franchise dealer, Great Deal $2.2k under market, 27 days listed with a cut."
+        ],
+        "openingMove": "Nothing to do for the CX-5 search. Only if a CR-V lane is being opened on purpose: one email asking Klein's internet desk to confirm the $27,899 CarGurus all-in price on an itemized out-the-door sheet, targeting $27,000 selling (about $30,600 OTD) and walking away at the CarGurus price (about $31,380 OTD); rationale: KBB fair price $29,600 less a typical certified spread, 27 days listed, comparable CX-5s on the board under $29k OTD.",
+        "targetOtd": 30600,
+        "slot": "By estimated OTD ($31,380) it would land 14th of 17 — dearer than every negotiable CX-5 on the board except #1 Puyallup Turbo ($31,823 est.), the CarMax benchmark #15 ($31,878) and #14 Rodland Premium — for less equipment than a Preferred. Not added; the sweeps stay Mazda-only."
+      }
+    },
+    {
+      "id": "2f5bb120da05cec08a655098ac9de4f9ee874f79",
+      "url": "https://www.pierrefordoflynnwood.com/used/Mazda/2024-Mazda-CX-5-5667f5d3ac181a15172eb39561fa142f.htm",
+      "submittedAt": "2026-08-12",
+      "submittedNote": "A 2024 at a Ford dealer in Lynnwood, 24k miles",
+      "submitter": "Evan",
+      "status": "done",
+      "analyzedAt": "2026-08-12",
+      "listing": {
+        "year": 2024,
+        "make": "Mazda",
+        "model": "CX-5",
+        "trim": "2.5 S Select AWD",
+        "miles": 24011,
+        "price": 26491,
+        "docFee": 200,
+        "dealer": "Pierre Ford of Lynnwood",
+        "city": "Lynnwood",
+        "state": "WA",
+        "vin": "JM3KFBBL6R0513672",
+        "stock": "H260345A",
+        "daysListed": 32,
+        "priceHistory": [
+          {
+            "date": "2026-07-11",
+            "price": 26401,
+            "note": "into inventory; $26,601 shown with doc"
+          },
+          {
+            "date": "2026-07-25",
+            "price": 26601,
+            "note": "$26,801 with doc (a $200 raise)"
+          },
+          {
+            "date": "2026-08-12",
+            "price": 26491,
+            "note": "$26,691 with doc; net movement in a month about −$110"
+          }
+        ],
+        "history": {
+          "owners": 1,
+          "accidents": 0,
+          "rental": false,
+          "cpo": "Ford Blue Certified (90-day / 4,000-mi dealer warranty; not Mazda CPO)"
+        },
+        "deal": {
+          "cgRating": "Good Deal",
+          "cgDelta": -651,
+          "kbbFpp": 25170,
+          "kbbDelta": 1321
+        },
+        "photos": 32,
+        "links": {
+          "source": "https://www.pierrefordoflynnwood.com/used/Mazda/2024-Mazda-CX-5-5667f5d3ac181a15172eb39561fa142f.htm",
+          "cargurus": "https://www.cargurus.com/Cars/listing/453275837",
+          "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785445539"
+        }
+      },
+      "numbers": {
+        "taxRate": 11.2,
+        "estOtd": 30258,
+        "monthly0": 589,
+        "monthly5k": 492,
+        "basis": "est. at Lynnwood 11.2% + $200 doc + $600 licence on the $26,491 'Pierre Price' (the site shows $26,691 with the doc fee folded in)"
+      },
+      "verdict": {
+        "label": "skip",
+        "oneLine": "An honest listing (real photos, no add-ons, no conditional pricing, 1-owner, some factory warranty left) but the wrong tier at the wrong price: a base Select asking 2024-Premium-Plus book money, about $30.3k out-the-door — the same as the 17k-mile 2023 Preferreds already on the board and within ~$1.6k of Premium and Turbo cars. Skip.",
+        "bullets": [
+          "Fails the trim rule: Select is the 2024 base tier — leatherette, heated front seats, wireless CarPlay, radar cruise, but no ventilated seats, no Bose, no HUD, no moonroof, no power liftgate, no leather. The board only admits a Select at $3,000+ under market, and this one is over it.",
+          "Priced over book: $26,491 is $1,321 over KBB's fair purchase price for this exact car ($25,170, range $23,170–$27,170) and $2,691 over KBB's national 2024 Select figure ($23,800); the asking price equals KBB's number for a 2024 Premium Plus ($26,500). CarGurus disagrees and calls it a Good Deal at $651 under its market value — the outlier signal, with 0 saves.",
+          "Sticky pricing: 31–32 days listed with a net change of about −$110 (it went up $200 before coming down $110). Local 2024 Selects undercut it: Rairdon Monroe $24,090 / 35k mi (CarGurus Great Deal), West Hills Bremerton $27,299 with only 14.8k mi; a 2024 Carbon Edition with leather and Bose in Burlington lists at $25,499.",
+          "Against the board at ~$30.3k est. OTD: same money as #12 Lee Johnson 2023 Preferred with Mazda CPO ($30,059), #20 / #8 Royal Moore 2023 Preferreds with 17k mi ($30,278 / $30,472) — all one tier above Select — and only ~$1.6k under #1 Puyallup 2023 Turbo ($31,823) and the CarMax Premium benchmark #15 ($31,878).",
+          "What the 2024 actually buys over the board's 2023s: one model year, roughly a year / 12k mi of remaining bumper-to-bumper warranty (powertrain to ~2029), wireless CarPlay and Soul Red. Worth a few hundred dollars, not a $2.7k premium over Select book. 'Ford Blue Certified' is a 90-day / 4,000-mi dealer wrapper with a 14-day return, not Mazda CPO."
+        ],
+        "flags": [
+          "RED (rule): Select trim with none of the comfort items; the playbook only admits a Select at $3k+ under market and this one is about $1.3k over KBB's figure for the car.",
+          "YELLOW: pricing sticky and optimistic — a month listed, net −$110; +$1.3k vs KBB for this VIN, +$2.7k vs the national Select figure; CarGurus 'Good Deal / Hot seller' with 0 saves is the outlier.",
+          "YELLOW: history depth unverified — full Carfax would not load read-only; 1-owner / 0 accidents rest on AutoCheck + the Carfax 1-Owner badge; rental / lease use, registration state and Mazda in-service date unknown (many used 2024s are ex-rental or ex-loaner; CarGurus says not fleet / rental here, but get the PDF).",
+          "YELLOW: off-brand unit at a Ford store rated 2.75 stars on CarGurus (12 reviews); Lynnwood's 11.2% is the highest rate on the board (no tax edge).",
+          "GREEN: clean, unconditional price stack (price + $200 doc, no add-ons, no finance or trade conditions); 32 photos + video; Soul Red; factory bumper-to-bumper still alive and powertrain to ~2029; 14-day / 1,000-mi return; no open recalls for the 2024 CX-5."
+        ],
+        "openingMove": "Not recommended. If someone wants to test it anyway (email only): ask the internet desk for an itemized out-the-door sheet (selling / doc / tax at 11.2% / licence, confirmation of zero add-ons) plus the Carfax PDF and the Mazda in-service date; open at $24,300 selling (about $27,822 OTD; rationale: CarGurus market value $27,342 less the $3k Select discount the board requires, Rairdon Monroe's 2024 Select at $24,090, KBB national Select $23,800, a month listed with no real cut) and walk away above $25,200 selling (about $28,822 OTD, KBB's figure for this VIN). Above that, #10 / #5 / #6 are cheaper out-the-door and #12 / #20 / #8 are more car for the same money.",
+        "targetOtd": 27822,
+        "slot": "8th of 17 by estimated OTD ($30,258, $589/mo): between #12 Lee Johnson 2023 Preferred CPO ($30,059) and #20 Royal Moore 2023 Preferred 17k mi ($30,278) — 2023-Preferred money for a 2024 Select. By value it sits in the bottom third of the board. Not added; kept as a 'what a 2024 Select costs locally' benchmark alongside Rairdon Monroe's $24,090 unit."
+      }
+    }
+  ]
+}
