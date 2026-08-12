@@ -109,12 +109,23 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 9,
    "latest": {
-    "text": "awaiting written OTD; form lead Aug 11 plus a phone promise, nothing received.",
-    "short": "awaiting written OTD (form lead + phone promise Aug 11).",
+    "text": "written itemized quote in hand (sheet dated Aug 11, surfaced Aug 12 after a phone call; the sender's group domain had gone to spam); zero add-ons.",
+    "short": "written itemized quote in hand (Aug 11 sheet).",
     "asOf": "2026-08-11"
    },
    "contact": "sent",
-   "quote": null,
+   "quote": {
+    "otd": 32194.49,
+    "selling": 28199.0,
+    "doc": 200,
+    "license": 750,
+    "tax": 3045.49,
+    "taxRate": 10.8,
+    "addOns": [],
+    "date": "2026-08-11",
+    "clean": true,
+    "note": "F&I worksheet; priced from listing price, not own-site price"
+   },
    "counter": null,
    "targets": {
     "targetSelling": 27000,
@@ -139,7 +150,7 @@
     "inquiry": "Sent Aug 11 (form lead) · phone promise",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": "Received (PDF) · covers at least one of the three; being confirmed",
+    "quoteNote": "Received · itemized, in writing (sheet dated Aug 11, surfaced Aug 12)",
     "carSuffix": null
    },
    "guide": {
@@ -687,12 +698,23 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 11,
    "latest": {
-    "text": "awaiting written OTD; same Puyallup lead as #1 (Aug 11), phone promise only.",
-    "short": "awaiting written OTD (same Puyallup lead as #1).",
+    "text": "written itemized quote in hand (sheet dated Aug 11, surfaced Aug 12); zero add-ons.",
+    "short": "written itemized quote in hand (Aug 11 sheet).",
     "asOf": "2026-08-11"
    },
    "contact": "sent",
-   "quote": null,
+   "quote": {
+    "otd": 28547.78,
+    "selling": 24998.0,
+    "doc": 200,
+    "license": 650,
+    "tax": 2699.78,
+    "taxRate": 10.8,
+    "addOns": [],
+    "date": "2026-08-11",
+    "clean": true,
+    "note": "F&I worksheet, clean sheet"
+   },
    "counter": null,
    "targets": {
     "targetSelling": 24000,
@@ -717,7 +739,7 @@
     "inquiry": "Sent Aug 11 (same lead as #1)",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": null,
+    "quoteNote": "Received · itemized, in writing (sheet dated Aug 11, surfaced Aug 12)",
     "carSuffix": null
    },
    "guide": {
@@ -1083,7 +1105,7 @@
     "inquiry": "Via #1/#6 inquiry",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
-    "quoteNote": null,
+    "quoteNote": "Requested · other two cars quoted",
     "carSuffix": null
    },
    "guide": {
@@ -2437,7 +2459,7 @@
    "channel": "none published — home, contact-us and about-us pages carry no email or mailto; /meet-our-staff/ was bot-blocked (403). Use website contact form.",
    "inquiry": {
     "sent": "Aug 11, 12:45 AM · site form",
-    "latest": "Written OTD breakdown received (PDF, Tue 11:28 AM — surfaced Wed after a phone call; sender used a group domain that evaded filters); figures being extracted; walk-around video included"
+    "latest": "Two written itemized sheets in hand (dated Aug 11; surfaced Aug 12 from spam); third car's breakdown requested"
    },
    "note": null
   },
@@ -5274,6 +5296,12 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-08-12",
+   "bullets": [
+    "Puyallup Mazda (#1, #6): written itemized quotes surfaced (sheets dated Aug 11 had landed in spam); zero add-ons on both. #9's breakdown requested."
+   ]
+  },
   {
    "date": "2026-08-12",
    "bullets": [
