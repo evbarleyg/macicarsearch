@@ -569,18 +569,18 @@
    },
    "contact": "quote",
    "quote": {
-    "otd": 28591.14,
-    "selling": 24992,
+    "otd": 28123.0,
+    "selling": 24750,
     "doc": 200,
-    "license": 700,
-    "tax": 2699.14,
+    "license": 500,
+    "tax": 2673.0,
     "taxRate": 10.8,
     "addOns": [],
-    "date": "2026-08-11",
-    "time": "4:21 PM PT",
-    "docType": "itemized written proposal (email)",
+    "date": "2026-08-13",
+    "time": "11:54 AM PT",
+    "docType": "itemized written proposal (PDF via email)",
     "clean": true,
-    "note": "selling $200 under list; zero add-ons"
+    "note": "updated proposal; selling reduced from $24,992; license estimate bills at actuals with any overage refunded (in writing); supersedes the Aug 11 sheet"
    },
    "counter": {
     "otd": 27700,
