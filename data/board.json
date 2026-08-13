@@ -1627,8 +1627,8 @@
    "dealerKey": "rodland_toyota",
    "comfortRank": 5,
    "latest": {
-    "text": "written quote received Aug 11 (clean sheet; tax and licence lumped in one line, itemization requested); discussion ongoing.",
-    "short": "written quote received Aug 11 (clean sheet; tax and licence lumped in one line, itemization requested); discussion ongoing.",
+    "text": "dealer declined to negotiate by email (Aug 12 evening); no visit planned.",
+    "short": "declined email negotiation; no visit planned.",
     "asOf": "2026-08-12"
    },
    "contact": "quote",
@@ -1673,7 +1673,7 @@
     "inquiry": "Aug 11 · KBB + call · movement ask sent Aug 12 PM",
     "quoteBadge": "Received · in writing",
     "quoteBadgeCls": "ok",
-    "quoteNote": "Received · written sheet (3:24 PM); tax + licence lumped, itemization requested",
+    "quoteNote": "Received · dealer declined further discussion by email",
     "carSuffix": "· 17.5k mi"
    },
    "guide": {
@@ -2591,7 +2591,7 @@
    "channel": "hyundaiofkirkland.com page source (Dealer.com config): dealership primary contact email = hamid@fordofkirkland.com; department contacts list customerservice@fordofkirkland.com (Financing), akuhns@fordofkirkland.com (Service), esills@fordofkirkland.com (Parts). Not rendered as visible text. fordofkirkland.com meta og:email shows a malformed 'h@fordofkirkland.com' — ignore.",
    "inquiry": {
     "sent": "Aug 11, 12:00 AM · email; site form 3:50 PM",
-    "latest": "Itemized written quote, in writing (4:21 PM)"
+    "latest": "Dealer replied asking to schedule Saturday (Aug 12 evening); terms restated in a prepared reply"
    },
    "note": "CarGurus lists the seller as Hyundai of Kirkland, KBB as Ford of Kirkland: same owner, adjacent lots, stock O94564A on both."
   },
@@ -2812,7 +2812,7 @@
    "channel": "Contacts not yet researched (v3 scan).",
    "inquiry": {
     "sent": "Aug 11, 10:43 AM · KBB + call",
-    "latest": "Movement ask sent (Aug 12 evening); awaiting answer"
+    "latest": "Declined to negotiate by email (Aug 12 evening); discussion closed from our side"
    },
    "note": null
   },
