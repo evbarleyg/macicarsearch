@@ -147,7 +147,7 @@
     "listNote": "($27,999 on dealer site)",
     "availability": "sale report Aug 11 was wrong; live on 3 sources Aug 12, 89 days listed",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 (form lead) · phone promise",
+    "inquiry": "Sent Aug 11 · movement ask sent Aug 12 PM",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
     "quoteNote": "Received · itemized, in writing (sheet dated Aug 11, surfaced Aug 12)",
@@ -607,7 +607,7 @@
     "listNote": null,
     "availability": "48 days listed; Carfax clean",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 · email + site form",
+    "inquiry": "Sent Aug 11 · movement ask sent Aug 12 PM",
     "quoteBadge": "Received · itemized, in writing",
     "quoteBadgeCls": "ok",
     "quoteNote": "Received · itemized, in writing (4:21 PM); reply prepared",
@@ -736,7 +736,7 @@
     "listNote": null,
     "availability": "CarGurus now rates it Great Deal",
     "availBadge": "Active",
-    "inquiry": "Sent Aug 11 (same lead as #1)",
+    "inquiry": "Sent Aug 11 · movement ask sent Aug 12 PM",
     "quoteBadge": "Awaiting",
     "quoteBadgeCls": "wait",
     "quoteNote": "Received · itemized, in writing (sheet dated Aug 11, surfaced Aug 12)",
@@ -1487,8 +1487,8 @@
    "dealerKey": "titus_will_olympia",
    "comfortRank": 3,
    "latest": {
-    "text": "revised written quote received Aug 11, 4:43 PM with the KARR add-on struck; discussion ongoing.",
-    "short": "revised written quote received Aug 11, 4:43 PM with the KARR add-on struck; discussion ongoing.",
+    "text": "dealer asking to schedule a Saturday time (Aug 12 evening); paperwork requested first.",
+    "short": "asking to schedule Saturday; paperwork requested first.",
     "asOf": "2026-08-11"
    },
    "contact": "quote",
@@ -1540,7 +1540,7 @@
     "listNote": "fees incl.",
     "availability": "45 days on KBB",
     "availBadge": "Active",
-    "inquiry": "Aug 11 · KBB · our number sent",
+    "inquiry": "Aug 11 · KBB · movement ask sent Aug 12 PM",
     "quoteBadge": "Received · revised Aug 11 PM",
     "quoteBadgeCls": "ok",
     "quoteNote": "Received · revised, KARR add-on struck (4:43 PM)",
@@ -1670,7 +1670,7 @@
     "listNote": null,
     "availability": "29 days listed",
     "availBadge": "Active",
-    "inquiry": "Aug 11 · KBB + call · our number sent",
+    "inquiry": "Aug 11 · KBB + call · movement ask sent Aug 12 PM",
     "quoteBadge": "Received · in writing",
     "quoteBadgeCls": "ok",
     "quoteNote": "Received · written sheet (3:24 PM); tax + licence lumped, itemization requested",
@@ -2459,7 +2459,7 @@
    "channel": "none published — home, contact-us and about-us pages carry no email or mailto; /meet-our-staff/ was bot-blocked (403). Use website contact form.",
    "inquiry": {
     "sent": "Aug 11, 12:45 AM · site form",
-    "latest": "Two written itemized sheets in hand (dated Aug 11; surfaced Aug 12 from spam); third car's breakdown requested"
+    "latest": "Movement ask sent (Aug 12 evening); dealer clarifying which certified car; third breakdown still requested"
    },
    "note": null
   },
@@ -2780,7 +2780,7 @@
    "channel": "Contacts not yet researched (v3 scan). Use the KBB listing's contact box or the store site form.",
    "inquiry": {
     "sent": "Aug 11, 10:42 AM · KBB",
-    "latest": "Proposal (2:29 PM); revised proposal (4:43 PM)"
+    "latest": "Dealer asking to schedule Saturday (Aug 12 evening); paperwork requested first"
    },
    "note": null
   },
@@ -2812,7 +2812,7 @@
    "channel": "Contacts not yet researched (v3 scan).",
    "inquiry": {
     "sent": "Aug 11, 10:43 AM · KBB + call",
-    "latest": "Pricing sheet received as PDF (3:39 PM); itemization requested; video follow-up (4:28 PM)"
+    "latest": "Movement ask sent (Aug 12 evening); awaiting answer"
    },
    "note": null
   },
@@ -2844,7 +2844,7 @@
    "channel": "Contacts not yet researched (v3 scan).",
    "inquiry": {
     "sent": "Aug 11 · Cars.com inquiry",
-    "latest": "Written itemized proposal in hand for the alternative 2022 Carbon (clean sheet, 1:56 PM Aug 12); under review"
+    "latest": "Movement ask sent (Aug 12 evening); awaiting answer"
    },
    "note": null
   },
