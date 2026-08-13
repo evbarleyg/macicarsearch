@@ -948,3 +948,9 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
 ### 2026-08-13 02:4xZ (7:4x PM PT Wed, second entry) — Evan answered Bilori directly
 
 7:27 PM: Evan sent Bilori the VIN himself (JM3KFBCMXP0288130) in-thread; the staged clarification draft neutralized as redundant. Outstanding sends now: Amy paper-first reply (r2729185728756726163) and the Maci digest (r-627951575342524333). Awaiting: Kirkland's answer to $27,600, Bilori's #9 breakdown, Doug's/Rodland/Royal Moore responses to the wave. Refs this cycle: own pushes only.
+
+### 2026-08-13 03:4xZ (8:4x PM PT Wed) — Kirkland dodges, Rodland refuses; both handled
+
+- 7:59 PM Kirkland (Ayres): "might not have followed that email... we can help and be the first and only stop... when were you thinking of coming" — no answer on $27,600, none on the housekeeping items; wants the appointment without the number. Reply staged (r-6746478180040179385): restates $27,600 + the three confirmations, then any time from 8:30 on. Kirkland stays stop 1 either way; the ask is pressure, not a condition of visiting.
+- 8:02 PM Rodland (Christina): "Our price is aggressive... the dealership that negotiates the most indicates the most overpriced vehicle... We don't negotiate over the phone or internet. If you do like the Mazda, please come in." — refuses email negotiation AND the itemization request. Per the price-check role: OFF the Saturday route, no reply (their script requires a floor visit we will not make). Logged as final unless they move on their own.
+- Still open: Amy owes the $30,500 buyer's order (reply staged with Evan), Bilori owes the #9 breakdown, Doug's and Royal Moore silent on the wave.
