@@ -922,3 +922,7 @@ Directive from Evan: push every live dealer for good-faith concessions; visits g
 6. Royal Moore (r8083856508989942714): unchanged — the likely-pass/remove-add-ons demand already is the concession message.
 
 Skipped by rule: Tonkin + Columbia (Oregon, no visit to offer), Auto 206 (expires 7 PM tonight, silence holds), Lee Johnson (no channel until site-form resend), #21 Cortes (form-only, history-first).
+
+### 2026-08-13 00:2xZ (5:2x PM PT Wed) — Wave retuned per Evan: firm not rude, $1,000 below each written OTD, concise
+
+Evan's corrections applied to all five (Royal Moore untouched): softer voice, ~4 sentences each, ask = $1,000 under the dealer's own written number. Final asks: Kirkland $27,600 (vs $28,591.14) + the four confirmations folded in; Titus $30,000 (vs $31,000); Rodland $30,950 (vs $31,957.24) + itemize the lumped line; Puyallup #6 $27,550 (vs $28,547.78) and #1 $31,200 from the own-site $27,999 basis, #9 breakdown still requested; Doug's $28,775 ("a thousand under your sheet"). All shortlist-framed: the number in writing earns the Saturday visit. Staged for Evan's send or Mac execution; connector cannot send.
