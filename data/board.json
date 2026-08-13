@@ -884,7 +884,7 @@
    "rank": 8,
    "cohort": "aug7",
    "foundDate": "2026-08-07",
-   "status": "live",
+   "status": "sold",
    "year": 2023,
    "trim": "2.5 S Preferred",
    "trimFull": "2.5 S Preferred AWD",
@@ -940,8 +940,8 @@
    "dealerKey": "royal_moore_mazda",
    "comfortRank": 10,
    "latest": {
-    "text": "a sales manager followed up Thu afternoon; replied Thu afternoon.",
-    "short": "a sales manager followed up Thu afternoon; replied Thu afternoon.",
+    "text": "dealer reported this one sold Thu Aug 13; their remaining 2023 Preferred was requoted instead.",
+    "short": "dealer reported this one sold Thu Aug 13; their remaining 2023 Preferred was requoted instead.",
     "asOf": "2026-08-13"
    },
    "contact": "quote",
@@ -980,7 +980,13 @@
     "walkAwayOtd": 30450,
     "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
    },
-   "soldInfo": null,
+   "soldInfo": {
+    "date": "2026-08-13",
+    "how": "dealer email Aug 13",
+    "statusLine": "Sold — dealer reported it sold Aug 13 while requoting their other Preferred",
+    "short": "Royal Moore '23 Preferred",
+    "label": "2.5 S Preferred AWD · 16,615 mi"
+   },
    "topPick": null,
    "pickTag": null,
    "pickWhy": null,
@@ -2283,9 +2289,9 @@
    "dealerKey": "royal_moore_mazda",
    "comfortRank": null,
    "latest": {
-    "text": "folded into the #8 thread; no separate quote yet. Oregon: email-only.",
-    "short": "folded into the #8 thread; no separate quote yet. Oregon: email-only.",
-    "asOf": "2026-08-11"
+    "text": "dealer requoted their remaining 2023 Preferred (stock p12315) Thu Aug 13 with the dealer-added items removed.",
+    "short": "dealer requoted their remaining 2023 Preferred (stock p12315) Thu Aug 13 with the dealer-added items removed.",
+    "asOf": "2026-08-13"
    },
    "contact": "engaged",
    "quote": null,
@@ -5299,6 +5305,7 @@
   {
    "date": "2026-08-13",
    "bullets": [
+    "Royal Moore: one 2023 Preferred sold per the dealer; the remaining one was requoted with the dealer-added items removed.",
     "Puyallup Mazda: pricing breakdown received for the CPO 2023 Carbon (#9); worksheet attached in email.",
     "Royal Moore: manager follow-up received Thu afternoon; reply prepared.",
     "Hyundai of Kirkland: updated written proposal received midday; license-at-actuals refund and two keys confirmed in writing; window sticker check in progress."
