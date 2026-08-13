@@ -934,3 +934,13 @@ All five rewritten one more time to Evan's spec: "setting our Saturday itinerary
 ### 2026-08-13 00:5xZ (5:5x PM PT Wed) — Wave re-threaded: all six now true in-thread replies
 
 Evan caught the drafts rendering as standalone composes. Cause: update_draft rebuilds the message without the reply-to anchor, so each revision pass silently stripped threading. Fixed by recreating all six as fresh create_draft calls with replyToMessageId (final itinerary-frame text, unchanged asks): Kirkland r3348182119220296612, Titus r8974844841987959422, Royal Moore r1509412270451293276 (cc Fernando), Puyallup/Bilori r8367343080214364370, Rodland r-5458492775922819298, Doug's r5103230209224356578. The six standalone copies neutralized (recipients cleared, subjects marked). Process note for future edits: never update_draft a threaded reply; recreate it.
+
+### 2026-08-13 02:4xZ (7:4x PM PT Wed) — WAVE SENT by Evan; first movement inside the hour
+
+Sends verified in Sent (6:36–6:39 PM), Evan adjusted two numbers himself: Kirkland $27,600 (as staged), Doug's $28,775 (as staged), Rodland $30,150 (was $30,950 staged — deeper), Puyallup #6 $27,550 (as staged), Titus $30,500 (was $30,000 staged — softer). Royal Moore likely-pass also reported sent by Evan.
+
+Replies within ~45 minutes:
+- Titus/Amy 7:25 PM: "What time on Saturday should we expect to see you?" — scheduling in response to $30,500, no written confirmation of the number. Reply staged (r2729185728756726163): buyer's order at $30,500 first, then a ~1:30 slot.
+- Puyallup/Bilori 7:23 PM: asks which additional Carbon Edition. Reply staged (r-786622103097367654): stock 288130, ~33,006 mi, $27,699 list, itemized breakdown in-body.
+
+Also delivered per Evan: Saturday route artifact (table + schematic map) published at claude.ai/code/artifact/68ca75dc-d904-42b3-bdb2-cbd8d3a63c8b (private; Evan shares from the page menu). "Forward all to Maci" implemented as a one-tap digest draft to macimendez4@gmail.com (r-627951575342524333) carrying the full state, since the connector cannot send per-thread forwards. Evan's earlier question answered: the Rodland ask he sent ($30,150, ~$1.8k under their sheet) is credible given the car's price position; role unchanged.
