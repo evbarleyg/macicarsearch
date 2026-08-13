@@ -940,9 +940,9 @@
    "dealerKey": "royal_moore_mazda",
    "comfortRank": 10,
    "latest": {
-    "text": "written quote received Aug 11 as a PDF; it lists Courtesy Guard + Forever Start add-ons and their removal has been requested. Oregon: email-only.",
-    "short": "written quote received Aug 11 as a PDF; it lists Courtesy Guard + Forever Start add-ons and their removal has been requested. Oregon: email-only.",
-    "asOf": "2026-08-11"
+    "text": "a sales manager followed up Thu afternoon; reply prepared.",
+    "short": "a sales manager followed up Thu afternoon; reply prepared.",
+    "asOf": "2026-08-13"
    },
    "contact": "quote",
    "quote": {
@@ -1081,9 +1081,9 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 7,
    "latest": {
-    "text": "folded into the Puyallup #1/#6 inquiry; no written numbers yet.",
-    "short": "folded into the Puyallup #1/#6 inquiry; no written numbers yet.",
-    "asOf": "2026-08-11"
+    "text": "CPO pricing breakdown received Thu Aug 13 early afternoon; itemized worksheet attached in the dealer's email.",
+    "short": "CPO pricing breakdown received Thu Aug 13 early afternoon; itemized worksheet attached in the dealer's email.",
+    "asOf": "2026-08-13"
    },
    "contact": "sent",
    "quote": null,
@@ -5299,6 +5299,8 @@
   {
    "date": "2026-08-13",
    "bullets": [
+    "Puyallup Mazda: pricing breakdown received for the CPO 2023 Carbon (#9); worksheet attached in email.",
+    "Royal Moore: manager follow-up received Thu afternoon; reply prepared.",
     "Hyundai of Kirkland: updated written proposal received midday; license-at-actuals refund and two keys confirmed in writing; window sticker check in progress."
    ]
   },
