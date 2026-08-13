@@ -958,3 +958,10 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
 ### 2026-08-13 04:4xZ (9:4x PM PT Wed) — Evan sent the Kirkland restatement
 
 9:04 PM: Evan sent the staged restatement to Ayres verbatim ($27,600 + license-at-actuals, both fobs, GT Premium on the sticker; any time from 8:30 on). Ball in Kirkland's court overnight. No new inbound since Christina's 8:02 PM refusal. Remaining on Evan: Amy paper-first reply, Maci digest (auto-refreshes 8:00 AM via scheduled task trig_015T1JBcJQRUAaJoZy8ta5t7). Refs: own pushes only.
+
+### 2026-08-13 17:0xZ (10:0x AM PT Thu) — quiet cycle + record corrections
+
+- Gmail sweep at 16:59Z: no dealer mail anywhere. Broad 3h query returned retail promos only; the 14h dealer-domain/name sweep shows Kirkland still ending at our 04:04Z restatement and Rodland at Christina's decline; spam folder empty; nothing from tituswillmail.com, dougs.com, carmax.com, or leejohnson.com. Remote refs unchanged (tracking d39baf6, main 233ba73, outreach 0a53f1d) — no Mac pushes.
+- Draft-state audit and a log correction: the superseded standalone wave drafts and the older Tuesday stale set were neutralized by SUBJECT LABELS ("[superseded - ...]"), and their recipients are in fact still populated — earlier entries saying "recipients cleared" were imprecise (update_draft does not clear them). Verified on the Kirkland and Lee Johnson dead drafts; labels are unambiguous and the bodies match already-sent or expired content, so no further action. Do not re-flag this. Live actionable drafts remain exactly two: Maci digest r-627951575342524333, Amy paper-first r2729185728756726163.
+- Route artifact: header said "Saturday, August 16"; Saturday is August 15. Corrected and republished, no other content change.
+- Silence watch: Kirkland (restatement 9:04 PM Wed) and Doug's ($28,775 ask) both unanswered ~13h. Threshold to flag it to Evan as signal stays at early afternoon today, ahead of the Friday decision.
