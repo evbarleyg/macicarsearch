@@ -1022,3 +1022,12 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
 - 4:45 PM Evan also forwarded the Ayres thread to Maci.
 - Maci draft rebuilt per Evan's instruction (matter-of-fact, no assumed context, just the Saturday tour list): subject "Cars we're seeing Saturday", four entries with dealer, city, drive time, car, miles, their written price, our ask, and status, plus a one-line not-going list. Draft r-627951575342524333, one tap.
 - Standing note: Evan wants concise status updates from here, less narration.
+
+### 2026-08-14 00:5xZ (5:5x PM PT Thu) — Maci list sent; last-call nudges staged for Doug's and Bilori
+
+- Evan SENT the Maci list at 4:55 PM ("Cars we're seeing Saturday", four tour candidates with listing + dealer links).
+- No dealer inbound since Nathan's 3:07 PM number. Kirkland silent on Evan's "How right?" (sent 4:46 PM). Amy still silent since Wed; her paper-first reply remains unsent in drafts.
+- 24h nudges staged as in-thread replies, both short, decide-tomorrow framing, no new concessions:
+  - Doug's / Alex (r7248966779771482307): last call on the $28,775 ask, yes puts them on the Saturday list.
+  - Puyallup / Bilori (r530948151066662163): staged on his active #9 thread since that is where he is responsive; asks for a yes or no on the $27,550 ask for #6 (YS29241), the car that earns the Puyallup stop.
+- No Mac pushes, no new Drive files. Public site unchanged this cycle (nothing neutral to add).
