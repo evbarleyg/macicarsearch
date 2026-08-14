@@ -3,8 +3,8 @@
   "title": "2021–2023 Mazda CX-5: Seattle Buyer's Report",
   "scope": "Within 250 mi of 98101 · under 50k mi · under $29k list · clean title / no accidents",
   "published": "2026-08-07",
-  "refreshed": "2026-08-13",
-  "refreshNote": "read-only listing sweep; dealer replies logged through Thu Aug 13 midday PT",
+  "refreshed": "2026-08-14",
+  "refreshNote": "read-only listing sweep; dealer replies logged through Fri Aug 14 midday PT",
   "commsThrough": "Tue Aug 11, 5:00 PM PT",
   "purchaseWindow": "Aug 15–16",
   "apr": 6.3,
@@ -1493,9 +1493,9 @@
    "dealerKey": "titus_will_olympia",
    "comfortRank": 3,
    "latest": {
-    "text": "dealer asking to schedule a Saturday time (Aug 12 evening); paperwork requested first.",
-    "short": "asking to schedule Saturday; paperwork requested first.",
-    "asOf": "2026-08-11"
+    "text": "dealer confirmed their best number Fri Aug 14 and left the door open; not on this weekend's visit list.",
+    "short": "dealer confirmed their best number Fri Aug 14 and left the door open; not on this weekend's visit list.",
+    "asOf": "2026-08-14"
    },
    "contact": "quote",
    "quote": {
@@ -5302,6 +5302,12 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-08-14",
+   "bullets": [
+    "Titus-Will: dealer confirmed their best number and stood down; the Olympia car is off the weekend visit list."
+   ]
+  },
   {
    "date": "2026-08-13",
    "bullets": [
