@@ -1055,3 +1055,12 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
 - Reply staged in-thread (r-6180600947581863076): buyer's order at $30,500 books ~1:30 Saturday, deciding today, Olympia is the longest drive so the paper earns the trip, same terms (KARR out, gov fees at actuals with refund, no add-ons). Label_33 applied to the thread.
 - Note: Amy's older paper-first draft (r2729185728756726163) covers the same ground on her thread; the Dylan draft is the live one since he asked most recently. Sending either satisfies the position.
 - Kirkland silent since Ayres 6:49 PM Thu on the durable-savings exchange. Doug's and Bilori still silent; their nudges remain staged and unsent.
+
+### 2026-08-14 19:0xZ (12:0x PM PT Fri) — decision-day drafts: name the winning number to all three
+
+Per Evan, each live dealer gets the number that would actually take the top spot, benchmarked against Kirkland's written $28,123 (a 2021 GT + GT Premium, 33,336 mi, clean, 25 min away). Voice note from Evan: say "offer" not "paper".
+
+- PUYALLUP / Bilori (r6762358842345195478, in-thread): #6 Carbon Turbo needs $27,000 out the door to be first. Reasoning: at $28,547.78 it is $425 ABOVE Kirkland with 9,179 more miles, appearance package instead of the comfort package, turbo works against the MPG brief, 45 min away. Also asks for the all-in number on #9 and names ~$28,500 as where the CPO warranty makes it competitive. Old nudge r530948151066662163 superseded.
+- DOUG'S / Alex (r5220238237903061695, in-thread): needs $27,500. At $29,774.50 it is $1,651 above Kirkland with 14,000 more miles and a lower trim, so a $2,275 cut is required. Told plainly it is not in the running otherwise, with a clean exit. Old nudge r7248966779771482307 superseded.
+- TITUS / Dylan (r838491831522570671, in-thread): $30,500 in writing books the ~1:30 slot; about $29,000 takes the first stop. Gap is $2,877 to Kirkland with 10,304 more miles, offset partly by a newer year, comparable Premium Plus comfort content, and remaining powertrain coverage. Earlier draft r-6180600947581863076 superseded.
+- Assessment recorded for the file: Titus at ~$29,000 is a genuine coin flip, Puyallup at $27,000 wins outright, Doug's is the least likely (never answered $28,775). Two Titus reps have now asked for a Saturday time without sending an offer, which reads as get-them-in-the-door rather than readiness to move on price.
