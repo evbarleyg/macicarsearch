@@ -1094,3 +1094,10 @@ Per Evan, each live dealer gets the number that would actually take the top spot
 
 - 1:10 PM Izzy Hernandez (israel.hernandez@drivetonkinhonda.com), new thread: "see what your thoughts are on the proposal we sent out to you! We have a couple of other options as well." NOTE: no Tonkin proposal ever arrived. He said Tue 3:57 PM it was with his manager, and nothing landed in inbox or spam in the three days since. Either it was never sent or it went somewhere we cannot see. Not chasing it: Tonkin is Portland (no Oregon visits per Evan), the car is a turbo (against the brief), and its only role was leverage, which is moot now that Kirkland has moved and we are at decision time. Label_33 applied, no reply drafted.
 - No answer yet from Doug's or Bilori to the ranges sent at 11:59 AM (about 2h45m). Rodland silent since the phone call; no email going to them per Evan.
+
+### 2026-08-14 22:2xZ (3:2x PM PT Fri) — Bilori sends the CPO worksheet, dodges the Turbo range a third time
+
+- 3:08 PM Bilori: itemized worksheet for the #9 CPO 2023 Carbon attached as "M260362AA8-14-26 13.41.pdf" (dated today 1:41 PM), plus a listing link. Connector cannot download attachments, so the all-in number is locked in the PDF. Evan can open or upload it and it gets parsed immediately.
+- PATTERN WORTH NAMING: he answered the CPO question and again said nothing about the Carbon Turbo. That ask has now gone unanswered three times (Wed $27,550, Thu silence, Fri $27,000-27,300 range). He is steering toward the more expensive certified car. On our own estimate the CPO lands around $31k all in versus the range that would make it competitive at ~$28,500, so unless the worksheet shows something very different, Puyallup's value case is the Turbo he will not price.
+- 3:20 PM Nathan Hines (Royal Moore) followed up AGAIN asking what questions we have, despite Evan's pass going out Thursday 2:18 PM. Fourth contact from that store since Tuesday. No reply; the pass already answered all three of them.
+- Doug's still silent on the $27,500-27,800 range (4h). Rodland silent since the call. Kirkland silent since Thu 6:49 PM.
