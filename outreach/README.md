@@ -1031,3 +1031,9 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
   - Doug's / Alex (r7248966779771482307): last call on the $28,775 ask, yes puts them on the Saturday list.
   - Puyallup / Bilori (r530948151066662163): staged on his active #9 thread since that is where he is responsive; asks for a yes or no on the $27,550 ask for #6 (YS29241), the car that earns the Puyallup stop.
 - No Mac pushes, no new Drive files. Public site unchanged this cycle (nothing neutral to add).
+
+### 2026-08-14 01:1xZ (6:1x PM PT Thu) — Evan answers Kirkland: not good enough, but a great start, see you Saturday
+
+- Evan replied in-thread to Ayres (per Evan; exact text to be captured on the next sweep): the $28,123 is not good enough, but it is a great place to start, and we will see him Saturday. Net effect: tonight is formally off, Saturday 8:30 is confirmed from our side, and the $27,600 ask stays live without a deadline attached. Good posture into Friday: they know the gap, they know we are coming, and they asked to close first.
+- Nudges to Doug's and Bilori remain staged and HELD per Evan (tomorrow, not tonight). Amy's paper-first reply still unsent.
+- No dealer inbound since Royal Moore 3:07 PM.
