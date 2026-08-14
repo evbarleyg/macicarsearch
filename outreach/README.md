@@ -1089,3 +1089,8 @@ Per Evan, each live dealer gets the number that would actually take the top spot
 
 - Per Evan, immediately revised: the visit is CONTINGENT, not planned. "Unless they can confirm and come back, we aren't going." Live draft r7521555453271903389 replaces the earlier one (r8465621660086680401, now marked DELETE ME): states $29,000 out the door, says plainly we are not planning to come in otherwise since the weekend is built around cars with written numbers, and adds them to the route only on written confirmation today, quoted as is with no protection products. Ball is in Rodland's court; no further chasing.
 - Final on Rodland: per Evan, no email at all. The $29,000 was asked on the phone and that stands on its own. Both Rodland drafts marked DELETE ME. Nothing outbound to Everett; if they want it they call back.
+
+### 2026-08-14 20:4xZ (1:4x PM PT Fri) — Tonkin resurfaces claiming a proposal we never received
+
+- 1:10 PM Izzy Hernandez (israel.hernandez@drivetonkinhonda.com), new thread: "see what your thoughts are on the proposal we sent out to you! We have a couple of other options as well." NOTE: no Tonkin proposal ever arrived. He said Tue 3:57 PM it was with his manager, and nothing landed in inbox or spam in the three days since. Either it was never sent or it went somewhere we cannot see. Not chasing it: Tonkin is Portland (no Oregon visits per Evan), the car is a turbo (against the brief), and its only role was leverage, which is moot now that Kirkland has moved and we are at decision time. Label_33 applied, no reply drafted.
+- No answer yet from Doug's or Bilori to the ranges sent at 11:59 AM (about 2h45m). Rodland silent since the phone call; no email going to them per Evan.
