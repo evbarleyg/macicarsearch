@@ -1037,3 +1037,14 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
 - Evan replied in-thread to Ayres (per Evan; exact text to be captured on the next sweep): the $28,123 is not good enough, but it is a great place to start, and we will see him Saturday. Net effect: tonight is formally off, Saturday 8:30 is confirmed from our side, and the $27,600 ask stays live without a deadline attached. Good posture into Friday: they know the gap, they know we are coming, and they asked to close first.
 - Nudges to Doug's and Bilori remain staged and HELD per Evan (tomorrow, not tonight). Amy's paper-first reply still unsent.
 - No dealer inbound since Royal Moore 3:07 PM.
+
+### 2026-08-14 02:4xZ (7:4x PM PT Thu) — KIRKLAND AGREED TO $27,600 (tonight-only), Evan pushed for durable price savings
+
+- PROCESS FAILURE, now fixed: Gmail search (search_threads) returned a stale copy of the Kirkland thread for over an hour and I twice reported Evan's reply as missing/unsent. get_thread on the thread ID returns the true state. RULE: for active dealer threads, fetch by thread ID, do not trust search freshness.
+- The exchange I missed:
+  - 5:48 PM Ayres: "Could we get you to come now if we agree to $27600?" That is our exact ask, MET, but conditioned on coming in that night.
+  - 6:32 PM Evan declined the speed ("just sitting down to dinner") and asked for more movement out of the price, not out of the fees.
+  - 6:49 PM Ayres: doc fee is $200 on every deal, will not move; "Saturday is fine, we will see you then :)" NOTE: he did NOT restate $27,600 as good for Saturday. The number was tied to tonight.
+  - 7:34 PM Evan clarified he meant the license fee, and asked for "durable savings into the MSRP/Discount line" (two screenshots attached). Correct instinct: the $700 to $500 license cut was an estimate change, not money, and it reverses at actuals.
+- Open risk: $27,600 is verbally on the table but only in a tonight-only frame. Draft staged (r-4464620924864440158) asking Ayres to put $27,600 in writing GOOD THROUGH SATURDAY, with the reduction in the selling price line and license still at actuals with refund. If they write it, Saturday is a signing, not a negotiation.
+- Math for the file: $27,600 via selling price means selling about $24,278, tax about $2,622 at 10.80%, license $500 est, doc $200. If license trues to ~$650 the real OTD is about $27,750, still well under their $28,123 sheet.
