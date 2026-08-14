@@ -1048,3 +1048,10 @@ Also delivered per Evan: Saturday route artifact (table + schematic map) publish
   - 7:34 PM Evan clarified he meant the license fee, and asked for "durable savings into the MSRP/Discount line" (two screenshots attached). Correct instinct: the $700 to $500 license cut was an estimate change, not money, and it reverses at actuals.
 - Open risk: $27,600 is verbally on the table but only in a tonight-only frame. Draft staged (r-4464620924864440158) asking Ayres to put $27,600 in writing GOOD THROUGH SATURDAY, with the reduction in the selling price line and license still at actuals with refund. If they write it, Saturday is a signing, not a negotiation.
 - Math for the file: $27,600 via selling price means selling about $24,278, tax about $2,622 at 10.80%, license $500 est, doc $200. If license trues to ~$650 the real OTD is about $27,750, still well under their $28,123 sheet.
+
+### 2026-08-14 18:4xZ (11:4x AM PT Fri) — Titus-Will tries again for a time, still no paper
+
+- 11:25 AM Dylan Ferrians (dferrians@twcgc.tituswillmail.com), on the older Titus thread: "Hey Evan! Do you have a time in mind for Saturday to see the Mazda?" That is the SECOND Titus rep asking for a slot without producing the buyer's order (Amy asked Wed 7:25 PM). Their $31,000 written offer stands; our $30,500 ask has been unanswered since Wed evening.
+- Reply staged in-thread (r-6180600947581863076): buyer's order at $30,500 books ~1:30 Saturday, deciding today, Olympia is the longest drive so the paper earns the trip, same terms (KARR out, gov fees at actuals with refund, no add-ons). Label_33 applied to the thread.
+- Note: Amy's older paper-first draft (r2729185728756726163) covers the same ground on her thread; the Dylan draft is the live one since he asked most recently. Sending either satisfies the position.
+- Kirkland silent since Ayres 6:49 PM Thu on the durable-savings exchange. Doug's and Bilori still silent; their nudges remain staged and unsent.
