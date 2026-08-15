@@ -7,6 +7,40 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 9:50 AM — Puyallup just quoted the certified car $886.40 ABOVE their own worksheet
+
+Bilori Howard, 9:41 AM, replying inside Paige's thread: *"I sent an OTD price on the 2023
+M260362A of $31,014.19, Since you are on your way to view the cars in person feel free to
+stop by and we will work on the one that you like the most."*
+
+**Their written worksheet for that exact stock number, dated 8/14 1:41 PM, is $30,127.79.**
+
+The new figure reverses cleanly: $27,224 x 1.108 + $200 + $650 = $31,014.19. That is the
+Thursday advertised price, before the $800 he cut on Friday without being asked. So he has
+re-quoted the pre-discount number, and he did it directly underneath Evan's 8:48 AM email
+which states $30,127.79 in plain text.
+
+Most likely sloppiness rather than strategy. It still costs $886.40 if nobody challenges it,
+and it arrives bundled with a come-in-and-we-will-work-on-it invitation.
+
+**Evan needs the 8/14 PDF open on his phone when he walks in.** That document is the
+authority; an email assertion is not.
+
+**Staged, not sent** (r4238106924450904661): leads with confirm which number is real,
+restates the worksheet line by line, shows the arithmetic that produces his figure, and
+deliberately frames it as an error so he has a face-saving exit rather than a fight. Holds
+the ~$1,600 gap. Asks for #6 a fourth time.
+
+**Still zero numbers on #6, the Carbon Turbo**, across asks Wednesday, Thursday, Friday and
+this morning. He has now priced the certified car twice and that one never.
+
+**Correction to my 9:55 AM note:** the rep is **Bilori Howard**, direct **(253) 948-8425**.
+I called him Bilori Hernandez, conflating him with Izzy Hernandez at Ron Tonkin. My error.
+
+Board.json unchanged: #9's quote of record stays $30,127.79. A worksheet outranks an email.
+
+---
+
 ## Sat Aug 15, 9:55 AM — Kirkland car would not start. No test drive. Puyallup is the live stop.
 
 Evan, from the lot: **the car would not start.** No test drive happened.
