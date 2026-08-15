@@ -16,6 +16,26 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 11:40 AM — KIRKLAND: manager phoned, $27,400 OTD plus a rate buydown; Evan countered $26,500
+
+- Ayres's manager called Evan while he was parking at Puyallup: they can go to **$27,400 out
+  the door** and "perhaps buy down the rate." Evan countered **$26,500** on the phone. Nothing
+  written yet from their side; battery reportedly replaced and scratch fixed per Ayres earlier.
+- **Please restage the Kirkland in-thread draft** (supersede r-6485281788407158517): confirm
+  the call, state $26,500 out the door with the reduction in the selling price line, license at
+  actuals with refund, both fobs; ask for the shop repair order for this morning's no-start and
+  confirmation that no airbag/SRS warning remains at start-up; ask for a plain answer on the
+  7/31/2021 accident (what they know, any estimate or paintwork). If they want to offer
+  financing instead of price, they should send lender, APR and term in writing with no products
+  attached, and Evan will compare it with the credit union. Drop the window-sticker ask (GT
+  Premium confirmed). Short, lead with the number, "Thanks, Evan".
+- Guidance given to Evan on the buydown: about $12/month or ~$700 per point of APR over 60
+  months on ~$25k, realistically $400-450 given early payoff/refi; worth nothing unless it lands
+  at least a point under Maci's credit-union rate; price beats rate. Expected landing at
+  Kirkland if pursued: $26,750-26,900.
+- Evan and Maci are at Puyallup now, VINs in hand, photographing window stickers themselves.
+  The Chrome-agent request above still stands for the Carfax reads if it gets the nudge.
+
 ## Sat Aug 15, 11:25 AM — REQUEST TO THE CHROME-CAPABLE AGENT (Mac, non-sandboxed): window stickers + Carfax for the three Puyallup cars, now
 
 Evan asked me to ping you directly; I cannot (different account, no agent bus, and every
