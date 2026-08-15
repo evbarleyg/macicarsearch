@@ -377,7 +377,10 @@
         ],
         "latest_known": "Written quote Aug 11 4:21 PM: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit hold staged"
       },
-      "accident_history_VERIFIED": "MATERIAL DISCREPANCY found 2026-08-15: CarGurus ('0 accidents reported') and KBB ('No Accidents') both source Experian AutoCheck and show clean. But Ford of Kirkland's OWN site links to a free CARFAX report for this exact VIN that shows 'ACCIDENT - Accident Reported, 07/31/2021, Airbags did not deploy.' Same 1-owner WA car either way. This matches the Carfax Evan already had from 8/11/26. AutoCheck simply doesn't have this record; CARFAX does. Treat as a confirmed accident car, not a clean one - the 'No Accidents' badges on CarGurus/KBB are wrong/incomplete for this VIN, not evidence of a clean history."
+      "accident_history_VERIFIED": "MATERIAL DISCREPANCY found 2026-08-15: CarGurus ('0 accidents reported') and KBB ('No Accidents') both source Experian AutoCheck and show clean. But Ford of Kirkland's OWN site links to a free CARFAX report for this exact VIN that shows 'ACCIDENT - Accident Reported, 07/31/2021, Airbags did not deploy.' Same 1-owner WA car either way. This matches the Carfax Evan already had from 8/11/26. AutoCheck simply doesn't have this record; CARFAX does. Treat as a confirmed accident car, not a clean one - the 'No Accidents' badges on CarGurus/KBB are wrong/incomplete for this VIN, not evidence of a clean history.",
+      "negotiation_state_2026_08_14_VERIFIED": "Verified from Gmail thread with Ayres Horne (ayres.horne@drivehyundaikirkland.com), NOT independently re-confirmed today: dealer's latest written proposal is $28,123 OTD (incl. a license-fee-refund provision, confirms both key fobs); Evan's ask is $27,600 OTD; a visit was confirmed for Saturday ~9:30 AM. Last message in the thread is dated 2026-08-14 19:27 UTC ('See you tomorrow...'). No message newer than that was found as of this check (2026-08-15) - whether the visit already happened, is in progress, or was cancelled is UNKNOWN.",
+      "accident_disclosure_gap_URGENT": "The confirmed accident (07/31/2021, airbags did not deploy - see accident_history_VERIFIED and outreach/evidence/car5_kirkland_accident_check_2026-08-15/) was NOT mentioned anywhere in the Ayres Horne negotiation thread by either party, as of the last message found (2026-08-14). If the Saturday visit is still upcoming or in progress, this needs to be raised before any signature.",
+      "evidence_dir": "outreach/evidence/car5_kirkland_accident_check_2026-08-15/ (4 screenshots + MANIFEST.md)"
     },
     {
       "rank": 6,
@@ -1244,8 +1247,6 @@
       "contact_page_alt": "https://www.fordofkirkland.com/contact-us/",
       "address": "Hyundai of Kirkland: 11706 124th Ave NE, Kirkland, WA 98034 · Ford of Kirkland: 11800 124th Ave NE, Kirkland, WA 98034",
       "phone_sales_reference_only": "Hyundai sales 877-746-4180 (local 425-500-1030); Ford sales 425-380-2221; main 425-821-6611",
-      "published_email": "hamid@fordofkirkland.com",
-      "published_email_cc": "customerservice@fordofkirkland.com",
       "email_visibility": "hyundaiofkirkland.com page source (Dealer.com config): dealership primary contact email = hamid@fordofkirkland.com; department contacts list customerservice@fordofkirkland.com (Financing), akuhns@fordofkirkland.com (Service), esills@fordofkirkland.com (Parts). Not rendered as visible text. fordofkirkland.com meta og:email shows a malformed 'h@fordofkirkland.com' — ignore.",
       "email_source_url": "https://www.hyundaiofkirkland.com/contact.htm",
       "sources_checked": [
@@ -1255,7 +1256,11 @@
         "https://www.hyundaiofkirkland.com/dealership/staff.htm",
         "https://www.fordofkirkland.com/contact-us/",
         "https://www.fordofkirkland.com/about-us/"
-      ]
+      ],
+      "published_email_UNCONFIRMED": "hamid@fordofkirkland.com",
+      "published_email_cc_UNCONFIRMED": "customerservice@fordofkirkland.com",
+      "note_2026_08_15": "CORRECTION: hamid@fordofkirkland.com (above) was scraped from page config, never confirmed live, and never replied. The VERIFIED live contact, confirmed via actual Gmail correspondence 2026-08-11 through 2026-08-14, is Ayres Horne <ayres.horne@drivehyundaikirkland.com>, Hyundai of Kirkland salesperson, reached via the dealer-site contact-form lead submitted 2026-08-11 (DriveCentric CRM). Use this address, not hamid@, going forward.",
+      "verified_contact": "Ayres Horne <ayres.horne@drivehyundaikirkland.com> - Hyundai of Kirkland Salesperson (DriveCentric CRM)"
     },
     "lee_johnson_mazda": {
       "name": "Lee Johnson Mazda of Seattle (Lee Johnson Auto Family)",
