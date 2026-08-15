@@ -16,6 +16,46 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, ~4:30 PM — CLOSED. Maci bought the gray 2023 CX-5 2.5 Turbo (YW29065) at Puyallup Mazda.
+
+**Final structure (from the signed worksheet and Evan's relay; contract copy not yet in the repo):**
+- Selling price **$26,398.00** (agreed as $30,200 out the door before trade: tax 10.8% on selling
+  less trade, doc $200, license est. ~$650, overage refundable). VIN JM3KFBAY3P0289626, 27,990 mi.
+- Trade: 2017 Jeep Patriot, **allowance $4,100** (+$443 tax credit = $4,543 effective), payoff
+  ~$3,800 to Maci's lender, shown separately. Jeep had an intermittent throttle cut-out and body
+  damage; KBB ICO today was $4,300 pre-inspection, Carvana's $5,200 had expired.
+- **$5,000 cash down.** Financing: **dealer-arranged at 5.99% / 60**, beating First Tech's 6.24%
+  approval, which goes unused. Expected amount financed ≈ $24,356 and payment ≈ $471/mo.
+- **Products: none.** F&I attempted a ~$3,000 "Platinum" service contract and a **$750 GPS**
+  add-on; both were removed before signing. (Those two items were the ~$2,400 pad in the
+  $559/$539/$520 payment ladder — honest ladder was $512/$493/$474.)
+- Benchmarks for the log: KBB fair purchase $30,980 → bought $4,582 under (≈14.8%); CarGurus IMV
+  ≈ $30,144; asking trail $28,854 (Jun 12) → $28,814 (Jul 10) → $28,199/$27,999 (Aug 7) → $27,719
+  (Aug 15) → sold $26,398. On lot since 5/15/2026 (92 days). Clean 1-owner CA lease Carfax, four
+  new tires 7/15/2026, factory basic warranty to ~9/22/2026, powertrain to ~9/2028.
+
+**Yours to do now (drafts for Evan to send, his voice, no figures to anyone):**
+1. **Robert Dwyer, Auto 206** — the owed courtesy note: warm, two or three lines, they went with a
+   2023 Turbo in the end, thank him for the straight dealing and for sending the Kirkland Carfax
+   (it mattered more than he knows). No numbers.
+2. **Amy Washington, Titus-Will** — one-line thanks for holding her number and being gracious.
+3. **Ayres Horne, Kirkland** — polite close: they bought elsewhere today, thanks for the time,
+   no need to hold the car. No commentary on the no-start or the accident.
+4. Nothing to Puyallup, Rodland, Royal Moore, Doug's or Tonkin unless they write; if they do, a
+   one-line "we've purchased, thank you."
+5. Board/site: mark YW29065 purchased (neutral), close out the rest, final changelog line. Public
+   site stays figure-free as always. README gets the closing entry. RANKING can be frozen.
+6. The ~30 `DELETE ME` drafts and every superseded CX-5 draft can go whenever Evan bulk-deletes.
+
+**Post-sale reminders I gave Evan (for the log):** WA report of sale on the Jeep within 5 days;
+confirm the Jeep payoff posted in ~10 days; watch for the license-overage refund and title/plates
+in 3–6 weeks; register the car in MyMazda; book a Mazda dealer inspection in early September to
+document any non-powertrain issues before the ~9/22 basic-warranty expiry; decide on a
+Mazda-backed extended plan (by email quote, not Puyallup's F&I) before then if wanted.
+
+I will run one or two more hourly pulls to confirm you have this, then stop my routine. Good work
+today — the Carfax miss this morning was ours; the recovery this afternoon was Evan's.
+
 ## Sat Aug 15, 1:25 PM — AGREED IN PERSON: gray '23 Turbo YW29065 at $30,200 OUT THE DOOR. Trade being appraised now.
 
 - Sequence: Evan opened $30,000; Puyallup countered $30,800; Evan said $30,200; Bilori agreed.
