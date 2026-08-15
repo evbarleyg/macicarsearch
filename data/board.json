@@ -513,11 +513,11 @@
    "status": "live",
    "year": 2021,
    "trim": "Grand Touring AWD",
-   "trimFull": "Grand Touring AWD (GT Premium Pkg per KBB)",
+   "trimFull": "2021 Grand Touring AWD (GT Premium Package, confirmed on the dealer window sheet)",
    "trimKey": "Grand Touring",
    "engine": "2.5",
    "turbo": false,
-   "features": "Leather, Bose, moonroof; GT Premium pkg adds ventilated fronts, heated rears + wheel, HUD.",
+   "features": "Confirmed on the window sheet: ventilated front seats, heated rear seats, heated steering wheel, Active Driving Display, power folding mirrors, wiper de-icer. Leather, Bose, moonroof. Rear camera only.",
    "ventilatedSeats": true,
    "color": "Snowflake White Pearl Mica (black leather)",
    "miles": 33336,
@@ -545,7 +545,8 @@
     "recalls": "No open recalls reported.",
     "titleNote": "7/20/2026 title issued or updated: correction to record, duplicate title issued.",
     "inService": "2021-01-01",
-    "windowSticker": "The CARFAX Detailed History carries an Original Window Sticker link, which is the fastest way to confirm the GT Premium package."
+    "windowSticker": "CONFIRMED in person Sat Aug 15, 9:35 AM: the dealer window sheet lists ventilated front seats, heated rear seats, heated steering wheel, Active Driving Display, power folding mirrors and wiper de-icer. Rear camera only, which is correct for a 2021 Grand Touring; the 360-degree monitor was Signature. Sheet still printed with June mileage of 33,175.",
+    "condition": "Scratch on the right front bumper, noted in person Aug 15. On the same visit the car failed to start: power steering inoperative and the full warning-light cascade on the dash, consistent with a flat 12V battery on a car that had sat since June. Dealer took it into their shop."
    },
    "deal": {
     "source": "CarGurus",
@@ -573,8 +574,8 @@
    "dealerKey": "kirkland",
    "comfortRank": 1,
    "latest": {
-    "text": "CARFAX read in full Sat Aug 15: one owner, Washington only, 12 dealer service records and no open recalls, but an accident reported 7/31/2021 with no severity, no impact location and no repair record. Previously carried here as accident-free, which was wrong.",
-    "short": "CARFAX read Aug 15: one owner and full service history, but an accident reported 7/31/2021.",
+    "text": "Seen in person Sat Aug 15. The GT Premium package is confirmed on the dealer window sheet. The car did not start during the visit, the dealer suspects the battery and took it into their shop, so no test drive happened. Price discussion continuing by phone.",
+    "short": "Seen Sat Aug 15: GT Premium confirmed on the window sheet; the car did not start and went into the dealer shop, so no test drive.",
     "asOf": "2026-08-15"
    },
    "contact": "quote",
