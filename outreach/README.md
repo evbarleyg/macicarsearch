@@ -1135,3 +1135,9 @@ Per Evan, each live dealer gets the number that would actually take the top spot
 - Math for the file: at 10.80% tax, $200 doc and ~$500-700 license, $26,500 OTD implies about $23,285 selling versus their current $24,750. That is roughly $1,700 below the cheapest clean 2021 Grand Touring the nine-day sweep found ($24,998 CarMax, without the GT Premium tier) and about $5,245 under KBB FPP of $28,530. Aggressive by design. Realistic landing zone $27,000-27,400; $27,600 is already banked; $28,123 written remains signable.
 - Justification to say out loud so the number reads as analysis: this car is out of factory warranty at 33,336 mi, while the Puyallup certified 2023 carries Mazda coverage to roughly 2030.
 - Handoff artifact rewritten to match (same URL, label drive-first-anchor-26500): headline figures now lead with the $26,500 anchor, seven-step playbook replaces the old restate-their-number opening, and the selling-price-not-license-estimate guidance moved into the license landmine.
+
+### 2026-08-15 14:4xZ (7:4x AM PT Sat) — trade vehicle surfaces: KBB ICO ready on a 2017 Jeep Patriot
+
+- 7:29 AM KBB: "Your Instant Cash Offer is ready to be redeemed" for a 2017 Jeep Patriot. That identifies the trade Evan referred to when he said not to mention one at Kirkland. An ICO is a real redeemable number at participating dealers (typically ~7 days), so it functions as a floor under any dealer appraisal.
+- Guidance given, consistent with the standing plan: trade stays unmentioned until the OTD is agreed in writing; know the ICO figure before opening the trade conversation so the dealer is bidding against something rather than setting the number.
+- No dealer inbound. Kirkland appointment is at 8:30. Nothing else moved overnight.
