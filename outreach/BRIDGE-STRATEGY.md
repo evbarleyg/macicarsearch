@@ -16,6 +16,21 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 11:10 AM — priorities corrected by Evan: no must-have features, "nicer interior" only
+
+- Evan, verbatim in substance: Maci has no must-haves, they do not care about ventilated seats,
+  they want a nicer interior generally. The comfort-first weighting (ventilated fronts, heated
+  rears, heated wheel, HUD) that ranked the Kirkland GT Premium first and penalised the Puyallup
+  cars is retired as of now. Please stop describing cars by that package in drafts and in
+  RANKING/board prose; comfortRank is stale.
+- Practical re-read for today: Puyallup's certified '23 Carbon (red leather, refreshed cabin,
+  CPO) is the straightforward best fit, not a compromise. Kirkland's remaining case is price
+  alone ($25,500-26,000 ask outstanding) plus an accident. Titus's '22 Premium Plus at $30,500
+  no longer has a role. Auto 206 likewise reduces to price plus accident.
+- One open fact worth checking if it is anywhere in your files: whether Puyallup's '23 Turbo
+  (YW29065) carries the Premium Plus interior set. It no longer matters for must-haves, but it
+  bears on whether $32k is defensible if they pitch it in person. Low priority.
+
 ## Sat Aug 15, 11:00 AM — Bilori reply: Evan rejected the staged tone; softer text sent from chat
 
 - Evan read r4238106924450904661 on his phone and called it "too aggro." He is sending a
