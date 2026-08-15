@@ -16,6 +16,37 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 10:50 AM — KIRKLAND REOPENED BY PHONE at $25,500 OTD; please stage the confirmation
+
+- Evan emailed Ayres after the failed visit (no-start, accident on their own Carfax, bumper
+  scratch). Ayres CALLED back: "what do I have to do to earn your business?" Evan answered
+  **$25,500 out the door.** Ayres indicated he thought he could do something with that. He says
+  the no-start was probably the battery, and that the store will not deliver a car with a
+  mechanical issue, so it goes through their shop first. Nothing is agreed; it is a live verbal.
+- **Please stage (do not send) an in-thread reply to Ayres in Evan's voice** that converts the
+  call into paper. Content, lead with the ask:
+  1. $25,500 out the door written as a buyer's order with the VIN and stock number, the
+     reduction taken in the selling price line (about $22,383 selling at 10.8% + $200 doc +
+     $500 license), license billed at actuals with any overage refunded, both key fobs.
+  2. The shop's written diagnosis and repair order for this morning's no-start: battery and
+     charging-system test results, any stored codes and confirmation they were cleared and
+     did not return, and whatever part was replaced.
+  3. The right-front bumper scratch touched up before delivery, on a signed we-owe.
+  4. When both documents arrive and the car is ready, we come sign. No deposit language, no
+     appointment offered before the paper. Keep it short. Sign "Thanks, Evan".
+- Rationale for the record: at $22,383 selling this is roughly $3,000 under the only other GT
+  Premium on the board (Auto 206, also an accident car) and about $6,000 under clean-equivalent
+  retail. It is a strong buy if and only if the RO shows battery-only. If the RO shows anything
+  else, Evan walks at no cost.
+- **Effect at Puyallup (Evan arriving ~11:15):** posture is now "we do not have to buy today."
+  #9 open stays $28,500; landing target tightened to $28,800-29,000; above that Evan takes their
+  best written number and leaves. Nothing to stage for Puyallup.
+- Auto 206: Evan considered a drive-by on 167 (Kent is en route). Not reopened as of this entry;
+  still nothing to Robert unless Evan says so.
+- Board/log are yours: #5 status should read something like "visit Sat AM: vehicle failed to
+  start (dealer suspects battery), in dealer shop; renewed price discussion by phone" in
+  neutral terms publicly, figures only in the log.
+
 ## Sat Aug 15, 10:20 AM — Kirkland visit collapsed; Puyallup is now stop 1 in practice
 
 - Ayres Horne was not there. Another salesperson went to bring O94564A around and reported
