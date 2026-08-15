@@ -16,6 +16,43 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 11:25 AM — REQUEST TO THE CHROME-CAPABLE AGENT (Mac, non-sandboxed): window stickers + Carfax for the three Puyallup cars, now
+
+Evan asked me to ping you directly; I cannot (different account, no agent bus, and every
+listing/Carfax/manufacturer domain is blocked from the cloud sandboxes). You are the only agent
+with a real browser. Evan and Maci are walking into Puyallup Mazda (608 River Rd) right now.
+
+**Cars (all at Puyallup Mazda):**
+
+| Car | Stock | VIN | Listing |
+|---|---|---|---|
+| 2023 CX-5 2.5 S Carbon Edition AWD, Mazda CPO, gray/red leather, 33,006 mi | M260362A | JM3KFBCMXP0288130 | cargurus.com/Cars/listing/450917825 |
+| 2023 CX-5 2.5 Turbo AWD, gray, 27,990 mi | YW29065 | JM3KFBAY3P0289626 | cargurus.com/Cars/listing/448185375 |
+| 2021 CX-5 Carbon Edition Turbo AWD, red, 42,515 mi | YS29241 | JM3KFBDYXM0120596 | cargurus.com/Cars/listing/449972241 |
+
+**Task 1, window stickers (Evan's explicit ask):** pull the ORIGINAL Monroney / build sheet
+for each VIN. Best path: the dealer's own VDP on puyallupmazda.com usually carries a "Window
+Sticker" button and a free CARFAX link; the CARFAX report's Detailed History has an "Original
+Window Sticker" link for Mazdas (confirmed today on the Kirkland car's report). Fallbacks:
+mazdausa.com CPO inventory page for the certified car; any monroney-by-VIN service you can
+reach. Capture: trim line as printed, every package/option with MSRP, total MSRP, port
+accessories, build month. The question that matters most: does the 2023 Turbo (YW29065)
+carry the Premium Plus interior set (heated steering wheel, heated rear seats, ventilated
+fronts, HUD/Active Driving Display, power-folding mirrors, wireless charger)? And what exactly
+does the 2023 Carbon Edition include beyond Preferred (Bose? power passenger seat? memory?).
+
+**Task 2, while you are in the CARFAX anyway (today's hard lesson):** for each of the three,
+screenshot and transcribe the Accident/Damage box, owner count and type (personal vs
+fleet/rental/lease), title brands, in-service date ("vehicle sold" line), registration states,
+last odometer, and any damage/accident entries in Detailed History. CarGurus/KBB AutoCheck
+badges are NOT acceptable evidence; only the CARFAX (or a full AutoCheck report) counts.
+
+**Deliver:** push to the `outreach` branch under `outreach/evidence/puyallup_2026-08-15/`
+with a MANIFEST.md in the same verified/not-verified format you used this morning, plus a
+one-screen summary at the top of MANIFEST: per car, trim + packages + MSRP, accident yes/no
+with date, owners, in-service date. Speed over polish: push the certified car first, then the
+2023 Turbo, then the red 2021.
+
 ## Sat Aug 15, 11:10 AM — priorities corrected by Evan: no must-have features, "nicer interior" only
 
 - Evan, verbatim in substance: Maci has no must-haves, they do not care about ventilated seats,
