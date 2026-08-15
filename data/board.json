@@ -1087,12 +1087,25 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 7,
    "latest": {
-    "text": "CPO pricing breakdown received Thu Aug 13 early afternoon; itemized worksheet attached in the dealer's email.",
-    "short": "CPO pricing breakdown received Thu Aug 13 early afternoon; itemized worksheet attached in the dealer's email.",
-    "asOf": "2026-08-13"
+    "text": "itemized written worksheet received Fri Aug 14; zero add-ons and the selling price came in under the advertised figure.",
+    "short": "itemized written worksheet received Fri Aug 14; zero add-ons and the selling price came in under the advertised figure.",
+    "asOf": "2026-08-14"
    },
    "contact": "sent",
-   "quote": null,
+   "quote": {
+    "otd": 30127.79,
+    "selling": 26424,
+    "doc": 200,
+    "license": 650,
+    "tax": 2853.79,
+    "taxRate": 10.8,
+    "addOns": [],
+    "date": "2026-08-14",
+    "time": "1:41 PM PT",
+    "docType": "F&I deal worksheet (PDF)",
+    "clean": true,
+    "note": "selling reduced from the advertised price; zero add-ons, no warranty or GAP premium"
+   },
    "counter": null,
    "targets": null,
    "soldInfo": null,
@@ -5305,6 +5318,7 @@
   {
    "date": "2026-08-14",
    "bullets": [
+    "Puyallup Mazda: itemized worksheet received for the certified 2023 Carbon (#9); zero add-ons.",
     "Titus-Will: dealer confirmed their best number and stood down; the Olympia car is off the weekend visit list."
    ]
   },
