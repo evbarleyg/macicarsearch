@@ -58,19 +58,19 @@
    "trimKey": "2.5 Turbo",
    "engine": "2.5 Turbo",
    "turbo": true,
-   "features": "Loaded turbo: heated leather, Bose, sunroof, 227 hp.",
-   "ventilatedSeats": false,
+   "features": "Confirmed on the original window sticker: ventilated front seats, heated front and rear seats, heated steering wheel, Active Driving Display, wireless charger, power folding mirrors, Bose 10-speaker, driver seat memory, moonroof. 2.5 Turbo, 227 hp on 87 octane and 256 hp on 93.",
+   "ventilatedSeats": true,
    "color": "Polymetal Gray Metallic (black leather)",
    "miles": 27990,
    "milesNote": null,
    "price": {
-    "listed": 28199,
-    "advertised": 27999,
+    "listed": 27919,
+    "advertised": 27719,
     "docFee": 200,
-    "asOf": "2026-08-12",
+    "asOf": "2026-08-15",
     "aug7": 28199,
     "listedNote": null,
-    "note": "CarGurus $28,199 (price includes the $200 doc); KBB and Puyallup Mazda's own site show $27,999",
+    "note": "Dealer site 8/15: $27,719 plus the $200 doc fee. Down from $28,199 earlier in the week.",
     "history": [
      "$28,854",
      "$28,814",
@@ -81,7 +81,12 @@
     "owners": 1,
     "accidents": 0,
     "cpo": false,
-    "verifiedVia": "CarGurus + KBB AutoCheck preview"
+    "verifiedVia": "CARFAX read 8/15/26: no accidents reported, CARFAX 1-Owner, personal lease vehicle, 4 service records.",
+    "ownerDetail": "One owner, California personal lease return.",
+    "inService": "approx 2023-09-22",
+    "warranty": "Factory basic warranty runs to approximately 9/22/2026; the 5-year powertrain warranty runs to approximately 9/2028. Real coverage remains.",
+    "windowSticker": "Original Monroney obtained 8/15. Total MSRP $38,225 with no individual options, so all listed content is standard on the 25T trim. Confirms ventilated front seats, heated front and rear seats, heated steering wheel, Active Driving Display, wireless phone charger, power folding mirrors, Bose 10-speaker, driver seat memory, power moonroof, 19-inch black alloys.",
+    "condition": "Four new tires fitted 7/15/2026. On the dealer lot since 5/15/2026."
    },
    "deal": {
     "source": "CarGurus",
@@ -109,9 +114,9 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 9,
    "latest": {
-    "text": "written itemized quote in hand (sheet dated Aug 11, surfaced Aug 12 after a phone call; the sender's group domain had gone to spam); zero add-ons.",
-    "short": "written itemized quote in hand (Aug 11 sheet).",
-    "asOf": "2026-08-11"
+    "text": "Seen and driven Sat Aug 15. The original window sticker confirms the full comfort package including ventilated front seats, and the CARFAX shows one owner, a personal lease and no accidents.",
+    "short": "Seen and driven Sat Aug 15; window sticker and CARFAX both obtained.",
+    "asOf": "2026-08-15"
    },
    "contact": "sent",
    "quote": {
@@ -655,7 +660,7 @@
    "status": "live",
    "year": 2021,
    "trim": "Carbon Ed Turbo AWD",
-   "trimFull": "Carbon Edition Turbo AWD",
+   "trimFull": "2021 Turbo Grand Touring AWD (per the dealer listing and CARFAX; earlier aggregator data called it Carbon Edition Turbo)",
    "trimKey": "Carbon Ed Turbo",
    "engine": "2.5 Turbo",
    "turbo": true,
@@ -665,20 +670,22 @@
    "miles": 42515,
    "milesNote": null,
    "price": {
-    "listed": 25198,
-    "advertised": 24998,
+    "listed": 24948,
+    "advertised": 24748,
     "docFee": 200,
-    "asOf": "2026-08-12",
+    "asOf": "2026-08-15",
     "aug7": 25198,
     "listedNote": "$24,998 + $200 on KBB",
-    "note": "CarGurus $25,198 with the doc fee; KBB $24,998 + $200"
+    "note": "Dealer site 8/15: $24,748 plus the $200 doc fee. Down from $25,198 earlier in the week."
    },
    "history": {
-    "owners": 2,
+    "owners": 3,
     "accidents": 0,
     "cpo": false,
-    "verifiedVia": "Aug 7 CarGurus payload (2 owners); today’s payload omits owner count — ask the dealer",
-    "ownersUnconfirmed": true
+    "verifiedVia": "CARFAX run by Puyallup Mazda 8/15/26, read in full.",
+    "ownersUnconfirmed": false,
+    "importHistory": "Canadian-market vehicle. Delivered in Edmonton, Alberta in February 2021 and serviced there in kilometres through 2023. Registered in Saskatchewan June 2025. Saskatchewan Motor Vehicle Department recorded a failed safety inspection on 8/15/2025 with the vehicle declared unsafe, and no repair record follows it. Re-registered in Alberta October 2025, imported into the United States May 2026, sold at auto auction 6/23/2026.",
+    "accidentDetail": "CARFAX reports no accidents or damage, no title brands and no open recalls. The disqualifying item is the Saskatchewan safety-inspection failure, not an accident."
    },
    "deal": {
     "source": "CarGurus",
@@ -709,9 +716,9 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 11,
    "latest": {
-    "text": "written itemized quote in hand (sheet dated Aug 11, surfaced Aug 12); zero add-ons.",
-    "short": "written itemized quote in hand (Aug 11 sheet).",
-    "asOf": "2026-08-11"
+    "text": "CARFAX read in full Sat Aug 15. A Canadian-market car with a Saskatchewan safety-inspection failure recorded 8/15/2025 and no repair record after it, imported to the United States in May 2026 and sold at auction in June. Removed from consideration.",
+    "short": "CARFAX read Aug 15: Canadian-market car with a 2025 safety-inspection failure and no repair record; removed from consideration.",
+    "asOf": "2026-08-15"
    },
    "contact": "sent",
    "quote": {
@@ -738,7 +745,7 @@
    "topPick": null,
    "pickTag": null,
    "pickWhy": null,
-   "tag": null,
+   "tag": "removed from consideration",
    "notes": {
     "table": "Cheapest live turbo now that #3 sold; higher miles; {days} days listed.",
     "card": "Cheapest live turbo now that #3 sold; higher miles; {days} days listed."
@@ -1053,20 +1060,21 @@
    "miles": 33006,
    "milesNote": null,
    "price": {
-    "listed": 27699,
-    "advertised": 27499,
+    "listed": 27424,
+    "advertised": 27224,
     "docFee": 200,
-    "asOf": "2026-08-12",
+    "asOf": "2026-08-15",
     "aug7": 27699,
     "listedNote": "KBB $27,499",
-    "note": "CarGurus $27,699 with the doc fee; KBB $27,499"
+    "note": "Dealer site 8/15: $27,224 plus the $200 doc fee. Down from $27,699 earlier in the week."
    },
    "history": {
     "owners": 1,
     "accidents": 0,
     "cpo": true,
     "cpoProgram": "Mazda Certified Pre-Owned",
-    "verifiedVia": "CarGurus + KBB"
+    "verifiedVia": "Dealer listing and CPO badge only. The dealer CARFAX link for this VIN returned HTTP 503 on four attempts on 8/15 while both other cars on the same lot loaded, so the accident history is UNVERIFIED.",
+    "accidentsUnverified": true
    },
    "deal": {
     "source": "CarGurus",
@@ -1098,9 +1106,9 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 7,
    "latest": {
-    "text": "itemized written worksheet received Fri Aug 14; zero add-ons and the selling price came in under the advertised figure.",
-    "short": "itemized written worksheet received Fri Aug 14; zero add-ons and the selling price came in under the advertised figure.",
-    "asOf": "2026-08-14"
+    "text": "Seen Sat Aug 15. The dealer CARFAX link for this vehicle would not load, so its history remains unverified.",
+    "short": "Seen Sat Aug 15; dealer CARFAX link would not load, history unverified.",
+    "asOf": "2026-08-15"
    },
    "contact": "sent",
    "quote": {
