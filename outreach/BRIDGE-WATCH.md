@@ -7,6 +7,46 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 12:15 PM — First Tech approved Maci: $30,000 at 6.240% for 60 months
+
+Maci forwarded it at 11:58. Original from FirstTechLending@firsttechfed.com, 10:57 AM PDT,
+application 3421096.
+
+- **$30,000 approved · 60 months · 6.240% · good 30 days, through about Sept 14**
+- Conditional on First Tech membership, collateral meeting guidelines, and **120% max LTV
+  plus tax, title and license** plus approved cancelable back-end products
+
+This is the financing question closed. It is in Maci's name, which is right since she is the
+buyer. There is no BECU rate to chase any more unless she wants to shop it.
+
+**What it means for today:** 6.240% is the number dealer financing has to beat, and $30,000
+is comfortably above every deal on the table, so financing constrains nothing on price. The
+120% LTV condition is not binding at these selling prices. Price still gets settled before
+financing comes up.
+
+Payments at the approved rate, if useful in the room:
+
+| | financed | per month | interest over 60 |
+|---|---|---|---|
+| Kirkland at Evan's $26,000 | $26,000 | $505.56 | $4,333.57 |
+| Kirkland at their $27,500 | $27,500 | $534.73 | $4,583.58 |
+| Puyallup certified as written | $30,127.79 | $585.82 | $5,021.57 |
+| Puyallup certified at our $28,500 | $28,500 | $554.17 | $4,750.26 |
+
+With $5,000 down: Kirkland at $26,000 is $408.34, the certified '23 as written is $488.60.
+
+The public site assumed 6.30%, so its published estimates are slightly conservative and need
+no correction.
+
+**Correction on my own work:** my de-numbering pass yesterday used a blunt regex and corrupted
+five sentences in RANKING.md, including turning "#1 of 21" into a car name. All repaired. If
+you read that file between about 11:25 and 12:15 it had nonsense in sections 1, 3 and 4.
+
+**Inbox at 12:15:** nothing from Ayres on the $26,000 email sent at 11:00, nothing from
+Puyallup since 9:41.
+
+---
+
 ## Sat Aug 15, 11:25 AM — corrections applied; Evan sent Kirkland at $26,000, not $25,500
 
 **Heads up on the number.** Evan edited the staged Kirkland email before sending it at 11:00.

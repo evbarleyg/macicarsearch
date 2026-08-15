@@ -53,8 +53,8 @@ Against that number the gaps widen to +$947.78, +$2,527.79 and +$4,594.49.
 
 **Kirkland is first on price, first on miles-adjusted price, and the only one of the four
 with ventilated seats.** That last point is not a tiebreaker, it is the brief: Maci's
-comfort filter ranked this car Puyallup's '23 Turbo of 21 and the other three carry no ventilated seats at
-all. Puyallup's red '21 Turbo is 9,179 miles further along AND $425 more AND a second owner — it loses on
+comfort filter ranked this car first of the twenty-one and the other three carry no ventilated
+seats at all. Puyallup's red '21 Turbo is 9,179 miles further along AND $425 more AND a second owner — it loses on
 every axis except the turbo and the Soul Red paint.
 
 ---
@@ -104,16 +104,16 @@ Mileage valued at $0.10/mi, model years at ~$1,000/yr at this age, Mazda CPO at 
 roughly 2030 from the original in-service date, plus a 12-month/12,000-mile bumper-to-bumper
 extension and a 160-point inspection).
 
-> **SUPERSEDED IN PART, Sat 9:45 AM.** The table above uses Kirkland the Kirkland GT Premium as a clean,
+> **SUPERSEDED IN PART, Sat 9:45 AM.** The table above uses the Kirkland GT Premium as a clean,
 > accident-free baseline. It is not one. The CARFAX that Hyundai of Kirkland ran on 8/11
 > and published on their own listing reports an **accident on 07/31/2021** at roughly 4,000
 > miles, no airbag deployment, no structural damage, no severity or repair record. The car
 > also carries **zero factory warranty** — in service 01/01/2021, so basic expired Jan 2024
 > and the 5-year powertrain expired 01/01/2026 by time. Both are document facts now.
 >
-> Two adjustments follow. the Kirkland GT Premium takes an accident discount of its own: we offered Auto 206
+> Two adjustments follow. The Kirkland car takes an accident discount of its own: we offered Auto 206
 > **$27,000 OTD** for a better-documented accident on a car with GT Premium verified and
-> 3,270 fewer miles, so the Kirkland GT Premium cannot rationally sit above that. And Puyallup's certified '23's −$800 trim penalty is
+> 3,270 fewer miles, so the Kirkland car cannot rationally sit above that. And the certified '23's −$800 trim penalty is
 > partly offset by being the only one of the four with warranty coverage left, which was
 > previously scored as a $1,500 CPO credit and is now closer to the full gap.
 >
@@ -204,7 +204,7 @@ Written $30,127.79 · told them ~$28,500 makes it competitive
   ask what a comparable extended service contract would cost bought separately on the
   Kirkland 2021. If the answer is under about $1,500, their premium is not justified.
 - What it gives up: ventilated seats, heated steering wheel, HUD, 360 camera. On the
-  comfort ranking that moved it from Puyallup's '23 Turbo to Lee Johnson's '22 Carbon of 21.
+  comfort ranking that moved it from first to seventh of the twenty-one.
 
 ### PUYALLUP · 2023 2.5 Turbo · stock YW29065 · VIN JM3KFBAY3P0289626
 Written $32,194.49 — **contains a $221.60 error**
