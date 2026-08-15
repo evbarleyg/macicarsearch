@@ -38,7 +38,11 @@ OTD = selling x 1.108  +  doc fee  +  license/government fees
 Tax is 10.8% and is charged on the **selling price only** — none of these four dealers
 taxed the doc fee, even though they could. Doc fee is $200 at both stores and both have
 said it does not move. License is an estimate: $500 Kirkland, $650 Puyallup on the two
-2021/2023 Carbons, $750 Puyallup on the Turbo.
+2021/2023 Carbons, $750 Puyallup on the Turbo. **CORRECTED Sat 2:00 PM: Puyallup's actual
+licence on the Turbo is about $350, not $750.** Their 1:57 PM worksheet reconciles exactly at
+$26,398 selling + tax on (selling less the $4,100 trade allowance) + $200 doc + ~$350 licence
+= $29,356. Every earlier OTD figure quoted on that car therefore carried about $400 of
+licence padding.
 
 Practical consequence, and the single most useful number to carry into a showroom:
 

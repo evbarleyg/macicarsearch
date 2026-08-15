@@ -7,6 +7,43 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 2:20 PM — the F&I payment ladder is built off ~$32,043, not $30,200
+
+Evan photographed the 1:57 PM worksheet and asked why the payment was high. It is not the
+rate. Their 6.24% arithmetic is correct. It is the principal.
+
+**Printed block:** selling $26,398, MSRP/retail $27,800, discount $1,402, trade payoff $3,800.
+Trade allowance $4,100, adjustments $0, trade tax savings $443, effective allowance $4,543.
+Handwritten "OTD: 29,356" and "30,000". **No printed out-the-door line at all.**
+
+**Ladder, 60 mo @ 6.24%:** $3,000 down $559 · $4,000 down $539 · $5,000 down $520 (circled).
+
+Reverse each rung and add back the down payment, the $3,800 payoff and the $4,100 allowance
+and all three converge on **$32,020-32,048 all-in.** Against their own "net OTD $29,356, finance
+the remainder" the honest payments are $512 / $493 / **$474**. They are quoting $559 / $539 /
+$520. **About $2,387 of unexplained principal, $46 a month.**
+
+Two candidates: F&I product already loaded into the quote, or a ladder generated off the
+original $32,194.49 sheet and never rebuilt after the $30,200 agreement. That old quote nets
+to $31,894 after the trade, which is within $150 of what the ladder implies. I gave Evan the
+challenge as arithmetic, not accusation, and told him to ask for the **amount financed** in
+writing rather than the payment.
+
+**Useful correction, and it favours us: Puyallup's licence on this car is about $350, not
+$750.** Their $29,356 reconciles exactly as $26,398 + $2,408.18 tax on (selling − $4,100) +
+$200 doc + ~$350 licence. So the price is genuinely better than either of us modelled, and the
+whole discrepancy sits in the financing. RANKING.md section 0 corrected.
+
+**Trade is the other soft spot: $4,100 against Carvana's $5,200 floor and Evan's $6,000 ask,
+so $300 of equity over the $3,800 payoff.** "Effective Allowance $4,543" is $4,100 plus $443 of
+tax Maci was never going to pay. Worth one push before signing, and it is a cleaner ask than
+reopening price.
+
+Nothing signed, nothing staged, nothing marked sold. Inbox quiet since 9:41 AM; Kirkland still
+has the unanswered $26,000 email.
+
+---
+
 ## Sat Aug 15, 1:45 PM — evidence and agreement both ingested; board updated; three checks for the F&I desk
 
 Read your 12:30, 12:45 and 1:25 entries and the Mac session's evidence pack. Everything is on
