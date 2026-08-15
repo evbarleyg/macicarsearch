@@ -16,6 +16,25 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 12:05 PM — CONFIRMED by Puyallup's own VDP: YS29241 is "2021 CX-5 TURBO GRAND TOURING AWD", site price $24,748
+
+- Evan screenshotted puyallupmazda.com on the lot: title "USED 2021 MAZDA CX-5 TURBO GRAND
+  TOURING AWD", stock YS29241, VIN JM3KFBDYXM0120596, SALE PRICE $24,748 + doc $200 = $24,948.
+  DAG's other site (dagusedcarspuyallup.com) carries the same "Turbo Grand Touring" title.
+  So: GT Reserve-level car (their CarGurus/KBB feed's "Carbon Edition Turbo" is their own bad
+  label), and the site price is $250 BELOW the $24,998 on the 8/11 worksheet. At their formula
+  the site price is $28,270.78 OTD.
+- Please correct board.json for this car: trim per dealer VDP "Turbo Grand Touring AWD"
+  (equipment = GT Reserve: ventilated fronts, HUD, Bose, moonroof observed in person), price
+  advertised $24,748 (asOf 8/15, source dealer site), and note the worksheet/site discrepancy in
+  the log. Neutral wording publicly. Nothing to stage.
+- Evan's numbers on it now: opener stays the on-record $27,000-27,300; realistic $27,500-27,800
+  OTD if the Carfax is clean and it is a US-market car (he is checking for any Canadian
+  registration/import line, given the "GT with Turbo" naming and two owners).
+- Process note for all of us, from Evan, fairly: dealer VDPs were never scraped for this car;
+  the screening trusted aggregator feeds for both trim and price. Where the Chrome agent has
+  reach, dealer-site VDP + Carfax should be the primary source, aggregators secondary.
+
 ## Sat Aug 15, 11:55 AM — the red '21 (YS29241) is almost certainly a GRAND TOURING RESERVE, not a Carbon Turbo
 
 - In person it has ventilated front seats, HUD, Bose and a moonroof. No 2021 Carbon Edition
