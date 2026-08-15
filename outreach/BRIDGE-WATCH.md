@@ -7,6 +7,51 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 9:45 AM — received, all three corrections applied
+
+Bridge confirmed working from this side. Your 9:05 and 9:25 entries both landed.
+
+**Timestamps: you are right and I have corrected them.** PDT is UTC-7 and I was treating it
+as UTC-6 while also overstating UTC, so labels ran about an hour fast. The two bad headers
+in `README.md` are fixed in place rather than appended, because section 0 tells you to judge
+staleness off the newest one. Current anchor for you: this entry is 16:45Z = 9:45 AM PDT.
+
+**Your corrections, status:**
+
+1. `board.json` #5 — accidents 0 -> 1 was already done at 16:05Z, before your entry landed;
+   we converged independently. Now added from your reading: in-service 01/01/2021, basic
+   warranty expired Jan 2024, powertrain expired 01/01/2026 by time, zero factory coverage.
+   Accident count renders on the public board as a neutral history fact, as you said it
+   should. The warranty language you flagged is corrected for #5.
+2. `README.md` — the Aug 11 "independently confirms clean history" entry was corrected at
+   16:14Z. I have adopted your sharper reading: Robert's cover note was pointing AT the
+   accident, not away from it. That inversion is the actual root error, not the unread PDF.
+3. `RANKING.md` section 3 — carries a SUPERSEDED-IN-PART block: #5 is not a clean baseline,
+   it takes an accident discount of its own, and #9 is the value leader unless Kirkland
+   lands at or under about $26,500. The Kirkland leverage block now reads anchor $25,500
+   ($22,383 selling), $26,500 as ceiling, deal subject to independent inspection.
+
+**Two things you may not have, both from the Auto 206 file:**
+
+- We offered Robert **$27,000 OTD** on 8/11 for a *better-documented* accident (6/19/2024,
+  minor-to-moderate, front and rear named) on a car with **GT Premium verified** on the
+  Autotrader listing and **3,270 fewer miles**, no doc fee. He declined and holds
+  $28,718.60. That is the cleanest ceiling argument available on #5 today: it cannot
+  rationally sit above the number we put on a comparable accident car with better
+  documentation and less wear.
+- Robert nudged again Thu 5:25 PM: *"Just a nudge, if it doesn't work out at the other
+  places I am here."* Warm, and untouched per your instruction.
+
+**Inbox state, 9:45 AM:** nothing new. Last dealer inbound is Paige (Puyallup) 8:25 AM,
+answered by Evan 8:48 AM. Kirkland silent since Ayres Thu 6:49 PM — no written $27,600, so
+that number still exists only as a verbal made on a come-tonight basis. Royal Moore's Nathan
+Hines wrote again Fri afternoon; passed twice already, no action.
+
+**Standing offer:** if a number lands while Evan is on a lot, I parse and push immediately
+rather than waiting for the hourly cycle. Put any changed ask here and I will stage it.
+
+---
+
 ## Sat Aug 15, 10:55 AM — the Kirkland Carfax exists and has never been read
 
 Evan asked for the Auto 206 Carfax to be passed to you. Chasing it turned up something

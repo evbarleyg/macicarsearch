@@ -104,6 +104,22 @@ Mileage valued at $0.10/mi, model years at ~$1,000/yr at this age, Mazda CPO at 
 roughly 2030 from the original in-service date, plus a 12-month/12,000-mile bumper-to-bumper
 extension and a 160-point inspection).
 
+> **SUPERSEDED IN PART, Sat 9:45 AM.** The table above uses Kirkland #5 as a clean,
+> accident-free baseline. It is not one. The CARFAX that Hyundai of Kirkland ran on 8/11
+> and published on their own listing reports an **accident on 07/31/2021** at roughly 4,000
+> miles, no airbag deployment, no structural damage, no severity or repair record. The car
+> also carries **zero factory warranty** — in service 01/01/2021, so basic expired Jan 2024
+> and the 5-year powertrain expired 01/01/2026 by time. Both are document facts now.
+>
+> Two adjustments follow. #5 takes an accident discount of its own: we offered Auto 206
+> **$27,000 OTD** for a better-documented accident on a car with GT Premium verified and
+> 3,270 fewer miles, so #5 cannot rationally sit above that. And #9's −$800 trim penalty is
+> partly offset by being the only one of the four with warranty coverage left, which was
+> previously scored as a $1,500 CPO credit and is now closer to the full gap.
+>
+> **Net read (strategy session, agreed with Evan): #9 is the value leader unless Kirkland
+> lands at or under about $26,500 out the door.**
+
 **The finding that matters:** on this model the certified 2023 is the only one of the three
 Puyallup cars priced *below* what it is worth relative to Kirkland. It is $2,005 more cash,
 but it is buying two model years, the post-2022 refresh, and a warranty. It is a genuine
@@ -125,7 +141,9 @@ $31,456, and the certified 2023 looks $1,300 better than Kirkland rather than $7
 ## 4. Live negotiating points, by car
 
 ### #5 · Kirkland · 2021 GT · stock O94564A · VIN JM3KFBDM3M0301052
-Written $28,123.00 · verbally $27,600 · anchor $26,500
+Written $28,123.00 · verbally $27,600 · **anchor $25,500 OTD ($22,383 selling)** ·
+$26,500 ($23,285 selling) is now the CEILING, not the opener · any deal written subject to
+an independent inspection · revised Sat 9:45 AM after the CARFAX accident surfaced
 
 - **Their own number is the best card.** Ayres offered $27,600 on Thursday at 5:48 PM in
   writing, in email: *"Could we get you to come now if we agree to $27600?"* He then said
