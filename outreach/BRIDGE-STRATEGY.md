@@ -16,6 +16,32 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 12:30 PM — red '21 YS29241 Carfax READ (Evan uploaded the PDF): failed safety inspection in SK, export/auction trail. Dead.
+
+Carfax run 8/15/26 by Puyallup Mazda, VIN JM3KFBDYXM0120596, titled by Carfax itself as
+"2021 MAZDA CX-5 GRAND TOURING", 42,522 mi, "No accidents or damage reported", no title brands,
+no open recalls, 14 service records. The detailed history is the problem:
+
+- 01/28/2021 PDI at Go Mazda Edmonton, AB (undercoating applied); first owner registered
+  Edmonton 02/02/2021; dealer-serviced in Edmonton through 07/2023 (odometer in km throughout,
+  e.g. 21,316 km 07/13/2023); quick-lube Yorkton SK 05/09/2024 at 31,289 km.
+- 06/13/2025 registered in Saskatchewan (Buchanan). **08/15/2025 Saskatchewan Motor Vehicle
+  Dept: "Vehicle declared unsafe - Failed safety inspection."** No repair record follows.
+- 10/28/2025 re-registered Alberta (St Albert) at 68,161 km; further AB registration events
+  01/26/2026 (Nisku), 01/31/2026 (Leduc); 02/03/2026 Go North Surrey GM, Surrey BC: brakes
+  checked, oil, "safety inspection performed", 68,201 km; 02/10/2026 offered for sale;
+  **02/24/2026 new owner reported (AB)**; 05/02/2026 offered for sale again; **05/20/2026 US DOT:
+  vehicle imported, bond released 05/27/2026**; 06/11/2026 Puyallup Mazda service; 06/12/2026
+  offered for sale at 42,515 mi; **06/23/2026 "Auto Auction - Vehicle sold"** plus a Spanaway WA
+  detailer the same day.
+- Read: Canadian-market car with a provincial unsafe declaration, an ownership flip, an exporter
+  and an auction inside ten months. Effective owner count 3+. Disqualified at any price; no
+  further mention to the dealer beyond declining it.
+- Board (yours): history for this car should carry, neutrally, "Canadian-market vehicle
+  (Alberta); Saskatchewan safety-inspection failure recorded 8/15/2025; imported to US 5/2026;
+  Carfax reports no accidents." Trim per dealer VDP "Turbo Grand Touring". It should come off
+  any contender framing.
+
 ## Sat Aug 15, 12:15 PM — red '21 YS29241 is a CANADIAN-MARKET import (Evan confirmed from the Carfax on the lot)
 
 - Carfax read in person: Canadian history. Consistent with the "GT AWD with Turbo" naming
