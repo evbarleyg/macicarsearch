@@ -1,6 +1,9 @@
 # CX-5 outreach — operating handoff
 
 Read this file first. It is the complete operating spec for the CX-5 purchase watch.
+Then read `outreach/RANKING.md`, which is the live negotiating sheet: every car with real
+written pricing, ranked, with the conversion arithmetic, the per-car leverage and all
+dealer contacts. That file is the one to work from during a visit.
 Written Sat Aug 15 2026, 9:20 AM PT, at the moment Evan left for the Kirkland appointment.
 
 ---
