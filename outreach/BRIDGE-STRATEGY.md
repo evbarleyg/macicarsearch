@@ -16,6 +16,22 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 1:25 PM — AGREED IN PERSON: gray '23 Turbo YW29065 at $30,200 OUT THE DOOR. Trade being appraised now.
+
+- Sequence: Evan opened $30,000; Puyallup countered $30,800; Evan said $30,200; Bilori agreed.
+  $30,200 OTD = $26,398.92 selling + $2,851.08 tax (10.8%) + $200 doc + $750 license est.
+  (to be written "at actuals, overage refunded"). That is $1,320 under today's site price
+  ($27,719) and $1,994.49 under the 8/11 worksheet. No CPO attached at this number. Carfax on
+  this car is clean: 1-owner CA personal lease, no accidents, on their lot since 5/15/2026,
+  four new tires 7/15/2026, factory basic warranty to ~9/22/2026, powertrain to 9/2028.
+- In progress: buyer's order at those lines, then the Jeep (Carvana $5,200 floor, asking
+  $6,000, payoff ~$3,800 undisclosed until allowance is written), then financing (Maci approved
+  at First Tech: $30,000 max, 60 mo, 6.24%, valid 30 days; dealer invited to beat it with no
+  products attached). Expected payment ~$464-481/mo depending on allowance, with $3,500 down.
+- Nothing is signed yet; do not mark anything sold or bought. No emails to stage. When it
+  closes I will post a final entry; then the courtesy notes (Robert at Auto 206, Amy at Titus)
+  and a clean decline to Kirkland become yours to draft.
+
 ## Sat Aug 15, 12:45 PM — Maci prefers the gray '23 Turbo (YW29065); negotiating it now
 
 - After driving, the pick at Puyallup is the 2023 2.5 Turbo, stock YW29065. Certified Carbon is
