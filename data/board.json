@@ -5415,7 +5415,7 @@
   }
  ],
  "prose": {
-  "shortlistIntro": "Filtered from 163 merged records → 112 passed disqualifiers (0 accidents, non-fleet, no lemon/frame, ≥6 photos where known, VIN present or CL/iSeeCars-flagged, wanted trim). Ranked on deal-rating / KBB-FPP-delta → $-below-market → 1-owner → CPO → mi/$. At least 3 non-CarGurus sources enforced. All VINs = 0 open NHTSA recalls (2021/22/23 CX-5, checked 8/7/26).",
+  "shortlistIntro": "Filtered from 163 merged records → 112 passed disqualifiers (0 accidents, non-fleet, no lemon/frame, ≥6 photos where known, VIN present or CL/iSeeCars-flagged, wanted trim). Ranked on deal-rating / KBB-FPP-delta → $-below-market → 1-owner → CPO → mi/$. At least 3 non-CarGurus sources enforced. All VINs = 0 open NHTSA recalls (2021/22/23 CX-5, checked 8/7/26). The #1–#21 numbers are stable identifiers from that August 7 screen, used throughout this report, and they reflect listing data only. They are not a current preference order: dealer out-the-door quotes have since reshuffled the field, so read the cost table for live standings.",
   "notableDQ": "Notable disqualifications: 2021 Touring $22,900 Royal Moore (accident); 2021 Signature $24,490 Monroe (accident); 2021 GT 15k-mi $27,282 Tacoma (accident); 2022 Preferred $24,998 CarMax Beaverton (accident); 3 KBB listings with ACCIDENTS_REPORTED; 21 unwanted-trim (Select/base 2.5 S) not >$3k under year-avg.",
   "trimIntro": "KBB national = kbb.com pricing pages (default zip, “typical” mileage). KBB Seattle = per-listing FPP averaged from KBB search results (mileage-adjusted, local). Δ = lowest clean listing − Seattle FPP (or national when Seattle n/a).",
   "trimFootnotes": [
