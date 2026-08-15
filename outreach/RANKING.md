@@ -42,10 +42,10 @@ All four are in writing, all four are itemized, all four are zero-add-on sheets.
 
 | Rank | Car | Where | Miles | Written OTD | vs. Kirkland | Selling | Doc | License | Tax |
 |---|---|---|---|---|---|---|---|---|---|
-| **1** | **#5 · 2021 Grand Touring AWD** (GT Premium per KBB) | Hyundai/Ford of Kirkland | 33,336 | **$28,123.00** | — | $24,750 | $200 | $500 | $2,673.00 |
-| 2 | #6 · 2021 Carbon Edition **Turbo** AWD | Puyallup Mazda | 42,515 | $28,547.78 | +$424.78 | $24,998 | $200 | $650 | $2,699.78 |
-| 3 | #9 · 2023 Carbon Edition AWD, **Mazda CPO** | Puyallup Mazda | 33,006 | $30,127.79 | +$2,004.79 | $26,424 | $200 | $650 | $2,853.79 |
-| 4 | #1 · 2023 2.5 **Turbo** AWD | Puyallup Mazda | 27,990 | $32,194.49 | +$4,071.49 | $28,199 | $200 | $750 | $3,045.49 |
+| **1** | **Kirkland · 2021 Grand Touring + GT Premium** | Hyundai/Ford of Kirkland | 33,336 | **$28,123.00** | — | $24,750 | $200 | $500 | $2,673.00 |
+| 2 | Puyallup · red '21 Carbon Turbo | Puyallup Mazda | 42,515 | $28,547.78 | +$424.78 | $24,998 | $200 | $650 | $2,699.78 |
+| 3 | Puyallup · certified '23 Carbon | Puyallup Mazda | 33,006 | $30,127.79 | +$2,004.79 | $26,424 | $200 | $650 | $2,853.79 |
+| 4 | Puyallup · '23 Turbo | Puyallup Mazda | 27,990 | $32,194.49 | +$4,071.49 | $28,199 | $200 | $750 | $3,045.49 |
 
 Kirkland also has **$27,600 verbally on the table** (Ayres Horne, Thu 5:48 PM), which
 was made on a come-in-tonight basis and has never been restated as good for Saturday.
@@ -53,8 +53,8 @@ Against that number the gaps widen to +$947.78, +$2,527.79 and +$4,594.49.
 
 **Kirkland is first on price, first on miles-adjusted price, and the only one of the four
 with ventilated seats.** That last point is not a tiebreaker, it is the brief: Maci's
-comfort filter ranked this car #1 of 21 and the other three carry no ventilated seats at
-all. #6 is 9,179 miles further along AND $425 more AND a second owner — it loses on
+comfort filter ranked this car Puyallup's '23 Turbo of 21 and the other three carry no ventilated seats at
+all. Puyallup's red '21 Turbo is 9,179 miles further along AND $425 more AND a second owner — it loses on
 every axis except the turbo and the Soul Red paint.
 
 ---
@@ -65,7 +65,7 @@ The conversion table. Read down the column for the car you are standing in front
 
 **Selling price required to reach a given out-the-door:**
 
-| Target OTD | #5 Kirkland | #6 Carbon Turbo | #9 CPO 2023 | #1 2023 Turbo |
+| Target OTD | Kirkland GT Prem | red '21 Turbo | certified '23 | '23 Turbo |
 |---|---|---|---|---|
 | $28,123 (match Kirkland's written) | $24,750 *(at it)* | $24,615 **(-$383)** | $24,615 (-$1,809) | $24,524 (-$3,675) |
 | $27,600 (match Kirkland's verbal) | $24,278 (-$472) | $24,143 (-$855) | $24,143 (-$2,281) | $24,052 (-$4,147) |
@@ -74,13 +74,13 @@ The conversion table. Read down the column for the car you are standing in front
 | $26,000 (stretch) | $22,834 (-$1,916) | $22,699 (-$2,299) | $22,699 (-$3,725) | $22,608 (-$5,591) |
 
 Parenthetical is the discount off their current selling price. As percentages of selling,
-the $26,500 anchor asks for **5.9% at Kirkland, 7.4% on #6, 12.4% on #9, 18.2% on #1.**
+the $26,500 anchor asks for **5.9% at Kirkland, 7.4% on Puyallup's red '21 Turbo, 12.4% on Puyallup's certified '23, 18.2% on Puyallup's '23 Turbo.**
 
 That spread is the whole story. A 6% move on a car a dealer has had for a couple of weeks
-is an ordinary Saturday. An 18% move is not going to happen, which is why #1 is not a real
+is an ordinary Saturday. An 18% move is not going to happen, which is why Puyallup's '23 Turbo is not a real
 option no matter how hard Paige pushes it.
 
-Note the quirk worth knowing: **#6 and #9 have identical doc and license, so any OTD
+Note the quirk worth knowing: **Puyallup's red '21 Turbo and Puyallup's certified '23 have identical doc and license, so any OTD
 target maps to the exact same selling price on both.** If Puyallup will write $23,150 on
 the certified 2023, they have implicitly told you the Carbon Turbo is available there too.
 
@@ -95,40 +95,43 @@ fact, this is the interpretation.**
 
 | Car | Adjustments | Net | Fair OTD | Asking | Verdict |
 |---|---|---|---|---|---|
-| #6 Carbon Turbo | +9,179 mi (−$918) · turbo (+$1,000) · 2 owners (−$300) · no ventilated seats (−$600) | **−$818** | $27,305 | $28,547.78 | **overpriced by $1,243** |
-| #9 CPO 2023 | −330 mi (+$33) · 2 model years, post-refresh (+$2,000) · Mazda CPO (+$1,500) · no ventilated seats, no HUD, no 360 cam (−$800) | **+$2,733** | $30,856 | $30,127.79 | **underpriced by $728** |
-| #1 2023 Turbo | −5,346 mi (+$535) · 2 model years (+$2,000) · turbo (+$1,000) · no ventilated seats (−$300) | **+$3,235** | $31,358 | $32,194.49 | overpriced by $836 |
+| red '21 Turbo | +9,179 mi (−$918) · turbo (+$1,000) · 2 owners (−$300) · no ventilated seats (−$600) | **−$818** | $27,305 | $28,547.78 | **overpriced by $1,243** |
+| certified '23 | −330 mi (+$33) · 2 model years, post-refresh (+$2,000) · Mazda CPO (+$1,500) · no ventilated seats, no HUD, no 360 cam (−$800) | **+$2,733** | $30,856 | $30,127.79 | **underpriced by $728** |
+| '23 Turbo | −5,346 mi (+$535) · 2 model years (+$2,000) · turbo (+$1,000) · no ventilated seats (−$300) | **+$3,235** | $31,358 | $32,194.49 | overpriced by $836 |
 
 Mileage valued at $0.10/mi, model years at ~$1,000/yr at this age, Mazda CPO at $1,500
 (comparable standalone coverage generally prices $1,500–2,500; CPO here runs powertrain to
 roughly 2030 from the original in-service date, plus a 12-month/12,000-mile bumper-to-bumper
 extension and a 160-point inspection).
 
-> **SUPERSEDED IN PART, Sat 9:45 AM.** The table above uses Kirkland #5 as a clean,
+> **SUPERSEDED IN PART, Sat 9:45 AM.** The table above uses Kirkland the Kirkland GT Premium as a clean,
 > accident-free baseline. It is not one. The CARFAX that Hyundai of Kirkland ran on 8/11
 > and published on their own listing reports an **accident on 07/31/2021** at roughly 4,000
 > miles, no airbag deployment, no structural damage, no severity or repair record. The car
 > also carries **zero factory warranty** — in service 01/01/2021, so basic expired Jan 2024
 > and the 5-year powertrain expired 01/01/2026 by time. Both are document facts now.
 >
-> Two adjustments follow. #5 takes an accident discount of its own: we offered Auto 206
+> Two adjustments follow. the Kirkland GT Premium takes an accident discount of its own: we offered Auto 206
 > **$27,000 OTD** for a better-documented accident on a car with GT Premium verified and
-> 3,270 fewer miles, so #5 cannot rationally sit above that. And #9's −$800 trim penalty is
+> 3,270 fewer miles, so the Kirkland GT Premium cannot rationally sit above that. And Puyallup's certified '23's −$800 trim penalty is
 > partly offset by being the only one of the four with warranty coverage left, which was
 > previously scored as a $1,500 CPO credit and is now closer to the full gap.
 >
-> **Net read (strategy session, agreed with Evan): #9 is the value leader unless Kirkland
+> **Net read (strategy session, agreed with Evan): Puyallup's certified '23 is the value leader unless Kirkland
 > lands at or under about $26,500 out the door.**
 
 **The finding that matters:** on this model the certified 2023 is the only one of the three
 Puyallup cars priced *below* what it is worth relative to Kirkland. It is $2,005 more cash,
 but it is buying two model years, the post-2022 refresh, and a warranty. It is a genuine
-second stop. #6 and #1 are not — they are asking above their relative worth.
+second stop. Puyallup's red '21 Turbo and Puyallup's '23 Turbo are not — they are asking above their relative worth.
 
-**The finding that could flip it:** the −$800 trim penalty on #9 assumes Kirkland's GT
-Premium package is real. **It has never been physically verified** — it comes from a KBB
-listing field and Ayres's Thursday promise to pull the window sticker, which never arrived.
-If the sticker shows plain GT, the penalty drops to about −$200, #9's fair price rises to
+**RESOLVED Sat 9:35 AM:** the −$800 trim penalty assumed Kirkland's GT Premium package was
+real. **It is.** The dealer window sheet was read in person and lists ventilated front seats,
+heated rear seats, heated steering wheel, Active Driving Display, power folding mirrors and
+wiper de-icer. Rear camera only, which is correct for a 2021 Grand Touring. So the penalty
+stands at the full −$800 and the Kirkland car keeps its comfort lead. It is the only car in
+this comparison with ventilated seats.
+If the sticker shows plain GT, the penalty drops to about −$200, Puyallup's certified '23's fair price rises to
 $31,456, and the certified 2023 looks $1,300 better than Kirkland rather than $728.
 
 > **Check the window sticker or the glovebox build sheet before signing anything at
@@ -140,7 +143,7 @@ $31,456, and the certified 2023 looks $1,300 better than Kirkland rather than $7
 
 ## 4. Live negotiating points, by car
 
-### #5 · Kirkland · 2021 GT · stock O94564A · VIN JM3KFBDM3M0301052
+### KIRKLAND · 2021 Grand Touring + GT Premium · stock O94564A · VIN JM3KFBDM3M0301052
 Written $28,123.00 · verbally $27,600 · **anchor $25,500 OTD ($22,383 selling)** ·
 $26,500 ($23,285 selling) is now the CEILING, not the opener · any deal written subject to
 an independent inspection · revised Sat 9:45 AM after the CARFAX accident surfaced
@@ -167,7 +170,7 @@ an independent inspection · revised Sat 9:45 AM after the CARFAX accident surfa
   cliff. You are negotiating for margin, not for viability. That is a comfortable place to
   push from and it is worth being visibly relaxed about it.
 
-### #6 · Puyallup · 2021 Carbon Edition Turbo · stock YS29241 · VIN JM3KFBDYXM0120596
+### PUYALLUP · red 2021 Carbon Edition Turbo · stock YS29241 · VIN JM3KFBDYXM0120596
 Written $28,547.78 · asked $27,000–27,300 · unanswered
 
 - **They have refused to price this car four separate times.** Bilori Hernandez was asked
@@ -185,7 +188,7 @@ Written $28,547.78 · asked $27,000–27,300 · unanswered
   their listing data. Make them confirm it on the Carfax in person.
 - $27,000 OTD = $23,601 selling. $26,500 = $23,150.
 
-### #9 · Puyallup · 2023 Carbon Edition, Mazda CPO · stock M260362A · VIN JM3KFBCMXP0288130
+### PUYALLUP · certified 2023 Carbon Edition · stock M260362A · VIN JM3KFBCMXP0288130
 Written $30,127.79 · told them ~$28,500 makes it competitive
 
 - **They have already moved $800 without being asked** — advertised $27,499, quoted
@@ -201,9 +204,9 @@ Written $30,127.79 · told them ~$28,500 makes it competitive
   ask what a comparable extended service contract would cost bought separately on the
   Kirkland 2021. If the answer is under about $1,500, their premium is not justified.
 - What it gives up: ventilated seats, heated steering wheel, HUD, 360 camera. On the
-  comfort ranking that moved it from #1 to #7 of 21.
+  comfort ranking that moved it from Puyallup's '23 Turbo to Lee Johnson's '22 Carbon of 21.
 
-### #1 · Puyallup · 2023 2.5 Turbo · stock YW29065 · VIN JM3KFBAY3P0289626
+### PUYALLUP · 2023 2.5 Turbo · stock YW29065 · VIN JM3KFBAY3P0289626
 Written $32,194.49 — **contains a $221.60 error**
 
 - **They double-charged the doc fee.** The worksheet priced from $28,199, which is the
@@ -211,7 +214,7 @@ Written $32,194.49 — **contains a $221.60 error**
   top. Puyallup's own website and KBB both show **$27,999**. Corrected, the sheet is
   $31,972.89. It is $221.60 of free money and, more usefully, it is a checkable factual
   error on their paperwork — the kind that resets who is being careful in the conversation.
-- Confirm they priced #6 correctly off $24,998 + $200 while getting this one wrong. Same
+- Confirm they priced Puyallup's red '21 Turbo correctly off $24,998 + $200 while getting this one wrong. Same
   store, same week, inconsistent method.
 - Even corrected it is **$3,850 over Kirkland** and needs an 18% cut to reach the anchor.
   This is the car three different reps keep steering toward, which tells you what it is
@@ -225,10 +228,10 @@ Written $32,194.49 — **contains a $221.60 error**
 
 | Car | Where | Miles | Written OTD | Status |
 |---|---|---|---|---|
-| #13 · 2022 Premium Plus AWD | Titus-Will, Olympia | 43,640 | $31,000 → **$30,500 confirmed** | Bowed out gracefully Fri 12:07 PM. Amy Washington: *"I am all in at the $30,500 you requested. If those other ones don't work out you know where to find us."* Real standby. **Has ventilated seats + HUD.** 2.5h round trip. |
-| #14 · 2023 Premium AWD | Rodland Toyota, Everett | 17,505 | $31,957.24 | Declined to negotiate by email. Phone ask of $29,000 made and unanswered. Ball in their court, no further contact per Evan. Lowest miles on the board by 10k. |
-| #17 · 2021 GT + GT Premium | Auto 206, Kent | 30,066 | $28,718.60 | Cleanest fee sheet seen — **no doc fee at all**. Offer expired Wed 7 PM. Disqualified on a 6/2024 rear-end accident on the Carfax. Robert Dwyer still warm; door reopens only at $27,000 all-in with a clean independent PPI, which he declined. |
-| #15 · 2023 Premium AWD | CarMax Renton | 31,166 | **≈$31,872** | No-haggle benchmark. **$27,998 is the pre-tax price, not the OTD** — all-in is $27,998 × 1.108 + $200 + $650. Kirkland is roughly **$3,750 better** than CarMax. |
+| Titus-Will · 2022 Premium Plus | Titus-Will, Olympia | 43,640 | $31,000 → **$30,500 confirmed** | Bowed out gracefully Fri 12:07 PM. Amy Washington: *"I am all in at the $30,500 you requested. If those other ones don't work out you know where to find us."* Real standby. **Has ventilated seats + HUD.** 2.5h round trip. |
+| Rodland · 2023 Premium | Rodland Toyota, Everett | 17,505 | $31,957.24 | Declined to negotiate by email. Phone ask of $29,000 made and unanswered. Ball in their court, no further contact per Evan. Lowest miles on the board by 10k. |
+| Auto 206 · 2021 GT + GT Premium | Auto 206, Kent | 30,066 | $28,718.60 | Cleanest fee sheet seen — **no doc fee at all**. Offer expired Wed 7 PM. Disqualified on a 6/2024 rear-end accident on the Carfax. Robert Dwyer still warm; door reopens only at $27,000 all-in with a clean independent PPI, which he declined. |
+| CarMax · 2023 Premium | CarMax Renton | 31,166 | **≈$31,872** | No-haggle benchmark. **$27,998 is the pre-tax price, not the OTD** — all-in is $27,998 × 1.108 + $200 + $650. Kirkland is roughly **$3,750 better** than CarMax. |
 
 The CarMax line is worth carrying into both stores. It is the one price in the market
 nobody argues about, it is public, and it makes Kirkland's written $28,123 look like what
@@ -251,16 +254,16 @@ it is. Earlier versions of this log had it wrong in the other direction; it is c
 
 ### Puyallup Mazda — **stop 2**
 - 608 River Rd, Puyallup, WA 98371 · **253-845-1766**
-- **Bilori Hernandez** — bilorih@dagpuyallup.com — the main thread, priced #9, will not price #6
+- **Bilori Hernandez** — bilorih@dagpuyallup.com — the main thread, priced Puyallup's certified '23, will not price Puyallup's red '21 Turbo
 - **Paige** — paige@dagpuyallup.com — "Shopping Assistant", direct line 253-845-1766,
   surfaced Sat 8:25 AM pushing the 2023 Turbo. Offered 11:00 AM today or noon Sunday.
 - A third rep has also touched the account. Three people, three different cars, no number
   on the one that was actually asked about.
 - Puyallup vehicle tax rate 10.8% · doc fee $200
 - No published email anywhere on their site; everything came through the CRM.
-- Listings: #6 https://www.cargurus.com/Cars/listing/449972241 ·
-  #9 https://www.cargurus.com/Cars/listing/450917825 ·
-  #1 https://www.cargurus.com/Cars/listing/448185375
+- Listings: Puyallup's red '21 Turbo https://www.cargurus.com/Cars/listing/449972241 ·
+  Puyallup's certified '23 https://www.cargurus.com/Cars/listing/450917825 ·
+  Puyallup's '23 Turbo https://www.cargurus.com/Cars/listing/448185375
 
 ### Standbys
 - **Titus-Will, Olympia** — 2425 Carriage Loop SW, Olympia, WA 98502 · tax 10.2%, doc $200

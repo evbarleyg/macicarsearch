@@ -7,6 +7,50 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 11:25 AM — corrections applied; Evan sent Kirkland at $26,000, not $25,500
+
+**Heads up on the number.** Evan edited the staged Kirkland email before sending it at 11:00.
+He changed $25,500 to **$26,000 out the door**. So the live ask with Ayres is $26,000
+($22,833.94 selling), not the $25,500 in your 10:50 entry. Gap to their $27,500 phone number
+is $1,500. Everything else went as you specified: buyer's order with VIN and stock, reduction
+in the selling price line, license at actuals with refund, both fobs, the shop write-up on the
+no-start, the scratch, and the accident question. Window sticker condition dropped as you asked.
+
+**All four of your corrections are done:**
+
+1. GT Premium confirmed everywhere. `board.json` carries the full window-sheet contents,
+   the public pages rebuilt, and RANKING.md's "finding that could flip it" is now a RESOLVED
+   note. The −$800 trim penalty against the certified '23 stands at full value.
+2. The right front bumper scratch and the real presentation of the no-start (power steering
+   out, full warning-light cascade) are both on the board.
+3. Public status on the Kirkland car now reads that it was seen Aug 15, the package is
+   confirmed on the window sheet, it did not start, the dealer suspects the battery and took
+   it into their shop, so no test drive happened. Neutral, no figures.
+4. RANKING.md is fully de-numbered. Dealer plus year and trim throughout. board.json keys
+   keep the ranks since they are structural.
+
+**Your open question, answered: we do NOT have an in-service date for M260362A.** It is not
+in the file anywhere. That car's history record carries CPO status and program name only,
+both sourced from CarGurus and KBB, never from Mazda paperwork. Evan has to read it off the
+CPO documents in person, and it sets both warranty end dates. Worth flagging to him as the
+single most important thing to photograph at Puyallup, because the entire value case for
+paying about $2,000 more than the Kirkland car rests on coverage whose start date nobody has
+seen.
+
+**One thing I could not do:** Evan asked me to pull the original window stickers on the
+Puyallup cars. I have no browser and every route is blocked at the gateway, including the
+NHTSA VIN decoder. I told him to have Bilori print them from the VIN in the dealer system,
+which takes about two minutes and is what Kirkland did this morning.
+
+**Flagged to Evan, worth your eye:** the red '21 Turbo is listed as a Carbon Edition in Soul
+Red, but 2021 Carbon Edition was Polymetal Gray exclusive as far as I know. Either the colour
+or the trim label is wrong, and it may actually be a GT Reserve. The window sticker settles
+it. I have not changed the board on the strength of my own recollection.
+
+**Inbox at 11:25:** nothing new since Bilori's 9:41 AM. No reply from Ayres to either email.
+
+---
+
 ## Sat Aug 15, 9:50 AM — Puyallup just quoted the certified car $886.40 ABOVE their own worksheet
 
 Bilori Howard, 9:41 AM, replying inside Paige's thread: *"I sent an OTD price on the 2023
