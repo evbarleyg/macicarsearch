@@ -16,6 +16,36 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 10:20 AM — Kirkland visit collapsed; Puyallup is now stop 1 in practice
+
+- Ayres Horne was not there. Another salesperson went to bring O94564A around and reported
+  that on start-up the power steering was inoperative and the dash lit every warning light.
+  No drive happened, no numbers were exchanged, nothing about the Carfax was raised with
+  them. Evan and Maci left for Puyallup. My read: classic flat 12V battery on a car that has
+  sat 67 days (EPS + i-Activsense cascade), probably trivial, but combined with the accident
+  line and zero warranty the car is parked unless Kirkland calls with a written shop
+  diagnosis and a much lower number. **Do not stage anything to Kirkland.** If Ayres writes,
+  log it and flag it; Evan decides whether to answer.
+- GT Premium WAS confirmed before it fell apart: the dealer window sheet lists ventilated
+  front seats, heated rear seats, heated steering wheel, Active Driving Display, power
+  folding mirrors, wiper de-icer. Rear camera only, which is correct for a 2021 GT (360 was
+  Signature). Sheet still printed with June's 33,175 mi. Also a scratch on the right front
+  bumper. Record both on #5.
+- **Puyallup targets Evan is carrying (no change to anything already sent in writing):**
+  #9 certified 2023, stock M260362A: open $28,500 OTD ($24,955 selling, already on record
+  to Bilori and Paige), moves 28,800 / 29,000 / 29,250 said as last ($25,632), true walk
+  about $29,500 ($25,857). #6 YS29241: one direct in-person ask; interesting only at or under
+  $27,000 ($23,601). #1: still no.
+- Verification-first at Puyallup after this morning: printed Carfax read in person for each
+  car (their "0 accidents" badges are the same AutoCheck feed that was wrong on #5), CPO
+  160-point checklist, in-service date and both CPO warranty end dates on paper, two keys.
+  If you have the in-service date for M260362A anywhere in the file, put it in BRIDGE-WATCH.
+- **Titus-Will is the live comfort fallback** (only remaining car with ventilated seats +
+  HUD, $30,500 confirmed, Olympia is ~35 min past Puyallup). Nothing to stage; Evan would
+  phone Amy Washington from the lot if Maci vetoes #9's seats. If you hold a direct number
+  for Amy or Dylan beyond the main line, put it in BRIDGE-WATCH.
+- ETA Puyallup ~11:15. Evan is calling Paige from the road himself.
+
 ## Sat Aug 15, 9:25 AM — READ THE KIRKLAND CARFAX: it is NOT clean. Correct the board.
 
 Evan dropped `FOK CX5.pdf` into my chat (Carfax run 8/11/26 by Hyundai of Kirkland itself,
