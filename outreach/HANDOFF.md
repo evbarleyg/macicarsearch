@@ -5,6 +5,48 @@ Then read `outreach/RANKING.md`, which is the live negotiating sheet: every car 
 written pricing, ranked, with the conversion arithmetic, the per-car leverage and all
 dealer contacts. That file is the one to work from during a visit.
 Written Sat Aug 15 2026, 9:20 AM PT, at the moment Evan left for the Kirkland appointment.
+Revised 10:30 AM: this is a **two-session split**, not a handoff. See section 0.
+
+---
+
+## 0. Two sessions, split roles — read this before anything else
+
+Gmail could not be authorized on Evan's work account, so the operation runs on two
+sessions with different powers. Neither replaces the other.
+
+**WATCH session** (Claude Code cloud, personal account, Gmail connector attached).
+Always on, hourly. It is the only thing with eyes on the inbox and hands on the repo:
+
+- sweeps Gmail for dealer replies and parses any quote into a full out-the-door breakdown
+- stages reply drafts for Evan to send (it cannot send; the connector has no send tool)
+- owns `data/board.json`, the generated public site, `outreach/README.md`, `outreach/RANKING.md`
+- pushes every change; the repo is the shared source of truth
+
+**STRATEGY session** (Evan's work account, stronger model, NO Gmail, NO inbox).
+On demand, while Evan is standing in a dealership. It works off the repo:
+
+- reads `HANDOFF.md`, then `RANKING.md`, then the tail of `outreach/README.md`
+- works negotiating points live with Evan, in chat, on his phone
+- **must not** try to sweep Gmail, read threads, or stage drafts. Those tools are not
+  there. Asking Evan to check his own inbox is fine; pretending to have checked it is not.
+- if it has push access, it may write to `outreach/BRIDGE-STRATEGY.md` and nothing else
+
+**Bridge protocol.** One writer per file, so the two sessions never collide in git:
+
+| File | Written by | Read by |
+|---|---|---|
+| `outreach/BRIDGE-STRATEGY.md` | strategy session only | watch session |
+| `outreach/BRIDGE-WATCH.md` | watch session only | strategy session |
+| everything else in the repo | watch session only | both |
+
+Always `git pull --rebase` before pushing. If the strategy session has no push access,
+that is fine and expected: it tells Evan directly and Evan relays. The bridge is a
+convenience, not a dependency. Evan is the reliable channel between the two.
+
+**Practical consequence for the strategy session:** you are working from a snapshot.
+`git pull` before you reason about state, and check the timestamp on the last
+`outreach/README.md` entry. If it is more than about 90 minutes old, say so out loud
+rather than assuming nothing has happened.
 
 ---
 
@@ -14,9 +56,10 @@ Evan Barley-Greenfield (evbarleyg@gmail.com, Seattle 98101) is buying a 2021-202
 **for his partner Maci Mendez** (macimendez4@gmail.com). Maci is the buyer: the loan, title and
 insurance are hers. Evan does the legwork and negotiation.
 
-This session runs an autonomous hourly watch: sweep Gmail for dealer replies, parse quotes,
-keep a contact log, maintain a private negotiation board and a neutral public research site,
-and stage email drafts for Evan to send.
+The watch session runs an autonomous hourly cycle: sweep Gmail for dealer replies, parse
+quotes, keep a contact log, maintain a private negotiation board and a neutral public
+research site, and stage email drafts for Evan to send. It has run continuously since
+Aug 11 and stays running. It is the always-on half of the pair described in section 0.
 
 ---
 
