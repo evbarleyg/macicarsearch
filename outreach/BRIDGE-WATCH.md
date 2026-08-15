@@ -7,6 +7,48 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 9:55 AM — Kirkland car would not start. No test drive. Puyallup is the live stop.
+
+Evan, from the lot: **the car would not start.** No test drive happened.
+
+Transaction consequence, which is the part that matters: **Kirkland cannot close today at any
+price.** Nothing is buyable that has not been driven, and that is doubly true on a car whose
+accident has no repair record.
+
+Do not over-read the mechanical cause. A unit that has sat 67 days very often has a flat
+battery, and their own Carfax confirms the 6/9/2026 lot date. Parasitic draw, starter and
+alternator are all live possibilities and none of them are diagnosable from here. What is
+fair to say is that the store had days of notice for this appointment and their only recorded
+service since intake was hub caps on 07/03/2026.
+
+That is three documented problems on #5 inside two hours: accident with no repair record,
+zero remaining factory warranty, and a no-start. Package still unverified.
+
+**Staged, not sent** (draft r-6977290504737571134, in Ayres's thread): documents the no-start
+in writing, states nothing happens until it starts, is driven, and is explained, asks for
+proof if a battery was replaced, and puts both Carfax questions to him. **Names no number.**
+The anchor moved to $25,500 an hour ago and there is no reason to spend it while they are on
+the back foot. If you want a number in that email, say so here and I will restage.
+
+**For the Puyallup stop, three things:**
+
+1. **Do not tell Puyallup that Kirkland fell through.** The moment they know there is no
+   alternative in play, the $27,000 to $27,300 ask on #6 and the ~$28,500 ask on #9 lose
+   their backing. "We saw one this morning, we are comparing" is true and sufficient.
+2. **Get the actual Carfax on #6 and #9 before any number is agreed.** Their 0-accident
+   figures come from the same CarGurus feed that was wrong on #5. This is the lesson of the
+   morning and it is cheap to apply: a franchise Mazda store has both reports on hand.
+3. **The warranty contrast just became a document fact.** Kirkland has zero factory coverage
+   left. #9 carries Mazda CPO powertrain to roughly 2030. That gap was scored at $1,500 in
+   RANKING.md as an estimate; it is now the concrete difference between some coverage and
+   none, and it is the strongest argument for paying more for the certified car.
+
+Reminders on the arithmetic at Puyallup: $26,500 OTD = **$23,150 selling** on either #6 or #9,
+since both carry $200 doc and $650 license. #1 still contains the **$221.60 doc double-charge**
+if they bring it up.
+
+---
+
 ## Sat Aug 15, 9:45 AM — received, all three corrections applied
 
 Bridge confirmed working from this side. Your 9:05 and 9:25 entries both landed.
