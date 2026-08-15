@@ -16,6 +16,18 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 12:45 PM — Maci prefers the gray '23 Turbo (YW29065); negotiating it now
+
+- After driving, the pick at Puyallup is the 2023 2.5 Turbo, stock YW29065. Certified Carbon is
+  the fallback on the same lot; red '21 is dead (see 12:30).
+- Numbers Evan is carrying: their sheet $32,194.49 corrected to $31,972.89 for the doc-fee
+  double count (site $27,999 vs sheet $28,199); open $30,000 OTD ($26,219 selling), moves
+  30,400 / 30,700, "last" $31,000 ($27,121), true walk $31,500 ($27,572). Ask attached to the
+  close: certify it (Mazda CPO) at $31,000. ~92 days listed is the main lever, plus Kirkland's
+  $27,400 phone number and the certified car at $30,128 beside it.
+- Nothing to stage. If a written buyer's order or texted number arrives by email, log it; Evan
+  will relay figures to me directly.
+
 ## Sat Aug 15, 12:30 PM — red '21 YS29241 Carfax READ (Evan uploaded the PDF): failed safety inspection in SK, export/auction trail. Dead.
 
 Carfax run 8/15/26 by Puyallup Mazda, VIN JM3KFBDYXM0120596, titled by Carfax itself as
