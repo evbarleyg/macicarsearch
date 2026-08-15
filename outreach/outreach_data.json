@@ -316,7 +316,7 @@
       "price_now": 25192,
       "price_change": 0,
       "status": "active",
-      "status_detail": "Active, unchanged $25,192 ('price includes fees'), Good Deal, 47 days on CarGurus; odometer holding at 33,336. Autotrader card flags 'No Accidents'. Still the only GT Premium-package car (ventilated seats) in the tracked set.",
+      "status_detail": "Active, unchanged $25,192 ('price includes fees'), Good Deal, 47 days on CarGurus; odometer holding at 33,336. CarGurus/KBB (AutoCheck-sourced) flag 'No Accidents' but this is CONTRADICTED by Ford of Kirkland's own linked CARFAX (accident 07/31/2021, no airbag deployment) - see accident_history_VERIFIED. Still the only GT Premium-package car (ventilated seats) in the tracked set.",
       "vin": "JM3KFBDM3M0301052",
       "stock": "O94564A",
       "cpo": false,
@@ -376,7 +376,8 @@
           "AT: CarGurus $25,192"
         ],
         "latest_known": "Written quote Aug 11 4:21 PM: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit hold staged"
-      }
+      },
+      "accident_history_VERIFIED": "MATERIAL DISCREPANCY found 2026-08-15: CarGurus ('0 accidents reported') and KBB ('No Accidents') both source Experian AutoCheck and show clean. But Ford of Kirkland's OWN site links to a free CARFAX report for this exact VIN that shows 'ACCIDENT - Accident Reported, 07/31/2021, Airbags did not deploy.' Same 1-owner WA car either way. This matches the Carfax Evan already had from 8/11/26. AutoCheck simply doesn't have this record; CARFAX does. Treat as a confirmed accident car, not a clean one - the 'No Accidents' badges on CarGurus/KBB are wrong/incomplete for this VIN, not evidence of a clean history."
     },
     {
       "rank": 6,
@@ -1497,7 +1498,8 @@
       12
     ],
     "note_2026_08_11_pm": "#3 (BMW Seattle GT Reserve) removed after the dealer confirmed the sale to Evan. Only remaining ventilated-seat cars: #5 (WA) and #13 (WA); #19 is the OR fallback.",
-    "note_17_upgrade": "#17 verified as GT w/ GT Premium Package (ventilated seats) during the v3 form wave - kept in secondary tier only because it's an independent lot pending AutoCheck; on comfort content it slots right behind #5."
+    "note_17_upgrade": "#17 verified as GT w/ GT Premium Package (ventilated seats) during the v3 form wave - kept in secondary tier only because it's an independent lot pending AutoCheck; on comfort content it slots right behind #5.",
+    "note_2026_08_15_accident_flag": "#5 Kirkland CORRECTION: confirmed accident history (07/31/2021, no airbag deployment) via the dealer's own linked CARFAX - contradicts the AutoCheck 'no accidents' shown on CarGurus/KBB. The 2026-08-11 calibration note telling the reply-handler to 'accept ANY Kirkland number <= $25,192 selling with a clean fee sheet' is PARTIALLY SUPERSEDED: the fee sheet can be clean, but the history is not. Do not close #5 without (a) telling Evan/Maci the accident is confirmed and (b) treating it like #17 Auto 206 - i.e. it needs a deeper price cut and/or a pre-purchase inspection, not a straight accept. #12 Lee Johnson (CPO, ~$30.0k OTD, no known accident) moves up in relative attractiveness now that #5's history is confirmed non-clean."
   },
   "v3_watchlist": [
     {

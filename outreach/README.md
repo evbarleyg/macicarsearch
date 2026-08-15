@@ -861,3 +861,19 @@ Evan
 ```
 
 If either store calls instead of writing: let it go to voicemail and paste the "email only" reply from the v3 message standard above into the listing-site thread.
+
+## CRITICAL CORRECTION: #5 Kirkland has a confirmed accident (2026-08-15)
+
+Evan asked for a direct check of accident-history claims across CarGurus, KBB, and Ford of Kirkland's own listing for stock #O94564A (VIN JM3KFBDM3M0301052). Result: a real discrepancy between history vendors, not a duplicate confirmation.
+
+| Source | Accident wording (verbatim) | Owner count | Provider |
+|---|---|---|---|
+| CarGurus (451807182) | "0 accidents reported - No accidents or damage reported." | "1 previous owner" | AutoCheck (paid upsell link) |
+| KBB (782572696) | "No Accidents" (Vehicle History popover) | "Single Owner" | Experian AutoCheck (paid upsell link) |
+| Ford of Kirkland's own VDP | No text claim on-page - only a "CARFAX 1-OWNER GOOD VALUE" badge | "CARFAX 1-Owner Vehicle" (on the linked report) | **CARFAX** - badge links to a FREE full report |
+
+The free CARFAX linked from the dealer's own badge shows: **"ACCIDENT - Accident Reported," 07/31/2021, "Airbags did not deploy."** This is the identical report Evan already had from 8/11. AutoCheck (what CarGurus and KBB both cite) simply doesn't carry this record; CARFAX does.
+
+**Bottom line: #5 is a confirmed-accident car, not a clean one.** The public "No Accidents" badges on CarGurus/KBB are wrong/incomplete for this specific VIN - they are not independent evidence of a clean history, since both pull from the same AutoCheck gap.
+
+**Effect on strategy:** the 2026-08-11 calibration note ("accept ANY Kirkland reply <= $25,192 selling with a clean fee sheet") is superseded on the history point - a clean fee sheet no longer means a clean car. #5 should be handled like #17 Auto 206: deeper price cut and/or a pre-purchase inspection condition before accepting, and Evan/Maci should be told plainly this car has a reported accident before any decision. #12 Lee Johnson (Mazda CPO, ~$30.0k OTD, no known accident) becomes relatively more attractive now that #5 isn't clean.
