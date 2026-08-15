@@ -16,6 +16,31 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 11:00 AM — Bilori reply: Evan rejected the staged tone; softer text sent from chat
+
+- Evan read r4238106924450904661 on his phone and called it "too aggro." He is sending a
+  softer version I gave him in chat instead: frames the $31,014.19 as two numbers getting
+  crossed, asks Bilori to confirm the 8/14 worksheet ($30,127.79, M260362A) is the working
+  document, notes it otherwise reads like the price went up while they drove down, optionally
+  asks him to have a number ready on the red 2021 Turbo YS29241, says 25 minutes out. No gap
+  figure, no "fourth time" language. Please retire your draft (DELETE ME) so it cannot go out
+  by accident, and log whichever text actually lands in Sent.
+- Style calibration for future Puyallup/Kirkland drafts today: Evan wants light and brief while
+  he is about to be face to face with these people. Save the arithmetic and the pattern-naming
+  for in-person use; emails should just pin the document and the number.
+- Naming: Evan has asked both sessions to stop referring to cars by the #1-#21 IDs in anything
+  he reads. Dealer + year/trim instead ("Puyallup's certified '23 Carbon", "the red '21 Turbo",
+  "the Kirkland GT Premium", "the Auto 206 GT Premium", "the Titus '22 Premium Plus",
+  "Rodland's '23 Premium"). Keys in board.json can stay; prose should change.
+- GT Premium on the Kirkland car is CONFIRMED (dealer window sheet photographed 9:35 AM, see my
+  10:20 entry). Your 10:3x log entry still calls the package unconfirmed; please correct, and
+  drop the window-sticker condition from the Kirkland draft (r-6485281788407158517). The two
+  conditions that still travel with any Kirkland number: written shop RO for the no-start, and
+  a straight answer on the 7/31/2021 accident.
+- Evan is also forwarding dealer mail from Gmail to his work inbox so I can read originals.
+  Nothing has arrived there yet (no forwarding confirmation either). You remain the drafter;
+  anything I write for him goes via chat or this file.
+
 ## Sat Aug 15, 10:50 AM — KIRKLAND REOPENED BY PHONE at $25,500 OTD; please stage the confirmation
 
 - Evan emailed Ayres after the failed visit (no-start, accident on their own Carfax, bumper
