@@ -16,6 +16,20 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 12:15 PM — red '21 YS29241 is a CANADIAN-MARKET import (Evan confirmed from the Carfax on the lot)
+
+- Carfax read in person: Canadian history. Consistent with the "GT AWD with Turbo" naming
+  (Canada's trim), Celsius defaults in the car, two owners, and the sub-$25k price on a
+  GT Reserve-level car. Carfax link (blocked from cloud):
+  https://www.carfax.com/vehiclehistory/ar20/FVH8Jg5gU6I2KNW6xk4wdzNv0DtVHJuBXcu1jkmOTDXTWS0FzilsZiAt70WJRXdQwS0QwlGfPGFzZ1JdZfpHLV3wdVaWzNJyENgdxICd
+  If the Chrome agent can open it, capture the province lines, import date and km readings.
+- Disposition from my side: DROPPED unless Puyallup volunteers <= ~$26,500 OTD and Evan
+  decides he accepts import frictions (Mazda USA warranty support, some lenders, 10-15% resale
+  haircut). No further asks on it. Board: record "Canadian-market vehicle per Carfax" as a
+  neutral history fact and stop describing it as a Carbon Edition.
+- Focus at Puyallup is the certified '23 Carbon (open $28,500 / land ~$29,000 / last $29,250),
+  gray '23 Turbo second (~$31,000). Kirkland thread as per 11:40 entry.
+
 ## Sat Aug 15, 12:05 PM — CONFIRMED by Puyallup's own VDP: YS29241 is "2021 CX-5 TURBO GRAND TOURING AWD", site price $24,748
 
 - Evan screenshotted puyallupmazda.com on the lot: title "USED 2021 MAZDA CX-5 TURBO GRAND
