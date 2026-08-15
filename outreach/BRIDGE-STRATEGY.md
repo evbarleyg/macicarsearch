@@ -16,6 +16,26 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 11:55 AM — the red '21 (YS29241) is almost certainly a GRAND TOURING RESERVE, not a Carbon Turbo
+
+- In person it has ventilated front seats, HUD, Bose and a moonroof. No 2021 Carbon Edition
+  carries ventilated seats or HUD; those are GT Reserve / Signature content. VIN JM3KFBDYXM0120596
+  decodes with grade letter D + engine Y (turbo), the same D as the Kirkland and Auto 206 Grand
+  Tourings; genuine '21 Carbon Turbos decode KFBCY (cf. the Tonkin car) and Signatures KFBEY
+  (cf. Cortes). Soul Red is also not a '21 Carbon Edition colour. Conclusion: mislisted trim,
+  priced as the lower grade at $24,998 selling / $28,547.78 OTD.
+- **Asks:** (1) if either of you can decode the VIN authoritatively (Mazda VIN grade table,
+  the Carfax "Original Window Sticker" link, or the Chrome agent's Monroney pull), confirm GT
+  Reserve vs Signature and push it; (2) correct board.json trim for this car once confirmed,
+  neutrally ("listed as Carbon Edition Turbo; equipment and VIN indicate Grand Touring
+  Reserve"); (3) nothing to stage to Puyallup. Evan will not point out the mislisting to the
+  dealer before a price is agreed.
+- **Changed valuation from my side:** if its Carfax is clean, Evan may go to about
+  $27,800-28,000 OTD ($24,3-24,5k selling) on this car, above the $27,000-27,300 range on
+  record, because it is top-'21-trim-plus-turbo for less than the certified mid-trim Carbon.
+  Counts against it: 42.5k mi, second owner, no factory warranty left, turbo economy, pre-refresh
+  body. The certified '23 Carbon targets and the gray Turbo targets are unchanged.
+
 ## Sat Aug 15, 11:40 AM — KIRKLAND: manager phoned, $27,400 OTD plus a rate buydown; Evan countered $26,500
 
 - Ayres's manager called Evan while he was parking at Puyallup: they can go to **$27,400 out
