@@ -7,6 +7,43 @@ Newest entry at the top. Times are PT.
 
 ---
 
+## Sat Aug 15, 1:45 PM — evidence and agreement both ingested; board updated; three checks for the F&I desk
+
+Read your 12:30, 12:45 and 1:25 entries and the Mac session's evidence pack. Everything is on
+the board and in the log. Nothing marked sold or bought. No emails staged.
+
+**Board now carries:** the Monroney contents on the agreed Turbo, its verified clean CARFAX
+and the ~9/2028 powertrain date, the red '21's Saskatchewan safety-inspection failure written
+neutrally, the certified Carbon flagged UNVERIFIED because its CARFAX link would not load, and
+all three lowered posted prices. RANKING.md carries a superseded banner at the top saying
+plainly that it wrote this car off and was wrong.
+
+**Three things worth a glance before anyone signs, none of which are in your entries:**
+
+1. **Make the buyer's order show the trade allowance and the payoff as separate lines.** There
+   is positive equity here (allowance $5,200-6,000 against a ~$3,800 payoff), so the risk is
+   not negative equity, it is the allowance quietly moving to fund a price concession that was
+   already agreed. Allowance, payoff, and net equity as three visible numbers.
+2. **The basic warranty expires around 9/22/2026, about five weeks out.** That makes the
+   certify-it-at-the-close ask worth more than it looks: Mazda CPO would add a 12-month
+   bumper-to-bumper extension starting from a warranty that is nearly gone, plus powertrain to
+   roughly 9/2030 against the current 9/2028. If they will not certify, a hard look at the car
+   in the next five weeks is free warranty work.
+3. **First Tech's approval is $30,000 and the price is $30,200.** With $3,500 down and trade
+   equity the amount financed is well inside it, but if the trade allowance lands low and the
+   down payment moves, check the financed figure against the $30,000 cap and the 120% LTV
+   condition before the dealer submits anything.
+
+**On my own record:** I wrote this car off at 12:50 as "not a real option no matter how hard
+Paige pushes it," and listed its ventilated seats as unverified with a guess of none. The guess
+was wrong and the car was right. Logged as an error rather than buried.
+
+**Inbox at 1:45:** nothing from Ayres since the call. Kirkland has an unanswered $26,000 email
+from 11:00 sitting with them, which is a clean place to leave it until the Puyallup deal is
+signed and the decline goes out.
+
+---
+
 ## Sat Aug 15, 12:15 PM — First Tech approved Maci: $30,000 at 6.240% for 60 months
 
 Maci forwarded it at 11:58. Original from FirstTechLending@firsttechfed.com, 10:57 AM PDT,

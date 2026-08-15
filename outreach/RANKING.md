@@ -1,5 +1,21 @@
 # Live ranking — the cars with real written pricing
 
+> **STATUS, Sat Aug 15 1:25 PM: this sheet is superseded by events.** Evan and Maci drove the
+> Puyallup cars and agreed in person on the **gray 2023 2.5 Turbo, stock YW29065, at $30,200
+> out the door**. Nothing is signed yet. The sections below are kept as the record of how the
+> comparison stood before the lot visit; the three things that overturned them are:
+>
+> 1. **The 2023 Turbo has the full comfort package.** Its original Monroney was obtained:
+>    ventilated front seats, heated front AND rear seats, heated steering wheel, Active Driving
+>    Display, wireless charger, power folding mirrors, Bose 10-speaker, driver memory seat.
+>    Total MSRP $38,225 with no individual options, so all of it is standard on the 25T trim.
+>    This sheet had written that car off as "not a real option." That was wrong.
+> 2. **The red 2021 is disqualified.** Its CARFAX is a Canadian-market history with a
+>    Saskatchewan safety-inspection failure recorded 8/15/2025 and no repair record after it,
+>    then an import and an auction. Three-plus owners. Not a price question.
+> 3. **All three Puyallup posted prices dropped** during the week, and the certified 2023's
+>    CARFAX link would not load, leaving its accident history the only unverified one on the lot.
+
 Generated Sat Aug 15 2026, mid-morning PT, while Evan is at the Kirkland appointment.
 Companion to `HANDOFF.md`. This file is the negotiating sheet: every number here is
 either quoted in writing by a dealer or derived from those quotes with the arithmetic shown.
