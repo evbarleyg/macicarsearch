@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CX-5 Deal Desk</title>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<style>
+  html { color-scheme: light dark; }
+  :root {
+    --paper:   #f4f3f0;
+    --surface: #fbfaf8;
+    --raised:  #ffffff;
+    --ink:     #17181c;
+    --muted:   #6b6d75;
+    --faint:   #93959d;
+    --rule:    #dddbd6;
+    --accent:  #9c2b2b;
+    --go:      #1c6b45;
+    --go-bg:   #e6efe9;
+    --hold:    #8a5a12;
+    --hold-bg: #f6eeda;
+    --out:     #7b7d84;
+    --out-bg:  #ececeb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:   #15161a;
+      --surface: #1c1e23;
+      --raised:  #22252b;
+      --ink:     #e8e9ec;
+      --muted:   #9ea1aa;
+      --faint:   #767982;
+      --rule:    #32353c;
+      --accent:  #e0655e;
+      --go:      #57bd8a;
+      --go-bg:   #172c22;
+      --hold:    #d9a24a;
+      --hold-bg: #2f2712;
+      --out:     #82858e;
+      --out-bg:  #24262b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:   #15161a;
+    --surface: #1c1e23;
+    --raised:  #22252b;
+    --ink:     #e8e9ec;
+    --muted:   #9ea1aa;
+    --faint:   #767982;
+    --rule:    #32353c;
+    --accent:  #e0655e;
+    --go:      #57bd8a;
+    --go-bg:   #172c22;
+    --hold:    #d9a24a;
+    --hold-bg: #2f2712;
+    --out:     #82858e;
+    --out-bg:  #24262b;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    margin: 0;
+    padding: 28px 18px 72px;
+    font: 15.5px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px; }
+
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .num  { font-variant-numeric: tabular-nums; white-space: nowrap;
+          font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+  /* ---- masthead ---- */
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 14px; }
+  header h1 {
+    margin: 0; font-size: clamp(27px, 6vw, 36px); line-height: 1.05;
+    letter-spacing: -0.025em; font-weight: 700; text-wrap: balance;
+  }
+  header .stamp {
+    margin: 9px 0 0; font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  /* ---- the headline number ---- */
+  .topline {
+    background: var(--raised); border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent); border-radius: 3px;
+    padding: 18px 20px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .topline .eyebrow {
+    font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700;
+  }
+  .figures { display: flex; flex-wrap: wrap; gap: 10px 34px; }
+  .fig { display: flex; flex-direction: column; gap: 1px; }
+  .fig .v { font-size: 25px; font-weight: 600; letter-spacing: -0.02em;
+            font-variant-numeric: tabular-nums;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .fig .k { font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+  .fig.hero .v { color: var(--accent); }
+  .topline p { margin: 0; font-size: 14.5px; color: var(--ink); }
+
+  /* ---- sections ---- */
+  section { display: flex; flex-direction: column; gap: 12px; }
+  section > h2 {
+    margin: 0; font-size: 12px; letter-spacing: 0.13em; text-transform: uppercase;
+    color: var(--muted); font-weight: 700;
+    border-bottom: 1px solid var(--rule); padding-bottom: 7px;
+  }
+  section > p { margin: 0; }
+  .lede { font-size: 15.5px; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 3px;
+    padding: 14px 16px; display: flex; flex-direction: column; gap: 7px;
+  }
+  .card h3 { margin: 0; font-size: 15.5px; font-weight: 650; letter-spacing: -0.01em; }
+  .card p  { margin: 0; font-size: 14px; color: var(--muted); }
+  .card p strong { color: var(--ink); font-weight: 600; }
+
+  /* ---- ordered play list ---- */
+  ol.plays { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: p; }
+  ol.plays li {
+    counter-increment: p; display: grid; grid-template-columns: 30px 1fr; gap: 13px;
+    padding: 13px 0; border-bottom: 1px solid var(--rule);
+  }
+  ol.plays li:last-child { border-bottom: none; }
+  ol.plays li::before {
+    content: counter(p); font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12.5px; font-weight: 700; color: var(--accent);
+    border: 1px solid var(--rule); border-radius: 2px; height: 24px;
+    display: flex; align-items: center; justify-content: center; background: var(--raised);
+  }
+  ol.plays .say {
+    display: block; margin-top: 6px; padding: 8px 11px; background: var(--raised);
+    border-left: 2px solid var(--rule); border-radius: 2px;
+    font-size: 14px; font-style: italic; color: var(--ink);
+  }
+  ol.plays h4 { margin: 0 0 3px; font-size: 15px; font-weight: 650; }
+  ol.plays p { margin: 0; font-size: 14px; color: var(--muted); }
+
+  /* ---- tables ---- */
+  .tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 560px; }
+  thead th {
+    text-align: left; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); font-weight: 700; padding: 10px 12px; border-bottom: 1px solid var(--rule);
+    background: var(--raised); white-space: nowrap;
+  }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.r { text-align: right; }
+  .car { font-weight: 600; }
+  .sub { display: block; color: var(--faint); font-size: 12.5px; font-weight: 400; margin-top: 1px; }
+
+  .chip {
+    display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; padding: 2px 7px; border-radius: 2px; white-space: nowrap;
+  }
+  .chip.go   { background: var(--go-bg);   color: var(--go); }
+  .chip.hold { background: var(--hold-bg); color: var(--hold); }
+  .chip.out  { background: var(--out-bg);  color: var(--out); }
+
+  /* ---- flag list ---- */
+  ul.flags { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+  ul.flags li { display: grid; grid-template-columns: auto 1fr; gap: 11px; align-items: start; font-size: 14px; }
+  ul.flags .tag {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; font-weight: 700;
+    letter-spacing: 0.05em; text-transform: uppercase; color: var(--accent);
+    border: 1px solid var(--rule); background: var(--raised);
+    padding: 2px 6px; border-radius: 2px; white-space: nowrap; margin-top: 1px;
+  }
+  ul.flags strong { font-weight: 650; }
+
+  ul.plain { margin: 0; padding-left: 19px; display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; }
+  ul.plain li::marker { color: var(--faint); }
+
+  .note { font-size: 13.5px; color: var(--muted); }
+  .accent { color: var(--accent); font-weight: 600; }
+
+  footer { border-top: 1px solid var(--rule); padding-top: 14px; font-size: 13px; color: var(--muted); }
+  a { color: var(--accent); }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+
+  <header>
+    <h1>CX-5 Deal Desk</h1>
+    <p class="stamp">Handoff · Sat Aug 15, 2026 · 6:45 AM PT · Evan &amp; Maci · buyer-side only</p>
+  </header>
+
+  <div class="topline">
+    <span class="eyebrow">The whole thing in one line</span>
+    <div class="figures">
+      <div class="fig hero"><span class="v">$26,500</span><span class="k">Our anchor</span></div>
+      <div class="fig"><span class="v">$27,600</span><span class="k">Their Thu offer</span></div>
+      <div class="fig"><span class="v">$28,123</span><span class="k">Their written OTD</span></div>
+      <div class="fig"><span class="v">$31,878</span><span class="k">CarMax, all in</span></div>
+    </div>
+    </div>
+    <p>Hyundai of Kirkland, 8:30 AM, 2021 Grand Touring with the GT Premium package. They offered <strong>$27,600</strong> Thursday night; Evan told Ayres that was <em>a great start</em>, so they are on notice it is not the finish. <strong>Plan: drive it, let them present their best, then anchor $26,500 and leave to see other cars.</strong> $27,600 is the fallback already in hand, and $28,123 written is still the best number nine days of looking produced.</p>
+  </div>
+
+  <section>
+    <h2>Today's route</h2>
+    <div class="card">
+      <h3>1 · <a href="https://www.drivehyundaikirkland.com/">Hyundai of Kirkland</a> — 8:30 AM · 25 min</h3>
+      <p>2021 CX-5 Grand Touring AWD + GT Premium · 33,336 mi · Snowflake White Pearl over black leather · stock <span class="mono">O94564A</span> · VIN <span class="mono">…M0301052</span> · <a href="https://www.cargurus.com/Cars/listing/451807182">listing</a>. Salesperson <strong>Ayres Horne</strong>. This is the pick. Everything else is a comparison shop.</p>
+    </div>
+    <div class="card">
+      <h3>2 · <a href="https://www.puyallupmazda.com/">Puyallup Mazda</a> — 45 min south</h3>
+      <p>Two cars on one lot, salesperson <strong>Bilori Howard</strong>. The <a href="https://www.cargurus.com/Cars/listing/449972241">2021 Carbon Turbo</a> is the value play he refuses to price; the <a href="https://www.cargurus.com/Cars/listing/450917825">certified 2023</a> is the one he keeps pushing. Go only if Kirkland stalls or you want the comparison in person.</p>
+    </div>
+    <p class="note">Olympia is off (Titus held at $30,500 and stood down). Everett is conditional and silent. Edmonds never answered. Oregon is out entirely.</p>
+  </section>
+
+  <section>
+    <h2>Every car, one scale</h2>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Car</th><th class="r">Written OTD</th><th class="r">Our ask</th><th>Standing</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="car"><a href="https://www.cargurus.com/Cars/listing/451807182">Kirkland ’21 GT + GT Premium</a><span class="sub">33,336 mi · clean, 1 owner</span></td>
+            <td class="r num">$28,123.00</td>
+            <td class="r num">$27,600</td>
+            <td><span class="chip go">Buying</span><span class="sub">They floated $27,600 Thu night, come-now only</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.cargurus.com/Cars/listing/449972241">Puyallup ’21 Carbon Turbo</a><span class="sub">42,515 mi · stock YS29241</span></td>
+            <td class="r num">$28,547.78</td>
+            <td class="r num">$27,000–27,300</td>
+            <td><span class="chip hold">Unanswered ×3</span><span class="sub">Above Kirkland today, on 9k more miles</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.cargurus.com/Cars/listing/450917825">Puyallup ’23 Carbon · CPO</a><span class="sub">33,006 mi · stock M260362A</span></td>
+            <td class="r num">$30,127.79</td>
+            <td class="r num">~$28,500</td>
+            <td><span class="chip hold">Real second</span><span class="sub">Cut $800 unasked; warranty to ~2030</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.cargurus.com/Cars/listing/453332129">Rodland ’23 2.5 S Premium</a><span class="sub">17,505 mi · Everett</span></td>
+            <td class="r num">$31,957.24</td>
+            <td class="r num">$29,000</td>
+            <td><span class="chip hold">Their move</span><span class="sub">Asked by phone Fri; no email going back</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.kbb.com/cars-for-sale/vehicle/784195725">Titus-Will ’22 Premium Plus</a><span class="sub">43,640 mi · Olympia</span></td>
+            <td class="r num">$30,500</td>
+            <td class="r num">$29,000–29,500</td>
+            <td><span class="chip out">Out, standby</span><span class="sub">“You know where to find us”</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.dougsmazda.com/">Doug’s ’22 Carbon</a><span class="sub">47,333 mi · Edmonds</span></td>
+            <td class="r num">$29,774.50</td>
+            <td class="r num">$27,500–27,800</td>
+            <td><span class="chip out">Silent</span><span class="sub">No answer in 36 hours</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.autotrader.com/cars-for-sale/vehicle/787629893">Auto 206 ’21 GT + GT Premium</a><span class="sub">30,066 mi · Kent</span></td>
+            <td class="r num">$28,718.60</td>
+            <td class="r num">$27,000 + PPI</td>
+            <td><span class="chip out">Accident</span><span class="sub">6/2024 rear-end; CarGurus shows 2 records</span></td>
+          </tr>
+          <tr>
+            <td class="car"><a href="https://www.cargurus.com/Cars/listing/455754266">CarMax Renton ’23 2.5 S Premium</a><span class="sub">31,166 mi · no-haggle</span></td>
+            <td class="r num">~$31,878</td>
+            <td class="r num">—</td>
+            <td><span class="chip out">Not a floor</span><span class="sub">$27,998 is its price, not its OTD; all-in it ranks 8th</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Sorted by total out-the-door. Every figure is dealer-written except CarMax, whose $27,998 is a fixed <em>price</em>; tax and fees put it near $31,878. <strong>Kirkland is first on real money by $425</strong>, and the next car carries 9,000 more miles. The only cheaper thing anywhere is Columbia Sales &amp; Service in Portland at roughly $27,350 estimated, an independent lot with 44,989 miles that never replied. Oregon is out.</p>
+  </section>
+
+  <section>
+    <h2>The desk playbook</h2>
+    <ol class="plays">
+      <li>
+        <div>
+          <h4>Drive it before anyone says a number</h4>
+          <p>Do not sit down at a desk first. While you are at the car, check the window sticker for <strong>GT Premium</strong> — ventilated fronts, heated rears, heated wheel, head-up display. Vented seats have a fan icon on the seat switch; the HUD shows the moment it starts. Confirm two fobs, look at tire date codes and brake wear, and ask for service records.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Make them present first</h4>
+          <p>Never counter into silence. Ask for their best number now that you have driven it and let them talk. Anything they say below $28,123 is movement you did not have to spend anything for.</p>
+          <span class="say">“We drove it, we like it. What is your best out-the-door on it today?”</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Anchor $26,500 out the door</h4>
+          <p>You already told Ayres that $27,600 was a great start, so a lower number is the continuation of that conversation, not a reversal. Give the reason out loud so it lands as analysis rather than haggling: this car is out of factory warranty at 33,000 miles, and the certified 2023 you are seeing later carries Mazda coverage to roughly 2030.</p>
+          <span class="say">“This one is out of warranty. The certified 2023 we are driving later is covered to 2030. On this car we are at $26,500 out the door.”</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Say you have more cars to drive, because you do</h4>
+          <p>Puyallup is a real second stop with two real cars and written numbers. This is the strongest sentence you will say all morning and it has the advantage of being completely true. Then stop talking.</p>
+          <span class="say">“We have two more to drive today. Give us your best and we will let you know either way this afternoon.”</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Trade stays in your pocket</h4>
+          <p>Do not raise a trade until the out-the-door number is agreed <strong>in writing</strong>. Introduced early, it lets them shuffle money between price and trade allowance and show you a worse deal that looks better. One number at a time.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Be willing to actually leave</h4>
+          <p>Walking out and coming back is a normal move and it costs nothing here. The car has been listed 48 days and it will still be there this afternoon. Expect to land somewhere around <strong>$27,000–27,400</strong>; $27,600 is already banked. And if they dig in, $28,123 is the <strong>lowest total out-the-door on the whole board</strong> — about $3,755 under CarMax measured all-in — so it is worth signing.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4>Read every line before you sign</h4>
+          <p>The buyer's order must match: selling price, tax, license at actuals with overage refunded, $200 doc, zero add-ons. Their sheets were clean twice, so a new line at signing is deliberate. Decline paint protection, etch, nitrogen, appearance packages. Extended warranty is a separate decision for another day, never under desk pressure.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>F&amp;I landmines</h2>
+    <ul class="flags">
+      <li><span class="tag">License</span><div><strong>The $500 is an estimate, not a price.</strong> Seattle registration with the RTA levy realistically runs $550&ndash;700 on this car, so the true out-the-door is nearer $28,150&ndash;28,300. Of the $468 they moved between sheets, $200 was only a lower license estimate, which trues up and evaporates. <strong>Insist any cut lands in the selling price</strong>, where it is durable and drags the tax down with it. Kirkland has confirmed in writing that over-collection is refunded; get that on the buyer's order.</div></li>
+      <li><span class="tag">Doc fee</span><div>$200 is the Washington statutory cap and Kirkland says it applies to every deal. Treat it as fixed for negotiation purposes; it is only worth asking about as a giveaway at the very end.</div></li>
+      <li><span class="tag">Add-ons</span><div>Both Kirkland sheets showed zero add-ons, no warranty premium, no GAP. That is unusually clean and it is the thing most likely to change in the F&amp;I office. Decline paint protection, etch, nitrogen, and appearance packages. Extended warranty is a separate decision to make later, never under time pressure at the desk.</div></li>
+      <li><span class="tag">8.99%</span><div>The rate printed on their proposal is a <strong>placeholder for no credit pulled</strong>, not an offer. Ayres said so explicitly. Ignore it entirely.</div></li>
+      <li><span class="tag">Payment talk</span><div>If anyone shifts the conversation to monthly payment, shift it back to out-the-door. Payment framing is where term length hides a higher total.</div></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Financing: the BECU gap</h2>
+    <p class="lede">Maci has a BECU preapproval but no visible rate. That is a real gap to close before signing, because without an APR there is nothing to compare the dealer's offer against.</p>
+    <div class="card">
+      <h3>Where the rate usually hides</h3>
+      <p>Credit-union preapprovals commonly show an approved <em>amount</em> up front and set the <em>rate</em> at final underwriting, keyed to term, model year, and credit tier. Check, in order: the loan or preapproval section inside <a href="https://www.becu.org/">becu.org</a> online banking, then the approval email or PDF itself, then the member line. Ask specifically for <strong>APR, term, expiration date, any mileage or model-year restriction, and whether funding is a draft you bring or a dealer-pay arrangement</strong>. A 2021 with 33k miles finances easily, but some tiers price older model years differently than a 2023, which matters if the choice shifts to the certified car.</p>
+    </div>
+    <div class="card">
+      <h3>How to play it at the desk today</h3>
+      <p><strong>Keep price and money completely separate.</strong> Agree the out-the-door number first and get it written, then handle financing. That stance is already established with Kirkland: the price is not contingent on using their lender, in writing. If the BECU rate is still unknown when the paperwork starts, it is fine to let the dealer run their bank and show you a number, purely as a comparison. What must not happen is a rate concession getting traded for a price concession, or a lower payment being used to paper over a higher total.</p>
+    </div>
+    <p class="note">If the BECU rate turns out to be unavailable today and the deal is otherwise good, signing with dealer financing and refinancing through BECU later is a normal path, as long as there is no prepayment penalty. Confirm that before agreeing to it.</p>
+  </section>
+
+  <section>
+    <h2>What is verified, and what is not</h2>
+    <ul class="plain">
+      <li><strong>Verified:</strong> every out-the-door figure in the table above came from a dealer's own written sheet or worksheet, parsed directly. Kirkland's clean Carfax was independently confirmed — a competing dealer volunteered it while trying to sell against it.</li>
+      <li><strong>Verified in writing from Kirkland:</strong> license billed at actuals with overage refunded, two key fobs, price not contingent on their financing.</li>
+      <li><strong>Not yet verified:</strong> that the GT Premium package is physically on the window sticker. It comes from KBB listing data, was asked of Kirkland in writing on Wednesday, and Ayres said Thursday at 11:55 AM that he was pulling the sticker to confirm. He never sent it and it was not chased. <em>Check it at the car.</em> Right-sizing it: this is a Grand Touring either way, so leather, Bose, sunroof and power liftgate are standard. GT Premium is the increment on top — ventilated fronts, heated rears, heated wheel, head-up display. If it is absent, that is roughly $500–800 of equipment and some comfort, not a reason to walk.</li>
+      <li><strong>Unknown:</strong> the BECU rate. Also Rodland's answer to $29,000, and whether Puyallup will ever price the Carbon Turbo.</li>
+      <li><strong>Corrected on game day:</strong> CarMax Renton was called the “$27,998 no-haggle floor” for days, and Kirkland was framed as $125 above it. Wrong comparison: $27,998 is CarMax’s pre-tax price and its all-in is about $31,878. Kirkland is roughly $3,755 <em>better</em> than that fallback, not marginally worse.</li>
+      <li><strong>Corrected along the way:</strong> the CPO all-in was estimated at ~$31.0–31.1k and came in at $30,127.79, because the estimate assumed no discount off list. Rodland's lumped $3,470.24 fee line was assumed padded and is not — it reconciles to Everett tax plus RTA plus registration within about ten dollars.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Standing rules for whoever picks this up</h2>
+    <ul class="plain">
+      <li><strong>Drafts only.</strong> The Gmail connector cannot send and has no delete. Everything is staged for Evan to tap. It also cannot download attachments, so dealer PDFs must be opened or uploaded by hand.</li>
+      <li><strong>No acceptance over email.</strong> Evan's rule from the start: commitment happens in person or by phone. Email is for numbers and paper only.</li>
+      <li><strong>Email is the only channel.</strong> No calls, no forms, no texts to dealers from the assistant side. Evan handles phone himself.</li>
+      <li><strong>The public site stays neutral.</strong> <a href="https://evbarleyg.github.io/macicarsearch/">evbarleyg.github.io/macicarsearch</a> publishes availability and status chips only. Never a dealer figure, counter, target, score, or posture. Generated from <span class="mono">data/board.json</span>; edit the data and rerun the generator, never the HTML.</li>
+      <li><strong>Never guess a car is sold.</strong> Only a dealer or Evan can confirm it. Listing sites are blocked from this environment.</li>
+      <li><strong>Voice for Evan's outbound:</strong> lead with the ask, plain sentences, no em dashes, no emoji, no “not X but Y” constructions. Sign “Thanks, Evan.” To Maci: matter-of-fact, no assumed context, sign “Love, Evan.”</li>
+      <li><strong>Read active threads by ID, not search.</strong> Gmail search served a stale copy of the Kirkland thread for over an hour on Thursday and caused a wrong “it didn't send” report. Fetch the thread directly.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Open loops after the sale</h2>
+    <ul class="plain">
+      <li><strong>Robert Dwyer at Auto 206 is owed a note.</strong> He asked to hear which GT won, and he handed over Kirkland's Carfax unprompted while trying to sell his own car. Two lines once it's done.</li>
+      <li>Optional: a one-line thanks to Amy at Titus-Will, who bowed out cleanly and is the best remaining backup.</li>
+      <li>28 dead Gmail drafts are retitled <span class="mono">DELETE ME</span> for bulk deletion. Two live drafts remain: the Kirkland 8:30 confirmation and the Puyallup open door.</li>
+      <li>Two open pull requests on the repo need a merge-or-close decision.</li>
+      <li>The hourly watch keeps firing until it's stopped.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Full contact log and every parsed sheet live in <span class="mono">outreach/README.md</span> on the tracking branch. Live board: <a href="https://claude.ai/code/artifact/0d0485b7-009a-4f04-ad88-4ee1a2aa99b3">status board</a> · <a href="https://claude.ai/code/artifact/68ca75dc-d904-42b3-bdb2-cbd8d3a63c8b">route map</a>. Buyer-side document. Not for dealer eyes.
+  </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+
+# Buyer-side negotiation page, explicitly excluded and also noindex at the page level
+Disallow: /deal-desk.html
