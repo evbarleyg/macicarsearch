@@ -533,9 +533,17 @@
    },
    "history": {
     "owners": 1,
-    "accidents": 0,
+    "accidents": 1,
     "cpo": false,
-    "verifiedVia": "Carfax (copy in hand) + CarGurus"
+    "verifiedVia": "CARFAX pulled by Hyundai of Kirkland 8/11/26 5:47 PM CDT, full report read 8/15/26. Supersedes the CarGurus no-accident badge, which is wrong.",
+    "accidentDetail": "07/31/2021 accident reported at roughly 4,000 miles; airbags did not deploy. No structural damage, no total loss, no odometer problems, and all title brands (salvage, junk, rebuilt, fire, flood, hail, lemon) guaranteed clear. CARFAX lists no severity and no impact location, and there is NO repair record anywhere on the report afterward.",
+    "serviceHistory": "12 service records, every one at Doug's Lynnwood Mazda from pre-delivery through 5/7/2026 at 32,321 mi. Regular oil changes throughout, CARFAX \"Well Maintained\".",
+    "ownerDetail": "One owner, personal vehicle, Washington only, 6,165 mi/yr, kept 5 yrs 4 mo.",
+    "lotSince": "2026-06-09",
+    "lotNote": "Ford of Kirkland listed it for sale 6/9/2026 at 33,175 mi.",
+    "warranty": "Factory warranty expired. No powertrain coverage remaining.",
+    "recalls": "No open recalls reported.",
+    "titleNote": "7/20/2026 title issued or updated: correction to record, duplicate title issued."
    },
    "deal": {
     "source": "CarGurus",
@@ -563,9 +571,9 @@
    "dealerKey": "kirkland",
    "comfortRank": 1,
    "latest": {
-    "text": "updated written proposal received Thu Aug 13 midday; license billed at actuals with any overage refunded and two keys confirmed in writing; window sticker being pulled to confirm the GT Premium package; replied Thu afternoon.",
-    "short": "updated written proposal received Thu Aug 13 midday; license billed at actuals with any overage refunded and two keys confirmed in writing; window sticker being pulled to confirm the GT Premium package; replied Thu afternoon.",
-    "asOf": "2026-08-13"
+    "text": "CARFAX read in full Sat Aug 15: one owner, Washington only, 12 dealer service records and no open recalls, but an accident reported 7/31/2021 with no severity, no impact location and no repair record. Previously carried here as accident-free, which was wrong.",
+    "short": "CARFAX read Aug 15: one owner and full service history, but an accident reported 7/31/2021.",
+    "asOf": "2026-08-15"
    },
    "contact": "quote",
    "quote": {
