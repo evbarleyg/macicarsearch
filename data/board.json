@@ -541,9 +541,11 @@
     "ownerDetail": "One owner, personal vehicle, Washington only, 6,165 mi/yr, kept 5 yrs 4 mo.",
     "lotSince": "2026-06-09",
     "lotNote": "Ford of Kirkland listed it for sale 6/9/2026 at 33,175 mi.",
-    "warranty": "Factory warranty expired. No powertrain coverage remaining.",
+    "warranty": "In service 01/01/2021. Basic 3yr/36k warranty expired Jan 2024; the 5-year powertrain warranty expired 01/01/2026 by time. No factory coverage of any kind remains. Confirmed on the CARFAX (\"Warranty Expired\"), not estimated.",
     "recalls": "No open recalls reported.",
-    "titleNote": "7/20/2026 title issued or updated: correction to record, duplicate title issued."
+    "titleNote": "7/20/2026 title issued or updated: correction to record, duplicate title issued.",
+    "inService": "2021-01-01",
+    "windowSticker": "The CARFAX Detailed History carries an Original Window Sticker link, which is the fastest way to confirm the GT Premium package."
    },
    "deal": {
     "source": "CarGurus",
@@ -5449,7 +5451,7 @@
   ],
   "sourcesHead": "13 sources across 2 rounds, plus daily re-check sweeps",
   "runnerUp": "Runners-up, comfort-first: #12, the Mazda-CPO 2023 Preferred at Lee Johnson ($26,348, in the same written request as #7), and #13, the ventilated-seat 2022 Premium Plus in Olympia (revised written quote in hand); #4, the dealer-confirmed Carbon Turbo in Portland ($26,102, quote in preparation), is the Oregon fallback (email only).",
-  "bestRemaining": "Best remaining, comfort-first: #5 2021 Grand Touring + GT Premium pkg at Kirkland ($25,192 list, written itemized quote in hand), then #12 Mazda-CPO 2023 Preferred at Lee Johnson ($26,348) and #13 ventilated-seat 2022 Premium Plus in Olympia ($27,389 list, revised written quote in hand), then the CPO pair: #9 2023 Carbon at Puyallup ($27,699) and #7 2022 Carbon at Lee Johnson ($27,512). #4, the dealer-confirmed Carbon Turbo in Portland at $26,102, is the Oregon fallback (email only). See New candidates below.",
+  "bestRemaining": "Best remaining, comfort-first: #5 2021 Grand Touring at Kirkland ($25,192 list, written itemized quote in hand) leads on equipment, with two caveats now on the record: the dealer-run Carfax reports an accident on 07/31/2021, and the GT Premium package is sourced from a listing field and has not been confirmed against the window sticker. Then #12 Mazda-CPO 2023 Preferred at Lee Johnson ($26,348) and #13 ventilated-seat 2022 Premium Plus in Olympia ($27,389 list, revised written quote in hand), then the CPO pair: #9 2023 Carbon at Puyallup ($27,699) and #7 2022 Carbon at Lee Johnson ($27,512). #4, the dealer-confirmed Carbon Turbo in Portland at $26,102, is the Oregon fallback (email only). See New candidates below.",
   "statusScope": "maintained automatically as dealer replies and listing changes come in. Prices are listed asking prices; availability reflects the latest information we have and can lag the lot.",
   "statusFootnote": "Ordered by current fit (comfort equipment, mileage, value). The full shortlist table has every column and sorts on any of them; the trim guide explains what each trim gets you.",
   "mapSummary": "Every board car grouped by the lot it sits on, with its current asking price and where the conversation stands. Availability lags the lot — a car is only really there when the dealer says so in writing.",
