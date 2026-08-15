@@ -535,7 +535,7 @@
     "owners": 1,
     "accidents": 1,
     "cpo": false,
-    "verifiedVia": "CARFAX pulled by Hyundai of Kirkland 8/11/26 5:47 PM CDT, full report read 8/15/26. Supersedes the CarGurus no-accident badge, which is wrong.",
+    "verifiedVia": "CARFAX pulled by Hyundai of Kirkland 8/11/26 5:47 PM CDT, full report read 8/15/26. The earlier accidents:0 on this record was entered here on 8/11 from listing data; the raw listing text was never stored, so what CarGurus actually displayed cannot now be confirmed. Treat the 0 as this session's error, not a proven dealer or listing claim. Note also that CarGurus and KBB commonly source AutoCheck rather than CARFAX, and an event on one report may legitimately not appear on the other.",
     "accidentDetail": "07/31/2021 accident reported at roughly 4,000 miles; airbags did not deploy. No structural damage, no total loss, no odometer problems, and all title brands (salvage, junk, rebuilt, fire, flood, hail, lemon) guaranteed clear. CARFAX lists no severity and no impact location, and there is NO repair record anywhere on the report afterward.",
     "serviceHistory": "12 service records, every one at Doug's Lynnwood Mazda from pre-delivery through 5/7/2026 at 32,321 mi. Regular oil changes throughout, CARFAX \"Well Maintained\".",
     "ownerDetail": "One owner, personal vehicle, Washington only, 6,165 mi/yr, kept 5 yrs 4 mo.",
