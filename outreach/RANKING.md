@@ -1,5 +1,9 @@
 # Live ranking — the cars with real written pricing
 
+> **FROZEN Sat Aug 15 2026, 5:30 PM. The search is closed.** Maci bought the gray 2023 CX-5
+> 2.5 Turbo, stock YW29065, from Puyallup Mazda. Nothing below is maintained. Kept as the
+> record of how the comparison looked while it was live, including the places it was wrong.
+
 > **STATUS, Sat Aug 15 1:25 PM: this sheet is superseded by events.** Evan and Maci drove the
 > Puyallup cars and agreed in person on the **gray 2023 2.5 Turbo, stock YW29065, at $30,200
 > out the door**. Nothing is signed yet. The sections below are kept as the record of how the

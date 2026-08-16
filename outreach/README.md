@@ -1306,3 +1306,25 @@ Per Evan, each live dealer gets the number that would actually take the top spot
 - **CORRECTION TO OUR OWN MODEL: Puyallup's licence on this car is about $350, not the $750 this session had been using.** Their $29,356 reconciles exactly as $26,398 selling + $2,408.18 tax on (selling less the $4,100 allowance) + $200 doc + ~$350 licence. Fixed in RANKING.md section 0. Every earlier OTD we computed for that car carried about $400 of licence padding, which means the price itself is better than we thought and the problem is purely in the financing.
 - TRADE: **$4,100 allowance is $1,100 below Carvana's $5,200 floor and $1,900 below Evan's $6,000 ask.** Against the $3,800 payoff that is $300 of equity. Flagged that "Effective Allowance $4,543" is $4,100 plus $443 of tax Maci was never going to owe, so it is not $4,543 of dealer money.
 - Nothing signed. Nothing marked sold. No emails staged, per the strategy session's standing instruction until the deal closes.
+
+### 2026-08-16 00:5xZ (5:5x PM PT Sat) — CLOSED. Maci bought the 2023 CX-5 2.5 Turbo. Watch stood down.
+
+**THE PURCHASE.** 2023 Mazda CX-5 2.5 Turbo AWD, Polymetal Gray Metallic, 27,990 miles, VIN JM3KFBAY3P0289626, stock YW29065, from **Puyallup Mazda**, Saturday Aug 15 2026. Buyer Maci Mendez. Salesperson Bilori Howard.
+
+**STRUCTURE.** Selling price **$26,398.00** on a $30,200 out-the-door basis (10.8% tax on selling less trade, $200 doc, licence at actuals with any overage refunded). Trade: 2017 Jeep Patriot, **allowance $4,100** plus the $443 tax credit for an effective $4,543, with the ~$3,800 payoff shown as its own line. **$5,000 cash down.** Financing **dealer-arranged at 5.99% over 60 months**, which beat First Tech's 6.240% approval, so that approval goes unused. **No F&I products.** Amount financed about $24,356 at roughly $471 a month.
+
+**THE $2,400 IN THE PAYMENT LADDER WAS REAL, AND IT CAME OUT.** This session flagged at 2:20 PM that the $559/$539/$520 ladder implied about $32,043 all-in against a $29,356 net out-the-door, and that the roughly $2,387 of unexplained principal was the size of a GAP-plus-service-contract bundle. It was: F&I had loaded a ~$3,000 "Platinum" service contract and a **$750 GPS** add-on into the quote. Both were removed before signing. The honest ladder was $512/$493/$474, which is what Evan ended up near.
+
+**WHERE IT LANDED AGAINST THE MARKET.** KBB fair purchase price $30,980, so bought **$4,582 under, about 14.8%**. CarGurus IMV about $30,144. The car's own asking trail: $28,854 on Jun 12, $28,814 on Jul 10, $28,199 list / $27,999 site on Aug 7, $27,719 on Aug 15, sold at $26,398. On the lot since 5/15/2026, 92 days. Clean one-owner California lease Carfax, four new tires 7/15/2026, factory basic warranty to about 9/22/2026 and powertrain to about 9/2028.
+
+**COURTESY DRAFTS STAGED** for Evan to send, no figures in any of them:
+- **Robert Dwyer, Auto 206** (r-1656494621776727977): answers the question he actually asked, thanks him for the clean sheet and the straight dealing, and tells him the Kirkland Carfax he sent unprompted mattered more than he could have guessed.
+- **Amy Washington, Titus-Will** (r7685036494136675531): thanks for honoring the number and for saying plainly when the gap was too wide.
+- **Ayres Horne, Kirkland** (r5689825336608671363): polite close, no need to hold the car, no commentary on the no-start or the accident.
+- Nothing to Puyallup, Rodland, Royal Moore, Doug's or Tonkin unless they write first.
+
+**BOARD AND SITE CLOSED.** YW29065 marked purchased on main (8a6e1a2), board frozen as of Aug 15, closing changelog entry added, site regenerated, leak scan clean. RANKING.md frozen with a header. One build error caught and fixed on the way: the closing changelog entry was written with a `text` key when the schema wants `bullets`, which failed the generator silently until the output was checked. Verify generated output, do not trust an exit code.
+
+**POST-SALE, for Evan:** Washington report of sale on the Jeep within 5 days; confirm the Jeep payoff posts in about 10 days; watch for the licence-overage refund and title/plates in 3 to 6 weeks; register the car in MyMazda; book a Mazda dealer inspection in early September to document anything non-powertrain before the ~9/22 basic-warranty expiry; and if an extended plan is wanted, get a Mazda-backed quote by email rather than through a dealer F&I desk.
+
+**WATCH STOOD DOWN** per Evan: "This is an accomplished task. Shut down all cron jobs and alerts." Hourly Routine stopped, no further push notifications. The ~30 `DELETE ME` drafts and every superseded CX-5 draft can be bulk-deleted whenever Evan wants; PRs #1 and #2 still need merge-or-close. Final entry.
