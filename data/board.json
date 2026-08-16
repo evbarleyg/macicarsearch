@@ -29,7 +29,9 @@
    -122.3321
   ],
   "buyerFirstName": "Evan",
-  "siteNote": "Every section of index.html, status.html, map.html and the PDF / Excel / Word downloads is generated from this file by tools/build_site.py."
+  "siteNote": "Every section of index.html, status.html, map.html and the PDF / Excel / Word downloads is generated from this file by tools/build_site.py.",
+  "status": "closed",
+  "closedDate": "2026-08-15"
  },
  "taxRatesByCity": {
   "Seattle, WA": 11.05,
@@ -51,7 +53,7 @@
    "rank": 1,
    "cohort": "aug7",
    "foundDate": "2026-08-07",
-   "status": "live",
+   "status": "sold",
    "year": 2023,
    "trim": "2.5 Turbo AWD",
    "trimFull": "2.5 Turbo AWD",
@@ -114,8 +116,8 @@
    "dealerKey": "puyallup_mazda",
    "comfortRank": 9,
    "latest": {
-    "text": "Seen and driven Sat Aug 15. The original window sticker confirms the full comfort package including ventilated front seats, and the CARFAX shows one owner, a personal lease and no accidents.",
-    "short": "Seen and driven Sat Aug 15; window sticker and CARFAX both obtained.",
+    "text": "Purchased Saturday Aug 15 2026 at Puyallup Mazda. This is the car the search ended on.",
+    "short": "Purchased Aug 15 2026.",
     "asOf": "2026-08-15"
    },
    "contact": "sent",
@@ -139,11 +141,17 @@
     "walkAwayOtd": 32100,
     "basis": "v2 negotiation pack (Aug 11 AM), Seattle-rate arithmetic"
    },
-   "soldInfo": null,
+   "soldInfo": {
+    "date": "2026-08-15",
+    "how": "purchased by the buyer this report was built for",
+    "statusLine": "Purchased Aug 15 2026",
+    "short": "Puyallup '23 2.5 Turbo",
+    "label": "2023 CX-5 2.5 Turbo AWD, 27,990 mi"
+   },
    "topPick": 2,
    "pickTag": "Stretch pick",
    "pickWhy": "Biggest FPP gap in the entire dataset ($2,781 under), 1-owner, {days} days on lot → strongest negotiating leverage. Dealer's own site shows $27,999; still no written OTD as of {refreshed} (form lead + phone promise Aug 11).",
-   "tag": "Stretch pick.",
+   "tag": "purchased",
    "notes": {
     "table": "{days} days listed, several drops; KBB and the dealer's own site show $27,999. Active on CarGurus, KBB and AutoTempest {refreshed} (the Aug 11 sale report was wrong).",
     "card": "{days} days listed, biggest FPP gap in set; dealer site $27,999."
@@ -5334,6 +5342,15 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-08-15",
+   "bullets": [
+    "Search closed. The buyer purchased the 2023 CX-5 2.5 Turbo AWD (VIN JM3KFBAY3P0289626, 27,990 miles) from Puyallup Mazda on Aug 15 2026.",
+    "The board is frozen as of that date. Prices, availability and history notes on the remaining cars reflect the last verification before close and are no longer being maintained.",
+    "Verified in person that day: the 2023 Turbo's original window sticker (full comfort package standard on the 25T trim) and a clean one-owner CARFAX.",
+    "Removed from consideration: Puyallup's red 2021, a Canadian-market car whose CARFAX records a Saskatchewan safety-inspection failure on 8/15/2025 with no repair record after it."
+   ]
+  },
   {
    "date": "2026-08-14",
    "bullets": [
