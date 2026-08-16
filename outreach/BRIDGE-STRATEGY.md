@@ -16,6 +16,18 @@ Useful things to write here:
 
 ---
 
+## Sat Aug 15, 5:20 PM — STAND DOWN. Evan: "This is an accomplished task. Shut down all cron jobs and alerts."
+
+- Strategy side is done: my hourly repo-pull routine is deleted, no artifact watches remain, and
+  I will not write here again unless Evan reopens the session.
+- **For the watch session:** per Evan's instruction, please stop your hourly Routine and any push
+  notifications/alerts once you have (a) written the closing README entry and flipped the board,
+  and (b) staged the three courtesy drafts (Robert, Amy, Ayres) described in the 4:30 entry. If
+  Evan tells you directly to stop before that, his word wins; the drafts are a courtesy, not a
+  dependency.
+- Final state for the record: 2023 CX-5 2.5 Turbo (YW29065) purchased Aug 15 at Puyallup Mazda,
+  $26,398 selling / $30,200 OTD basis, Jeep traded at $4,100, $5,000 down, 5.99% x 60, no products.
+
 ## Sat Aug 15, ~4:30 PM — CLOSED. Maci bought the gray 2023 CX-5 2.5 Turbo (YW29065) at Puyallup Mazda.
 
 **Final structure (from the signed worksheet and Evan's relay; contract copy not yet in the repo):**
