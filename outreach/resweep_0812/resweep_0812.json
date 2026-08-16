@@ -1,0 +1,2902 @@
+{
+  "fetchedAt": "2026-08-12T00:11:53.832Z",
+  "sweep": "2026-08-12",
+  "sourceCounts": {
+    "autotempest": 125,
+    "cargurus": 47,
+    "carvana": 59,
+    "kbb": 45,
+    "carmax": 96,
+    "craigslist": 14
+  },
+  "sourceNotes": {
+    "autotempest": "125 listings",
+    "cargurus": "VDPs via AutoTempest IDs + board ids: 50/50 ok, 3 CLOSED/removed",
+    "carvana": "via AutoTempest (59)",
+    "kbb": "via __NEXT_DATA__/__eggsState.inventory (45 unique, site total=45)",
+    "carmax": "via /cars/api/search/run (96 unique, total=169)",
+    "craigslist": "14 results"
+  },
+  "counts": {
+    "raw": 386,
+    "uniqueVins": 223,
+    "noVin": 14,
+    "priorVins": 153,
+    "aug11Vins": 198,
+    "newVins": 26,
+    "newPassed": 1,
+    "newDropped": 25,
+    "priceDelta": {
+      "n": 197,
+      "median": 0,
+      "down": 17,
+      "up": 2
+    }
+  },
+  "board": [
+    {
+      "rank": 1,
+      "year": 2023,
+      "trim": "2.5 Turbo AWD",
+      "dealer": "Puyallup Mazda",
+      "city": "Puyallup, WA",
+      "state": "WA",
+      "vin": "JM3KFBAY3P0289626",
+      "stock": "YW29065",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/448185375",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/780500436"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $28,199 · 89d",
+        "KBB SRP $27,999",
+        "KBB VDP $27,999 · 88d on site",
+        "AT: CarGurus $28,199"
+      ],
+      "price_recorded": 28199,
+      "price_note": "$27,999 on dealer site (Aug 11 PM)",
+      "listed_today": 28199,
+      "prices_today": {
+        "cg": 28199,
+        "kbb": 27999,
+        "kbb_vdp": 27999,
+        "at": 28199
+      },
+      "price_move": 0,
+      "miles_today": 27990,
+      "dom_today": 89,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Great",
+        "belowMarket": 1945
+      },
+      "kbb_today": {
+        "fpp": 30980,
+        "fppDelta": 2781,
+        "price": 27999
+      },
+      "history_today": "1-owner / 0 acc",
+      "quote": null,
+      "comms": "Form lead Aug 11 (covers #1/#6; #9 folded in); dealer phoned Aug 11 AM promising an emailed OTD; nothing received by Aug 11 evening",
+      "latest": "Awaiting written OTD: form lead Aug 11 + phone promise, nothing received yet",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 28199,
+          "miles": 27990,
+          "dom": 89,
+          "deal": "Great",
+          "belowMarket": 1945,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 33,
+          "vin": "JM3KFBAY3P0289626",
+          "stock": "YW29065",
+          "dealer": "Puyallup Mazda",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 27999,
+          "displayPrice": 28199,
+          "fees": 200,
+          "miles": 27990,
+          "deal": "Great",
+          "fpp": 30980,
+          "fppDelta": 2781,
+          "dos": 88,
+          "hist": [
+            {
+              "date": "07.10.2026",
+              "price": "$28,814"
+            },
+            {
+              "date": "Price Today",
+              "price": "$28,199"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 780500436,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/780500436",
+          "price": 27999,
+          "displayPrice": 28199,
+          "fees": 200,
+          "miles": 27990,
+          "fpp": 30980,
+          "fppDelta": 2781,
+          "dos": 88,
+          "hist": [
+            {
+              "date": "07.10.2026",
+              "price": "$28,814"
+            },
+            {
+              "date": "Price Today",
+              "price": "$28,199"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Puyallup Mazda",
+          "vin": "JM3KFBAY3P0289626",
+          "stock": "YW29065",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 28199,
+            "miles": 27990,
+            "listedAgo": "May 15th",
+            "dealer": "Puyallup Mazda"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "year": 2022,
+      "trim": "2.5 Turbo AWD",
+      "dealer": "Acura of Seattle",
+      "city": "Tukwila, WA",
+      "state": "WA",
+      "vin": "JM3KFBAY6N0592364",
+      "stock": "A036",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/451655500"
+      },
+      "repo_status": "sold",
+      "sold_date": "Aug 11",
+      "sold_evidence": "CarGurus closed-listing page + KBB expired + dealer VIN search empty (Aug 11)",
+      "moves_by_source": {},
+      "verdict": "SOLD (repo-confirmed; not overridden)",
+      "signals": [
+        "CG closed"
+      ],
+      "price_recorded": 27300,
+      "price_note": null,
+      "listed_today": null,
+      "prices_today": {
+        "cg": 27300
+      },
+      "price_move": null,
+      "miles_today": 25353,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": null,
+      "latest": "Sold (confirmed Aug 11 PM)",
+      "today": {
+        "cg": {
+          "status": "closed",
+          "price": 27300,
+          "miles": 25353,
+          "dom": 49,
+          "belowMarket": null,
+          "owners": 2,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 23,
+          "vin": "JM3KFBAY6N0592364",
+          "stock": "A036",
+          "dealer": "Acura of Seattle",
+          "addr": null,
+          "listingStatus": null
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "year": 2021,
+      "trim": "Grand Touring Reserve AWD (2.5T)",
+      "dealer": "BMW Seattle",
+      "city": "Seattle, WA",
+      "state": "WA",
+      "vin": "JM3KFBAY5M0463157",
+      "stock": "463157ML2",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/455054228",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/787237825"
+      },
+      "repo_status": "sold",
+      "sold_date": "Aug 11",
+      "sold_evidence": "Dealer told Evan by phone Aug 11 10:18 AM PT; KBB listing expired; CarGurus syndication lagged",
+      "moves_by_source": {},
+      "verdict": "SOLD (repo-confirmed; not overridden)",
+      "signals": [
+        "CG closed",
+        "KBB VDP removed/expired",
+        "AT: Cars.com $24,999"
+      ],
+      "price_recorded": 24999,
+      "price_note": null,
+      "listed_today": 24999,
+      "prices_today": {
+        "cg": 24999,
+        "at": 24999
+      },
+      "price_move": null,
+      "miles_today": 39141,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": null,
+      "latest": "Sold (dealer-confirmed by phone Aug 11)",
+      "today": {
+        "cg": {
+          "status": "closed",
+          "price": 24999,
+          "miles": 39141,
+          "dom": 11,
+          "belowMarket": null,
+          "owners": 2,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 33,
+          "vin": "JM3KFBAY5M0463157",
+          "stock": "463157ML2",
+          "dealer": "BMW Seattle",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb_vdp": {
+          "status": "removed/expired",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/all/dallas-tx?redirectExpiredPage=1&zip=75201",
+          "price": null,
+          "displayPrice": null,
+          "fees": null,
+          "miles": null,
+          "fpp": null,
+          "fppDelta": null,
+          "dos": null,
+          "hist": null,
+          "vhr": null,
+          "dealer": null,
+          "vin": null,
+          "stock": null,
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 24999,
+            "miles": 39141,
+            "listedAgo": "12 days ago",
+            "dealer": "Bmw Seattle"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "year": 2021,
+      "trim": "Carbon Edition Turbo AWD (turbo confirmed by dealer)",
+      "dealer": "Ron Tonkin Honda",
+      "city": "Portland, OR",
+      "state": "OR",
+      "vin": "JM3KFBCYXM0385696",
+      "stock": "UH1679",
+      "urls": {
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/782577606",
+        "dealer": "https://www.rontonkinhonda.com/inventory/JM3KFBCYXM0385696?stocknum=UH1679",
+        "cg": "https://www.cargurus.com/Cars/listing/450351356"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0,
+        "dealer": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $26,302 · 64d",
+        "KBB SRP $26,512",
+        "KBB VDP $26,512 · 63d on site",
+        "AT: CarGurus $26,302",
+        "dealer VDP http 200 VIN present"
+      ],
+      "price_recorded": 26102,
+      "price_note": "dealer-site total $25,852 + $250; KBB $26,762 fees-incl / $26,512",
+      "listed_today": 26302,
+      "prices_today": {
+        "cg": 26302,
+        "kbb": 26512,
+        "kbb_vdp": 26512,
+        "at": 26302
+      },
+      "price_move": 0,
+      "miles_today": 34800,
+      "dom_today": 64,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Fair",
+        "belowMarket": 149
+      },
+      "kbb_today": {
+        "fpp": 29374,
+        "fppDelta": 2612,
+        "price": 26512
+      },
+      "history_today": "1-owner / 0 acc",
+      "quote": null,
+      "comms": "KBB inquiry Aug 11 16:27Z; Izzy confirmed Carbon Edition Turbo + on lot; Evan countered $28,500 OTD Aug 11 3:36 PM PT; 3:57 PM: quote in preparation with manager",
+      "latest": "Quote in preparation (Aug 11 3:57 PM); Evan’s counter $28,500 OTD sent; OR: email-only leverage",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 26302,
+          "miles": 34800,
+          "dom": 64,
+          "deal": "Fair",
+          "belowMarket": 149,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 34,
+          "vin": "JM3KFBCYXM0385696",
+          "stock": "UH1679",
+          "dealer": "Ron Tonkin Honda",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 26512,
+          "displayPrice": 26762,
+          "fees": 250,
+          "miles": 34800,
+          "deal": "Great",
+          "fpp": 29374,
+          "fppDelta": 2612,
+          "dos": 63,
+          "hist": [
+            {
+              "date": "07.10.2026",
+              "price": "$28,072"
+            },
+            {
+              "date": "07.17.2026",
+              "price": "$27,462"
+            },
+            {
+              "date": "07.24.2026",
+              "price": "$27,062"
+            },
+            {
+              "date": "Price Today",
+              "price": "$26,762"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 782577606,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/782577606",
+          "price": 26512,
+          "displayPrice": 26762,
+          "fees": 250,
+          "miles": 34800,
+          "fpp": 29374,
+          "fppDelta": 2612,
+          "dos": 63,
+          "hist": [
+            {
+              "date": "07.10.2026",
+              "price": "$28,072"
+            },
+            {
+              "date": "07.17.2026",
+              "price": "$27,462"
+            },
+            {
+              "date": "07.24.2026",
+              "price": "$27,062"
+            },
+            {
+              "date": "Price Today",
+              "price": "$26,762"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Ron Tonkin Honda",
+          "vin": "JM3KFBCYXM0385696",
+          "stock": "UH1679",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 26302,
+            "miles": 34800,
+            "listedAgo": "Jun 9th",
+            "dealer": "Ron Tonkin Honda"
+          }
+        ],
+        "dealer_vdp": {
+          "http": 200,
+          "vinPresent": true,
+          "prices": [
+            25852,
+            26102
+          ],
+          "blocked": false,
+          "sold": false
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "year": 2021,
+      "trim": "Grand Touring AWD (GT Premium pkg)",
+      "dealer": "Hyundai / Ford of Kirkland",
+      "city": "Kirkland, WA",
+      "state": "WA",
+      "vin": "JM3KFBDM3M0301052",
+      "stock": "O94564A",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/451807182",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/782572696"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $25,192 · 48d",
+        "KBB SRP $25,192",
+        "KBB VDP $25,192 · 63d on site",
+        "AT: CarGurus $25,192"
+      ],
+      "price_recorded": 25192,
+      "price_note": null,
+      "listed_today": 25192,
+      "prices_today": {
+        "cg": 25192,
+        "kbb": 25192,
+        "kbb_vdp": 25192,
+        "at": 25192
+      },
+      "price_move": 0,
+      "miles_today": 33336,
+      "dom_today": 48,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 1088
+      },
+      "kbb_today": {
+        "fpp": 28530,
+        "fppDelta": 3338,
+        "price": 25192
+      },
+      "history_today": "1-owner / 0 acc",
+      "quote": {
+        "otd": 28591.14,
+        "selling": 24992,
+        "doc": 200,
+        "license": 700,
+        "tax": 2699.14,
+        "addons": 0,
+        "date": "Aug 11 4:21 PM PT"
+      },
+      "comms": "Emailed Aug 11 07:00Z; counter $27,700 OTD via site form 3:5x PM; WRITTEN PROPOSAL 4:21 PM PT: selling $24,992 ($200 under list), tax $2,699.14 (10.8%), license est $700, doc $200, OTD $28,591.14, zero add-ons; accept + deposit-hold reply staged (send status not logged). Auto 206 forwarded this car’s Carfax: clean history confirmed",
+      "latest": "Written quote Aug 11 4:21 PM: $24,992 selling / $28,591.14 OTD, zero add-ons; accept + deposit hold staged",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 25192,
+          "miles": 33336,
+          "dom": 48,
+          "deal": "Good",
+          "belowMarket": 1088,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 23,
+          "vin": "JM3KFBDM3M0301052",
+          "stock": "O94564A",
+          "dealer": "Hyundai of Kirkland",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 25192,
+          "displayPrice": 25192,
+          "fees": null,
+          "miles": 33336,
+          "deal": null,
+          "fpp": 28530,
+          "fppDelta": 3338,
+          "dos": 63,
+          "hist": [
+            {
+              "date": "06.13.2026",
+              "price": "$27,651"
+            },
+            {
+              "date": "06.19.2026",
+              "price": "$27,851"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$27,092"
+            },
+            {
+              "date": "Price Today",
+              "price": "$25,192"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 782572696,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/782572696",
+          "price": 25192,
+          "displayPrice": 25192,
+          "fees": null,
+          "miles": 33336,
+          "fpp": 28530,
+          "fppDelta": 3338,
+          "dos": 63,
+          "hist": [
+            {
+              "date": "06.13.2026",
+              "price": "$27,651"
+            },
+            {
+              "date": "06.19.2026",
+              "price": "$27,851"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$27,092"
+            },
+            {
+              "date": "Price Today",
+              "price": "$25,192"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Ford of Kirkland",
+          "vin": "JM3KFBDM3M0301052",
+          "stock": "O94564A",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 25192,
+            "miles": 33336,
+            "listedAgo": "Jun 25th",
+            "dealer": "Hyundai Of Kirkland"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "year": 2021,
+      "trim": "Carbon Edition Turbo AWD",
+      "dealer": "Puyallup Mazda",
+      "city": "Puyallup, WA",
+      "state": "WA",
+      "vin": "JM3KFBDYXM0120596",
+      "stock": "YS29241",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/449972241",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/782113493"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $25,198 · 69d",
+        "KBB SRP $24,998",
+        "KBB VDP $24,998 · 61d on site",
+        "AT: CarGurus $25,198"
+      ],
+      "price_recorded": 25198,
+      "price_note": "$24,998 + $200 on KBB/AT",
+      "listed_today": 25198,
+      "prices_today": {
+        "cg": 25198,
+        "kbb": 24998,
+        "kbb_vdp": 24998,
+        "at": 25198
+      },
+      "price_move": 0,
+      "miles_today": 42515,
+      "dom_today": 69,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Great",
+        "belowMarket": 1939
+      },
+      "kbb_today": {
+        "fpp": 0,
+        "fppDelta": -25198,
+        "price": 24998
+      },
+      "history_today": null,
+      "quote": null,
+      "comms": "Same Puyallup form lead as #1 (Aug 11); OTD promised by phone; nothing received",
+      "latest": "Awaiting written OTD: same Puyallup lead as #1 (Aug 11), phone promise only",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 25198,
+          "miles": 42515,
+          "dom": 69,
+          "deal": "Great",
+          "belowMarket": 1939,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 33,
+          "vin": "JM3KFBDYXM0120596",
+          "stock": "YS29241",
+          "dealer": "Puyallup Mazda",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 24998,
+          "displayPrice": 25198,
+          "fees": 200,
+          "miles": 42515,
+          "deal": null,
+          "fpp": 0,
+          "fppDelta": -25198,
+          "dos": 61,
+          "hist": [
+            {
+              "date": "06.13.2026",
+              "price": "$29,499"
+            },
+            {
+              "date": "06.13.2026",
+              "price": "$29,699"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$28,165"
+            },
+            {
+              "date": "Price Today",
+              "price": "$25,198"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED"
+          ],
+          "id": 782113493,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/782113493",
+          "price": 24998,
+          "displayPrice": 25198,
+          "fees": 200,
+          "miles": 42515,
+          "fpp": 0,
+          "fppDelta": -25198,
+          "dos": 61,
+          "hist": [
+            {
+              "date": "06.13.2026",
+              "price": "$29,499"
+            },
+            {
+              "date": "06.13.2026",
+              "price": "$29,699"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$28,165"
+            },
+            {
+              "date": "Price Today",
+              "price": "$25,198"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED"
+          ],
+          "dealer": "Puyallup Mazda",
+          "vin": "JM3KFBDYXM0120596",
+          "stock": "YS29241",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 25198,
+            "miles": 42515,
+            "listedAgo": "Jun 11th",
+            "dealer": "Puyallup Mazda"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "year": 2022,
+      "trim": "2.5 S Carbon Edition AWD · Mazda CPO",
+      "dealer": "Lee Johnson Mazda of Seattle",
+      "city": "Seattle, WA",
+      "state": "WA",
+      "vin": "JM3KFBCM4N0546820",
+      "stock": "U14590",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/453287059",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785453744"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $27,512 · 30d",
+        "KBB SRP $27,512",
+        "KBB VDP $27,512 · 30d on site",
+        "AT: CarGurus $27,512"
+      ],
+      "price_recorded": 27512,
+      "price_note": "+$540 vs Aug 7 ($26,972)",
+      "listed_today": 27512,
+      "prices_today": {
+        "cg": 27512,
+        "kbb": 27512,
+        "kbb_vdp": 27512,
+        "at": 27512
+      },
+      "price_move": 0,
+      "miles_today": 34749,
+      "dom_today": 30,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 349
+      },
+      "kbb_today": {
+        "fpp": 27440,
+        "fppDelta": -72,
+        "price": 27512
+      },
+      "history_today": "1-owner / 0 acc · CPO",
+      "quote": null,
+      "comms": "Emailed Aug 11 06:55Z (v1); fresh two-car OTD request (#7 + #12) sent Aug 11 3:50 PM PT; no reply logged",
+      "latest": "Awaiting: two-car OTD request (#7 + #12) emailed Aug 11 3:50 PM, no reply yet",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 27512,
+          "miles": 34749,
+          "dom": 30,
+          "deal": "Good",
+          "belowMarket": 349,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": true,
+          "photos": 33,
+          "vin": "JM3KFBCM4N0546820",
+          "stock": "U14590",
+          "dealer": "Lee Johnson Mazda of Seattle",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 27512,
+          "displayPrice": 27512,
+          "fees": null,
+          "miles": 34749,
+          "deal": null,
+          "fpp": 27440,
+          "fppDelta": -72,
+          "dos": 30,
+          "hist": [
+            {
+              "date": "07.20.2026",
+              "price": "$26,419"
+            },
+            {
+              "date": "07.21.2026",
+              "price": "$27,112"
+            },
+            {
+              "date": "08.01.2026",
+              "price": "$26,972"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,512"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 785453744,
+          "cpo": {
+            "id": "MAZCERT"
+          }
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/785453744",
+          "price": 27512,
+          "displayPrice": 27512,
+          "fees": null,
+          "miles": 34749,
+          "fpp": 27440,
+          "fppDelta": -72,
+          "dos": 30,
+          "hist": [
+            {
+              "date": "07.20.2026",
+              "price": "$26,419"
+            },
+            {
+              "date": "07.21.2026",
+              "price": "$27,112"
+            },
+            {
+              "date": "08.01.2026",
+              "price": "$26,972"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,512"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Lee Johnson Mazda of Seattle",
+          "vin": "JM3KFBCM4N0546820",
+          "stock": "U14590",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 27512,
+            "miles": 34749,
+            "listedAgo": "29 days ago",
+            "dealer": "Lee Johnson Mazda Of Seattle"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD",
+      "dealer": "Royal Moore Mazda",
+      "city": "Hillsboro, OR",
+      "state": "OR",
+      "vin": "JM3KFBCM6P0274841",
+      "stock": "661788A",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/454567468"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $26,900 · 15d",
+        "KBB SRP $26,900",
+        "AT: Cars.com $26,900"
+      ],
+      "price_recorded": 26900,
+      "price_note": "“no additional dealer fees” badge",
+      "listed_today": 26900,
+      "prices_today": {
+        "cg": 26900,
+        "kbb": 26900,
+        "at": 26900
+      },
+      "price_move": 0,
+      "miles_today": 16615,
+      "dom_today": 15,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 469
+      },
+      "kbb_today": {
+        "fpp": 27590,
+        "fppDelta": 690,
+        "price": 26900
+      },
+      "history_today": "1-owner / 0 acc",
+      "quote": {
+        "otd": null,
+        "note": "PDF 362407.pdf unparsed; add-ons Courtesy Guard + Forever Start",
+        "date": "Aug 11 3:06 PM PT"
+      },
+      "comms": "Site form Aug 11 08:14Z; engaged (Grace/Fernando/Ashley); written breakdown PDF received Aug 11 3:06 PM PT (figures not transcribed) and it carries two dealer add-ons, Courtesy Guard + Forever Start; Evan countered two-car $29,600 (#8) / $29,400 (#20) OTD 3:35 PM; reply staged: remove add-ons or pass",
+      "latest": "Written quote Aug 11 (PDF, figures not yet transcribed; lists Courtesy Guard + Forever Start add-ons); countered $29,600 OTD; OR: email-only",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 26900,
+          "miles": 16615,
+          "dom": 15,
+          "deal": "Good",
+          "belowMarket": 469,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 35,
+          "vin": "JM3KFBCM6P0274841",
+          "stock": "661788A",
+          "dealer": "Royal Moore Mazda Buick GMC",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 26900,
+          "displayPrice": 26900,
+          "fees": null,
+          "miles": 16612,
+          "deal": null,
+          "fpp": 27590,
+          "fppDelta": 690,
+          "dos": 14,
+          "hist": [
+            {
+              "date": "07.29.2026",
+              "price": "$28,900"
+            },
+            {
+              "date": "07.31.2026",
+              "price": "$28,400"
+            },
+            {
+              "date": "08.04.2026",
+              "price": "$27,800"
+            },
+            {
+              "date": "Price Today",
+              "price": "$26,900"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 786775960,
+          "cpo": null
+        },
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 26900,
+            "miles": 16612,
+            "listedAgo": "13 days ago",
+            "dealer": "Royal Moore Toyota"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition AWD · Mazda CPO",
+      "dealer": "Puyallup Mazda",
+      "city": "Puyallup, WA",
+      "state": "WA",
+      "vin": "JM3KFBCMXP0288130",
+      "stock": "M260362A",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/450917825",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/783147875"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $27,699 · 58d",
+        "KBB SRP $27,499",
+        "KBB VDP $27,499 · 57d on site",
+        "AT: CarGurus $27,699"
+      ],
+      "price_recorded": 27699,
+      "price_note": null,
+      "listed_today": 27699,
+      "prices_today": {
+        "cg": 27699,
+        "kbb": 27499,
+        "kbb_vdp": 27499,
+        "at": 27699
+      },
+      "price_move": 0,
+      "miles_today": 33006,
+      "dom_today": 58,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 518
+      },
+      "kbb_today": {
+        "fpp": 28090,
+        "fppDelta": 391,
+        "price": 27499
+      },
+      "history_today": "1-owner / 0 acc · CPO",
+      "quote": null,
+      "comms": "Folded into the Puyallup #1/#6 lead; OTD promised by phone; nothing received",
+      "latest": "Awaiting: folded into the Puyallup #1/#6 inquiry; no written numbers yet",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 27699,
+          "miles": 33006,
+          "dom": 58,
+          "deal": "Good",
+          "belowMarket": 518,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": true,
+          "photos": 33,
+          "vin": "JM3KFBCMXP0288130",
+          "stock": "M260362A",
+          "dealer": "Puyallup Mazda",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 27499,
+          "displayPrice": 27699,
+          "fees": 200,
+          "miles": 33006,
+          "deal": "Great",
+          "fpp": 28090,
+          "fppDelta": 391,
+          "dos": 57,
+          "hist": [
+            {
+              "date": "06.15.2026",
+              "price": "$28,637"
+            },
+            {
+              "date": "06.15.2026",
+              "price": "$28,837"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$28,737"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,699"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 783147875,
+          "cpo": {
+            "id": "MAZCERT"
+          }
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/783147875",
+          "price": 27499,
+          "displayPrice": 27699,
+          "fees": 200,
+          "miles": 33006,
+          "fpp": 28090,
+          "fppDelta": 391,
+          "dos": 57,
+          "hist": [
+            {
+              "date": "06.15.2026",
+              "price": "$28,637"
+            },
+            {
+              "date": "06.15.2026",
+              "price": "$28,837"
+            },
+            {
+              "date": "07.10.2026",
+              "price": "$28,737"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,699"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Puyallup Mazda",
+          "vin": "JM3KFBCMXP0288130",
+          "stock": "M260362A",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 27699,
+            "miles": 33006,
+            "listedAgo": "Jun 15th",
+            "dealer": "Puyallup Mazda"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD",
+      "dealer": "Columbia Sales & Service (independent)",
+      "city": "Portland, OR",
+      "state": "OR",
+      "vin": "JM3KFBCM9P0119426",
+      "stock": "2468",
+      "urls": {
+        "carscom": "https://www.cars.com/vehicledetail/d4fd9d01-99f9-4673-87c0-1a173ef9551f/",
+        "cg": "https://www.cargurus.com/Cars/listing/453316571"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "verdict": "active (2 src)",
+      "signals": [
+        "CG active $23,995 · 29d",
+        "AT: CarGurus $23,995"
+      ],
+      "price_recorded": 24095,
+      "price_note": "$23,995 + $100 doc prep",
+      "listed_today": 23995,
+      "prices_today": {
+        "cg": 23995,
+        "at": 23995
+      },
+      "price_move": 0,
+      "miles_today": 44989,
+      "dom_today": 29,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": "2-owner / 0 acc",
+      "quote": null,
+      "comms": "Emailed Aug 11 06:59Z; no reply",
+      "latest": "Emailed Aug 11, no reply; OR indie: Carfax + inspection before any visit",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 23995,
+          "miles": 44989,
+          "dom": 29,
+          "deal": null,
+          "belowMarket": 1449,
+          "owners": 2,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 28,
+          "vin": "JM3KFBCM9P0119426",
+          "stock": "2468",
+          "dealer": "Columbia Sales & Service Inc",
+          "addr": null,
+          "listingStatus": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 23995,
+            "miles": 44989,
+            "listedAgo": "28 days ago",
+            "dealer": "Columbia Sales &amp; Service Inc"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "year": 2022,
+      "trim": "Carbon Edition",
+      "dealer": "CarMax Sacramento South",
+      "city": "Sacramento, CA",
+      "state": "CA",
+      "vin": "JM3KFBCM0N1599511",
+      "stock": "70056694",
+      "urls": {
+        "carmax": "https://www.carmax.com/car/70056694"
+      },
+      "repo_status": "sold",
+      "sold_date": "Aug 11",
+      "sold_evidence": "CarMax VDP Sold badge; absent from CarMax API (Aug 11)",
+      "moves_by_source": {},
+      "verdict": "SOLD (repo-confirmed; not overridden)",
+      "signals": [
+        "CarMax absent from CarMax API results (98101, ≤$29k, ≤50k mi)"
+      ],
+      "price_recorded": 24998,
+      "price_note": null,
+      "listed_today": null,
+      "prices_today": {},
+      "price_move": null,
+      "miles_today": 48337,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": null,
+      "latest": "Sold (Aug 11 PM)",
+      "today": {
+        "carmax": {
+          "status": "absent from CarMax API results (98101, ≤$29k, ≤50k mi)"
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD · Mazda CPO",
+      "dealer": "Lee Johnson Mazda of Seattle",
+      "city": "Seattle, WA",
+      "state": "WA",
+      "vin": "JM3KFBCM7P0256994",
+      "stock": null,
+      "urls": {
+        "carscom": "https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {},
+      "verdict": "unverified today (Cars.com-only listing; Cars.com VDP bot-blocked (403) from this environment; never in the AutoTempest feed)",
+      "signals": [],
+      "price_recorded": 26348,
+      "price_note": null,
+      "listed_today": null,
+      "prices_today": {},
+      "price_move": null,
+      "miles_today": 36400,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": "Included in the Lee Johnson two-car OTD request sent Aug 11 3:50 PM PT; no reply",
+      "latest": "Awaiting: in the Lee Johnson two-car request (Aug 11 3:50 PM), no reply yet",
+      "today": {}
+    },
+    {
+      "rank": 13,
+      "year": 2022,
+      "trim": "2.5 S Premium Plus AWD",
+      "dealer": "Titus-Will Chevrolet GMC Cadillac",
+      "city": "Olympia, WA",
+      "state": "WA",
+      "vin": "JM3KFBEM1N0590576",
+      "stock": "P11101",
+      "urls": {
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/784195725",
+        "carscom": "https://www.cars.com/vehicledetail/0a20ba70-ab2e-4f4a-a332-093e8e7eb594/"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "kbb": 0,
+        "carscom": 0
+      },
+      "verdict": "active (2 src)",
+      "signals": [
+        "KBB SRP $27,389",
+        "KBB VDP $27,389 · 45d on site",
+        "AT: Cars.com $27,789"
+      ],
+      "price_recorded": 27389,
+      "price_note": "KBB, dealer fees included",
+      "listed_today": 27389,
+      "prices_today": {
+        "kbb": 27389,
+        "kbb_vdp": 27389,
+        "at": 27789
+      },
+      "price_move": 0,
+      "miles_today": 43640,
+      "dom_today": 45,
+      "deal_today": {
+        "src": "KBB",
+        "rating": "Good",
+        "fppDelta": -389,
+        "fpp": 27000
+      },
+      "kbb_today": {
+        "fpp": 27000,
+        "fppDelta": -389,
+        "price": 27389
+      },
+      "history_today": null,
+      "quote": {
+        "otd": 31000,
+        "selling": 27268.6,
+        "first_otd": 32229.17,
+        "date": "Aug 11 4:43 PM PT"
+      },
+      "comms": "KBB inquiry Aug 11; first proposal 2:29 PM PT: $32,229.17 OTD ($27,389 + $995 KARR add-on + $750 gov fees + $200 doc + $2,895.17 tax); Evan countered $30,200 OTD w/ KARR + gov-fee strikes 3:36 PM; REVISED proposal 4:43 PM: KARR removed, selling $27,268.60, OTD $31,000 even ($750 gov fee refund-at-actuals); reply staged holding $30,200",
+      "latest": "Revised written quote Aug 11 4:43 PM: $27,268.60 selling / $31,000 OTD, KARR add-on struck (first sheet was $32,229.17); Evan holding at $30,200",
+      "today": {
+        "kbb": {
+          "status": "active(srp)",
+          "price": 27389,
+          "displayPrice": 27389,
+          "fees": 200,
+          "miles": 43640,
+          "deal": "Good",
+          "fpp": 27000,
+          "fppDelta": -389,
+          "dos": 45,
+          "hist": [
+            {
+              "date": "06.27.2026",
+              "price": "$28,195"
+            },
+            {
+              "date": "07.03.2026",
+              "price": "$27,889"
+            },
+            {
+              "date": "07.30.2026",
+              "price": "$27,589"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,389"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_FRAME_DAMAGE",
+            "NO_FLOOD_WATER_DAMAGE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER",
+            "FREE_REPORT"
+          ],
+          "id": 784195725,
+          "cpo": {
+            "id": "CARBRAVO_OFF_CERT"
+          }
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/784195725",
+          "price": 27389,
+          "displayPrice": 27389,
+          "fees": 200,
+          "miles": 43640,
+          "fpp": 27000,
+          "fppDelta": -389,
+          "dos": 45,
+          "hist": [
+            {
+              "date": "06.27.2026",
+              "price": "$28,195"
+            },
+            {
+              "date": "07.03.2026",
+              "price": "$27,889"
+            },
+            {
+              "date": "07.30.2026",
+              "price": "$27,589"
+            },
+            {
+              "date": "Price Today",
+              "price": "$27,389"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_FRAME_DAMAGE",
+            "NO_FLOOD_WATER_DAMAGE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER",
+            "FREE_REPORT"
+          ],
+          "dealer": "Titus-Will Chevrolet GMC Cadillac - Olympia Auto Mall",
+          "vin": "JM3KFBEM1N0590576",
+          "stock": "P11101",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 27789,
+            "miles": 43640,
+            "listedAgo": "18 days ago",
+            "dealer": "Titus-Will Chevrolet Gmc Cadillac - Olympia"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "year": 2023,
+      "trim": "2.5 S Premium AWD",
+      "dealer": "Rodland Toyota of Everett",
+      "city": "Everett, WA",
+      "state": "WA",
+      "vin": "JM3KFBDM7P0281828",
+      "stock": "68987A",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/453332129",
+        "kbb": "https://www.kbb.com/cars-for-sale/vehicle/785511078"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $28,487 · 29d",
+        "KBB SRP $28,287",
+        "KBB VDP $28,287 · 28d on site",
+        "AT: CarGurus $28,487"
+      ],
+      "price_recorded": 28487,
+      "price_note": "$28,287 + $200 doc",
+      "listed_today": 28487,
+      "prices_today": {
+        "cg": 28487,
+        "kbb": 28287,
+        "kbb_vdp": 28287,
+        "at": 28487
+      },
+      "price_move": 0,
+      "miles_today": 17505,
+      "dom_today": 29,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 873
+      },
+      "kbb_today": {
+        "fpp": 27750,
+        "fppDelta": -537,
+        "price": 28287
+      },
+      "history_today": "1-owner / 0 acc",
+      "quote": {
+        "otd": 31957.24,
+        "selling": 28487,
+        "retail": 28287,
+        "doc": 200,
+        "addons": 0,
+        "taxes_fees_lumped": 3470.24,
+        "date": "Aug 11 3:24 PM PT",
+        "signed": false,
+        "expiry": null
+      },
+      "comms": "KBB inquiry + call Aug 11; Evan countered $31,100 OTD ($27,300 selling) 3:36 PM; written “Estimated Pricing Summary” dated 08-11-2026 (3:24 PM PT, received 3:39 PM): retail $28,287 + total dealer fees $200 = selling $28,487; dealer price adjustment $0; accessories/protection products $0; estimated taxes & fees lumped $3,470.24 (no rate or itemization); total $31,957.24 at $0 down; not a signed buyer’s order, no expiry; finance grid assumes dealer financing 7.17%/60 ($638.85/mo). Gap to counter $857. Video follow-up 4:28 PM.",
+      "latest": "Quote $31,957.24 OTD Aug 11 (clean: $0 add-ons, $200 doc, tax + licence lumped $3,470.24); countered $31,100; ask for itemized tax/licence",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 28487,
+          "miles": 17505,
+          "dom": 29,
+          "deal": "Good",
+          "belowMarket": 873,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 24,
+          "vin": "JM3KFBDM7P0281828",
+          "stock": "68987A",
+          "dealer": "Rodland Toyota of Everett",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 28287,
+          "displayPrice": 28287,
+          "fees": null,
+          "miles": 17505,
+          "deal": null,
+          "fpp": 27750,
+          "fppDelta": -537,
+          "dos": 28,
+          "hist": null,
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 785511078,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/785511078",
+          "price": 28287,
+          "displayPrice": 28287,
+          "fees": null,
+          "miles": 17505,
+          "fpp": 27750,
+          "fppDelta": -537,
+          "dos": 28,
+          "hist": null,
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Rodland Toyota",
+          "vin": "JM3KFBDM7P0281828",
+          "stock": "68987A",
+          "addr": null,
+          "phone": null,
+          "website": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 28487,
+            "miles": 17505,
+            "listedAgo": "28 days ago",
+            "dealer": "Rodland Toyota Of Everett"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "year": 2023,
+      "trim": "2.5 S Premium AWD",
+      "dealer": "CarMax Renton (no-haggle)",
+      "city": "Renton, WA",
+      "state": "WA",
+      "vin": "JM3KFBDM0P0215315",
+      "stock": "70134808",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/455754266"
+      },
+      "repo_status": "benchmark",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0,
+        "carmax": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $27,998 · 3d",
+        "AT: CarGurus $27,998",
+        "CarMax API $27,998"
+      ],
+      "price_recorded": 27998,
+      "price_note": null,
+      "listed_today": 27998,
+      "prices_today": {
+        "cg": 27998,
+        "carmax": 27998,
+        "at": 27998
+      },
+      "price_move": 0,
+      "miles_today": 31166,
+      "dom_today": 3,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Fair",
+        "belowMarket": 222
+      },
+      "kbb_today": null,
+      "history_today": "1-owner / 0 acc",
+      "quote": null,
+      "comms": "No-haggle reference; nothing requested",
+      "latest": "No-haggle benchmark, fixed $27,998, no transfer fee; nothing to request",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 27998,
+          "miles": 31166,
+          "dom": 3,
+          "deal": "Fair",
+          "belowMarket": 222,
+          "owners": 1,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 28,
+          "vin": "JM3KFBDM0P0215315",
+          "stock": "70134808",
+          "dealer": "CarMax Renton",
+          "addr": null,
+          "listingStatus": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 27998,
+            "miles": 31166,
+            "listedAgo": "Yesterday",
+            "dealer": "Carmax Renton"
+          }
+        ],
+        "carmax": {
+          "status": "active",
+          "price": 27998,
+          "miles": 31166,
+          "store": "CarMax Renton",
+          "stock": 70134808,
+          "vin": "JM3KFBDM0P0215315",
+          "transferFee": null,
+          "lastMadeSaleable": "2026-08-10T16:59:17.504Z"
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "year": 2021,
+      "trim": "Grand Touring AWD",
+      "dealer": "Doug’s Lynnwood Mazda",
+      "city": "Edmonds, WA",
+      "state": "WA",
+      "vin": null,
+      "urls": {
+        "carscom": "https://www.cars.com/vehicledetail/495a1e58-37a7-480b-9f80-8bb411d8fa8f/"
+      },
+      "repo_status": "sold",
+      "sold_date": "Aug 11",
+      "sold_evidence": "Dealer email Aug 11 17:59Z: sold the day before",
+      "moves_by_source": {},
+      "verdict": "SOLD (repo-confirmed; not overridden)",
+      "signals": [
+        "AT: Cars.com $28,700"
+      ],
+      "price_recorded": 28700,
+      "price_note": null,
+      "listed_today": 28700,
+      "prices_today": {
+        "at": 28700
+      },
+      "price_move": null,
+      "miles_today": 27089,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": null,
+      "latest": "Sold (dealer email Aug 11)",
+      "today": {
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 28700,
+            "miles": 27089,
+            "listedAgo": "Jun 20th",
+            "dealer": "Doug's Lynnwood Mazda"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "year": 2021,
+      "trim": "Grand Touring w/ GT Premium Pkg AWD",
+      "dealer": "Auto 206 (independent)",
+      "city": "Kent, WA",
+      "state": "WA",
+      "vin": "JM3KFBDM0M0305902",
+      "stock": "13014",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787629893",
+        "carscom": "https://www.cars.com/vehicledetail/5561bc05-7f19-425e-acba-f22e5c556351/",
+        "cg": "https://www.cargurus.com/Cars/listing/455519602"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "kbb": 0,
+        "cg": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $25,999 · 5d",
+        "KBB SRP $25,799",
+        "KBB VDP $25,799 · 5d on site",
+        "AT: CarGurus $25,999"
+      ],
+      "price_recorded": 25799,
+      "price_note": null,
+      "listed_today": 25999,
+      "prices_today": {
+        "cg": 25999,
+        "kbb": 25799,
+        "kbb_vdp": 25799,
+        "at": 25999
+      },
+      "price_move": 0,
+      "miles_today": 30066,
+      "dom_today": 5,
+      "deal_today": {
+        "src": "KBB",
+        "rating": null,
+        "fppDelta": 3281,
+        "fpp": 29080
+      },
+      "kbb_today": {
+        "fpp": 29080,
+        "fppDelta": 3281,
+        "price": 25799
+      },
+      "history_today": "1-owner / 2 acc",
+      "quote": {
+        "otd": 28718.6,
+        "selling": 25400,
+        "doc": 0,
+        "license": 550,
+        "tax": 2768.6,
+        "addons": 0,
+        "expires": "Aug 12 7 PM PT",
+        "date": "Aug 11 20:57Z"
+      },
+      "comms": "Autotrader inquiry + call Aug 11; WRITTEN OTD 20:57Z: $25,400 selling ($399 under list) + $0 doc + $550 license + $2,768.60 tax = $28,718.60, zero add-ons, valid to Wed Aug 12 7 PM PT; Evan countered $27,000 OTD + independent PPI (3:24 PM PT); dealer DECLINED 4:00 PM, $28,718.60 stands to Wed 7 PM",
+      "latest": "Quote $28,718.60 OTD ($25,400 selling, clean sheet) valid to Aug 12 7 PM; $27,000 + PPI counter declined; Carfax 06/2024 accident",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 25999,
+          "miles": 30066,
+          "dom": 5,
+          "deal": null,
+          "belowMarket": null,
+          "owners": 1,
+          "accidents": 2,
+          "cpo": false,
+          "photos": 25,
+          "vin": "JM3KFBDM0M0305902",
+          "stock": "13014",
+          "dealer": "Auto 206 Inc",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 25799,
+          "displayPrice": 25799,
+          "fees": null,
+          "miles": 30066,
+          "deal": null,
+          "fpp": 29080,
+          "fppDelta": 3281,
+          "dos": 5,
+          "hist": null,
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "id": 787629893,
+          "cpo": null
+        },
+        "kbb_vdp": {
+          "status": "active",
+          "finalUrl": "https://www.kbb.com/cars-for-sale/vehicle/787629893",
+          "price": 25799,
+          "displayPrice": 25799,
+          "fees": null,
+          "miles": 30066,
+          "fpp": 29080,
+          "fppDelta": 3281,
+          "dos": 5,
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "ACCIDENTS_REPORTED",
+            "ONE_OWNER"
+          ],
+          "dealer": "Auto 206 Inc.",
+          "vin": "JM3KFBDM0M0305902",
+          "addr": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 25999,
+            "miles": 30066,
+            "listedAgo": "4 days ago",
+            "dealer": "Auto 206 Inc"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD",
+      "dealer": "Auto Connections of Bellevue (independent)",
+      "city": "Bellevue, WA",
+      "state": "WA",
+      "vin": "JM3KFBCM4P0156996",
+      "stock": "S21261",
+      "urls": {
+        "cg": "https://www.cargurus.com/Cars/listing/450670232",
+        "carscom": "https://www.cars.com/vehicledetail/0abdba65-e836-4fd7-a5c0-952399497e8f/"
+      },
+      "repo_status": "sold",
+      "sold_date": "Aug 11",
+      "sold_evidence": "GM email Aug 11 18:51Z: just sold",
+      "moves_by_source": {},
+      "verdict": "SOLD (repo-confirmed; not overridden)",
+      "signals": [
+        "CG active $26,495 · 61d",
+        "KBB SRP $26,495",
+        "AT: Cars.com $26,495"
+      ],
+      "price_recorded": 26495,
+      "price_note": null,
+      "listed_today": 26495,
+      "prices_today": {
+        "cg": 26495,
+        "kbb": 26495,
+        "at": 26495
+      },
+      "price_move": null,
+      "miles_today": 20533,
+      "dom_today": 61,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 1200
+      },
+      "kbb_today": {
+        "fpp": 27030,
+        "fppDelta": 535,
+        "price": 26495
+      },
+      "history_today": "2-owner / 0 acc",
+      "quote": null,
+      "comms": null,
+      "latest": "Sold (GM email Aug 11)",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 26495,
+          "miles": 20533,
+          "dom": 61,
+          "deal": "Good",
+          "belowMarket": 1200,
+          "owners": 2,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 30,
+          "vin": "JM3KFBCM4P0156996",
+          "stock": "S21261",
+          "dealer": "Auto Connections of Bellevue",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 26495,
+          "displayPrice": 26495,
+          "fees": null,
+          "miles": 20533,
+          "deal": null,
+          "fpp": 27030,
+          "fppDelta": 535,
+          "dos": 60,
+          "hist": null,
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_FRAME_DAMAGE",
+            "NO_FLOOD_WATER_DAMAGE",
+            "NO_ACCIDENTS_REPORTED",
+            "NO_ONE_OWNER",
+            "FREE_REPORT"
+          ],
+          "id": 782892304,
+          "cpo": null
+        },
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 26495,
+            "miles": 20533,
+            "listedAgo": "Jun 13th",
+            "dealer": "Auto Connections Of Bellevue"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 19,
+      "year": 2021,
+      "trim": "Signature AWD (2.5T)",
+      "dealer": "Tonkin Gresham Honda",
+      "city": "Troutdale, OR",
+      "state": "OR",
+      "vin": "JM3KFBEY2M0349546",
+      "stock": "G6186020B",
+      "urls": {
+        "carscom": "https://www.cars.com/vehicledetail/671f18d1-7917-4929-b9c7-3f175ba4013f/",
+        "cg": "https://www.cargurus.com/Cars/listing/454358043"
+      },
+      "repo_status": "not contacted",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "verdict": "active (3 src)",
+      "signals": [
+        "CG active $26,712 · 18d",
+        "KBB SRP $26,462",
+        "AT: CarGurus $26,712"
+      ],
+      "price_recorded": 26712,
+      "price_note": null,
+      "listed_today": 26712,
+      "prices_today": {
+        "cg": 26712,
+        "kbb": 26462,
+        "at": 26712
+      },
+      "price_move": 0,
+      "miles_today": 40451,
+      "dom_today": 18,
+      "deal_today": {
+        "src": "CarGurus",
+        "rating": "Good",
+        "belowMarket": 700
+      },
+      "kbb_today": {
+        "fpp": 24480,
+        "fppDelta": -2182,
+        "price": 26462
+      },
+      "history_today": "2-owner / 0 acc",
+      "quote": null,
+      "comms": "Not contacted (OR fallback; same Gee/Tonkin family as #4)",
+      "latest": "Not contacted (OR fallback: email-only per Evan’s rule)",
+      "today": {
+        "cg": {
+          "status": "active",
+          "price": 26712,
+          "miles": 40451,
+          "dom": 18,
+          "deal": "Good",
+          "belowMarket": 700,
+          "owners": 2,
+          "accidents": 0,
+          "cpo": false,
+          "photos": 30,
+          "vin": "JM3KFBEY2M0349546",
+          "stock": "G6186020B",
+          "dealer": "Tonkin Gresham Honda",
+          "addr": null,
+          "listingStatus": null
+        },
+        "kbb": {
+          "status": "active(srp)",
+          "price": 26462,
+          "displayPrice": 26662,
+          "fees": 200,
+          "miles": 40451,
+          "deal": null,
+          "fpp": 24480,
+          "fppDelta": -2182,
+          "dos": 17,
+          "hist": [
+            {
+              "date": "07.25.2026",
+              "price": "$26,262"
+            },
+            {
+              "date": "07.27.2026",
+              "price": "$26,462"
+            },
+            {
+              "date": "Price Today",
+              "price": "$26,662"
+            }
+          ],
+          "vhr": [
+            "NO_SALVAGE_TITLE",
+            "NO_ACCIDENTS_REPORTED",
+            "NO_ONE_OWNER"
+          ],
+          "id": 786569774,
+          "cpo": null
+        },
+        "at": [
+          {
+            "source": "CarGurus",
+            "price": 26712,
+            "miles": 40451,
+            "listedAgo": "17 days ago",
+            "dealer": "Tonkin Gresham Honda"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "year": 2023,
+      "trim": "2.5 S Preferred AWD",
+      "dealer": "Royal Moore Toyota (same group as #8)",
+      "city": "Hillsboro, OR",
+      "state": "OR",
+      "vin": null,
+      "urls": {
+        "carscom": "https://www.cars.com/vehicledetail/84b6552a-4a94-4c5b-96bf-0b3b37cc55a9/"
+      },
+      "repo_status": "active",
+      "sold_date": null,
+      "sold_evidence": null,
+      "moves_by_source": {
+        "carscom": 0
+      },
+      "verdict": "active (1 src)",
+      "signals": [
+        "AT: Cars.com $26,500"
+      ],
+      "price_recorded": 26500,
+      "price_note": null,
+      "listed_today": 26500,
+      "prices_today": {
+        "at": 26500
+      },
+      "price_move": 0,
+      "miles_today": 16969,
+      "dom_today": null,
+      "deal_today": null,
+      "kbb_today": null,
+      "history_today": null,
+      "quote": null,
+      "comms": "Folded into the Royal Moore #8 thread: two-car counter ($29,400 OTD for #20) sent Aug 11 3:35 PM; no separate quote",
+      "latest": "Folded into the #8 thread: $29,400 OTD counter sent Aug 11 3:35 PM, no separate quote yet",
+      "today": {
+        "at": [
+          {
+            "source": "Cars.com",
+            "price": 26500,
+            "miles": 16969,
+            "listedAgo": "17 days ago",
+            "dealer": "Royal Moore Toyota"
+          }
+        ]
+      }
+    }
+  ],
+  "soldToday": [],
+  "checks": [
+    {
+      "rank": 12,
+      "dealer": "Lee Johnson Mazda of Seattle",
+      "verdict": "unverified today (Cars.com-only listing; Cars.com VDP bot-blocked (403) from this environment; never in the AutoTempest feed)",
+      "signals": []
+    }
+  ],
+  "priceMoves": [],
+  "boardMovesBySource": [
+    {
+      "rank": 1,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 28199,
+        "kbb": 27999,
+        "kbb_vdp": 27999,
+        "at": 28199
+      }
+    },
+    {
+      "rank": 4,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0,
+        "dealer": 0
+      },
+      "prices_today": {
+        "cg": 26302,
+        "kbb": 26512,
+        "kbb_vdp": 26512,
+        "at": 26302
+      }
+    },
+    {
+      "rank": 5,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 25192,
+        "kbb": 25192,
+        "kbb_vdp": 25192,
+        "at": 25192
+      }
+    },
+    {
+      "rank": 6,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 25198,
+        "kbb": 24998,
+        "kbb_vdp": 24998,
+        "at": 25198
+      }
+    },
+    {
+      "rank": 7,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 27512,
+        "kbb": 27512,
+        "kbb_vdp": 27512,
+        "at": 27512
+      }
+    },
+    {
+      "rank": 8,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "prices_today": {
+        "cg": 26900,
+        "kbb": 26900,
+        "at": 26900
+      }
+    },
+    {
+      "rank": 9,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 27699,
+        "kbb": 27499,
+        "kbb_vdp": 27499,
+        "at": 27699
+      }
+    },
+    {
+      "rank": 10,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "prices_today": {
+        "cg": 23995,
+        "at": 23995
+      }
+    },
+    {
+      "rank": 12,
+      "moves_by_source": {},
+      "prices_today": {}
+    },
+    {
+      "rank": 13,
+      "moves_by_source": {
+        "kbb": 0,
+        "carscom": 0
+      },
+      "prices_today": {
+        "kbb": 27389,
+        "kbb_vdp": 27389,
+        "at": 27789
+      }
+    },
+    {
+      "rank": 14,
+      "moves_by_source": {
+        "cg": 0,
+        "kbb": 0
+      },
+      "prices_today": {
+        "cg": 28487,
+        "kbb": 28287,
+        "kbb_vdp": 28287,
+        "at": 28487
+      }
+    },
+    {
+      "rank": 15,
+      "moves_by_source": {
+        "cg": 0,
+        "carmax": 0
+      },
+      "prices_today": {
+        "cg": 27998,
+        "carmax": 27998,
+        "at": 27998
+      }
+    },
+    {
+      "rank": 17,
+      "moves_by_source": {
+        "kbb": 0,
+        "cg": 0
+      },
+      "prices_today": {
+        "cg": 25999,
+        "kbb": 25799,
+        "kbb_vdp": 25799,
+        "at": 25999
+      }
+    },
+    {
+      "rank": 19,
+      "moves_by_source": {
+        "cg": 0
+      },
+      "prices_today": {
+        "cg": 26712,
+        "kbb": 26462,
+        "at": 26712
+      }
+    },
+    {
+      "rank": 20,
+      "moves_by_source": {
+        "carscom": 0
+      },
+      "prices_today": {
+        "at": 26500
+      }
+    }
+  ],
+  "watchMoves": [
+    {
+      "car": "2022 2.5 S Carbon Edition, 47,333 mi, $26,998+$200",
+      "dealer": "Doug's Lynnwood Mazda",
+      "url": "https://www.cargurus.com/Cars/listing/454596751",
+      "was": 27198,
+      "now": 27198,
+      "src": "CG",
+      "move": 0,
+      "dom": 15,
+      "status": null,
+      "deal": "Fair",
+      "seen": true
+    },
+    {
+      "car": "Mazda CPO 2022 2.5 S Select, 48,468 mi, $24,081+$299",
+      "dealer": "West Hills Mazda, Bremerton",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786226153",
+      "was": 24081,
+      "now": 24081,
+      "src": "KBB(VDP via AT id)",
+      "move": 0,
+      "status": "active",
+      "seen": true
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 28,928 mi, $27,060+$200",
+      "dealer": "Titus-Will Used Cars - Olympia",
+      "url": "https://www.cargurus.com/Cars/listing/453420840",
+      "was": 27260,
+      "now": 27260,
+      "src": "CG",
+      "move": 0,
+      "dom": 28,
+      "status": null,
+      "deal": "Good",
+      "seen": true
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 23K mi, $28,998",
+      "dealer": "Rodland Toyota of Everett",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787184706",
+      "was": 28998,
+      "now": 28998,
+      "src": "KBB(VDP via AT id)",
+      "move": 0,
+      "status": "active",
+      "seen": true
+    },
+    {
+      "car": "2.5 S Preferred AWD (year unverified), 33,261 mi, $25,695+$200",
+      "dealer": "GoldBoyz Auto Sales, Puyallup (indie)",
+      "url": "https://www.cargurus.com/Cars/listing/449710675",
+      "was": 25895,
+      "now": 25895,
+      "src": "CG",
+      "move": 0,
+      "dom": 71,
+      "status": null,
+      "deal": "Good",
+      "seen": true
+    },
+    {
+      "car": "2022 2.5 S Select, 28,548 mi, $24,995+$200",
+      "dealer": "Pacific Coast Auto Center, Burlington (indie)",
+      "url": "https://www.cargurus.com/Cars/listing/449233426",
+      "was": 25195,
+      "now": 25195,
+      "src": "CG",
+      "move": 0,
+      "dom": 77,
+      "status": null,
+      "deal": "Fair",
+      "seen": true
+    },
+    {
+      "car": "2021 Touring, 21,391 mi, $27,999-$28,199",
+      "dealer": "Mazda of Everett",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787834756",
+      "was": 27999,
+      "now": 27999,
+      "src": "KBB(VDP via AT id)",
+      "move": 0,
+      "status": "active",
+      "seen": true
+    },
+    {
+      "car": "2021 Carbon Edition Turbo, 39,412 mi, $27,722",
+      "dealer": "Tonkin Gresham Honda",
+      "url": "https://www.cars.com/vehicledetail/c5fca301-f2de-4480-801a-bed903370d40/",
+      "was": 27722,
+      "now": 27722,
+      "src": "AT/Cars.com",
+      "move": 0,
+      "seen": true
+    },
+    {
+      "car": "2023 2.5 S Carbon Edition, 32,594 mi, $27,400",
+      "dealer": "Lexus of Portland",
+      "url": "https://www.cars.com/vehicledetail/094ebb74-c5d0-4fa6-91f5-9b677cc9e444/",
+      "was": 27400,
+      "now": null,
+      "src": null,
+      "move": null,
+      "seen": false
+    },
+    {
+      "car": "2023 2.5 S Select, 13,555 mi, $25,950",
+      "dealer": "Lexus of Portland",
+      "url": "https://www.cars.com/vehicledetail/59d3b36d-7131-439c-a3b7-7b91343a454d/",
+      "was": 25950,
+      "now": 25950,
+      "src": "AT/Cars.com",
+      "move": 0,
+      "seen": true
+    }
+  ],
+  "newCandidates": [
+    {
+      "source": "KBB",
+      "alsoOn": [],
+      "year": 2021,
+      "trim": "Signature",
+      "miles": 35589,
+      "price": 25999,
+      "dealer": "Cortes Auto Center",
+      "city": "Burlington, WA",
+      "state": "WA",
+      "vin": "JM3KFBEY0M0417715",
+      "stock": "B1851",
+      "dealRating": "Good",
+      "belowMarket": null,
+      "kbbFpp": 25410,
+      "kbbFppDelta": -789,
+      "daysOnMarket": 0,
+      "listedAgo": null,
+      "ownerCount": null,
+      "oneOwner": true,
+      "accidents": 0,
+      "cpo": false,
+      "photoCount": null,
+      "historyUnknown": false,
+      "url": "https://www.kbb.com/cars-for-sale/vehicle/787933636",
+      "cgUrl": null,
+      "kbbUrl": null,
+      "sources": {
+        "KBB": {
+          "price": 25999,
+          "url": "https://www.kbb.com/cars-for-sale/vehicle/787933636"
+        }
+      },
+      "addr": null,
+      "dealerAddress": "1757 WALTON DR, Burlington, WA 98233",
+      "dealerPhone": "3607074420",
+      "dealerWebsite": "http://www.cortesautocenter.com",
+      "isNoHaggle": false,
+      "transferFee": null,
+      "score": 22263,
+      "valueSignals": {
+        "kbbUnder": false,
+        "underBench": true
+      },
+      "vdp": {
+        "stock": "B1851",
+        "exterior": "Snowflake White Pearl Mica",
+        "interior": "Caturra Brown",
+        "engine": "4-Cylinder Turbo",
+        "fppRange": [
+          24210,
+          26610
+        ],
+        "displayPrice": 26199,
+        "dealerFees": 200,
+        "photos": null
+      }
+    }
+  ],
+  "newDropped": [
+    {
+      "vin": "JM3KFBEMXP0193564",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus Sport Utility 4D",
+      "miles": 40702,
+      "price": 27990,
+      "dealer": null,
+      "city": "Akron, NY",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM7P0237037",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Carbon Edition Sport Utility 4D",
+      "miles": 41253,
+      "price": 27990,
+      "dealer": null,
+      "city": "Manville, NJ",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBEM1P0117702",
+      "source": "Carvana",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus Sport Utility 4D",
+      "miles": 27491,
+      "price": 28590,
+      "dealer": null,
+      "city": "Framingham, MA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFACM0M0460364",
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Touring",
+      "miles": 35971,
+      "price": 23998,
+      "dealer": "CarMax Texas Stadium (Irving)",
+      "city": "Irving, TX",
+      "reasons": [
+        "unwanted trim (2021 Touring w/o Preferred pkg)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCY1M0463217",
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Carbon Edition Turbo",
+      "miles": 41437,
+      "price": 25998,
+      "dealer": "CarMax Bakersfield",
+      "city": "Bakersfield, CA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM4P0287587",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Select Package",
+      "miles": 17590,
+      "price": 27998,
+      "dealer": "CarMax Nashville",
+      "city": "Nashville, TN",
+      "reasons": [
+        "unwanted trim (Sport/Select)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM0P0127382",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 21750,
+      "price": 27998,
+      "dealer": "CarMax Huntsville",
+      "city": "Huntsville, AL",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM2P0248851",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "miles": 36494,
+      "price": 27998,
+      "dealer": "CarMax Brandywine",
+      "city": "Brandywine, MD",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4P0161759",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 25987,
+      "price": 27998,
+      "dealer": "CarMax Albany",
+      "city": "Albany, NY",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM8P0117957",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 26908,
+      "price": 27998,
+      "dealer": "CarMax Wayne",
+      "city": "Wayne, NJ",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM4P0124404",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "miles": 24241,
+      "price": 27998,
+      "dealer": "CarMax Mays Landing",
+      "city": "Mays Landing, NJ",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM6P0255660",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 31828,
+      "price": 27998,
+      "dealer": "CarMax Sample Rd (Pompano Beach)",
+      "city": "Pompano Beach, FL",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM8P0253571",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 22278,
+      "price": 27998,
+      "dealer": "CarMax Miami Lakes",
+      "city": "Miami Lakes, FL",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCMXP0163998",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 11955,
+      "price": 28998,
+      "dealer": "CarMax Henderson",
+      "city": "Henderson, NV",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM6P0248576",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Package",
+      "miles": 11585,
+      "price": 28998,
+      "dealer": "CarMax Buena Park",
+      "city": "Buena Park, CA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBXYXN0559505",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 Turbo Signature",
+      "miles": 39357,
+      "price": 28998,
+      "dealer": "CarMax Garland",
+      "city": "Garland, TX",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM4P0247959",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 26888,
+      "price": 28998,
+      "dealer": "CarMax Gastonia",
+      "city": "Gastonia, NC",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM7P0213286",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "Carbon Edition",
+      "miles": 35372,
+      "price": 28998,
+      "dealer": "CarMax Lynchburg",
+      "city": "Lynchburg, VA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBEM6P0223353",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Premium Plus Package",
+      "miles": 27445,
+      "price": 28998,
+      "dealer": "CarMax King of Prussia",
+      "city": "King of Prussia, PA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBDM0N0613122",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Premium Package",
+      "miles": 17202,
+      "price": 28998,
+      "dealer": "CarMax Norwood",
+      "city": "Norwood, MA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBCM1P0285200",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Preferred Package",
+      "miles": 4940,
+      "price": 28998,
+      "dealer": "CarMax Naples",
+      "city": "Naples, FL",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM5N0626208",
+      "source": "CarMax",
+      "year": 2022,
+      "trim": "2.5 S Select Package",
+      "miles": 29590,
+      "price": 22998,
+      "dealer": "CarMax Kansas City",
+      "city": "Merriam, KS",
+      "reasons": [
+        "unwanted trim (Sport/Select)"
+      ]
+    },
+    {
+      "vin": "JM3KFACY4M0385803",
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Carbon Edition Turbo",
+      "miles": 42272,
+      "price": 23998,
+      "dealer": "CarMax Bakersfield",
+      "city": "Bakersfield, CA",
+      "reasons": [
+        "no value signal (not CG Good/Great, not ≥$500 under KBB FPP, not under $27,998 with ≤40k mi)"
+      ]
+    },
+    {
+      "vin": "JM3KFBBM1P0231770",
+      "source": "CarMax",
+      "year": 2023,
+      "trim": "2.5 S Select Package",
+      "miles": 33998,
+      "price": 23998,
+      "dealer": "CarMax LAX",
+      "city": "Inglewood, CA",
+      "reasons": [
+        "unwanted trim (Sport/Select)",
+        "fleet/rental"
+      ]
+    },
+    {
+      "vin": "JM3KFACM2M1332105",
+      "source": "CarMax",
+      "year": 2021,
+      "trim": "Touring",
+      "miles": 36711,
+      "price": 23998,
+      "dealer": "CarMax Tampa",
+      "city": "Tampa, FL",
+      "reasons": [
+        "unwanted trim (2021 Touring w/o Preferred pkg)"
+      ]
+    }
+  ],
+  "board12_carscom_probe": {
+    "status": 403,
+    "finalUrl": "https://www.cars.com/vehicledetail/d7b0a899-fdc8-4776-9379-64684c757f41/",
+    "blocked": false,
+    "vinPresent": false,
+    "sold": false,
+    "prices": [],
+    "head": "cars.com\nPerforming security verification\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a29b4fa0db1d4944\nPerformance and Security by Cloudflare Privacy"
+  },
+  "notEligibleNotes": [
+    "Craigslist Camas WA post: 2023 2.5 S Premium AWD, ~32,968 mi, $24,900, \"clean title\" — already in the Aug 11 CL pull and carries no VIN (fails VIN-present rule); seller type not exposed on the search card. Not added; worth a manual look only if Evan wants a private-party option."
+  ]
+}
